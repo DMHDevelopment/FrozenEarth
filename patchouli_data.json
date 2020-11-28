@@ -1,0 +1,95 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": true,
+  "bookData": {
+    "assemblylinemachines:walkthrough": {
+      "viewedEntries": [
+        "assemblylinemachines:age1"
+      ],
+      "bookmarks": [],
+      "history": [
+        "assemblylinemachines:age1"
+      ],
+      "completedManualQuests": []
+    },
+    "stone_age:stone_tablet": {
+      "viewedEntries": [
+        "stone_age:blocks/drying_rack",
+        "stone_age:wip",
+        "stone_age:blocks/crafting_table"
+      ],
+      "bookmarks": [],
+      "history": [
+        "stone_age:blocks/crafting_table",
+        "stone_age:blocks/drying_rack",
+        "stone_age:wip"
+      ],
+      "completedManualQuests": []
+    },
+    "naturesaura:book": {
+      "viewedEntries": [
+        "naturesaura:intro/intro",
+        "naturesaura:intro/aura",
+        "naturesaura:intro/botany",
+        "naturesaura:practices/gold_trees",
+        "naturesaura:practices/tree_ritual",
+        "naturesaura:practices/aura_bottle",
+        "naturesaura:practices/aura_plants",
+        "naturesaura:practices/offering",
+        "naturesaura:using/altar",
+        "naturesaura:using/crimson_altar",
+        "naturesaura:creating/ancient_tree",
+        "naturesaura:using/ender_crate",
+        "naturesaura:using/animal_spawner",
+        "naturesaura:using/aura_mending",
+        "naturesaura:creating/generator_limit_remover",
+        "naturesaura:creating/on_generating",
+        "naturesaura:creating/end_flower",
+        "naturesaura:items/color_changer",
+        "naturesaura:items/crimson_meal",
+        "naturesaura:items/eye",
+        "naturesaura:items/ender_access",
+        "naturesaura:items/range_visualizer"
+      ],
+      "bookmarks": [],
+      "history": [
+        "naturesaura:practices/tree_ritual",
+        "naturesaura:practices/gold_trees",
+        "naturesaura:practices/offering",
+        "naturesaura:items/range_visualizer",
+        "naturesaura:items/ender_access",
+        "naturesaura:items/eye",
+        "naturesaura:items/crimson_meal",
+        "naturesaura:items/color_changer",
+        "naturesaura:creating/end_flower",
+        "naturesaura:creating/on_generating",
+        "naturesaura:creating/generator_limit_remover",
+        "naturesaura:using/aura_mending",
+        "naturesaura:using/animal_spawner"
+      ],
+      "completedManualQuests": []
+    },
+    "crockpot:book": {
+      "viewedEntries": [
+        "crockpot:intro/food_category",
+        "crockpot:food_categories/food_category_inedible",
+        "crockpot:food_categories/food_category_frozen",
+        "crockpot:intro/priority",
+        "crockpot:intro/crock_pot",
+        "crockpot:food_categories/food_category_veggie",
+        "crockpot:food_categories/food_category_dairy"
+      ],
+      "bookmarks": [],
+      "history": [
+        "crockpot:intro/food_category",
+        "crockpot:food_categories/food_category_dairy",
+        "crockpot:food_categories/food_category_veggie",
+        "crockpot:intro/crock_pot",
+        "crockpot:intro/priority",
+        "crockpot:food_categories/food_category_frozen",
+        "crockpot:food_categories/food_category_inedible"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

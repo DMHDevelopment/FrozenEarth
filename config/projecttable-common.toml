@@ -1,0 +1,10 @@
+
+#Common configuration settings
+[common]
+	#Exercises all the various ways a mod can add recipes to the mod.
+	useDevRecipes = false
+	#Causes any recipes from the normal crafting table to be made available in the table
+	loadCraftingTableRecipes = true
+	#Loads an example set of bulk recipes appropriate for Vanilla
+	useExampleVanillaRecipes = false
+

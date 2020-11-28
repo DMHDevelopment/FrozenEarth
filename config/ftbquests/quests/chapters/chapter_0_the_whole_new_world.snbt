@@ -1,0 +1,195 @@
+{
+	id: 2,
+	filename: "chapter_0_the_whole_new_world",
+	order_index: 1,
+	title: "Chapter 0: The Whole New World...",
+	icon: "byg:blue_enchanted_sapling",
+	default_quest_shape: "",
+	images: [{
+		x: -0.5d,
+		y: -2.0d,
+		width: 12.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "frozen_earth:textures/frozen_earth_chapter_0.png",
+		hover: [],
+		click: "",
+		dev: false
+	}],
+	quests: [
+		{
+			title: "Welcome to Frozen Earth",
+			x: -0.5d,
+			y: 0.0d,
+			shape: "square",
+			description: [
+				"After a long time, on a forgotten planet Earth... you have awakened yourself after hundreds or thousands of years... You forgot anything about this planet. After awakening you found some books around you in the snow... maybe they can help you?",
+				"You don't know what time is right now, where is the cities... Everything is changed. Now you need to survive somehow..."
+			],
+			size: 2.0d,
+			id: 3,
+			tasks: [{
+				id: 4,
+				type: "checkmark",
+				title: "Welcome to Frozen World",
+				icon: "byg:blue_enchanted_sapling"
+			}],
+			rewards: [{
+				id: 14,
+				type: "item",
+				item: "minecraft:torch"
+			}]
+		},
+		{
+			title: "Player's Note 4",
+			icon: {
+				id: "create:sand_paper",
+				Count: true,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 1.0d,
+			y: 0.5d,
+			shape: "circle",
+			description: [
+				"Make sure your PC isn't low-end, because this modpack have heavy amount of mods and particles around you. While Chlorine is present in a modpack: you can have bad performance. Optifine for this modpack isn't recommended, if you REALLY want it:",
+				"Disable Chlorine mod. Make sure you allocated minimum around 5-6 GBs of RAM for atleast stable gameplay and have atleast not potato instead of your processor, since there will be a lot of AE2's operations in the modpack!"
+			],
+			dependencies: [I;3],
+			id: 5,
+			tasks: [{
+				id: 11,
+				type: "checkmark",
+				title: "Checking that your PC isn't low-end..."
+			}],
+			rewards: [
+				{
+					id: 12,
+					type: "item",
+					item: "minecraft:torch"
+				},
+				{
+					id: 13,
+					type: "item",
+					item: {
+						id: "minecraft:leather_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Player's Note 1",
+			icon: {
+				id: "create:sand_paper",
+				Count: true,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -2.0d,
+			y: -0.5d,
+			shape: "circle",
+			description: [
+				"This modpack is expert-based one. There is a lot of recipe changes and custom items and blocks. This modpack have mostly tech mods, but beginning is made around Nature's Aura and Stone Age, so if you want only tech modpack - there it is, but a bit of",
+				"magic is required. Make sure you allocated enough RAM for this modpack. Also there is Sodium alternative - Chlorine is installed, if you see some weird graphical issues - you can disable it in Twitch/CurseForge App or even remove the mod in any way."
+			],
+			dependencies: [I;3],
+			id: 7,
+			tasks: [{
+				id: 8,
+				type: "checkmark",
+				title: "Player's Note 1"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -0.5d,
+			shape: "circle",
+			description: [
+				"Want to play this modpack with friends? Use FTB Teams for synchronizing these quests between you and your frineds.",
+				"Use /ftbteams invite <playername> to invite a player into your team.",
+				"Use Tab on /ftbteams to look for other cool commands for teams."
+			],
+			dependencies: [I;3],
+			id: 9,
+			tasks: [{
+				id: 10,
+				type: "checkmark",
+				title: "Player's Note 2",
+				icon: {
+					id: "create:sand_paper",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Player's Note 3",
+			icon: {
+				id: "create:sand_paper",
+				Count: true,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -2.0d,
+			y: 0.5d,
+			shape: "circle",
+			subtitle: "When Coins have mystical power...",
+			description: ["This modpack will give you sometimes money once you complete quests. Money can be spent in a Market, so you can buy something or craft something interesting from them in the future. Don't throw them away to not regret it in future."],
+			dependencies: [I;3],
+			id: 15,
+			tasks: [{
+				id: 17,
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: 18,
+				type: "item",
+				item: "thermal:copper_coin"
+			}]
+		},
+		{
+			title: "Your adventure starts here...",
+			icon: "terraqueous:doodad_branch",
+			x: -0.5d,
+			y: 1.5d,
+			description: ["To begin my adventure I need to find out something about situation on Earth... It's cold here, I need to collect small amount of basic resources to make first tools to mine some dirt and get a door to make me secure and atleast feel not cold..."],
+			dependencies: [I;3],
+			id: 19,
+			tasks: [
+				{
+					id: 20,
+					type: "item",
+					item: "minecraft:stick",
+					count: 8L
+				},
+				{
+					id: 21,
+					type: "item",
+					item: "minecraft:flint",
+					count: 2L
+				},
+				{
+					id: 22,
+					type: "item",
+					icon: "minecraft:gravel",
+					item: "exnihilosequentia:pebble_stone",
+					count: 4L
+				}
+			],
+			rewards: [{
+				id: 23,
+				type: "item",
+				item: "thermal:copper_coin"
+			}]
+		}
+	]
+}

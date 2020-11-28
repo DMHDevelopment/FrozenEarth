@@ -1,0 +1,10 @@
+
+.curseclient
+.vote2020_marker
+/backups
+/crash-reports
+/local
+*.log
+*.gz
+/saves
+/screenshots

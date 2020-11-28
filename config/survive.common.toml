@@ -1,0 +1,68 @@
+
+[sleep]
+	#Disabling this will disable this mods sleep management system
+	"Enable Sleep" = true
+	#The amount of ticks after the player has not slept before The tiredness effect starts to manifest
+	#Range: 0 ~ 240000
+	"Initial Tired Time" = 24000
+	#The maximum amount of sleep time can stack up to. This also determines the maximum amplifier for the tiredness effect
+	#Range: 0 ~ 255
+	"Tired Time Stacks" = 20
+	#Disabling this will disable the color changing of the screen when you need sleep
+	"Enable Tired Overlay" = true
+	#The amount of ticks after the Initial Tired Time before the amplifier of the tiredness effects increases
+	#Range: 0 ~ 240000
+	"Tired Time Step" = 12000
+
+[thirst]
+	#Disabling this will disable this mods thirst system
+	"Enable Thirst" = true
+	#The amount of time in ticks before thirst exaustion is added to the player regardless of what the player is doing. Set to -1 to disable
+	#Range: -1 ~ 1000
+	"Idle Thirst Tick Rate" = 140
+	#The amount of thirst exaustion added to the player regardless of what the player is doing
+	#Range: 0.0 ~ 4.0
+	"Idle Thirst Exhaustion" = 0.11249999701976776
+
+[stamina]
+	#Disabling this will disable this mods energy/stamina management system
+	"Enable Stamina" = true
+
+[temperature]
+	#Disabling this will prevent players from sleeping if they have hyperthermia or hypothermia
+	"Enable Hypothermia/Hyperthermia Allow Sleep" = true
+	#Enabling this allows players to drink water from flowing water sources. This is only allowed for infinite water sources
+	"Allow Drinking From Flowing Water" = true
+	#Disabling this will disable this mods temperature system
+	"Enable Temperature" = true
+	#This determines the mode used when deciding the temperature
+	#NORMAL Mode: calculates the average temperature of each block around the player
+	#BLEND Mode: calculates the average temperature similar to that of NORMAL, but blends the temperature of the target positions with the player's. The blend ratio is determined by your distance from the block
+	#Allowed Values: BLEND, NORMAL
+	"Temperature Mode" = "BLEND"
+
+[Thirst]
+	#
+	#This list defines which items replenish thirst when consumed
+	#Items in this list will not give any extra effects
+	#Default: ["minecraft:mushroom_stew,1"]
+	"Water Containers (Normal)" = ["minecraft:mushroom_stew,1"]
+	#
+	#This list defines which items replenish thirst when consumed
+	#Items in this list will give the chilled effect upon drunk
+	#Default: ["minecraft:beetroot_soup,1"]
+	"Water Containers (Chilled)" = ["minecraft:beetroot_soup,1"]
+	#
+	#This list defines which items replenish thirst when consumed
+	#Items in this list will give the heated effect when drunk
+	#Default: ["minecraft:rabbit_stew,1"]
+	"Water Containers (Heated)" = ["minecraft:rabbit_stew,1"]
+	#
+	#This list defines which items replenish thirst when consumed
+	#Items in this list will randomly give the thirst effect when drunk
+	#Default: ["minecraft:honey_bottle,1"]
+	"Water Containers (Thirst)" = ["minecraft:honey_bottle,1"]
+
+[developerOptions]
+	debug_mode = false
+

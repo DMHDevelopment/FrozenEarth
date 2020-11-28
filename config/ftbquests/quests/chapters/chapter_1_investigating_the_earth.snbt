@@ -1,0 +1,1274 @@
+{
+	id: 24,
+	filename: "chapter_1_investigating_the_earth",
+	order_index: 2,
+	title: "Chapter 1: Investigating The Earth",
+	icon: "terraqueous:doodad_branch",
+	default_quest_shape: "",
+	images: [{
+		x: 2.0d,
+		y: -1.0d,
+		width: 20.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "frozen_earth:textures/frozen_earth_chapter_1.png",
+		hover: [],
+		click: "",
+		dev: false
+	}],
+	quests: [
+		{
+			title: "Getting first table...",
+			x: -1.0d,
+			y: 2.0d,
+			description: ["I still trying to think about my first workspace to deal with. I'm going to make my first grid from some flint to get my first tools to begin working on my primitive things..."],
+			dependencies: [I;19],
+			size: 2.0d,
+			id: 25,
+			tasks: [{
+				id: 26,
+				type: "item",
+				item: "stone_age:flint_workbench"
+			}],
+			rewards: [
+				{
+					id: 30,
+					type: "item",
+					item: "minecraft:torch"
+				},
+				{
+					id: 31,
+					type: "item",
+					item: "minecraft:apple",
+					count: 2
+				}
+			]
+		},
+		{
+			title: "Flint Knife is a good knife...",
+			x: -1.5d,
+			y: 3.5d,
+			description: ["To work on this table I need a knife, gonna craft one."],
+			dependencies: [I;25],
+			id: 27,
+			tasks: [{
+				id: 28,
+				type: "item",
+				item: {
+					id: "stone_age:flint_knife",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 32,
+					type: "item",
+					item: "minecraft:leather"
+				},
+				{
+					id: 33,
+					type: "item",
+					item: "thermal:copper_coin"
+				}
+			]
+		},
+		{
+			title: "First weapon...",
+			x: -0.5d,
+			y: 3.5d,
+			description: ["To be secured on this planet I need some sort of weapon right now. What should I craft? A spear? Maybe. A sword? Nevermind..."],
+			dependencies: [I;27],
+			id: 34,
+			tasks: [
+				{
+					id: 35,
+					type: "item",
+					item: {
+						id: "stone_age:flint_spear",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 36,
+					type: "item",
+					item: {
+						id: "pickletweaks:flint_sword",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 105,
+				type: "item",
+				item: "thermal:copper_coin"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 4.5d,
+			description: ["To obtain cobblestone I need some sort of pickaxe, you know. I can mine some using my first Flint Pickaxe."],
+			dependencies: [I;27],
+			id: 37,
+			tasks: [{
+				id: 38,
+				type: "item",
+				item: {
+					id: "pickletweaks:flint_pickaxe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 107,
+				type: "item",
+				item: "thermal:copper_coin"
+			}]
+		},
+		{
+			title: "Need wood? Get Fore... no, Flint Axe!",
+			x: -2.5d,
+			y: 4.5d,
+			description: ["To get more wood I need to make a tool to break these logs into planks, because it's really hard to break something by hand... I'm already bored by breaking branches by hand into sticks."],
+			dependencies: [I;27],
+			id: 39,
+			tasks: [{
+				id: 40,
+				type: "item",
+				item: {
+					id: "pickletweaks:flint_axe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 104,
+				type: "item",
+				item: "thermal:copper_coin"
+			}]
+		},
+		{
+			title: "Snowy Trees",
+			x: -2.5d,
+			y: 5.5d,
+			description: ["All trees are cold right now. They're looking like ice... I cannot punch them with hand, but flint axe should resolve my problem since it's better than just my hand."],
+			dependencies: [I;39],
+			id: 41,
+			tasks: [{
+				id: 42,
+				type: "item",
+				item: "primalwinter:snowy_oak_log",
+				count: 4L
+			}]
+		},
+		{
+			title: "Crooky Crook",
+			x: -0.5d,
+			y: 4.5d,
+			description: ["Crook allows you to get more saplings and sticks from leaves and find some silkworms to obtain strings in near future and first food."],
+			dependencies: [I;27],
+			id: 43,
+			tasks: [{
+				id: 44,
+				type: "item",
+				item: {
+					id: "exnihilosequentia:crook_wood",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 106,
+				type: "item",
+				item: "thermal:copper_coin"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 5.5d,
+			description: ["Silkworms are my good friends right now. I can use them to turn leaves into strings or eat them."],
+			dependencies: [I;43],
+			id: 45,
+			tasks: [{
+				id: 46,
+				type: "item",
+				item: "exnihilosequentia:silkworm",
+				count: 16L
+			}],
+			rewards: [
+				{
+					id: 108,
+					type: "item",
+					item: {
+						id: "exnihilosequentia:crook_bone",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 109,
+					type: "item",
+					item: "thermal:copper_coin",
+					count: 2
+				}
+			]
+		},
+		{
+			x: -0.5d,
+			y: 5.5d,
+			description: ["They're looking delicious, but still not good as steaks..."],
+			dependencies: [I;
+				45,
+				57
+			],
+			id: 47,
+			tasks: [{
+				id: 48,
+				type: "item",
+				item: "exnihilosequentia:cooked_silkworm",
+				count: 4L
+			}],
+			rewards: [{
+				id: 110,
+				type: "item",
+				item: "thermal:copper_coin"
+			}]
+		},
+		{
+			title: "String of the Day",
+			x: 0.5d,
+			y: 4.5d,
+			description: ["I can get strings by breaking leaves with crook."],
+			dependencies: [I;45],
+			id: 49,
+			tasks: [{
+				id: 50,
+				type: "item",
+				item: "minecraft:string",
+				count: 32L
+			}],
+			rewards: [{
+				id: 111,
+				type: "item",
+				item: "thermal:copper_coin",
+				count: 4
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 7.5d,
+			description: [
+				"I can use Water Strainers to catch fishes while I'm away from the lake, but it requires more strength and better table than mine...",
+				"NOTE: While this quest is present here, you cannot craft Strainer Base without getting Crafting Table."
+			],
+			dependencies: [I;144],
+			id: 51,
+			tasks: [
+				{
+					id: 52,
+					type: "item",
+					item: {
+						id: "waterstrainer:strainer_fisherman",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 116,
+					type: "item",
+					item: "waterstrainer:strainer_base"
+				}
+			],
+			rewards: [{
+				id: 115,
+				type: "item",
+				item: "thermal:copper_coin"
+			}]
+		},
+		{
+			title: "Cods and others in the lake",
+			x: 0.5d,
+			y: 2.5d,
+			description: ["Uh, they're quick, but it's better than silkworms atleast."],
+			dependencies: [I;55],
+			id: 53,
+			tasks: [{
+				id: 54,
+				type: "item",
+				item: "minecraft:cod"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 3.5d,
+			description: ["I can break some ice to get a hole in the lake to get some fish... I need something to catch cods..."],
+			dependencies: [I;49],
+			id: 55,
+			tasks: [{
+				id: 56,
+				type: "item",
+				item: {
+					id: "minecraft:fishing_rod",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 114,
+				type: "item",
+				item: "thermal:copper_coin"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 5.5d,
+			description: ["Another thing I need to make. It smelts items."],
+			dependencies: [I;37],
+			id: 57,
+			tasks: [{
+				id: 58,
+				type: "item",
+				item: "minecraft:furnace"
+			}],
+			rewards: [{
+				id: 117,
+				type: "item",
+				item: "thermal:copper_coin"
+			}]
+		},
+		{
+			title: "Monsters... they're here!",
+			x: -2.5d,
+			y: 2.5d,
+			description: ["This planet is full with monsters and other creatures such as dragons and other things... A lot have changed here from year 2077... Also I saw some skeletons on frozen dirt and I can collect bones."],
+			dependencies: [I;25],
+			id: 59,
+			tasks: [{
+				id: 60,
+				type: "item",
+				item: "minecraft:bone"
+			}],
+			rewards: [{
+				id: 91,
+				type: "item",
+				item: "minecraft:bone_meal",
+				count: 3
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 2.5d,
+			description: ["Shears allows to get leaves for first water or grass for primitive tools and first bed."],
+			dependencies: [I;59],
+			id: 61,
+			tasks: [{
+				id: 62,
+				type: "item",
+				item: {
+					id: "stone_age:bone_shears",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 93,
+				type: "item",
+				item: "minecraft:bread"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 3.5d,
+			description: ["Drying Racks allows you to dry grass. And dry Rotten Flesh to make leather if you don't want to kill animals. That's all."],
+			dependencies: [I;61],
+			id: 63,
+			tasks: [{
+				id: 64,
+				type: "item",
+				item: "stone_age:drying_rack"
+			}],
+			rewards: [{
+				id: 94,
+				type: "item",
+				item: "thermal:copper_coin"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 7.5d,
+			description: ["Practically, this is default bed, but different texture."],
+			dependencies: [I;
+				63,
+				79
+			],
+			id: 65,
+			tasks: [{
+				id: 66,
+				type: "item",
+				item: "stone_age:dried_grass_bed"
+			}],
+			rewards: [
+				{
+					id: 95,
+					type: "item",
+					item: "thermal:copper_coin",
+					count: 3
+				},
+				{
+					id: 98,
+					type: "item",
+					item: "thermal:strawberry",
+					count: 3
+				}
+			]
+		},
+		{
+			x: -5.5d,
+			y: 3.5d,
+			description: ["It is required for bone tools and that's all. Yeah..."],
+			dependencies: [I;63],
+			id: 67,
+			tasks: [{
+				id: 68,
+				type: "item",
+				item: "stone_age:grass_lead"
+			}],
+			rewards: [{
+				id: 96,
+				type: "item",
+				item: "thermal:copper_coin"
+			}]
+		},
+		{
+			title: "Bone Tools",
+			x: -6.5d,
+			y: 3.5d,
+			description: ["Bone Tools have more durability and faster than Flint ones, but harder to make."],
+			dependencies: [I;67],
+			id: 69,
+			tasks: [
+				{
+					id: 70,
+					type: "item",
+					item: {
+						id: "stone_age:bone_pickaxe",
+						Count: true,
+						tag: {
+							Damage: 0,
+							additionalModifiers: {}
+						}
+					}
+				},
+				{
+					id: 99,
+					type: "item",
+					item: {
+						id: "stone_age:bone_axe",
+						Count: true,
+						tag: {
+							Damage: 0,
+							additionalModifiers: {}
+						}
+					}
+				},
+				{
+					id: 103,
+					type: "item",
+					item: {
+						id: "stone_age:bone_hoe",
+						Count: true,
+						tag: {
+							Damage: 0,
+							additionalModifiers: {}
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 97,
+				type: "item",
+				item: "thermal:copper_coin",
+				count: 6
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 6.5d,
+			description: ["Stone is needed for my next tier of tools and for first chests."],
+			dependencies: [I;57],
+			id: 73,
+			tasks: [{
+				id: 74,
+				type: "item",
+				item: "minecraft:stone"
+			}],
+			rewards: [{
+				id: 118,
+				type: "item",
+				item: "thermal:copper_coin"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 6.5d,
+			description: ["It allows me to store items. 15 slots. Nothing more interesting."],
+			dependencies: [I;73],
+			id: 75,
+			tasks: [{
+				id: 76,
+				type: "item",
+				item: "stone_age:stone_chest"
+			}],
+			rewards: [{
+				id: 141,
+				type: "item",
+				item: "thermal:copper_coin"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 7.5d,
+			description: ["Stone Hammer allows me to break blocks and wood on Tree Stumps. I can make slabs and planks with this hammer!"],
+			dependencies: [I;73],
+			id: 77,
+			tasks: [{
+				id: 78,
+				type: "item",
+				item: {
+					id: "stone_age:stone_hammer",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 142,
+				type: "item",
+				item: "thermal:copper_coin"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 7.5d,
+			description: ["Stump is required for me, because cold dirt doesn't allow me to break blocks with hammer as it would be on this stump."],
+			dependencies: [I;77],
+			id: 79,
+			tasks: [{
+				id: 80,
+				type: "item",
+				item: "stone_age:tree_stump"
+			}],
+			rewards: [{
+				id: 143,
+				type: "item",
+				item: "thermal:copper_coin"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 7.5d,
+			dependencies: [I;
+				79,
+				41
+			],
+			id: 81,
+			tasks: [{
+				id: 82,
+				type: "item",
+				title: "Planks and more to come!",
+				item: {
+					id: "itemfilters:tag",
+					Count: true,
+					tag: {
+						value: "minecraft:planks"
+					}
+				},
+				count: 32L
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 3.5d,
+			description: ["Tanning is a way to make leather better and tanned leather is needed for backpacks."],
+			dependencies: [I;27],
+			id: 83,
+			tasks: [{
+				id: 84,
+				type: "item",
+				item: "stone_age:tanning_rack"
+			}]
+		},
+		{
+			title: "Tanned Leather",
+			x: -3.5d,
+			y: 3.5d,
+			description: ["Get some leather to make something."],
+			dependencies: [I;83],
+			id: 85,
+			tasks: [{
+				id: 86,
+				type: "item",
+				item: "minecraft:leather",
+				count: 2L
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 4.5d,
+			description: ["Lead allows animals to move to my base."],
+			dependencies: [I;85],
+			id: 87,
+			tasks: [{
+				id: 88,
+				type: "item",
+				title: "Lead",
+				item: "minecraft:lead",
+				count: 2L
+			}],
+			rewards: [{
+				id: 101,
+				type: "item",
+				item: "thermal:copper_coin"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 5.5d,
+			dependencies: [I;87],
+			id: 89,
+			tasks: [{
+				id: 90,
+				type: "item",
+				item: {
+					id: "stone_age:backpack",
+					Count: true,
+					tag: {
+						backpack: {
+							inv: {
+								Items: [
+									{
+										id: "minecraft:air",
+										Count: false
+									},
+									{
+										id: "minecraft:air",
+										Count: false
+									},
+									{
+										id: "minecraft:air",
+										Count: false
+									},
+									{
+										id: "minecraft:air",
+										Count: false
+									},
+									{
+										id: "minecraft:air",
+										Count: false
+									},
+									{
+										id: "minecraft:air",
+										Count: false
+									},
+									{
+										id: "minecraft:air",
+										Count: false
+									},
+									{
+										id: "minecraft:air",
+										Count: false
+									},
+									{
+										id: "minecraft:air",
+										Count: false
+									},
+									{
+										id: "minecraft:air",
+										Count: false
+									},
+									{
+										id: "minecraft:air",
+										Count: false
+									},
+									{
+										id: "minecraft:air",
+										Count: false
+									},
+									{
+										id: "minecraft:air",
+										Count: false
+									},
+									{
+										id: "minecraft:air",
+										Count: false
+									},
+									{
+										id: "minecraft:air",
+										Count: false
+									}
+								]
+							}
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: 102,
+				type: "item",
+				item: "thermal:copper_coin",
+				count: 8
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 2.5d,
+			description: ["Sometimes I need more flint that I can make right now, so this mesh can solve my problems with flint."],
+			dependencies: [I;61],
+			id: 112,
+			tasks: [{
+				id: 113,
+				type: "item",
+				item: {
+					id: "pickletweaks:grass_fiber_mesh",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 130,
+				type: "item",
+				item: "thermal:copper_coin"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 7.5d,
+			description: ["Clay is a material, which allows me to make my first steps into ceramics and something better than just wooden and flint stuff around me."],
+			dependencies: [I;121],
+			id: 119,
+			tasks: [{
+				id: 120,
+				type: "item",
+				title: "Clay. It's cool.",
+				item: "minecraft:clay_ball",
+				count: 64L
+			}],
+			rewards: [{
+				id: 131,
+				type: "item",
+				item: "thermal:copper_coin"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 4.5d,
+			description: ["Bones are better than flint and they can atleast mine some cold dirt underneath. Also I can mine some of sand or clay with it!"],
+			dependencies: [I;67],
+			id: 121,
+			tasks: [{
+				id: 122,
+				type: "item",
+				item: {
+					id: "stone_age:bone_shovel",
+					Count: true,
+					tag: {
+						Damage: 0,
+						additionalModifiers: {}
+					}
+				}
+			}],
+			rewards: [{
+				id: 125,
+				type: "item",
+				item: "thermal:copper_coin",
+				count: 2
+			}]
+		},
+		{
+			x: -6.5d,
+			y: 6.5d,
+			description: ["This is my first way to move liquids from one place to another. It can move water without any problems, but lava melts my clay bucket very quickly, so I can only move lava once..."],
+			dependencies: [I;126],
+			id: 123,
+			tasks: [{
+				id: 124,
+				type: "item",
+				item: "ceramics:clay_bucket"
+			}],
+			rewards: [{
+				id: 140,
+				type: "item",
+				item: "thermal:copper_coin"
+			}]
+		},
+		{
+			title: "Clay Plates",
+			x: -6.5d,
+			y: 7.5d,
+			description: ["Clay is too soft to use in something. I need to make a clay plates and burn them in the furnace to make them a bit harder than before. With these plates we can make more things like bucket and armor"],
+			dependencies: [I;119],
+			id: 126,
+			tasks: [{
+				id: 127,
+				type: "item",
+				item: "ceramics:clay_plate",
+				count: 8L
+			}],
+			rewards: [{
+				id: 134,
+				type: "item",
+				item: "thermal:copper_coin"
+			}]
+		},
+		{
+			x: -7.5d,
+			y: 7.5d,
+			dependencies: [I;126],
+			id: 132,
+			tasks: [
+				{
+					id: 135,
+					type: "item",
+					item: {
+						id: "ceramics:clay_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 136,
+					type: "item",
+					item: {
+						id: "ceramics:clay_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 137,
+					type: "item",
+					item: {
+						id: "ceramics:clay_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 138,
+					type: "item",
+					item: {
+						id: "ceramics:clay_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 139,
+				type: "item",
+				item: "thermal:copper_coin",
+				count: 2
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 7.5d,
+			dependencies: [I;81],
+			id: 144,
+			tasks: [{
+				id: 145,
+				type: "item",
+				item: "minecraft:crafting_table"
+			}],
+			rewards: [
+				{
+					id: 146,
+					type: "command",
+					title: "Crafting Table Unlocked!",
+					team_reward: true,
+					auto: "enabled",
+					command: "/advancement grant @p only stone_age:stone_age/end_of_stone_age",
+					player_command: false
+				},
+				{
+					id: 147,
+					type: "item",
+					item: "thermal:copper_coin",
+					count: 4
+				}
+			]
+		},
+		{
+			title: "Sail on... ice?",
+			x: 0.5d,
+			y: 6.5d,
+			dependencies: [I;81],
+			id: 148,
+			tasks: [{
+				id: 149,
+				type: "item",
+				title: "Any minecraft:boats",
+				item: {
+					id: "itemfilters:tag",
+					Count: true,
+					tag: {
+						value: "minecraft:boats"
+					}
+				}
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 6.5d,
+			dependencies: [I;144],
+			id: 150,
+			tasks: [{
+				id: 151,
+				type: "item",
+				title: "Any silents_mechanisms:drying_racks",
+				item: {
+					id: "itemfilters:tag",
+					Count: true,
+					tag: {
+						value: "silents_mechanisms:drying_racks"
+					}
+				}
+			}],
+			rewards: [{
+				id: 158,
+				type: "item",
+				item: "thermal:copper_coin"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 6.5d,
+			dependencies: [I;150],
+			id: 152,
+			tasks: [{
+				id: 153,
+				type: "item",
+				item: "silents_mechanisms:zombie_leather"
+			}],
+			rewards: [{
+				id: 161,
+				type: "item",
+				item: "thermal:copper_coin"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 7.5d,
+			dependencies: [I;152],
+			id: 154,
+			tasks: [{
+				id: 155,
+				type: "item",
+				item: "extendedcrafting:handheld_table"
+			}],
+			rewards: [{
+				id: 160,
+				type: "item",
+				item: "thermal:copper_coin"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 5.5d,
+			dependencies: [I;150],
+			id: 156,
+			tasks: [{
+				id: 157,
+				type: "item",
+				item: "silents_mechanisms:cod_jerky"
+			}],
+			rewards: [{
+				id: 159,
+				type: "item",
+				item: "thermal:copper_coin"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 7.5d,
+			dependencies: [I;144],
+			id: 162,
+			tasks: [{
+				id: 163,
+				type: "item",
+				item: "minecraft:chest"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 6.5d,
+			dependencies: [I;79],
+			id: 164,
+			tasks: [{
+				id: 165,
+				type: "item",
+				item: "immersiveengineering:dust_wood"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 6.5d,
+			dependencies: [I;164],
+			id: 166,
+			tasks: [{
+				id: 167,
+				type: "item",
+				item: "minecraft:paper"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 6.5d,
+			dependencies: [I;166],
+			id: 168,
+			tasks: [{
+				id: 169,
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: true,
+					tag: {
+						"patchouli:book": "naturesaura:book"
+					}
+				}
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 6.5d,
+			dependencies: [I;144],
+			id: 170,
+			tasks: [{
+				id: 171,
+				type: "item",
+				item: {
+					id: "waterstrainer:strainer_survivalist",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 5.5d,
+			dependencies: [I;170],
+			id: 172,
+			tasks: [{
+				id: 173,
+				type: "item",
+				item: "minecraft:gold_nugget"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 5.5d,
+			dependencies: [I;
+				172,
+				168
+			],
+			id: 174,
+			tasks: [{
+				id: 175,
+				type: "item",
+				item: "naturesaura:gold_leaf"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 4.5d,
+			dependencies: [I;178],
+			id: 176,
+			tasks: [{
+				id: 177,
+				type: "item",
+				item: "naturesaura:token_joy"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 5.5d,
+			dependencies: [I;174],
+			id: 178,
+			tasks: [{
+				id: 179,
+				type: "item",
+				item: "naturesaura:wood_stand"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 4.5d,
+			dependencies: [I;168],
+			id: 180,
+			tasks: [{
+				id: 181,
+				type: "item",
+				item: {
+					id: "naturesaura:aura_bottle",
+					Count: true,
+					tag: {
+						stored_type: "naturesaura:overworld"
+					}
+				}
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 4.5d,
+			dependencies: [I;
+				176,
+				180
+			],
+			id: 182,
+			tasks: [{
+				id: 183,
+				type: "item",
+				item: "naturesaura:nature_altar"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 3.5d,
+			dependencies: [I;182],
+			id: 184,
+			tasks: [{
+				id: 185,
+				type: "item",
+				item: "naturesaura:infused_iron"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 3.5d,
+			dependencies: [I;182],
+			id: 186,
+			tasks: [{
+				id: 187,
+				type: "item",
+				item: "naturesaura:infused_stone"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 3.5d,
+			dependencies: [I;178],
+			id: 188,
+			tasks: [{
+				id: 189,
+				type: "item",
+				item: "naturesaura:ancient_sapling"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 2.5d,
+			dependencies: [I;
+				184,
+				188
+			],
+			id: 190,
+			tasks: [{
+				id: 191,
+				type: "item",
+				item: {
+					id: "naturesaura:infused_iron_chest",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 2.5d,
+			dependencies: [I;
+				184,
+				188
+			],
+			id: 192,
+			tasks: [{
+				id: 193,
+				type: "item",
+				item: {
+					id: "naturesaura:infused_iron_pickaxe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 2.5d,
+			dependencies: [I;182],
+			id: 194,
+			tasks: [{
+				id: 195,
+				type: "item",
+				item: "naturesaura:tainted_gold"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 1.5d,
+			id: 196,
+			tasks: [{
+				id: 197,
+				type: "item",
+				item: "exnihilosequentia:sieve"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 1.5d,
+			id: 198,
+			tasks: [{
+				id: 199,
+				type: "item",
+				item: "immersiveengineering:seed"
+			}]
+		}
+	]
+}

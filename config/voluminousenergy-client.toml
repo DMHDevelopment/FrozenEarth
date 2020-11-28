@@ -1,0 +1,8 @@
+#aBoolean usage description
+aBoolean = false
+
+[category]
+	#anInt usage description
+	#Range: 0 ~ 100
+	anInt = 10
+

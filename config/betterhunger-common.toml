@@ -1,0 +1,12 @@
+
+#General settings for the mod.
+[general]
+	#Should food always be edible?
+	always-edible = true
+	#Should the food bar be hidden?
+	hide-food-bar = false
+	#Should players never get hungry?
+	never-hungry = false
+	#Should players insta-die if they run out of food?
+	hardcore-hunger = false
+

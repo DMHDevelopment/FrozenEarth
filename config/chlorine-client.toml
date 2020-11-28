@@ -1,0 +1,45 @@
+
+#General Settings
+[quality]
+	#Controls the quality of rendered clouds in the sky.
+	#Allowed Values: DEFAULT, FANCY, FAST
+	cloud_quality = "DEFAULT"
+	#Controls the quality of rain and snow effects.
+	#Allowed Values: DEFAULT, FANCY, FAST
+	weather_quality = "FAST"
+	#Controls whether or not clouds will be visible.
+	enable_clouds = true
+	#If enabled, a vignette effect will be rendered on the player's view. This is very unlikely to make a difference to frame rates unless you are fill-rate limited.
+	enable_vignette = true
+	#If enabled, a fog effect will be used for terrain in the distance. Disabling this option will not change fog effects used underwater or in the Nether.
+	enable_fog = false
+	#Controls the quality of smooth lighting effects.
+	#
+	#Off - No smooth lighting
+	#Low - Smooth block lighting only
+	#High (new!) - Smooth block and entity lighting
+	#Allowed Values: HIGH, LOW, OFF
+	smooth_lighting = "HIGH"
+
+#Advanced Settings
+[advanced]
+	#Modern versions of OpenGL provide features which can be used to greatly reduce driver overhead when rendering chunks. You should use the latest feature set allowed by Sodium for optimal performance. If you're experiencing chunk rendering issues or driver crashes, try using the older (and possibly more stable) feature sets.
+	#Allowed Values: GL43, GL33, GL20
+	chunk_renderer_backend = "GL43"
+	#If enabled, a secondary culling pass will be performed before attempting to render an entity. This additional pass takes into account the current set of visible chunks and removes entities which are not in any visible chunks.
+	use_particle_culling = true
+	#If selected, Sodium will ignore the built-in driver blacklist and enable options which are known to be broken with your system configuration. This might cause serious problems and should not be used unless you really do know better. The settings screen must be saved, closed, and re-opened after changing this option in order to reveal previously hidden options.
+	disable_driver_blacklist = false
+	#If enabled, special intrinsics will be used to speed up the copying of client memory in certain vertex-limited scenarios, such as particle and text rendering. This option only exists for debugging purposes and should be left enabled unless you know what you are doing.
+	use_memory_intrinsics = true
+	#If enabled, chunks which are determined to be fully hidden by fog effects will be skipped during rendering. This will generally provide a modest improvement to the number of chunks rendered each frame, especially where fog effects are heavier (i.e. while underwater.)
+	use_fog_occlusion = true
+	#If enabled, only animated textures determined to be visible will be updated. This can provide a significant boost to frame rates on some hardware. If you experience issues with some textures not being animated, disable this option.
+	animate_only_visible_textures = true
+	#If enabled, an additional culling pass will be performed on the CPU to determine which planes of a chunk mesh are visible. This can eliminate a large number of block faces very early in the rendering process, saving memory bandwidth and time on the GPU.
+	use_chunk_face_culling = true
+	#If enabled, a secondary culling pass will be performed before attempting to render an entity. This additional pass takes into account the current set of visible chunks and removes entities which are not in any visible chunks.
+	use_advanced_entity_culling = true
+	#If enabled, a more compact vertex format will be used for chunk meshes which limits the precision of vertex attributes. This format will reduce graphics memory usage and bandwidth requirements by around 40%, but could cause z-fighting/flickering texture issues in some edge cases.
+	use_compact_vertex_format = true
+
