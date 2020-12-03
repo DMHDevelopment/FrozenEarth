@@ -32,9 +32,9 @@ difficulty:2
 graphicsMode:1
 ao:2
 biomeBlendRadius:2
-renderClouds:true
-resourcePacks:["vanilla","mod_resources","openloader/resources/Frozen Earth Resources","file/WeatherOrNot-1.0.zip"]
-incompatibleResourcePacks:["openloader/resources/Frozen Earth Resources","file/WeatherOrNot-1.0.zip"]
+renderClouds:false
+resourcePacks:["vanilla","mod_resources","openloader/resources/Frozen Earth Resources"]
+incompatibleResourcePacks:["openloader/resources/Frozen Earth Resources"]
 lastServer:
 lang:en_us
 chatVisibility:0
@@ -111,26 +111,41 @@ key_key.toggleVisible:key.keyboard.unknown
 key_key.immersiveengineering.magnetEquip:key.keyboard.s
 key_key.immersiveengineering.railgunZoom:key.mouse.middle
 key_key.immersiveengineering.chemthrowerSwitch:key.keyboard.unknown
-key_key.unionlib.open_union_inventory:key.keyboard.u
 key_neat.keybind.toggle:key.keyboard.unknown
+key_key.unionlib.open_union_inventory:key.keyboard.u
 key_key.invtweaks_sort_player.desc:key.keyboard.backslash
 key_key.invtweaks_sort_inventory.desc:key.keyboard.grave.accent
 key_key.invtweaks_sort_either.desc:key.mouse.middle
+key_key.curios.open.desc:key.keyboard.g
 key_key.toggle_focus.desc:key.keyboard.tab
 key_keybind.simplyjetpacks.jetpack_gui:key.keyboard.k
 key_keybind.simplyjetpacks.jetpack_engine:key.keyboard.j
-key_key.curios.open.desc:key.keyboard.g
 key_keybind.simplyjetpacks.jetpack_hover:key.keyboard.h
 key_keybind.simplyjetpacks.jetpack_ehover:key.keyboard.unknown
 key_keybind.simplyjetpacks.jetpack_charger:key.keyboard.unknown
-key_key.toastcontrol.clear:key.keyboard.j
 key_key.cofh.mode_change_increment:key.keyboard.v
-key_key.ftbquests.quests:key.keyboard.z
+key_minersadvantage.captivation.enabled.comment:key.keyboard.keypad.1
+key_minersadvantage.excavation.enabled.comment:key.keyboard.keypad.2
+key_minersadvantage.excavation.toggle:key.keyboard.grave.accent
+key_minersadvantage.excavation.toggle.sl:key.keyboard.tab
+key_minersadvantage.illumination.enabled.comment:key.keyboard.keypad.3
+key_minersadvantage.illumination.place:key.keyboard.v
+key_minersadvantage.illumination.area:key.keyboard.f12
+key_minersadvantage.lumbination.enabled.comment:key.keyboard.keypad.4
+key_minersadvantage.shaftanation.enabled.comment:key.keyboard.keypad.5
+key_minersadvantage.shaftanation.toggle:key.keyboard.left.alt
+key_minersadvantage.substitution.enabled.comment:key.keyboard.keypad.6
+key_minersadvantage.veination.enabled.comment:key.keyboard.keypad.7
+key_minersadvantage.cropination.enabled.comment:key.keyboard.keypad.8
+key_minersadvantage.abort.agents:key.keyboard.delete
+key_minersadvantage.inGameConfig:key.keyboard.insert:CONTROL
+key_key.toastcontrol.clear:key.keyboard.j
 key_pneumaticcraft.armor.options:key.keyboard.u
 key_pneumaticcraft.helmet.hack:key.keyboard.h
 key_pneumaticcraft.helmet.debugging.drone:key.keyboard.y
 key_pneumaticcraft.boots.kick:key.keyboard.x:CONTROL
 key_pneumaticcraft.chestplate.launcher:key.keyboard.unknown:CONTROL
+key_key.ftbquests.quests:key.keyboard.z
 key_key.plonk.place:key.keyboard.p
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_key.craftingtweaks.rotate:key.keyboard.unknown

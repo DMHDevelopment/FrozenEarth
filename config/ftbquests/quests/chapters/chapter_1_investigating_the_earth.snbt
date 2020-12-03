@@ -906,6 +906,10 @@
 		{
 			x: 5.5d,
 			y: 7.5d,
+			description: [
+				"",
+				"NOTE: You need untouched Stone Hammer to make a crafting table. If you have used hammer atleast once - it can't be used for this. CraftTweaker doesn't support any damage as int :("
+			],
 			dependencies: [I;81],
 			id: 144,
 			tasks: [{
@@ -1248,26 +1252,6 @@
 				id: 195,
 				type: "item",
 				item: "naturesaura:tainted_gold"
-			}]
-		},
-		{
-			x: 0.5d,
-			y: 1.5d,
-			id: 196,
-			tasks: [{
-				id: 197,
-				type: "item",
-				item: "exnihilosequentia:sieve"
-			}]
-		},
-		{
-			x: 1.5d,
-			y: 1.5d,
-			id: 198,
-			tasks: [{
-				id: 199,
-				type: "item",
-				item: "immersiveengineering:seed"
 			}]
 		}
 	]

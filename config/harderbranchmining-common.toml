@@ -4,7 +4,7 @@
 	aNormalOre = false
 	#Digging Speed Modifer: (none) 1.0 to (max) 32.0
 	#Range: 1.0 ~ 32.0
-	aDigSpeedModifier = 1.4
+	aDigSpeedModifier = 1.6
 	#Exhaustion Type: 0 = None-Speedonly, 1=Proportional, 2=Fixed
 	#Range: 0 ~ 2
 	exhaustionType = 1

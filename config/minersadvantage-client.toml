@@ -1,0 +1,163 @@
+
+#Common configuration for MinersAdvantage
+[common]
+	#Enable/Disable the Blocks per Tick delay.
+	enable_tick_delay = false
+	#The number of Ticks that will be ignored before the next block is harvested.
+	#Range: 1 ~ 20
+	tick_delay = 3
+	#Gathers all dropped items to the position of the first block hit.
+	gather_drops = false
+	#Breaks blocks at the speed of the tool being used. [CURRENTLY UNUSED]
+	break_at_tool_speeds = false
+	#The number of blocks that will be broken per tick. Default is 1, but the faster it is, the more likely that Minecraft will crash due to being unable to keep up.
+	#Range: 1 ~ 16
+	blocks_per_tick = 2
+	#The Maximum number of blocks allowed to be mined.
+	#Range: 8 ~ 2097152
+	limit = 125
+	#Automatically mine a vein of ore, if the Veination mod is enabled, while using Excavation, Shaftanation or Veination.
+	mine_veins = false
+	#The TPS (Ticks per Second) Guard can be used to help reduce block ghosting [Default = true]
+	tps_guard = true
+	#Automatically Illuminate dark areas, if the Illumination is enabled, while using Excavation, Shaftanation or Veination.
+	auto_illum = false
+	#The Radius of blocks to check for connected blocks.
+	#Range: 2 ~ 128
+	radius = 5
+
+#Captivation configuration for MinersAdvantage
+[captivation]
+	#Allows/Disallows Captivation to pick up items while in an in-game GUI.
+	allow_in_gui = false
+	#The Radius of Horizontal blocks to check for items.
+	#Range: 0.0 ~ 128.0
+	h_radius = 16.0
+	#The Radius of Vertical blocks to check for items.
+	#Range: 0.0 ~ 128.0
+	v_radius = 16.0
+	#If 'true' Captivation will only pickup items in the blacklist. If False, Captivation will pick up all items except those in the blacklist.
+	is_whitelist = false
+	#List of blacklisted Item IDs.
+	blacklist = ["minecraft:rotten_flesh", "minecraft:egg"]
+	#If 'true' Captivation will NEVER allow items in the blacklist to be picked up, even when walking over them.
+	unconditional_blacklist = false
+	#Enable/Disable Captivation
+	enabled = false
+
+#Cropination configuration for MinersAdvantage
+[cropination]
+	#Tells Cropination to havest the seeds along with the Crop.
+	harvest_seeds = true
+	#Enable/Disable Cropination
+	enabled = true
+
+#Excavation configuration for MinersAdvantage
+[excavation]
+	#Ignore Block Variations, like stone/granite/andesite/diorite, when using Excavation.
+	ignore_variants = false
+	#List of blacklisted Block IDs. Default is empty.
+	block_blacklist = []
+	#If 'true' Excavation will only work when harvesting Blocks within the Blacklist.
+	is_block_whitelist = false
+	#Enable/Disable Excavation Toggle Mode.  When Enabled, pressing the Excavation keybindings will act as ON/OFF toggle switchs.
+	#A notification message will be shown in chat to let you know if the Toggle is ON or OFF.
+	toggle_mode = false
+	#Enable/Disable Excavation
+	enabled = false
+
+#Pathanation configuration for MinersAdvantage
+[pathanation]
+	#How wide to make the Path.
+	#Range: 1 ~ 16
+	path_width = 3
+	#How long to make the path.
+	#Range: 1 ~ 64
+	path_length = 6
+	#Enable/Disable Pathanation
+	enabled = true
+
+#Illumination configuration for MinersAdvantage
+[illumination]
+	#The Lowest Level of light allowed before a torch is placed.
+	#Range: 0 ~ 16
+	light_level = 7
+	#Use the Block light level to detect the Lowest Level of light.
+	#If disabled the Sky light level will be used, which takes the time of day into account.
+	use_block_light = true
+	#Enable/Disable Illumination
+	enabled = true
+
+#Lumbination configuration for MinersAdvantage
+[lumbination]
+	#If the player has shears on their hot bar, they will be used to harvest the leaves of the tree being harvested.
+	use_shears = true
+	#List of Leaf block IDs.
+	leaves = []
+	#The block range to check for leaves.
+	#Range: 0 ~ 16
+	leaf_range = 6
+	#Destroy the leaves when chopping down a tree?
+	destroy_leaves = true
+	#List of vaild Axe IDs.
+	axes = []
+	#Chops any part of the Tree below the block being destroyed.
+	chop_below = true
+	#If 'true' and saplings for the tree being harvested are avalible in the players inventory, they tree will be replanted.
+	replant_saplings = true
+	#The block range to check for the tree Trunk width.
+	#Range: 8 ~ 128
+	trunk_range = 32
+	#If 'true' leaves will use your tools durability. If 'false' leaves with be destroyed without using a tool.
+	leaves_affect_durability = false
+	#List of Wood IDs.
+	logs = []
+	#Enable/Disable Lumbination
+	enabled = false
+
+#Shaftanation configuration for MinersAdvantage
+[shaftanation]
+	#The number of blocks high the shaft should be.
+	#Range: 2 ~ 16
+	shaft_h = 2
+	#Where torches should be placed when Auto Illumination is enabled:  FLOOR (default), LEFT_WALL or RIGHT_WALL (2 blocks up from shaft floor).
+	#Allowed Values: INACTIVE, FLOOR, LEFT_WALL, RIGHT_WALL
+	torch_placement = "FLOOR"
+	#The number of blocks wide the shaft should be.
+	#Range: 1 ~ 16
+	shaft_w = 1
+	#The number of blocks long the shaft should be.
+	#Range: 4 ~ 128
+	shaft_l = 16
+	#Enable/Disable Shaftanation
+	enabled = false
+
+#Substitution configuration for MinersAdvantage
+[substitution]
+	#Ignore other tools when deciding to substitute if the current Tool is valid for the block.
+	ignore_valid = true
+	#Favour a SilkTouch tool over any other tool.
+	favour_silk = false
+	#Ignore Passive Mobs when deciding to substitute to a weapon.
+	ignore_passive = true
+	#If 'true' will switch back to the previously selected item.
+	switchback = true
+	#Favour a Fortune tool over any other tool.
+	favour_fortune = true
+	#List of blacklisted Tool IDs. Default is empty.
+	blacklist = []
+	#Enable/Disable Substitution
+	enabled = false
+
+#Veination configuration for MinersAdvantage
+[veination]
+	#List of Ore Block IDs.
+	ores = []
+	#Enable/Disable Veination
+	enabled = true
+
+#Client configuration for MinersAdvantage
+[client]
+	#Disable Particle Effects generated during block harvesting.
+	disable_particle_effects = false
+

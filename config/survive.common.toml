@@ -4,7 +4,7 @@
 	"Enable Sleep" = true
 	#The amount of ticks after the player has not slept before The tiredness effect starts to manifest
 	#Range: 0 ~ 240000
-	"Initial Tired Time" = 24000
+	"Initial Tired Time" = 96000
 	#The maximum amount of sleep time can stack up to. This also determines the maximum amplifier for the tiredness effect
 	#Range: 0 ~ 255
 	"Tired Time Stacks" = 20
