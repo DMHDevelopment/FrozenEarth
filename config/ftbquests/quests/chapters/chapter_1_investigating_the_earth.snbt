@@ -1,7 +1,7 @@
 {
 	id: 24,
 	filename: "chapter_1_investigating_the_earth",
-	order_index: 2,
+	order_index: 0,
 	title: "Chapter 1: Investigating The Earth",
 	icon: "terraqueous:doodad_branch",
 	default_quest_shape: "",
@@ -1104,7 +1104,7 @@
 			}]
 		},
 		{
-			x: 3.5d,
+			x: 2.5d,
 			y: 5.5d,
 			dependencies: [I;
 				172,
@@ -1141,7 +1141,7 @@
 		},
 		{
 			x: 3.5d,
-			y: 4.5d,
+			y: 5.5d,
 			dependencies: [I;168],
 			id: 180,
 			tasks: [{
@@ -1171,7 +1171,7 @@
 			}]
 		},
 		{
-			x: 3.5d,
+			x: 2.5d,
 			y: 3.5d,
 			dependencies: [I;182],
 			id: 184,
@@ -1182,8 +1182,8 @@
 			}]
 		},
 		{
-			x: 2.5d,
-			y: 3.5d,
+			x: 5.5d,
+			y: 4.5d,
 			dependencies: [I;182],
 			id: 186,
 			tasks: [{
@@ -1224,7 +1224,8 @@
 			}]
 		},
 		{
-			x: 3.5d,
+			disable_toast: true,
+			x: 2.5d,
 			y: 2.5d,
 			dependencies: [I;
 				184,
@@ -1244,14 +1245,183 @@
 			}]
 		},
 		{
-			x: 2.5d,
-			y: 2.5d,
+			x: 3.5d,
+			y: 4.5d,
 			dependencies: [I;182],
 			id: 194,
 			tasks: [{
 				id: 195,
 				type: "item",
 				item: "naturesaura:tainted_gold"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 6.5d,
+			dependencies: [I;41],
+			id: 205,
+			tasks: [{
+				id: 206,
+				type: "item",
+				item: "survive:water_bowl"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 1.5d,
+			dependencies: [I;25],
+			id: 207,
+			tasks: [{
+				id: 208,
+				type: "item",
+				item: "minecraft:white_wool"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 1.5d,
+			dependencies: [I;207],
+			id: 209,
+			tasks: [
+				{
+					id: 210,
+					type: "item",
+					item: {
+						id: "survive:wool_hat",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 215,
+					type: "item",
+					item: {
+						id: "survive:wool_jacket",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 216,
+					type: "item",
+					item: {
+						id: "survive:wool_pants",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 217,
+					type: "item",
+					item: {
+						id: "survive:wool_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: 4.5d,
+			dependencies: [I;180],
+			id: 211,
+			tasks: [
+				{
+					id: 212,
+					type: "item",
+					item: {
+						id: "exnihilosequentia:mesh_string",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 220,
+					type: "item",
+					item: {
+						id: "exnihilosequentia:mesh_flint",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 3.5d,
+			y: 3.5d,
+			dependencies: [I;188],
+			id: 213,
+			tasks: [{
+				id: 214,
+				type: "item",
+				item: "exnihilosequentia:sieve"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 2.5d,
+			dependencies: [I;211],
+			id: 218,
+			tasks: [{
+				id: 219,
+				type: "item",
+				title: "Any forge:ores/copper",
+				item: {
+					id: "itemfilters:tag",
+					Count: true,
+					tag: {
+						value: "forge:ores/copper"
+					}
+				}
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 2.5d,
+			dependencies: [I;211],
+			id: 221,
+			tasks: [{
+				id: 222,
+				type: "item",
+				title: "Any forge:ores/iron",
+				item: {
+					id: "itemfilters:tag",
+					Count: true,
+					tag: {
+						value: "forge:ores/iron"
+					}
+				}
+			}]
+		},
+		{
+			title: "Cooking is really for blockheads...",
+			x: -1.5d,
+			y: 8.5d,
+			description: ["Crock Pot is a way I can cook good food. This food gives me more saturation than common food and it gives me more strength to solve problems on this planet."],
+			dependencies: [I;73],
+			id: 223,
+			tasks: [{
+				id: 224,
+				type: "item",
+				item: "crockpot:crock_pot_basic"
+			}],
+			rewards: [{
+				id: 225,
+				type: "item",
+				item: "thermal:copper_coin"
 			}]
 		}
 	]

@@ -13,6 +13,11 @@
 			id: 204,
 			type: "item",
 			item: "minecraft:stone"
+		}],
+		rewards: [{
+			id: 226,
+			type: "item",
+			item: "thermal:iron_coin"
 		}]
 	}]
 }

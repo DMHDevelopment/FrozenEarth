@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-12-03T18:23:28.3323264Z",
+  "lastPlayed": "2020-12-05T14:41:17.8402106Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -46,7 +46,7 @@
   "name": "FrozenEarth",
   "cachedScans": [],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2020-12-03T17:54:26.2173122Z",
+  "lastPreviousMatchUpdate": "2020-12-05T11:42:00.8410369Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.16.4",
@@ -616,7 +616,7 @@
       "dateInstalled": "2020-12-03T04:01:18.0432964Z",
       "dateUpdated": "2020-12-03T04:01:18.0502957Z",
       "dateLastUpdateAttempted": "2020-12-03T04:01:18.0502957Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -625,7 +625,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 250419,
@@ -1021,6 +1021,73 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 257356,
+      "gameInstanceID": "bd82702c-5666-40ac-8dbf-6843d9d363bb",
+      "installedFile": {
+        "id": 3123952,
+        "displayName": "InControl - 1.16-5.0.3",
+        "fileName": "incontrol-1.16-5.0.3.jar",
+        "fileDate": "2020-11-26T18:38:56.237Z",
+        "fileLength": 140011,
+        "releaseType": 2,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3123/952/incontrol-1.16-5.0.3.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1330863749,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcjty",
+            "fingerprint": 799927800,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 363424076,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 1199870075,
+        "gameVersion": [
+          "1.16.3",
+          "Forge",
+          "1.16.4"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "incontrol-1.16-5.0.3.jar"
+      },
+      "dateInstalled": "2020-12-05T14:42:10.653328Z",
+      "dateUpdated": "2020-12-05T14:42:10.6593289Z",
+      "dateLastUpdateAttempted": "2020-12-05T14:42:10.6593289Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 400012,
@@ -1762,6 +1829,78 @@
       "installedTargets": null
     },
     {
+      "addonID": 419699,
+      "gameInstanceID": "bd82702c-5666-40ac-8dbf-6843d9d363bb",
+      "installedFile": {
+        "id": 3128224,
+        "displayName": "[Forge 1.16.4] v1.1.55",
+        "fileName": "architectury-1.1.55-forge.jar",
+        "fileDate": "2020-12-02T03:02:04.67Z",
+        "fileLength": 183030,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge-service.overwolf.wtf/files/3128/224/architectury-1.1.55-forge.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 464910390,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "me",
+            "fingerprint": 3091648152,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1096803035,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "architectury-common.accessWidener",
+            "fingerprint": 2965368418,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 3159994841,
+        "gameVersion": [
+          "Forge",
+          "1.16.4"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "architectury-1.1.55-forge.jar"
+      },
+      "dateInstalled": "2020-12-03T18:48:18.825975Z",
+      "dateUpdated": "2020-12-03T18:48:18.8279735Z",
+      "dateLastUpdateAttempted": "2020-12-03T18:48:18.8279735Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": true,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 404465,
       "gameInstanceID": "bd82702c-5666-40ac-8dbf-6843d9d363bb",
       "installedFile": {
@@ -2369,6 +2508,102 @@
       "installedTargets": null
     },
     {
+      "addonID": 245755,
+      "gameInstanceID": "bd82702c-5666-40ac-8dbf-6843d9d363bb",
+      "installedFile": {
+        "id": 3098215,
+        "displayName": "Waystones_1.16.3-7.3.1.jar",
+        "fileName": "Waystones_1.16.3-7.3.1.jar",
+        "fileDate": "2020-10-31T18:57:07.823Z",
+        "fileLength": 201797,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3098/215/Waystones_1.16.3-7.3.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1038747364,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "net",
+            "fingerprint": 2128989207,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2402969495,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 479223525,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1362067209,
+            "type": 3,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 1848494207,
+        "gameVersion": [
+          "1.16.3",
+          "1.16.4"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000016.0000000003",
+            "gameVersion": "1.16.3",
+            "gameVersionReleaseDate": "2020-09-10T14:44:20.443Z",
+            "gameVersionName": "1.16.3"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000016.0000000004",
+            "gameVersion": "1.16.4",
+            "gameVersionReleaseDate": "2020-11-02T18:40:51.49Z",
+            "gameVersionName": "1.16.4"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 2037547,
+        "projectId": 245755,
+        "packageFingerprintId": 545526199,
+        "gameVersionDateReleased": "2020-09-10T14:44:20.443Z",
+        "gameVersionMappingId": 2505350,
+        "gameVersionId": 8056,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "Waystones_1.16.3-7.3.1.jar"
+      },
+      "dateInstalled": "2020-11-17T10:18:48.6515447Z",
+      "dateUpdated": "2019-11-17T10:18:48.6515447Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": true,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 291737,
       "gameInstanceID": "bd82702c-5666-40ac-8dbf-6843d9d363bb",
       "installedFile": {
@@ -2472,102 +2707,6 @@
       },
       "dateInstalled": "2020-11-17T10:18:48.6595447Z",
       "dateUpdated": "2019-11-17T10:18:48.6595447Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": true,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 245755,
-      "gameInstanceID": "bd82702c-5666-40ac-8dbf-6843d9d363bb",
-      "installedFile": {
-        "id": 3098215,
-        "displayName": "Waystones_1.16.3-7.3.1.jar",
-        "fileName": "Waystones_1.16.3-7.3.1.jar",
-        "fileDate": "2020-10-31T18:57:07.823Z",
-        "fileLength": 201797,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3098/215/Waystones_1.16.3-7.3.1.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 1038747364,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "net",
-            "fingerprint": 2128989207,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 2402969495,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "data",
-            "fingerprint": 479223525,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 1362067209,
-            "type": 3,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 1848494207,
-        "gameVersion": [
-          "1.16.3",
-          "1.16.4"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000016.0000000003",
-            "gameVersion": "1.16.3",
-            "gameVersionReleaseDate": "2020-09-10T14:44:20.443Z",
-            "gameVersionName": "1.16.3"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000016.0000000004",
-            "gameVersion": "1.16.4",
-            "gameVersionReleaseDate": "2020-11-02T18:40:51.49Z",
-            "gameVersionName": "1.16.4"
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 2037547,
-        "projectId": 245755,
-        "packageFingerprintId": 545526199,
-        "gameVersionDateReleased": "2020-09-10T14:44:20.443Z",
-        "gameVersionMappingId": 2505350,
-        "gameVersionId": 8056,
-        "gameId": 432,
-        "isServerPack": false,
-        "FileNameOnDisk": "Waystones_1.16.3-7.3.1.jar"
-      },
-      "dateInstalled": "2020-11-17T10:18:48.6515447Z",
-      "dateUpdated": "2019-11-17T10:18:48.6515447Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
@@ -4990,7 +5129,7 @@
       "dateInstalled": "2020-12-03T17:54:22.3217975Z",
       "dateUpdated": "2020-12-03T17:54:22.3227937Z",
       "dateLastUpdateAttempted": "2020-12-03T17:54:22.3227937Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4999,7 +5138,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 392055,
@@ -6340,8 +6479,131 @@
       "dateInstalled": "2020-11-18T17:44:03.1583048Z",
       "dateUpdated": "2020-11-18T17:44:03.1728192Z",
       "dateLastUpdateAttempted": "2020-11-18T17:44:03.1728192Z",
-      "status": 5,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": true,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 238086,
+      "gameInstanceID": "bd82702c-5666-40ac-8dbf-6843d9d363bb",
+      "installedFile": {
+        "id": 3128371,
+        "displayName": "kubejs-1604.3.1.110-forge.jar",
+        "fileName": "kubejs-1604.3.1.110-forge.jar",
+        "fileDate": "2020-12-02T10:01:07.327Z",
+        "fileLength": 555272,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge-service.overwolf.wtf/files/3128/371/kubejs-1604.3.1.110-forge.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 419699,
+            "type": 3,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 268655,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 238222,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 416294,
+            "type": 3,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3174026794,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "dev",
+            "fingerprint": 4019906790,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "kubejs.mixins.json",
+            "fingerprint": 1795238150,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1290654324,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "kubejs.refmap.json",
+            "fingerprint": 4073144230,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 1168096369,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 4007331960,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "kubejs_logo.png",
+            "fingerprint": 658118443,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 1969552676,
+        "gameVersion": [
+          "1.16.3",
+          "Forge",
+          "1.16.4",
+          "1.16.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "kubejs-1604.3.1.110-forge.jar"
+      },
+      "dateInstalled": "2020-12-03T18:48:22.5261666Z",
+      "dateUpdated": "2020-12-03T18:48:22.528168Z",
+      "dateLastUpdateAttempted": "2020-12-03T18:48:22.528168Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
       "isModified": true,
@@ -7812,7 +8074,7 @@
       "dateInstalled": "2020-12-03T17:54:22.6927934Z",
       "dateUpdated": "2020-12-03T17:54:22.6947923Z",
       "dateLastUpdateAttempted": "2020-12-03T17:54:22.6947923Z",
-      "status": 4,
+      "status": 3,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7821,7 +8083,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 401273,
@@ -10624,7 +10886,7 @@
       "dateInstalled": "2020-12-03T16:27:21.8615685Z",
       "dateUpdated": "2020-12-03T16:27:21.8645744Z",
       "dateLastUpdateAttempted": "2020-12-03T16:27:21.8645744Z",
-      "status": 4,
+      "status": 3,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10633,7 +10895,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 416294,
@@ -10701,7 +10963,7 @@
       "dateInstalled": "2020-12-03T17:54:12.5303209Z",
       "dateUpdated": "2020-12-03T17:54:12.5403208Z",
       "dateLastUpdateAttempted": "2020-12-03T17:54:12.5403208Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10710,7 +10972,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 332640,
@@ -11518,8 +11780,8 @@
         "isServerPack": false,
         "FileNameOnDisk": "Weather Or Not.zip"
       },
-      "dateInstalled": "2020-12-03T17:54:25.1743118Z",
-      "dateUpdated": "2020-12-03T17:54:25.1743118Z",
+      "dateInstalled": "2020-12-05T11:42:00.0029406Z",
+      "dateUpdated": "2020-12-05T11:42:00.0029406Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 4,
       "preferenceAutoInstallUpdates": null,

@@ -77,16 +77,20 @@
         "crockpot:intro/priority",
         "crockpot:intro/crock_pot",
         "crockpot:food_categories/food_category_veggie",
-        "crockpot:food_categories/food_category_dairy"
+        "crockpot:food_categories/food_category_dairy",
+        "crockpot:food_categories/food_category_fruit",
+        "crockpot:food_categories/food_category_meat"
       ],
       "bookmarks": [],
       "history": [
-        "crockpot:intro/food_category",
+        "crockpot:food_categories/food_category_meat",
+        "crockpot:food_categories/food_category_fruit",
+        "crockpot:food_categories/food_category_frozen",
         "crockpot:food_categories/food_category_dairy",
+        "crockpot:intro/food_category",
         "crockpot:food_categories/food_category_veggie",
         "crockpot:intro/crock_pot",
         "crockpot:intro/priority",
-        "crockpot:food_categories/food_category_frozen",
         "crockpot:food_categories/food_category_inedible"
       ],
       "completedManualQuests": []
