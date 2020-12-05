@@ -10,4 +10,6 @@
 /screenshots
 minecraftinstance.json
 .mixin.out/audit/*
-minecraftinstance.json
+options.txt
+optionsof.txt
+optionsshaders.txt
