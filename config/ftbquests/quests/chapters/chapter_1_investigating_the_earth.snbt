@@ -1408,8 +1408,8 @@
 		},
 		{
 			title: "Cooking is really for blockheads...",
-			x: -1.5d,
-			y: 8.5d,
+			x: -2.5d,
+			y: 7.5d,
 			description: ["Crock Pot is a way I can cook good food. This food gives me more saturation than common food and it gives me more strength to solve problems on this planet."],
 			dependencies: [I;73],
 			id: 223,
