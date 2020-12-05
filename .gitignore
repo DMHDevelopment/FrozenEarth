@@ -8,3 +8,5 @@
 *.gz
 /saves
 /screenshots
+minecraftinstance.json
+.mixin.out/audit/*
