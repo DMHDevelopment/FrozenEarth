@@ -115,7 +115,7 @@ events.listen('recipes', event => {
         ' B ',
         'AAA'
     ], {
-        A: 'create:gold_sheet',
+        A: 'create:golden_sheet',
         B: 'ironchest:iron_chest'
     });
 
