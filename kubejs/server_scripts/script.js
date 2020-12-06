@@ -125,8 +125,8 @@ events.listen('recipes', event => {
         'AAA'
     ], {
         A: 'create:golden_sheet',
-        B: 'ironchest:iron_chest',
-        C: 'exnihilosequentia:chunk_gold'
+        B: 'ironchest:silver_chest',
+        C: 'minecraft:light_weighted_pressure_plate'
     });
 
     event.shaped(item.of('ironchest:silver_chest', 1), [
