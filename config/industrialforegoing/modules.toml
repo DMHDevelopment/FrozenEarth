@@ -101,7 +101,13 @@
 		[modules.generator.pitiful_generator]
 			enabled = true
 
+		[modules.generator.mycelial_reactor]
+			enabled = true
+
 		[modules.generator.biofuel_generator]
+			enabled = true
+
+		[modules.generator.mycelial_generators]
 			enabled = true
 
 		[modules.generator.bioreactor]
@@ -198,6 +204,9 @@
 		enabled = true
 
 		[modules.misc.enchantment_factory]
+			enabled = true
+
+		[modules.misc.infinity_charger]
 			enabled = true
 
 		[modules.misc.enchantment_sorter]

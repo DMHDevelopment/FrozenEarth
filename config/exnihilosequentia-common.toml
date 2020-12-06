@@ -36,13 +36,13 @@
 [crook]
 	#Maximum additional string that a crook will drop from infested leaves in addition to the minimum string count (Default: 3)
 	#Range: > 0
-	maxBonusStringCount = 3
+	maxBonusStringCount = 1
 	#Minimum string that a crook will drop from infested leaves (Default: 2)
 	#Range: > 1
-	minStringCount = 2
+	minStringCount = 1
 	#Number of times the crook will "break" a leaf block to get drops (Default: 3)
 	#Range: > 1
-	vanillaDropSimulateCount = 3
+	vanillaDropSimulateCount = 2
 
 #Crucible Configs
 [crucible]
@@ -92,7 +92,7 @@
 	#Should Immersive Engineering ores be enabled? (Default: false)
 	enableImmersiveEngineering = false
 	#Should Create ores be enabled? (Default: false)
-	enableCreate = false
+	enableCreate = true
 
 #Debug Configs
 [debug]

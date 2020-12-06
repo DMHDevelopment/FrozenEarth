@@ -5,19 +5,275 @@
 	title: "Chapter 2: Creating Creative",
 	icon: "create:gearbox",
 	default_quest_shape: "",
-	quests: [{
-		x: 0.0d,
-		y: 0.0d,
-		id: 203,
-		tasks: [{
-			id: 204,
-			type: "item",
-			item: "minecraft:stone"
-		}],
-		rewards: [{
-			id: 226,
-			type: "item",
-			item: "thermal:iron_coin"
-		}]
-	}]
+	quests: [
+		{
+			title: "Revolution Threshold",
+			x: 0.0d,
+			y: 3.5d,
+			shape: "gear",
+			description: [
+				"I no longer depend on desperate survival. Now I can focus of my further perspectives. It's time to start common purpose automation.",
+				"",
+				"Time to Create!"
+			],
+			id: 203,
+			tasks: [{
+				id: 204,
+				type: "item",
+				item: "create:andesite_alloy",
+				count: 32L
+			}],
+			rewards: [{
+				id: 226,
+				type: "item",
+				item: "thermal:iron_coin",
+				count: 8
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 4.0d,
+			description: [
+				"Rotational force conductors.",
+				"",
+				"Can be concealed with Andesite Casing to put it through wall."
+			],
+			dependencies: [I;203],
+			id: 228,
+			tasks: [{
+				id: 229,
+				type: "item",
+				item: "create:shaft",
+				count: 32L
+			}],
+			rewards: [{
+				id: 257,
+				type: "item",
+				item: "create:andesite_casing",
+				count: 8
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 3.0d,
+			description: ["Cogs are used for rotational force transfering and inversion."],
+			dependencies: [I;203],
+			id: 230,
+			tasks: [
+				{
+					id: 231,
+					type: "item",
+					item: "create:cogwheel",
+					count: 8L
+				},
+				{
+					id: 232,
+					type: "item",
+					item: "create:large_cogwheel",
+					count: 8L
+				}
+			],
+			rewards: [
+				{
+					id: 233,
+					type: "item",
+					item: "minecraft:redstone",
+					count: 32
+				},
+				{
+					id: 236,
+					type: "item",
+					item: "minecraft:iron_ore",
+					count: 16
+				}
+			]
+		},
+		{
+			x: 3.0d,
+			y: 3.5d,
+			description: ["Rotational force relay. I can turn it."],
+			dependencies: [I;
+				230,
+				228
+			],
+			id: 234,
+			tasks: [{
+				id: 235,
+				type: "item",
+				item: "create:gearbox"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 3.5d,
+			description: [
+				"Water Wheels are used as rotational force generators. Supply them with water flow and receive some power. Not really that much.",
+				"",
+				"Tip: You can connect several of them in a row. Power will stack additively."
+			],
+			dependencies: [I;234],
+			id: 237,
+			tasks: [{
+				id: 238,
+				type: "item",
+				item: "create:water_wheel"
+			}],
+			rewards: [{
+				id: 239,
+				type: "item",
+				item: "create:water_wheel",
+				count: 2
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 2.5d,
+			description: [
+				"Windmill is more complicated way of force generation. Much more potent as well.",
+				"",
+				"Connect Rotational Chassis to the Windmill, glue its sides with a slimeball and build blades of wool around the chassis. Make sure they have chain connection to the chassis.",
+				"",
+				"Click the main block with RMB to activate Windmill."
+			],
+			hide_dependency_lines: true,
+			dependencies: [I;234],
+			id: 240,
+			tasks: [{
+				id: 241,
+				type: "item",
+				item: "create:windmill_bearing"
+			}],
+			rewards: [
+				{
+					id: 242,
+					type: "item",
+					item: "create:radial_chassis",
+					count: 3
+				},
+				{
+					id: 243,
+					type: "item",
+					item: "minecraft:slime_ball"
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: 4.5d,
+			description: ["Simple rotational force generator. Hold RMB to generate rotational force. Shift+RMB to inverse direction."],
+			hide_dependency_lines: true,
+			dependencies: [I;234],
+			id: 244,
+			tasks: [{
+				id: 245,
+				type: "item",
+				item: "create:copper_valve_handle"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 2.5d,
+			description: ["Quite useful tool if you need automated tree farm. It cuts whole tree in front of itself. Can also increase quantity of planks got from wood."],
+			hide_dependency_lines: true,
+			dependencies: [I;234],
+			id: 246,
+			tasks: [{
+				id: 247,
+				type: "item",
+				item: "create:mechanical_saw"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 3.5d,
+			hide_dependency_lines: true,
+			dependencies: [I;234],
+			id: 248,
+			tasks: [{
+				id: 249,
+				type: "item",
+				item: "create:mechanical_drill"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 4.5d,
+			hide_dependency_lines: true,
+			dependencies: [I;234],
+			id: 250,
+			tasks: [{
+				id: 251,
+				type: "item",
+				item: "create:mechanical_press"
+			}],
+			rewards: [{
+				id: 263,
+				type: "item",
+				item: "minecraft:iron_block",
+				count: 3
+			}]
+		},
+		{
+			x: 8.5d,
+			y: 4.5d,
+			hide_dependency_lines: true,
+			dependencies: [I;234],
+			id: 252,
+			tasks: [{
+				id: 253,
+				type: "item",
+				item: "create:mechanical_mixer"
+			}],
+			rewards: [{
+				id: 254,
+				type: "item",
+				item: "create:basin"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 3.5d,
+			dependencies: [I;234],
+			id: 255,
+			tasks: [{
+				id: 256,
+				type: "item",
+				item: "create:millstone"
+			}],
+			rewards: [{
+				id: 258,
+				type: "item",
+				item: "minecraft:sand",
+				count: 172
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 6.0d,
+			description: ["Mechanical Belts are either conveyors or force conductors. Connect two shafts with Mechanical Belt and look how it works. Shafts must oppose each other along one axis."],
+			dependencies: [I;228],
+			id: 259,
+			tasks: [{
+				id: 260,
+				type: "item",
+				item: "create:belt_connector",
+				count: 2L
+			}]
+		},
+		{
+			title: "New Era",
+			x: 8.0d,
+			y: 6.5d,
+			dependencies: [I;
+				250,
+				252
+			],
+			id: 261,
+			tasks: [{
+				id: 262,
+				type: "item",
+				item: "create:brass_sheet"
+			}]
+		}
+	]
 }

@@ -1,7 +1,7 @@
 {
 	id: 2,
 	filename: "chapter_0_the_whole_new_world",
-	order_index: 2,
+	order_index: 1,
 	title: "Chapter 0: The Whole New World...",
 	icon: "byg:blue_enchanted_sapling",
 	default_quest_shape: "",

@@ -1,0 +1,16 @@
+{
+    "type": "exnihilosequentia:sieve",
+    "rolls": [
+        {
+            "chance": 0.8,
+            "mesh": "string"
+        }
+    ],
+    "input": {
+        "item/tag": "create:copper_ore"
+    },
+    "result": {
+        "item": "exnihilosequentia:piece_copper"
+    },
+    "waterlogged": false
+}

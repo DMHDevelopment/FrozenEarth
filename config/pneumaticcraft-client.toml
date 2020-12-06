@@ -1,5 +1,7 @@
 
 [general]
+	#Should the SSP game pause when the Programmer GUI is open (does not apply in SMP)?
+	programmer_gui_pauses = false
 	#Show tank fluids with the The One Probe. Note that TOP also has support for showing tanks, which may or may not be enabled.
 	top_shows_fluids = true
 	#Should widgets in the GUI Remote Editor be snapped to a 4x4 grid?

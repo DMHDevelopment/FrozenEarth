@@ -321,7 +321,7 @@
 		blacklist_bios_mod = ["botania"]
 
 	["Spatial Harvesters - Common Config: "."Dimensional Applicator Stats: "]
-		#Amplifier for the Dimensional Applicator (The final value will be this + 1.)
+		#Amplifier for the Dimensional Applicator (The final value will be this * the number of Space Rippers.)
 		#Range: > 0
 		amplifier_dimensional_applicator = 1
 		#Duration for the Dimensional Applicator (in ticks, 20 = one second, 220 = 11 seconds (Night Vision flashes at 10 or less)).
@@ -340,7 +340,7 @@
 	["Spatial Harvesters - Common Config: "."Custom Harvester Tags: "]
 		#Custom tags for the Stone Harvester.
 		custom_stone_tags = [["forge", "cobblestone"], ["forge", "sandstone"], ["forge", "end_stones"], ["forge", "netherrack"]]
-		#Note that this one uses block tags, rather than item tags, because most soil-like thinks are only tagged in their blocks.
+		#Note that this one uses block tags, rather than item tags, because most soil-like things are only tagged in their blocks.
 		custom_soil_tags = [["forge", "dirt"], ["forge", "sand"], ["forge", "gravel"]]
 		#Custom tags for the Bio Harvester.
 		custom_bio_tags = [["forge", "crops"], ["forge", "leather"], ["forge", "feathers"], ["forge", "seeds"], ["forge", "dyes"], ["forge", "bones"], ["forge", "rods_wooden"], ["minecraft", "small_flowers"], ["minecraft", "logs"], ["minecraft", "planks"], ["minecraft", "saplings"], ["minecraft", "leaves"]]

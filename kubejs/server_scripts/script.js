@@ -42,7 +42,7 @@ events.listen('recipes', event => {
     C: 'naturesaura:ancient_slab',
     D: 'naturesaura:ancient_stick'
     })
-    event.shaped(item.of('exnihilosequentia:mesh_string', {Damage:0}), [
+    event.shaped(item.of('exnihilosequentia:mesh_string', 1), [
     'ACA',
     'CBC',
     'ACA'
@@ -50,6 +50,24 @@ events.listen('recipes', event => {
     A: 'minecraft:string',
     B: item.of('naturesaura:aura_bottle', {stored_type:"naturesaura:overworld"}),
     C: item.of(item.of('pickletweaks:mesh', {Damage:0}))
+    })
+    event.shaped(item.of('exnihilosequentia:mesh_flint', 1), [
+    'ABA',
+    'BCB',
+    'ABA'
+  	], {
+    A: 'minecraft:flint',
+    B: 'moreplates:flint_gear',
+    C: item.of('exnihilosequentia:mesh_string', {Damage:0})
+    })
+    event.shaped(item.of('exnihilosequentia:mesh_iron', 1), [
+    'ABA',
+    'BCB',
+    'ABA'
+  	], {
+    A: 'create:iron_sheet',
+    B: 'naturesaura:infused_iron',
+    C: item.of('exnihilosequentia:mesh_flint', {Damage:0})
     })
 })
 
