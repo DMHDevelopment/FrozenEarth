@@ -119,6 +119,16 @@ events.listen('recipes', event => {
         B: 'ironchest:iron_chest'
     });
 
+    event.shaped(item.of('ironchest:gold_chest', 1), [
+        'AAA',
+        'CBC',
+        'AAA'
+    ], {
+        A: 'create:golden_sheet',
+        B: 'ironchest:iron_chest',
+        C: 'exnihilosequentia:chunk_gold'
+    });
+
     event.shaped(item.of('ironchest:silver_chest', 1), [
         'CAC',
         'ABA',
