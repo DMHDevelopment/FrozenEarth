@@ -62,7 +62,7 @@
 		#Range: > 10
 		"Oil Geyser Chance" = 2520
 		#Enable/Disable Oil Geysers
-		"Oil Geysers" = true
+		"Oil Geysers" = false
 
 	#Ore Generation
 	["World Generation"."Ore Generation"]

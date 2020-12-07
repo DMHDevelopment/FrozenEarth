@@ -274,6 +274,28 @@
 				type: "item",
 				item: "create:brass_sheet"
 			}]
+		},
+		{
+			title: "Storage uprgade",
+			x: 6.5d,
+			y: 6.5d,
+			description: [
+				"Hooray! With the advent of plates, I came up with a way to update my chests. Now I have much more space to store my precious resources.",
+				"",
+				"Hmm, what if you use more expensive metals? I might be able to create a larger chest. What if using diamonds as the main ingredient?"
+			],
+			dependencies: [I;261],
+			id: 264,
+			tasks: [{
+				id: 265,
+				type: "item",
+				item: "ironchest:iron_chest"
+			}],
+			rewards: [{
+				id: 266,
+				type: "item",
+				item: "minecraft:chest"
+			}]
 		}
 	]
 }
