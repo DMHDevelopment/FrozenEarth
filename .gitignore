@@ -18,3 +18,4 @@ usernamecache.json
 config/jei/*
 config/jei-client.toml
 servers.dat
+servers.dat_old
