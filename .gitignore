@@ -15,6 +15,6 @@ optionsof.txt
 optionsshaders.txt
 usercache.json
 usernamecache.json
-config/jei/bookmarks.ini
+config/jei/*
 config/jei-client.toml
 servers.dat
