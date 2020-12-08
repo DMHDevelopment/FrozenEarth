@@ -2,15 +2,35 @@
     "type": "exnihilosequentia:sieve",
     "rolls": [
         {
-            "chance": 0.8,
+            "chance": 0.85,
+            "mesh": "string"
+        },
+        {
+            "chance": 0.7,
             "mesh": "flint"
+        },
+        {
+            "chance": 0.55,
+            "mesh": "iron"
+        },
+        {
+            "chance": 0.4,
+            "mesh": "diamond"
+        },
+        {
+            "chance": 0.25,
+            "mesh": "emerald"
+        },
+        {
+            "chance": 0.1,
+            "mesh": "netherite"
         }
     ],
     "input": {
-        "item/tag": "minecraft:iron_ore"
+        "tag": "forge:ores/iron"
     },
     "result": {
-        "item": "exnihilosequentia:piece_iron"
+        "item": "exnihilosequentia:piece_iron",
     },
     "waterlogged": true
 }

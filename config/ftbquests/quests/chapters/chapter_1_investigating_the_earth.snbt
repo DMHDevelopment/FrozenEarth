@@ -588,6 +588,7 @@
 			}]
 		},
 		{
+			icon: "minecraft:oak_planks",
 			x: 0.5d,
 			y: 7.5d,
 			dependencies: [I;
@@ -1182,17 +1183,6 @@
 			}]
 		},
 		{
-			x: 5.5d,
-			y: 4.5d,
-			dependencies: [I;182],
-			id: 186,
-			tasks: [{
-				id: 187,
-				type: "item",
-				item: "naturesaura:infused_stone"
-			}]
-		},
-		{
 			x: 1.5d,
 			y: 3.5d,
 			dependencies: [I;178],
@@ -1204,6 +1194,13 @@
 			}]
 		},
 		{
+			icon: {
+				id: "naturesaura:infused_iron_chest",
+				Count: true,
+				tag: {
+					Damage: 0
+				}
+			},
 			x: 1.5d,
 			y: 2.5d,
 			dependencies: [I;
@@ -1211,19 +1208,74 @@
 				188
 			],
 			id: 190,
-			tasks: [{
-				id: 191,
-				type: "item",
-				item: {
-					id: "naturesaura:infused_iron_chest",
-					Count: true,
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: 285,
+					type: "item",
+					item: {
+						id: "naturesaura:infused_iron_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 286,
+					type: "item",
+					item: {
+						id: "naturesaura:infused_iron_chest",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 287,
+					type: "item",
+					item: {
+						id: "naturesaura:infused_iron_pants",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 288,
+					type: "item",
+					item: {
+						id: "naturesaura:infused_iron_shoes",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+			],
+			rewards: [
+				{
+					id: 295,
+					type: "item",
+					item: "minecraft:iron_ore",
+					count: 16
+				},
+				{
+					id: 296,
+					type: "item",
+					item: "naturesaura:color_changer"
+				}
+			]
 		},
 		{
+			icon: {
+				id: "naturesaura:infused_iron_pickaxe",
+				Count: true,
+				tag: {
+					Damage: 0
+				}
+			},
 			disable_toast: true,
 			x: 2.5d,
 			y: 2.5d,
@@ -1232,17 +1284,77 @@
 				188
 			],
 			id: 192,
-			tasks: [{
-				id: 193,
-				type: "item",
-				item: {
-					id: "naturesaura:infused_iron_pickaxe",
-					Count: true,
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: 193,
+					type: "item",
+					item: {
+						id: "naturesaura:infused_iron_pickaxe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 289,
+					type: "item",
+					item: {
+						id: "naturesaura:infused_iron_axe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 290,
+					type: "item",
+					item: {
+						id: "naturesaura:infused_iron_shovel",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 291,
+					type: "item",
+					item: {
+						id: "naturesaura:infused_iron_sword",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 292,
+					type: "item",
+					item: {
+						id: "naturesaura:infused_iron_hoe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+			],
+			rewards: [
+				{
+					id: 293,
+					type: "item",
+					item: "minecraft:iron_ore",
+					count: 8
+				},
+				{
+					id: 294,
+					type: "item",
+					item: "silents_mechanisms:copper_ore",
+					count: 8
+				}
+			]
 		},
 		{
 			x: 3.5d,
@@ -1278,6 +1390,13 @@
 			}]
 		},
 		{
+			icon: {
+				id: "survive:wool_hat",
+				Count: true,
+				tag: {
+					Damage: 0
+				}
+			},
 			x: -3.5d,
 			y: 1.5d,
 			dependencies: [I;207],
@@ -1389,6 +1508,7 @@
 			}]
 		},
 		{
+			icon: "minecraft:iron_ore",
 			x: 5.5d,
 			y: 3.5d,
 			dependencies: [I;211],
@@ -1423,6 +1543,43 @@
 				type: "item",
 				item: "thermal:copper_coin"
 			}]
+		},
+		{
+			icon: "minecraft:iron_ingot",
+			x: 4.5d,
+			y: 2.5d,
+			dependencies: [I;
+				218,
+				213,
+				221
+			],
+			id: 282,
+			tasks: [
+				{
+					id: 283,
+					type: "item",
+					title: "Any forge:ingots/copper",
+					item: {
+						id: "itemfilters:tag",
+						Count: true,
+						tag: {
+							value: "forge:ingots/copper"
+						}
+					}
+				},
+				{
+					id: 284,
+					type: "item",
+					title: "Any forge:ingots/iron",
+					item: {
+						id: "itemfilters:tag",
+						Count: true,
+						tag: {
+							value: "forge:ingots/iron"
+						}
+					}
+				}
+			]
 		}
 	]
 }

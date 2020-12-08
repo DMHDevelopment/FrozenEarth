@@ -1,3 +1,3 @@
 // priority: 0
 
-console.info('Hello, World! (You will see this line every time client resources reload)')
+console.info('Loading KubeJS weird scripts by DMH Development')

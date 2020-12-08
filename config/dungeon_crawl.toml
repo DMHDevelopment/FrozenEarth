@@ -5,6 +5,8 @@
 	enable_tools = false
 	#This option will make pre-2.0.0 worlds playable with version 2.0.0 and later.
 	enable_dummy_pieces = false
+	#Enables extended debug logging to help detecting potential errors. This is enabled by default.
+	extended_debug = true
 
 #World Generation Settings
 [world_generation]

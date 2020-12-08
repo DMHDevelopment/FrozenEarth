@@ -2,12 +2,24 @@
     "type": "exnihilosequentia:sieve",
     "rolls": [
         {
-            "chance": 0.8,
+            "chance": 0.9,
             "mesh": "string"
+        },
+        {
+            "chance": 0.8,
+            "mesh": "flint"
+        },
+        {
+            "chance": 0.7,
+            "mesh": "iron"
+        },
+        {
+            "chance": 0.6,
+            "mesh": "diamond"
         }
     ],
     "input": {
-        "item/tag": "create:copper_ore"
+        "tag": "forge:ores/copper"
     },
     "result": {
         "item": "exnihilosequentia:piece_copper"
