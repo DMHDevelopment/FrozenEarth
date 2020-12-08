@@ -131,8 +131,8 @@
 			description: [
 				"Windmill is more complicated way of force generation. Much more potent as well.",
 				"",
-				"Connect Rotational Chassis to the Windmill, glue its sides with a slimeball and build blades of wool around the chassis. Make sure they have chain connection to the chassis.",
-				"",
+				"Connect Radial Chassis to the Windmill, glue its sides with a slimeball and build blades of wool around the chassis. Make sure they have chain connection to the chassis.",
+				"Windmill blades can also be built of Sails. They're special. They don't need any chassis. They connect to first dynamic structure they contact, so you don't even need a slimeball. It's cheaper than using rough wool.",
 				"Click the main block with RMB to activate Windmill."
 			],
 			hide_dependency_lines: true,
@@ -147,8 +147,9 @@
 				{
 					id: 242,
 					type: "item",
-					item: "create:radial_chassis",
-					count: 3
+					item: "minecraft:white_wool",
+					count: 8,
+					random_bonus: 8
 				},
 				{
 					id: 243,
@@ -175,7 +176,12 @@
 			y: 2.5d,
 			description: ["Quite useful tool if you need automated tree farm. It cuts whole tree in front of itself. Can also increase quantity of planks got from wood."],
 			hide_dependency_lines: true,
-			dependencies: [I;234],
+			dependencies: [I;
+				234,
+				240,
+				244
+			],
+			dependency_requirement: "one_completed",
 			id: 246,
 			tasks: [{
 				id: 247,
@@ -187,7 +193,12 @@
 			x: 7.5d,
 			y: 3.5d,
 			hide_dependency_lines: true,
-			dependencies: [I;234],
+			dependencies: [I;
+				234,
+				240,
+				244
+			],
+			dependency_requirement: "one_completed",
 			id: 248,
 			tasks: [{
 				id: 249,
@@ -199,7 +210,12 @@
 			x: 7.5d,
 			y: 4.5d,
 			hide_dependency_lines: true,
-			dependencies: [I;234],
+			dependencies: [I;
+				234,
+				240,
+				244
+			],
+			dependency_requirement: "one_completed",
 			id: 250,
 			tasks: [{
 				id: 251,
@@ -217,7 +233,12 @@
 			x: 8.5d,
 			y: 4.5d,
 			hide_dependency_lines: true,
-			dependencies: [I;234],
+			dependencies: [I;
+				234,
+				240,
+				244
+			],
+			dependency_requirement: "one_completed",
 			id: 252,
 			tasks: [{
 				id: 253,
@@ -233,7 +254,12 @@
 		{
 			x: 6.5d,
 			y: 3.5d,
-			dependencies: [I;234],
+			dependencies: [I;
+				234,
+				240,
+				244
+			],
+			dependency_requirement: "one_completed",
 			id: 255,
 			tasks: [{
 				id: 256,
@@ -276,7 +302,7 @@
 			}]
 		},
 		{
-			title: "Storage uprgade",
+			title: "Storage Uprgade",
 			x: 6.5d,
 			y: 6.5d,
 			description: [
@@ -295,6 +321,86 @@
 				id: 266,
 				type: "item",
 				item: "minecraft:chest"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 0.5d,
+			id: 267,
+			tasks: [{
+				id: 268,
+				type: "item",
+				item: "create:mechanical_bearing"
+			}]
+		},
+		{
+			icon: "create:sticky_mechanical_piston",
+			x: 4.5d,
+			y: 0.5d,
+			id: 271,
+			tasks: [
+				{
+					id: 272,
+					type: "item",
+					item: "create:sticky_mechanical_piston"
+				},
+				{
+					id: 275,
+					type: "item",
+					item: "create:piston_extension_pole",
+					count: 8L
+				}
+			],
+			rewards: [
+				{
+					id: 276,
+					type: "item",
+					item: "create:cogwheel",
+					count: 16
+				},
+				{
+					id: 277,
+					type: "item",
+					item: "create:large_cogwheel",
+					count: 8
+				}
+			]
+		},
+		{
+			x: 5.5d,
+			y: 0.5d,
+			id: 273,
+			tasks: [{
+				id: 274,
+				type: "item",
+				item: "create:rope_pulley"
+			}]
+		},
+		{
+			x: 8.5d,
+			y: 2.5d,
+			hide_dependency_lines: true,
+			dependencies: [I;
+				237,
+				240,
+				244
+			],
+			dependency_requirement: "one_completed",
+			id: 278,
+			tasks: [{
+				id: 279,
+				type: "item",
+				item: "create:mechanical_plough"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -0.5d,
+			id: 280,
+			tasks: [{
+				id: 281,
+				type: "item",
+				item: "create:turntable"
 			}]
 		}
 	]

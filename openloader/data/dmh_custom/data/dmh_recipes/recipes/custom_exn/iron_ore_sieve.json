@@ -3,7 +3,7 @@
     "rolls": [
         {
             "chance": 0.8,
-            "mesh": "string"
+            "mesh": "flint"
         }
     ],
     "input": {
