@@ -1490,7 +1490,7 @@
 			}]
 		},
 		{
-			x: 5.5d,
+			x: 6.5d,
 			y: 2.5d,
 			dependencies: [I;211],
 			id: 218,
@@ -1546,14 +1546,14 @@
 		},
 		{
 			icon: "minecraft:iron_ingot",
-			x: 7.5d,
-			y: 3.5d,
+			x: 7.0d,
+			y: 4.0d,
 			dependencies: [I;
 				218,
 				213,
 				221
 			],
-			size: 1.5d,
+			size: 2.0d,
 			id: 282,
 			tasks: [
 				{
@@ -1583,8 +1583,9 @@
 			]
 		},
 		{
-			x: 9.0d,
+			x: 8.5d,
 			y: 3.5d,
+			dependencies: [I;282],
 			id: 297,
 			tasks: [{
 				id: 298,
@@ -1600,23 +1601,94 @@
 			}]
 		},
 		{
-			x: 9.0d,
-			y: 4.5d,
+			x: 10.5d,
+			y: 3.5d,
+			dependencies: [I;301],
 			id: 299,
 			tasks: [{
 				id: 300,
 				type: "item",
-				item: "storagedrawers:compacting_drawers_3"
+				item: "storagedrawers:controller"
 			}]
 		},
 		{
-			x: 9.0d,
-			y: 5.5d,
+			x: 9.5d,
+			y: 3.5d,
+			dependencies: [I;297],
 			id: 301,
 			tasks: [{
 				id: 302,
 				type: "item",
 				item: "storagedrawers:compacting_drawers_3"
+			}]
+		},
+		{
+			x: 8.5d,
+			y: 5.5d,
+			dependencies: [I;
+				172,
+				297
+			],
+			id: 303,
+			tasks: [{
+				id: 304,
+				type: "item",
+				item: "storagedrawers:drawer_key"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 2.5d,
+			dependencies: [I;282],
+			id: 305,
+			tasks: [{
+				id: 306,
+				type: "item",
+				item: "farmingforblockheads:market"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 1.5d,
+			dependencies: [I;305],
+			id: 307,
+			tasks: [{
+				id: 308,
+				type: "item",
+				item: "farmingforblockheads:green_fertilizer"
+			}]
+		},
+		{
+			x: 8.5d,
+			y: 1.5d,
+			dependencies: [I;305],
+			id: 309,
+			tasks: [{
+				id: 310,
+				type: "item",
+				item: "farmingforblockheads:red_fertilizer"
+			}]
+		},
+		{
+			x: 8.5d,
+			y: 2.5d,
+			dependencies: [I;305],
+			id: 311,
+			tasks: [{
+				id: 312,
+				type: "item",
+				item: "farmingforblockheads:yellow_fertilizer"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 6.5d,
+			dependencies: [I;85],
+			id: 313,
+			tasks: [{
+				id: 314,
+				type: "item",
+				item: "survive:canteen"
 			}]
 		}
 	]
