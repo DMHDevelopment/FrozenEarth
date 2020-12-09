@@ -52,12 +52,11 @@ events.listen('recipes', event => {
         C: item.of(item.of('pickletweaks:mesh', {Damage: 0}))
     });
     event.shaped(item.of('exnihilosequentia:mesh_flint', 1), [
-        'ABA',
-        'BCB',
-        'ABA'
+        'AAA',
+        'ACA',
+        'AAA'
     ], {
         A: 'minecraft:flint',
-        B: 'moreplates:flint_gear',
         C: item.of('exnihilosequentia:mesh_string', {Damage: 0})
     });
     event.shaped(item.of('exnihilosequentia:mesh_iron', 1), [
@@ -153,7 +152,7 @@ events.listen('recipes', event => {
         ' B ',
         'A A'
     ], {
-        A: 'moreplates:diamond_plate',
+        A: '#forge:gears/diamond',
         B: 'ironchest:silver_chest'
     });
 
@@ -162,7 +161,7 @@ events.listen('recipes', event => {
         'ABA',
         ' A '
     ], {
-        A: 'moreplates:diamond_plate',
+        A: '#forge:gears/diamond',
         B: 'ironchest:silver_chest'
     });
 
@@ -171,7 +170,7 @@ events.listen('recipes', event => {
         ' B ',
         ' A '
     ], {
-        A: 'moreplates:diamond_plate',
+        A: '#forge:gears/diamond',
         B: 'ironchest:gold_chest'
     });
 
@@ -180,7 +179,7 @@ events.listen('recipes', event => {
         'ABA',
         '   '
     ], {
-        A: 'moreplates:diamond_plate',
+        A: '#forge:gears/diamond',
         B: 'ironchest:gold_chest'
     });
 
@@ -262,7 +261,7 @@ events.listen('recipes', event => {
         'ABA',
         '   '
     ], {
-        A: 'moreplates:diamond_plate',
+        A: '#forge:gears/diamond',
         B: 'create:gold_sheet'
     });
 
@@ -271,7 +270,7 @@ events.listen('recipes', event => {
         ' B ',
         ' A '
     ], {
-        A: 'moreplates:diamond_plate',
+        A: '#forge:gears/diamond',
         B: 'create:gold_sheet'
     });
 
@@ -281,7 +280,7 @@ events.listen('recipes', event => {
         'AAA'
     ], {
         A: '#forge:glass',
-        B: 'moreplates:diamond_plate'
+        B: '#forge:gears/diamond'
     });
 
     event.shaped(item.of('ironchest:diamond_to_obsidian_chest_upgrade', 1), [
@@ -290,7 +289,7 @@ events.listen('recipes', event => {
         'AAA'
     ], {
         A: '#forge:obsidian',
-        B: 'moreplates:diamond_plate'
+        B: '#forge:gears/diamond'
     });
 });
 

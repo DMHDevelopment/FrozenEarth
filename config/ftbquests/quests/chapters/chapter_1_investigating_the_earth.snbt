@@ -1449,8 +1449,8 @@
 			]
 		},
 		{
-			x: 4.5d,
-			y: 4.5d,
+			x: 3.5d,
+			y: 3.5d,
 			dependencies: [I;180],
 			id: 211,
 			tasks: [
@@ -1479,7 +1479,7 @@
 			]
 		},
 		{
-			x: 3.5d,
+			x: 5.5d,
 			y: 3.5d,
 			dependencies: [I;188],
 			id: 213,
@@ -1490,8 +1490,8 @@
 			}]
 		},
 		{
-			x: 4.5d,
-			y: 3.5d,
+			x: 5.5d,
+			y: 2.5d,
 			dependencies: [I;211],
 			id: 218,
 			tasks: [{
@@ -1510,7 +1510,7 @@
 		{
 			icon: "minecraft:iron_ore",
 			x: 5.5d,
-			y: 3.5d,
+			y: 4.5d,
 			dependencies: [I;211],
 			id: 221,
 			tasks: [{
@@ -1546,13 +1546,14 @@
 		},
 		{
 			icon: "minecraft:iron_ingot",
-			x: 4.5d,
-			y: 2.5d,
+			x: 7.5d,
+			y: 3.5d,
 			dependencies: [I;
 				218,
 				213,
 				221
 			],
+			size: 1.5d,
 			id: 282,
 			tasks: [
 				{
@@ -1580,6 +1581,43 @@
 					}
 				}
 			]
+		},
+		{
+			x: 9.0d,
+			y: 3.5d,
+			id: 297,
+			tasks: [{
+				id: 298,
+				type: "item",
+				title: "Any storagedrawers:drawers",
+				item: {
+					id: "itemfilters:tag",
+					Count: true,
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+			}]
+		},
+		{
+			x: 9.0d,
+			y: 4.5d,
+			id: 299,
+			tasks: [{
+				id: 300,
+				type: "item",
+				item: "storagedrawers:compacting_drawers_3"
+			}]
+		},
+		{
+			x: 9.0d,
+			y: 5.5d,
+			id: 301,
+			tasks: [{
+				id: 302,
+				type: "item",
+				item: "storagedrawers:compacting_drawers_3"
+			}]
 		}
 	]
 }
