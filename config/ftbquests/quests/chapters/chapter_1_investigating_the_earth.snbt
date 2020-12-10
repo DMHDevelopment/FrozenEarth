@@ -1383,19 +1383,27 @@
 			icon: "minecraft:white_wool",
 			x: 0.5d,
 			y: 1.5d,
+			description: ["Strings can be packed into wool. This is very cold place, so I need some wool to get my first heat protection for my body."],
 			dependencies: [I;49],
 			id: 207,
 			tasks: [{
 				id: 208,
 				type: "item",
-				title: "Any minecraft:wool",
+				title: "Wool",
 				item: {
 					id: "itemfilters:tag",
 					Count: true,
 					tag: {
 						value: "minecraft:wool"
 					}
-				}
+				},
+				count: 4L
+			}],
+			rewards: [{
+				id: 315,
+				type: "item",
+				item: "minecraft:white_wool",
+				count: 2
 			}]
 		},
 		{

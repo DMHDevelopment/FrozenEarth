@@ -6,7 +6,7 @@
 	icon: "create:gearbox",
 	default_quest_shape: "",
 	images: [{
-		x: 4.0d,
+		x: 3.5d,
 		y: -0.5d,
 		width: 20.0d,
 		height: 4.0d,
@@ -19,7 +19,7 @@
 	quests: [
 		{
 			title: "Revolution Threshold",
-			x: -7.0d,
+			x: -6.25d,
 			y: 5.0d,
 			shape: "gear",
 			description: [
@@ -28,6 +28,7 @@
 				"Time to Create!"
 			],
 			dependencies: [I;282],
+			size: 1.5d,
 			id: 203,
 			tasks: [{
 				id: 204,
@@ -43,7 +44,7 @@
 			}]
 		},
 		{
-			x: -6.0d,
+			x: -5.0d,
 			y: 5.5d,
 			description: [
 				"Rotational force conductors.",
@@ -66,7 +67,7 @@
 			}]
 		},
 		{
-			x: -6.0d,
+			x: -5.0d,
 			y: 4.5d,
 			description: ["Cogs are used for rotational force transfering and inversion."],
 			dependencies: [I;203],
@@ -101,7 +102,7 @@
 			]
 		},
 		{
-			x: -5.0d,
+			x: -4.0d,
 			y: 5.0d,
 			description: ["Rotational force relay. I can turn it."],
 			dependencies: [I;
@@ -116,7 +117,7 @@
 			}]
 		},
 		{
-			x: -4.0d,
+			x: -3.0d,
 			y: 5.0d,
 			description: [
 				"Water Wheels are used as rotational force generators. Supply them with water flow and receive some power. Not really that much.",
@@ -138,7 +139,7 @@
 			}]
 		},
 		{
-			x: -4.0d,
+			x: -3.0d,
 			y: 4.0d,
 			description: [
 				"Windmill is more complicated way of force generation. Much more potent as well.",
@@ -171,7 +172,7 @@
 			]
 		},
 		{
-			x: -4.0d,
+			x: -3.0d,
 			y: 6.0d,
 			description: ["Simple rotational force generator. Hold RMB to generate rotational force. Shift+RMB to inverse direction."],
 			hide_dependency_lines: false,
@@ -184,7 +185,7 @@
 			}]
 		},
 		{
-			x: -0.5d,
+			x: 0.5d,
 			y: 4.0d,
 			description: ["Quite useful tool if you need automated tree farm. It cuts whole tree in front of itself. Can also increase quantity of planks got from wood."],
 			hide_dependency_lines: true,
@@ -202,7 +203,7 @@
 			}]
 		},
 		{
-			x: -1.0d,
+			x: 0.0d,
 			y: 5.0d,
 			dependencies: [I;
 				234,
@@ -218,7 +219,7 @@
 			}]
 		},
 		{
-			x: -0.5d,
+			x: 0.5d,
 			y: 6.0d,
 			hide_dependency_lines: true,
 			dependencies: [I;
@@ -241,7 +242,7 @@
 			}]
 		},
 		{
-			x: 0.5d,
+			x: 1.5d,
 			y: 6.0d,
 			hide_dependency_lines: true,
 			dependencies: [I;
@@ -263,7 +264,7 @@
 			}]
 		},
 		{
-			x: -3.0d,
+			x: -2.0d,
 			y: 5.0d,
 			dependencies: [I;
 				234,
@@ -285,7 +286,7 @@
 			}]
 		},
 		{
-			x: -6.0d,
+			x: -5.0d,
 			y: 7.0d,
 			description: ["Mechanical Belts are either conveyors or force conductors. Connect two shafts with Mechanical Belt and look how it works. Shafts must oppose each other along one axis."],
 			dependencies: [I;228],
@@ -299,7 +300,7 @@
 		},
 		{
 			title: "New Era",
-			x: 0.0d,
+			x: 1.0d,
 			y: 7.0d,
 			dependencies: [I;
 				250,
@@ -314,7 +315,7 @@
 		},
 		{
 			title: "Storage Uprgade",
-			x: 0.0d,
+			x: 1.0d,
 			y: 8.0d,
 			description: [
 				"Hooray! With the advent of plates, I came up with a way to update my chests. Now I have much more space to store my precious resources.",
@@ -388,7 +389,7 @@
 			}]
 		},
 		{
-			x: 0.5d,
+			x: 1.5d,
 			y: 4.0d,
 			hide_dependency_lines: true,
 			dependencies: [I;
