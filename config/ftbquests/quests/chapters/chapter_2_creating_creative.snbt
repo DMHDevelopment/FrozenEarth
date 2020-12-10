@@ -1,21 +1,33 @@
 {
 	id: 202,
 	filename: "chapter_2_creating_creative",
-	order_index: 3,
+	order_index: 0,
 	title: "Chapter 2: Creating Creative",
 	icon: "create:gearbox",
 	default_quest_shape: "",
+	images: [{
+		x: 4.0d,
+		y: -0.5d,
+		width: 20.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "frozen_earth:textures/frozen_earth_chapter_2.png",
+		hover: [],
+		click: "",
+		dev: false
+	}],
 	quests: [
 		{
 			title: "Revolution Threshold",
-			x: 0.0d,
-			y: 3.5d,
+			x: -7.0d,
+			y: 5.0d,
 			shape: "gear",
 			description: [
 				"I no longer depend on desperate survival. Now I can focus of my further perspectives. It's time to start common purpose automation.",
 				"",
 				"Time to Create!"
 			],
+			dependencies: [I;282],
 			id: 203,
 			tasks: [{
 				id: 204,
@@ -31,8 +43,8 @@
 			}]
 		},
 		{
-			x: 1.5d,
-			y: 4.0d,
+			x: -6.0d,
+			y: 5.5d,
 			description: [
 				"Rotational force conductors.",
 				"",
@@ -54,8 +66,8 @@
 			}]
 		},
 		{
-			x: 1.5d,
-			y: 3.0d,
+			x: -6.0d,
+			y: 4.5d,
 			description: ["Cogs are used for rotational force transfering and inversion."],
 			dependencies: [I;203],
 			id: 230,
@@ -89,8 +101,8 @@
 			]
 		},
 		{
-			x: 3.0d,
-			y: 3.5d,
+			x: -5.0d,
+			y: 5.0d,
 			description: ["Rotational force relay. I can turn it."],
 			dependencies: [I;
 				230,
@@ -104,8 +116,8 @@
 			}]
 		},
 		{
-			x: 4.5d,
-			y: 3.5d,
+			x: -4.0d,
+			y: 5.0d,
 			description: [
 				"Water Wheels are used as rotational force generators. Supply them with water flow and receive some power. Not really that much.",
 				"",
@@ -126,8 +138,8 @@
 			}]
 		},
 		{
-			x: 4.5d,
-			y: 2.5d,
+			x: -4.0d,
+			y: 4.0d,
 			description: [
 				"Windmill is more complicated way of force generation. Much more potent as well.",
 				"",
@@ -135,7 +147,7 @@
 				"Windmill blades can also be built of Sails. They're special. They don't need any chassis. They connect to first dynamic structure they contact, so you don't even need a slimeball. It's cheaper than using rough wool.",
 				"Click the main block with RMB to activate Windmill."
 			],
-			hide_dependency_lines: true,
+			hide_dependency_lines: false,
 			dependencies: [I;234],
 			id: 240,
 			tasks: [{
@@ -159,10 +171,10 @@
 			]
 		},
 		{
-			x: 4.5d,
-			y: 4.5d,
+			x: -4.0d,
+			y: 6.0d,
 			description: ["Simple rotational force generator. Hold RMB to generate rotational force. Shift+RMB to inverse direction."],
-			hide_dependency_lines: true,
+			hide_dependency_lines: false,
 			dependencies: [I;234],
 			id: 244,
 			tasks: [{
@@ -172,8 +184,8 @@
 			}]
 		},
 		{
-			x: 7.5d,
-			y: 2.5d,
+			x: -0.5d,
+			y: 4.0d,
 			description: ["Quite useful tool if you need automated tree farm. It cuts whole tree in front of itself. Can also increase quantity of planks got from wood."],
 			hide_dependency_lines: true,
 			dependencies: [I;
@@ -190,9 +202,8 @@
 			}]
 		},
 		{
-			x: 7.5d,
-			y: 3.5d,
-			hide_dependency_lines: true,
+			x: -1.0d,
+			y: 5.0d,
 			dependencies: [I;
 				234,
 				240,
@@ -207,8 +218,8 @@
 			}]
 		},
 		{
-			x: 7.5d,
-			y: 4.5d,
+			x: -0.5d,
+			y: 6.0d,
 			hide_dependency_lines: true,
 			dependencies: [I;
 				234,
@@ -230,8 +241,8 @@
 			}]
 		},
 		{
-			x: 8.5d,
-			y: 4.5d,
+			x: 0.5d,
+			y: 6.0d,
 			hide_dependency_lines: true,
 			dependencies: [I;
 				234,
@@ -252,8 +263,8 @@
 			}]
 		},
 		{
-			x: 6.5d,
-			y: 3.5d,
+			x: -3.0d,
+			y: 5.0d,
 			dependencies: [I;
 				234,
 				240,
@@ -274,8 +285,8 @@
 			}]
 		},
 		{
-			x: 1.5d,
-			y: 6.0d,
+			x: -6.0d,
+			y: 7.0d,
 			description: ["Mechanical Belts are either conveyors or force conductors. Connect two shafts with Mechanical Belt and look how it works. Shafts must oppose each other along one axis."],
 			dependencies: [I;228],
 			id: 259,
@@ -288,8 +299,8 @@
 		},
 		{
 			title: "New Era",
-			x: 8.0d,
-			y: 6.5d,
+			x: 0.0d,
+			y: 7.0d,
 			dependencies: [I;
 				250,
 				252
@@ -303,8 +314,8 @@
 		},
 		{
 			title: "Storage Uprgade",
-			x: 6.5d,
-			y: 6.5d,
+			x: 0.0d,
+			y: 8.0d,
 			description: [
 				"Hooray! With the advent of plates, I came up with a way to update my chests. Now I have much more space to store my precious resources.",
 				"",
@@ -324,8 +335,8 @@
 			}]
 		},
 		{
-			x: 3.5d,
-			y: 0.5d,
+			x: -3.0d,
+			y: 2.0d,
 			id: 267,
 			tasks: [{
 				id: 268,
@@ -335,8 +346,8 @@
 		},
 		{
 			icon: "create:sticky_mechanical_piston",
-			x: 4.5d,
-			y: 0.5d,
+			x: -2.0d,
+			y: 2.0d,
 			id: 271,
 			tasks: [
 				{
@@ -367,8 +378,8 @@
 			]
 		},
 		{
-			x: 5.5d,
-			y: 0.5d,
+			x: -1.0d,
+			y: 2.0d,
 			id: 273,
 			tasks: [{
 				id: 274,
@@ -377,8 +388,8 @@
 			}]
 		},
 		{
-			x: 8.5d,
-			y: 2.5d,
+			x: 0.5d,
+			y: 4.0d,
 			hide_dependency_lines: true,
 			dependencies: [I;
 				237,
@@ -394,8 +405,8 @@
 			}]
 		},
 		{
-			x: 3.5d,
-			y: -0.5d,
+			x: -3.0d,
+			y: 1.0d,
 			id: 280,
 			tasks: [{
 				id: 281,

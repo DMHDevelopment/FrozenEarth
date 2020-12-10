@@ -1,7 +1,7 @@
 {
 	id: 24,
 	filename: "chapter_1_investigating_the_earth",
-	order_index: 2,
+	order_index: 0,
 	title: "Chapter 1: Investigating The Earth",
 	icon: "terraqueous:doodad_branch",
 	default_quest_shape: "",
@@ -1379,25 +1379,35 @@
 			}]
 		},
 		{
-			x: -2.5d,
+			title: "(String) -> Wool.color(any)",
+			icon: "minecraft:white_wool",
+			x: 0.5d,
 			y: 1.5d,
-			dependencies: [I;25],
+			dependencies: [I;49],
 			id: 207,
 			tasks: [{
 				id: 208,
 				type: "item",
-				item: "minecraft:white_wool"
+				title: "Any minecraft:wool",
+				item: {
+					id: "itemfilters:tag",
+					Count: true,
+					tag: {
+						value: "minecraft:wool"
+					}
+				}
 			}]
 		},
 		{
+			title: "Stable Temperature",
 			icon: {
-				id: "survive:wool_hat",
+				id: "survive:wool_jacket",
 				Count: true,
 				tag: {
 					Damage: 0
 				}
 			},
-			x: -3.5d,
+			x: 1.5d,
 			y: 1.5d,
 			dependencies: [I;207],
 			id: 209,
@@ -1545,6 +1555,7 @@
 			}]
 		},
 		{
+			title: "Ironical Iron",
 			icon: "minecraft:iron_ingot",
 			x: 7.0d,
 			y: 4.0d,
@@ -1601,8 +1612,8 @@
 			}]
 		},
 		{
-			x: 10.5d,
-			y: 3.5d,
+			x: 9.5d,
+			y: 2.5d,
 			dependencies: [I;301],
 			id: 299,
 			tasks: [{
