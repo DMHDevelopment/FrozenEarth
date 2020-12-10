@@ -7,7 +7,7 @@
 	default_quest_shape: "",
 	images: [{
 		x: 3.5d,
-		y: -0.5d,
+		y: -1.5d,
 		width: 20.0d,
 		height: 4.0d,
 		rotation: 0.0d,
@@ -140,7 +140,7 @@
 		},
 		{
 			x: -3.0d,
-			y: 4.0d,
+			y: 6.0d,
 			description: [
 				"Windmill is more complicated way of force generation. Much more potent as well.",
 				"",
@@ -173,28 +173,22 @@
 		},
 		{
 			x: -3.0d,
-			y: 6.0d,
+			y: 4.0d,
 			description: ["Simple rotational force generator. Hold RMB to generate rotational force. Shift+RMB to inverse direction."],
-			hide_dependency_lines: false,
 			dependencies: [I;234],
 			id: 244,
 			tasks: [{
-				id: 245,
+				id: 333,
 				type: "item",
-				item: "create:copper_valve_handle"
+				item: "create:hand_crank"
 			}]
 		},
 		{
-			x: 0.5d,
-			y: 4.0d,
+			x: 2.5d,
+			y: 6.5d,
 			description: ["Quite useful tool if you need automated tree farm. It cuts whole tree in front of itself. Can also increase quantity of planks got from wood."],
 			hide_dependency_lines: true,
-			dependencies: [I;
-				234,
-				240,
-				244
-			],
-			dependency_requirement: "one_completed",
+			dependencies: [I;322],
 			id: 246,
 			tasks: [{
 				id: 247,
@@ -203,14 +197,10 @@
 			}]
 		},
 		{
-			x: 0.0d,
-			y: 5.0d,
-			dependencies: [I;
-				234,
-				240,
-				244
-			],
-			dependency_requirement: "one_completed",
+			x: 1.5d,
+			y: 6.5d,
+			hide_dependency_lines: true,
+			dependencies: [I;322],
 			id: 248,
 			tasks: [{
 				id: 249,
@@ -219,15 +209,10 @@
 			}]
 		},
 		{
-			x: 0.5d,
-			y: 6.0d,
+			x: 2.5d,
+			y: 10.5d,
 			hide_dependency_lines: true,
-			dependencies: [I;
-				234,
-				240,
-				244
-			],
-			dependency_requirement: "one_completed",
+			dependencies: [I;320],
 			id: 250,
 			tasks: [{
 				id: 251,
@@ -242,8 +227,8 @@
 			}]
 		},
 		{
-			x: 1.5d,
-			y: 6.0d,
+			x: 2.5d,
+			y: 9.5d,
 			hide_dependency_lines: true,
 			dependencies: [I;
 				234,
@@ -264,14 +249,10 @@
 			}]
 		},
 		{
-			x: -2.0d,
-			y: 5.0d,
-			dependencies: [I;
-				234,
-				240,
-				244
-			],
-			dependency_requirement: "one_completed",
+			x: 1.5d,
+			y: 9.5d,
+			hide_dependency_lines: true,
+			dependencies: [I;320],
 			id: 255,
 			tasks: [{
 				id: 256,
@@ -287,7 +268,7 @@
 		},
 		{
 			x: -5.0d,
-			y: 7.0d,
+			y: 8.0d,
 			description: ["Mechanical Belts are either conveyors or force conductors. Connect two shafts with Mechanical Belt and look how it works. Shafts must oppose each other along one axis."],
 			dependencies: [I;228],
 			id: 259,
@@ -300,8 +281,9 @@
 		},
 		{
 			title: "New Era",
-			x: 1.0d,
-			y: 7.0d,
+			x: 4.0d,
+			y: 10.0d,
+			shape: "gear",
 			dependencies: [I;
 				250,
 				252
@@ -311,12 +293,26 @@
 				id: 262,
 				type: "item",
 				item: "create:brass_sheet"
-			}]
+			}],
+			rewards: [
+				{
+					id: 324,
+					type: "item",
+					item: "minecraft:quartz",
+					count: 16
+				},
+				{
+					id: 325,
+					type: "item",
+					item: "minecraft:redstone",
+					count: 32
+				}
+			]
 		},
 		{
 			title: "Storage Uprgade",
-			x: 1.0d,
-			y: 8.0d,
+			x: 5.5d,
+			y: 9.5d,
 			description: [
 				"Hooray! With the advent of plates, I came up with a way to update my chests. Now I have much more space to store my precious resources.",
 				"",
@@ -336,8 +332,10 @@
 			}]
 		},
 		{
-			x: -3.0d,
-			y: 2.0d,
+			x: 1.5d,
+			y: 3.5d,
+			hide_dependency_lines: true,
+			dependencies: [I;326],
 			id: 267,
 			tasks: [{
 				id: 268,
@@ -347,8 +345,10 @@
 		},
 		{
 			icon: "create:sticky_mechanical_piston",
-			x: -2.0d,
-			y: 2.0d,
+			x: 1.5d,
+			y: 4.5d,
+			hide_dependency_lines: true,
+			dependencies: [I;326],
 			id: 271,
 			tasks: [
 				{
@@ -379,8 +379,10 @@
 			]
 		},
 		{
-			x: -1.0d,
-			y: 2.0d,
+			x: 2.5d,
+			y: 3.5d,
+			hide_dependency_lines: true,
+			dependencies: [I;326],
 			id: 273,
 			tasks: [{
 				id: 274,
@@ -390,14 +392,9 @@
 		},
 		{
 			x: 1.5d,
-			y: 4.0d,
+			y: 7.5d,
 			hide_dependency_lines: true,
-			dependencies: [I;
-				237,
-				240,
-				244
-			],
-			dependency_requirement: "one_completed",
+			dependencies: [I;322],
 			id: 278,
 			tasks: [{
 				id: 279,
@@ -406,13 +403,123 @@
 			}]
 		},
 		{
-			x: -3.0d,
-			y: 1.0d,
+			x: 2.5d,
+			y: 4.5d,
+			description: ["This thing allows you to feel sick. Has best effect if combined with jukebox."],
+			hide_dependency_lines: true,
+			dependencies: [I;326],
 			id: 280,
 			tasks: [{
 				id: 281,
 				type: "item",
 				item: "create:turntable"
+			}],
+			rewards: [
+				{
+					id: 318,
+					type: "item",
+					item: "minecraft:jukebox"
+				},
+				{
+					id: 319,
+					type: "item",
+					item: "minecraft:music_disc_mellohi"
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: 7.5d,
+			hide_dependency_lines: true,
+			dependencies: [I;322],
+			id: 316,
+			tasks: [{
+				id: 317,
+				type: "item",
+				item: "create:mechanical_harvester"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 10.0d,
+			shape: "circle",
+			hide_dependency_lines: true,
+			dependencies: [I;
+				240,
+				237,
+				244
+			],
+			id: 320,
+			tasks: [{
+				id: 321,
+				type: "checkmark",
+				title: "Processing Machines"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 7.0d,
+			shape: "circle",
+			hide_dependency_lines: true,
+			dependencies: [I;
+				240,
+				237,
+				244
+			],
+			dependency_requirement: "one_completed",
+			id: 322,
+			tasks: [{
+				id: 323,
+				type: "checkmark",
+				title: "Harvesting Machines"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 4.0d,
+			shape: "circle",
+			hide_dependency_lines: true,
+			dependencies: [I;
+				240,
+				237,
+				244
+			],
+			dependency_requirement: "one_completed",
+			id: 326,
+			tasks: [{
+				id: 327,
+				type: "checkmark",
+				title: "Create Dynamics"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 10.5d,
+			dependencies: [I;261],
+			id: 328,
+			tasks: [{
+				id: 329,
+				type: "item",
+				item: "create:mechanical_crafter",
+				count: 9L
+			}],
+			rewards: [{
+				id: 330,
+				type: "item",
+				item: "minecraft:sugar_cane",
+				count: 24
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 10.5d,
+			dependencies: [I;328],
+			id: 331,
+			tasks: [{
+				id: 332,
+				type: "item",
+				item: "create:crushing_wheel",
+				count: 2L
 			}]
 		}
 	]
