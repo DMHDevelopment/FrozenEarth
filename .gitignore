@@ -20,6 +20,3 @@ config/jei-client.toml
 servers.dat
 servers.dat_old
 config/appliedenergistics2-client.toml
-schematics/uploaded/insane_dude/my_schematic_2.nbt
-schematics/uploaded/insane_dude/my_schematic_1.nbt
-schematics/uploaded/insane_dude/my_schematic.nbt
