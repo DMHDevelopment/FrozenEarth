@@ -1,7 +1,7 @@
 
 [sleep]
 	#Disabling this will disable this mods sleep management system
-	"Enable Sleep" = true
+	"Enable Sleep" = false
 	#The amount of ticks after the player has not slept before The tiredness effect starts to manifest
 	#Range: 0 ~ 240000
 	"Initial Tired Time" = 96000
