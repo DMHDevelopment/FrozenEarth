@@ -1,7 +1,7 @@
 {
 	id: 202,
 	filename: "chapter_2_creating_creative",
-	order_index: 0,
+	order_index: 3,
 	title: "Chapter 2: Creating Creative",
 	icon: "create:gearbox",
 	default_quest_shape: "",

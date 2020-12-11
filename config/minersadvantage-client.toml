@@ -86,7 +86,7 @@
 	#If disabled the Sky light level will be used, which takes the time of day into account.
 	use_block_light = true
 	#Enable/Disable Illumination
-	enabled = true
+	enabled = false
 
 #Lumbination configuration for MinersAdvantage
 [lumbination]

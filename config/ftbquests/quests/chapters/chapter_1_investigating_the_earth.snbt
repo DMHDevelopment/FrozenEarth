@@ -1,7 +1,7 @@
 {
 	id: 24,
 	filename: "chapter_1_investigating_the_earth",
-	order_index: 0,
+	order_index: 2,
 	title: "Chapter 1: Investigating The Earth",
 	icon: "terraqueous:doodad_branch",
 	default_quest_shape: "",
@@ -62,18 +62,11 @@
 					}
 				}
 			}],
-			rewards: [
-				{
-					id: 32,
-					type: "item",
-					item: "minecraft:leather"
-				},
-				{
-					id: 33,
-					type: "item",
-					item: "thermal:copper_coin"
-				}
-			]
+			rewards: [{
+				id: 32,
+				type: "item",
+				item: "minecraft:leather"
+			}]
 		},
 		{
 			title: "First weapon...",
@@ -109,7 +102,8 @@
 			rewards: [{
 				id: 105,
 				type: "item",
-				item: "thermal:copper_coin"
+				item: "minecraft:gravel",
+				count: 8
 			}]
 		},
 		{
@@ -192,9 +186,9 @@
 				}
 			}],
 			rewards: [{
-				id: 106,
+				id: 319,
 				type: "item",
-				item: "thermal:copper_coin"
+				item: "minecraft:apple"
 			}]
 		},
 		{
@@ -209,25 +203,17 @@
 				item: "exnihilosequentia:silkworm",
 				count: 16L
 			}],
-			rewards: [
-				{
-					id: 108,
-					type: "item",
-					item: {
-						id: "exnihilosequentia:crook_bone",
-						Count: true,
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: 108,
+				type: "item",
+				item: {
+					id: "exnihilosequentia:crook_bone",
+					Count: true,
+					tag: {
+						Damage: 0
 					}
-				},
-				{
-					id: 109,
-					type: "item",
-					item: "thermal:copper_coin",
-					count: 2
 				}
-			]
+			}]
 		},
 		{
 			x: -0.5d,
@@ -266,8 +252,7 @@
 			rewards: [{
 				id: 111,
 				type: "item",
-				item: "thermal:copper_coin",
-				count: 4
+				item: "stone_age:cooked_mammoth_meat"
 			}]
 		},
 		{
@@ -314,6 +299,11 @@
 				id: 54,
 				type: "item",
 				item: "minecraft:cod"
+			}],
+			rewards: [{
+				id: 318,
+				type: "item",
+				item: "aquaculture:fish_fillet_cooked"
 			}]
 		},
 		{
@@ -336,7 +326,13 @@
 			rewards: [{
 				id: 114,
 				type: "item",
-				item: "thermal:copper_coin"
+				item: {
+					id: "minecraft:fishing_rod",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		},
 		{
@@ -410,9 +406,9 @@
 				item: "stone_age:drying_rack"
 			}],
 			rewards: [{
-				id: 94,
+				id: 320,
 				type: "item",
-				item: "thermal:copper_coin"
+				item: "stone_age:drying_rack"
 			}]
 		},
 		{
@@ -431,16 +427,16 @@
 			}],
 			rewards: [
 				{
-					id: 95,
-					type: "item",
-					item: "thermal:copper_coin",
-					count: 3
-				},
-				{
 					id: 98,
 					type: "item",
 					item: "thermal:strawberry",
 					count: 3
+				},
+				{
+					id: 322,
+					type: "item",
+					item: "minecraft:oak_log",
+					count: 8
 				}
 			]
 		},
@@ -456,9 +452,10 @@
 				item: "stone_age:grass_lead"
 			}],
 			rewards: [{
-				id: 96,
+				id: 321,
 				type: "item",
-				item: "thermal:copper_coin"
+				item: "stone_age:grass_lead",
+				count: 2
 			}]
 		},
 		{
@@ -634,6 +631,12 @@
 				type: "item",
 				item: "minecraft:leather",
 				count: 2L
+			}],
+			rewards: [{
+				id: 323,
+				type: "item",
+				item: "minecraft:cooked_beef",
+				count: 2
 			}]
 		},
 		{
@@ -652,12 +655,13 @@
 			rewards: [{
 				id: 101,
 				type: "item",
-				item: "thermal:copper_coin"
+				item: "minecraft:lead"
 			}]
 		},
 		{
 			x: -3.5d,
 			y: 5.5d,
+			description: ["This backpack allows me to have more items. It have 15 pockets for various items!"],
 			dependencies: [I;87],
 			id: 89,
 			tasks: [{
@@ -736,12 +740,20 @@
 					}
 				}
 			}],
-			rewards: [{
-				id: 102,
-				type: "item",
-				item: "thermal:copper_coin",
-				count: 8
-			}]
+			rewards: [
+				{
+					id: 102,
+					type: "item",
+					item: "minecraft:leather",
+					count: 4
+				},
+				{
+					id: 324,
+					type: "item",
+					item: "minecraft:bone",
+					count: 4
+				}
+			]
 		},
 		{
 			x: -4.5d,
@@ -763,7 +775,7 @@
 			rewards: [{
 				id: 130,
 				type: "item",
-				item: "thermal:copper_coin"
+				item: "stone_age:mouflon_meat"
 			}]
 		},
 		{
@@ -782,7 +794,7 @@
 			rewards: [{
 				id: 131,
 				type: "item",
-				item: "thermal:copper_coin"
+				item: "minecraft:clay"
 			}]
 		},
 		{
@@ -843,12 +855,13 @@
 			rewards: [{
 				id: 134,
 				type: "item",
-				item: "thermal:copper_coin"
+				item: "ceramics:clay_plate"
 			}]
 		},
 		{
 			x: -7.5d,
 			y: 7.5d,
+			description: ["This armor allows me to live atleast longer, when I try to defeat these monsters."],
 			dependencies: [I;126],
 			id: 132,
 			tasks: [
@@ -900,8 +913,8 @@
 			rewards: [{
 				id: 139,
 				type: "item",
-				item: "thermal:copper_coin",
-				count: 2
+				item: "minecraft:clay_ball",
+				count: 16
 			}]
 		},
 		{
@@ -1370,12 +1383,18 @@
 		{
 			x: -2.5d,
 			y: 6.5d,
+			description: ["It's just a bowl with water."],
 			dependencies: [I;41],
 			id: 205,
 			tasks: [{
 				id: 206,
 				type: "item",
 				item: "survive:water_bowl"
+			}],
+			rewards: [{
+				id: 329,
+				type: "item",
+				item: "survive:purified_water_bowl"
 			}]
 		},
 		{
@@ -1417,6 +1436,7 @@
 			},
 			x: 1.5d,
 			y: 1.5d,
+			description: ["I need to have a lot of heat to keep my ability to survive here. This wool suit allows me to keep heat in my body better, but have less armor, than other armor suits like Nanosuit one.... if it still exists."],
 			dependencies: [I;207],
 			id: 209,
 			tasks: [
@@ -1463,6 +1483,19 @@
 							Damage: 0
 						}
 					}
+				}
+			],
+			rewards: [
+				{
+					id: 316,
+					type: "item",
+					item: "minecraft:string",
+					count: 32
+				},
+				{
+					id: 317,
+					type: "item",
+					item: "pneumaticcraft:sourdough_bread"
 				}
 			]
 		},
@@ -1556,11 +1589,38 @@
 				type: "item",
 				item: "crockpot:crock_pot_basic"
 			}],
-			rewards: [{
-				id: 225,
-				type: "item",
-				item: "thermal:copper_coin"
-			}]
+			rewards: [
+				{
+					id: 225,
+					type: "item",
+					item: "minecraft:carrot"
+				},
+				{
+					id: 330,
+					type: "item",
+					item: "minecraft:apple"
+				},
+				{
+					id: 331,
+					type: "item",
+					item: "minecraft:potato"
+				},
+				{
+					id: 332,
+					type: "item",
+					item: "minecraft:cooked_cod"
+				},
+				{
+					id: 333,
+					type: "item",
+					item: "minecraft:cookie"
+				},
+				{
+					id: 334,
+					type: "item",
+					item: "minecraft:cake"
+				}
+			]
 		},
 		{
 			title: "Ironical Iron",
@@ -1702,13 +1762,36 @@
 		{
 			x: -3.5d,
 			y: 6.5d,
+			description: ["This canteen allows me to drink water whenever I like without bowls, which is very heavy to carry in my pockets..."],
 			dependencies: [I;85],
 			id: 313,
 			tasks: [{
 				id: 314,
 				type: "item",
 				item: "survive:canteen"
-			}]
+			}],
+			rewards: [
+				{
+					id: 325,
+					type: "item",
+					item: "survive:water_bowl"
+				},
+				{
+					id: 326,
+					type: "item",
+					item: "survive:purified_water_bowl"
+				},
+				{
+					id: 327,
+					type: "item",
+					item: "minecraft:mushroom_stew"
+				},
+				{
+					id: 328,
+					type: "item",
+					item: "minecraft:leather"
+				}
+			]
 		}
 	]
 }
