@@ -126,7 +126,7 @@
 			rewards: [{
 				id: 107,
 				type: "item",
-				item: "thermal:copper_coin"
+				item: "minecraft:flint"
 			}]
 		},
 		{
@@ -349,7 +349,7 @@
 			rewards: [{
 				id: 117,
 				type: "item",
-				item: "thermal:copper_coin"
+				item: "minecraft:torch"
 			}]
 		},
 		{
@@ -503,12 +503,30 @@
 					}
 				}
 			],
-			rewards: [{
-				id: 97,
-				type: "item",
-				item: "thermal:copper_coin",
-				count: 6
-			}]
+			rewards: [
+				{
+					id: 97,
+					type: "item",
+					item: {
+						id: "pickletweaks:flint_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 337,
+					type: "item",
+					item: {
+						id: "pickletweaks:flint_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		},
 		{
 			x: -1.5d,
@@ -519,13 +537,23 @@
 			tasks: [{
 				id: 74,
 				type: "item",
-				item: "minecraft:stone"
+				item: "minecraft:stone",
+				count: 4L
 			}],
-			rewards: [{
-				id: 118,
-				type: "item",
-				item: "thermal:copper_coin"
-			}]
+			rewards: [
+				{
+					id: 118,
+					type: "item",
+					item: "minecraft:stone",
+					count: 4
+				},
+				{
+					id: 336,
+					type: "item",
+					item: "minecraft:cobblestone",
+					count: 4
+				}
+			]
 		},
 		{
 			x: -0.5d,
@@ -564,7 +592,14 @@
 			rewards: [{
 				id: 142,
 				type: "item",
-				item: "thermal:copper_coin"
+				item: {
+					id: "stone_age:stone_hammer",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				count: 4
 			}]
 		},
 		{
@@ -579,15 +614,17 @@
 				item: "stone_age:tree_stump"
 			}],
 			rewards: [{
-				id: 143,
+				id: 343,
 				type: "item",
-				item: "thermal:copper_coin"
+				item: "minecraft:oak_log",
+				count: 4
 			}]
 		},
 		{
 			icon: "minecraft:oak_planks",
 			x: 0.5d,
 			y: 7.5d,
+			description: ["I can get planks easily by punching these logs on Tree Stump with my axe, nothing special, but a bit intensive process."],
 			dependencies: [I;
 				79,
 				41
@@ -605,6 +642,12 @@
 					}
 				},
 				count: 32L
+			}],
+			rewards: [{
+				id: 335,
+				type: "item",
+				item: "minecraft:oak_log",
+				count: 8
 			}]
 		},
 		{
@@ -818,7 +861,7 @@
 			rewards: [{
 				id: 125,
 				type: "item",
-				item: "thermal:copper_coin",
+				item: "minecraft:bone_block",
 				count: 2
 			}]
 		},
@@ -953,6 +996,7 @@
 			title: "Sail on... ice?",
 			x: 0.5d,
 			y: 6.5d,
+			description: ["While on this planet there are a lot of lakes and rivers, you cannot just go and sail to the other lands... but you can place boats on ice and move faster, but controlling this boat is a bit worse."],
 			dependencies: [I;81],
 			id: 148,
 			tasks: [{
@@ -964,6 +1008,18 @@
 					Count: true,
 					tag: {
 						value: "minecraft:boats"
+					}
+				}
+			}],
+			rewards: [{
+				id: 338,
+				type: "item",
+				item: {
+					id: "stone_age:stone_shovel",
+					Count: true,
+					tag: {
+						Damage: 0,
+						additionalModifiers: {}
 					}
 				}
 			}]
@@ -1053,28 +1109,49 @@
 		{
 			x: 1.5d,
 			y: 6.5d,
+			description: ["Sawdust is a helpful substance from wood logs. Sawdust can be obtained by punching half of the plank on tree stump, so I can move to make my first paper!"],
 			dependencies: [I;79],
 			id: 164,
 			tasks: [{
 				id: 165,
 				type: "item",
 				item: "immersiveengineering:dust_wood"
+			}],
+			rewards: [{
+				id: 339,
+				type: "item",
+				item: "minecraft:oak_slab",
+				count: 6
 			}]
 		},
 		{
+			title: "First letter, first paper...",
 			x: 2.5d,
 			y: 6.5d,
+			description: ["Paper is a good material for making books, different types of paper for my first machinery and this paper can be used for blueprints later..."],
 			dependencies: [I;164],
 			id: 166,
 			tasks: [{
 				id: 167,
 				type: "item",
-				item: "minecraft:paper"
+				item: "minecraft:paper",
+				count: 4L
+			}],
+			rewards: [{
+				id: 340,
+				type: "item",
+				item: "minecraft:book"
 			}]
 		},
 		{
 			x: 3.5d,
 			y: 6.5d,
+			description: [
+				"I have an interesting file in my cyberbrain called nature.txt. Maybe I can write it on paper to use something from it? Hmmm... Nature's Aura? Sounds like a good story about nature... or I can learn something helpful from this.",
+				"",
+				"Message from authors of this modpack: This is a full in-game guide for Nature's Aura mod. Even this modpack being mostly based on tech and exploration, a bit of magic still persists, but it's mainly based on biosphere of this cold planet Earth.",
+				"Trees obtained special aura, which can be used to make stronger materials and for interesting mechanisms..."
+			],
 			dependencies: [I;166],
 			id: 168,
 			tasks: [{
@@ -1087,7 +1164,20 @@
 						"patchouli:book": "naturesaura:book"
 					}
 				}
-			}]
+			}],
+			rewards: [
+				{
+					id: 341,
+					type: "item",
+					item: "minecraft:bone_meal",
+					count: 4
+				},
+				{
+					id: 342,
+					type: "item",
+					item: "minecraft:golden_carrot"
+				}
+			]
 		},
 		{
 			x: 5.5d,
@@ -1581,7 +1671,10 @@
 			title: "Cooking is really for blockheads...",
 			x: -2.5d,
 			y: 7.5d,
-			description: ["Crock Pot is a way I can cook good food. This food gives me more saturation than common food and it gives me more strength to solve problems on this planet."],
+			description: [
+				"Crock Pot is a way I can cook good food. This food gives me more saturation than common food and it gives me more strength to solve problems on this planet.",
+				"Cooking in this modpack can remind you Zelda's Breath of the Wild cooking system. You throw up to 4 random food items and get a better one or a bad one. If you got something delicious - you can write a recipe on a sheet of paper and cook this again!"
+			],
 			dependencies: [I;73],
 			id: 223,
 			tasks: [{
