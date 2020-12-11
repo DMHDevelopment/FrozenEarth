@@ -1,13 +1,13 @@
 {
 	id: 202,
 	filename: "chapter_2_creating_creative",
-	order_index: 3,
+	order_index: 0,
 	title: "Chapter 2: Creating Creative",
 	icon: "create:gearbox",
 	default_quest_shape: "",
 	images: [{
-		x: 3.5d,
-		y: -1.5d,
+		x: 5.5d,
+		y: 0.0d,
 		width: 20.0d,
 		height: 4.0d,
 		rotation: 0.0d,
@@ -178,7 +178,7 @@
 			dependencies: [I;234],
 			id: 244,
 			tasks: [{
-				id: 333,
+				id: 335,
 				type: "item",
 				item: "create:hand_crank"
 			}]
@@ -188,7 +188,6 @@
 			y: 6.5d,
 			description: ["Quite useful tool if you need automated tree farm. It cuts whole tree in front of itself. Can also increase quantity of planks got from wood."],
 			hide_dependency_lines: true,
-			dependencies: [I;322],
 			id: 246,
 			tasks: [{
 				id: 247,
@@ -200,7 +199,6 @@
 			x: 1.5d,
 			y: 6.5d,
 			hide_dependency_lines: true,
-			dependencies: [I;322],
 			id: 248,
 			tasks: [{
 				id: 249,
@@ -212,7 +210,6 @@
 			x: 2.5d,
 			y: 10.5d,
 			hide_dependency_lines: true,
-			dependencies: [I;320],
 			id: 250,
 			tasks: [{
 				id: 251,
@@ -252,7 +249,6 @@
 			x: 1.5d,
 			y: 9.5d,
 			hide_dependency_lines: true,
-			dependencies: [I;320],
 			id: 255,
 			tasks: [{
 				id: 256,
@@ -288,6 +284,7 @@
 				250,
 				252
 			],
+			size: 1.5d,
 			id: 261,
 			tasks: [{
 				id: 262,
@@ -296,13 +293,13 @@
 			}],
 			rewards: [
 				{
-					id: 324,
+					id: 336,
 					type: "item",
 					item: "minecraft:quartz",
 					count: 16
 				},
 				{
-					id: 325,
+					id: 337,
 					type: "item",
 					item: "minecraft:redstone",
 					count: 32
@@ -335,7 +332,6 @@
 			x: 1.5d,
 			y: 3.5d,
 			hide_dependency_lines: true,
-			dependencies: [I;326],
 			id: 267,
 			tasks: [{
 				id: 268,
@@ -348,7 +344,6 @@
 			x: 1.5d,
 			y: 4.5d,
 			hide_dependency_lines: true,
-			dependencies: [I;326],
 			id: 271,
 			tasks: [
 				{
@@ -382,7 +377,6 @@
 			x: 2.5d,
 			y: 3.5d,
 			hide_dependency_lines: true,
-			dependencies: [I;326],
 			id: 273,
 			tasks: [{
 				id: 274,
@@ -394,7 +388,6 @@
 			x: 1.5d,
 			y: 7.5d,
 			hide_dependency_lines: true,
-			dependencies: [I;322],
 			id: 278,
 			tasks: [{
 				id: 279,
@@ -407,7 +400,6 @@
 			y: 4.5d,
 			description: ["This thing allows you to feel sick. Has best effect if combined with jukebox."],
 			hide_dependency_lines: true,
-			dependencies: [I;326],
 			id: 280,
 			tasks: [{
 				id: 281,
@@ -416,12 +408,12 @@
 			}],
 			rewards: [
 				{
-					id: 318,
+					id: 338,
 					type: "item",
 					item: "minecraft:jukebox"
 				},
 				{
-					id: 319,
+					id: 339,
 					type: "item",
 					item: "minecraft:music_disc_mellohi"
 				}
@@ -431,10 +423,9 @@
 			x: 2.5d,
 			y: 7.5d,
 			hide_dependency_lines: true,
-			dependencies: [I;322],
-			id: 316,
+			id: 340,
 			tasks: [{
-				id: 317,
+				id: 341,
 				type: "item",
 				item: "create:mechanical_harvester"
 			}]
@@ -449,9 +440,10 @@
 				237,
 				244
 			],
-			id: 320,
+			size: 1.5d,
+			id: 342,
 			tasks: [{
-				id: 321,
+				id: 343,
 				type: "checkmark",
 				title: "Processing Machines"
 			}]
@@ -467,9 +459,10 @@
 				244
 			],
 			dependency_requirement: "one_completed",
-			id: 322,
+			size: 1.5d,
+			id: 344,
 			tasks: [{
-				id: 323,
+				id: 345,
 				type: "checkmark",
 				title: "Harvesting Machines"
 			}]
@@ -485,9 +478,10 @@
 				244
 			],
 			dependency_requirement: "one_completed",
-			id: 326,
+			size: 1.5d,
+			id: 346,
 			tasks: [{
-				id: 327,
+				id: 347,
 				type: "checkmark",
 				title: "Create Dynamics"
 			}]
@@ -496,15 +490,15 @@
 			x: 5.5d,
 			y: 10.5d,
 			dependencies: [I;261],
-			id: 328,
+			id: 348,
 			tasks: [{
-				id: 329,
+				id: 349,
 				type: "item",
 				item: "create:mechanical_crafter",
 				count: 9L
 			}],
 			rewards: [{
-				id: 330,
+				id: 350,
 				type: "item",
 				item: "minecraft:sugar_cane",
 				count: 24
@@ -513,13 +507,84 @@
 		{
 			x: 6.5d,
 			y: 10.5d,
-			dependencies: [I;328],
-			id: 331,
+			id: 351,
 			tasks: [{
-				id: 332,
+				id: 352,
 				type: "item",
 				item: "create:crushing_wheel",
 				count: 2L
+			}]
+		},
+		{
+			title: "Dark Utilities",
+			x: 12.0d,
+			y: 4.0d,
+			hide_dependency_lines: true,
+			dependencies: [I;261],
+			size: 2.0d,
+			id: 353,
+			tasks: [{
+				id: 354,
+				type: "item",
+				item: "darkutils:filter_player"
+			}]
+		},
+		{
+			title: "OpenBlocks Elevators",
+			x: 4.0d,
+			y: 11.5d,
+			dependencies: [I;261],
+			id: 355,
+			tasks: [{
+				id: 356,
+				type: "item",
+				title: "Any elevatorid:elevators",
+				item: {
+					id: "itemfilters:tag",
+					Count: true,
+					tag: {
+						value: "elevatorid:elevators"
+					}
+				}
+			}]
+		},
+		{
+			title: "Terraqueous",
+			x: 16.0d,
+			y: 4.0d,
+			hide_dependency_lines: true,
+			dependencies: [I;261],
+			size: 2.0d,
+			id: 357,
+			tasks: [{
+				id: 358,
+				type: "item",
+				item: "terraqueous:craftfurnace"
+			}]
+		},
+		{
+			title: "Aquaculture 2",
+			x: 8.0d,
+			y: 4.0d,
+			hide_dependency_lines: true,
+			dependencies: [I;261],
+			size: 2.0d,
+			id: 359,
+			tasks: [{
+				id: 360,
+				type: "item",
+				item: "aquaculture:tackle_box"
+			}]
+		},
+		{
+			x: 12.0d,
+			y: 10.0d,
+			size: 2.0d,
+			id: 361,
+			tasks: [{
+				id: 362,
+				type: "item",
+				item: "extendedcrafting:advanced_table"
 			}]
 		}
 	]
