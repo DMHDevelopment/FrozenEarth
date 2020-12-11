@@ -1,7 +1,7 @@
 {
 	id: 202,
 	filename: "chapter_2_creating_creative",
-	order_index: 1,
+	order_index: 2,
 	title: "Chapter 2: Creating Creative",
 	icon: "create:gearbox",
 	default_quest_shape: "",
@@ -179,7 +179,7 @@
 			dependencies: [I;234],
 			id: 244,
 			tasks: [{
-				id: 335,
+				id: 364,
 				type: "item",
 				title: "Hand Crank OR Valve Handle",
 				item: {
@@ -241,7 +241,6 @@
 			x: 1.5d,
 			y: 10.0d,
 			hide_dependency_lines: true,
-			dependencies: [I;342],
 			id: 250,
 			tasks: [{
 				id: 251,
@@ -259,7 +258,6 @@
 			x: 1.5d,
 			y: 9.0d,
 			hide_dependency_lines: true,
-			dependencies: [I;342],
 			id: 252,
 			tasks: [{
 				id: 253,
@@ -279,7 +277,6 @@
 			y: 9.0d,
 			description: ["Millstone is capable of grinding down materials. Useful for milling soft materials."],
 			hide_dependency_lines: true,
-			dependencies: [I;342],
 			id: 255,
 			tasks: [{
 				id: 256,
@@ -321,13 +318,13 @@
 			}],
 			rewards: [
 				{
-					id: 336,
+					id: 365,
 					type: "item",
 					item: "minecraft:quartz",
 					count: 16
 				},
 				{
-					id: 337,
+					id: 366,
 					type: "item",
 					item: "minecraft:redstone",
 					count: 32
@@ -441,12 +438,12 @@
 			}],
 			rewards: [
 				{
-					id: 338,
+					id: 367,
 					type: "item",
 					item: "minecraft:jukebox"
 				},
 				{
-					id: 339,
+					id: 368,
 					type: "item",
 					item: "minecraft:music_disc_mellohi"
 				}
@@ -457,9 +454,9 @@
 			y: 7.5d,
 			hide_dependency_lines: true,
 			dependencies: [I;344],
-			id: 340,
+			id: 369,
 			tasks: [{
-				id: 341,
+				id: 370,
 				type: "item",
 				item: "create:mechanical_harvester"
 			}]
@@ -474,9 +471,9 @@
 				237,
 				244
 			],
-			id: 342,
+			id: 371,
 			tasks: [{
-				id: 343,
+				id: 372,
 				type: "checkmark",
 				title: "Processing Machines"
 			}]
@@ -699,9 +696,9 @@
 			y: 9.0d,
 			hide_dependency_lines: true,
 			dependencies: [I;203],
-			id: 364,
+			id: 373,
 			tasks: [{
-				id: 365,
+				id: 374,
 				type: "item",
 				item: "create:andesite_casing"
 			}]
@@ -714,9 +711,9 @@
 				364,
 				250
 			],
-			id: 366,
+			id: 375,
 			tasks: [{
-				id: 367,
+				id: 376,
 				type: "item",
 				item: "create:copper_casing"
 			}]
@@ -725,13 +722,10 @@
 			x: -4.0d,
 			y: 9.0d,
 			hide_dependency_lines: true,
-			dependencies: [I;
-				366,
-				261
-			],
-			id: 368,
+			dependencies: [I;261],
+			id: 377,
 			tasks: [{
-				id: 369,
+				id: 378,
 				type: "item",
 				item: "create:brass_casing"
 			}]
@@ -740,10 +734,9 @@
 			x: -4.0d,
 			y: 10.0d,
 			hide_dependency_lines: true,
-			dependencies: [I;368],
-			id: 370,
+			id: 379,
 			tasks: [{
-				id: 371,
+				id: 380,
 				type: "item",
 				item: "create:refined_radiance_casing"
 			}]
@@ -753,9 +746,9 @@
 			y: 11.0d,
 			hide_dependency_lines: true,
 			dependencies: [I;370],
-			id: 372,
+			id: 381,
 			tasks: [{
-				id: 373,
+				id: 382,
 				type: "item",
 				item: "create:shadow_steel_casing"
 			}]
@@ -764,16 +757,16 @@
 			x: 6.5d,
 			y: 9.5d,
 			dependencies: [I;261],
-			id: 374,
+			id: 383,
 			tasks: [
 				{
-					id: 375,
+					id: 384,
 					type: "item",
 					item: "create:rose_quartz",
 					count: 4L
 				},
 				{
-					id: 376,
+					id: 385,
 					type: "item",
 					title: "Sand Paper",
 					item: {
@@ -802,13 +795,13 @@
 			],
 			rewards: [
 				{
-					id: 377,
+					id: 386,
 					type: "item",
 					item: "minecraft:redstone",
 					count: 32
 				},
 				{
-					id: 378,
+					id: 387,
 					type: "item",
 					item: "minecraft:quartz",
 					count: 4
