@@ -4,11 +4,23 @@
   "bookData": {
     "assemblylinemachines:walkthrough": {
       "viewedEntries": [
-        "assemblylinemachines:age1"
+        "assemblylinemachines:age1",
+        "assemblylinemachines:blocks/quarry",
+        "assemblylinemachines:blocks/item_processing",
+        "assemblylinemachines:blocks/standard_machines",
+        "assemblylinemachines:age2",
+        "assemblylinemachines:age3",
+        "assemblylinemachines:blocks/generators"
       ],
       "bookmarks": [],
       "history": [
-        "assemblylinemachines:age1"
+        "assemblylinemachines:age2",
+        "assemblylinemachines:blocks/generators",
+        "assemblylinemachines:age3",
+        "assemblylinemachines:blocks/standard_machines",
+        "assemblylinemachines:age1",
+        "assemblylinemachines:blocks/item_processing",
+        "assemblylinemachines:blocks/quarry"
       ],
       "completedManualQuests": []
     },
