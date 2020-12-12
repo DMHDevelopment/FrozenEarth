@@ -268,11 +268,18 @@
 			hide_dependency_lines: true,
 			dependencies: [I;371],
 			id: 252,
-			tasks: [{
-				id: 253,
-				type: "item",
-				item: "create:mechanical_mixer"
-			}],
+			tasks: [
+				{
+					id: 253,
+					type: "item",
+					item: "create:mechanical_mixer"
+				},
+				{
+					id: 560,
+					type: "item",
+					item: "create:basin"
+				}
+			],
 			rewards: [{
 				id: 254,
 				type: "item",
