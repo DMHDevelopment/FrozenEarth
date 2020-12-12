@@ -436,8 +436,8 @@
 			}]
 		},
 		{
-			x: 8.5d,
-			y: 3.5d,
+			x: 7.5d,
+			y: 4.5d,
 			description: ["This thing allows you to feel sick. Has best effect if combined with jukebox."],
 			hide_dependency_lines: true,
 			dependencies: [I;346],
@@ -713,6 +713,7 @@
 			x: 12.0d,
 			y: 9.0d,
 			shape: "hexagon",
+			dependencies: [I;558],
 			size: 3.0d,
 			id: 362,
 			tasks: [{
@@ -1042,7 +1043,7 @@
 			x: 0.5d,
 			y: 13.0d,
 			description: [
-				"Finally! With Hose Pulley i can pump entire lakes of whatever i want without enduring work. Have i seen oil somewhere around?",
+				"Finally! With Hose Pulley I can pump entire lakes of whatever I want without enduring work. Have I seen oil somewhere around?",
 				"",
 				"It has both to be powered to descend hose, and to be connected to powered Mechanical Pump.",
 				"In that case the Hose Pulley will start pumping."
@@ -1381,6 +1382,43 @@
 						]
 					}
 				}
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 7.5d,
+			description: ["Redstone Contacts are capable of giving redstone signal when two of them contact and face each other. Even if one of them is being moved."],
+			dependencies: [I;261],
+			id: 546,
+			tasks: [{
+				id: 547,
+				type: "item",
+				item: "create:redstone_contact",
+				count: 2L
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 10.5d,
+			description: ["Wireless redstone. Splendid."],
+			dependencies: [I;261],
+			id: 548,
+			tasks: [{
+				id: 549,
+				type: "item",
+				item: "create:redstone_link",
+				count: 2L
+			}]
+		},
+		{
+			x: 10.0d,
+			y: 9.0d,
+			dependencies: [I;351],
+			id: 558,
+			tasks: [{
+				id: 559,
+				type: "item",
+				item: "create:powdered_obsidian"
 			}]
 		}
 	]

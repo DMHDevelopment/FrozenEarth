@@ -4,10 +4,12 @@
   "bookData": {
     "assemblylinemachines:walkthrough": {
       "viewedEntries": [
-        "assemblylinemachines:age1"
+        "assemblylinemachines:age1",
+        "assemblylinemachines:age2"
       ],
       "bookmarks": [],
       "history": [
+        "assemblylinemachines:age2",
         "assemblylinemachines:age1"
       ],
       "completedManualQuests": []

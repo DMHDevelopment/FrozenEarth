@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " g ",
+        " #g",
+        "#  "
+    ],
+    "key": {
+        "#": {
+            "item": "naturesaura:ancient_stick"
+        },
+        "g": {
+            "item": "naturesaura:infused_stone"
+        }
+    },
+    "result": {
+        "item": "exnihilosequentia:hammer_stone",
+        "count": 1
+    }
+}

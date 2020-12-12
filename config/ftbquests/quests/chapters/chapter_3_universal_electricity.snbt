@@ -77,6 +77,18 @@
 					}
 				}
 			}]
+		},
+		{
+			title: "Energggggy",
+			x: -3.5d,
+			y: -1.0d,
+			dependencies: [I;511],
+			id: 535,
+			tasks: [{
+				id: 536,
+				type: "item",
+				item: "assemblylinemachines:basic_battery"
+			}]
 		}
 	]
 }

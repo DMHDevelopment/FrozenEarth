@@ -1,7 +1,7 @@
 {
 	id: 24,
 	filename: "chapter_1_investigating_the_earth",
-	order_index: 3,
+	order_index: 2,
 	title: "Chapter 1: Investigating The Earth",
 	icon: "terraqueous:doodad_branch",
 	default_quest_shape: "",
@@ -1737,56 +1737,11 @@
 			]
 		},
 		{
-			x: 3.5d,
-			y: 3.5d,
-			description: [
-				"This meshes allows me to sieve different blocks into pieces of ores. Can be placed on sieves. After crafting them I need to find some ore veins under dirt and stone... oh, seems that mining stone and snowy dirt is a huge problem! The deeper I mine...",
-				"the slower it breaks."
-			],
-			dependencies: [I;180],
-			id: 211,
-			tasks: [
-				{
-					id: 212,
-					type: "item",
-					item: {
-						id: "exnihilosequentia:mesh_string",
-						Count: true,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: 220,
-					type: "item",
-					item: {
-						id: "exnihilosequentia:mesh_flint",
-						Count: true,
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		},
-		{
-			x: 5.5d,
-			y: 3.5d,
-			dependencies: [I;188],
-			id: 213,
-			tasks: [{
-				id: 214,
-				type: "item",
-				item: "exnihilosequentia:sieve"
-			}]
-		},
-		{
 			title: "Copper Ore",
 			x: 5.5d,
-			y: 2.5d,
+			y: 3.5d,
 			description: ["Copper Ore can be found near frozen dirt, it has value of 40-60 in Minecraftian Y-System. It will be easy to find."],
-			dependencies: [I;211],
+			dependencies: [I;530],
 			id: 218,
 			tasks: [{
 				id: 219,
@@ -1814,7 +1769,7 @@
 			x: 5.5d,
 			y: 4.5d,
 			description: ["Iron Ore can be found near frozen dirt, it has value of 10-50 in Minecraftian Y-System. It will be easy to find."],
-			dependencies: [I;211],
+			dependencies: [I;530],
 			id: 221,
 			tasks: [{
 				id: 222,
@@ -1830,9 +1785,10 @@
 				count: 16L
 			}],
 			rewards: [{
-				id: 529,
+				id: 541,
 				type: "item",
-				item: "minecraft:iron_block"
+				item: "naturesaura:infused_iron",
+				count: 2
 			}]
 		},
 		{
@@ -1891,7 +1847,6 @@
 			description: ["Getting first ingots of copper and iron helps me to progress to the primitive era, so I can make my life easier. Also I don't forget about stamina and thirst, since I need to drink water and feel not tired while mining ores..."],
 			dependencies: [I;
 				218,
-				213,
 				221
 			],
 			size: 2.0d,
@@ -1924,8 +1879,10 @@
 			]
 		},
 		{
+			title: "Massive Storage",
 			x: 8.5d,
 			y: 3.5d,
+			description: ["Drawers is a good way of storing massive amounts of items. It can store 64*64 items in a one drawer! I really need it for my next few eras to store something in big amounts."],
 			dependencies: [I;282],
 			id: 297,
 			tasks: [{
@@ -1938,27 +1895,55 @@
 					tag: {
 						value: "storagedrawers:drawers"
 					}
-				}
+				},
+				count: 4L
+			}],
+			rewards: [{
+				id: 542,
+				type: "item",
+				item: "minecraft:chest",
+				count: 8
 			}]
 		},
 		{
 			x: 10.5d,
 			y: 3.5d,
+			description: ["Drawer Controller puts any items that go into this controller into proper drawers with items. If I had a drawer for cobblestone it will put new cobblestone into this drawer if right-clicked on this Drawer Controller"],
 			dependencies: [I;301],
 			id: 299,
 			tasks: [{
 				id: 300,
 				type: "item",
 				item: "storagedrawers:controller"
-			}]
+			}],
+			rewards: [
+				{
+					id: 544,
+					type: "item",
+					item: "storagedrawers:oak_full_drawers_4",
+					count: 4
+				},
+				{
+					id: 545,
+					type: "item",
+					item: "storagedrawers:oak_full_drawers_1",
+					count: 2
+				}
+			]
 		},
 		{
 			x: 9.5d,
 			y: 3.5d,
+			description: ["Compacting Drawer allows me to get already compacted variants of different types of items or blocks for any reason. If I put Iron into this drawer I can get nuggets or even blocks!"],
 			dependencies: [I;297],
 			id: 301,
 			tasks: [{
 				id: 302,
+				type: "item",
+				item: "storagedrawers:compacting_drawers_3"
+			}],
+			rewards: [{
+				id: 543,
 				type: "item",
 				item: "storagedrawers:compacting_drawers_3"
 			}]
@@ -1966,6 +1951,7 @@
 		{
 			x: 8.5d,
 			y: 5.5d,
+			description: ["This key allows me to lock the drawer to a proper item. If I put 1 item into drawer then lock it, I'll get this item stuck in this drawer, so any new different items couldn't be put into it."],
 			dependencies: [I;
 				172,
 				297
@@ -1978,30 +1964,65 @@
 			}]
 		},
 		{
+			title: "Feeling Lonely?",
 			x: 7.5d,
 			y: 2.5d,
+			description: [
+				"You've been noticed that there is no humanity, but you're trying to find someone... You're made a market station to try to catch someone who can sell you something... When you done building, something is going down... It's a seller robot? What the...",
+				"Nevermind. It can sell something for emeralds or something related to this. I don't have emerals sadly, but I have copper and iron? Maybe I can trade with him...?"
+			],
 			dependencies: [I;282],
 			id: 305,
 			tasks: [{
 				id: 306,
 				type: "item",
 				item: "farmingforblockheads:market"
-			}]
+			}],
+			rewards: [
+				{
+					id: 550,
+					type: "item",
+					item: "thermal:peanut_seeds"
+				},
+				{
+					id: 551,
+					type: "item",
+					item: "thermal:strawberry_seeds"
+				},
+				{
+					id: 552,
+					type: "item",
+					item: "thermal:tomato_seeds"
+				},
+				{
+					id: 553,
+					type: "item",
+					item: "thermal:green_bean_seeds"
+				}
+			]
 		},
 		{
 			x: 7.5d,
 			y: 1.5d,
+			description: ["This robot mentioned that this fertilizer, which is green will multiply my crops output! It's great!"],
 			dependencies: [I;305],
 			id: 307,
 			tasks: [{
 				id: 308,
 				type: "item",
 				item: "farmingforblockheads:green_fertilizer"
+			}],
+			rewards: [{
+				id: 557,
+				type: "item",
+				item: "farmingforblockheads:green_fertilizer",
+				count: 4
 			}]
 		},
 		{
 			x: 8.5d,
 			y: 1.5d,
+			description: ["This red fertilizer speeds up growth of my plants. Robot know much more than I, huh."],
 			dependencies: [I;305],
 			id: 309,
 			tasks: [{
@@ -2013,12 +2034,19 @@
 		{
 			x: 6.5d,
 			y: 1.5d,
+			description: ["This robot told me a secret that yellow fertilizers on farmland allows me to stop trampling on my wheat and other cultures. It's cool!"],
 			dependencies: [I;305],
 			id: 311,
 			tasks: [{
 				id: 312,
 				type: "item",
 				item: "farmingforblockheads:yellow_fertilizer"
+			}],
+			rewards: [{
+				id: 554,
+				type: "item",
+				item: "farmingforblockheads:yellow_fertilizer",
+				count: 4
 			}]
 		},
 		{
@@ -2054,6 +2082,71 @@
 					item: "minecraft:leather"
 				}
 			]
+		},
+		{
+			x: 4.5d,
+			y: 3.5d,
+			description: ["Infused Stone Hammer allows me to break stone into it's softer variants. Also mining ores with this hammer gives me ore pieces to get chunks"],
+			dependencies: [I;
+				532,
+				188
+			],
+			id: 530,
+			tasks: [{
+				id: 531,
+				type: "item",
+				item: {
+					id: "exnihilosequentia:hammer_stone",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 537,
+					type: "item",
+					item: "minecraft:gravel",
+					count: 8
+				},
+				{
+					id: 538,
+					type: "item",
+					item: "minecraft:sand",
+					count: 8
+				},
+				{
+					id: 539,
+					type: "item",
+					item: "minecraft:iron_ore",
+					count: 2
+				},
+				{
+					id: 540,
+					type: "item",
+					item: "create:copper_ore",
+					count: 2
+				}
+			]
+		},
+		{
+			x: 3.5d,
+			y: 4.5d,
+			description: ["Infused Rock is a better variant of stone. It is way stronger and better, allows me to make better tools like advanced hammer to make gravel, sand and break ores to get first ingots!"],
+			dependencies: [I;182],
+			id: 532,
+			tasks: [{
+				id: 533,
+				type: "item",
+				item: "naturesaura:infused_stone"
+			}],
+			rewards: [{
+				id: 534,
+				type: "item",
+				item: "naturesaura:infused_stone",
+				count: 3
+			}]
 		}
 	]
 }
