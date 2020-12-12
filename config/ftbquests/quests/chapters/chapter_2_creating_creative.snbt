@@ -1,7 +1,7 @@
 {
 	id: 202,
 	filename: "chapter_2_creating_creative",
-	order_index: 2,
+	order_index: 0,
 	title: "Chapter 2: Creating Creative",
 	icon: "create:gearbox",
 	default_quest_shape: "",
@@ -20,10 +20,10 @@
 		{
 			title: "Revolution Threshold",
 			x: -6.25d,
-			y: 5.0d,
+			y: 4.5d,
 			shape: "gear",
 			description: [
-				"I no longer depend on desperate survival. Now I can focus of my further perspectives. It's time to start common purpose automation.",
+				"I'm no longer depend on desperate survival. Now I can focus of my further perspectives. It's time to start common purpose automation.",
 				"",
 				"Time to Create!"
 			],
@@ -45,7 +45,7 @@
 		},
 		{
 			x: -5.0d,
-			y: 5.5d,
+			y: 5.0d,
 			description: [
 				"Rotational force conductors.",
 				"",
@@ -68,7 +68,7 @@
 		},
 		{
 			x: -5.0d,
-			y: 4.5d,
+			y: 4.0d,
 			description: ["Cogs are used for rotational force transfering and inversion."],
 			dependencies: [I;203],
 			id: 230,
@@ -103,7 +103,7 @@
 		},
 		{
 			x: -4.0d,
-			y: 5.0d,
+			y: 4.5d,
 			description: ["Rotational force relay. I can turn it."],
 			dependencies: [I;
 				230,
@@ -118,7 +118,7 @@
 		},
 		{
 			x: -3.0d,
-			y: 5.0d,
+			y: 4.5d,
 			description: [
 				"Water Wheels are used as rotational force generators. Supply them with water flow and receive some power. Not really that much.",
 				"",
@@ -140,7 +140,7 @@
 		},
 		{
 			x: -3.0d,
-			y: 6.0d,
+			y: 5.5d,
 			description: [
 				"Windmill is more complicated way of force generation. Much more potent as well.",
 				"",
@@ -174,7 +174,7 @@
 		{
 			title: "Hand Mills",
 			x: -3.0d,
-			y: 4.0d,
+			y: 3.5d,
 			description: ["Simple rotational force generator. Hold RMB to generate rotational force. Shift+RMB to inverse direction."],
 			dependencies: [I;234],
 			id: 244,
@@ -206,16 +206,23 @@
 					id: "minecraft:cooked_chicken",
 					Count: true,
 					tag: {
-						Name: "Chicken Breasts"
+						display: {
+							Name: '{"text": "Chicken Breasts"}'
+						}
 					}
 				},
 				count: 64
 			}]
 		},
 		{
+			title: "Mechanical Saw: Harvesting Mode",
 			x: 1.5d,
-			y: 6.5d,
-			description: ["Quite useful tool if you need automated tree farm. It cuts whole tree in front of itself. Can also increase quantity of planks got from wood."],
+			y: 6.0d,
+			description: [
+				"Quite useful tool if you need automated tree farm. It cuts whole tree in front of itself, as well as single wooden blocks.",
+				"",
+				"Place it horizontally to use it in harvesting mode."
+			],
 			hide_dependency_lines: true,
 			dependencies: [I;344],
 			id: 246,
@@ -227,7 +234,7 @@
 		},
 		{
 			x: 0.5d,
-			y: 6.5d,
+			y: 6.0d,
 			hide_dependency_lines: true,
 			dependencies: [I;344],
 			id: 248,
@@ -239,8 +246,9 @@
 		},
 		{
 			x: 1.5d,
-			y: 10.0d,
+			y: 9.5d,
 			hide_dependency_lines: true,
+			dependencies: [I;371],
 			id: 250,
 			tasks: [{
 				id: 251,
@@ -256,8 +264,9 @@
 		},
 		{
 			x: 1.5d,
-			y: 9.0d,
+			y: 8.5d,
 			hide_dependency_lines: true,
+			dependencies: [I;371],
 			id: 252,
 			tasks: [{
 				id: 253,
@@ -274,9 +283,10 @@
 		},
 		{
 			x: 0.5d,
-			y: 9.0d,
+			y: 8.5d,
 			description: ["Millstone is capable of grinding down materials. Useful for milling soft materials."],
 			hide_dependency_lines: true,
+			dependencies: [I;371],
 			id: 255,
 			tasks: [{
 				id: 256,
@@ -292,8 +302,9 @@
 		},
 		{
 			x: -5.0d,
-			y: 7.0d,
-			description: ["Mechanical Belts are either conveyors or force conductors. Connect two shafts with Mechanical Belt and look how it works. Shafts must oppose each other along one axis."],
+			y: 7.5d,
+			description: ["Mechanical Belts are both conveyors and force conductors. Connect two Shafts with Mechanical Belt and look how it works. Shafts must oppose each other along one axis."],
+			hide_dependency_lines: true,
 			dependencies: [I;228],
 			id: 259,
 			tasks: [{
@@ -306,7 +317,7 @@
 		{
 			title: "New Era",
 			x: 5.0d,
-			y: 9.5d,
+			y: 9.0d,
 			shape: "gear",
 			dependencies: [I;999],
 			size: 1.5d,
@@ -334,7 +345,7 @@
 		{
 			title: "Storage Uprgade",
 			x: 5.0d,
-			y: 8.0d,
+			y: 7.5d,
 			description: [
 				"Hooray! With the advent of plates, I came up with a way to update my chests. Now I have much more space to store my precious resources.",
 				"",
@@ -355,7 +366,7 @@
 		},
 		{
 			x: 0.5d,
-			y: 4.0d,
+			y: 3.5d,
 			hide_dependency_lines: true,
 			dependencies: [I;346],
 			id: 267,
@@ -368,7 +379,7 @@
 		{
 			icon: "create:sticky_mechanical_piston",
 			x: 0.5d,
-			y: 5.0d,
+			y: 4.5d,
 			hide_dependency_lines: true,
 			dependencies: [I;346],
 			id: 271,
@@ -402,7 +413,7 @@
 		},
 		{
 			x: 1.5d,
-			y: 4.0d,
+			y: 3.5d,
 			hide_dependency_lines: true,
 			dependencies: [I;346],
 			id: 273,
@@ -414,7 +425,7 @@
 		},
 		{
 			x: 0.5d,
-			y: 7.5d,
+			y: 7.0d,
 			hide_dependency_lines: true,
 			dependencies: [I;344],
 			id: 278,
@@ -426,7 +437,7 @@
 		},
 		{
 			x: 1.5d,
-			y: 5.0d,
+			y: 4.5d,
 			description: ["This thing allows you to feel sick. Has best effect if combined with jukebox."],
 			hide_dependency_lines: true,
 			dependencies: [I;346],
@@ -451,7 +462,7 @@
 		},
 		{
 			x: 1.5d,
-			y: 7.5d,
+			y: 7.0d,
 			hide_dependency_lines: true,
 			dependencies: [I;344],
 			id: 369,
@@ -463,7 +474,7 @@
 		},
 		{
 			x: -1.0d,
-			y: 9.5d,
+			y: 9.0d,
 			shape: "circle",
 			hide_dependency_lines: true,
 			dependencies: [I;
@@ -480,7 +491,7 @@
 		},
 		{
 			x: -1.0d,
-			y: 7.0d,
+			y: 6.5d,
 			shape: "circle",
 			hide_dependency_lines: true,
 			dependencies: [I;
@@ -498,8 +509,9 @@
 		},
 		{
 			x: -1.0d,
-			y: 4.5d,
+			y: 4.0d,
 			shape: "circle",
+			description: ["All harvesting machines act as powered when they are part of dynamic structure."],
 			hide_dependency_lines: true,
 			dependencies: [I;
 				240,
@@ -516,8 +528,8 @@
 		},
 		{
 			x: 7.5d,
-			y: 9.5d,
-			dependencies: [I;374],
+			y: 9.0d,
+			dependencies: [I;383],
 			id: 348,
 			tasks: [{
 				id: 349,
@@ -534,7 +546,7 @@
 		},
 		{
 			x: 8.5d,
-			y: 9.5d,
+			y: 9.0d,
 			dependencies: [I;348],
 			id: 351,
 			tasks: [{
@@ -545,48 +557,45 @@
 			}]
 		},
 		{
+			title: "Blaze Burner",
+			icon: "create:blaze_burner",
 			x: 2.5d,
-			y: 9.5d,
+			y: 9.0d,
 			description: [
 				"Blaze Burner is a living heater for advanced proseccing. I can smelt alloys if I imprison blaze in a special cage.",
 				"",
-				"You place Blaze Burner underneath a Basin, as well as Mechanical Mixer above Basin."
+				"You place Blaze Burner underneath a Basin, as well as Mechanical Mixer above Basin. Then you feed your Blaze with Blaze Rods."
 			],
 			dependencies: [I;
 				250,
 				252
 			],
 			id: 998,
-			tasks: [{
-				id: 995,
-				type: "item",
-				item: "create:empty_blaze_burner"
-			}],
-			rewards: [
+			tasks: [
 				{
-					id: 993,
+					id: 995,
 					type: "item",
-					item: "minecraft:obsidian",
-					count: 14
+					item: "create:empty_blaze_burner"
 				},
 				{
-					id: 994,
+					id: 390,
 					type: "item",
-					item: {
-						id: "minecraft:flint_and_steel",
-						Count: true,
-						tag: {
-							Damage: 0
-						}
-					}
+					item: "exnihilosequentia:doll_blaze"
 				}
-			]
+			],
+			rewards: [{
+				id: 491,
+				type: "item",
+				item: "minecraft:blaze_rod",
+				count: 4,
+				random_bonus: 8
+			}]
 		},
 		{
 			title: "First Brass",
 			icon: "create:brass_ingot",
 			x: 3.5d,
-			y: 9.5d,
+			y: 9.0d,
 			dependencies: [I;998],
 			id: 999,
 			tasks: [
@@ -620,8 +629,8 @@
 		},
 		{
 			title: "Dark Utilities",
-			x: 9.0d,
-			y: 4.5d,
+			x: 12.0d,
+			y: 5.0d,
 			hide_dependency_lines: true,
 			dependencies: [I;261],
 			size: 2.0d,
@@ -635,7 +644,7 @@
 		{
 			title: "OpenBlocks Elevators",
 			x: 5.0d,
-			y: 11.0d,
+			y: 10.5d,
 			dependencies: [I;261],
 			id: 355,
 			tasks: [{
@@ -652,29 +661,50 @@
 			}]
 		},
 		{
-			title: "Terraqueous",
-			x: 11.0d,
-			y: 4.5d,
-			hide_dependency_lines: true,
+			title: "CraftFurnace",
+			x: 6.5d,
+			y: 7.5d,
+			shape: "square",
+			description: ["After some more time I found a way of making things more compact. These sheets I'm making on Mechanical Press allows me to make a bit better furnace, than I had before. 3 furnace at once. Sounds really good."],
 			dependencies: [I;261],
-			size: 2.0d,
 			id: 357,
 			tasks: [{
 				id: 358,
 				type: "item",
 				item: "terraqueous:craftfurnace"
-			}]
+			}],
+			rewards: [
+				{
+					id: 473,
+					type: "item",
+					item: "create:brass_ingot"
+				},
+				{
+					id: 474,
+					type: "item",
+					item: "minecraft:coal",
+					count: 4
+				}
+			]
 		},
 		{
-			title: "Aquaculture 2",
-			x: 7.0d,
-			y: 4.5d,
+			title: "Fishes, fishes ... treasures!",
+			icon: "aquaculture:tackle_box",
+			disable_toast: true,
+			x: -4.0d,
+			y: 15.0d,
+			shape: "hexagon",
+			description: [
+				"When I was child, my favourite hobby was fishing. My father always took me at early morning, and I was able to wait for good haul for a lot of hours. ",
+				"I should try to upgrade my primitive fishing rod, that was made only with sticks and strings. Tackle box is the best solution to create now."
+			],
 			hide_dependency_lines: true,
 			dependencies: [I;261],
+			dependency_requirement: "one_completed",
 			size: 2.0d,
 			id: 359,
 			tasks: [{
-				id: 361,
+				id: 422,
 				type: "item",
 				item: "aquaculture:tackle_box"
 			}]
@@ -692,7 +722,7 @@
 			}]
 		},
 		{
-			x: -6.0d,
+			x: -5.0d,
 			y: 9.0d,
 			hide_dependency_lines: true,
 			dependencies: [I;203],
@@ -704,7 +734,7 @@
 			}]
 		},
 		{
-			x: -5.0d,
+			x: -4.0d,
 			y: 9.0d,
 			hide_dependency_lines: true,
 			dependencies: [I;
@@ -719,7 +749,7 @@
 			}]
 		},
 		{
-			x: -4.0d,
+			x: -3.0d,
 			y: 9.0d,
 			hide_dependency_lines: true,
 			dependencies: [I;261],
@@ -731,9 +761,12 @@
 			}]
 		},
 		{
-			x: -4.0d,
-			y: 10.0d,
+			x: -5.0d,
+			y: 11.0d,
+			shape: "hexagon",
 			hide_dependency_lines: true,
+			dependencies: [I;377],
+			size: 2.0d,
 			id: 379,
 			tasks: [{
 				id: 380,
@@ -742,10 +775,12 @@
 			}]
 		},
 		{
-			x: -4.0d,
+			x: -3.0d,
 			y: 11.0d,
+			shape: "hexagon",
 			hide_dependency_lines: true,
 			dependencies: [I;370],
+			size: 2.5d,
 			id: 381,
 			tasks: [{
 				id: 382,
@@ -755,7 +790,7 @@
 		},
 		{
 			x: 6.5d,
-			y: 9.5d,
+			y: 9.0d,
 			dependencies: [I;261],
 			id: 383,
 			tasks: [
@@ -807,6 +842,492 @@
 					count: 4
 				}
 			]
+		},
+		{
+			title: "Mechanical Saw: Processing Mode",
+			x: 0.5d,
+			y: 9.5d,
+			description: [
+				"Mechanical Saw in Processing Mode allows you to get more planks from logs.",
+				"",
+				"Place Mechanical Saw vertically to enable Processing Mode."
+			],
+			hide_dependency_lines: true,
+			dependencies: [I;371],
+			id: 388,
+			tasks: [{
+				id: 389,
+				type: "item",
+				item: "create:mechanical_saw"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 7.5d,
+			description: [
+				".",
+				" "
+			],
+			hide_dependency_lines: false,
+			dependencies: [I;357],
+			id: 409,
+			tasks: [{
+				id: 410,
+				type: "item",
+				item: "terraqueous:craftbench"
+			}]
+		},
+		{
+			x: 8.5d,
+			y: 7.5d,
+			hide_dependency_lines: false,
+			dependencies: [I;409],
+			id: 411,
+			tasks: [{
+				id: 412,
+				type: "item",
+				item: {
+					id: "terraqueous:scythe",
+					Count: true,
+					tag: {
+						sickle: true,
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Tough as frozen earth",
+			icon: {
+				id: "aquaculture:iron_fishing_rod",
+				Count: true,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -5.5d,
+			y: 14.0d,
+			description: [
+				"",
+				"This rod should be enough to upgrade it with some stuff in Tackle Box."
+			],
+			hide_dependency_lines: true,
+			dependencies: [I;359],
+			dependency_requirement: "one_started",
+			id: 423,
+			tasks: [
+				{
+					id: 431,
+					type: "item",
+					item: {
+						id: "aquaculture:iron_fishing_rod",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 439,
+					type: "item",
+					item: "aquaculture:fishing_line"
+				},
+				{
+					id: 440,
+					type: "item",
+					item: "aquaculture:iron_hook"
+				},
+				{
+					id: 441,
+					type: "item",
+					item: "aquaculture:bobber"
+				}
+			]
+		},
+		{
+			x: 7.5d,
+			y: 10.5d,
+			dependencies: [I;348],
+			id: 428,
+			tasks: [{
+				id: 429,
+				type: "item",
+				item: "create:integrated_circuit"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 12.0d,
+			description: [
+				"These pipes reveal awesome capabilities. I'm looking forward to fluid management automation.",
+				"",
+				"These pipes can be concealed with Copper Casing!"
+			],
+			dependencies: [I;250],
+			id: 432,
+			tasks: [{
+				id: 433,
+				type: "item",
+				item: "create:fluid_pipe",
+				count: 16L
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 13.0d,
+			dependencies: [I;432],
+			id: 434,
+			tasks: [{
+				id: 435,
+				type: "item",
+				item: "create:mechanical_pump"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 12.0d,
+			description: [
+				"This Tank can hold fluid... I wonder how many buckets i can to fill from it.",
+				"",
+				"I bet this Tank can't withstand transportation... Unfortunately.",
+				"",
+				"Wait, can I build one huge Tank of them?"
+			],
+			dependencies: [I;432],
+			id: 436,
+			tasks: [{
+				id: 437,
+				type: "item",
+				item: "create:fluid_tank"
+			}]
+		},
+		{
+			title: "Bait everything!",
+			icon: {
+				id: "aquaculture:worm",
+				Count: true,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -2.5d,
+			y: 14.0d,
+			description: [
+				'As my father said to me "When you don\'t know, what thing you want to fish at - use worms. If you need them - search for them at pus". That should help me. ',
+				"To obtain worms, use some organic at Worm Farm, and then collect them from it."
+			],
+			dependencies: [I;452],
+			id: 446,
+			tasks: [
+				{
+					id: 448,
+					type: "item",
+					item: {
+						id: "aquaculture:worm",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					},
+					count: 16L
+				},
+				{
+					id: 449,
+					type: "item",
+					item: "aquaculture:worm_farm"
+				}
+			]
+		},
+		{
+			x: 0.5d,
+			y: 13.0d,
+			description: [
+				"Finally! With Hose Pulley i can pump entire lakes of whatever i want without enduring work. Have i seen oil somewhere around?",
+				"",
+				"It has both to be powered to descend hose, and to be connected to powered Mechanical Pump.",
+				"In that case the Hose Pulley will start pumping."
+			],
+			dependencies: [I;434],
+			id: 450,
+			tasks: [{
+				id: 451,
+				type: "item",
+				item: "create:hose_pulley"
+			}]
+		},
+		{
+			title: "Time for real fishing has come...",
+			icon: "minecraft:water_bucket",
+			x: -4.0d,
+			y: 13.25d,
+			description: ["It's time to catch something really valuable ... or at least something."],
+			dependencies: [I;423],
+			id: 452,
+			tasks: [
+				{
+					id: 454,
+					type: "item",
+					item: "aquaculture:message_in_a_bottle"
+				},
+				{
+					id: 455,
+					type: "item",
+					item: "aquaculture:tin_can"
+				},
+				{
+					id: 456,
+					type: "item",
+					item: "aquaculture:driftwood"
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: 3.5d,
+			hide_dependency_lines: true,
+			dependencies: [I;346],
+			id: 457,
+			tasks: [{
+				id: 458,
+				type: "item",
+				item: "create:cart_assembler"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 4.5d,
+			hide_dependency_lines: true,
+			dependencies: [I;346],
+			id: 459,
+			tasks: [{
+				id: 460,
+				type: "item",
+				item: {
+					id: "create:super_glue",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Culmination",
+			x: 7.5d,
+			y: 12.0d,
+			shape: "hexagon",
+			description: ["So many days has passed. So much effort is behind. I used to build long chains of gears to get needed rotational speed. Now i have one machine to replace them all!"],
+			dependencies: [I;428],
+			size: 1.5d,
+			id: 462,
+			tasks: [{
+				id: 463,
+				type: "item",
+				item: "create:rotation_speed_controller"
+			}]
+		},
+		{
+			title: "Mmm ... delicious ...",
+			x: -4.0d,
+			y: 16.75d,
+			description: ["Sometimes I realize, that I need some unique dishes. First thing, that came to my mind was sushi, second - turtle soup. I hope it'll be tasteful ... mmm ..."],
+			dependencies: [I;475],
+			id: 464,
+			tasks: [
+				{
+					id: 466,
+					type: "item",
+					item: "aquaculture:sushi"
+				},
+				{
+					id: 467,
+					type: "item",
+					item: "aquaculture:turtle_soup"
+				},
+				{
+					id: 469,
+					type: "item",
+					item: {
+						id: "aquaculture:iron_fillet_knife",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: -5.5d,
+			y: 16.0d,
+			dependencies: [I;464],
+			id: 470,
+			tasks: [{
+				id: 471,
+				type: "item",
+				item: "aquaculture:nether_star_hook"
+			}]
+		},
+		{
+			title: "Pick yours",
+			x: -2.5d,
+			y: 16.0d,
+			dependencies: [I;446],
+			id: 475,
+			tasks: [{
+				id: 476,
+				type: "item",
+				title: "Any Advanced Hook",
+				item: {
+					id: "itemfilters:or",
+					Count: true,
+					tag: {
+						items: [
+							{
+								id: "aquaculture:gold_hook",
+								Count: true
+							},
+							{
+								id: "aquaculture:diamond_hook",
+								Count: true
+							},
+							{
+								id: "aquaculture:light_hook",
+								Count: true
+							},
+							{
+								id: "aquaculture:heavy_hook",
+								Count: true
+							},
+							{
+								id: "aquaculture:double_hook",
+								Count: true
+							},
+							{
+								id: "aquaculture:redstone_hook",
+								Count: true
+							},
+							{
+								id: "aquaculture:note_hook",
+								Count: true
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 4.0d,
+			shape: "circle",
+			hide_dependency_lines: true,
+			dependencies: [I;
+				244,
+				237,
+				240
+			],
+			dependency_requirement: "one_completed",
+			id: 477,
+			tasks: [{
+				id: 478,
+				type: "checkmark",
+				title: "Misc"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 3.5d,
+			description: [
+				"Funnel is also kinda Hopper... It can be placed in any direction, but it's strictly straight. It can't extract items from inventories.",
+				"",
+				"Can accept items from players using RMB."
+			],
+			hide_dependency_lines: true,
+			dependencies: [I;477],
+			id: 479,
+			tasks: [{
+				id: 480,
+				type: "item",
+				item: "create:andesite_funnel"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 3.5d,
+			description: [
+				"Chute is basically Hopper, but with several differences.",
+				"Firstly, Chute is strictly vertical.",
+				"But, secondly, it has unlimited bandwidth and extraction speed of 16/s if an inventory is above it."
+			],
+			hide_dependency_lines: true,
+			dependencies: [I;477],
+			id: 481,
+			tasks: [{
+				id: 482,
+				type: "item",
+				item: "create:chute"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 6.0d,
+			shape: "circle",
+			hide_dependency_lines: true,
+			dependencies: [I;250],
+			id: 483,
+			tasks: [{
+				id: 484,
+				type: "checkmark",
+				title: "Tools"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 6.0d,
+			hide_dependency_lines: true,
+			dependencies: [I;483],
+			id: 485,
+			tasks: [{
+				id: 486,
+				type: "item",
+				item: "create:wrench"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 6.0d,
+			hide_dependency_lines: true,
+			dependencies: [I;483],
+			id: 487,
+			tasks: [{
+				id: 488,
+				type: "item",
+				item: "create:goggles"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 7.5d,
+			dependencies: [I;259],
+			id: 489,
+			tasks: [{
+				id: 490,
+				type: "item",
+				item: "create:andesite_tunnel"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 10.5d,
+			description: ["Encased Fan executes various processing types. Depending on what its flow pass through, it can smelt, cook, moisten... and who the hell knows what else..."],
+			hide_dependency_lines: true,
+			dependencies: [I;371],
+			id: 494,
+			tasks: [{
+				id: 495,
+				type: "item",
+				item: "create:encased_fan"
+			}]
 		}
 	]
 }

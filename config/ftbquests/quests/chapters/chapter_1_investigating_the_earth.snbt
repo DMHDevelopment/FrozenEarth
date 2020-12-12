@@ -1,7 +1,7 @@
 {
 	id: 24,
 	filename: "chapter_1_investigating_the_earth",
-	order_index: 3,
+	order_index: 2,
 	title: "Chapter 1: Investigating The Earth",
 	icon: "terraqueous:doodad_branch",
 	default_quest_shape: "",
@@ -1025,6 +1025,7 @@
 			}]
 		},
 		{
+			title: "Eins, Zwei, Dry",
 			x: 4.5d,
 			y: 6.5d,
 			dependencies: [I;144],
@@ -1032,24 +1033,32 @@
 			tasks: [{
 				id: 151,
 				type: "item",
-				title: "Any silents_mechanisms:drying_racks",
+				title: "Any Drying Rack (Silent's Mechanisms)",
 				item: {
 					id: "itemfilters:tag",
 					Count: true,
 					tag: {
 						value: "silents_mechanisms:drying_racks"
 					}
-				}
+				},
+				count: 2L
 			}],
 			rewards: [{
-				id: 158,
+				id: 430,
 				type: "item",
-				item: "thermal:copper_coin"
+				item: {
+					id: "minecraft:stone_axe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		},
 		{
 			x: 6.5d,
 			y: 6.5d,
+			description: ["I can dry rotten flesh on drying racks for some time and I'll get Zombie Leather."],
 			dependencies: [I;150],
 			id: 152,
 			tasks: [{
@@ -1058,14 +1067,15 @@
 				item: "silents_mechanisms:zombie_leather"
 			}],
 			rewards: [{
-				id: 161,
+				id: 420,
 				type: "item",
-				item: "thermal:copper_coin"
+				item: "survive:purified_water_bowl"
 			}]
 		},
 		{
 			x: 6.5d,
 			y: 7.5d,
+			description: ["Handy Crafting Table is a good thing. I can craft my items wherever I want to. It's useful when I try to craft something far away from home..."],
 			dependencies: [I;152],
 			id: 154,
 			tasks: [{
@@ -1074,9 +1084,10 @@
 				item: "extendedcrafting:handheld_table"
 			}],
 			rewards: [{
-				id: 160,
+				id: 418,
 				type: "item",
-				item: "thermal:copper_coin"
+				item: "silents_mechanisms:zombie_leather",
+				count: 2
 			}]
 		},
 		{
@@ -1098,12 +1109,19 @@
 		{
 			x: 7.5d,
 			y: 7.5d,
+			description: ["Chests allows me to finally store more items outside my pockets and small stone chests. Isn't this nice?"],
 			dependencies: [I;144],
 			id: 162,
 			tasks: [{
 				id: 163,
 				type: "item",
 				item: "minecraft:chest"
+			}],
+			rewards: [{
+				id: 419,
+				type: "item",
+				item: "minecraft:chest",
+				count: 3
 			}]
 		},
 		{
