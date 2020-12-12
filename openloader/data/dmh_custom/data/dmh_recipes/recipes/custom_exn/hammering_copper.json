@@ -1,0 +1,11 @@
+{
+    "type": "exnihilosequentia:hammer",
+    "input": {
+        "tag": "forge:ores/copper"
+    },
+    "result": {
+        "item": "exnihilosequentia:piece_copper",
+        "count": 4,
+        "chance": 0.5
+    }
+}
