@@ -1,7 +1,7 @@
 {
 	id: 202,
 	filename: "chapter_2_creating_creative",
-	order_index: 0,
+	order_index: 3,
 	title: "Chapter 2: Creating Creative",
 	icon: "create:gearbox",
 	default_quest_shape: "",
@@ -436,8 +436,8 @@
 			}]
 		},
 		{
-			x: 1.5d,
-			y: 4.5d,
+			x: 8.5d,
+			y: 3.5d,
 			description: ["This thing allows you to feel sick. Has best effect if combined with jukebox."],
 			hide_dependency_lines: true,
 			dependencies: [I;346],
@@ -1327,6 +1327,60 @@
 				id: 495,
 				type: "item",
 				item: "create:encased_fan"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 4.5d,
+			description: ["Great tool for automation. Once you give it redstone pulse, Sequenced Gearshift starts program out of 5 configurable steps. Step may include exact rotation sufficient to rotate something on N° or to push/retract piston on exact amount of blocks."],
+			hide_dependency_lines: true,
+			dependencies: [I;346],
+			id: 501,
+			tasks: [{
+				id: 502,
+				type: "item",
+				item: "create:sequenced_gearshift"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 4.5d,
+			description: ["I've made an advanced Redstone thingie. It will come in handy."],
+			hide_dependency_lines: true,
+			dependencies: [I;477],
+			id: 515,
+			tasks: [{
+				id: 516,
+				type: "item",
+				title: "Redstone Components",
+				item: {
+					id: "itemfilters:or",
+					Count: true,
+					tag: {
+						items: [
+							{
+								id: "create:pulse_repeater",
+								Count: true
+							},
+							{
+								id: "create:adjustable_repeater",
+								Count: true
+							},
+							{
+								id: "create:adjustable_pulse_repeater",
+								Count: true
+							},
+							{
+								id: "create:powered_latch",
+								Count: true
+							},
+							{
+								id: "create:powered_toggle_latch",
+								Count: true
+							}
+						]
+					}
+				}
 			}]
 		}
 	]

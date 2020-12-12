@@ -1,7 +1,7 @@
 {
 	id: 24,
 	filename: "chapter_1_investigating_the_earth",
-	order_index: 2,
+	order_index: 3,
 	title: "Chapter 1: Investigating The Earth",
 	icon: "terraqueous:doodad_branch",
 	default_quest_shape: "",
@@ -231,9 +231,10 @@
 				count: 4L
 			}],
 			rewards: [{
-				id: 110,
+				id: 522,
 				type: "item",
-				item: "thermal:copper_coin"
+				item: "minecraft:carrot",
+				count: 2
 			}]
 		},
 		{
@@ -660,6 +661,11 @@
 				id: 84,
 				type: "item",
 				item: "stone_age:tanning_rack"
+			}],
+			rewards: [{
+				id: 524,
+				type: "item",
+				item: "minecraft:leather"
 			}]
 		},
 		{
@@ -964,7 +970,7 @@
 			x: 5.5d,
 			y: 7.5d,
 			description: [
-				"",
+				"Now I can have a better table, than just flint one on the floor. It's even much better than previous one. It also allows me to make more items!",
 				"NOTE: You need untouched Stone Hammer to make a crafting table. If you have used hammer atleast once - it can't be used for this. CraftTweaker doesn't support any damage as int :("
 			],
 			dependencies: [I;81],
@@ -985,10 +991,26 @@
 					player_command: false
 				},
 				{
-					id: 147,
+					id: 507,
 					type: "item",
-					item: "thermal:copper_coin",
-					count: 4
+					item: {
+						id: "minecraft:stone_pickaxe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 508,
+					type: "item",
+					item: {
+						id: "minecraft:stone_axe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 			]
 		},
@@ -1028,6 +1050,7 @@
 			title: "Eins, Zwei, Dry",
 			x: 4.5d,
 			y: 6.5d,
+			description: ["Drying Racks allows you to dry grass. And dry Rotten Flesh to make leather if you don't want to kill animals, also it is needed for jerky from fishes and many more things can be made by drying."],
 			dependencies: [I;144],
 			id: 150,
 			tasks: [{
@@ -1093,6 +1116,7 @@
 		{
 			x: 4.5d,
 			y: 5.5d,
+			description: ["I can eat dried food too. Yes, fish + drying rack = cod/salmon jerky."],
 			dependencies: [I;150],
 			id: 156,
 			tasks: [{
@@ -1101,9 +1125,9 @@
 				item: "silents_mechanisms:cod_jerky"
 			}],
 			rewards: [{
-				id: 159,
+				id: 519,
 				type: "item",
-				item: "thermal:copper_coin"
+				item: "silents_mechanisms:salmon_jerky"
 			}]
 		},
 		{
@@ -1198,8 +1222,10 @@
 			]
 		},
 		{
+			title: "Looking for Resources?",
 			x: 5.5d,
 			y: 6.5d,
+			description: ["Survivalist's Net allows you to get iron and gold for your future needs. You cannot just get ores and smelt them, because they're soooo cold and needs to be crushed first."],
 			dependencies: [I;144],
 			id: 170,
 			tasks: [{
@@ -1212,22 +1238,47 @@
 						Damage: 0
 					}
 				}
-			}]
+			}],
+			rewards: [
+				{
+					id: 517,
+					type: "item",
+					item: "waterstrainer:strainer_base"
+				},
+				{
+					id: 518,
+					type: "item",
+					item: "aquaculture:fish_fillet_cooked",
+					count: 4
+				}
+			]
 		},
 		{
 			x: 5.5d,
 			y: 5.5d,
+			description: ['I need a lot of gold to begin my researching on interesting book called "Nature\'s Aura"'],
 			dependencies: [I;170],
 			id: 172,
 			tasks: [{
 				id: 173,
 				type: "item",
 				item: "minecraft:gold_nugget"
+			}],
+			rewards: [{
+				id: 514,
+				type: "item",
+				item: "minecraft:gold_nugget",
+				count: 17
 			}]
 		},
 		{
+			title: "Gold, More Gold and Leaves...",
 			x: 2.5d,
 			y: 5.5d,
+			description: [
+				"Golden leaves can help me to get more magical aspects from trees and bushes. It can have a lot of potential of making stonger materials instead of wood or stone...",
+				"I need some Brilliant Fiber, so I can place it on leaves to make them stronger, than now"
+			],
 			dependencies: [I;
 				172,
 				168
@@ -1236,34 +1287,78 @@
 			tasks: [{
 				id: 175,
 				type: "item",
-				item: "naturesaura:gold_leaf"
-			}]
+				item: "naturesaura:gold_leaf",
+				count: 2L
+			}],
+			rewards: [
+				{
+					id: 497,
+					type: "item",
+					item: "naturesaura:gold_leaf",
+					count: 4
+				},
+				{
+					id: 498,
+					type: "item",
+					item: "naturesaura:gold_fiber",
+					count: 4
+				}
+			]
 		},
 		{
+			title: "Infused Joyness",
 			x: 1.5d,
 			y: 4.5d,
+			description: ["My first attempt to make this infusion was a bit interesting. I made a Totem of Joy. It's full of something glowing in this totem. Maybe it really can give me some sort of joyness? "],
 			dependencies: [I;178],
 			id: 176,
 			tasks: [{
 				id: 177,
 				type: "item",
 				item: "naturesaura:token_joy"
+			}],
+			rewards: [{
+				id: 513,
+				type: "item",
+				item: "minecraft:iron_ingot"
 			}]
 		},
 		{
+			title: "First Infusions...",
 			x: 1.5d,
 			y: 5.5d,
+			description: [
+				'Wooden Stands allow me to make some sort of "nature infusion", so I can begin doing something better than just throwing stone into wood.',
+				"Wooden Stands must be placed like a circle, I saw an image in the book about that, so I can build it step by step and I need 8 of them... oh, I have found somewhere 4 of them, don't know where I got them, but I need to craft only 4 stands."
+			],
 			dependencies: [I;174],
 			id: 178,
 			tasks: [{
 				id: 179,
 				type: "item",
-				item: "naturesaura:wood_stand"
-			}]
+				item: "naturesaura:wood_stand",
+				count: 4L
+			}],
+			rewards: [
+				{
+					id: 499,
+					type: "item",
+					item: "naturesaura:wood_stand",
+					count: 4
+				},
+				{
+					id: 500,
+					type: "item",
+					item: "naturesaura:gold_powder",
+					count: 8
+				}
+			]
 		},
 		{
+			title: "Collecting Aura",
 			x: 3.5d,
 			y: 5.5d,
+			description: ['Mystical book told me that there is a lot of "nature aura" around trees and other nature things. I made small empty bottles to get some of it. Book told me I need a lot of this. Okay...'],
 			dependencies: [I;168],
 			id: 180,
 			tasks: [{
@@ -1276,11 +1371,24 @@
 						stored_type: "naturesaura:overworld"
 					}
 				}
+			}],
+			rewards: [{
+				id: 496,
+				type: "item",
+				item: {
+					id: "naturesaura:aura_bottle",
+					Count: true,
+					tag: {
+						stored_type: "naturesaura:overworld"
+					}
+				},
+				count: 3
 			}]
 		},
 		{
 			x: 2.5d,
 			y: 4.5d,
+			description: ["Altar of Nature... Sounds epic, but isn't really interesting as of right now, because I need a bit more resources to enhance them. I can infuse Iron and Gold, but it requires a lot of aura and these ingots, that I need to save to progress!"],
 			dependencies: [I;
 				176,
 				180
@@ -1290,28 +1398,58 @@
 				id: 183,
 				type: "item",
 				item: "naturesaura:nature_altar"
+			}],
+			rewards: [{
+				id: 521,
+				type: "item",
+				item: "minecraft:iron_ingot"
 			}]
 		},
 		{
 			x: 2.5d,
 			y: 3.5d,
+			description: ["Infusing Iron is an interesting process. Pushing iron through nature's aura makes this ingot way better and useable for tools and armor"],
 			dependencies: [I;182],
 			id: 184,
 			tasks: [{
 				id: 185,
 				type: "item",
 				item: "naturesaura:infused_iron"
-			}]
+			}],
+			rewards: [
+				{
+					id: 525,
+					type: "item",
+					item: "naturesaura:infused_iron"
+				},
+				{
+					id: 526,
+					type: "item",
+					item: "naturesaura:gold_leaf"
+				},
+				{
+					id: 527,
+					type: "item",
+					item: "gaiadimension:lurmorus_steak"
+				}
+			]
 		},
 		{
 			x: 1.5d,
 			y: 3.5d,
+			description: ["Ancient trees are better than trees on frozen Earth and this tree have strong magical ability to be way stronger... I can use this type of wood for something heavier!"],
 			dependencies: [I;178],
 			id: 188,
 			tasks: [{
 				id: 189,
 				type: "item",
 				item: "naturesaura:ancient_sapling"
+			}],
+			rewards: [{
+				id: 523,
+				type: "item",
+				item: "minecraft:bone_meal",
+				count: 4
 			}]
 		},
 		{
@@ -1324,6 +1462,7 @@
 			},
 			x: 1.5d,
 			y: 2.5d,
+			description: ["After tons of infusions I can make a lot of Infused Iron and make my first good armor!"],
 			dependencies: [I;
 				184,
 				188
@@ -1400,6 +1539,7 @@
 			disable_toast: true,
 			x: 2.5d,
 			y: 2.5d,
+			description: ["After tons of infusions I can make a lot of Infused Iron and make my first good tools!"],
 			dependencies: [I;
 				184,
 				188
@@ -1478,17 +1618,6 @@
 			]
 		},
 		{
-			x: 3.5d,
-			y: 4.5d,
-			dependencies: [I;182],
-			id: 194,
-			tasks: [{
-				id: 195,
-				type: "item",
-				item: "naturesaura:tainted_gold"
-			}]
-		},
-		{
 			x: -2.5d,
 			y: 6.5d,
 			description: ["It's just a bowl with water."],
@@ -1542,7 +1671,7 @@
 					Damage: 0
 				}
 			},
-			x: 1.5d,
+			x: 2.5d,
 			y: 1.5d,
 			description: ["I need to have a lot of heat to keep my ability to survive here. This wool suit allows me to keep heat in my body better, but have less armor, than other armor suits like Nanosuit one.... if it still exists."],
 			dependencies: [I;207],
@@ -1610,6 +1739,10 @@
 		{
 			x: 3.5d,
 			y: 3.5d,
+			description: [
+				"This meshes allows me to sieve different blocks into pieces of ores. Can be placed on sieves. After crafting them I need to find some ore veins under dirt and stone... oh, seems that mining stone and snowy dirt is a huge problem! The deeper I mine...",
+				"the slower it breaks."
+			],
 			dependencies: [I;180],
 			id: 211,
 			tasks: [
@@ -1649,27 +1782,38 @@
 			}]
 		},
 		{
-			x: 6.5d,
+			title: "Copper Ore",
+			x: 5.5d,
 			y: 2.5d,
+			description: ["Copper Ore can be found near frozen dirt, it has value of 40-60 in Minecraftian Y-System. It will be easy to find."],
 			dependencies: [I;211],
 			id: 218,
 			tasks: [{
 				id: 219,
 				type: "item",
-				title: "Any forge:ores/copper",
+				title: "Copper Ore",
 				item: {
 					id: "itemfilters:tag",
 					Count: true,
 					tag: {
 						value: "forge:ores/copper"
 					}
-				}
+				},
+				count: 16L
+			}],
+			rewards: [{
+				id: 528,
+				type: "item",
+				item: "minecraft:iron_ore",
+				count: 4
 			}]
 		},
 		{
+			title: "Iron Ore",
 			icon: "minecraft:iron_ore",
 			x: 5.5d,
 			y: 4.5d,
+			description: ["Iron Ore can be found near frozen dirt, it has value of 10-50 in Minecraftian Y-System. It will be easy to find."],
 			dependencies: [I;211],
 			id: 221,
 			tasks: [{
@@ -1682,7 +1826,13 @@
 					tag: {
 						value: "forge:ores/iron"
 					}
-				}
+				},
+				count: 16L
+			}],
+			rewards: [{
+				id: 529,
+				type: "item",
+				item: "minecraft:iron_block"
 			}]
 		},
 		{
@@ -1734,10 +1884,11 @@
 			]
 		},
 		{
-			title: "Ironical Iron",
-			icon: "minecraft:iron_ingot",
+			title: "Copper of Irony",
+			icon: "create:copper_ingot",
 			x: 7.0d,
 			y: 4.0d,
+			description: ["Getting first ingots of copper and iron helps me to progress to the primitive era, so I can make my life easier. Also I don't forget about stamina and thirst, since I need to drink water and feel not tired while mining ores..."],
 			dependencies: [I;
 				218,
 				213,
@@ -1791,8 +1942,8 @@
 			}]
 		},
 		{
-			x: 9.5d,
-			y: 2.5d,
+			x: 10.5d,
+			y: 3.5d,
 			dependencies: [I;301],
 			id: 299,
 			tasks: [{
@@ -1860,8 +2011,8 @@
 			}]
 		},
 		{
-			x: 8.5d,
-			y: 2.5d,
+			x: 6.5d,
+			y: 1.5d,
 			dependencies: [I;305],
 			id: 311,
 			tasks: [{

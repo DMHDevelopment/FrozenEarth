@@ -1,0 +1,32 @@
+{
+  "replace": true,
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AA AA",
+    "BB BB",
+    "CD DC",
+    "CCCCC",
+    "EEEEE"
+  ],
+  "key": {
+    "A": {
+      "item": "assemblylinemachines:slab_silt_brick"
+    },
+    "B": {
+      "item": "assemblylinemachines:silt_brick"
+    },
+    "C": {
+      "item": "minecraft:bricks"
+    },
+    "D": {
+      "item": "voluminousenergy:titanium_ingot"
+    },
+    "E": {
+      "item": "minecraft:brick_slab"
+    }
+  },
+  "result": {
+    "item": "assemblylinemachines:hand_grinder",
+    "count": 1
+  }
+}
