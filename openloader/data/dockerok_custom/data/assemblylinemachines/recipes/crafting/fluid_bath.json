@@ -10,7 +10,7 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:oak_planks"
+      "tags": "minecraft:planks"
     },
     "B": {
       "item": "minecraft:iron_ingot"
