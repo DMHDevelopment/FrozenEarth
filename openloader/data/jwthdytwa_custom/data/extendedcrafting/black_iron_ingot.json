@@ -1,0 +1,19 @@
+{
+    "replace": true,
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "tag": "forge:ingots/iron"
+      },
+      {
+        "item": "create:powdered_obsidian"
+      }
+    ],
+    "results": [
+      {
+        "item": "extendedcrafting:black_iron_ingot",
+        "count": 1
+      }
+    ],
+    "heatRequirement": "heated"
+  }
