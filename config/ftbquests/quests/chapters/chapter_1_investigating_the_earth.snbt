@@ -1,7 +1,7 @@
 {
 	id: 24,
 	filename: "chapter_1_investigating_the_earth",
-	order_index: 2,
+	order_index: 3,
 	title: "Chapter 1: Investigating The Earth",
 	icon: "terraqueous:doodad_branch",
 	default_quest_shape: "",

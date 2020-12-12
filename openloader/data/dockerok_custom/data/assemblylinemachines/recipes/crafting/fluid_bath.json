@@ -1,0 +1,26 @@
+{
+  "replace": true,
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "A   A",
+    "B   B",
+    "A   A",
+    "BCCCB",
+    "AAAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:oak_planks"
+    },
+    "B": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "create:iron_sheet"
+    }
+  },
+  "result": {
+    "item": "assemblylinemachines:fluid_bath",
+    "count": 1
+  }
+}
