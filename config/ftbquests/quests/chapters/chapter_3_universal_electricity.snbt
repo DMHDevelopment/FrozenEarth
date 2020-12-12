@@ -5,14 +5,78 @@
 	title: "Chapter 3: Universal Electricity",
 	icon: "assemblylinemachines:geothermal_generator",
 	default_quest_shape: "",
-	quests: [{
-		x: 0.5d,
-		y: -0.5d,
-		id: 426,
-		tasks: [{
-			id: 427,
-			type: "item",
-			item: "assemblylinemachines:guidebook"
-		}]
-	}]
+	quests: [
+		{
+			x: -11.0d,
+			y: -1.0d,
+			id: 426,
+			tasks: [{
+				id: 427,
+				type: "item",
+				item: "assemblylinemachines:guidebook"
+			}]
+		},
+		{
+			title: "Grindstone!",
+			x: -8.5d,
+			y: -1.0d,
+			dependencies: [I;426],
+			id: 503,
+			tasks: [{
+				id: 504,
+				type: "item",
+				item: "assemblylinemachines:hand_grinder"
+			}]
+		},
+		{
+			title: "First blade",
+			x: -7.0d,
+			y: -2.5d,
+			dependencies: [I;503],
+			id: 505,
+			tasks: [{
+				id: 506,
+				type: "item",
+				item: {
+					id: "assemblylinemachines:titanium_blade",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -7.0d,
+			y: -1.0d,
+			dependencies: [I;
+				503,
+				505
+			],
+			id: 509,
+			tasks: [{
+				id: 510,
+				type: "item",
+				item: "assemblylinemachines:pure_gold"
+			}]
+		},
+		{
+			title: "Blade upgrade",
+			x: -5.5d,
+			y: -2.5d,
+			dependencies: [I;505],
+			id: 511,
+			tasks: [{
+				id: 512,
+				type: "item",
+				item: {
+					id: "assemblylinemachines:pure_gold_blade",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
 }
