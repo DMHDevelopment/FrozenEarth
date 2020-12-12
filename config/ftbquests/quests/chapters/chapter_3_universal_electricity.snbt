@@ -1,0 +1,18 @@
+{
+	id: 425,
+	filename: "chapter_3_universal_electricity",
+	order_index: 4,
+	title: "Chapter 3: Universal Electricity",
+	icon: "assemblylinemachines:geothermal_generator",
+	default_quest_shape: "",
+	quests: [{
+		x: 0.5d,
+		y: -0.5d,
+		id: 426,
+		tasks: [{
+			id: 427,
+			type: "item",
+			item: "assemblylinemachines:guidebook"
+		}]
+	}]
+}
