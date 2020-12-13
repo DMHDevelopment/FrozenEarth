@@ -1,3 +1,23 @@
 {
-    "replace": true
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "bwb",
+        "wsw",
+        "bwb"
+    ],
+    "key": {
+        "b": {
+            "tag": "minecraft:wooden_buttons"
+        },
+        "w": {
+            "tag": "minecraft:planks"
+        },
+        "s": {
+            "item": "create:shaft"
+        }
+    },
+    "result": {
+        "item": "create:cogwheel",
+        "count": 2
+    }
 }
