@@ -20,3 +20,4 @@ config/jei-client.toml
 servers.dat
 servers.dat_old
 config/appliedenergistics2-client.toml
+patchouli_data.json

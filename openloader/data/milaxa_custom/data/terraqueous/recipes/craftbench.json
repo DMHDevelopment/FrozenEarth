@@ -1,3 +1,29 @@
 {
-    "replace": true
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#g#",
+        "iCi",
+        "SSS"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:crafting_table"
+        },
+        "g": {
+            "item": "create:brass_sheet"
+        },
+        "i": {
+            "item": "thermal:iron_gear"
+        },
+        "C": {
+            "item": "minecraft:chest"
+        },
+        "S": {
+            "item": "minecraft:stone"
+        }
+    },
+    "result": {
+        "item": "terraqueous:craftbench",
+        "count": 1
+    }
 }
