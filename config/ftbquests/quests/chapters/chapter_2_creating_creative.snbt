@@ -1420,6 +1420,41 @@
 				type: "item",
 				item: "create:powdered_obsidian"
 			}]
+		},
+		{
+			x: 12.0d,
+			y: 11.0d,
+			description: ["Drawer Controller puts any items that go into this controller into proper drawers with items. If I had a drawer for cobblestone it will put new cobblestone into this drawer if right-clicked on this Drawer Controller"],
+			dependencies: [I;
+				362,
+				301
+			],
+			id: 560,
+			tasks: [{
+				id: 561,
+				type: "item",
+				item: "storagedrawers:controller"
+			}],
+			rewards: [
+				{
+					id: 562,
+					type: "item",
+					item: "storagedrawers:oak_full_drawers_4",
+					count: 16
+				},
+				{
+					id: 563,
+					type: "item",
+					item: "create:brass_ingot",
+					count: 16
+				},
+				{
+					id: 564,
+					type: "item",
+					item: "minecraft:redstone",
+					count: 16
+				}
+			]
 		}
 	]
 }

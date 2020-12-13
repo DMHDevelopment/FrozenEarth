@@ -1,0 +1,26 @@
+{
+  "replace": true,
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "BCBCB",
+    "CSHSC",
+    "BHXHB",
+    "CSHSC",
+    "BCBCB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "create:iron_sheet"
+    },
+    "X": { "tag": "storagedrawers:drawers" },
+    "S": { "item": "naturesaura:infused_stone" },
+    "H": { "tag": "forge:plates/brass" }
+  },
+  "result": {
+    "item": "storagedrawers:controller",
+    "count": 1
+  }
+}

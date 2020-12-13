@@ -148,23 +148,38 @@
 				}
 			}],
 			rewards: [{
-				id: 104,
+				id: 565,
 				type: "item",
-				item: "thermal:copper_coin"
+				item: "minecraft:torch"
 			}]
 		},
 		{
 			title: "Snowy Trees",
 			x: -2.5d,
 			y: 5.5d,
-			description: ["All trees are cold right now. They're looking like ice... I cannot punch them with hand, but flint axe should resolve my problem since it's better than just my hand."],
+			description: [
+				"All trees are cold right now. They're looking like ice... I cannot punch them with hand, but flint axe should resolve my problem since it's better than just my hand.",
+				"NOTE: Right-Click on a tree to get a normal log!"
+			],
 			dependencies: [I;39],
 			id: 41,
 			tasks: [{
-				id: 42,
+				id: 567,
 				type: "item",
-				item: "primalwinter:snowy_oak_log",
-				count: 4L
+				title: "Any minecraft:logs",
+				item: {
+					id: "itemfilters:tag",
+					Count: true,
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+			}],
+			rewards: [{
+				id: 568,
+				type: "item",
+				item: "minecraft:oak_log",
+				count: 8
 			}]
 		},
 		{
@@ -1904,32 +1919,6 @@
 				item: "minecraft:chest",
 				count: 8
 			}]
-		},
-		{
-			x: 10.5d,
-			y: 3.5d,
-			description: ["Drawer Controller puts any items that go into this controller into proper drawers with items. If I had a drawer for cobblestone it will put new cobblestone into this drawer if right-clicked on this Drawer Controller"],
-			dependencies: [I;301],
-			id: 299,
-			tasks: [{
-				id: 300,
-				type: "item",
-				item: "storagedrawers:controller"
-			}],
-			rewards: [
-				{
-					id: 544,
-					type: "item",
-					item: "storagedrawers:oak_full_drawers_4",
-					count: 4
-				},
-				{
-					id: 545,
-					type: "item",
-					item: "storagedrawers:oak_full_drawers_1",
-					count: 2
-				}
-			]
 		},
 		{
 			x: 9.5d,
