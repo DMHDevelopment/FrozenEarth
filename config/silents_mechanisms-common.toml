@@ -26,7 +26,7 @@
 			minHeight = 0
 			#Number of veins per chunk
 			#Range: > 0
-			veinCount = 1
+			veinCount = 0
 			#Maximum Y-coordinate (highest level) of veins
 			#Range: 0 ~ 255
 			maxHeight = 24
@@ -54,7 +54,7 @@
 			minHeight = 20
 			#Number of veins per chunk
 			#Range: > 0
-			veinCount = 8
+			veinCount = 0
 			#Maximum Y-coordinate (highest level) of veins
 			#Range: 0 ~ 255
 			maxHeight = 80
@@ -68,7 +68,7 @@
 			minHeight = 40
 			#Number of veins per chunk
 			#Range: > 0
-			veinCount = 8
+			veinCount = 0
 			#Maximum Y-coordinate (highest level) of veins
 			#Range: 0 ~ 255
 			maxHeight = 90
@@ -82,7 +82,7 @@
 			minHeight = 15
 			#Number of veins per chunk
 			#Range: > 0
-			veinCount = 6
+			veinCount = 0
 			#Maximum Y-coordinate (highest level) of veins
 			#Range: 0 ~ 255
 			maxHeight = 50
@@ -96,7 +96,7 @@
 			minHeight = 0
 			#Number of veins per chunk
 			#Range: > 0
-			veinCount = 4
+			veinCount = 0
 			#Maximum Y-coordinate (highest level) of veins
 			#Range: 0 ~ 255
 			maxHeight = 40
@@ -110,7 +110,7 @@
 			minHeight = 0
 			#Number of veins per chunk
 			#Range: > 0
-			veinCount = 1
+			veinCount = 0
 			#Maximum Y-coordinate (highest level) of veins
 			#Range: 0 ~ 255
 			maxHeight = 18
@@ -124,7 +124,7 @@
 			minHeight = 20
 			#Number of veins per chunk
 			#Range: > 0
-			veinCount = 4
+			veinCount = 0
 			#Maximum Y-coordinate (highest level) of veins
 			#Range: 0 ~ 255
 			maxHeight = 60
@@ -138,7 +138,7 @@
 			minHeight = 0
 			#Number of veins per chunk
 			#Range: > 0
-			veinCount = 4
+			veinCount = 0
 			#Maximum Y-coordinate (highest level) of veins
 			#Range: 0 ~ 255
 			maxHeight = 30
