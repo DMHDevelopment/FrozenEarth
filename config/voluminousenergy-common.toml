@@ -74,7 +74,7 @@
 			#Range: > 0
 			"Cinnabar Size" = 6
 			#Enable/Disable generation of Cinnabar Ore
-			"Enable Cinnabar Ore" = true
+			"Enable Cinnabar Ore" = false
 			#Range: > 0
 			"Harvest Level" = 2
 			#Range: 1 ~ 256
@@ -108,7 +108,7 @@
 			#Range: > 0
 			"Harvest Level" = 2
 			#Enable/Disable generation of Galena Ore
-			"Enable Galena Ore" = true
+			"Enable Galena Ore" = false
 			#Range: 0 ~ 16
 			"Galena Light Glow Level" = 4
 			#Range: 0 ~ 256
@@ -150,7 +150,7 @@
 			#Range: 0 ~ 256
 			"Bauxite Height Offset" = 0
 			#Enable/Disable generation of Bauxite Ore
-			"Enable Bauxite Ore" = true
+			"Enable Bauxite Ore" = false
 			#Range: > 1
 			"Bauxite Weight" = 16
 

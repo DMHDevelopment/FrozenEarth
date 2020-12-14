@@ -46,7 +46,7 @@
 	#This list defines which items replenish thirst when consumed
 	#Items in this list will not give any extra effects
 	#Default: ["minecraft:mushroom_stew,1"]
-	"Water Containers (Normal)" = ["minecraft:mushroom_stew,1", "crockpot:milk_bottle,10"]
+	"Water Containers (Normal)" = ["minecraft:mushroom_stew,1", "crockpot:milk_bottle,4"]
 	#
 	#This list defines which items replenish thirst when consumed
 	#Items in this list will give the chilled effect upon drunk
@@ -56,7 +56,7 @@
 	#This list defines which items replenish thirst when consumed
 	#Items in this list will give the heated effect when drunk
 	#Default: ["minecraft:rabbit_stew,1"]
-	"Water Containers (Heated)" = ["minecraft:rabbit_stew,1", "crockpot:tea,8"]
+	"Water Containers (Heated)" = ["minecraft:rabbit_stew,1", "crockpot:tea,8", "crockpot:hot_cocoa,8"]
 	#
 	#This list defines which items replenish thirst when consumed
 	#Items in this list will randomly give the thirst effect when drunk
