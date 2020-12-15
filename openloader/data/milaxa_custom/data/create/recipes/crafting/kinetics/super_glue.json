@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " ip",
+        "psi",
+        "np "
+    ],
+    "key": {
+        "p": {
+            "item": "minecraft:paper"
+        },
+        "i": {
+            "tag": "forge:plates/iron"
+        },
+        "s": {
+            "tag": "forge:slimeballs"
+        },
+        "n": {
+            "tag": "forge:nuggets/iron"
+        }
+    },
+    "result": {
+        "item": "create:super_glue",
+        "count": 1
+    }
+}

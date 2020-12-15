@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "tpt",
+        "rbr",
+        "cwc"
+    ],
+    "key": {
+        "t": {
+            "item": "create:electron_tube"
+        },
+        "r": {
+            "item": "minecraft:redstone"
+        },
+        "b": {
+            "item": "create:brass_casing"
+        },
+        "w": {
+            "item": "minecraft:clock"
+        },
+        "c": {
+            "item": "create:cogwheel"
+        }
+        ,
+        "p": {
+            "tag": "minecraft:planks"
+        }
+    },
+    "result": {
+        "item": "create:sequenced_gearshift",
+        "count": 1
+    }
+}

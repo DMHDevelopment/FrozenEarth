@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "aia",
+        "iwi",
+        "aia"
+    ],
+    "key": {
+        "a": {
+            "item": "create:refined_radiance"
+        },
+        "i": {
+            "tag": "forge:glass"
+        },
+        "w": {
+            "tag": "minecraft:logs"
+        }
+    },
+    "result": {
+        "item": "create:refined_radiance_casing",
+        "count": 2
+    }
+}

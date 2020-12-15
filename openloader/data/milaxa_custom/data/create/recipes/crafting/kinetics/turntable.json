@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " i ",
+        " w ",
+        "   "
+    ],
+    "key": {
+        "w": {
+            "item": "create:cogwheel"
+        },
+        "i": {
+            "tag": "minecraft:wooden_slabs"
+        }
+    },
+    "result": {
+        "item": "create:turntable",
+        "count": 1
+    }
+}

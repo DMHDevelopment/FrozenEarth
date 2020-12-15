@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " a ",
+        "bib",
+        " w "
+    ],
+    "key": {
+        "a": {
+            "item": "create:turntable"
+        },
+        "i": {
+            "item": "create:cogwheel"
+        },
+        "w": {
+            "item": "create:shaft"
+        },
+        "b": {
+            "item": "quark:chiseled_andesite_bricks"
+        }
+    },
+    "result": {
+        "item": "create:windmill_bearing",
+        "count": 1
+    }
+}

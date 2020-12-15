@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "aia",
+        "iwi",
+        "aia"
+    ],
+    "key": {
+        "a": {
+            "item": "create:shadow_steel"
+        },
+        "i": {
+            "tag": "minecraft:logs"
+        },
+        "w": {
+            "item": "minecraft:obsidian"
+        }
+    },
+    "result": {
+        "item": "create:shadow_steel_casing",
+        "count": 2
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "aia",
+        "iwi",
+        "aia"
+    ],
+    "key": {
+        "a": {
+            "item": "create:shaft"
+        },
+        "i": {
+            "item": "create:cogwheel"
+        },
+        "w": {
+            "item": "create:andesite_casing"
+        }
+    },
+    "result": {
+        "item": "create:gearbox",
+        "count": 1
+    }
+}

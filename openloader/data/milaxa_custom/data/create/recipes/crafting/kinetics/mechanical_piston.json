@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ata",
+        "ckc",
+        " s "
+    ],
+    "key": {
+        "a": {
+            "tag": "minecraft:planks"
+        },
+        "t": {
+            "item": "create:piston_extension_pole"
+        },
+        "s": {
+            "item": "create:shaft"
+        },
+        "c": {
+            "item": "create:cogwheel"
+        },
+        "k": {
+            "item": "create:andesite_casing"
+        }
+    },
+    "result": {
+        "item": "create:mechanical_piston",
+        "count": 1
+    }
+}

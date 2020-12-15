@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "aia",
+        "iwi",
+        "aia"
+    ],
+    "key": {
+        "a": {
+            "tag": "forge:plates/brass"
+        },
+        "i": {
+            "tag": "minecraft:planks"
+        },
+        "w": {
+            "tag": "minecraft:logs"
+        }
+    },
+    "result": {
+        "item": "create:brass_casing",
+        "count": 2
+    }
+}

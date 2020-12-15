@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " w ",
+        "ara",
+        "w w"
+    ],
+    "key": {
+        "a": {
+            "item": "create:andesite_alloy"
+        },
+        "w": {
+            "tag": "minecraft:logs"
+        },
+        "r": {
+            "item": "minecraft:redstone"
+        }
+    },
+    "result": {
+        "item": "create:cart_assembler",
+        "count": 1
+    }
+}

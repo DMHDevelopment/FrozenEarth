@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "aia",
+        "iwi",
+        "aia"
+    ],
+    "key": {
+        "i": {
+            "tag": "minecraft:logs"
+        },
+        "a": {
+            "tag": "minecraft:planks"
+        },
+        "w": {
+            "item": "create:large_cogwheel"
+        }
+    },
+    "result": {
+        "item": "create:water_wheel",
+        "count": 1
+    }
+}
