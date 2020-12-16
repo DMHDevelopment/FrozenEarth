@@ -1,0 +1,9 @@
+{
+	id: 574,
+	filename: "chapter_9_moving_to_the_true_earth",
+	order_index: 10,
+	title: "Chapter 9: Moving to the True Earth...",
+	icon: "biomesoplenty:rainbow_birch_sapling",
+	default_quest_shape: "",
+	quests: []
+}

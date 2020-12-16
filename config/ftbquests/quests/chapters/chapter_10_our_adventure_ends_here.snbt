@@ -1,0 +1,9 @@
+{
+	id: 575,
+	filename: "chapter_10_our_adventure_ends_here",
+	order_index: 11,
+	title: "Chapter 10: Our Adventure Ends Here...",
+	icon: "biomesoplenty:bush",
+	default_quest_shape: "",
+	quests: []
+}
