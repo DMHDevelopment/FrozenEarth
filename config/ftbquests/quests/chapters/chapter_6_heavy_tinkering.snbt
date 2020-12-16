@@ -1,0 +1,22 @@
+{
+	id: 571,
+	filename: "chapter_6_heavy_tinkering",
+	order_index: 7,
+	title: "Chapter 6: Heavy Tinkering",
+	icon: {
+		id: "industrialforegoing:infinity_drill",
+		Count: true,
+		tag: {
+			CanCharge: true,
+			Special: false,
+			Selected: "POOR",
+			Energy: 0L,
+			Fluid: {
+				FluidName: "biofuel",
+				Amount: 0
+			}
+		}
+	},
+	default_quest_shape: "",
+	quests: []
+}

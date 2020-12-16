@@ -1,0 +1,15 @@
+{
+	id: 570,
+	filename: "chapter_5_polyethylene_and_theory_of_chemistry",
+	order_index: 6,
+	title: "Chapter 5: Polyethylene... and Theory Of Chemistry",
+	icon: {
+		id: "silents_mechanisms:canister",
+		Count: true,
+		tag: {
+			CanisterFluid: "silents_mechanisms:polyethylene"
+		}
+	},
+	default_quest_shape: "",
+	quests: []
+}

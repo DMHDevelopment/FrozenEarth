@@ -1,0 +1,9 @@
+{
+	id: 569,
+	filename: "chapter_4_pressurized_machinery",
+	order_index: 5,
+	title: "Chapter 4: Pressurized Machinery",
+	icon: "pneumaticcraft:assembly_drill",
+	default_quest_shape: "",
+	quests: []
+}

@@ -1,0 +1,9 @@
+{
+	id: 573,
+	filename: "chapter_8_other_planets",
+	order_index: 9,
+	title: "Chapter 8: Other Planets!",
+	icon: "undergarden:ink_mushroom",
+	default_quest_shape: "",
+	quests: []
+}
