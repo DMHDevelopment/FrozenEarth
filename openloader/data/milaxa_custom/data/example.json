@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "aaa",
+        "bbb",
+        "ccc"
+    ],
+    "key": {
+        "a": {
+            "item": ""
+        },
+        "b": {
+            "item": ""
+        },
+        "c": {
+            "item": ""
+        }
+    },
+    "result": {
+        "item": "",
+        "count": 1
+    }
+}

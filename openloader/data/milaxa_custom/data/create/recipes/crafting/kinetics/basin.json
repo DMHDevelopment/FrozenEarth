@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "i i",
+        "aca",
+        "aaa"
+    ],
+    "key": {
+        "a": {
+            "item": "create:andesite_alloy"
+        },
+        "i": {
+            "tag": "forge:plates/iron"
+        },
+        "c": {
+            "item": "minecraft:cauldron"
+        }
+    },
+    "result": {
+        "item": "create:basin",
+        "count": 1
+    }
+}

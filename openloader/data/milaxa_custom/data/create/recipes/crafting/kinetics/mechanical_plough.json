@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iai",
+        "aha",
+        " c "
+    ],
+    "key": {
+        "a": {
+            "item": "create:andesite_alloy"
+        },
+        "i": {
+            "tag": "forge:plates/iron"
+        },
+        "h": {
+            "item": "minecraft:iron_hoe"
+        },
+        "c": {
+            "item": "create:cogwheel"
+        }
+    },
+    "result": {
+        "item": "create:mechanical_plough",
+        "count": 1
+    }
+}

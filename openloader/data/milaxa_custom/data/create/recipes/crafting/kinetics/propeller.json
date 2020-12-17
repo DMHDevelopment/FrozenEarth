@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "bib",
+        "ibi",
+        "bib"
+    ],
+    "key": {
+        "i": {
+            "tag": "forge:plates/iron"
+        },
+        "b": {
+            "item": "quark:iron_button"
+        }
+    },
+    "result": {
+        "item": "create:propeller",
+        "count": 1
+    }
+}

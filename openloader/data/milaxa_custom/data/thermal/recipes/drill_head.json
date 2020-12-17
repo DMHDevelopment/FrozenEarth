@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "pi ",
+        "ipi",
+        " ib"
+    ],
+    "key": {
+        "p": {
+            "tag": "forge:nuggets/iron"
+        },
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "b": {
+            "item": "minecraft:iron_block"
+        }
+    },
+    "result": {
+        "item": "thermal:drill_head",
+        "count": 1
+    }
+}

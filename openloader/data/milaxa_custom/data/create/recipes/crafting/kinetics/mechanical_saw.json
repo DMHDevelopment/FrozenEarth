@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " b ",
+        "ici",
+        " s "
+    ],
+    "key": {
+        "b": {
+            "item": "thermal:saw_blade"
+        },
+        "i": {
+            "tag": "forge:plates/iron"
+        },
+        "c": {
+            "item": "create:andesite_casing"
+        },
+        "s": {
+            "item": "create:shaft"
+        }
+    },
+    "result": {
+        "item": "create:mechanical_saw",
+        "count": 1
+    }
+}

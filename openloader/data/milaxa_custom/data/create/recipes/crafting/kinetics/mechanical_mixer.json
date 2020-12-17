@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " c ",
+        "ala",
+        " w "
+    ],
+    "key": {
+        "a": {
+            "item": "create:andesite_alloy"
+        },
+        "l": {
+            "item": "create:large_cogwheel"
+        },
+        "c": {
+            "item": "create:andesite_casing"
+        },
+        "w": {
+            "item": "create:whisk"
+        }
+    },
+    "result": {
+        "item": "create:mechanical_mixer",
+        "count": 1
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " s ",
+        "iai",
+        "iii"
+    ],
+    "key": {
+        "s": {
+            "item": "create:shaft"
+        },
+        "a": {
+            "item": "create:andesite_alloy"
+        },
+        "i": {
+            "tag": "forge:plates/iron"
+        }
+    },
+    "result": {
+        "item": "create:whisk",
+        "count": 1
+    }
+}

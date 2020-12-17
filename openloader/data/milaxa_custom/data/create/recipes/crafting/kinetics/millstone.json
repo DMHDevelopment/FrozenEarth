@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " b ",
+        "ala",
+        "psp"
+    ],
+    "key": {
+        "a": {
+            "item": "create:andesite_alloy"
+        },
+        "b": {
+            "item": "minecraft:bowl"
+        },
+        "p": {
+            "item": "minecraft:polished_andesite"
+        },
+        "s": {
+            "item": "create:shaft"
+        },
+        "l": {
+            "item": "create:large_cogwheel"
+        }
+    },
+    "result": {
+        "item": "create:millstone",
+        "count": 1
+    }
+}

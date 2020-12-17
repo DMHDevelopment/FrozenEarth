@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "bhb",
+        "aaa",
+        " c "
+    ],
+    "key": {
+        "a": {
+            "item": "create:andesite_alloy"
+        },
+        "b": {
+            "item": "thermal:saw_blade"
+        },
+        "h": {
+            "item": "minecraft:iron_hoe"
+        },
+        "c": {
+            "item": "create:andesite_casing"
+        }
+    },
+    "result": {
+        "item": "create:mechanical_harvester",
+        "count": 1
+    }
+}
