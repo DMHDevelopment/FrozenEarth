@@ -9,6 +9,7 @@
 		{
 			x: -11.0d,
 			y: -1.0d,
+			size: 2.0d,
 			id: 426,
 			tasks: [{
 				id: 427,
@@ -30,8 +31,8 @@
 		},
 		{
 			title: "First blade",
-			x: -7.0d,
-			y: -2.5d,
+			x: -6.5d,
+			y: -3.0d,
 			dependencies: [I;503],
 			id: 505,
 			tasks: [{
@@ -47,7 +48,7 @@
 			}]
 		},
 		{
-			x: -7.0d,
+			x: -6.5d,
 			y: -1.0d,
 			dependencies: [I;
 				503,
@@ -62,8 +63,8 @@
 		},
 		{
 			title: "Blade upgrade",
-			x: -5.5d,
-			y: -2.5d,
+			x: -4.5d,
+			y: -3.0d,
 			dependencies: [I;505],
 			id: 511,
 			tasks: [{
@@ -80,7 +81,7 @@
 		},
 		{
 			title: "Energggggy",
-			x: -3.5d,
+			x: -2.5d,
 			y: -1.0d,
 			dependencies: [I;511],
 			id: 535,
@@ -88,6 +89,70 @@
 				id: 536,
 				type: "item",
 				item: "assemblylinemachines:basic_battery"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 0.5d,
+			id: 580,
+			tasks: [{
+				id: 581,
+				type: "item",
+				item: "zycraft:quartz_crystal"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 2.5d,
+			id: 582,
+			tasks: [{
+				id: 583,
+				type: "item",
+				item: {
+					id: "zycraft:scythe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 4.5d,
+			id: 584,
+			tasks: [
+				{
+					id: 585,
+					type: "item",
+					item: "zycraft:dark_zychorium"
+				},
+				{
+					id: 586,
+					type: "item",
+					item: "zycraft:blue_zychorium"
+				},
+				{
+					id: 587,
+					type: "item",
+					item: "zycraft:green_zychorium"
+				},
+				{
+					id: 588,
+					type: "item",
+					item: "zycraft:red_zychorium"
+				},
+				{
+					id: 589,
+					type: "item",
+					item: "zycraft:light_zychorium"
+				}
+			],
+			rewards: [{
+				id: 590,
+				type: "item",
+				item: "zycraft:zychorite",
+				count: 64
 			}]
 		}
 	]
