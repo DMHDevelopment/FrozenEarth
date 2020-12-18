@@ -93,7 +93,7 @@
 		},
 		{
 			x: 2.5d,
-			y: 0.5d,
+			y: 1.0d,
 			id: 580,
 			tasks: [{
 				id: 581,
@@ -103,7 +103,7 @@
 		},
 		{
 			x: 2.5d,
-			y: 2.5d,
+			y: 3.0d,
 			id: 582,
 			tasks: [{
 				id: 583,
@@ -119,7 +119,7 @@
 		},
 		{
 			x: 2.5d,
-			y: 4.5d,
+			y: 5.0d,
 			id: 584,
 			tasks: [
 				{
@@ -153,6 +153,17 @@
 				type: "item",
 				item: "zycraft:zychorite",
 				count: 64
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -3.0d,
+			size: 2.0d,
+			id: 591,
+			tasks: [{
+				id: 592,
+				type: "item",
+				item: "minecraft:nether_gold_ore"
 			}]
 		}
 	]
