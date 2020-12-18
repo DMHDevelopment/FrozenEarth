@@ -1,0 +1,16 @@
+{
+    "type": "silentgear:damage_item",
+    "ingredients": [
+      {
+        "tag": "forge:knives"
+      },
+      {
+        "tag": "minecraft:logs"
+      }
+    ],
+    "result": {
+      "item": "silentgear:template_board",
+      "count": 1
+    },
+    "damage": 1
+  }

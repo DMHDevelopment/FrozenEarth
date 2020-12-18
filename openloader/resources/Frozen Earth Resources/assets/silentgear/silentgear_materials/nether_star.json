@@ -1,0 +1,16 @@
+{
+    "adornment/all": [
+      {
+        "texture": "silentgear:adornment_ns"
+      }
+    ],
+    "adornment/part": [
+      {
+        "texture": "silentgear:adornment",
+        "color": "#C7FCEC"
+      },
+      {
+        "texture": "silentgear:adornment_highlight"
+      }
+    ]
+  }

@@ -1,0 +1,47 @@
+{
+    "availability": {
+      "tier": 2,
+      "categories": [
+        "organic",
+        "cloth"
+      ],
+      "visible": true,
+      "gear_blacklist": [],
+      "can_salvage": true
+    },
+    "crafting_items": {
+      "main": {
+        "item": "minecraft:phantom_membrane"
+      }
+    },
+    "name": {
+      "translate": "material.silentgear.membrane"
+    },
+    "stats": {
+      "grip": {
+        "durability": {
+          "mul1": 0.5
+        },
+        "repair_efficiency": {
+          "mul1": -0.2
+        },
+        "harvest_speed": {
+          "mul1": 0.25
+        },
+        "attack_speed": {
+          "add": 0.4
+        },
+        "rarity": {
+          "add": 25.0
+        }
+      }
+    },
+    "traits": {
+      "grip": [
+        {
+          "name": "silentgear:flexible",
+          "level": 4
+        }
+      ]
+    }
+  }

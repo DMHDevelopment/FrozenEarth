@@ -1,0 +1,30 @@
+{
+    "availability": {
+      "tier": 4,
+      "categories": [
+        "gem"
+      ],
+      "visible": true,
+      "gear_blacklist": [],
+      "can_salvage": true
+    },
+    "crafting_items": {
+      "main": {
+        "tag": "forge:nether_stars"
+      }
+    },
+    "name": {
+      "translate": "material.silentgear.nether_star"
+    },
+    "stats": {
+      "adornment": {}
+    },
+    "traits": {
+      "adornment": [
+        {
+          "name": "silentgear:ancient",
+          "level": 5
+        }
+      ]
+    }
+  }
