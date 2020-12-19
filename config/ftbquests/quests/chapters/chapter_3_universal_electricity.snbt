@@ -336,6 +336,18 @@
 			}]
 		},
 		{
+			icon: {
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L,
+						fuseShotCounter: 0,
+						crossbowChargeTime: 0,
+						bowChargeTime: 0.0f
+					}
+				},
+				id: "immersiveengineering:ingot_steel",
+				Count: true
+			},
 			x: -3.5d,
 			y: -2.5d,
 			id: 593,
@@ -467,6 +479,48 @@
 					tag: {
 						Damage: 0
 					}
+				}
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -1.0d,
+			id: 607,
+			tasks: [{
+				id: 608,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "immersiveengineering:cokebrick",
+					Count: true
+				}
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -1.0d,
+			id: 609,
+			tasks: [{
+				id: 610,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "immersiveengineering:blastbrick",
+					Count: true
 				}
 			}]
 		}
