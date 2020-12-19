@@ -1,8 +1,19 @@
 {
 	version: 9,
-	last_id: 594,
+	last_id: 606,
 	title: "Frozen Earth: Alpha Build 1",
-	icon: "primalwinter:snowy_vine",
+	icon: {
+		ForgeCaps: {
+			"dungeons_gear:weapon": {
+				lastFiredTime: 0L,
+				fuseShotCounter: 0,
+				crossbowChargeTime: 0,
+				bowChargeTime: 0.0f
+			}
+		},
+		id: "primalwinter:snowy_vine",
+		Count: true
+	},
 	default_reward_team: false,
 	default_consume_items: false,
 	default_autoclaim_rewards: "disabled",

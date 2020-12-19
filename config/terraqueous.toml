@@ -54,7 +54,7 @@
 		blacklist = []
 		#Items listed here have a chance to drop
 		#Formats: ItemTag: 'tag|<tagId>#<count>', Mod Item: '<modId>:<itemId>#<count>'
-		whitelist = ["tag|forge:gems/burnium#1-4", "tag|forge:dusts/burnium#1-4"]
+		whitelist = ["tag|forge:gems/burnium#0-1", "tag|forge:dusts/burnium#0-1"]
 		#The number of items to drop on a successful attempt
 		#positive numbers are exact, negative are a random chance between 0 and the number
 		#Range: -100 ~ 100
@@ -431,16 +431,16 @@
 			attempts_stick = 2
 			#Chance that each placement position has at being reviewed by the generator
 			#Range: 0.0 ~ 1.0
-			chance_burnium = 0.3
+			chance_burnium = 0.02
 			#Chance that each placement position has at being reviewed by the generator
 			#Range: 0.0 ~ 1.0
-			chance_stick = 0.4
+			chance_stick = 0.5
 			#Chance that each placement position has at being reviewed by the generator
 			#Range: 0.0 ~ 1.0
 			chance_bone = 0.2
 			#Chance that each placement position has at being reviewed by the generator
 			#Range: 0.0 ~ 1.0
-			chance_endimium = 0.3
+			chance_endimium = 0.02
 			#Chance that each placement position has at being reviewed by the generator
 			#Range: 0.0 ~ 1.0
 			chance_stone = 0.1

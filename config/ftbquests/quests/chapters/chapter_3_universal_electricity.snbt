@@ -3,7 +3,18 @@
 	filename: "chapter_3_universal_electricity",
 	order_index: 4,
 	title: "Chapter 3: Universal Electricity",
-	icon: "assemblylinemachines:geothermal_generator",
+	icon: {
+		ForgeCaps: {
+			"dungeons_gear:weapon": {
+				lastFiredTime: 0L,
+				fuseShotCounter: 0,
+				crossbowChargeTime: 0,
+				bowChargeTime: 0.0f
+			}
+		},
+		id: "assemblylinemachines:geothermal_generator",
+		Count: true
+	},
 	default_quest_shape: "",
 	quests: [
 		{
@@ -14,31 +25,61 @@
 			tasks: [{
 				id: 427,
 				type: "item",
-				item: "assemblylinemachines:guidebook"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "assemblylinemachines:guidebook",
+					Count: true
+				}
 			}]
 		},
 		{
 			title: "Grindstone!",
-			x: -8.5d,
+			x: -6.5d,
 			y: -1.0d,
-			dependencies: [I;426],
+			dependencies: [I;601],
 			id: 503,
 			tasks: [{
 				id: 504,
 				type: "item",
-				item: "assemblylinemachines:hand_grinder"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "assemblylinemachines:hand_grinder",
+					Count: true
+				}
 			}]
 		},
 		{
-			title: "First blade",
+			title: "First Blade",
 			x: -6.5d,
-			y: -3.0d,
+			y: -2.5d,
 			dependencies: [I;503],
 			id: 505,
 			tasks: [{
 				id: 506,
 				type: "item",
 				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
 					id: "assemblylinemachines:titanium_blade",
 					Count: true,
 					tag: {
@@ -49,7 +90,7 @@
 		},
 		{
 			x: -6.5d,
-			y: -1.0d,
+			y: -4.0d,
 			dependencies: [I;
 				503,
 				505
@@ -58,19 +99,38 @@
 			tasks: [{
 				id: 510,
 				type: "item",
-				item: "assemblylinemachines:pure_gold"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "assemblylinemachines:pure_gold",
+					Count: true
+				}
 			}]
 		},
 		{
-			title: "Blade upgrade",
-			x: -4.5d,
-			y: -3.0d,
-			dependencies: [I;505],
+			title: "Blade Upgrade",
+			x: -8.0d,
+			y: -4.0d,
+			dependencies: [I;509],
 			id: 511,
 			tasks: [{
 				id: 512,
 				type: "item",
 				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
 					id: "assemblylinemachines:pure_gold_blade",
 					Count: true,
 					tag: {
@@ -81,34 +141,65 @@
 		},
 		{
 			title: "Energggggy",
-			x: -2.5d,
-			y: -1.0d,
-			dependencies: [I;511],
+			x: -0.5d,
+			y: -1.5d,
 			id: 535,
 			tasks: [{
 				id: 536,
 				type: "item",
-				item: "assemblylinemachines:basic_battery"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "assemblylinemachines:basic_battery",
+					Count: true
+				}
 			}]
 		},
 		{
-			x: 2.5d,
+			x: -11.5d,
 			y: 1.0d,
+			dependencies: [I;426],
 			id: 580,
 			tasks: [{
 				id: 581,
 				type: "item",
-				item: "zycraft:quartz_crystal"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "zycraft:quartz_crystal",
+					Count: true
+				}
 			}]
 		},
 		{
-			x: 2.5d,
-			y: 3.0d,
+			x: -11.0d,
+			y: 2.0d,
+			dependencies: [I;584],
 			id: 582,
 			tasks: [{
 				id: 583,
 				type: "item",
 				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
 					id: "zycraft:scythe",
 					Count: true,
 					tag: {
@@ -118,62 +209,265 @@
 			}]
 		},
 		{
-			x: 2.5d,
-			y: 5.0d,
+			x: -10.5d,
+			y: 1.0d,
+			dependencies: [I;426],
 			id: 584,
 			tasks: [
 				{
 					id: 585,
 					type: "item",
-					item: "zycraft:dark_zychorium"
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "zycraft:dark_zychorium",
+						Count: true
+					}
 				},
 				{
 					id: 586,
 					type: "item",
-					item: "zycraft:blue_zychorium"
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "zycraft:blue_zychorium",
+						Count: true
+					}
 				},
 				{
 					id: 587,
 					type: "item",
-					item: "zycraft:green_zychorium"
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "zycraft:green_zychorium",
+						Count: true
+					}
 				},
 				{
 					id: 588,
 					type: "item",
-					item: "zycraft:red_zychorium"
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "zycraft:red_zychorium",
+						Count: true
+					}
 				},
 				{
 					id: 589,
 					type: "item",
-					item: "zycraft:light_zychorium"
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "zycraft:light_zychorium",
+						Count: true
+					}
 				}
 			],
 			rewards: [{
 				id: 590,
 				type: "item",
-				item: "zycraft:zychorite",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "zycraft:zychorite",
+					Count: true
+				},
 				count: 64
 			}]
 		},
 		{
-			x: 2.5d,
-			y: -3.0d,
-			size: 2.0d,
+			x: -3.5d,
+			y: -4.0d,
+			size: 1.75d,
 			id: 591,
 			tasks: [{
 				id: 592,
 				type: "item",
-				item: "minecraft:nether_gold_ore"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:nether_gold_ore",
+					Count: true
+				}
 			}]
 		},
 		{
-			x: 2.5d,
-			y: -1.0d,
+			x: -3.5d,
+			y: -2.5d,
 			id: 593,
 			tasks: [{
 				id: 594,
 				type: "item",
-				item: "assemblylinemachines:steel_ingot"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "assemblylinemachines:steel_ingot",
+					Count: true
+				}
+			}]
+		},
+		{
+			x: -5.5d,
+			y: -7.0d,
+			id: 595,
+			tasks: [{
+				id: 596,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "silentgear:crimson_iron_ore",
+					Count: true
+				}
+			}]
+		},
+		{
+			x: -9.5d,
+			y: -1.0d,
+			dependencies: [I;426],
+			id: 597,
+			tasks: [{
+				id: 598,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "assemblylinemachines:fluid_bath",
+					Count: true
+				}
+			}]
+		},
+		{
+			x: -12.5d,
+			y: -1.0d,
+			dependencies: [I;426],
+			id: 599,
+			tasks: [{
+				id: 600,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "assemblylinemachines:titanium_ore",
+					Count: true
+				},
+				count: 16L
+			}]
+		},
+		{
+			x: -8.0d,
+			y: -1.0d,
+			dependencies: [I;597],
+			id: 601,
+			tasks: [{
+				id: 602,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "assemblylinemachines:silt",
+					Count: true
+				},
+				count: 8L
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -2.5d,
+			dependencies: [I;505],
+			id: 603,
+			tasks: [{
+				id: 604,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "assemblylinemachines:pure_iron_stirring_stick",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 	]
