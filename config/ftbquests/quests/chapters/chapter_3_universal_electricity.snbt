@@ -165,6 +165,16 @@
 				type: "item",
 				item: "minecraft:nether_gold_ore"
 			}]
+		},
+		{
+			x: 2.5d,
+			y: -1.0d,
+			id: 593,
+			tasks: [{
+				id: 594,
+				type: "item",
+				item: "assemblylinemachines:steel_ingot"
+			}]
 		}
 	]
 }
