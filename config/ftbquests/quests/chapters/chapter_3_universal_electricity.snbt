@@ -142,7 +142,7 @@
 		{
 			title: "Energggggy",
 			x: -0.5d,
-			y: -1.5d,
+			y: -5.5d,
 			id: 535,
 			tasks: [{
 				id: 536,
@@ -314,26 +314,49 @@
 			}]
 		},
 		{
+			icon: {
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L,
+						fuseShotCounter: 0,
+						crossbowChargeTime: 0,
+						bowChargeTime: 0.0f
+					}
+				},
+				id: "exnihilosequentia:crushed_netherrack",
+				Count: true
+			},
 			x: -3.5d,
 			y: -4.0d,
+			dependencies: [I;593],
 			size: 1.75d,
 			id: 591,
-			tasks: [{
-				id: 592,
-				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
+			tasks: [
+				{
+					id: 611,
+					type: "dimension",
+					dimension: "minecraft:nether"
+				},
+				{
+					id: 612,
+					type: "item",
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "minecraft:flint_and_steel",
+						Count: true,
+						tag: {
+							Damage: 0
 						}
-					},
-					id: "minecraft:nether_gold_ore",
-					Count: true
+					}
 				}
-			}]
+			]
 		},
 		{
 			icon: {
@@ -350,6 +373,7 @@
 			},
 			x: -3.5d,
 			y: -2.5d,
+			dependencies: [I;609],
 			id: 593,
 			tasks: [{
 				id: 594,
@@ -366,11 +390,17 @@
 					id: "assemblylinemachines:steel_ingot",
 					Count: true
 				}
+			}],
+			rewards: [{
+				id: 614,
+				type: "gamestage",
+				auto: "invisible",
+				stage: "Nether"
 			}]
 		},
 		{
-			x: -5.5d,
-			y: -7.0d,
+			x: -3.5d,
+			y: -5.5d,
 			id: 595,
 			tasks: [{
 				id: 596,
@@ -408,7 +438,8 @@
 					},
 					id: "assemblylinemachines:fluid_bath",
 					Count: true
-				}
+				},
+				consume_items: false
 			}]
 		},
 		{
@@ -485,6 +516,7 @@
 		{
 			x: -5.0d,
 			y: -1.0d,
+			dependencies: [I;603],
 			id: 607,
 			tasks: [{
 				id: 608,
@@ -506,6 +538,7 @@
 		{
 			x: -3.5d,
 			y: -1.0d,
+			dependencies: [I;607],
 			id: 609,
 			tasks: [{
 				id: 610,
@@ -520,6 +553,409 @@
 						}
 					},
 					id: "immersiveengineering:blastbrick",
+					Count: true
+				}
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -1.0d,
+			dependencies: [I;593],
+			id: 617,
+			tasks: [{
+				id: 618,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "assemblylinemachines:crank",
+					Count: true
+				}
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 0.5d,
+			dependencies: [I;617],
+			id: 619,
+			tasks: [{
+				id: 620,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "assemblylinemachines:simple_grinder",
+					Count: true
+				}
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 2.0d,
+			dependencies: [I;619],
+			id: 621,
+			tasks: [{
+				id: 622,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "assemblylinemachines:steel_fluid_tank",
+					Count: true
+				}
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 0.5d,
+			dependencies: [I;617],
+			id: 623,
+			tasks: [{
+				id: 624,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "assemblylinemachines:simple_fluid_mixer",
+					Count: true
+				}
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -2.5d,
+			dependencies: [I;617],
+			id: 625,
+			tasks: [{
+				id: 626,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "assemblylinemachines:steel_hammer",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -2.5d,
+			dependencies: [I;625],
+			id: 627,
+			tasks: [
+				{
+					id: 628,
+					type: "item",
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "assemblylinemachines:iron_plate",
+						Count: true
+					}
+				},
+				{
+					id: 629,
+					type: "item",
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "assemblylinemachines:iron_gear",
+						Count: true
+					}
+				}
+			]
+		},
+		{
+			x: -0.5d,
+			y: -1.0d,
+			dependencies: [I;
+				617,
+				627
+			],
+			id: 630,
+			tasks: [{
+				id: 631,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "assemblylinemachines:gearbox",
+					Count: true
+				}
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -1.0d,
+			dependencies: [I;627],
+			id: 632,
+			tasks: [{
+				id: 633,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "assemblylinemachines:simple_crank_charger",
+					Count: true
+				}
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -4.0d,
+			dependencies: [I;591],
+			id: 634,
+			tasks: [{
+				id: 635,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "assemblylinemachines:black_granite",
+					Count: true
+				}
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -2.5d,
+			dependencies: [I;
+				634,
+				627
+			],
+			id: 636,
+			tasks: [{
+				id: 637,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "assemblylinemachines:energy_pipe",
+					Count: true
+				}
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -4.0d,
+			dependencies: [I;640],
+			id: 638,
+			tasks: [{
+				id: 639,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "assemblylinemachines:crankmill",
+					Count: true
+				}
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -2.5d,
+			dependencies: [I;636],
+			size: 1.25d,
+			id: 640,
+			tasks: [{
+				id: 641,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "create:refined_radiance",
+					Count: true
+				}
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -2.5d,
+			dependencies: [I;640],
+			id: 642,
+			tasks: [{
+				id: 643,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "assemblylinemachines:electric_purifier",
+					Count: true
+				}
+			}]
+		},
+		{
+			x: 5.5d,
+			y: -2.5d,
+			dependencies: [I;642],
+			id: 644,
+			tasks: [{
+				id: 645,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "assemblylinemachines:alloy_smelter",
+					Count: true
+				}
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -1.0d,
+			dependencies: [I;642],
+			id: 646,
+			tasks: [{
+				id: 647,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "assemblylinemachines:pure_steel",
+					Count: true
+				}
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 1.0d,
+			dependencies: [I;646],
+			size: 2.0d,
+			id: 648,
+			tasks: [{
+				id: 649,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "immersiveengineering:watermill",
+					Count: true
+				}
+			}]
+		},
+		{
+			x: 5.5d,
+			y: -4.0d,
+			dependencies: [I;638],
+			id: 650,
+			tasks: [{
+				id: 651,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "assemblylinemachines:metal_shaper",
 					Count: true
 				}
 			}]

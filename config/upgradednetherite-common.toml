@@ -1,0 +1,62 @@
+
+["General Options"]
+	#Disable Tooltips ?(Client Only)
+	DisableTooltips = false
+
+["Armor Options"]
+	#Upgraded Player Armor effect require to wear full set ?
+	UpgradedPlayerArmorRequireSet = true
+
+["Fire Armor Effect Options"]
+	#Enable Fire Upgraded Armor Effect : Fire damage immune. ?
+	EnableFireImmune = true
+	#Percent Chance for Fire Upgraded Armor to lose durability each time it protect the player ? 
+	#Range: 0.01 ~ 1.0
+	ChanceDamageDurabilityFireArmor = 0.1
+	#Fire Upgraded Armor loose durability when protect the player ? (Require EnableFireImmune = True)
+	EnableDamageDurabilityFireArmor = false
+	#How many durability damage take the Fire Upgraded Armor when protect the player ? 
+	#Range: 1 ~ 100
+	DamageDurabilityFireArmor = 1
+
+["Ender Armor Effect Options"]
+	#Ender Upgraded Armor Break when save the player ? 
+	EnableBreakEnderArmor = false
+
+["Water Armor Effect Options"]
+	#How many durability damage take the Water Upgraded Armor when protect the player ? 
+	#Range: 1 ~ 100
+	DamageDurabilityWaterArmor = 1
+	#Percent Chance for Water Upgraded Armor to lose durability each time it protect the player ? 
+	#Range: 0.01 ~ 1.0
+	ChanceDamageDurabilityWaterArmor = 0.1
+	#Water Upgraded Armor loose durability when protect the player ? 
+	EnableDamageDurabilityWaterArmor = false
+
+["Wither Armor Effect Options"]
+	#How many durability damage take the Wither Upgraded Armor when protect the player ? 
+	#Range: 1 ~ 100
+	DamageDurabilityWitherArmor = 5
+	#Percent Chance for Wither Upgraded Armor to lose durability each time it protect the player ? 
+	#Range: 0.01 ~ 1.0
+	ChanceDamageDurabilityWitherArmor = 0.5
+	#Wither Upgraded Armor loose durability when protect the player ? 
+	EnableDamageDurabilityWitherArmor = false
+
+["Poison Armor Effect Options"]
+	#Poison Upgraded Armor loose durability when protect the player ? 
+	EnableDamageDurabilityPoisonArmor = false
+	#Percent Chance for Poison Upgraded Armor to lose durability each time it protect the player ? 
+	#Range: 0.01 ~ 1.0
+	ChanceDamageDurabilityPoisonArmor = 0.5
+	#How many durability damage take the Poison Upgraded Armor when protect the player ? 
+	#Range: 1 ~ 100
+	DamageDurabilityPoisonArmor = 5
+
+["Phantom Armor Effect Options"]
+	#Phantom Upgraded Armor loose durability when protect the player ? (Depend on fall distance)
+	EnableDamageDurabilityPhantomArmor = false
+	#How many durability damage take the Phantom Upgraded Armor when protect the player ? (Fall distance * Value)
+	#Range: 1 ~ 100
+	MultiplierDamageDurabilityPhantomArmor = 1
+
