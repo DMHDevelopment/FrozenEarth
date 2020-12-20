@@ -9,6 +9,9 @@
 		#Speed (in ticks) at which the evaporation tower generates resources.
 		#Range: 20 ~ 12000
 		evaporationTowerSpeed = 800
+		#Max speed of the laser quarry.
+		#Range: 10 ~ 300
+		laserQuarrySpeed = 10
 		#Movement speed multiplier for walking on gravel concrete
 		#Range: 0.0 ~ 3.0
 		gravelConcreteSpeed = 1.2
@@ -31,14 +34,23 @@
 		disableStone = true
 		#Disable the use of iron tools (still allows crafting for other recipes). This is disabled by default for progression.
 		disableIron = true
+		#Change the output of a cobblestone generator from cobblestone to random igneous rocks.
+		igneousGen = true
 		#Chance on random tick for the beehive oven (T1) to cook a block
 		#Range: 0.0 ~ 1.0
 		t1BeehiveOvenTime = 0.5
+		#Adds a trade to the Wandering Trader for a random tool which is not restricted by alloy constraints. May be unbalanced due to complete randomness.
+		wanderingSpecial = false
 		#Chance on random tick for the zircon beehive oven (T3) to cook a block
 		#Range: 0.0 ~ 1.0
 		t3BeehiveOvenTime = 1.0
+		#Max range of the laser quarry.
+		#Range: 0 ~ 11
+		laserQuarryRange = 5
 		#Enables (not functional yet) the Rankine Journal (a guide to the mod)
 		startingBook = true
+		#Adds trades for Project Rankine to Villagers and the Wandering Trader.
+		villageTrades = true
 		#Disable the use of wooden tools (still allows crafting for other recipes). This is enabled by default for progression.
 		disableWood = true
 		#Amount of additional exhaustion when breaking a block
@@ -116,6 +128,9 @@
 
 				#Pyrolusite Ore Settings
 				[alloySettings.worldgenSettings.oregen.overworldOres.pyrolusiteOre]
+					#Harvest Level of Pyrolusite Ore
+					#Range: 0 ~ 5
+					pyrolusiteOreHL = 2
 					#Minimum height to generate Pyrolusite ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					pyrolusiteOreMin = 10
@@ -133,6 +148,9 @@
 
 				#Native Bismuth Ore Settings
 				[alloySettings.worldgenSettings.oregen.overworldOres.nativeBismuthOre]
+					#Harvest Level of Native Bismuth Ore
+					#Range: 0 ~ 5
+					nativeBismuthOreHL = 0
 					#Size of Native Bismuth ore vein
 					#Range: 0 ~ 256
 					nativeBismuthOreSize = 12
@@ -150,6 +168,9 @@
 
 				#Bituminous Coal Ore Settings
 				[alloySettings.worldgenSettings.oregen.overworldOres.bituminousCoalOre]
+					#Harvest Level of Bituminous Coal Ore
+					#Range: 0 ~ 5
+					bituminousCoalOreHL = 2
 					#Number of Bituminous Coal ore veins to generate per chunk
 					#Range: 0 ~ 256
 					bituminousCoalOreCount = 4
@@ -181,6 +202,9 @@
 					#Minimum height to generate Native Silver ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					nativeSilverOreMin = 55
+					#Harvest Level of Native Silver Ore
+					#Range: 0 ~ 5
+					nativeSilverOreHL = 0
 
 				#Vanadinite Ore Settings
 				[alloySettings.worldgenSettings.oregen.overworldOres.vanadiniteOre]
@@ -196,6 +220,9 @@
 					#Number of Vanadinite ore veins to generate per chunk
 					#Range: 0 ~ 256
 					vanadiniteOreCount = 1
+					#Harvest Level of Vanadinite Ore
+					#Range: 0 ~ 5
+					vanadiniteOreHL = 2
 					#Enables (not functional yet) Vanadinite ore)
 					vanadiniteOreEnabled = true
 
@@ -215,6 +242,9 @@
 					#Maximum height to generate Halite ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					haliteOreMax = 70
+					#Harvest Level of Halite Ore
+					#Range: 0 ~ 5
+					haliteOreHL = 0
 
 				#Pentlandite Ore Settings
 				[alloySettings.worldgenSettings.oregen.overworldOres.pentlanditeOre]
@@ -223,6 +253,9 @@
 					#Maximum height to generate Pentlandite ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					pentlanditeOreMax = 45
+					#Harvest Level of Pentlandite Ore
+					#Range: 0 ~ 5
+					pentlanditeOreHL = 2
 					#Minimum height to generate Pentlandite ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					pentlanditeOreMin = 10
@@ -244,6 +277,9 @@
 					#Maximum height to generate Native Tin ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					nativeTinOreMax = 75
+					#Harvest Level of Native Tin Ore
+					#Range: 0 ~ 5
+					nativeTinOreHL = 0
 					#Number of Native Tin ore veins to generate per chunk
 					#Range: 0 ~ 256
 					nativeTinOreCount = 4
@@ -257,6 +293,9 @@
 					#Number of Petalite ore veins to generate per chunk
 					#Range: 0 ~ 256
 					petaliteOreCount = 1
+					#Harvest Level of Petalite Ore
+					#Range: 0 ~ 5
+					petaliteOreHL = 3
 					#Maximum height to generate Petalite ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					petaliteOreMax = 30
@@ -269,6 +308,9 @@
 
 				#Aquamarine Ore Settings
 				[alloySettings.worldgenSettings.oregen.overworldOres.aquamarineOre]
+					#Harvest Level of Aquamarine Ore
+					#Range: 0 ~ 5
+					aquamarineOreHL = 2
 					#Minimum height to generate Aquamarine ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					aquamarineOreMin = 10
@@ -295,6 +337,9 @@
 					#Minimum height to generate Cassiterite ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					cassiteriteOreMin = 35
+					#Harvest Level of Cassiterite Ore
+					#Range: 0 ~ 5
+					CassiteriteOreHL = 1
 					#Size of Cassiterite ore vein
 					#Range: 0 ~ 256
 					cassiteriteOreSize = 16
@@ -305,6 +350,9 @@
 				[alloySettings.worldgenSettings.oregen.overworldOres.magnesiteOre]
 					#Enables (not functional yet) Magnesite ore)
 					magnesiteOreEnabled = true
+					#Harvest Level of Magnesite Ore
+					#Range: 0 ~ 5
+					magnesiteOreHL = 2
 					#Maximum height to generate Magnesite ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					magnesiteOreMax = 45
@@ -325,6 +373,9 @@
 					#Minimum height to generate Majorite ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					majoriteOreMin = 0
+					#Harvest Level of Majorite Ore
+					#Range: 0 ~ 5
+					majoriteOreHL = 3
 					#Maximum height to generate Majorite ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					majoriteOreMax = 15
@@ -340,6 +391,9 @@
 					#Maximum height to generate Celestine ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					celestineOreMax = 70
+					#Harvest Level of Celestine Ore
+					#Range: 0 ~ 5
+					celestineOreHL = 2
 					#Minimum height to generate Celestine ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					celestineOreMin = 50
@@ -365,6 +419,9 @@
 					#Minimum height to generate Bauxite ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					bauxiteOreMin = 35
+					#Harvest Level of Bauxite Ore
+					#Range: 0 ~ 5
+					bauxiteOreHL = 1
 					#Size of Bauxite ore vein
 					#Range: 0 ~ 256
 					bauxiteOreSize = 16
@@ -385,6 +442,9 @@
 					#Minimum height to generate Malachite ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					malachiteOreMin = 35
+					#Harvest Level of Malachite Ore
+					#Range: 0 ~ 5
+					malachiteOreHL = 1
 
 				#Chromite Ore Settings (Only generates in igneous rocks)
 				[alloySettings.worldgenSettings.oregen.overworldOres.chromiteOre]
@@ -399,6 +459,9 @@
 					#Number of Chromite ore veins to generate per chunk
 					#Range: 0 ~ 256
 					chromiteOreCount = 1
+					#Harvest Level of Chromite Ore
+					#Range: 0 ~ 5
+					chromiteOreHL = 3
 					#Maximum height to generate Chromite ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					chromiteOreMax = 15
@@ -411,6 +474,9 @@
 					#Number of Lignite ore veins to generate per chunk
 					#Range: 0 ~ 256
 					ligniteOreCount = 2
+					#Harvest Level of Lignite Ore
+					#Range: 0 ~ 5
+					ligniteOreHL = 0
 					#Size of Lignite ore vein
 					#Range: 0 ~ 256
 					ligniteOreSize = 20
@@ -431,6 +497,9 @@
 					#Number of Plumbago ore veins to generate per chunk
 					#Range: 0 ~ 256
 					plumbagoOreCount = 2
+					#Harvest Level of Plumbago Ore
+					#Range: 0 ~ 5
+					plumbagoOreHL = 3
 					#Minimum height to generate Plumbago ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					plumbagoOreMin = 5
@@ -447,6 +516,9 @@
 					#Number of Sphalerite ore veins to generate per chunk
 					#Range: 0 ~ 256
 					sphaleriteOreCount = 2
+					#Harvest Level of Sphalerite Ore
+					#Range: 0 ~ 5
+					sphaleriteOreHL = 1
 					#Size of Sphalerite ore vein
 					#Range: 0 ~ 256
 					sphaleriteOreSize = 16
@@ -467,6 +539,9 @@
 					#Minimum height to generate Acanthite ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					acanthiteOreMin = 10
+					#Harvest Level of Acanthite Ore
+					#Range: 0 ~ 5
+					acanthiteOreHL = 2
 					#Size of Acanthite ore vein
 					#Range: 0 ~ 256
 					acanthiteOreSize = 15
@@ -482,6 +557,9 @@
 					#Size of Native Gold ore vein
 					#Range: 0 ~ 256
 					nativeGoldOreSize = 12
+					#Harvest Level of Native Gold Ore
+					#Range: 0 ~ 5
+					nativeGoldOreHL = 0
 					#Maximum height to generate Native Gold ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					nativeGoldOreMax = 75
@@ -490,6 +568,9 @@
 
 				#Stibnite Ore Settings
 				[alloySettings.worldgenSettings.oregen.overworldOres.stibniteOre]
+					#Harvest Level of Stibnite Ore
+					#Range: 0 ~ 5
+					stibniteOreHL = 0
 					#Maximum height to generate Stibnite ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					stibniteOreMax = 75
@@ -507,6 +588,9 @@
 
 				#Native Copper Ore Settings
 				[alloySettings.worldgenSettings.oregen.overworldOres.nativeCopperOre]
+					#Harvest Level of Native Copper Ore
+					#Range: 0 ~ 5
+					nativeCopperOreHL = 0
 					#Maximum height to generate Native Copper ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					nativeCopperOreMax = 75
@@ -538,6 +622,9 @@
 					#Size of Galena ore vein
 					#Range: 0 ~ 256
 					galenaOreSize = 16
+					#Harvest Level of Galena Ore
+					#Range: 0 ~ 5
+					galenaOreHL = 2
 
 				#Lazurite Ore Settings (Only generates in limestone)
 				[alloySettings.worldgenSettings.oregen.overworldOres.lazuriteOre]
@@ -552,6 +639,9 @@
 					#Number of Lazurite ore veins to generate per chunk
 					#Range: 0 ~ 256
 					lazuriteOreCount = 3
+					#Harvest Level of Lazurite Ore
+					#Range: 0 ~ 5
+					lazuriteOreHL = 1
 					#Size of Lazurite ore vein
 					#Range: 0 ~ 256
 					lazuriteOreSize = 20
@@ -567,6 +657,9 @@
 					#Number of Pink Halite ore veins to generate per chunk
 					#Range: 0 ~ 256
 					pinkHaliteOreCount = 2
+					#Harvest Level of Pink Halite Ore
+					#Range: 0 ~ 5
+					pinkHaliteOreHL = 0
 					#Enables (not functional yet) Pink Halite ore)
 					pinkHaliteOreEnabled = true
 					#Size of Pink Halite ore vein
@@ -578,6 +671,9 @@
 					#Size of Magnetite ore vein
 					#Range: 0 ~ 256
 					magnetiteOreSize = 20
+					#Harvest Level of Magnetite Ore
+					#Range: 0 ~ 5
+					magnetiteOreHL = 2
 					#Maximum height to generate Magnetite ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					magnetiteOreMax = 50
@@ -606,6 +702,9 @@
 					#Number of Cinnabar ore veins to generate per chunk
 					#Range: 0 ~ 256
 					cinnabarOreCount = 3
+					#Harvest Level of Cinnabar Ore
+					#Range: 0 ~ 5
+					cinnabarOreHL = 2
 
 				#Native Aluminum Ore Settings
 				[alloySettings.worldgenSettings.oregen.overworldOres.nativeAluminumOre]
@@ -615,6 +714,9 @@
 					#Minimum height to generate Native Aluminum ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					nativeAluminumOreMin = 55
+					#Harvest Level of Native Aluminum Ore
+					#Range: 0 ~ 5
+					nativeAluminumOreHL = 0
 					#Enables (not functional yet) Native Aluminum ore)
 					nativeAluminumOreEnabled = true
 					#Maximum height to generate Native Aluminum ore at (make sure it is greater than the minimum)
@@ -632,6 +734,9 @@
 					#Maximum height to generate Native Lead ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					nativeLeadOreMax = 75
+					#Harvest Level of Native Lead Ore
+					#Range: 0 ~ 5
+					nativeLeadOreHL = 0
 					#Minimum height to generate Native Lead ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					nativeLeadOreMin = 55
@@ -646,6 +751,9 @@
 					#Number of Subbituminous Coal ore veins to generate per chunk
 					#Range: 0 ~ 256
 					subbituminousCoalOreCount = 4
+					#Harvest Level of Subbituminous Coal Ore
+					#Range: 0 ~ 5
+					subbituminousCoalOreHL = 1
 					#Enables (not functional yet) Subbituminous Coal ore)
 					subbituminousCoalOreEnabled = true
 					#Maximum height to generate Subbituminous Coal ore at (make sure it is greater than the minimum)
@@ -674,6 +782,9 @@
 					#Number of Emerald ore veins to generate per chunk
 					#Range: 0 ~ 256
 					emeraldOreCount = 3
+					#Harvest Level of Emerald Ore
+					#Range: 0 ~ 5
+					emeraldOreHL = 2
 
 			#Nether Ore Settings
 			[alloySettings.worldgenSettings.oregen.netherOres]
@@ -694,23 +805,9 @@
 					#Size of Bismuthinite ore vein
 					#Range: 0 ~ 256
 					bismuthiniteOreSize = 15
-
-				#Greenockite Ore Settings
-				[alloySettings.worldgenSettings.oregen.netherOres.greenockiteOre]
-					#Maximum height to generate Greenockite ore at (make sure it is greater than the minimum)
-					#Range: 0 ~ 256
-					greenockiteOreMax = 30
-					#Enables (not functional yet) Greenockite ore)
-					greenockiteOreEnabled = true
-					#Size of Greenockite ore vein
-					#Range: 0 ~ 256
-					greenockiteOreSize = 10
-					#Number of Greenockite ore veins to generate per chunk
-					#Range: 0 ~ 256
-					greenockiteOreCount = 1
-					#Minimum height to generate Greenockite ore at (make sure it is less than the maximum)
-					#Range: 0 ~ 256
-					greenockiteOreMin = 1
+					#Harvest Level of Bismuthinite Ore
+					#Range: 0 ~ 5
+					bismuthiniteOreHL = 3
 
 				#Columbite Ore Settings
 				[alloySettings.worldgenSettings.oregen.netherOres.columbiteOre]
@@ -725,6 +822,9 @@
 					#Minimum height to generate Columbite ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					columbiteOreMin = 1
+					#Harvest Level of Columbite Ore
+					#Range: 0 ~ 5
+					columbiteOreHL = 3
 					#Maximum height to generate Columbite ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					columbiteOreMax = 30
@@ -745,12 +845,18 @@
 					cobaltiteOreMax = 90
 					#Enables (not functional yet) Cobaltite ore)
 					cobaltiteOreEnabled = true
+					#Harvest Level of Cobaltite Ore
+					#Range: 0 ~ 5
+					cobaltiteOreHL = 3
 
 				#Native Arsenic Ore Settings
 				[alloySettings.worldgenSettings.oregen.netherOres.nativeArsenicOre]
 					#Maximum height to generate Native Arsenic ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					nativeArsenicOreMax = 90
+					#Harvest Level of Native Arsenic Ore
+					#Range: 0 ~ 5
+					nativeArsenicOreHL = 0
 					#Size of Native Arsenic ore vein
 					#Range: 0 ~ 256
 					nativeArsenicOreSize = 12
@@ -773,6 +879,9 @@
 					#Maximum height to generate Ilmenite ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					ilmeniteOreMax = 128
+					#Harvest Level of Ilmenite Ore
+					#Range: 0 ~ 5
+					ilmeniteOreHL = 3
 					#Minimum height to generate Ilmenite ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					ilmeniteOreMin = 90
@@ -796,6 +905,9 @@
 					#Minimum height to generate Sperrylite ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					sperryliteOreMin = 90
+					#Harvest Level of Sperrylite Ore
+					#Range: 0 ~ 5
+					sperryliteOreHL = 3
 
 				#Wolframite Ore Settings
 				[alloySettings.worldgenSettings.oregen.netherOres.wolframiteOre]
@@ -805,6 +917,9 @@
 					#Number of Wolframite ore veins to generate per chunk
 					#Range: 0 ~ 256
 					wolframiteOreCount = 2
+					#Harvest Level of Wolframite Ore
+					#Range: 0 ~ 5
+					wolframiteOreHL = 3
 					#Size of Wolframite ore vein
 					#Range: 0 ~ 256
 					wolframiteOreSize = 20
@@ -830,6 +945,9 @@
 					#Minimum height to generate Moissanite ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					moissaniteOreMin = 1
+					#Harvest Level of Moissanite Ore
+					#Range: 0 ~ 5
+					moissaniteOreHL = 2
 
 				#Native Sulfur Ore Settings
 				[alloySettings.worldgenSettings.oregen.netherOres.nativeSulfurOre]
@@ -841,6 +959,9 @@
 					nativeSulfurOreMin = 30
 					#Enables (not functional yet) Native Sulfur ore)
 					nativeSulfurOreEnabled = true
+					#Harvest Level of Native Sulfur Ore
+					#Range: 0 ~ 5
+					nativeSulfurOreHL = 0
 					#Size of Native Sulfur ore vein
 					#Range: 0 ~ 256
 					nativeSulfurOreSize = 12
@@ -864,6 +985,9 @@
 					#Maximum height to generate Anthracite ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					anthraciteOreMax = 90
+					#Harvest Level of Anthracite Ore
+					#Range: 0 ~ 5
+					anthraciteOreHL = 3
 
 				#Tantalite Ore Settings
 				[alloySettings.worldgenSettings.oregen.netherOres.tantaliteOre]
@@ -881,12 +1005,18 @@
 					#Number of Tantalite ore veins to generate per chunk
 					#Range: 0 ~ 256
 					tantaliteOreCount = 1
+					#Harvest Level of Tantalite Ore
+					#Range: 0 ~ 5
+					tantaliteOreHL = 3
 
 			#End Ore Settings
 			[alloySettings.worldgenSettings.oregen.endOres]
 
 				#Xenotime Ore Settings
 				[alloySettings.worldgenSettings.oregen.endOres.xenotimeOre]
+					#Harvest Level of Xenotime Ore
+					#Range: 0 ~ 5
+					xenotimeOreHL = 3
 					#Minimum height to generate Xenotime ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					xenotimeOreMin = 0
@@ -902,6 +1032,26 @@
 					#Enables (not functional yet) Xenotime ore)
 					xenotimeOreEnabled = true
 
+				#Greenockite Ore Settings
+				[alloySettings.worldgenSettings.oregen.endOres.greenockiteOre]
+					#Maximum height to generate Greenockite ore at (make sure it is greater than the minimum)
+					#Range: 0 ~ 256
+					greenockiteOreMax = 30
+					#Enables (not functional yet) Greenockite ore)
+					greenockiteOreEnabled = true
+					#Size of Greenockite ore vein
+					#Range: 0 ~ 256
+					greenockiteOreSize = 10
+					#Number of Greenockite ore veins to generate per chunk
+					#Range: 0 ~ 256
+					greenockiteOreCount = 1
+					#Harvest Level of Greenockite Ore
+					#Range: 0 ~ 5
+					greenockiteOreHL = 3
+					#Minimum height to generate Greenockite ore at (make sure it is less than the maximum)
+					#Range: 0 ~ 256
+					greenockiteOreMin = 1
+
 				#Fluorite Ore Settings
 				[alloySettings.worldgenSettings.oregen.endOres.fluoriteOre]
 					#Enables (not functional yet) Fluorite ore)
@@ -915,6 +1065,9 @@
 					#Maximum height to generate Fluorite ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					fluoriteOreMax = 100
+					#Harvest Level of Fluorite Ore
+					#Range: 0 ~ 5
+					fluoriteOreHL = 4
 					#Minimum height to generate Fluorite ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					fluoriteOreMin = 0
@@ -935,6 +1088,9 @@
 					nativeGalliumOreSize = 12
 					#Enables (not functional yet) Native Gallium ore)
 					nativeGalliumOreEnabled = true
+					#Harvest Level of Native Gallium Ore
+					#Range: 0 ~ 5
+					nativeGalliumOreHL = 3
 
 				#Molybdenite Ore Settings
 				[alloySettings.worldgenSettings.oregen.endOres.molybdeniteOre]
@@ -952,6 +1108,9 @@
 					#Number of Molybdenite ore veins to generate per chunk
 					#Range: 0 ~ 256
 					molybdeniteOreCount = 5
+					#Harvest Level of Molybdenite Ore
+					#Range: 0 ~ 5
+					molybdeniteOreHL = 3
 
 				#Native Selenium Ore Settings
 				[alloySettings.worldgenSettings.oregen.endOres.nativeSeleniumOre]
@@ -969,6 +1128,9 @@
 					#Maximum height to generate Native Selenium ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					nativeSeleniumOreMax = 100
+					#Harvest Level of Native Selenium Ore
+					#Range: 0 ~ 5
+					nativeSeleniumOreHL = 3
 
 				#Native Tellurium Ore Settings
 				[alloySettings.worldgenSettings.oregen.endOres.nativeTelluriumOre]
@@ -977,6 +1139,9 @@
 					#Size of Native Tellurium ore vein
 					#Range: 0 ~ 256
 					nativeTelluriumOreSize = 12
+					#Harvest Level of Native Tellurium Ore
+					#Range: 0 ~ 5
+					nativeTelluriumOreHL = 3
 					#Number of Native Tellurium ore veins to generate per chunk
 					#Range: 0 ~ 256
 					nativeTelluriumOreCount = 8
@@ -994,6 +1159,9 @@
 					#Maximum height to generate Native Indium ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					nativeIndiumOreMax = 100
+					#Harvest Level of Native Indium Ore
+					#Range: 0 ~ 5
+					nativeIndiumOreHL = 3
 					#Number of Native Indium ore veins to generate per chunk
 					#Range: 0 ~ 256
 					nativeIndiumOreCount = 8
@@ -1015,6 +1183,9 @@
 					#Maximum height to generate Uraninite ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					uraniniteOreMax = 100
+					#Harvest Level of Uraninite Ore
+					#Range: 0 ~ 5
+					uraniniteOreHL = 4
 					#Enables (not functional yet) Uraninite ore)
 					uraniniteOreEnabled = true
 					#Minimum height to generate Uraninite ore at (make sure it is less than the maximum)
@@ -1042,6 +1213,93 @@
 			#This determines how smooth stone layers generate. Larger values means smoother. Default value is 125.
 			#Range: 1 ~ 1000
 			noiseScale = 125
+
+		#Miscellaneous Block Harvest Levels
+		[alloySettings.worldgenSettings.harvestLevels]
+			#Harvest Level of Red Granite
+			#Range: 0 ~ 5
+			redGraniteHL = 0
+			#Harvest Level of Shale
+			#Range: 0 ~ 5
+			shaleHL = 0
+			#Harvest Level of Granodiorite
+			#Range: 0 ~ 5
+			granodioriteHL = 0
+			#Harvest Level of Ringwoodite
+			#Range: 0 ~ 5
+			ringwooditeHL = 2
+			#Harvest Level of Rhyp;ite
+			#Range: 0 ~ 5
+			rhyolitteHL = 1
+			#Harvest Level of Schist
+			#Range: 0 ~ 5
+			schistHL = 1
+			#Harvest Level of Peridotite
+			#Range: 0 ~ 5
+			peridotiteHL = 2
+			#Harvest Level of Anorthosite
+			#Range: 0 ~ 5
+			anorthositeHL = 0
+			#Harvest Level of Slate
+			#Range: 0 ~ 5
+			slateHL = 1
+			#Harvest Level of Perovskite
+			#Range: 0 ~ 5
+			perovskiteHL = 2
+			#Harvest Level of Diamond Ore
+			#Range: 0 ~ 5
+			diamondOreHL = 3
+			#Harvest Level of Scoria
+			#Range: 0 ~ 5
+			scoriaHL = 1
+			#Harvest Level of Wadsleyite
+			#Range: 0 ~ 5
+			wadsleyiteHL = 2
+			#Harvest Level of Ferropericlase
+			#Range: 0 ~ 5
+			ferropericlaseHL = 2
+			#Harvest Level of Hornblende Andesite
+			#Range: 0 ~ 5
+			hornblendeAndesiteHL = 0
+			#Harvest Level of Tholeiitic Basalt
+			#Range: 0 ~ 5
+			basaltHL = 1
+			#Harvest Level of Pumice
+			#Range: 0 ~ 5
+			pumiveHL = 1
+			#Harvest Level of Breccia
+			#Range: 0 ~ 5
+			brecciaHL = 0
+			#Harvest Level of Komatiite
+			#Range: 0 ~ 5
+			komatiiteHL = 2
+			#Harvest Level of Gabbro
+			#Range: 0 ~ 5
+			gabbroHL = 1
+			#Harvest Level of Gneiss
+			#Range: 0 ~ 5
+			gneissHL = 1
+			#Harvest Level of Limestone
+			#Range: 0 ~ 5
+			limestoneHL = 0
+			#Harvest Level of Kimberlite
+			#Range: 0 ~ 5
+			kimberliteHL = 2
+			#Harvest Level of Bridgmanite
+			#Range: 0 ~ 5
+			bridgmaniteHL = 2
+			#Harvest Level of Interspinifex Ore
+			#Range: 0 ~ 5
+			interspinifexOreHL = 3
+			#Harvest Level of Opal Ore
+			#Range: 0 ~ 5
+			opalOreHL = 2
+			#Harvest Level of Ironstone
+			#Range: 0 ~ 5
+			ironstoneHL = 1
+			#Harvest Level of Marble
+			#Range: 0 ~ 5
+			marbleHL = 1
 
 		#Meteorite Generation
 		[alloySettings.worldgenSettings.meteorite]
