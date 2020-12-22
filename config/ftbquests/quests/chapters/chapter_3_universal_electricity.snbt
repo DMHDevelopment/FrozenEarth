@@ -20,6 +20,7 @@
 		{
 			x: -11.0d,
 			y: -1.0d,
+			dependencies: [I;362],
 			size: 2.0d,
 			id: 426,
 			tasks: [{
@@ -956,6 +957,132 @@
 						}
 					},
 					id: "assemblylinemachines:metal_shaper",
+					Count: true
+				}
+			}]
+		},
+		{
+			x: 11.5d,
+			y: -4.0d,
+			id: 652,
+			tasks: [{
+				id: 653,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "assemblylinemachines:mystium_dowsing_rod",
+					Count: true
+				}
+			}]
+		},
+		{
+			x: 11.5d,
+			y: -2.5d,
+			id: 654,
+			tasks: [{
+				id: 655,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "assemblylinemachines:chromium_plate",
+					Count: true
+				}
+			}]
+		},
+		{
+			x: 7.0d,
+			y: -2.5d,
+			id: 656,
+			tasks: [{
+				id: 657,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "rankine:alloy_furnace",
+					Count: true
+				}
+			}]
+		},
+		{
+			x: 8.5d,
+			y: -2.5d,
+			id: 658,
+			tasks: [{
+				id: 659,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "rankine:piston_crusher",
+					Count: true
+				}
+			}]
+		},
+		{
+			x: 10.0d,
+			y: -4.0d,
+			id: 660,
+			tasks: [{
+				id: 661,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "rankine:magnetite_ore",
+					Count: true
+				}
+			}]
+		},
+		{
+			x: 10.0d,
+			y: -1.0d,
+			id: 662,
+			tasks: [{
+				id: 663,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "rankine:chromite_ore",
 					Count: true
 				}
 			}]
