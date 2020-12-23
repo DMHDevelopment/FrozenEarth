@@ -29,6 +29,8 @@
 	"Enable Stamina" = true
 
 [temperature]
+	#Enabling this will remove the water source block when it is drunk
+	"Remove Water Source Block" = false
 	#Disabling this will prevent players from sleeping if they have hyperthermia or hypothermia
 	"Enable Hypothermia/Hyperthermia Allow Sleep" = true
 	#Enabling this allows players to drink water from flowing water sources. This is only allowed for infinite water sources
@@ -65,4 +67,12 @@
 
 [developerOptions]
 	debug_mode = false
+
+[hunger]
+	#The amount of hunger exaustion added to the player regardless of what the player is doing
+	#Range: 0.0 ~ 4.0
+	"Idle Hunger Exhaustion" = 0.11249999701976776
+	#The amount of time in ticks before hunger exaustion is added to the player regardless of what the player is doing. Set to -1 to disable
+	#Range: -1 ~ 1000
+	"Idle Hunger Tick Rate" = 140
 

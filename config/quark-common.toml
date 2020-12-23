@@ -449,6 +449,7 @@
 	"Underground Clay" = true
 	"Slime Underground Biome" = true
 	"Fairy Rings" = true
+	"Chorus Vegetation" = true
 	Crevices = true
 	"Nether Obsidian Spikes" = true
 	"Mega Caves" = true
@@ -645,6 +646,7 @@
 
 	[world.new_stone_types]
 		"Enable Marble" = true
+		"Enable Myalite" = true
 		"Enable Jasper" = true
 		"Enable Voidstone" = true
 		"Enable Slate" = true
@@ -680,6 +682,22 @@
 
 			[world.new_stone_types.limestone.dimensions]
 				Dimensions = ["minecraft:overworld"]
+				"Is Blacklist" = false
+
+		[world.new_stone_types.myalite]
+
+			[world.new_stone_types.myalite.oregen]
+				#Allowed values: [0,255]
+				"Max Height" = 256
+				#Allowed values: [0,)
+				"Cluster Count" = 10
+				#Allowed values: [0,255]
+				"Min Height" = 0
+				#Allowed values: [0,)
+				"Cluster Size" = 33
+
+			[world.new_stone_types.myalite.dimensions]
+				Dimensions = ["minecraft:the_end"]
 				"Is Blacklist" = false
 
 		[world.new_stone_types.voidstone]
@@ -774,6 +792,20 @@
 				# the_end, beach, forest, ocean, desert, river, swamp,
 				# mushroom, nether]
 				"Biome Categories" = ["savanna"]
+				"Is Blacklist" = false
+
+		[world.blossom_trees.red]
+			Rarity = 30
+
+			[world.blossom_trees.red.dimensions]
+				Dimensions = ["minecraft:overworld"]
+				"Is Blacklist" = false
+
+			[world.blossom_trees.red.biome_types]
+				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
+				# the_end, beach, forest, ocean, desert, river, swamp,
+				# mushroom, nether]
+				"Biome Categories" = ["mesa"]
 				"Is Blacklist" = false
 
 		[world.blossom_trees.pink]
@@ -1022,6 +1054,32 @@
 				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
+		[world.big_stone_clusters.myalite]
+			#Allowed values: [0,)
+			"Horizontal Size" = 20
+			#Allowed values: [0,)
+			Rarity = 100
+			"Generate In Air" = true
+			#Allowed values: [0,255]
+			"Min Y Level" = 58
+			#Allowed values: [0,)
+			"Horizontal Variation" = 6
+			Enabled = true
+			#Allowed values: [0,255]
+			"Max Y Level" = 62
+			#Allowed values: [0,)
+			"Vertical Size" = 40
+			#Allowed values: [0,)
+			"Vertical Variation" = 10
+
+			[world.big_stone_clusters.myalite.biomes]
+				Biomes = ["minecraft:end_highlands"]
+				"Is Blacklist" = false
+
+			[world.big_stone_clusters.myalite.dimensions]
+				Dimensions = ["minecraft:the_end"]
+				"Is Blacklist" = false
+
 		[world.big_stone_clusters.voidstone]
 			#Allowed values: [0,)
 			"Horizontal Size" = 19
@@ -1040,10 +1098,7 @@
 			"Vertical Variation" = 6
 
 			[world.big_stone_clusters.voidstone.biomes]
-				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
-				# the_end, beach, forest, ocean, desert, river, swamp,
-				# mushroom, nether]
-				"Biome Categories" = ["the_end"]
+				Biomes = ["minecraft:end_highlands", "minecraft:end_midlands", "minecraft:end_barrens"]
 				"Is Blacklist" = false
 
 			[world.big_stone_clusters.voidstone.dimensions]
@@ -1291,6 +1346,17 @@
 			# mushroom, nether]
 			"Biome Categories" = ["ocean", "beach", "nether", "the_end"]
 			"Is Blacklist" = true
+
+	[world.chorus_vegetation]
+		"Teleport Duplication Chance" = 0.01
+		Radius = 7
+		Rarity = 150
+		"Chunk Attempts" = 120
+		"Highlands Chance" = 1.0
+		"Midlands Chance" = 0.2
+		"Endermite Spawn Chance" = 0.01
+		"Passive Teleport Chance" = 0.2
+		"Other End Biomes Chance" = 0.0
 
 	[world.fairy_rings]
 		"Forest Chance" = 0.00625

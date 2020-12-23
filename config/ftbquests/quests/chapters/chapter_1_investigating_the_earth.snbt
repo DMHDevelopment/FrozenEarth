@@ -3865,6 +3865,23 @@
 					id: "farmingforblockheads:red_fertilizer",
 					Count: true
 				}
+			}],
+			rewards: [{
+				id: 678,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "farmingforblockheads:red_fertilizer",
+					Count: true
+				},
+				count: 4
 			}]
 		},
 		{
