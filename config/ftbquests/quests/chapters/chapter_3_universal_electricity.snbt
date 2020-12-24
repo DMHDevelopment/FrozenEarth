@@ -184,8 +184,10 @@
 			}]
 		},
 		{
+			title: "Bad Days of Quartz...",
 			x: -11.5d,
 			y: 1.0d,
+			description: ["These quartz crystals can be found in a big caves and quite dangerous, but they're emitting a lot of light. Maybe make a lamp from this?"],
 			dependencies: [I;426],
 			id: 580,
 			tasks: [{
@@ -202,12 +204,32 @@
 					},
 					id: "zycraft:quartz_crystal",
 					Count: true
-				}
+				},
+				count: 4L
+			}],
+			rewards: [{
+				id: 710,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "zycraft:quartz_crystal",
+					Count: true
+				},
+				count: 8
 			}]
 		},
 		{
+			title: "Shears? Scythe!",
 			x: -11.0d,
 			y: 2.0d,
+			description: ["Scythe is a bit similar for shears, but it clears the territory in a big range, so it can be useful while making clear territory."],
 			dependencies: [I;584],
 			id: 582,
 			tasks: [{
@@ -228,11 +250,29 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: 711,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "zycraft:aluminized_dark_zychorium_bricks",
+					Count: true
+				},
+				count: 64
 			}]
 		},
 		{
 			x: -10.5d,
 			y: 1.0d,
+			description: ["Zychorium is a very strange material needed for perfect illumination in this world."],
 			dependencies: [I;426],
 			id: 584,
 			tasks: [
@@ -485,8 +525,10 @@
 			}]
 		},
 		{
+			title: "Finding Titanium...",
 			x: -12.5d,
 			y: -1.0d,
+			description: ["I heard that Titanium is hard to find. It can be found near lava lakes in a deep part of frozen Earth..."],
 			dependencies: [I;426],
 			id: 599,
 			tasks: [{
@@ -509,6 +551,23 @@
 					}
 				},
 				count: 4L
+			}],
+			rewards: [{
+				id: 709,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "assemblylinemachines:titanium_ore",
+					Count: true
+				},
+				count: 2
 			}]
 		},
 		{

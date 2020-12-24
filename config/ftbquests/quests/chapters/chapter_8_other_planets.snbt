@@ -3,18 +3,6 @@
 	filename: "chapter_8_other_planets",
 	order_index: 9,
 	title: "Chapter 8: Other Planets!",
-	icon: {
-		ForgeCaps: {
-			"dungeons_gear:weapon": {
-				lastFiredTime: 0L,
-				fuseShotCounter: 0,
-				crossbowChargeTime: 0,
-				bowChargeTime: 0.0f
-			}
-		},
-		id: "undergarden:ink_mushroom",
-		Count: true
-	},
 	default_quest_shape: "",
 	quests: []
 }

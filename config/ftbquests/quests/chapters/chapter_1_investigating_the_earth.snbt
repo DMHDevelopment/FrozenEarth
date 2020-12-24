@@ -2719,19 +2719,7 @@
 				},
 				{
 					id: 527,
-					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "gaiadimension:lurmorus_steak",
-						Count: true
-					}
+					type: "item"
 				}
 			]
 		},
