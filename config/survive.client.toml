@@ -7,5 +7,5 @@
 	#Range: -200 ~ 200
 	"Temperature Y Offset" = 5
 	#Allowed Values: HOTBAR, NUMBERS, BAR
-	"Temperature Display Mode" = "HOTBAR"
+	"Temperature Display Mode" = "BAR"
 
