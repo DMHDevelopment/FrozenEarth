@@ -1,0 +1,25 @@
+{
+    "type": "stone_age:flint_workbench",
+    "pattern": [
+      " FF",
+      " RF",
+      "S  "
+    ],
+    "key": {
+      "S": {
+        "tag": "forge:rods/wooden"
+      },
+      "F": {
+        "item": "minecraft:flint"
+      },
+      "R": {
+        "item": "rankine:rope"
+      }
+    },
+    "tool": {
+      "tag": "ages_api:knifes"
+    },
+    "result": {
+      "item": "rankine:flint_spear"
+    }
+  }
