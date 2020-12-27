@@ -64,6 +64,7 @@
 			title: "Grindstone!",
 			x: -6.5d,
 			y: -1.0d,
+			description: ["Grindstone allows me to macerate materials, so I can continue getting working on a way to get my first steel..."],
 			dependencies: [I;601],
 			id: 503,
 			tasks: [{
@@ -81,12 +82,83 @@
 					id: "assemblylinemachines:hand_grinder",
 					Count: true
 				}
-			}]
+			}],
+			rewards: [
+				{
+					id: 720,
+					type: "item",
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "minecraft:gravel",
+						Count: true
+					},
+					count: 16
+				},
+				{
+					id: 721,
+					type: "item",
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "minecraft:sand",
+						Count: true
+					},
+					count: 16
+				},
+				{
+					id: 722,
+					type: "item",
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "assemblylinemachines:ground_iron",
+						Count: true
+					},
+					count: 4
+				},
+				{
+					id: 723,
+					type: "item",
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "assemblylinemachines:ground_gold",
+						Count: true
+					},
+					count: 4
+				}
+			]
 		},
 		{
 			title: "First Blade",
 			x: -6.5d,
 			y: -2.5d,
+			description: ["As addition for grindstone I need a blade... I hope Titanium Blade is a good one."],
 			dependencies: [I;503],
 			id: 505,
 			tasks: [{
@@ -107,6 +179,23 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: 724,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:iron_ore",
+					Count: true
+				},
+				count: 8
 			}]
 		},
 		{
@@ -230,7 +319,8 @@
 			x: -11.0d,
 			y: 2.0d,
 			description: ["Scythe is a bit similar for shears, but it clears the territory in a big range, so it can be useful while making clear territory."],
-			dependencies: [I;584],
+			hide_dependency_lines: true,
+			dependencies: [I;580],
 			id: 582,
 			tasks: [{
 				id: 583,
@@ -272,7 +362,7 @@
 		{
 			x: -10.5d,
 			y: 1.0d,
-			description: ["Zychorium is a very strange material needed for perfect illumination in this world."],
+			description: ["Zychorium is a very strange material, which is glowing in a different way... It is needed for perfect illumination in this world?"],
 			dependencies: [I;426],
 			id: 584,
 			tasks: [
@@ -390,7 +480,10 @@
 			},
 			x: -3.5d,
 			y: -4.0d,
-			dependencies: [I;593],
+			dependencies: [I;
+				593,
+				712
+			],
 			size: 1.75d,
 			id: 591,
 			tasks: [
@@ -502,8 +595,10 @@
 			}]
 		},
 		{
+			title: "Soaking in the Bath",
 			x: -9.5d,
 			y: -1.0d,
+			description: ["I need to somehow make better way to grind my resources and make my road into electricity... Silt is a good way to make more ore output and I need to get a bath for this to make this."],
 			dependencies: [I;426],
 			id: 597,
 			tasks: [{
@@ -522,6 +617,22 @@
 					Count: true
 				},
 				consume_items: false
+			}],
+			rewards: [{
+				id: 714,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:water_bucket",
+					Count: true
+				}
 			}]
 		},
 		{
@@ -571,8 +682,10 @@
 			}]
 		},
 		{
+			title: "This is Silt.",
 			x: -8.0d,
 			y: -1.0d,
+			description: ["Silt is a viscous consistence thing, which allows me to clear ores better and make grindstone atleast not bad as it could be."],
 			dependencies: [I;597],
 			id: 601,
 			tasks: [{
@@ -591,7 +704,43 @@
 					Count: true
 				},
 				count: 8L
-			}]
+			}],
+			rewards: [
+				{
+					id: 718,
+					type: "item",
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "assemblylinemachines:titanium_ore",
+						Count: true
+					},
+					count: 2
+				},
+				{
+					id: 719,
+					type: "item",
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "minecraft:iron_ore",
+						Count: true
+					},
+					count: 2
+				}
+			]
 		},
 		{
 			x: -5.0d,
@@ -1462,6 +1611,7 @@
 		{
 			x: -3.5d,
 			y: -8.5d,
+			hide_dependency_lines: true,
 			dependencies: [I;591],
 			size: 2.0d,
 			id: 706,
@@ -1479,6 +1629,31 @@
 					},
 					id: "rankine:ilmenite_ore",
 					Count: true
+				}
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -4.0d,
+			dependencies: [I;603],
+			id: 712,
+			tasks: [{
+				id: 713,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "assemblylinemachines:titanium_pickaxe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
 				}
 			}]
 		}

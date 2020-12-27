@@ -1,0 +1,5 @@
+
+[Settings]
+	#Enable/disable better end sky. Set this to false if you are experiencing issues with shaders (temporary solution)
+	enabled = true
+
