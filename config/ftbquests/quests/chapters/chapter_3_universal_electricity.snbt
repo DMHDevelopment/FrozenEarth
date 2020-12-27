@@ -3,18 +3,7 @@
 	filename: "chapter_3_universal_electricity",
 	order_index: 4,
 	title: "Chapter 3: Universal Electricity",
-	icon: {
-		ForgeCaps: {
-			"dungeons_gear:weapon": {
-				lastFiredTime: 0L,
-				fuseShotCounter: 0,
-				crossbowChargeTime: 0,
-				bowChargeTime: 0.0f
-			}
-		},
-		id: "assemblylinemachines:geothermal_generator",
-		Count: true
-	},
+	icon: "assemblylinemachines:geothermal_generator",
 	default_quest_shape: "",
 	quests: [
 		{
@@ -30,34 +19,12 @@
 			tasks: [{
 				id: 427,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "assemblylinemachines:guidebook",
-					Count: true
-				}
+				item: "assemblylinemachines:guidebook"
 			}],
 			rewards: [{
 				id: 708,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "voluminousenergy:titanium_ingot",
-					Count: true
-				}
+				item: "voluminousenergy:titanium_ingot"
 			}]
 		},
 		{
@@ -70,86 +37,31 @@
 			tasks: [{
 				id: 504,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "assemblylinemachines:hand_grinder",
-					Count: true
-				}
+				item: "assemblylinemachines:hand_grinder"
 			}],
 			rewards: [
 				{
 					id: 720,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "minecraft:gravel",
-						Count: true
-					},
+					item: "minecraft:gravel",
 					count: 16
 				},
 				{
 					id: 721,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "minecraft:sand",
-						Count: true
-					},
+					item: "minecraft:sand",
 					count: 16
 				},
 				{
 					id: 722,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "assemblylinemachines:ground_iron",
-						Count: true
-					},
+					item: "assemblylinemachines:ground_iron",
 					count: 4
 				},
 				{
 					id: 723,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "assemblylinemachines:ground_gold",
-						Count: true
-					},
+					item: "assemblylinemachines:ground_gold",
 					count: 4
 				}
 			]
@@ -165,14 +77,6 @@
 				id: 506,
 				type: "item",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "assemblylinemachines:titanium_blade",
 					Count: true,
 					tag: {
@@ -183,24 +87,14 @@
 			rewards: [{
 				id: 724,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:iron_ore",
-					Count: true
-				},
+				item: "minecraft:iron_ore",
 				count: 8
 			}]
 		},
 		{
 			x: -6.5d,
 			y: -4.0d,
+			description: ["After some crushing of ores I found a way of purifying ores. I need a silt with gold, so I can make Pure Gold which is much greater than Titanium for blades."],
 			dependencies: [I;
 				503,
 				505
@@ -209,44 +103,36 @@
 			tasks: [{
 				id: 510,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "assemblylinemachines:pure_gold",
-					Count: true
-				}
+				item: "assemblylinemachines:pure_gold"
+			}],
+			rewards: [{
+				id: 716,
+				type: "item",
+				item: "ironchest:iron_chest"
 			}]
 		},
 		{
 			title: "Blade Upgrade",
 			x: -8.0d,
 			y: -4.0d,
+			description: ["Pure Gold Blade is way faster and harder than before."],
 			dependencies: [I;509],
 			id: 511,
 			tasks: [{
 				id: 512,
 				type: "item",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "assemblylinemachines:pure_gold_blade",
 					Count: true,
 					tag: {
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: 715,
+				type: "item",
+				item: "minecraft:hopper"
 			}]
 		},
 		{
@@ -258,18 +144,7 @@
 			tasks: [{
 				id: 536,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "assemblylinemachines:basic_battery",
-					Count: true
-				}
+				item: "assemblylinemachines:basic_battery"
 			}]
 		},
 		{
@@ -282,35 +157,13 @@
 			tasks: [{
 				id: 581,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "zycraft:quartz_crystal",
-					Count: true
-				},
+				item: "zycraft:quartz_crystal",
 				count: 4L
 			}],
 			rewards: [{
 				id: 710,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "zycraft:quartz_crystal",
-					Count: true
-				},
+				item: "zycraft:quartz_crystal",
 				count: 8
 			}]
 		},
@@ -326,14 +179,6 @@
 				id: 583,
 				type: "item",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "zycraft:scythe",
 					Count: true,
 					tag: {
@@ -344,18 +189,7 @@
 			rewards: [{
 				id: 711,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "zycraft:aluminized_dark_zychorium_bricks",
-					Count: true
-				},
+				item: "zycraft:aluminized_dark_zychorium_bricks",
 				count: 64
 			}]
 		},
@@ -369,117 +203,44 @@
 				{
 					id: 585,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "zycraft:dark_zychorium",
-						Count: true
-					}
+					item: "zycraft:dark_zychorium"
 				},
 				{
 					id: 586,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "zycraft:blue_zychorium",
-						Count: true
-					}
+					item: "zycraft:blue_zychorium"
 				},
 				{
 					id: 587,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "zycraft:green_zychorium",
-						Count: true
-					}
+					item: "zycraft:green_zychorium"
 				},
 				{
 					id: 588,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "zycraft:red_zychorium",
-						Count: true
-					}
+					item: "zycraft:red_zychorium"
 				},
 				{
 					id: 589,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "zycraft:light_zychorium",
-						Count: true
-					}
+					item: "zycraft:light_zychorium"
 				}
 			],
 			rewards: [{
 				id: 590,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "zycraft:zychorite",
-					Count: true
-				},
+				item: "zycraft:zychorite",
 				count: 64
 			}]
 		},
 		{
-			icon: {
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L,
-						fuseShotCounter: 0,
-						crossbowChargeTime: 0,
-						bowChargeTime: 0.0f
-					}
-				},
-				id: "exnihilosequentia:crushed_netherrack",
-				Count: true
-			},
+			icon: "exnihilosequentia:crushed_netherrack",
 			x: -3.5d,
 			y: -4.0d,
+			description: [
+				"...also I had found my new file called Nether.txt... So I found a way about creating rectangle with 2*3 ornament and using flint and steel on it.",
+				"It creates a strange portal... hmm.. some sort of magical teleport?"
+			],
 			dependencies: [I;
 				593,
 				712
@@ -496,14 +257,6 @@
 					id: 612,
 					type: "item",
 					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
 						id: "minecraft:flint_and_steel",
 						Count: true,
 						tag: {
@@ -514,18 +267,7 @@
 			]
 		},
 		{
-			icon: {
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L,
-						fuseShotCounter: 0,
-						crossbowChargeTime: 0,
-						bowChargeTime: 0.0f
-					}
-				},
-				id: "immersiveengineering:ingot_steel",
-				Count: true
-			},
+			icon: "immersiveengineering:ingot_steel",
 			x: -3.5d,
 			y: -2.5d,
 			dependencies: [I;609],
@@ -533,18 +275,7 @@
 			tasks: [{
 				id: 594,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "assemblylinemachines:steel_ingot",
-					Count: true
-				}
+				item: "assemblylinemachines:steel_ingot"
 			}],
 			rewards: [{
 				id: 614,
@@ -562,35 +293,13 @@
 			tasks: [{
 				id: 596,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "silentgear:crimson_iron_ore",
-					Count: true
-				},
+				item: "silentgear:crimson_iron_ore",
 				count: 16L
 			}],
 			rewards: [{
 				id: 703,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "byg:crimson_berries",
-					Count: true
-				},
+				item: "byg:crimson_berries",
 				count: 8
 			}]
 		},
@@ -604,35 +313,13 @@
 			tasks: [{
 				id: 598,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "assemblylinemachines:fluid_bath",
-					Count: true
-				},
+				item: "assemblylinemachines:fluid_bath",
 				consume_items: false
 			}],
 			rewards: [{
 				id: 714,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:water_bucket",
-					Count: true
-				}
+				item: "minecraft:water_bucket"
 			}]
 		},
 		{
@@ -647,14 +334,6 @@
 				type: "item",
 				title: "Any forge:ores/titanium",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "itemfilters:tag",
 					Count: true,
 					tag: {
@@ -666,18 +345,7 @@
 			rewards: [{
 				id: 709,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "assemblylinemachines:titanium_ore",
-					Count: true
-				},
+				item: "assemblylinemachines:titanium_ore",
 				count: 2
 			}]
 		},
@@ -691,53 +359,20 @@
 			tasks: [{
 				id: 602,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "assemblylinemachines:silt",
-					Count: true
-				},
+				item: "assemblylinemachines:silt",
 				count: 8L
 			}],
 			rewards: [
 				{
 					id: 718,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "assemblylinemachines:titanium_ore",
-						Count: true
-					},
+					item: "assemblylinemachines:titanium_ore",
 					count: 2
 				},
 				{
 					id: 719,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "minecraft:iron_ore",
-						Count: true
-					},
+					item: "minecraft:iron_ore",
 					count: 2
 				}
 			]
@@ -745,20 +380,13 @@
 		{
 			x: -5.0d,
 			y: -2.5d,
+			description: ["I need to move lava around in my bath, but wooden stirring rod is burning in my hands... I need Pure Iron to get better stirring rod, so it'll be not burning somehow."],
 			dependencies: [I;505],
 			id: 603,
 			tasks: [{
 				id: 604,
 				type: "item",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "assemblylinemachines:pure_iron_stirring_stick",
 					Count: true,
 					tag: {
@@ -775,18 +403,7 @@
 			tasks: [{
 				id: 608,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "immersiveengineering:cokebrick",
-					Count: true
-				}
+				item: "immersiveengineering:cokebrick"
 			}]
 		},
 		{
@@ -797,18 +414,7 @@
 			tasks: [{
 				id: 610,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "immersiveengineering:blastbrick",
-					Count: true
-				}
+				item: "immersiveengineering:blastbrick"
 			}]
 		},
 		{
@@ -819,18 +425,7 @@
 			tasks: [{
 				id: 618,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "assemblylinemachines:crank",
-					Count: true
-				}
+				item: "assemblylinemachines:crank"
 			}]
 		},
 		{
@@ -841,18 +436,7 @@
 			tasks: [{
 				id: 620,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "assemblylinemachines:simple_grinder",
-					Count: true
-				}
+				item: "assemblylinemachines:simple_grinder"
 			}]
 		},
 		{
@@ -863,18 +447,7 @@
 			tasks: [{
 				id: 622,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "assemblylinemachines:steel_fluid_tank",
-					Count: true
-				}
+				item: "assemblylinemachines:steel_fluid_tank"
 			}]
 		},
 		{
@@ -885,18 +458,7 @@
 			tasks: [{
 				id: 624,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "assemblylinemachines:simple_fluid_mixer",
-					Count: true
-				}
+				item: "assemblylinemachines:simple_fluid_mixer"
 			}]
 		},
 		{
@@ -908,14 +470,6 @@
 				id: 626,
 				type: "item",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "assemblylinemachines:steel_hammer",
 					Count: true,
 					tag: {
@@ -933,34 +487,12 @@
 				{
 					id: 628,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "assemblylinemachines:iron_plate",
-						Count: true
-					}
+					item: "assemblylinemachines:iron_plate"
 				},
 				{
 					id: 629,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "assemblylinemachines:iron_gear",
-						Count: true
-					}
+					item: "assemblylinemachines:iron_gear"
 				}
 			]
 		},
@@ -975,18 +507,7 @@
 			tasks: [{
 				id: 631,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "assemblylinemachines:gearbox",
-					Count: true
-				}
+				item: "assemblylinemachines:gearbox"
 			}]
 		},
 		{
@@ -997,18 +518,7 @@
 			tasks: [{
 				id: 633,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "assemblylinemachines:simple_crank_charger",
-					Count: true
-				}
+				item: "assemblylinemachines:simple_crank_charger"
 			}]
 		},
 		{
@@ -1019,18 +529,7 @@
 			tasks: [{
 				id: 635,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "assemblylinemachines:black_granite",
-					Count: true
-				}
+				item: "assemblylinemachines:black_granite"
 			}]
 		},
 		{
@@ -1044,18 +543,7 @@
 			tasks: [{
 				id: 637,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "assemblylinemachines:energy_pipe",
-					Count: true
-				}
+				item: "assemblylinemachines:energy_pipe"
 			}]
 		},
 		{
@@ -1066,18 +554,7 @@
 			tasks: [{
 				id: 639,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "assemblylinemachines:crankmill",
-					Count: true
-				}
+				item: "assemblylinemachines:crankmill"
 			}]
 		},
 		{
@@ -1089,18 +566,7 @@
 			tasks: [{
 				id: 641,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "create:refined_radiance",
-					Count: true
-				}
+				item: "create:refined_radiance"
 			}]
 		},
 		{
@@ -1111,18 +577,7 @@
 			tasks: [{
 				id: 643,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "assemblylinemachines:electric_purifier",
-					Count: true
-				}
+				item: "assemblylinemachines:electric_purifier"
 			}]
 		},
 		{
@@ -1133,18 +588,7 @@
 			tasks: [{
 				id: 645,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "assemblylinemachines:alloy_smelter",
-					Count: true
-				}
+				item: "assemblylinemachines:alloy_smelter"
 			}]
 		},
 		{
@@ -1155,18 +599,7 @@
 			tasks: [{
 				id: 647,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "assemblylinemachines:pure_steel",
-					Count: true
-				}
+				item: "assemblylinemachines:pure_steel"
 			}]
 		},
 		{
@@ -1178,18 +611,7 @@
 			tasks: [{
 				id: 649,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "immersiveengineering:watermill",
-					Count: true
-				}
+				item: "immersiveengineering:watermill"
 			}]
 		},
 		{
@@ -1200,18 +622,7 @@
 			tasks: [{
 				id: 651,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "assemblylinemachines:metal_shaper",
-					Count: true
-				}
+				item: "assemblylinemachines:metal_shaper"
 			}]
 		},
 		{
@@ -1226,18 +637,7 @@
 			tasks: [{
 				id: 655,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "assemblylinemachines:chromium_plate",
-					Count: true
-				}
+				item: "assemblylinemachines:chromium_plate"
 			}]
 		},
 		{
@@ -1248,18 +648,7 @@
 			tasks: [{
 				id: 657,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "rankine:alloy_furnace",
-					Count: true
-				}
+				item: "rankine:alloy_furnace"
 			}]
 		},
 		{
@@ -1270,18 +659,7 @@
 			tasks: [{
 				id: 659,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "rankine:piston_crusher",
-					Count: true
-				}
+				item: "rankine:piston_crusher"
 			}]
 		},
 		{
@@ -1292,18 +670,7 @@
 			tasks: [{
 				id: 661,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "rankine:magnetite_ore",
-					Count: true
-				}
+				item: "rankine:magnetite_ore"
 			}]
 		},
 		{
@@ -1314,18 +681,7 @@
 			tasks: [{
 				id: 663,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "rankine:chromite_ore",
-					Count: true
-				}
+				item: "rankine:chromite_ore"
 			}]
 		},
 		{
@@ -1336,18 +692,7 @@
 			tasks: [{
 				id: 665,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "assemblylinemachines:electric_grinder",
-					Count: true
-				}
+				item: "assemblylinemachines:electric_grinder"
 			}]
 		},
 		{
@@ -1358,18 +703,7 @@
 			tasks: [{
 				id: 667,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "assemblylinemachines:electric_furnace",
-					Count: true
-				}
+				item: "assemblylinemachines:electric_furnace"
 			}]
 		},
 		{
@@ -1380,18 +714,7 @@
 			tasks: [{
 				id: 669,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "assemblylinemachines:electric_fluid_mixer",
-					Count: true
-				}
+				item: "assemblylinemachines:electric_fluid_mixer"
 			}]
 		},
 		{
@@ -1402,18 +725,7 @@
 			tasks: [{
 				id: 671,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "assemblylinemachines:lumber_mill",
-					Count: true
-				}
+				item: "assemblylinemachines:lumber_mill"
 			}]
 		},
 		{
@@ -1424,18 +736,7 @@
 			tasks: [{
 				id: 673,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "assemblylinemachines:basic_battery_cell",
-					Count: true
-				}
+				item: "assemblylinemachines:basic_battery_cell"
 			}]
 		},
 		{
@@ -1447,14 +748,6 @@
 				id: 675,
 				type: "item",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "assemblylinemachines:crank_pickaxe",
 					Count: true,
 					tag: {
@@ -1473,67 +766,23 @@
 				{
 					id: 699,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "terraqueous:burnium_dust",
-						Count: true
-					}
+					item: "terraqueous:burnium_dust"
 				},
 				{
 					id: 700,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "terraqueous:burnium_gem",
-						Count: true
-					}
+					item: "terraqueous:burnium_gem"
 				},
 				{
 					id: 701,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "terraqueous:doodad_burnium",
-						Count: true
-					}
+					item: "terraqueous:doodad_burnium"
 				}
 			],
 			rewards: [{
 				id: 702,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:iron_block",
-					Count: true
-				}
+				item: "minecraft:iron_block"
 			}]
 		},
 		{
@@ -1544,18 +793,7 @@
 			tasks: [{
 				id: 697,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:quartz",
-					Count: true
-				},
+				item: "minecraft:quartz",
 				count: 32L
 			}]
 		},
@@ -1567,18 +805,7 @@
 			tasks: [{
 				id: 698,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:gold_ingot",
-					Count: true
-				},
+				item: "minecraft:gold_ingot",
 				count: 16L
 			}]
 		},
@@ -1594,14 +821,6 @@
 				id: 705,
 				type: "item",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "create:chromatic_compound",
 					Count: true,
 					tag: {}
@@ -1618,43 +837,31 @@
 			tasks: [{
 				id: 707,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "rankine:ilmenite_ore",
-					Count: true
-				}
+				item: "rankine:ilmenite_ore"
 			}]
 		},
 		{
 			x: -5.0d,
 			y: -4.0d,
+			description: ["Titanium is a good way to obtain better materials like obsidian... "],
 			dependencies: [I;603],
 			id: 712,
 			tasks: [{
 				id: 713,
 				type: "item",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "assemblylinemachines:titanium_pickaxe",
 					Count: true,
 					tag: {
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: 717,
+				type: "item",
+				item: "voluminousenergy:titanium_ingot",
+				count: 4
 			}]
 		}
 	]
