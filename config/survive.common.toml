@@ -46,7 +46,7 @@
 	#This list defines which items replenish thirst when consumed
 	#Items in this list will not give any extra effects
 	#Default: ["minecraft:mushroom_stew,1"]
-	"Water Containers (Normal)" = ["minecraft:mushroom_stew,1", "crockpot:milk_bottle,4"]
+	"Water Containers (Normal)" = ["minecraft:mushroom_stew,1", "crockpot:milk_bottle,4", "create:builders_tea,14"]
 	#
 	#This list defines which items replenish thirst when consumed
 	#Items in this list will give the chilled effect upon drunk
