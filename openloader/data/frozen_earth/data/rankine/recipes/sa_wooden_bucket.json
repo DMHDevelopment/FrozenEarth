@@ -1,0 +1,22 @@
+{
+    "type": "stone_age:flint_workbench",
+    "pattern": [
+      "PRP",
+      "P P",
+      " P "
+    ],
+    "key": {
+      "S": {
+        "tag": "minecraft:planks"
+      },
+      "R": {
+        "item": "rankine:rope"
+      }
+    },
+    "tool": {
+      "tag": "ages_api:knifes"
+    },
+    "result": {
+      "item": "rankine:wood_bucket"
+    }
+  }

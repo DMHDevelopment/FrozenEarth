@@ -1,0 +1,25 @@
+{
+    "type": "stone_age:flint_workbench",
+    "pattern": [
+      "BRB",
+      "BRB",
+      " S "
+    ],
+    "key": {
+      "S": {
+        "tag": "forge:rods/wooden"
+      },
+      "B": {
+        "tag": "forge:stone"
+      },
+      "R": {
+        "item": "rankine:rope"
+      }
+    },
+    "tool": {
+      "tag": "ages_api:knifes"
+    },
+    "result": {
+      "item": "rankine:stone_hammer"
+    }
+  }
