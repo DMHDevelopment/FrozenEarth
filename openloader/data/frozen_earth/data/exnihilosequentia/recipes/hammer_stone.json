@@ -1,3 +1,19 @@
 {
-    "replace": true
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " M ",
+    " SM",
+    "S  "
+  ],
+  "key": {
+    "M": {
+      "tag": "forge:stone"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "exnihilosequentia:hammer_stone"
+  }
 }

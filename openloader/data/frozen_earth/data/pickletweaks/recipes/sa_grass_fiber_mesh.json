@@ -1,0 +1,22 @@
+{
+    "type": "stone_age:flint_workbench",
+    "pattern": [
+      "SFS",
+      "FFF",
+      "SFS"
+    ],
+    "key": {
+      "S": {
+        "tag": "forge:rods/wooden"
+      },
+      "F": {
+        "item": "pickletweaks:grass_fiber"
+      }
+    },
+    "tool": {
+      "tag": "ages_api:knifes"
+    },
+    "result": {
+      "item": "pickletweaks:grass_fiber_mesh"
+    }
+  }
