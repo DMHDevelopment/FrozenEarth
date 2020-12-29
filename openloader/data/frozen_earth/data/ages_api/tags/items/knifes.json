@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "rankine:flint_knife"
+        "rankine:flint_knife",
+        "silentgear:knife"
     ]
 }

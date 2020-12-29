@@ -1,0 +1,28 @@
+{
+    "type": "stone_age:flint_workbench",
+    "pattern": [
+      "R R",
+      "PMP",
+      "PCP"
+    ],
+    "key": {
+      "P": {
+        "tag": "minecraft:planks"
+      },
+      "R": {
+        "item": "stone_age:drying_rack"
+      },
+      "M": {
+        "item": "exnihilosequentia:mesh_string"
+      },
+      "C": {
+          "tag": "forge:chests/wooden"
+      }
+    },
+    "tool": {
+      "tag": "ages_api:knifes"
+    },
+    "result": {
+      "item": "waterstrainer:strainer_base"
+    }
+  }

@@ -1,0 +1,9 @@
+{
+  "type": "exnihilosequentia:hammer",
+  "input": {
+    "tag": "forge:stone"
+  },
+  "result": {
+    "item": "minecraft:cobblestone"
+  }
+}

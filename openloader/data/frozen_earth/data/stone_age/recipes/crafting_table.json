@@ -1,0 +1,40 @@
+{
+    "type": "stone_age:flint_workbench",
+    "pattern": [
+      "LPK",
+      "AWS",
+      "GCG"
+    ],
+    "key": {
+      "L": {
+        "tag": "forge:leather"
+      },
+      "P": {
+        "item": "rankine:flint_pickaxe"
+      },
+      "K": {
+        "tag": "ages_api:knifes"
+      },
+      "A": {
+        "item": "rankine:flint_axe"
+      },
+      "C": {
+        "item": "stone_age:stone_chest"
+      },
+      "S": {
+        "item": "rankine:flint_shovel"
+      },
+      "G": {
+        "item": "appliedenergistics:wooden_gear"
+      },
+      "W": {
+        "item": "stone_age:flint_workbench"
+      }
+    },
+    "tool": {
+      "tag": "ages_api:knifes"
+    },
+    "result": {
+      "item": "minecraft:crafting_table"
+    }
+  }

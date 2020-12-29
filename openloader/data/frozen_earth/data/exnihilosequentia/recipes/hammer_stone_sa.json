@@ -1,0 +1,25 @@
+{
+    "type": "stone_age:flint_workbench",
+    "pattern": [
+      " MR",
+      " SM",
+      "S  "
+    ],
+    "key": {
+      "M": {
+        "tag": "forge:stone"
+      },
+      "S": {
+        "tag": "forge:rods/wooden"
+      },
+      "R": {
+        "item": "rankine:rope"
+      }
+    },
+    "tool": {
+      "tag": "ages_api:knifes"
+    },
+    "result": {
+      "item": "exnihilosequentia:hammer_stone"
+    }
+  }
