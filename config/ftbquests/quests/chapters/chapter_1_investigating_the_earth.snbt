@@ -48,17 +48,121 @@
 			title: "Flint Knife is a good knife...",
 			x: -1.5d,
 			y: 3.5d,
-			description: ["To work on this table I need a knife, gonna craft one."],
+			description: [
+				"To work on this table I need a knife, gonna craft one.",
+				"",
+				"Plain Flint Knife is used to obtain grass."
+			],
 			dependencies: [I;25],
 			id: 27,
 			tasks: [{
 				id: 28,
 				type: "item",
+				title: "Any Flint Knife",
 				item: {
-					id: "stone_age:flint_knife",
+					id: "itemfilters:or",
 					Count: true,
 					tag: {
-						Damage: 0
+						items: [
+							{
+								id: "stone_age:flint_knife",
+								Count: true,
+								tag: {
+									Damage: 0
+								}
+							},
+							{
+								id: "rankine:flint_knife",
+								Count: true,
+								tag: {
+									Damage: 0
+								}
+							},
+							{
+								id: "silentgear:knife",
+								Count: true,
+								tag: {
+									SGear_UUID: [I;
+										-1487939131,
+										2146716407,
+										-1453590628,
+										-485179680
+									],
+									Damage: 0,
+									SGear_Data: {
+										Construction: {
+											Parts: [
+												{
+													Item: {
+														id: "silentgear:knife_blade",
+														Count: true,
+														tag: {
+															Materials: [{
+																Item: {
+																	id: "minecraft:flint",
+																	Count: true
+																},
+																ID: "silentgear:flint"
+															}]
+														}
+													},
+													ID: "silentgear:knife_blade"
+												},
+												{
+													Item: {
+														id: "silentgear:rod",
+														Count: true,
+														tag: {
+															Materials: [{
+																Item: {
+																	id: "minecraft:air",
+																	Count: true,
+																	tag: {}
+																},
+																ID: "silentgear:wood/rough"
+															}]
+														}
+													},
+													ID: "silentgear:rod"
+												}
+											]
+										},
+										Properties: {
+											ModVersion: "2.4.4+188",
+											Stats: {
+												"silentgear:projectile_speed": 1.0f,
+												"silentgear:harvest_speed": 5.0f,
+												"silentgear:harvest_level": 1.0f,
+												"silentgear:projectile_accuracy": 1.0f,
+												"silentgear:melee_damage": 2.0f,
+												"silentgear:rarity": 1.0f,
+												"silentgear:attack_speed": -1.7f,
+												"silentgear:repair_efficiency": 2.0f,
+												"silentgear:ranged_speed": -0.3f,
+												"silentgear:enchantability": 3.0f,
+												"silentgear:ranged_damage": 1.0f,
+												"silentgear:durability": 120.28f,
+												"silentgear:magic_damage": 0.0f
+											},
+											LockStats: false,
+											Traits: [
+												{
+													Level: 3b,
+													Name: "silentgear:jagged"
+												},
+												{
+													Level: 3b,
+													Name: "silentgear:crude"
+												}
+											]
+										},
+										Rendering: {
+											ModelKey: "knife:knife_blade{flint},rod{wood/rough},"
+										}
+									}
+								}
+							}
+						]
 					}
 				}
 			}],
@@ -75,30 +179,33 @@
 			description: ["To be secured on this planet I need some sort of weapon right now. What should I craft? A spear? Maybe. A sword? Nevermind..."],
 			dependencies: [I;27],
 			id: 34,
-			tasks: [
-				{
-					id: 35,
-					type: "item",
-					item: {
-						id: "stone_age:flint_spear",
-						Count: true,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: 36,
-					type: "item",
-					item: {
-						id: "pickletweaks:flint_sword",
-						Count: true,
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: 35,
+				type: "item",
+				title: "Any Flint Spear",
+				item: {
+					id: "itemfilters:or",
+					Count: true,
+					tag: {
+						items: [
+							{
+								id: "rankine:flint_spear",
+								Count: true,
+								tag: {
+									Damage: 0
+								}
+							},
+							{
+								id: "stone_age:flint_spear",
+								Count: true,
+								tag: {
+									Damage: 0
+								}
+							}
+						]
 					}
 				}
-			],
+			}],
 			rewards: [{
 				id: 105,
 				type: "item",
@@ -116,7 +223,7 @@
 				id: 38,
 				type: "item",
 				item: {
-					id: "pickletweaks:flint_pickaxe",
+					id: "rankine:flint_pickaxe",
 					Count: true,
 					tag: {
 						Damage: 0
@@ -140,7 +247,7 @@
 				id: 40,
 				type: "item",
 				item: {
-					id: "pickletweaks:flint_axe",
+					id: "rankine:flint_axe",
 					Count: true,
 					tag: {
 						Damage: 0
@@ -2140,6 +2247,23 @@
 				type: "item",
 				item: "naturesaura:infused_stone",
 				count: 3
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 9.5d,
+			size: 1.5d,
+			id: 726,
+			tasks: [{
+				id: 727,
+				type: "item",
+				item: {
+					id: "exnihilosequentia:hammer_stone",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 	]
