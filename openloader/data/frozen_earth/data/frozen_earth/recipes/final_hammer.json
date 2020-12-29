@@ -1,7 +1,7 @@
 {
     "type": "extendedcrafting:combination",
     "powerCost": 1000000000,
-    "powerRate": 2000000,
+    "powerRate": 20000000,
     "input": {
         "item": "industrialforegoing:infinity_hammer"
     },
@@ -16,18 +16,22 @@
         "item":"immersiveengineering:capacitor_creative"
       },
       [{
+        "type": "forge:nbt",
         "item": "iceandfire:dragonsteel_fire_sword",
         "nbt": "{Damage:0}"
       },
       {
+        "type": "forge:nbt",
         "item": "iceandfire:dragonsteel_ice_sword",
         "nbt": "{Damage:0}"
       },
       {
+        "type": "forge:nbt",
         "item": "iceandfire:dragonsteel_lightning_sword",
         "nbt": "{Damage:0}"
       },
       {
+        "type": "forge:nbt",
         "item": "gaiadimension:gaia_champion_sword",
         "nbt": "{Damage:0}"
       }]
@@ -35,5 +39,6 @@
     "result": {
       "item":"industrialforegoing:infinity_hammer",
       "count": 1,
-      "nbt":"{CanCharge:1b,Energy:9223372036854775807L,Fluid:{FluidName:\"biofuel\",Amount:1000000},Special:1b,Selected:\"ARTIFACT\",Beheading:0}"}
+      "nbt":"{CanCharge:1b,Energy:9223372036854775807L,Fluid:{FluidName:\"biofuel\",Amount:1000000},Special:1b,Selected:\"ARTIFACT\",Beheading:0}"
+    }
   }
