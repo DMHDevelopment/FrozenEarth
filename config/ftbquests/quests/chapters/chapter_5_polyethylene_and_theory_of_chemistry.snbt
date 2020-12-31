@@ -4,6 +4,14 @@
 	order_index: 6,
 	title: "Chapter 5: Polyethylene... and Theory Of Chemistry",
 	icon: {
+		ForgeCaps: {
+			"dungeons_gear:weapon": {
+				lastFiredTime: 0L,
+				fuseShotCounter: 0,
+				crossbowChargeTime: 0,
+				bowChargeTime: 0.0f
+			}
+		},
 		id: "silents_mechanisms:canister",
 		Count: true,
 		tag: {
