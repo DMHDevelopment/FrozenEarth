@@ -1,1 +1,20 @@
-{}
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "aia",
+        "iai",
+        "aia"
+    ],
+    "key": {
+        "a": {
+            "tag": "forge:stones/andesite"
+        },
+        "i": {
+            "tag": "forge:nuggets/zinc"
+        }
+    },
+    "result": {
+        "item": "create:andesite_alloy",
+        "count": 2
+    }
+}

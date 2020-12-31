@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Jan 1, 2021 1:08:12 AM
+To refresh this file, delete it and run /reload command again! Last updated: Dec 31, 2020 12:05:16 AM
 
 #byg:pine_logs
 - byg:pine_log
@@ -290,13 +290,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - noel:white_ornament
 - noel:yellow_ornament
 - noel:coal_ornament
-
-#ftbchunks:interact_whitelist
-- minecraft:crafting_table
-- #tombstone:graves?
-- waystones:waystone?
-- waystones:mossy_waystone?
-- waystones:sandy_waystone?
 
 #forge:glass_panes/green
 - #hardcoredungeons:glass_panes/rainbow
@@ -1717,9 +1710,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - betterendforge:cave_moss
 - betterendforge:shadow_grass
 - betterendforge:pink_moss
-
-#ftbchunks:edit_whitelist
-- gravestone:gravestone?
 
 #minecraft:impermeable
 - minecraft:glass
@@ -3587,6 +3577,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:soul_lantern
 - minecraft:soul_wall_torch
 - minecraft:soul_campfire
+- supplementaries:sconce_soul
+- supplementaries:sconce_wall_soul
 
 #forge:ores/aquamarine
 - rankine:aquamarine_ore

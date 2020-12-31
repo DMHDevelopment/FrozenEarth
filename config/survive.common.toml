@@ -1,5 +1,7 @@
 
 [sleep]
+	#Disabling this will prevent the player from sleeping during the day even if they have the tiredness effect
+	"Can Sleep During Day" = true
 	#Disabling this will disable this mods sleep management system
 	"Enable Sleep" = false
 	#The amount of ticks after the player has not slept before The tiredness effect starts to manifest
@@ -13,8 +15,14 @@
 	#The amount of ticks after the Initial Tired Time before the amplifier of the tiredness effects increases
 	#Range: 0 ~ 240000
 	"Tired Time Step" = 12000
-	#Disabling this will prevent the player from sleeping during the day even if they have the tiredness effect
-	"Can Sleep During Day" = true
+
+[Temperature]
+	#
+	#This list defines the temperatures of armors when they're put on
+	#Changes to this list will require you to reset your game for them to be applied
+	#NOTE: Wool Armor is set to 5.0 and Stiffened Honey Armor is set to -5.0
+	#Default: []
+	"Armor Temperatures" = []
 
 [thirst]
 	#Disabling this will disable this mods thirst system
@@ -31,6 +39,8 @@
 	"Enable Stamina" = true
 
 [temperature]
+	#Enabling this will remove the water source block when it is drunk
+	"Remove Water Source Block" = false
 	#Disabling this will prevent players from sleeping if they have hyperthermia or hypothermia
 	"Enable Hypothermia/Hyperthermia Allow Sleep" = true
 	#Enabling this allows players to drink water from flowing water sources. This is only allowed for infinite water sources
@@ -42,8 +52,6 @@
 	#BLEND Mode: calculates the average temperature similar to that of NORMAL, but blends the temperature of the target positions with the player's. The blend ratio is determined by your distance from the block
 	#Allowed Values: BLEND, NORMAL
 	"Temperature Mode" = "BLEND"
-	#Enabling this will remove the water source block when it is drunk
-	"Remove Water Source Block" = false
 
 [Thirst]
 	#
@@ -74,14 +82,6 @@
 
 [developerOptions]
 	debug_mode = false
-
-[Temperature]
-	#
-	#This list defines the temperatures of armors when they're put on
-	#Changes to this list will require you to reset your game for them to be applied
-	#NOTE: Wool Armor is set to 5.0 and Stiffened Honey Armor is set to -5.0
-	#Default: []
-	"Armor Temperatures" = []
 
 [hunger]
 	#The amount of hunger exaustion added to the player regardless of what the player is doing

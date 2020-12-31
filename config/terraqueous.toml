@@ -353,8 +353,13 @@
 	#Map of non-colored blocks that have colored variants but do not just add the color name to the start or end (eg. Glass & Stained Glass
 	#Format: <modId>:<base_blockId>:<colored_blockId> Note: the colored_blockId must include * in place of the color (eg. 'orange_stained_glass' = '*_stained_glass'
 	special_colorizer_class_mappings = ["minecraft:glass:*_stained_glass", "minecraft:glass_pane:*_stained_glass_pane"]
+	#Water filled Planters can act as infinite water sources
+	#eg. middle block in a 1x3 layout, or all blocks in a 2x2 layout
+	planter_infinite_water = true
 	#Adds feather moulting
 	chickens_moult = true
+	#Burnium will hiss and produce steam when touching water
+	burnium_reacts_to_water = true
 	#Adds two AITasks
 	#Animals the follow for wheat will also follow for hay
 	#Animals that eat grass will also eat hay
