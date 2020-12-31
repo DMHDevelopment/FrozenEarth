@@ -359,6 +359,11 @@
 	#Animals the follow for wheat will also follow for hay
 	#Animals that eat grass will also eat hay
 	add_hay_ai_tasks = true
+	#Burnium will hiss and produce steam when touching water
+	burnium_reacts_to_water = true
+	#Water filled Planters can act as infinite water sources
+	#eg. middle block in a 1x3 layout, or all blocks in a 2x2 layout
+	planter_infinite_water = true
 
 	#Options used by the world generator
 	[tweaks.world_gen]

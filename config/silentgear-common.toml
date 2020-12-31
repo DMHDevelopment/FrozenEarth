@@ -136,3 +136,24 @@
 		#This might help track down more obscure issues.
 		extraPartAndTraitInfo = false
 
+#World generation options (REQUIRES GAME RESTART)
+[world]
+
+	[world.azureSilver]
+		#Veins of azure silver ore per chunk
+		#Range: 0 ~ 1000
+		count = 8
+
+	[world.crimsonIron]
+		#Veins of crimson iron ore per chunk
+		#Range: 0 ~ 1000
+		count = 14
+
+	[world.wildFlax]
+		#Number of patches of wild flax to attempt to place per chunk (some biomes only)
+		#Range: 0 ~ 100
+		patchCount = 1
+		#Block place attempts per wild flax cluster
+		#Range: 0 ~ 1000
+		tryCount = 16
+
