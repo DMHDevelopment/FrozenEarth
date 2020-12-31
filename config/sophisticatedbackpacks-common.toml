@@ -163,6 +163,11 @@
 		#Range: 1 ~ 6
 		slotsInRow = 4
 
+	#Inception Upgrade Settings
+	[common.inceptionUpgrade]
+		#Allows / Disallows backpack upgrades to work with inventories of Backpacks in the Backpack with Inception Upgrade
+		upgradesUseInventoriesOfBackpacksInBackpack = true
+
 	#Magnet Upgrade Settings
 	[common.magnetUpgrade]
 		#Number of Magnet Upgrade's filter slots

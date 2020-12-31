@@ -177,7 +177,7 @@
     }
   },
   "pickup": {
-    "customPickup": false,
+    "customPickup": true,
     "pickupWhenSneaking": true,
     "maximumPickupRange": 5.0,
     "pickupMinedImmediately": false,
