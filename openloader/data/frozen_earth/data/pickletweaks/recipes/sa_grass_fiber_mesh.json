@@ -10,7 +10,7 @@
         "tag": "forge:rods/wooden"
       },
       "F": {
-        "item": "pickletweaks:grass_fiber"
+        "item": "minecraft:grass"
       }
     },
     "tool": {
