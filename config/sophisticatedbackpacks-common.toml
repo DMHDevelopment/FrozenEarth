@@ -2,7 +2,7 @@
 #Common Settings
 [common]
 	#Disable / enable any items here (disables their recipes)
-	enabledItems = ["void_upgrade:true", "advanced_pickup_upgrade:true", "everlasting_upgrade:true", "compacting_upgrade:true", "advanced_restock_upgrade:true", "advanced_filter_upgrade:true", "diamond_backpack:true", "inception_upgrade:true", "crafting_upgrade:true", "auto_smelting_upgrade:true", "pickup_upgrade:true", "smelting_upgrade:true", "upgrade_base:true", "magnet_upgrade:true", "refill_upgrade:true", "deposit_upgrade:true", "iron_backpack:true", "advanced_deposit_upgrade:true", "advanced_void_upgrade:true", "restock_upgrade:true", "advanced_compacting_upgrade:true", "backpack:true", "feeding_upgrade:true", "filter_upgrade:true", "advanced_magnet_upgrade:true", "gold_backpack:true"]
+	enabledItems = ["void_upgrade:true", "compacting_upgrade:true", "advanced_restock_upgrade:true", "diamond_backpack:true", "smelting_upgrade:true", "filter_upgrade:true", "magnet_upgrade:true", "advanced_magnet_upgrade:true", "deposit_upgrade:true", "iron_backpack:true", "advanced_compacting_upgrade:true", "backpack:true", "feeding_upgrade:true", "advanced_pickup_upgrade:true", "everlasting_upgrade:true", "advanced_filter_upgrade:true", "inception_upgrade:true", "crafting_upgrade:true", "auto_smelting_upgrade:true", "pickup_upgrade:true", "upgrade_base:true", "refill_upgrade:true", "gold_backpack:true", "advanced_deposit_upgrade:true", "advanced_void_upgrade:true", "restock_upgrade:true"]
 
 	#Deposit Upgrade Settings
 	[common.depositUpgrade]
@@ -161,7 +161,7 @@
 		filterSlots = 9
 		#Number of filter slots displayed in a row
 		#Range: 1 ~ 6
-		slotsInRow = 4
+		slotsInRow = 3
 
 	#Magnet Upgrade Settings
 	[common.magnetUpgrade]
@@ -219,4 +219,9 @@
 		#Number of filter slots displayed in a row
 		#Range: 1 ~ 6
 		slotsInRow = 4
+
+	#Inception Upgrade Settings
+	[common.inceptionUpgrade]
+		#Allows / Disallows backpack upgrades to work with inventories of Backpacks in the Backpack with Inception Upgrade
+		upgradesUseInventoriesOfBackpacksInBackpack = true
 

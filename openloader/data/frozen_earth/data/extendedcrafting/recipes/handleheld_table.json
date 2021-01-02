@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " ZC",
+        " SZ",
+        "S  "
+    ],
+    "key": {
+        "S": {
+            "tag": "forge:rods/wooden"
+        },
+        "Z": {
+            "item": "silents_mechanisms:zombie_leather"
+        },
+        "C": {
+            "tag": "forge:workbench"
+        }
+    },
+    "result": {
+        "item": "exnendedcrafting:handleheld_table",
+        "count": 1
+    }
+}

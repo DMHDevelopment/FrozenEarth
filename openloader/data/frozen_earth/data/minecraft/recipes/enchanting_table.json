@@ -1,0 +1,43 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "  A  ",
+      " BBB ",
+      "CDEDC",
+      "DFGFD",
+      "DHIHD"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:enchanted_book",
+        "count": 1
+      },
+      "B": {
+        "item": "minecraft:red_carpet"
+      },
+      "C": {
+        "item": "minecraft:diamond"
+      },
+      "D": {
+        "item": "extendedcrafting:black_iron_slate"
+      },
+      "E": {
+        "item": "extendedcrafting:advanced_catalyst"
+      },
+      "F": {
+        "item": "create:electron_tube"
+      },
+      "G": {
+        "item": "create:integrated_circuit"
+      },
+      "H": {
+        "item": "rankine:graphite_electrode"
+      },
+      "I": {
+        "item": "rankine:black_gold_block"
+      }
+    },
+    "result": {
+      "item": "minecraft:enchanting_table"
+    }
+  }

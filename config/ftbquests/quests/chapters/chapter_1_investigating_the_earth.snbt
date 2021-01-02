@@ -3,7 +3,18 @@
 	filename: "chapter_1_investigating_the_earth",
 	order_index: 2,
 	title: "Chapter 1: Investigating The Earth",
-	icon: "terraqueous:doodad_branch",
+	icon: {
+		ForgeCaps: {
+			"dungeons_gear:weapon": {
+				lastFiredTime: 0L,
+				fuseShotCounter: 0,
+				crossbowChargeTime: 0,
+				bowChargeTime: 0.0f
+			}
+		},
+		id: "terraqueous:doodad_branch",
+		Count: true
+	},
 	default_quest_shape: "",
 	images: [{
 		x: 2.0d,
@@ -28,18 +39,51 @@
 			tasks: [{
 				id: 26,
 				type: "item",
-				item: "stone_age:flint_workbench"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "stone_age:flint_workbench",
+					Count: true
+				}
 			}],
 			rewards: [
 				{
 					id: 30,
 					type: "item",
-					item: "minecraft:torch"
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "minecraft:torch",
+						Count: true
+					}
 				},
 				{
 					id: 31,
 					type: "item",
-					item: "minecraft:apple",
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "minecraft:apple",
+						Count: true
+					},
 					count: 2
 				}
 			]
@@ -48,24 +92,147 @@
 			title: "Flint Knife is a good knife...",
 			x: -1.5d,
 			y: 3.5d,
-			description: ["To work on this table I need a knife, gonna craft one."],
+			description: [
+				"To work on this table I need a knife, gonna craft one.",
+				"",
+				"Plain Flint Knife is used to obtain grass."
+			],
 			dependencies: [I;25],
 			id: 27,
 			tasks: [{
 				id: 28,
 				type: "item",
+				title: "Any Flint Knife",
 				item: {
-					id: "stone_age:flint_knife",
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "itemfilters:or",
 					Count: true,
 					tag: {
-						Damage: 0
+						items: [
+							{
+								id: "stone_age:flint_knife",
+								Count: true,
+								tag: {
+									Damage: 0
+								}
+							},
+							{
+								id: "rankine:flint_knife",
+								Count: true,
+								tag: {
+									Damage: 0
+								}
+							},
+							{
+								id: "silentgear:knife",
+								Count: true,
+								tag: {
+									SGear_UUID: [I;
+										-1487939131,
+										2146716407,
+										-1453590628,
+										-485179680
+									],
+									Damage: 0,
+									SGear_Data: {
+										Construction: {
+											Parts: [
+												{
+													Item: {
+														id: "silentgear:knife_blade",
+														Count: true,
+														tag: {
+															Materials: [{
+																Item: {
+																	id: "minecraft:flint",
+																	Count: true
+																},
+																ID: "silentgear:flint"
+															}]
+														}
+													},
+													ID: "silentgear:knife_blade"
+												},
+												{
+													Item: {
+														id: "silentgear:rod",
+														Count: true,
+														tag: {
+															Materials: [{
+																Item: {
+																	id: "minecraft:air",
+																	Count: true,
+																	tag: {}
+																},
+																ID: "silentgear:wood/rough"
+															}]
+														}
+													},
+													ID: "silentgear:rod"
+												}
+											]
+										},
+										Properties: {
+											ModVersion: "2.4.4+188",
+											Stats: {
+												"silentgear:projectile_speed": 1.0f,
+												"silentgear:harvest_speed": 5.0f,
+												"silentgear:harvest_level": 1.0f,
+												"silentgear:projectile_accuracy": 1.0f,
+												"silentgear:melee_damage": 2.0f,
+												"silentgear:rarity": 1.0f,
+												"silentgear:attack_speed": -1.7f,
+												"silentgear:repair_efficiency": 2.0f,
+												"silentgear:ranged_speed": -0.3f,
+												"silentgear:enchantability": 3.0f,
+												"silentgear:ranged_damage": 1.0f,
+												"silentgear:durability": 120.28f,
+												"silentgear:magic_damage": 0.0f
+											},
+											LockStats: false,
+											Traits: [
+												{
+													Level: 3b,
+													Name: "silentgear:jagged"
+												},
+												{
+													Level: 3b,
+													Name: "silentgear:crude"
+												}
+											]
+										},
+										Rendering: {
+											ModelKey: "knife:knife_blade{flint},rod{wood/rough},"
+										}
+									}
+								}
+							}
+						]
 					}
 				}
 			}],
 			rewards: [{
 				id: 32,
 				type: "item",
-				item: "minecraft:leather"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:leather",
+					Count: true
+				}
 			}]
 		},
 		{
@@ -75,34 +242,56 @@
 			description: ["To be secured on this planet I need some sort of weapon right now. What should I craft? A spear? Maybe. A sword? Nevermind..."],
 			dependencies: [I;27],
 			id: 34,
-			tasks: [
-				{
-					id: 35,
-					type: "item",
-					item: {
-						id: "stone_age:flint_spear",
-						Count: true,
-						tag: {
-							Damage: 0
+			tasks: [{
+				id: 35,
+				type: "item",
+				title: "Any Flint Spear",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
 						}
-					}
-				},
-				{
-					id: 36,
-					type: "item",
-					item: {
-						id: "pickletweaks:flint_sword",
-						Count: true,
-						tag: {
-							Damage: 0
-						}
+					},
+					id: "itemfilters:or",
+					Count: true,
+					tag: {
+						items: [
+							{
+								id: "rankine:flint_spear",
+								Count: true,
+								tag: {
+									Damage: 0
+								}
+							},
+							{
+								id: "stone_age:flint_spear",
+								Count: true,
+								tag: {
+									Damage: 0
+								}
+							}
+						]
 					}
 				}
-			],
+			}],
 			rewards: [{
 				id: 105,
 				type: "item",
-				item: "minecraft:gravel",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:gravel",
+					Count: true
+				},
 				count: 8
 			}]
 		},
@@ -116,7 +305,15 @@
 				id: 38,
 				type: "item",
 				item: {
-					id: "pickletweaks:flint_pickaxe",
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "rankine:flint_pickaxe",
 					Count: true,
 					tag: {
 						Damage: 0
@@ -126,7 +323,18 @@
 			rewards: [{
 				id: 107,
 				type: "item",
-				item: "minecraft:flint"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:flint",
+					Count: true
+				}
 			}]
 		},
 		{
@@ -140,7 +348,15 @@
 				id: 40,
 				type: "item",
 				item: {
-					id: "pickletweaks:flint_axe",
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "rankine:flint_axe",
 					Count: true,
 					tag: {
 						Damage: 0
@@ -150,7 +366,18 @@
 			rewards: [{
 				id: 565,
 				type: "item",
-				item: "minecraft:torch"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:torch",
+					Count: true
+				}
 			}]
 		},
 		{
@@ -168,6 +395,14 @@
 				type: "item",
 				title: "Any minecraft:logs",
 				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
 					id: "itemfilters:tag",
 					Count: true,
 					tag: {
@@ -178,7 +413,18 @@
 			rewards: [{
 				id: 568,
 				type: "item",
-				item: "minecraft:oak_log",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:oak_log",
+					Count: true
+				},
 				count: 8
 			}]
 		},
@@ -193,6 +439,14 @@
 				id: 44,
 				type: "item",
 				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
 					id: "exnihilosequentia:crook_wood",
 					Count: true,
 					tag: {
@@ -203,7 +457,18 @@
 			rewards: [{
 				id: 319,
 				type: "item",
-				item: "minecraft:apple"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:apple",
+					Count: true
+				}
 			}]
 		},
 		{
@@ -215,13 +480,32 @@
 			tasks: [{
 				id: 46,
 				type: "item",
-				item: "exnihilosequentia:silkworm",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "exnihilosequentia:silkworm",
+					Count: true
+				},
 				count: 16L
 			}],
 			rewards: [{
 				id: 108,
 				type: "item",
 				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
 					id: "exnihilosequentia:crook_bone",
 					Count: true,
 					tag: {
@@ -242,13 +526,35 @@
 			tasks: [{
 				id: 48,
 				type: "item",
-				item: "exnihilosequentia:cooked_silkworm",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "exnihilosequentia:cooked_silkworm",
+					Count: true
+				},
 				count: 4L
 			}],
 			rewards: [{
 				id: 522,
 				type: "item",
-				item: "minecraft:carrot",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:carrot",
+					Count: true
+				},
 				count: 2
 			}]
 		},
@@ -262,13 +568,35 @@
 			tasks: [{
 				id: 50,
 				type: "item",
-				item: "minecraft:string",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:string",
+					Count: true
+				},
 				count: 32L
 			}],
 			rewards: [{
 				id: 111,
 				type: "item",
-				item: "stone_age:cooked_mammoth_meat"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "stone_age:cooked_mammoth_meat",
+					Count: true
+				}
 			}]
 		},
 		{
@@ -285,6 +613,14 @@
 					id: 52,
 					type: "item",
 					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
 						id: "waterstrainer:strainer_fisherman",
 						Count: true,
 						tag: {
@@ -295,13 +631,35 @@
 				{
 					id: 116,
 					type: "item",
-					item: "waterstrainer:strainer_base"
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "waterstrainer:strainer_base",
+						Count: true
+					}
 				}
 			],
 			rewards: [{
 				id: 115,
 				type: "item",
-				item: "thermal:copper_coin"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "thermal:copper_coin",
+					Count: true
+				}
 			}]
 		},
 		{
@@ -314,12 +672,34 @@
 			tasks: [{
 				id: 54,
 				type: "item",
-				item: "minecraft:cod"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:cod",
+					Count: true
+				}
 			}],
 			rewards: [{
 				id: 318,
 				type: "item",
-				item: "aquaculture:fish_fillet_cooked"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "aquaculture:fish_fillet_cooked",
+					Count: true
+				}
 			}]
 		},
 		{
@@ -332,6 +712,14 @@
 				id: 56,
 				type: "item",
 				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
 					id: "minecraft:fishing_rod",
 					Count: true,
 					tag: {
@@ -343,6 +731,14 @@
 				id: 114,
 				type: "item",
 				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
 					id: "minecraft:fishing_rod",
 					Count: true,
 					tag: {
@@ -360,12 +756,34 @@
 			tasks: [{
 				id: 58,
 				type: "item",
-				item: "minecraft:furnace"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:furnace",
+					Count: true
+				}
 			}],
 			rewards: [{
 				id: 117,
 				type: "item",
-				item: "minecraft:torch"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:torch",
+					Count: true
+				}
 			}]
 		},
 		{
@@ -378,12 +796,34 @@
 			tasks: [{
 				id: 60,
 				type: "item",
-				item: "minecraft:bone"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:bone",
+					Count: true
+				}
 			}],
 			rewards: [{
 				id: 91,
 				type: "item",
-				item: "minecraft:bone_meal",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:bone_meal",
+					Count: true
+				},
 				count: 3
 			}]
 		},
@@ -397,6 +837,14 @@
 				id: 62,
 				type: "item",
 				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
 					id: "stone_age:bone_shears",
 					Count: true,
 					tag: {
@@ -407,7 +855,18 @@
 			rewards: [{
 				id: 93,
 				type: "item",
-				item: "minecraft:bread"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:bread",
+					Count: true
+				}
 			}]
 		},
 		{
@@ -419,12 +878,34 @@
 			tasks: [{
 				id: 64,
 				type: "item",
-				item: "stone_age:drying_rack"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "stone_age:drying_rack",
+					Count: true
+				}
 			}],
 			rewards: [{
 				id: 320,
 				type: "item",
-				item: "stone_age:drying_rack"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "stone_age:drying_rack",
+					Count: true
+				}
 			}]
 		},
 		{
@@ -439,19 +920,52 @@
 			tasks: [{
 				id: 66,
 				type: "item",
-				item: "stone_age:dried_grass_bed"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "stone_age:dried_grass_bed",
+					Count: true
+				}
 			}],
 			rewards: [
 				{
 					id: 98,
 					type: "item",
-					item: "thermal:strawberry",
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "thermal:strawberry",
+						Count: true
+					},
 					count: 3
 				},
 				{
 					id: 322,
 					type: "item",
-					item: "minecraft:oak_log",
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "minecraft:oak_log",
+						Count: true
+					},
 					count: 8
 				}
 			]
@@ -465,12 +979,34 @@
 			tasks: [{
 				id: 68,
 				type: "item",
-				item: "stone_age:grass_lead"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "stone_age:grass_lead",
+					Count: true
+				}
 			}],
 			rewards: [{
 				id: 321,
 				type: "item",
-				item: "stone_age:grass_lead",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "stone_age:grass_lead",
+					Count: true
+				},
 				count: 2
 			}]
 		},
@@ -486,6 +1022,14 @@
 					id: 70,
 					type: "item",
 					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
 						id: "stone_age:bone_pickaxe",
 						Count: true,
 						tag: {
@@ -498,6 +1042,14 @@
 					id: 99,
 					type: "item",
 					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
 						id: "stone_age:bone_axe",
 						Count: true,
 						tag: {
@@ -510,6 +1062,14 @@
 					id: 103,
 					type: "item",
 					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
 						id: "stone_age:bone_hoe",
 						Count: true,
 						tag: {
@@ -524,6 +1084,14 @@
 					id: 97,
 					type: "item",
 					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
 						id: "pickletweaks:flint_boots",
 						Count: true,
 						tag: {
@@ -535,6 +1103,14 @@
 					id: 337,
 					type: "item",
 					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
 						id: "pickletweaks:flint_helmet",
 						Count: true,
 						tag: {
@@ -553,20 +1129,53 @@
 			tasks: [{
 				id: 74,
 				type: "item",
-				item: "minecraft:stone",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:stone",
+					Count: true
+				},
 				count: 4L
 			}],
 			rewards: [
 				{
 					id: 118,
 					type: "item",
-					item: "minecraft:stone",
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "minecraft:stone",
+						Count: true
+					},
 					count: 4
 				},
 				{
 					id: 336,
 					type: "item",
-					item: "minecraft:cobblestone",
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "minecraft:cobblestone",
+						Count: true
+					},
 					count: 4
 				}
 			]
@@ -580,12 +1189,34 @@
 			tasks: [{
 				id: 76,
 				type: "item",
-				item: "stone_age:stone_chest"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "stone_age:stone_chest",
+					Count: true
+				}
 			}],
 			rewards: [{
 				id: 141,
 				type: "item",
-				item: "thermal:copper_coin"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "thermal:copper_coin",
+					Count: true
+				}
 			}]
 		},
 		{
@@ -598,6 +1229,14 @@
 				id: 78,
 				type: "item",
 				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
 					id: "stone_age:stone_hammer",
 					Count: true,
 					tag: {
@@ -609,6 +1248,14 @@
 				id: 142,
 				type: "item",
 				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
 					id: "stone_age:stone_hammer",
 					Count: true,
 					tag: {
@@ -627,17 +1274,50 @@
 			tasks: [{
 				id: 80,
 				type: "item",
-				item: "stone_age:tree_stump"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "stone_age:tree_stump",
+					Count: true
+				}
 			}],
 			rewards: [{
 				id: 343,
 				type: "item",
-				item: "minecraft:oak_log",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:oak_log",
+					Count: true
+				},
 				count: 4
 			}]
 		},
 		{
-			icon: "minecraft:oak_planks",
+			icon: {
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L,
+						fuseShotCounter: 0,
+						crossbowChargeTime: 0,
+						bowChargeTime: 0.0f
+					}
+				},
+				id: "minecraft:oak_planks",
+				Count: true
+			},
 			x: 0.5d,
 			y: 7.5d,
 			description: ["I can get planks easily by punching these logs on Tree Stump with my axe, nothing special, but a bit intensive process."],
@@ -651,6 +1331,14 @@
 				type: "item",
 				title: "Planks and more to come!",
 				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
 					id: "itemfilters:tag",
 					Count: true,
 					tag: {
@@ -662,7 +1350,18 @@
 			rewards: [{
 				id: 335,
 				type: "item",
-				item: "minecraft:oak_log",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:oak_log",
+					Count: true
+				},
 				count: 8
 			}]
 		},
@@ -675,12 +1374,34 @@
 			tasks: [{
 				id: 84,
 				type: "item",
-				item: "stone_age:tanning_rack"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "stone_age:tanning_rack",
+					Count: true
+				}
 			}],
 			rewards: [{
 				id: 524,
 				type: "item",
-				item: "minecraft:leather"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:leather",
+					Count: true
+				}
 			}]
 		},
 		{
@@ -693,13 +1414,35 @@
 			tasks: [{
 				id: 86,
 				type: "item",
-				item: "minecraft:leather",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:leather",
+					Count: true
+				},
 				count: 2L
 			}],
 			rewards: [{
 				id: 323,
 				type: "item",
-				item: "minecraft:cooked_beef",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:cooked_beef",
+					Count: true
+				},
 				count: 2
 			}]
 		},
@@ -713,13 +1456,35 @@
 				id: 88,
 				type: "item",
 				title: "Lead",
-				item: "minecraft:lead",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:lead",
+					Count: true
+				},
 				count: 2L
 			}],
 			rewards: [{
 				id: 101,
 				type: "item",
-				item: "minecraft:lead"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:lead",
+					Count: true
+				}
 			}]
 		},
 		{
@@ -732,6 +1497,14 @@
 				id: 90,
 				type: "item",
 				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
 					id: "stone_age:backpack",
 					Count: true,
 					tag: {
@@ -808,13 +1581,35 @@
 				{
 					id: 102,
 					type: "item",
-					item: "minecraft:leather",
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "minecraft:leather",
+						Count: true
+					},
 					count: 4
 				},
 				{
 					id: 324,
 					type: "item",
-					item: "minecraft:bone",
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "minecraft:bone",
+						Count: true
+					},
 					count: 4
 				}
 			]
@@ -829,6 +1624,14 @@
 				id: 113,
 				type: "item",
 				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
 					id: "pickletweaks:grass_fiber_mesh",
 					Count: true,
 					tag: {
@@ -839,7 +1642,18 @@
 			rewards: [{
 				id: 130,
 				type: "item",
-				item: "stone_age:mouflon_meat"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "stone_age:mouflon_meat",
+					Count: true
+				}
 			}]
 		},
 		{
@@ -852,13 +1666,35 @@
 				id: 120,
 				type: "item",
 				title: "Clay. It's cool.",
-				item: "minecraft:clay_ball",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:clay_ball",
+					Count: true
+				},
 				count: 64L
 			}],
 			rewards: [{
 				id: 131,
 				type: "item",
-				item: "minecraft:clay"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:clay",
+					Count: true
+				}
 			}]
 		},
 		{
@@ -871,6 +1707,14 @@
 				id: 122,
 				type: "item",
 				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
 					id: "stone_age:bone_shovel",
 					Count: true,
 					tag: {
@@ -882,7 +1726,18 @@
 			rewards: [{
 				id: 125,
 				type: "item",
-				item: "minecraft:bone_block",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:bone_block",
+					Count: true
+				},
 				count: 2
 			}]
 		},
@@ -895,12 +1750,34 @@
 			tasks: [{
 				id: 124,
 				type: "item",
-				item: "ceramics:clay_bucket"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "ceramics:clay_bucket",
+					Count: true
+				}
 			}],
 			rewards: [{
 				id: 140,
 				type: "item",
-				item: "thermal:copper_coin"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "thermal:copper_coin",
+					Count: true
+				}
 			}]
 		},
 		{
@@ -913,13 +1790,35 @@
 			tasks: [{
 				id: 127,
 				type: "item",
-				item: "ceramics:clay_plate",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "ceramics:clay_plate",
+					Count: true
+				},
 				count: 8L
 			}],
 			rewards: [{
 				id: 134,
 				type: "item",
-				item: "ceramics:clay_plate"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "ceramics:clay_plate",
+					Count: true
+				}
 			}]
 		},
 		{
@@ -933,6 +1832,14 @@
 					id: 135,
 					type: "item",
 					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
 						id: "ceramics:clay_helmet",
 						Count: true,
 						tag: {
@@ -944,6 +1851,14 @@
 					id: 136,
 					type: "item",
 					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
 						id: "ceramics:clay_chestplate",
 						Count: true,
 						tag: {
@@ -955,6 +1870,14 @@
 					id: 137,
 					type: "item",
 					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
 						id: "ceramics:clay_leggings",
 						Count: true,
 						tag: {
@@ -966,6 +1889,14 @@
 					id: 138,
 					type: "item",
 					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
 						id: "ceramics:clay_boots",
 						Count: true,
 						tag: {
@@ -977,7 +1908,18 @@
 			rewards: [{
 				id: 139,
 				type: "item",
-				item: "minecraft:clay_ball",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:clay_ball",
+					Count: true
+				},
 				count: 16
 			}]
 		},
@@ -993,7 +1935,18 @@
 			tasks: [{
 				id: 145,
 				type: "item",
-				item: "minecraft:crafting_table"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:crafting_table",
+					Count: true
+				}
 			}],
 			rewards: [
 				{
@@ -1009,6 +1962,14 @@
 					id: 507,
 					type: "item",
 					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
 						id: "minecraft:stone_pickaxe",
 						Count: true,
 						tag: {
@@ -1020,6 +1981,14 @@
 					id: 508,
 					type: "item",
 					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
 						id: "minecraft:stone_axe",
 						Count: true,
 						tag: {
@@ -1041,6 +2010,14 @@
 				type: "item",
 				title: "Any minecraft:boats",
 				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
 					id: "itemfilters:tag",
 					Count: true,
 					tag: {
@@ -1052,6 +2029,14 @@
 				id: 338,
 				type: "item",
 				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
 					id: "stone_age:stone_shovel",
 					Count: true,
 					tag: {
@@ -1073,6 +2058,14 @@
 				type: "item",
 				title: "Any Drying Rack (Silent's Mechanisms)",
 				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
 					id: "itemfilters:tag",
 					Count: true,
 					tag: {
@@ -1085,6 +2078,14 @@
 				id: 430,
 				type: "item",
 				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
 					id: "minecraft:stone_axe",
 					Count: true,
 					tag: {
@@ -1102,12 +2103,34 @@
 			tasks: [{
 				id: 153,
 				type: "item",
-				item: "silents_mechanisms:zombie_leather"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "silents_mechanisms:zombie_leather",
+					Count: true
+				}
 			}],
 			rewards: [{
 				id: 420,
 				type: "item",
-				item: "survive:purified_water_bowl"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "survive:purified_water_bowl",
+					Count: true
+				}
 			}]
 		},
 		{
@@ -1119,12 +2142,34 @@
 			tasks: [{
 				id: 155,
 				type: "item",
-				item: "extendedcrafting:handheld_table"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "extendedcrafting:handheld_table",
+					Count: true
+				}
 			}],
 			rewards: [{
 				id: 418,
 				type: "item",
-				item: "silents_mechanisms:zombie_leather",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "silents_mechanisms:zombie_leather",
+					Count: true
+				},
 				count: 2
 			}]
 		},
@@ -1137,12 +2182,34 @@
 			tasks: [{
 				id: 157,
 				type: "item",
-				item: "silents_mechanisms:cod_jerky"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "silents_mechanisms:cod_jerky",
+					Count: true
+				}
 			}],
 			rewards: [{
 				id: 519,
 				type: "item",
-				item: "silents_mechanisms:salmon_jerky"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "silents_mechanisms:salmon_jerky",
+					Count: true
+				}
 			}]
 		},
 		{
@@ -1154,12 +2221,34 @@
 			tasks: [{
 				id: 163,
 				type: "item",
-				item: "minecraft:chest"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:chest",
+					Count: true
+				}
 			}],
 			rewards: [{
 				id: 419,
 				type: "item",
-				item: "minecraft:chest",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:chest",
+					Count: true
+				},
 				count: 3
 			}]
 		},
@@ -1172,12 +2261,34 @@
 			tasks: [{
 				id: 165,
 				type: "item",
-				item: "immersiveengineering:dust_wood"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "immersiveengineering:dust_wood",
+					Count: true
+				}
 			}],
 			rewards: [{
 				id: 339,
 				type: "item",
-				item: "minecraft:oak_slab",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:oak_slab",
+					Count: true
+				},
 				count: 6
 			}]
 		},
@@ -1191,13 +2302,35 @@
 			tasks: [{
 				id: 167,
 				type: "item",
-				item: "minecraft:paper",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:paper",
+					Count: true
+				},
 				count: 4L
 			}],
 			rewards: [{
 				id: 340,
 				type: "item",
-				item: "minecraft:book"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:book",
+					Count: true
+				}
 			}]
 		},
 		{
@@ -1215,6 +2348,14 @@
 				id: 169,
 				type: "item",
 				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
 					id: "patchouli:guide_book",
 					Count: true,
 					tag: {
@@ -1226,13 +2367,35 @@
 				{
 					id: 341,
 					type: "item",
-					item: "minecraft:bone_meal",
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "minecraft:bone_meal",
+						Count: true
+					},
 					count: 4
 				},
 				{
 					id: 342,
 					type: "item",
-					item: "minecraft:golden_carrot"
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "minecraft:golden_carrot",
+						Count: true
+					}
 				}
 			]
 		},
@@ -1247,6 +2410,14 @@
 				id: 171,
 				type: "item",
 				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
 					id: "waterstrainer:strainer_survivalist",
 					Count: true,
 					tag: {
@@ -1258,12 +2429,34 @@
 				{
 					id: 517,
 					type: "item",
-					item: "waterstrainer:strainer_base"
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "waterstrainer:strainer_base",
+						Count: true
+					}
 				},
 				{
 					id: 518,
 					type: "item",
-					item: "aquaculture:fish_fillet_cooked",
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "aquaculture:fish_fillet_cooked",
+						Count: true
+					},
 					count: 4
 				}
 			]
@@ -1277,12 +2470,34 @@
 			tasks: [{
 				id: 173,
 				type: "item",
-				item: "minecraft:gold_nugget"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:gold_nugget",
+					Count: true
+				}
 			}],
 			rewards: [{
 				id: 514,
 				type: "item",
-				item: "minecraft:gold_nugget",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:gold_nugget",
+					Count: true
+				},
 				count: 17
 			}]
 		},
@@ -1302,20 +2517,53 @@
 			tasks: [{
 				id: 175,
 				type: "item",
-				item: "naturesaura:gold_leaf",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "naturesaura:gold_leaf",
+					Count: true
+				},
 				count: 2L
 			}],
 			rewards: [
 				{
 					id: 497,
 					type: "item",
-					item: "naturesaura:gold_leaf",
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "naturesaura:gold_leaf",
+						Count: true
+					},
 					count: 4
 				},
 				{
 					id: 498,
 					type: "item",
-					item: "naturesaura:gold_fiber",
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "naturesaura:gold_fiber",
+						Count: true
+					},
 					count: 4
 				}
 			]
@@ -1330,12 +2578,34 @@
 			tasks: [{
 				id: 177,
 				type: "item",
-				item: "naturesaura:token_joy"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "naturesaura:token_joy",
+					Count: true
+				}
 			}],
 			rewards: [{
 				id: 513,
 				type: "item",
-				item: "minecraft:iron_ingot"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:iron_ingot",
+					Count: true
+				}
 			}]
 		},
 		{
@@ -1351,20 +2621,53 @@
 			tasks: [{
 				id: 179,
 				type: "item",
-				item: "naturesaura:wood_stand",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "naturesaura:wood_stand",
+					Count: true
+				},
 				count: 4L
 			}],
 			rewards: [
 				{
 					id: 499,
 					type: "item",
-					item: "naturesaura:wood_stand",
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "naturesaura:wood_stand",
+						Count: true
+					},
 					count: 4
 				},
 				{
 					id: 500,
 					type: "item",
-					item: "naturesaura:gold_powder",
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "naturesaura:gold_powder",
+						Count: true
+					},
 					count: 8
 				}
 			]
@@ -1380,6 +2683,14 @@
 				id: 181,
 				type: "item",
 				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
 					id: "naturesaura:aura_bottle",
 					Count: true,
 					tag: {
@@ -1391,6 +2702,14 @@
 				id: 496,
 				type: "item",
 				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
 					id: "naturesaura:aura_bottle",
 					Count: true,
 					tag: {
@@ -1412,12 +2731,34 @@
 			tasks: [{
 				id: 183,
 				type: "item",
-				item: "naturesaura:nature_altar"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "naturesaura:nature_altar",
+					Count: true
+				}
 			}],
 			rewards: [{
 				id: 521,
 				type: "item",
-				item: "minecraft:iron_ingot"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:iron_ingot",
+					Count: true
+				}
 			}]
 		},
 		{
@@ -1429,18 +2770,51 @@
 			tasks: [{
 				id: 185,
 				type: "item",
-				item: "naturesaura:infused_iron"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "naturesaura:infused_iron",
+					Count: true
+				}
 			}],
 			rewards: [
 				{
 					id: 525,
 					type: "item",
-					item: "naturesaura:infused_iron"
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "naturesaura:infused_iron",
+						Count: true
+					}
 				},
 				{
 					id: 526,
 					type: "item",
-					item: "naturesaura:gold_leaf"
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "naturesaura:gold_leaf",
+						Count: true
+					}
 				},
 				{
 					id: 527,
@@ -1457,17 +2831,47 @@
 			tasks: [{
 				id: 189,
 				type: "item",
-				item: "naturesaura:ancient_sapling"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "naturesaura:ancient_sapling",
+					Count: true
+				}
 			}],
 			rewards: [{
 				id: 523,
 				type: "item",
-				item: "minecraft:bone_meal",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:bone_meal",
+					Count: true
+				},
 				count: 4
 			}]
 		},
 		{
 			icon: {
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L,
+						fuseShotCounter: 0,
+						crossbowChargeTime: 0,
+						bowChargeTime: 0.0f
+					}
+				},
 				id: "naturesaura:infused_iron_chest",
 				Count: true,
 				tag: {
@@ -1487,6 +2891,14 @@
 					id: 285,
 					type: "item",
 					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
 						id: "naturesaura:infused_iron_helmet",
 						Count: true,
 						tag: {
@@ -1498,6 +2910,14 @@
 					id: 286,
 					type: "item",
 					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
 						id: "naturesaura:infused_iron_chest",
 						Count: true,
 						tag: {
@@ -1509,6 +2929,14 @@
 					id: 287,
 					type: "item",
 					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
 						id: "naturesaura:infused_iron_pants",
 						Count: true,
 						tag: {
@@ -1520,6 +2948,14 @@
 					id: 288,
 					type: "item",
 					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
 						id: "naturesaura:infused_iron_shoes",
 						Count: true,
 						tag: {
@@ -1532,18 +2968,48 @@
 				{
 					id: 295,
 					type: "item",
-					item: "minecraft:iron_ore",
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "minecraft:iron_ore",
+						Count: true
+					},
 					count: 16
 				},
 				{
 					id: 296,
 					type: "item",
-					item: "naturesaura:color_changer"
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "naturesaura:color_changer",
+						Count: true
+					}
 				}
 			]
 		},
 		{
 			icon: {
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L,
+						fuseShotCounter: 0,
+						crossbowChargeTime: 0,
+						bowChargeTime: 0.0f
+					}
+				},
 				id: "naturesaura:infused_iron_pickaxe",
 				Count: true,
 				tag: {
@@ -1564,6 +3030,14 @@
 					id: 193,
 					type: "item",
 					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
 						id: "naturesaura:infused_iron_pickaxe",
 						Count: true,
 						tag: {
@@ -1575,6 +3049,14 @@
 					id: 289,
 					type: "item",
 					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
 						id: "naturesaura:infused_iron_axe",
 						Count: true,
 						tag: {
@@ -1586,6 +3068,14 @@
 					id: 290,
 					type: "item",
 					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
 						id: "naturesaura:infused_iron_shovel",
 						Count: true,
 						tag: {
@@ -1597,6 +3087,14 @@
 					id: 291,
 					type: "item",
 					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
 						id: "naturesaura:infused_iron_sword",
 						Count: true,
 						tag: {
@@ -1608,6 +3106,14 @@
 					id: 292,
 					type: "item",
 					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
 						id: "naturesaura:infused_iron_hoe",
 						Count: true,
 						tag: {
@@ -1620,13 +3126,35 @@
 				{
 					id: 293,
 					type: "item",
-					item: "minecraft:iron_ore",
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "minecraft:iron_ore",
+						Count: true
+					},
 					count: 8
 				},
 				{
 					id: 294,
 					type: "item",
-					item: "silents_mechanisms:copper_ore",
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "silents_mechanisms:copper_ore",
+						Count: true
+					},
 					count: 8
 				}
 			]
@@ -1640,17 +3168,50 @@
 			tasks: [{
 				id: 206,
 				type: "item",
-				item: "survive:water_bowl"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "survive:water_bowl",
+					Count: true
+				}
 			}],
 			rewards: [{
 				id: 329,
 				type: "item",
-				item: "survive:purified_water_bowl"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "survive:purified_water_bowl",
+					Count: true
+				}
 			}]
 		},
 		{
 			title: "(String) -> Wool.color(any)",
-			icon: "minecraft:white_wool",
+			icon: {
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L,
+						fuseShotCounter: 0,
+						crossbowChargeTime: 0,
+						bowChargeTime: 0.0f
+					}
+				},
+				id: "minecraft:white_wool",
+				Count: true
+			},
 			x: 0.5d,
 			y: 1.5d,
 			description: ["Strings can be packed into wool. This is very cold place, so I need some wool to get my first heat protection for my body."],
@@ -1661,6 +3222,14 @@
 				type: "item",
 				title: "Wool",
 				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
 					id: "itemfilters:tag",
 					Count: true,
 					tag: {
@@ -1672,13 +3241,32 @@
 			rewards: [{
 				id: 315,
 				type: "item",
-				item: "minecraft:white_wool",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:white_wool",
+					Count: true
+				},
 				count: 2
 			}]
 		},
 		{
 			title: "Stable Temperature",
 			icon: {
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L,
+						fuseShotCounter: 0,
+						crossbowChargeTime: 0,
+						bowChargeTime: 0.0f
+					}
+				},
 				id: "survive:wool_jacket",
 				Count: true,
 				tag: {
@@ -1695,6 +3283,14 @@
 					id: 210,
 					type: "item",
 					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
 						id: "survive:wool_hat",
 						Count: true,
 						tag: {
@@ -1706,6 +3302,14 @@
 					id: 215,
 					type: "item",
 					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
 						id: "survive:wool_jacket",
 						Count: true,
 						tag: {
@@ -1717,6 +3321,14 @@
 					id: 216,
 					type: "item",
 					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
 						id: "survive:wool_pants",
 						Count: true,
 						tag: {
@@ -1728,6 +3340,14 @@
 					id: 217,
 					type: "item",
 					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
 						id: "survive:wool_boots",
 						Count: true,
 						tag: {
@@ -1740,13 +3360,35 @@
 				{
 					id: 316,
 					type: "item",
-					item: "minecraft:string",
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "minecraft:string",
+						Count: true
+					},
 					count: 32
 				},
 				{
 					id: 317,
 					type: "item",
-					item: "pneumaticcraft:sourdough_bread"
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "pneumaticcraft:sourdough_bread",
+						Count: true
+					}
 				}
 			]
 		},
@@ -1762,6 +3404,14 @@
 				type: "item",
 				title: "Copper Ore",
 				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
 					id: "itemfilters:tag",
 					Count: true,
 					tag: {
@@ -1773,13 +3423,35 @@
 			rewards: [{
 				id: 528,
 				type: "item",
-				item: "minecraft:iron_ore",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:iron_ore",
+					Count: true
+				},
 				count: 4
 			}]
 		},
 		{
 			title: "Iron Ore",
-			icon: "minecraft:iron_ore",
+			icon: {
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L,
+						fuseShotCounter: 0,
+						crossbowChargeTime: 0,
+						bowChargeTime: 0.0f
+					}
+				},
+				id: "minecraft:iron_ore",
+				Count: true
+			},
 			x: 5.5d,
 			y: 4.5d,
 			description: ["Iron Ore can be found near frozen dirt, it has value of 10-50 in Minecraftian Y-System. It will be easy to find."],
@@ -1790,6 +3462,14 @@
 				type: "item",
 				title: "Any forge:ores/iron",
 				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
 					id: "itemfilters:tag",
 					Count: true,
 					tag: {
@@ -1801,7 +3481,18 @@
 			rewards: [{
 				id: 541,
 				type: "item",
-				item: "naturesaura:infused_iron",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "naturesaura:infused_iron",
+					Count: true
+				},
 				count: 2
 			}]
 		},
@@ -1818,44 +3509,132 @@
 			tasks: [{
 				id: 224,
 				type: "item",
-				item: "crockpot:crock_pot_basic"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "crockpot:crock_pot_basic",
+					Count: true
+				}
 			}],
 			rewards: [
 				{
 					id: 225,
 					type: "item",
-					item: "minecraft:carrot"
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "minecraft:carrot",
+						Count: true
+					}
 				},
 				{
 					id: 330,
 					type: "item",
-					item: "minecraft:apple"
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "minecraft:apple",
+						Count: true
+					}
 				},
 				{
 					id: 331,
 					type: "item",
-					item: "minecraft:potato"
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "minecraft:potato",
+						Count: true
+					}
 				},
 				{
 					id: 332,
 					type: "item",
-					item: "minecraft:cooked_cod"
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "minecraft:cooked_cod",
+						Count: true
+					}
 				},
 				{
 					id: 333,
 					type: "item",
-					item: "minecraft:cookie"
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "minecraft:cookie",
+						Count: true
+					}
 				},
 				{
 					id: 334,
 					type: "item",
-					item: "minecraft:cake"
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "minecraft:cake",
+						Count: true
+					}
 				}
 			]
 		},
 		{
 			title: "Copper of Irony",
-			icon: "create:copper_ingot",
+			icon: {
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L,
+						fuseShotCounter: 0,
+						crossbowChargeTime: 0,
+						bowChargeTime: 0.0f
+					}
+				},
+				id: "create:copper_ingot",
+				Count: true
+			},
 			x: 7.0d,
 			y: 4.0d,
 			description: ["Getting first ingots of copper and iron helps me to progress to the primitive era, so I can make my life easier. Also I don't forget about stamina and thirst, since I need to drink water and feel not tired while mining ores..."],
@@ -1871,6 +3650,14 @@
 					type: "item",
 					title: "Any forge:ingots/copper",
 					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
 						id: "itemfilters:tag",
 						Count: true,
 						tag: {
@@ -1883,6 +3670,14 @@
 					type: "item",
 					title: "Any forge:ingots/iron",
 					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
 						id: "itemfilters:tag",
 						Count: true,
 						tag: {
@@ -1904,6 +3699,14 @@
 				type: "item",
 				title: "Any storagedrawers:drawers",
 				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
 					id: "itemfilters:tag",
 					Count: true,
 					tag: {
@@ -1915,7 +3718,18 @@
 			rewards: [{
 				id: 542,
 				type: "item",
-				item: "minecraft:chest",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:chest",
+					Count: true
+				},
 				count: 8
 			}]
 		},
@@ -1928,12 +3742,34 @@
 			tasks: [{
 				id: 302,
 				type: "item",
-				item: "storagedrawers:compacting_drawers_3"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "storagedrawers:compacting_drawers_3",
+					Count: true
+				}
 			}],
 			rewards: [{
 				id: 543,
 				type: "item",
-				item: "storagedrawers:compacting_drawers_3"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "storagedrawers:compacting_drawers_3",
+					Count: true
+				}
 			}]
 		},
 		{
@@ -1948,7 +3784,18 @@
 			tasks: [{
 				id: 304,
 				type: "item",
-				item: "storagedrawers:drawer_key"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "storagedrawers:drawer_key",
+					Count: true
+				}
 			}]
 		},
 		{
@@ -1964,28 +3811,83 @@
 			tasks: [{
 				id: 306,
 				type: "item",
-				item: "farmingforblockheads:market"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "farmingforblockheads:market",
+					Count: true
+				}
 			}],
 			rewards: [
 				{
 					id: 550,
 					type: "item",
-					item: "thermal:peanut_seeds"
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "thermal:peanut_seeds",
+						Count: true
+					}
 				},
 				{
 					id: 551,
 					type: "item",
-					item: "thermal:strawberry_seeds"
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "thermal:strawberry_seeds",
+						Count: true
+					}
 				},
 				{
 					id: 552,
 					type: "item",
-					item: "thermal:tomato_seeds"
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "thermal:tomato_seeds",
+						Count: true
+					}
 				},
 				{
 					id: 553,
 					type: "item",
-					item: "thermal:green_bean_seeds"
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "thermal:green_bean_seeds",
+						Count: true
+					}
 				}
 			]
 		},
@@ -1998,12 +3900,34 @@
 			tasks: [{
 				id: 308,
 				type: "item",
-				item: "farmingforblockheads:green_fertilizer"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "farmingforblockheads:green_fertilizer",
+					Count: true
+				}
 			}],
 			rewards: [{
 				id: 557,
 				type: "item",
-				item: "farmingforblockheads:green_fertilizer",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "farmingforblockheads:green_fertilizer",
+					Count: true
+				},
 				count: 4
 			}]
 		},
@@ -2016,12 +3940,34 @@
 			tasks: [{
 				id: 310,
 				type: "item",
-				item: "farmingforblockheads:red_fertilizer"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "farmingforblockheads:red_fertilizer",
+					Count: true
+				}
 			}],
 			rewards: [{
 				id: 678,
 				type: "item",
-				item: "farmingforblockheads:red_fertilizer",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "farmingforblockheads:red_fertilizer",
+					Count: true
+				},
 				count: 4
 			}]
 		},
@@ -2034,12 +3980,34 @@
 			tasks: [{
 				id: 312,
 				type: "item",
-				item: "farmingforblockheads:yellow_fertilizer"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "farmingforblockheads:yellow_fertilizer",
+					Count: true
+				}
 			}],
 			rewards: [{
 				id: 554,
 				type: "item",
-				item: "farmingforblockheads:yellow_fertilizer",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "farmingforblockheads:yellow_fertilizer",
+					Count: true
+				},
 				count: 4
 			}]
 		},
@@ -2052,28 +4020,83 @@
 			tasks: [{
 				id: 314,
 				type: "item",
-				item: "survive:canteen"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "survive:canteen",
+					Count: true
+				}
 			}],
 			rewards: [
 				{
 					id: 325,
 					type: "item",
-					item: "survive:water_bowl"
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "survive:water_bowl",
+						Count: true
+					}
 				},
 				{
 					id: 326,
 					type: "item",
-					item: "survive:purified_water_bowl"
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "survive:purified_water_bowl",
+						Count: true
+					}
 				},
 				{
 					id: 327,
 					type: "item",
-					item: "minecraft:mushroom_stew"
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "minecraft:mushroom_stew",
+						Count: true
+					}
 				},
 				{
 					id: 328,
 					type: "item",
-					item: "minecraft:leather"
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "minecraft:leather",
+						Count: true
+					}
 				}
 			]
 		},
@@ -2090,6 +4113,14 @@
 				id: 531,
 				type: "item",
 				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
 					id: "exnihilosequentia:hammer_stone",
 					Count: true,
 					tag: {
@@ -2101,25 +4132,69 @@
 				{
 					id: 537,
 					type: "item",
-					item: "minecraft:gravel",
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "minecraft:gravel",
+						Count: true
+					},
 					count: 8
 				},
 				{
 					id: 538,
 					type: "item",
-					item: "minecraft:sand",
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "minecraft:sand",
+						Count: true
+					},
 					count: 8
 				},
 				{
 					id: 539,
 					type: "item",
-					item: "minecraft:iron_ore",
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "minecraft:iron_ore",
+						Count: true
+					},
 					count: 2
 				},
 				{
 					id: 540,
 					type: "item",
-					item: "create:copper_ore",
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "create:copper_ore",
+						Count: true
+					},
 					count: 2
 				}
 			]
@@ -2133,13 +4208,60 @@
 			tasks: [{
 				id: 533,
 				type: "item",
-				item: "naturesaura:infused_stone"
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "naturesaura:infused_stone",
+					Count: true
+				}
 			}],
 			rewards: [{
 				id: 534,
 				type: "item",
-				item: "naturesaura:infused_stone",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "naturesaura:infused_stone",
+					Count: true
+				},
 				count: 3
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 9.5d,
+			size: 1.5d,
+			id: 726,
+			tasks: [{
+				id: 727,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "exnihilosequentia:hammer_stone",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 	]
