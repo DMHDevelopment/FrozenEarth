@@ -3,18 +3,7 @@
 	filename: "chapter_9_moving_to_the_true_earth",
 	order_index: 10,
 	title: "Chapter 9: Moving to the True Earth...",
-	icon: {
-		ForgeCaps: {
-			"dungeons_gear:weapon": {
-				lastFiredTime: 0L,
-				fuseShotCounter: 0,
-				crossbowChargeTime: 0,
-				bowChargeTime: 0.0f
-			}
-		},
-		id: "biomesoplenty:rainbow_birch_sapling",
-		Count: true
-	},
+	icon: "biomesoplenty:rainbow_birch_sapling",
 	default_quest_shape: "",
 	quests: []
 }
