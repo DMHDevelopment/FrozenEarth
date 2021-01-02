@@ -7,35 +7,15 @@
 		#Speed (in ticks) at which the evaporation tower generates resources.
 		#Range: 20 ~ 12000
 		evaporationTowerSpeed = 800
-		#Max speed of the laser quarry in ticks.
-		#Range: 10 ~ 300
-		laserQuarrySpeed = 10
 		#Movement speed multiplier for walking on gravel concrete
 		#Range: 0.0 ~ 3.0
 		gravelConcreteSpeed = 1.2
 		#Chance on random tick for the magnesium beehive oven (T2) to cook a block
 		#Range: 0.0 ~ 1.0
 		t2BeehiveOvenTime = 0.75
-		#Chance for a dirt block to drop a vegetable if foraging is enabled
-		#Range: 0.0 ~ 1.0
-		flintDropChance = 0.1
-		#Is it possible to find vegetables when mining dirt?
-		foraging = true
-		#Chance for a dirt block to drop a vegetable if foraging is enabled
-		#Range: 0.0 ~ 1.0
-		foragingChance = 0.04
-		#Enables an extra chance for stones to drop flint when mining with a flint / bronze / pewter / colored golds pickaxes.
-		flintDrop = true
-		#Change the output of a cobblestone generator from cobblestone to random igneous rocks.
-		igneousGen = true
-		#Adds a trade to the Wandering Trader for a random tool which is not restricted by alloy constraints. May be unbalanced due to complete randomness.
-		wanderingSpecial = false
 		#Chance on random tick for the zircon beehive oven (T3) to cook a block
 		#Range: 0.0 ~ 1.0
 		t3BeehiveOvenTime = 1.0
-		#Max range of the laser quarry.
-		#Range: 0 ~ 11
-		laserQuarryRange = 5
 		#Amount of additional exhaustion when breaking a block
 		#Range: 0.0 ~ 1.0
 		breakExhaustion = 0.0
@@ -47,96 +27,35 @@
 		#Movement speed multiplier for walking on roman concrete
 		#Range: 0.0 ~ 5.0
 		romanConcreteSpeed = 1.4
-		#Enable for the Beehive Oven to convert all the blocks at once rather than one by one.
-		beehiveOvenConversion = false
 		#Chance on random tick for the beehive oven (T1) to cook a block
 		#Range: 0.0 ~ 1.0
 		t1BeehiveOvenTime = 0.5
 		#Enables (not functional yet) the Rankine Journal (a guide to the mod)
 		startingBook = true
+		#Enables an extra chance for stones to drop flint when mining with a flint / bronze / pewter / colored golds pickaxes.
+		flintDrop = true
+		#Chance for a dirt block to drop a vegetable if foraging is enabled
+		#Range: 0.0 ~ 1.0
+		flintDropChance = 0.1
+		#Is it possible to find vegetables when mining dirt?
+		foraging = true
+		#Chance for a dirt block to drop a vegetable if foraging is enabled
+		#Range: 0.0 ~ 1.0
+		foragingChance = 0.04
+		#Change the output of a cobblestone generator from cobblestone to random igneous rocks.
+		igneousGen = true
 		#Adds trades for Project Rankine to Villagers and the Wandering Trader.
 		villageTrades = true
-
-		#Vanilla Tools
-		[generalSettings.event.vanillaTools]
-
-			#Wooden Tools
-			[generalSettings.event.vanillaTools.woodenTools]
-				#Disable the use of the wooden sword (still allows crafting for other recipes). This is enabled by default for progression.
-				disableWoodenSword = true
-				#Disable the use of the wooden axe (still allows crafting for other recipes). This is enabled by default for progression.
-				disableWoodenAxe = true
-				#Disable the use of the wooden hoe (still allows crafting for other recipes). This is enabled by default for progression.
-				disableWoodenHoe = true
-				#Disable the use of the wooden shovel (still allows crafting for other recipes). This is enabled by default for progression.
-				disableWoodenShovel = true
-				#Disable the use of the wooden pickaxe (still allows crafting for other recipes). This is enabled by default for progression.
-				disableWoodenPickaxe = true
-
-			#Diamond Tools
-			[generalSettings.event.vanillaTools.diamondTools]
-				#Disable the use of the diamond axe (still allows crafting for other recipes). This is disabled by default for progression.
-				disableDiamondAxe = false
-				#Disable the use of the diamond pickaxe (still allows crafting for other recipes). This is disabled by default for progression.
-				disableDiamondPickaxe = false
-				#Disable the use of the diamond hoe (still allows crafting for other recipes). This is disabled by default for progression.
-				disableDiamondHoe = false
-				#Disable the use of the diamond shovel (still allows crafting for other recipes). This is disabled by default for progression.
-				disableDiamondShovel = false
-				#Disable the use of the diamond sword (still allows crafting for other recipes). This is disabled by default for progression.
-				disableDiamondSword = false
-
-			#Iron Tools
-			[generalSettings.event.vanillaTools.ironTools]
-				#Disable the use of the iron axe (still allows crafting for other recipes). This is enabled by default for progression.
-				disableIronAxe = true
-				#Disable the use of the iron hoe (still allows crafting for other recipes). This is enabled by default for progression.
-				disableIronHoe = true
-				#Disable the use of the iron shovel (still allows crafting for other recipes). This is enabled by default for progression.
-				disableIronShovel = true
-				#Disable the use of the iron pickaxe (still allows crafting for other recipes). This is enabled by default for progression.
-				disableIronPickaxe = true
-				#Disable the use of the iron sword (still allows crafting for other recipes). This is enabled by default for progression.
-				disableIronSword = true
-
-			#Stone Tools
-			[generalSettings.event.vanillaTools.stoneTools]
-				#Disable the use of the stone sword (still allows crafting for other recipes). This is enabled by default for progression.
-				disableStoneSword = true
-				#Disable the use of the stone shovel (still allows crafting for other recipes). This is enabled by default for progression.
-				disableStoneShovel = true
-				#Disable the use of the stone axe (still allows crafting for other recipes). This is enabled by default for progression.
-				disableStoneAxe = true
-				#Disable the use of the stone pickaxe (still allows crafting for other recipes). This is enabled by default for progression.
-				disableStonePickaxe = true
-				#Disable the use of the stone hoe (still allows crafting for other recipes). This is enabled by default for progression.
-				disableStoneHoe = true
-
-			#Netherite Tools
-			[generalSettings.event.vanillaTools.netheriteTools]
-				#Disable the use of the netherite sword (still allows crafting for other recipes). This is disabled by default for progression.
-				disableNetheriteSword = false
-				#Disable the use of the netherite shovel (still allows crafting for other recipes). This is disabled by default for progression.
-				disableNetheriteShovel = false
-				#Disable the use of the netherite pickaxe (still allows crafting for other recipes). This is disabled by default for progression.
-				disableNetheritePickaxe = false
-				#Disable the use of the netherite axe (still allows crafting for other recipes). This is disabled by default for progression.
-				disableNetheriteAxe = false
-				#Disable the use of the netherite hoe (still allows crafting for other recipes). This is disabled by default for progression.
-				disableNetheriteHoe = false
-
-			#Gold Tools
-			[generalSettings.event.vanillaTools.goldTools]
-				#Disable the use of the gold pickaxe (still allows crafting for other recipes). This is enabled by default for progression.
-				disableGoldPickaxe = true
-				#Disable the use of the gold sword (still allows crafting for other recipes). This is enabled by default for progression.
-				disableGoldSword = true
-				#Disable the use of the gold axe (still allows crafting for other recipes). This is enabled by default for progression.
-				disableGoldAxe = true
-				#Disable the use of the gold hoe (still allows crafting for other recipes). This is enabled by default for progression.
-				disableGoldHoe = true
-				#Disable the use of the gold shovel (still allows crafting for other recipes). This is enabled by default for progression.
-				disableGoldShovel = true
+		#Adds a trade to the Wandering Trader for a random tool which is not restricted by alloy constraints. May be unbalanced due to complete randomness.
+		wanderingSpecial = false
+		#Enable for the Beehive Oven to convert all the blocks at once rather than one by one.
+		beehiveOvenConversion = false
+		#Max range of the laser quarry.
+		#Range: 0 ~ 11
+		laserQuarryRange = 5
+		#Max speed of the laser quarry in ticks.
+		#Range: 10 ~ 300
+		laserQuarrySpeed = 10
 
 		#Pendant Recipes
 		[generalSettings.event.pendantRecipes]
@@ -152,6 +71,87 @@
 			repulsionPendantRecipe = true
 			#Enable the recipe for levitation pendant.
 			levitationPendantRecipe = true
+
+		#Vanilla Tools
+		[generalSettings.event.vanillaTools]
+
+			#Wooden Tools
+			[generalSettings.event.vanillaTools.woodenTools]
+				#Disable the use of the wooden sword (still allows crafting for other recipes). This is enabled by default for progression.
+				disableWoodenSword = true
+				#Disable the use of the wooden axe (still allows crafting for other recipes). This is enabled by default for progression.
+				disableWoodenAxe = true
+				#Disable the use of the wooden shovel (still allows crafting for other recipes). This is enabled by default for progression.
+				disableWoodenShovel = true
+				#Disable the use of the wooden pickaxe (still allows crafting for other recipes). This is enabled by default for progression.
+				disableWoodenPickaxe = true
+				#Disable the use of the wooden hoe (still allows crafting for other recipes). This is enabled by default for progression.
+				disableWoodenHoe = true
+
+			#Stone Tools
+			[generalSettings.event.vanillaTools.stoneTools]
+				#Disable the use of the stone sword (still allows crafting for other recipes). This is enabled by default for progression.
+				disableStoneSword = true
+				#Disable the use of the stone axe (still allows crafting for other recipes). This is enabled by default for progression.
+				disableStoneAxe = true
+				#Disable the use of the stone shovel (still allows crafting for other recipes). This is enabled by default for progression.
+				disableStoneShovel = true
+				#Disable the use of the stone pickaxe (still allows crafting for other recipes). This is enabled by default for progression.
+				disableStonePickaxe = true
+				#Disable the use of the stone hoe (still allows crafting for other recipes). This is enabled by default for progression.
+				disableStoneHoe = true
+
+			#Iron Tools
+			[generalSettings.event.vanillaTools.ironTools]
+				#Disable the use of the iron sword (still allows crafting for other recipes). This is enabled by default for progression.
+				disableIronSword = true
+				#Disable the use of the iron axe (still allows crafting for other recipes). This is enabled by default for progression.
+				disableIronAxe = true
+				#Disable the use of the iron shovel (still allows crafting for other recipes). This is enabled by default for progression.
+				disableIronShovel = true
+				#Disable the use of the iron pickaxe (still allows crafting for other recipes). This is enabled by default for progression.
+				disableIronPickaxe = true
+				#Disable the use of the iron hoe (still allows crafting for other recipes). This is enabled by default for progression.
+				disableIronHoe = true
+
+			#Gold Tools
+			[generalSettings.event.vanillaTools.goldTools]
+				#Disable the use of the gold sword (still allows crafting for other recipes). This is enabled by default for progression.
+				disableGoldSword = true
+				#Disable the use of the gold axe (still allows crafting for other recipes). This is enabled by default for progression.
+				disableGoldAxe = true
+				#Disable the use of the gold shovel (still allows crafting for other recipes). This is enabled by default for progression.
+				disableGoldShovel = true
+				#Disable the use of the gold pickaxe (still allows crafting for other recipes). This is enabled by default for progression.
+				disableGoldPickaxe = true
+				#Disable the use of the gold hoe (still allows crafting for other recipes). This is enabled by default for progression.
+				disableGoldHoe = true
+
+			#Diamond Tools
+			[generalSettings.event.vanillaTools.diamondTools]
+				#Disable the use of the diamond sword (still allows crafting for other recipes). This is disabled by default for progression.
+				disableDiamondSword = false
+				#Disable the use of the diamond axe (still allows crafting for other recipes). This is disabled by default for progression.
+				disableDiamondAxe = false
+				#Disable the use of the diamond shovel (still allows crafting for other recipes). This is disabled by default for progression.
+				disableDiamondShovel = false
+				#Disable the use of the diamond pickaxe (still allows crafting for other recipes). This is disabled by default for progression.
+				disableDiamondPickaxe = false
+				#Disable the use of the diamond hoe (still allows crafting for other recipes). This is disabled by default for progression.
+				disableDiamondHoe = false
+
+			#Netherite Tools
+			[generalSettings.event.vanillaTools.netheriteTools]
+				#Disable the use of the netherite sword (still allows crafting for other recipes). This is disabled by default for progression.
+				disableNetheriteSword = false
+				#Disable the use of the netherite axe (still allows crafting for other recipes). This is disabled by default for progression.
+				disableNetheriteAxe = false
+				#Disable the use of the netherite shovel (still allows crafting for other recipes). This is disabled by default for progression.
+				disableNetheriteShovel = false
+				#Disable the use of the netherite pickaxe (still allows crafting for other recipes). This is disabled by default for progression.
+				disableNetheritePickaxe = false
+				#Disable the use of the netherite hoe (still allows crafting for other recipes). This is disabled by default for progression.
+				disableNetheriteHoe = false
 
 #Alloy Settings
 [alloySettings]
@@ -209,9 +209,6 @@
 
 				#Pyrolusite Ore Settings
 				[alloySettings.worldgenSettings.oregen.overworldOres.pyrolusiteOre]
-					#Harvest Level of Pyrolusite Ore
-					#Range: 0 ~ 5
-					pyrolusiteOreHL = 2
 					#Minimum height to generate Pyrolusite ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					pyrolusiteOreMin = 10
@@ -226,12 +223,12 @@
 					#Maximum height to generate Pyrolusite ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					pyrolusiteOreMax = 45
+					#Harvest Level of Pyrolusite Ore
+					#Range: 0 ~ 5
+					pyrolusiteOreHL = 2
 
 				#Native Bismuth Ore Settings
 				[alloySettings.worldgenSettings.oregen.overworldOres.nativeBismuthOre]
-					#Harvest Level of Native Bismuth Ore
-					#Range: 0 ~ 5
-					nativeBismuthOreHL = 0
 					#Size of Native Bismuth ore vein
 					#Range: 0 ~ 256
 					nativeBismuthOreSize = 12
@@ -246,12 +243,12 @@
 					#Minimum height to generate Native Bismuth ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					nativeBismuthOreMin = 10
+					#Harvest Level of Native Bismuth Ore
+					#Range: 0 ~ 5
+					nativeBismuthOreHL = 0
 
 				#Bituminous Coal Ore Settings
 				[alloySettings.worldgenSettings.oregen.overworldOres.bituminousCoalOre]
-					#Harvest Level of Bituminous Coal Ore
-					#Range: 0 ~ 5
-					bituminousCoalOreHL = 2
 					#Number of Bituminous Coal ore veins to generate per chunk
 					#Range: 0 ~ 256
 					bituminousCoalOreCount = 4
@@ -266,6 +263,9 @@
 					bituminousCoalOreMax = 35
 					#Enables (not functional yet) Bituminous Coal ore)
 					bituminousCoalOreEnabled = true
+					#Harvest Level of Bituminous Coal Ore
+					#Range: 0 ~ 5
+					bituminousCoalOreHL = 2
 
 				#Native Silver Ore Settings
 				[alloySettings.worldgenSettings.oregen.overworldOres.nativeSilverOre]
@@ -301,11 +301,11 @@
 					#Number of Vanadinite ore veins to generate per chunk
 					#Range: 0 ~ 256
 					vanadiniteOreCount = 1
+					#Enables (not functional yet) Vanadinite ore)
+					vanadiniteOreEnabled = true
 					#Harvest Level of Vanadinite Ore
 					#Range: 0 ~ 5
 					vanadiniteOreHL = 2
-					#Enables (not functional yet) Vanadinite ore)
-					vanadiniteOreEnabled = true
 
 				#Halite Ore Settings
 				[alloySettings.worldgenSettings.oregen.overworldOres.haliteOre]
@@ -334,9 +334,6 @@
 					#Maximum height to generate Pentlandite ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					pentlanditeOreMax = 45
-					#Harvest Level of Pentlandite Ore
-					#Range: 0 ~ 5
-					pentlanditeOreHL = 2
 					#Minimum height to generate Pentlandite ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					pentlanditeOreMin = 10
@@ -346,6 +343,9 @@
 					#Number of Pentlandite ore veins to generate per chunk
 					#Range: 0 ~ 256
 					pentlanditeOreCount = 2
+					#Harvest Level of Pentlandite Ore
+					#Range: 0 ~ 5
+					pentlanditeOreHL = 2
 
 				#Native Tn Ore Settings
 				[alloySettings.worldgenSettings.oregen.overworldOres.nativeTinOre]
@@ -358,14 +358,14 @@
 					#Maximum height to generate Native Tin ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					nativeTinOreMax = 75
-					#Harvest Level of Native Tin Ore
-					#Range: 0 ~ 5
-					nativeTinOreHL = 0
 					#Number of Native Tin ore veins to generate per chunk
 					#Range: 0 ~ 256
 					nativeTinOreCount = 4
 					#Enables (not functional yet) Native Tin ore)
 					nativeTinOreEnabled = true
+					#Harvest Level of Native Tin Ore
+					#Range: 0 ~ 5
+					nativeTinOreHL = 0
 
 				#Petalite Ore Settings
 				[alloySettings.worldgenSettings.oregen.overworldOres.petaliteOre]
@@ -374,9 +374,6 @@
 					#Number of Petalite ore veins to generate per chunk
 					#Range: 0 ~ 256
 					petaliteOreCount = 1
-					#Harvest Level of Petalite Ore
-					#Range: 0 ~ 5
-					petaliteOreHL = 3
 					#Maximum height to generate Petalite ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					petaliteOreMax = 30
@@ -386,12 +383,12 @@
 					#Size of Petalite ore vein
 					#Range: 0 ~ 256
 					petaliteOreSize = 5
+					#Harvest Level of Petalite Ore
+					#Range: 0 ~ 5
+					petaliteOreHL = 3
 
 				#Aquamarine Ore Settings
 				[alloySettings.worldgenSettings.oregen.overworldOres.aquamarineOre]
-					#Harvest Level of Aquamarine Ore
-					#Range: 0 ~ 5
-					aquamarineOreHL = 2
 					#Minimum height to generate Aquamarine ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					aquamarineOreMin = 10
@@ -406,6 +403,9 @@
 					aquamarineOreSize = 5
 					#Enables (not functional yet) Aquamarine ore)
 					aquamarineOreEnabled = true
+					#Harvest Level of Aquamarine Ore
+					#Range: 0 ~ 5
+					aquamarineOreHL = 2
 
 				#Cassiterite Ore Settings
 				[alloySettings.worldgenSettings.oregen.overworldOres.cassiteriteOre]
@@ -418,22 +418,19 @@
 					#Minimum height to generate Cassiterite ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					cassiteriteOreMin = 35
-					#Harvest Level of Cassiterite Ore
-					#Range: 0 ~ 5
-					CassiteriteOreHL = 1
 					#Size of Cassiterite ore vein
 					#Range: 0 ~ 256
 					cassiteriteOreSize = 16
 					#Enables (not functional yet) Cassiterite ore)
 					cassiteriteOreEnabled = true
+					#Harvest Level of Cassiterite Ore
+					#Range: 0 ~ 5
+					CassiteriteOreHL = 1
 
 				#Magnesite Ore Settings
 				[alloySettings.worldgenSettings.oregen.overworldOres.magnesiteOre]
 					#Enables (not functional yet) Magnesite ore)
 					magnesiteOreEnabled = true
-					#Harvest Level of Magnesite Ore
-					#Range: 0 ~ 5
-					magnesiteOreHL = 2
 					#Maximum height to generate Magnesite ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					magnesiteOreMax = 45
@@ -446,6 +443,9 @@
 					#Number of Magnesite ore veins to generate per chunk
 					#Range: 0 ~ 256
 					magnesiteOreCount = 2
+					#Harvest Level of Magnesite Ore
+					#Range: 0 ~ 5
+					magnesiteOreHL = 2
 
 				#Majorite Ore Settings
 				[alloySettings.worldgenSettings.oregen.overworldOres.majoriteOre]
@@ -454,9 +454,6 @@
 					#Minimum height to generate Majorite ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					majoriteOreMin = 0
-					#Harvest Level of Majorite Ore
-					#Range: 0 ~ 5
-					majoriteOreHL = 3
 					#Maximum height to generate Majorite ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					majoriteOreMax = 15
@@ -466,15 +463,15 @@
 					#Number of Majorite ore veins to generate per chunk
 					#Range: 0 ~ 256
 					majoriteOreCount = 1
+					#Harvest Level of Majorite Ore
+					#Range: 0 ~ 5
+					majoriteOreHL = 3
 
 				#Celestine Ore Settings (Only generates in sedimentary rocks)
 				[alloySettings.worldgenSettings.oregen.overworldOres.celestineOre]
 					#Maximum height to generate Celestine ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					celestineOreMax = 70
-					#Harvest Level of Celestine Ore
-					#Range: 0 ~ 5
-					celestineOreHL = 2
 					#Minimum height to generate Celestine ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					celestineOreMin = 50
@@ -486,6 +483,9 @@
 					#Size of Celestine ore vein
 					#Range: 0 ~ 256
 					celestineOreSize = 8
+					#Harvest Level of Celestine Ore
+					#Range: 0 ~ 5
+					celestineOreHL = 2
 
 				#Bauxite Ore Settings
 				[alloySettings.worldgenSettings.oregen.overworldOres.bauxiteOre]
@@ -500,12 +500,12 @@
 					#Minimum height to generate Bauxite ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					bauxiteOreMin = 35
-					#Harvest Level of Bauxite Ore
-					#Range: 0 ~ 5
-					bauxiteOreHL = 1
 					#Size of Bauxite ore vein
 					#Range: 0 ~ 256
 					bauxiteOreSize = 16
+					#Harvest Level of Bauxite Ore
+					#Range: 0 ~ 5
+					bauxiteOreHL = 1
 
 				#Malachite Ore Settings
 				[alloySettings.worldgenSettings.oregen.overworldOres.malachiteOre]
@@ -540,12 +540,12 @@
 					#Number of Chromite ore veins to generate per chunk
 					#Range: 0 ~ 256
 					chromiteOreCount = 1
-					#Harvest Level of Chromite Ore
-					#Range: 0 ~ 5
-					chromiteOreHL = 3
 					#Maximum height to generate Chromite ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					chromiteOreMax = 15
+					#Harvest Level of Chromite Ore
+					#Range: 0 ~ 5
+					chromiteOreHL = 3
 
 				#Lignite Ore Settings
 				[alloySettings.worldgenSettings.oregen.overworldOres.ligniteOre]
@@ -555,9 +555,6 @@
 					#Number of Lignite ore veins to generate per chunk
 					#Range: 0 ~ 256
 					ligniteOreCount = 2
-					#Harvest Level of Lignite Ore
-					#Range: 0 ~ 5
-					ligniteOreHL = 0
 					#Size of Lignite ore vein
 					#Range: 0 ~ 256
 					ligniteOreSize = 20
@@ -566,6 +563,9 @@
 					#Minimum height to generate Lignite ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					ligniteOreMin = 55
+					#Harvest Level of Lignite Ore
+					#Range: 0 ~ 5
+					ligniteOreHL = 0
 
 				#Plumbago Ore Settings (Only generates in marble)
 				[alloySettings.worldgenSettings.oregen.overworldOres.plumbagoOre]
@@ -578,14 +578,14 @@
 					#Number of Plumbago ore veins to generate per chunk
 					#Range: 0 ~ 256
 					plumbagoOreCount = 2
-					#Harvest Level of Plumbago Ore
-					#Range: 0 ~ 5
-					plumbagoOreHL = 3
 					#Minimum height to generate Plumbago ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					plumbagoOreMin = 5
 					#Enables (not functional yet) Plumbago ore)
 					plumbagoOreEnabled = true
+					#Harvest Level of Plumbago Ore
+					#Range: 0 ~ 5
+					plumbagoOreHL = 3
 
 				#Sphalerite Ore Settings
 				[alloySettings.worldgenSettings.oregen.overworldOres.sphaleriteOre]
@@ -597,15 +597,15 @@
 					#Number of Sphalerite ore veins to generate per chunk
 					#Range: 0 ~ 256
 					sphaleriteOreCount = 2
-					#Harvest Level of Sphalerite Ore
-					#Range: 0 ~ 5
-					sphaleriteOreHL = 1
 					#Size of Sphalerite ore vein
 					#Range: 0 ~ 256
 					sphaleriteOreSize = 16
 					#Minimum height to generate Sphalerite ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					sphaleriteOreMin = 35
+					#Harvest Level of Sphalerite Ore
+					#Range: 0 ~ 5
+					sphaleriteOreHL = 1
 
 				#Acanthite Ore Settings
 				[alloySettings.worldgenSettings.oregen.overworldOres.acanthiteOre]
@@ -620,12 +620,12 @@
 					#Minimum height to generate Acanthite ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					acanthiteOreMin = 10
-					#Harvest Level of Acanthite Ore
-					#Range: 0 ~ 5
-					acanthiteOreHL = 2
 					#Size of Acanthite ore vein
 					#Range: 0 ~ 256
 					acanthiteOreSize = 15
+					#Harvest Level of Acanthite Ore
+					#Range: 0 ~ 5
+					acanthiteOreHL = 2
 
 				#Native Gold Ore Settings
 				[alloySettings.worldgenSettings.oregen.overworldOres.nativeGoldOre]
@@ -638,20 +638,17 @@
 					#Size of Native Gold ore vein
 					#Range: 0 ~ 256
 					nativeGoldOreSize = 12
-					#Harvest Level of Native Gold Ore
-					#Range: 0 ~ 5
-					nativeGoldOreHL = 0
 					#Maximum height to generate Native Gold ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					nativeGoldOreMax = 75
 					#Enables (not functional yet) Native Gold ore)
 					nativeGoldOreEnabled = true
+					#Harvest Level of Native Gold Ore
+					#Range: 0 ~ 5
+					nativeGoldOreHL = 0
 
 				#Stibnite Ore Settings
 				[alloySettings.worldgenSettings.oregen.overworldOres.stibniteOre]
-					#Harvest Level of Stibnite Ore
-					#Range: 0 ~ 5
-					stibniteOreHL = 0
 					#Maximum height to generate Stibnite ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					stibniteOreMax = 75
@@ -666,12 +663,12 @@
 					#Number of Stibnite ore veins to generate per chunk
 					#Range: 0 ~ 256
 					stibniteOreCount = 3
+					#Harvest Level of Stibnite Ore
+					#Range: 0 ~ 5
+					stibniteOreHL = 0
 
 				#Native Copper Ore Settings
 				[alloySettings.worldgenSettings.oregen.overworldOres.nativeCopperOre]
-					#Harvest Level of Native Copper Ore
-					#Range: 0 ~ 5
-					nativeCopperOreHL = 0
 					#Maximum height to generate Native Copper ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					nativeCopperOreMax = 75
@@ -686,6 +683,9 @@
 					nativeCopperOreCount = 5
 					#Enables (not functional yet) Native Copper ore)
 					nativeCopperOreEnabled = true
+					#Harvest Level of Native Copper Ore
+					#Range: 0 ~ 5
+					nativeCopperOreHL = 0
 
 				#Galena Ore Settings
 				[alloySettings.worldgenSettings.oregen.overworldOres.galenaOre]
@@ -720,12 +720,12 @@
 					#Number of Lazurite ore veins to generate per chunk
 					#Range: 0 ~ 256
 					lazuriteOreCount = 3
-					#Harvest Level of Lazurite Ore
-					#Range: 0 ~ 5
-					lazuriteOreHL = 1
 					#Size of Lazurite ore vein
 					#Range: 0 ~ 256
 					lazuriteOreSize = 20
+					#Harvest Level of Lazurite Ore
+					#Range: 0 ~ 5
+					lazuriteOreHL = 1
 
 				#Pink Halite Ore Settings
 				[alloySettings.worldgenSettings.oregen.overworldOres.pinkHaliteOre]
@@ -738,23 +738,20 @@
 					#Number of Pink Halite ore veins to generate per chunk
 					#Range: 0 ~ 256
 					pinkHaliteOreCount = 2
-					#Harvest Level of Pink Halite Ore
-					#Range: 0 ~ 5
-					pinkHaliteOreHL = 0
 					#Enables (not functional yet) Pink Halite ore)
 					pinkHaliteOreEnabled = true
 					#Size of Pink Halite ore vein
 					#Range: 0 ~ 256
 					pinkHaliteOreSize = 20
+					#Harvest Level of Pink Halite Ore
+					#Range: 0 ~ 5
+					pinkHaliteOreHL = 0
 
 				#Magnetite Ore Settings
 				[alloySettings.worldgenSettings.oregen.overworldOres.magnetiteOre]
 					#Size of Magnetite ore vein
 					#Range: 0 ~ 256
 					magnetiteOreSize = 20
-					#Harvest Level of Magnetite Ore
-					#Range: 0 ~ 5
-					magnetiteOreHL = 2
 					#Maximum height to generate Magnetite ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					magnetiteOreMax = 50
@@ -766,6 +763,9 @@
 					#Number of Magnetite ore veins to generate per chunk
 					#Range: 0 ~ 256
 					magnetiteOreCount = 3
+					#Harvest Level of Magnetite Ore
+					#Range: 0 ~ 5
+					magnetiteOreHL = 2
 
 				#Cinnabar Ore Settings (Only generates in igneous rocks)
 				[alloySettings.worldgenSettings.oregen.overworldOres.cinnabarOre]
@@ -795,9 +795,6 @@
 					#Minimum height to generate Native Aluminum ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					nativeAluminumOreMin = 55
-					#Harvest Level of Native Aluminum Ore
-					#Range: 0 ~ 5
-					nativeAluminumOreHL = 0
 					#Enables (not functional yet) Native Aluminum ore)
 					nativeAluminumOreEnabled = true
 					#Maximum height to generate Native Aluminum ore at (make sure it is greater than the minimum)
@@ -806,6 +803,9 @@
 					#Number of Native Aluminum ore veins to generate per chunk
 					#Range: 0 ~ 256
 					nativeAluminumOreCount = 3
+					#Harvest Level of Native Aluminum Ore
+					#Range: 0 ~ 5
+					nativeAluminumOreHL = 0
 
 				#Native Lead Ore Settings
 				[alloySettings.worldgenSettings.oregen.overworldOres.nativeLeadOre]
@@ -815,9 +815,6 @@
 					#Maximum height to generate Native Lead ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					nativeLeadOreMax = 75
-					#Harvest Level of Native Lead Ore
-					#Range: 0 ~ 5
-					nativeLeadOreHL = 0
 					#Minimum height to generate Native Lead ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					nativeLeadOreMin = 55
@@ -826,15 +823,15 @@
 					#Size of Native Lead ore vein
 					#Range: 0 ~ 256
 					nativeLeadOreSize = 12
+					#Harvest Level of Native Lead Ore
+					#Range: 0 ~ 5
+					nativeLeadOreHL = 0
 
 				#Subbituminous Coal Ore Settings
 				[alloySettings.worldgenSettings.oregen.overworldOres.subbituminousCoalOre]
 					#Number of Subbituminous Coal ore veins to generate per chunk
 					#Range: 0 ~ 256
 					subbituminousCoalOreCount = 4
-					#Harvest Level of Subbituminous Coal Ore
-					#Range: 0 ~ 5
-					subbituminousCoalOreHL = 1
 					#Enables (not functional yet) Subbituminous Coal ore)
 					subbituminousCoalOreEnabled = true
 					#Maximum height to generate Subbituminous Coal ore at (make sure it is greater than the minimum)
@@ -846,6 +843,9 @@
 					#Minimum height to generate Subbituminous Coal ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					subbituminousCoalOreMin = 35
+					#Harvest Level of Subbituminous Coal Ore
+					#Range: 0 ~ 5
+					subbituminousCoalOreHL = 1
 
 				#Emerald Ore Settings
 				[alloySettings.worldgenSettings.oregen.overworldOres.emeraldOre]
@@ -903,12 +903,12 @@
 					#Minimum height to generate Columbite ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					columbiteOreMin = 1
-					#Harvest Level of Columbite Ore
-					#Range: 0 ~ 5
-					columbiteOreHL = 3
 					#Maximum height to generate Columbite ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					columbiteOreMax = 30
+					#Harvest Level of Columbite Ore
+					#Range: 0 ~ 5
+					columbiteOreHL = 3
 
 				#Cobaltite Ore Settings
 				[alloySettings.worldgenSettings.oregen.netherOres.cobaltiteOre]
@@ -935,9 +935,6 @@
 					#Maximum height to generate Native Arsenic ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					nativeArsenicOreMax = 90
-					#Harvest Level of Native Arsenic Ore
-					#Range: 0 ~ 5
-					nativeArsenicOreHL = 0
 					#Size of Native Arsenic ore vein
 					#Range: 0 ~ 256
 					nativeArsenicOreSize = 12
@@ -949,6 +946,9 @@
 					#Number of Native Arsenic ore veins to generate per chunk
 					#Range: 0 ~ 256
 					nativeArsenicOreCount = 8
+					#Harvest Level of Native Arsenic Ore
+					#Range: 0 ~ 5
+					nativeArsenicOreHL = 0
 
 				#Ilmenite Ore Settings
 				[alloySettings.worldgenSettings.oregen.netherOres.ilmeniteOre]
@@ -960,15 +960,15 @@
 					#Maximum height to generate Ilmenite ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					ilmeniteOreMax = 128
-					#Harvest Level of Ilmenite Ore
-					#Range: 0 ~ 5
-					ilmeniteOreHL = 3
 					#Minimum height to generate Ilmenite ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					ilmeniteOreMin = 90
 					#Number of Ilmenite ore veins to generate per chunk
 					#Range: 0 ~ 256
 					ilmeniteOreCount = 2
+					#Harvest Level of Ilmenite Ore
+					#Range: 0 ~ 5
+					ilmeniteOreHL = 3
 
 				#Sperrylite Ore Settings
 				[alloySettings.worldgenSettings.oregen.netherOres.sperryliteOre]
@@ -998,9 +998,6 @@
 					#Number of Wolframite ore veins to generate per chunk
 					#Range: 0 ~ 256
 					wolframiteOreCount = 2
-					#Harvest Level of Wolframite Ore
-					#Range: 0 ~ 5
-					wolframiteOreHL = 3
 					#Size of Wolframite ore vein
 					#Range: 0 ~ 256
 					wolframiteOreSize = 20
@@ -1009,6 +1006,9 @@
 					#Minimum height to generate Wolframite ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					wolframiteOreMin = 90
+					#Harvest Level of Wolframite Ore
+					#Range: 0 ~ 5
+					wolframiteOreHL = 3
 
 				#Moissanite Ore Settings
 				[alloySettings.worldgenSettings.oregen.netherOres.moissaniteOre]
@@ -1040,15 +1040,15 @@
 					nativeSulfurOreMin = 30
 					#Enables (not functional yet) Native Sulfur ore)
 					nativeSulfurOreEnabled = true
-					#Harvest Level of Native Sulfur Ore
-					#Range: 0 ~ 5
-					nativeSulfurOreHL = 0
 					#Size of Native Sulfur ore vein
 					#Range: 0 ~ 256
 					nativeSulfurOreSize = 12
 					#Number of Native Sulfur ore veins to generate per chunk
 					#Range: 0 ~ 256
 					nativeSulfurOreCount = 8
+					#Harvest Level of Native Sulfur Ore
+					#Range: 0 ~ 5
+					nativeSulfurOreHL = 0
 
 				#Anthracite Ore Settings
 				[alloySettings.worldgenSettings.oregen.netherOres.anthraciteOre]
@@ -1095,9 +1095,6 @@
 
 				#Xenotime Ore Settings
 				[alloySettings.worldgenSettings.oregen.endOres.xenotimeOre]
-					#Harvest Level of Xenotime Ore
-					#Range: 0 ~ 5
-					xenotimeOreHL = 3
 					#Minimum height to generate Xenotime ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					xenotimeOreMin = 0
@@ -1112,26 +1109,9 @@
 					xenotimeOreSize = 5
 					#Enables (not functional yet) Xenotime ore)
 					xenotimeOreEnabled = true
-
-				#Greenockite Ore Settings
-				[alloySettings.worldgenSettings.oregen.endOres.greenockiteOre]
-					#Maximum height to generate Greenockite ore at (make sure it is greater than the minimum)
-					#Range: 0 ~ 256
-					greenockiteOreMax = 30
-					#Enables (not functional yet) Greenockite ore)
-					greenockiteOreEnabled = true
-					#Size of Greenockite ore vein
-					#Range: 0 ~ 256
-					greenockiteOreSize = 10
-					#Number of Greenockite ore veins to generate per chunk
-					#Range: 0 ~ 256
-					greenockiteOreCount = 1
-					#Harvest Level of Greenockite Ore
+					#Harvest Level of Xenotime Ore
 					#Range: 0 ~ 5
-					greenockiteOreHL = 3
-					#Minimum height to generate Greenockite ore at (make sure it is less than the maximum)
-					#Range: 0 ~ 256
-					greenockiteOreMin = 1
+					xenotimeOreHL = 3
 
 				#Fluorite Ore Settings
 				[alloySettings.worldgenSettings.oregen.endOres.fluoriteOre]
@@ -1146,12 +1126,12 @@
 					#Maximum height to generate Fluorite ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					fluoriteOreMax = 100
-					#Harvest Level of Fluorite Ore
-					#Range: 0 ~ 5
-					fluoriteOreHL = 4
 					#Minimum height to generate Fluorite ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					fluoriteOreMin = 0
+					#Harvest Level of Fluorite Ore
+					#Range: 0 ~ 5
+					fluoriteOreHL = 4
 
 				#Native Gallium Ore Settings
 				[alloySettings.worldgenSettings.oregen.endOres.nativeGalliumOre]
@@ -1220,9 +1200,6 @@
 					#Size of Native Tellurium ore vein
 					#Range: 0 ~ 256
 					nativeTelluriumOreSize = 12
-					#Harvest Level of Native Tellurium Ore
-					#Range: 0 ~ 5
-					nativeTelluriumOreHL = 3
 					#Number of Native Tellurium ore veins to generate per chunk
 					#Range: 0 ~ 256
 					nativeTelluriumOreCount = 8
@@ -1232,6 +1209,9 @@
 					#Minimum height to generate Native Tellurium ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					nativeTelluriumOreMin = 0
+					#Harvest Level of Native Tellurium Ore
+					#Range: 0 ~ 5
+					nativeTelluriumOreHL = 3
 
 				#Native Indium Ore Settings
 				[alloySettings.worldgenSettings.oregen.endOres.nativeIndiumOre]
@@ -1240,9 +1220,6 @@
 					#Maximum height to generate Native Indium ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					nativeIndiumOreMax = 100
-					#Harvest Level of Native Indium Ore
-					#Range: 0 ~ 5
-					nativeIndiumOreHL = 3
 					#Number of Native Indium ore veins to generate per chunk
 					#Range: 0 ~ 256
 					nativeIndiumOreCount = 8
@@ -1252,6 +1229,9 @@
 					#Size of Native Indium ore vein
 					#Range: 0 ~ 256
 					nativeIndiumOreSize = 12
+					#Harvest Level of Native Indium Ore
+					#Range: 0 ~ 5
+					nativeIndiumOreHL = 3
 
 				#Uraninite Ore Settings
 				[alloySettings.worldgenSettings.oregen.endOres.uraniniteOre]
@@ -1264,14 +1244,34 @@
 					#Maximum height to generate Uraninite ore at (make sure it is greater than the minimum)
 					#Range: 0 ~ 256
 					uraniniteOreMax = 100
-					#Harvest Level of Uraninite Ore
-					#Range: 0 ~ 5
-					uraniniteOreHL = 4
 					#Enables (not functional yet) Uraninite ore)
 					uraniniteOreEnabled = true
 					#Minimum height to generate Uraninite ore at (make sure it is less than the maximum)
 					#Range: 0 ~ 256
 					uraniniteOreMin = 0
+					#Harvest Level of Uraninite Ore
+					#Range: 0 ~ 5
+					uraniniteOreHL = 4
+
+				#Greenockite Ore Settings
+				[alloySettings.worldgenSettings.oregen.endOres.greenockiteOre]
+					#Enables (not functional yet) Greenockite ore)
+					greenockiteOreEnabled = true
+					#Minimum height to generate Greenockite ore at (make sure it is less than the maximum)
+					#Range: 0 ~ 256
+					greenockiteOreMin = 1
+					#Maximum height to generate Greenockite ore at (make sure it is greater than the minimum)
+					#Range: 0 ~ 256
+					greenockiteOreMax = 30
+					#Size of Greenockite ore vein
+					#Range: 0 ~ 256
+					greenockiteOreSize = 10
+					#Number of Greenockite ore veins to generate per chunk
+					#Range: 0 ~ 256
+					greenockiteOreCount = 1
+					#Harvest Level of Greenockite Ore
+					#Range: 0 ~ 5
+					greenockiteOreHL = 3
 
 		#Rankine Tree Generation
 		[alloySettings.worldgenSettings.rankineTrees]
@@ -1294,93 +1294,6 @@
 			#This determines how smooth stone layers generate. Larger values means smoother. Default value is 125.
 			#Range: 1 ~ 1000
 			noiseScale = 125
-
-		#Miscellaneous Block Harvest Levels
-		[alloySettings.worldgenSettings.harvestLevels]
-			#Harvest Level of Red Granite
-			#Range: 0 ~ 5
-			redGraniteHL = 0
-			#Harvest Level of Shale
-			#Range: 0 ~ 5
-			shaleHL = 0
-			#Harvest Level of Granodiorite
-			#Range: 0 ~ 5
-			granodioriteHL = 0
-			#Harvest Level of Ringwoodite
-			#Range: 0 ~ 5
-			ringwooditeHL = 2
-			#Harvest Level of Rhyp;ite
-			#Range: 0 ~ 5
-			rhyolitteHL = 1
-			#Harvest Level of Schist
-			#Range: 0 ~ 5
-			schistHL = 1
-			#Harvest Level of Peridotite
-			#Range: 0 ~ 5
-			peridotiteHL = 2
-			#Harvest Level of Anorthosite
-			#Range: 0 ~ 5
-			anorthositeHL = 0
-			#Harvest Level of Slate
-			#Range: 0 ~ 5
-			slateHL = 1
-			#Harvest Level of Perovskite
-			#Range: 0 ~ 5
-			perovskiteHL = 2
-			#Harvest Level of Diamond Ore
-			#Range: 0 ~ 5
-			diamondOreHL = 3
-			#Harvest Level of Scoria
-			#Range: 0 ~ 5
-			scoriaHL = 1
-			#Harvest Level of Wadsleyite
-			#Range: 0 ~ 5
-			wadsleyiteHL = 2
-			#Harvest Level of Ferropericlase
-			#Range: 0 ~ 5
-			ferropericlaseHL = 2
-			#Harvest Level of Hornblende Andesite
-			#Range: 0 ~ 5
-			hornblendeAndesiteHL = 0
-			#Harvest Level of Tholeiitic Basalt
-			#Range: 0 ~ 5
-			basaltHL = 1
-			#Harvest Level of Pumice
-			#Range: 0 ~ 5
-			pumiveHL = 1
-			#Harvest Level of Breccia
-			#Range: 0 ~ 5
-			brecciaHL = 0
-			#Harvest Level of Komatiite
-			#Range: 0 ~ 5
-			komatiiteHL = 2
-			#Harvest Level of Gabbro
-			#Range: 0 ~ 5
-			gabbroHL = 1
-			#Harvest Level of Gneiss
-			#Range: 0 ~ 5
-			gneissHL = 1
-			#Harvest Level of Limestone
-			#Range: 0 ~ 5
-			limestoneHL = 0
-			#Harvest Level of Kimberlite
-			#Range: 0 ~ 5
-			kimberliteHL = 2
-			#Harvest Level of Bridgmanite
-			#Range: 0 ~ 5
-			bridgmaniteHL = 2
-			#Harvest Level of Interspinifex Ore
-			#Range: 0 ~ 5
-			interspinifexOreHL = 3
-			#Harvest Level of Opal Ore
-			#Range: 0 ~ 5
-			opalOreHL = 2
-			#Harvest Level of Ironstone
-			#Range: 0 ~ 5
-			ironstoneHL = 1
-			#Harvest Level of Marble
-			#Range: 0 ~ 5
-			marbleHL = 1
 
 		#Meteorite Generation
 		[alloySettings.worldgenSettings.meteorite]
@@ -1408,4 +1321,91 @@
 			#Chance for a rankine stone block to drop a nugget of a nearby ore.
 			#Range: 0.0 ~ 1.0
 			nuggetChance = 0.15
+
+		#Miscellaneous Block Harvest Levels
+		[alloySettings.worldgenSettings.harvestLevels]
+			#Harvest Level of Diamond Ore
+			#Range: 0 ~ 5
+			diamondOreHL = 3
+			#Harvest Level of Interspinifex Ore
+			#Range: 0 ~ 5
+			interspinifexOreHL = 3
+			#Harvest Level of Opal Ore
+			#Range: 0 ~ 5
+			opalOreHL = 2
+			#Harvest Level of Red Granite
+			#Range: 0 ~ 5
+			redGraniteHL = 0
+			#Harvest Level of Granodiorite
+			#Range: 0 ~ 5
+			granodioriteHL = 0
+			#Harvest Level of Hornblende Andesite
+			#Range: 0 ~ 5
+			hornblendeAndesiteHL = 0
+			#Harvest Level of Tholeiitic Basalt
+			#Range: 0 ~ 5
+			basaltHL = 1
+			#Harvest Level of Gabbro
+			#Range: 0 ~ 5
+			gabbroHL = 1
+			#Harvest Level of Anorthosite
+			#Range: 0 ~ 5
+			anorthositeHL = 0
+			#Harvest Level of Rhyp;ite
+			#Range: 0 ~ 5
+			rhyolitteHL = 1
+			#Harvest Level of Limestone
+			#Range: 0 ~ 5
+			limestoneHL = 0
+			#Harvest Level of Marble
+			#Range: 0 ~ 5
+			marbleHL = 1
+			#Harvest Level of Gneiss
+			#Range: 0 ~ 5
+			gneissHL = 1
+			#Harvest Level of Schist
+			#Range: 0 ~ 5
+			schistHL = 1
+			#Harvest Level of Slate
+			#Range: 0 ~ 5
+			slateHL = 1
+			#Harvest Level of Shale
+			#Range: 0 ~ 5
+			shaleHL = 0
+			#Harvest Level of Breccia
+			#Range: 0 ~ 5
+			brecciaHL = 0
+			#Harvest Level of Ironstone
+			#Range: 0 ~ 5
+			ironstoneHL = 1
+			#Harvest Level of Pumice
+			#Range: 0 ~ 5
+			pumiveHL = 1
+			#Harvest Level of Scoria
+			#Range: 0 ~ 5
+			scoriaHL = 1
+			#Harvest Level of Peridotite
+			#Range: 0 ~ 5
+			peridotiteHL = 2
+			#Harvest Level of Kimberlite
+			#Range: 0 ~ 5
+			kimberliteHL = 2
+			#Harvest Level of Komatiite
+			#Range: 0 ~ 5
+			komatiiteHL = 2
+			#Harvest Level of Wadsleyite
+			#Range: 0 ~ 5
+			wadsleyiteHL = 2
+			#Harvest Level of Ringwoodite
+			#Range: 0 ~ 5
+			ringwooditeHL = 2
+			#Harvest Level of Bridgmanite
+			#Range: 0 ~ 5
+			bridgmaniteHL = 2
+			#Harvest Level of Ferropericlase
+			#Range: 0 ~ 5
+			ferropericlaseHL = 2
+			#Harvest Level of Perovskite
+			#Range: 0 ~ 5
+			perovskiteHL = 2
 

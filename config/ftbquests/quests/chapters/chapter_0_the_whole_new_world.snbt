@@ -13,7 +13,7 @@
 			}
 		},
 		id: "byg:blue_enchanted_sapling",
-		Count: true
+		Count: 1b
 	},
 	default_quest_shape: "",
 	images: [{
@@ -53,7 +53,7 @@
 						}
 					},
 					id: "byg:blue_enchanted_sapling",
-					Count: true
+					Count: 1b
 				}
 			}],
 			rewards: [{
@@ -69,7 +69,7 @@
 						}
 					},
 					id: "minecraft:torch",
-					Count: true
+					Count: 1b
 				}
 			}]
 		},
@@ -85,7 +85,7 @@
 					}
 				},
 				id: "create:sand_paper",
-				Count: true,
+				Count: 1b,
 				tag: {
 					Damage: 0
 				}
@@ -118,7 +118,7 @@
 							}
 						},
 						id: "minecraft:torch",
-						Count: true
+						Count: 1b
 					}
 				},
 				{
@@ -134,7 +134,7 @@
 							}
 						},
 						id: "minecraft:leather_chestplate",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -154,7 +154,7 @@
 					}
 				},
 				id: "create:sand_paper",
-				Count: true,
+				Count: 1b,
 				tag: {
 					Damage: 0
 				}
@@ -199,7 +199,7 @@
 						}
 					},
 					id: "create:sand_paper",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -218,7 +218,7 @@
 					}
 				},
 				id: "create:sand_paper",
-				Count: true,
+				Count: 1b,
 				tag: {
 					Damage: 0
 				}
@@ -247,7 +247,7 @@
 						}
 					},
 					id: "thermal:copper_coin",
-					Count: true
+					Count: 1b
 				}
 			}]
 		},
@@ -263,7 +263,7 @@
 					}
 				},
 				id: "terraqueous:doodad_branch",
-				Count: true
+				Count: 1b
 			},
 			x: -0.5d,
 			y: 1.5d,
@@ -284,7 +284,7 @@
 							}
 						},
 						id: "minecraft:stick",
-						Count: true
+						Count: 1b
 					},
 					count: 8L
 				},
@@ -301,7 +301,7 @@
 							}
 						},
 						id: "minecraft:flint",
-						Count: true
+						Count: 1b
 					},
 					count: 2L
 				},
@@ -319,7 +319,7 @@
 							}
 						},
 						id: "minecraft:gravel",
-						Count: true
+						Count: 1b
 					},
 					item: {
 						ForgeCaps: {
@@ -331,7 +331,7 @@
 							}
 						},
 						id: "minecraft:gravel",
-						Count: true
+						Count: 1b
 					},
 					count: 4L
 				}
@@ -349,7 +349,7 @@
 						}
 					},
 					id: "thermal:copper_coin",
-					Count: true
+					Count: 1b
 				}
 			}]
 		}

@@ -781,6 +781,7 @@
 			]
 		},
 		{
+			title: "Hot Topic v2",
 			x: -5.0d,
 			y: -2.5d,
 			description: ["I need to move lava around in my bath, but wooden stirring rod is burning in my hands... I need Pure Iron to get better stirring rod, so it'll be not burning somehow."],
@@ -803,6 +804,22 @@
 					tag: {
 						Damage: 0
 					}
+				}
+			}],
+			rewards: [{
+				id: 730,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L,
+							fuseShotCounter: 0,
+							crossbowChargeTime: 0,
+							bowChargeTime: 0.0f
+						}
+					},
+					id: "minecraft:lava_bucket",
+					Count: true
 				}
 			}]
 		},
