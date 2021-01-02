@@ -7,25 +7,30 @@
     ],
     "key": {
       "L": {
-        "tag": "forge:leather"
+        "item": "rankine:flint_knife",
+        "nbt": "{Damage:0}"
       },
       "P": {
-        "item": "rankine:flint_pickaxe"
+        "item": "rankine:flint_pickaxe",
+        "nbt": "{Damage:0}"
       },
       "K": {
-        "tag": "ages_api:knifes"
+        "item": "rankine:stone_hammer",
+        "nbt": "{Damage:0}"
       },
       "A": {
-        "item": "rankine:flint_axe"
+        "item": "rankine:flint_axe",
+        "nbt": "{Damage:0}"
       },
       "C": {
         "item": "stone_age:stone_chest"
       },
       "S": {
-        "item": "rankine:flint_shovel"
+        "item": "rankine:flint_shovel",
+        "nbt": "{Damage:0}"
       },
       "G": {
-        "item": "appliedenergistics:wooden_gear"
+        "item": "appliedenergistics2:wooden_gear"
       },
       "W": {
         "item": "stone_age:flint_workbench"

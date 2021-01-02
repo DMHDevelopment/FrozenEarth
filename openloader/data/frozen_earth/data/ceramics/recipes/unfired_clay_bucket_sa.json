@@ -1,0 +1,18 @@
+{
+    "type": "stone_age:flint_workbench",
+    "pattern": [
+      "C C",
+      " C "
+    ],
+    "key": {
+      "C": {
+        "item": "ceramics:unfired_clay_plate"
+      }
+    },
+    "tool": {
+      "tag": "ages_api:knifes"
+    },
+    "result": {
+      "item": "ceramics:unfired_clay_bucket"
+    }
+  }
