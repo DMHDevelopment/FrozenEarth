@@ -100,7 +100,7 @@
 		#  - ${username}: The username.
 		# '$' can be escaped by using an extra '$'.
 		# Default: "Minecraft ${mcversion}"
-		simple_title = "Minecraft ${mcversion}"
+		simple_title = "FrozenEarth"
 		# The Minecraft window title.
 		# The current activity is not available.
 		# Variables:
@@ -110,7 +110,7 @@
 		#  - ${modversion:modid}: The version of the mod with the specified ID.
 		# '$' can be escaped by using an extra '$'.
 		# Default: "Minecraft ${mcversion}"
-		title = "Minecraft* %s"
+		title = "FrozenEarth Alpha"
 		# The Minecraft window title that also takes into account the current activity.
 		# Variables:
 		#  - ${mcversion}: The Minecraft version
@@ -120,21 +120,21 @@
 		#  - ${modversion:modid}: The version of the mod with the specified ID.
 		# '$' can be escaped by using an extra '$'.
 		# Default: "Minecraft ${mcversion} - ${activity}"
-		title_with_activity = "Minecraft ${mcversion} - ${activity}"
+		title_with_activity = "FrozenEarth Alpha - ${activity}"
 		# The path to the 16x16 Minecraft window icon relative to the Minecraft instance directory.
 		# Forward slashes should be used even on Windows to preserve compatibility with other platforms.
 		# Backward slashes will automatically be replaced.
 		# Default: ""
-		icon_16x16 = ""
+		icon_16x16 = "FrozenEarth32.png"
 		# The path to the 16x16 Minecraft window icon relative to the Minecraft instance directory.
 		# Forward slashes should be used even on Windows to preserve compatibility with other platforms.
 		# Backward slashes will automatically be replaced.
 		# Default: ""
-		icon_32x32 = ""
+		icon_32x32 = "FrozenEarth32.png"
 		# The path to the 256x256 Minecraft window icon relative to the Minecraft instance directory.
 		# This is only used on Mac OS X.
 		# Default: ""
-		icon_256x256 = ""
+		icon_256x256 = "FrozenEarth32.png"
 
 # Options related to connection timeouts.
 [connection_timeouts]
@@ -189,6 +189,7 @@
 	max_client_custom_payload_packet_size = 16777216
 
 # Options related to player speed limits.
+# These options are used to fix MC-90062: https://bugs.mojang.com/browse/MC-90062
 [player_speed_limits]
 	# The maximum player speed when not riding a vehicle or flying with elytra.
 	# The vanilla default is 100.0.
@@ -256,10 +257,11 @@
 	#   - Required for making the forward movement key not conflict with the secondary sprint key.
 	#   - Required for making the sneak key not conflict with the dismount key.
 	#   - Required for making standalone modifier keys not conflict with key combinations with that modifier key.
-	# - KeyboardListener: Required for the narrator toggle, escape, GUI toggle and debug key bindings.
+	# - KeyboardListener: Required for the narrator toggle, pause, GUI toggle and debug key bindings.
 	# - Minecraft:
 	#   - Required for changing Minecraft window options.
 	#   - Required for disabling the warning that displays when loading a world that uses experimental settings.
+	# - MouseHelper: Required for using mouse buttons for the narrator toggle, pause, GUI toggle and debug key bindings.
 	# - NettyCompressionDecoder: Required for setting the maximum compressed packet size.
 	# - PacketBuffer: Required for setting the maximum NBT compound tag packet size.
 	# - PotionItem: Required for removing the glowing effect from potions.

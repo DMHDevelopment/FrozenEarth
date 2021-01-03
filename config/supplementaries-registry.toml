@@ -36,4 +36,9 @@
 		sconce_lever = true
 		candelabra_silver = true
 		sign_post = true
+		sack = true
+
+[general]
+	#enable creative tab
+	creative_tab = false
 
