@@ -3,18 +3,7 @@
 	filename: "chapter_0_the_whole_new_world",
 	order_index: 1,
 	title: "Chapter 0: The Whole New World...",
-	icon: {
-		ForgeCaps: {
-			"dungeons_gear:weapon": {
-				lastFiredTime: 0L,
-				fuseShotCounter: 0,
-				crossbowChargeTime: 0,
-				bowChargeTime: 0.0f
-			}
-		},
-		id: "byg:blue_enchanted_sapling",
-		Count: 1b
-	},
+	icon: "byg:blue_enchanted_sapling",
 	default_quest_shape: "",
 	images: [{
 		x: -1.0d,
@@ -43,49 +32,19 @@
 				id: 4,
 				type: "checkmark",
 				title: "Welcome to Frozen World",
-				icon: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "byg:blue_enchanted_sapling",
-					Count: 1b
-				}
+				icon: "byg:blue_enchanted_sapling"
 			}],
 			rewards: [{
 				id: 14,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:torch",
-					Count: 1b
-				}
+				item: "minecraft:torch"
 			}]
 		},
 		{
 			title: "Player's Note 4",
 			icon: {
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L,
-						fuseShotCounter: 0,
-						crossbowChargeTime: 0,
-						bowChargeTime: 0.0f
-					}
-				},
 				id: "create:sand_paper",
-				Count: 1b,
+				Count: true,
 				tag: {
 					Damage: 0
 				}
@@ -108,33 +67,14 @@
 				{
 					id: 12,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "minecraft:torch",
-						Count: 1b
-					}
+					item: "minecraft:torch"
 				},
 				{
 					id: 13,
 					type: "item",
 					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
 						id: "minecraft:leather_chestplate",
-						Count: 1b,
+						Count: true,
 						tag: {
 							Damage: 0
 						}
@@ -145,16 +85,8 @@
 		{
 			title: "Player's Note 1",
 			icon: {
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L,
-						fuseShotCounter: 0,
-						crossbowChargeTime: 0,
-						bowChargeTime: 0.0f
-					}
-				},
 				id: "create:sand_paper",
-				Count: 1b,
+				Count: true,
 				tag: {
 					Damage: 0
 				}
@@ -190,16 +122,8 @@
 				type: "checkmark",
 				title: "Player's Note 2",
 				icon: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "create:sand_paper",
-					Count: 1b,
+					Count: true,
 					tag: {
 						Damage: 0
 					}
@@ -209,16 +133,8 @@
 		{
 			title: "Player's Note 3",
 			icon: {
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L,
-						fuseShotCounter: 0,
-						crossbowChargeTime: 0,
-						bowChargeTime: 0.0f
-					}
-				},
 				id: "create:sand_paper",
-				Count: 1b,
+				Count: true,
 				tag: {
 					Damage: 0
 				}
@@ -237,34 +153,12 @@
 			rewards: [{
 				id: 18,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "thermal:copper_coin",
-					Count: 1b
-				}
+				item: "thermal:copper_coin"
 			}]
 		},
 		{
 			title: "Your adventure starts here...",
-			icon: {
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L,
-						fuseShotCounter: 0,
-						crossbowChargeTime: 0,
-						bowChargeTime: 0.0f
-					}
-				},
-				id: "terraqueous:doodad_branch",
-				Count: 1b
-			},
+			icon: "terraqueous:doodad_branch",
 			x: -0.5d,
 			y: 1.5d,
 			description: ["To begin my adventure I need to find out something about situation on Earth... It's cold here, I need to collect small amount of basic resources to make first tools to mine some dirt and get a door to make me secure and atleast feel not cold..."],
@@ -274,83 +168,28 @@
 				{
 					id: 20,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "minecraft:stick",
-						Count: 1b
-					},
+					item: "minecraft:stick",
 					count: 8L
 				},
 				{
 					id: 21,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "minecraft:flint",
-						Count: 1b
-					},
+					item: "minecraft:flint",
 					count: 2L
 				},
 				{
 					id: 22,
 					type: "item",
 					title: "4x Gravel",
-					icon: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "minecraft:gravel",
-						Count: 1b
-					},
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "minecraft:gravel",
-						Count: 1b
-					},
+					icon: "minecraft:gravel",
+					item: "minecraft:gravel",
 					count: 4L
 				}
 			],
 			rewards: [{
 				id: 23,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "thermal:copper_coin",
-					Count: 1b
-				}
+				item: "thermal:copper_coin"
 			}]
 		}
 	]

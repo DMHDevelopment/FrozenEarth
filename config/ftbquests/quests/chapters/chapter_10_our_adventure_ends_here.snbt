@@ -3,18 +3,7 @@
 	filename: "chapter_10_our_adventure_ends_here",
 	order_index: 11,
 	title: "Chapter 10: Our Adventure Ends Here...",
-	icon: {
-		ForgeCaps: {
-			"dungeons_gear:weapon": {
-				lastFiredTime: 0L,
-				fuseShotCounter: 0,
-				crossbowChargeTime: 0,
-				bowChargeTime: 0.0f
-			}
-		},
-		id: "biomesoplenty:bush",
-		Count: true
-	},
+	icon: "biomesoplenty:bush",
 	default_quest_shape: "",
 	quests: []
 }

@@ -3,18 +3,7 @@
 	filename: "chapter_1_investigating_the_earth",
 	order_index: 2,
 	title: "Chapter 1: Investigating The Earth",
-	icon: {
-		ForgeCaps: {
-			"dungeons_gear:weapon": {
-				lastFiredTime: 0L,
-				fuseShotCounter: 0,
-				crossbowChargeTime: 0,
-				bowChargeTime: 0.0f
-			}
-		},
-		id: "terraqueous:doodad_branch",
-		Count: true
-	},
+	icon: "terraqueous:doodad_branch",
 	default_quest_shape: "",
 	images: [{
 		x: 2.0d,
@@ -30,60 +19,28 @@
 	quests: [
 		{
 			title: "Getting first table...",
-			x: -1.0d,
-			y: 2.0d,
+			x: -2.25d,
+			y: 3.0d,
+			shape: "circle",
 			description: ["I still trying to think about my first workspace to deal with. I'm going to make my first grid from some flint to get my first tools to begin working on my primitive things..."],
-			dependencies: [I;19],
-			size: 2.0d,
+			dependencies: [I;27],
+			size: 1.5d,
 			id: 25,
 			tasks: [{
 				id: 26,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "stone_age:flint_workbench",
-					Count: true
-				}
+				item: "stone_age:flint_workbench"
 			}],
 			rewards: [
 				{
 					id: 30,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "minecraft:torch",
-						Count: true
-					}
+					item: "minecraft:torch"
 				},
 				{
 					id: 31,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "minecraft:apple",
-						Count: true
-					},
+					item: "minecraft:apple",
 					count: 2
 				}
 			]
@@ -91,170 +48,46 @@
 		{
 			title: "Flint Knife is a good knife...",
 			x: -1.5d,
-			y: 3.5d,
-			description: [
-				"To work on this table I need a knife, gonna craft one.",
-				"",
-				"Plain Flint Knife is used to obtain grass."
-			],
-			dependencies: [I;25],
+			y: 1.5d,
+			shape: "circle",
+			description: ["Flint Knife is used to obtain grass, and craft on Flint Table."],
+			dependencies: [I;19],
+			size: 1.5d,
 			id: 27,
 			tasks: [{
 				id: 28,
 				type: "item",
 				title: "Any Flint Knife",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "itemfilters:or",
+					id: "rankine:flint_knife",
 					Count: true,
 					tag: {
-						items: [
-							{
-								id: "stone_age:flint_knife",
-								Count: true,
-								tag: {
-									Damage: 0
-								}
-							},
-							{
-								id: "rankine:flint_knife",
-								Count: true,
-								tag: {
-									Damage: 0
-								}
-							},
-							{
-								id: "silentgear:knife",
-								Count: true,
-								tag: {
-									SGear_UUID: [I;
-										-1487939131,
-										2146716407,
-										-1453590628,
-										-485179680
-									],
-									Damage: 0,
-									SGear_Data: {
-										Construction: {
-											Parts: [
-												{
-													Item: {
-														id: "silentgear:knife_blade",
-														Count: true,
-														tag: {
-															Materials: [{
-																Item: {
-																	id: "minecraft:flint",
-																	Count: true
-																},
-																ID: "silentgear:flint"
-															}]
-														}
-													},
-													ID: "silentgear:knife_blade"
-												},
-												{
-													Item: {
-														id: "silentgear:rod",
-														Count: true,
-														tag: {
-															Materials: [{
-																Item: {
-																	id: "minecraft:air",
-																	Count: true,
-																	tag: {}
-																},
-																ID: "silentgear:wood/rough"
-															}]
-														}
-													},
-													ID: "silentgear:rod"
-												}
-											]
-										},
-										Properties: {
-											ModVersion: "2.4.4+188",
-											Stats: {
-												"silentgear:projectile_speed": 1.0f,
-												"silentgear:harvest_speed": 5.0f,
-												"silentgear:harvest_level": 1.0f,
-												"silentgear:projectile_accuracy": 1.0f,
-												"silentgear:melee_damage": 2.0f,
-												"silentgear:rarity": 1.0f,
-												"silentgear:attack_speed": -1.7f,
-												"silentgear:repair_efficiency": 2.0f,
-												"silentgear:ranged_speed": -0.3f,
-												"silentgear:enchantability": 3.0f,
-												"silentgear:ranged_damage": 1.0f,
-												"silentgear:durability": 120.28f,
-												"silentgear:magic_damage": 0.0f
-											},
-											LockStats: false,
-											Traits: [
-												{
-													Level: 3b,
-													Name: "silentgear:jagged"
-												},
-												{
-													Level: 3b,
-													Name: "silentgear:crude"
-												}
-											]
-										},
-										Rendering: {
-											ModelKey: "knife:knife_blade{flint},rod{wood/rough},"
-										}
-									}
-								}
-							}
-						]
+						Damage: 0
 					}
 				}
 			}],
 			rewards: [{
 				id: 32,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:leather",
-					Count: true
-				}
+				item: "minecraft:leather"
 			}]
 		},
 		{
 			title: "First weapon...",
-			x: -0.5d,
-			y: 3.5d,
+			x: -7.5d,
+			y: 6.5d,
 			description: ["To be secured on this planet I need some sort of weapon right now. What should I craft? A spear? Maybe. A sword? Nevermind..."],
-			dependencies: [I;27],
+			hide_dependency_lines: true,
+			dependencies: [I;
+				25,
+				731
+			],
 			id: 34,
 			tasks: [{
 				id: 35,
 				type: "item",
 				title: "Any Flint Spear",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "itemfilters:or",
 					Count: true,
 					tag: {
@@ -280,39 +113,24 @@
 			rewards: [{
 				id: 105,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:gravel",
-					Count: true
-				},
+				item: "minecraft:gravel",
 				count: 8
 			}]
 		},
 		{
-			x: -1.5d,
+			x: 1.5d,
 			y: 4.5d,
 			description: ["To obtain cobblestone I need some sort of pickaxe, you know. I can mine some using my first Flint Pickaxe."],
-			dependencies: [I;27],
+			hide_dependency_lines: true,
+			dependencies: [I;
+				25,
+				731
+			],
 			id: 37,
 			tasks: [{
 				id: 38,
 				type: "item",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "rankine:flint_pickaxe",
 					Count: true,
 					tag: {
@@ -323,39 +141,24 @@
 			rewards: [{
 				id: 107,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:flint",
-					Count: true
-				}
+				item: "minecraft:flint"
 			}]
 		},
 		{
 			title: "Need wood? Get Fore... no, Flint Axe!",
-			x: -2.5d,
+			x: -4.5d,
 			y: 4.5d,
 			description: ["To get more wood I need to make a tool to break these logs into planks, because it's really hard to break something by hand... I'm already bored by breaking branches by hand into sticks."],
-			dependencies: [I;27],
+			hide_dependency_lines: true,
+			dependencies: [I;
+				25,
+				731
+			],
 			id: 39,
 			tasks: [{
 				id: 40,
 				type: "item",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "rankine:flint_axe",
 					Count: true,
 					tag: {
@@ -366,23 +169,12 @@
 			rewards: [{
 				id: 565,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:torch",
-					Count: true
-				}
+				item: "minecraft:torch"
 			}]
 		},
 		{
 			title: "Snowy Trees",
-			x: -2.5d,
+			x: -4.5d,
 			y: 5.5d,
 			description: [
 				"All trees are cold right now. They're looking like ice... I cannot punch them with hand, but flint axe should resolve my problem since it's better than just my hand.",
@@ -395,14 +187,6 @@
 				type: "item",
 				title: "Any minecraft:logs",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "itemfilters:tag",
 					Count: true,
 					tag: {
@@ -413,40 +197,22 @@
 			rewards: [{
 				id: 568,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:oak_log",
-					Count: true
-				},
+				item: "minecraft:oak_log",
 				count: 8
 			}]
 		},
 		{
 			title: "Crooky Crook",
-			x: -0.5d,
+			x: -2.5d,
 			y: 4.5d,
 			description: ["Crook allows you to get more saplings and sticks from leaves and find some silkworms to obtain strings in near future and first food."],
-			dependencies: [I;27],
+			hide_dependency_lines: true,
+			dependencies: [I;25],
 			id: 43,
 			tasks: [{
 				id: 44,
 				type: "item",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "exnihilosequentia:crook_wood",
 					Count: true,
 					tag: {
@@ -457,55 +223,25 @@
 			rewards: [{
 				id: 319,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:apple",
-					Count: true
-				}
+				item: "minecraft:apple"
 			}]
 		},
 		{
-			x: 0.5d,
-			y: 5.5d,
+			x: -1.5d,
+			y: 4.5d,
 			description: ["Silkworms are my good friends right now. I can use them to turn leaves into strings or eat them."],
 			dependencies: [I;43],
 			id: 45,
 			tasks: [{
 				id: 46,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "exnihilosequentia:silkworm",
-					Count: true
-				},
+				item: "exnihilosequentia:silkworm",
 				count: 16L
 			}],
 			rewards: [{
 				id: 108,
 				type: "item",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "exnihilosequentia:crook_bone",
 					Count: true,
 					tag: {
@@ -515,112 +251,62 @@
 			}]
 		},
 		{
-			x: -0.5d,
-			y: 5.5d,
+			x: 0.5d,
+			y: 6.75d,
 			description: ["They're looking delicious, but still not good as steaks..."],
+			hide_dependency_lines: true,
 			dependencies: [I;
 				45,
 				57
 			],
+			size: 0.5d,
 			id: 47,
 			tasks: [{
 				id: 48,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "exnihilosequentia:cooked_silkworm",
-					Count: true
-				},
+				item: "exnihilosequentia:cooked_silkworm",
 				count: 4L
 			}],
 			rewards: [{
 				id: 522,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:carrot",
-					Count: true
-				},
+				item: "minecraft:carrot",
 				count: 2
 			}]
 		},
 		{
 			title: "String of the Day",
-			x: 0.5d,
-			y: 4.5d,
+			x: -1.5d,
+			y: 5.5d,
 			description: ["I can get strings by breaking leaves with crook."],
 			dependencies: [I;45],
 			id: 49,
 			tasks: [{
 				id: 50,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:string",
-					Count: true
-				},
+				item: "minecraft:string",
 				count: 32L
 			}],
 			rewards: [{
 				id: 111,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "stone_age:cooked_mammoth_meat",
-					Count: true
-				}
+				item: "stone_age:cooked_mammoth_meat"
 			}]
 		},
 		{
-			x: 4.5d,
-			y: 7.5d,
+			x: -2.0d,
+			y: 10.5d,
 			description: [
 				"I can use Water Strainers to catch fishes while I'm away from the lake, but it requires more strength and better table than mine...",
 				"NOTE: While this quest is present here, you cannot craft Strainer Base without getting Crafting Table."
 			],
-			dependencies: [I;144],
+			dependencies: [I;170],
 			id: 51,
 			tasks: [
 				{
 					id: 52,
 					type: "item",
 					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
 						id: "waterstrainer:strainer_fisherman",
 						Count: true,
 						tag: {
@@ -631,80 +317,36 @@
 				{
 					id: 116,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "waterstrainer:strainer_base",
-						Count: true
-					}
+					item: "waterstrainer:strainer_base"
 				}
 			],
 			rewards: [{
 				id: 115,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "thermal:copper_coin",
-					Count: true
-				}
+				item: "thermal:copper_coin"
 			}]
 		},
 		{
 			title: "Cods and others in the lake",
-			x: 0.5d,
-			y: 2.5d,
+			x: -2.5d,
+			y: 6.5d,
 			description: ["Uh, they're quick, but it's better than silkworms atleast."],
 			dependencies: [I;55],
 			id: 53,
 			tasks: [{
 				id: 54,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:cod",
-					Count: true
-				}
+				item: "minecraft:cod"
 			}],
 			rewards: [{
 				id: 318,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "aquaculture:fish_fillet_cooked",
-					Count: true
-				}
+				item: "aquaculture:fish_fillet_cooked"
 			}]
 		},
 		{
-			x: 0.5d,
-			y: 3.5d,
+			x: -2.5d,
+			y: 5.5d,
 			description: ["I can break some ice to get a hole in the lake to get some fish... I need something to catch cods..."],
 			dependencies: [I;49],
 			id: 55,
@@ -712,14 +354,6 @@
 				id: 56,
 				type: "item",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "minecraft:fishing_rod",
 					Count: true,
 					tag: {
@@ -731,14 +365,6 @@
 				id: 114,
 				type: "item",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "minecraft:fishing_rod",
 					Count: true,
 					tag: {
@@ -748,103 +374,55 @@
 			}]
 		},
 		{
-			x: -1.5d,
-			y: 5.5d,
+			x: 1.5d,
+			y: 7.0d,
+			shape: "hexagon",
 			description: ["Another thing I need to make. It smelts items."],
-			dependencies: [I;37],
+			dependencies: [I;756],
+			size: 2.0d,
 			id: 57,
 			tasks: [{
 				id: 58,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:furnace",
-					Count: true
-				}
+				item: "minecraft:furnace"
 			}],
 			rewards: [{
 				id: 117,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:torch",
-					Count: true
-				}
+				item: "minecraft:torch"
 			}]
 		},
 		{
 			title: "Monsters... they're here!",
-			x: -2.5d,
-			y: 2.5d,
+			x: -7.0d,
+			y: 7.5d,
 			description: ["This planet is full with monsters and other creatures such as dragons and other things... A lot have changed here from year 2077... Also I saw some skeletons on frozen dirt and I can collect bones."],
-			dependencies: [I;25],
+			dependencies: [I;34],
 			id: 59,
 			tasks: [{
 				id: 60,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:bone",
-					Count: true
-				}
+				item: "minecraft:bone"
 			}],
 			rewards: [{
 				id: 91,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:bone_meal",
-					Count: true
-				},
+				item: "minecraft:bone_meal",
 				count: 3
 			}]
 		},
 		{
-			x: -3.5d,
-			y: 2.5d,
+			title: "Shears",
+			x: -9.0d,
+			y: 7.5d,
 			description: ["Shears allows to get leaves for first water or grass for primitive tools and first bed."],
 			dependencies: [I;59],
 			id: 61,
 			tasks: [{
 				id: 62,
 				type: "item",
+				title: "Shears",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "stone_age:bone_shears",
 					Count: true,
 					tag: {
@@ -855,373 +433,182 @@
 			rewards: [{
 				id: 93,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:bread",
-					Count: true
-				}
+				item: "minecraft:bread"
 			}]
 		},
 		{
-			x: -4.5d,
-			y: 3.5d,
+			x: -7.0d,
+			y: 8.5d,
 			description: ["Drying Racks allows you to dry grass. And dry Rotten Flesh to make leather if you don't want to kill animals. That's all."],
-			dependencies: [I;61],
+			dependencies: [I;59],
 			id: 63,
 			tasks: [{
 				id: 64,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "stone_age:drying_rack",
-					Count: true
-				}
+				item: "stone_age:drying_rack"
 			}],
 			rewards: [{
 				id: 320,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "stone_age:drying_rack",
-					Count: true
-				}
+				item: "stone_age:drying_rack"
 			}]
 		},
 		{
-			x: -4.5d,
-			y: 7.5d,
+			x: -6.0d,
+			y: 8.5d,
 			description: ["Practically, this is default bed, but different texture."],
 			dependencies: [I;
 				63,
-				79
+				81
 			],
 			id: 65,
 			tasks: [{
 				id: 66,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "stone_age:dried_grass_bed",
-					Count: true
-				}
+				item: "stone_age:dried_grass_bed"
 			}],
 			rewards: [
 				{
 					id: 98,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "thermal:strawberry",
-						Count: true
-					},
+					item: "thermal:strawberry",
 					count: 3
 				},
 				{
 					id: 322,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "minecraft:oak_log",
-						Count: true
-					},
+					item: "minecraft:oak_log",
 					count: 8
 				}
 			]
 		},
 		{
-			x: -5.5d,
-			y: 3.5d,
+			x: -7.0d,
+			y: 9.5d,
 			description: ["It is required for bone tools and that's all. Yeah..."],
 			dependencies: [I;63],
 			id: 67,
 			tasks: [{
 				id: 68,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "stone_age:grass_lead",
-					Count: true
-				}
+				item: "stone_age:grass_lead"
 			}],
 			rewards: [{
 				id: 321,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "stone_age:grass_lead",
-					Count: true
-				},
+				item: "stone_age:grass_lead",
 				count: 2
 			}]
 		},
 		{
 			title: "Bone Tools",
-			x: -6.5d,
-			y: 3.5d,
+			x: -7.0d,
+			y: 10.5d,
 			description: ["Bone Tools have more durability and faster than Flint ones, but harder to make."],
 			dependencies: [I;67],
 			id: 69,
-			tasks: [
-				{
-					id: 70,
-					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
+			tasks: [{
+				id: 70,
+				type: "item",
+				title: "Any Bone Tool",
+				item: {
+					id: "itemfilters:or",
+					Count: true,
+					tag: {
+						items: [
+							{
+								id: "stone_age:bone_pickaxe",
+								Count: true,
+								tag: {
+									Damage: 0,
+									additionalModifiers: {}
+								}
+							},
+							{
+								id: "stone_age:bone_axe",
+								Count: true,
+								tag: {
+									Damage: 0,
+									additionalModifiers: {}
+								}
+							},
+							{
+								id: "stone_age:bone_shovel",
+								Count: true,
+								tag: {
+									Damage: 0,
+									additionalModifiers: {}
+								}
+							},
+							{
+								id: "stone_age:bone_hoe",
+								Count: true,
+								tag: {
+									Damage: 0,
+									additionalModifiers: {}
+								}
+							},
+							{
+								id: "stone_age:bone_sword",
+								Count: true,
+								tag: {
+									Damage: 0,
+									additionalModifiers: {}
+								}
 							}
-						},
-						id: "stone_age:bone_pickaxe",
-						Count: true,
-						tag: {
-							Damage: 0,
-							additionalModifiers: {}
-						}
-					}
-				},
-				{
-					id: 99,
-					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "stone_age:bone_axe",
-						Count: true,
-						tag: {
-							Damage: 0,
-							additionalModifiers: {}
-						}
-					}
-				},
-				{
-					id: 103,
-					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "stone_age:bone_hoe",
-						Count: true,
-						tag: {
-							Damage: 0,
-							additionalModifiers: {}
-						}
+						]
 					}
 				}
-			],
-			rewards: [
-				{
-					id: 97,
-					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "pickletweaks:flint_boots",
-						Count: true,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: 337,
-					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "pickletweaks:flint_helmet",
-						Count: true,
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
+			}]
 		},
 		{
-			x: -1.5d,
-			y: 6.5d,
+			x: 1.5d,
+			y: 8.75d,
 			description: ["Stone is needed for my next tier of tools and for first chests."],
 			dependencies: [I;57],
+			size: 1.5d,
 			id: 73,
 			tasks: [{
 				id: 74,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:stone",
-					Count: true
-				},
+				item: "minecraft:stone",
 				count: 4L
 			}],
 			rewards: [
 				{
 					id: 118,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "minecraft:stone",
-						Count: true
-					},
+					item: "minecraft:stone",
 					count: 4
 				},
 				{
 					id: 336,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "minecraft:cobblestone",
-						Count: true
-					},
+					item: "minecraft:cobblestone",
 					count: 4
 				}
 			]
 		},
 		{
-			x: -0.5d,
-			y: 6.5d,
+			x: 1.5d,
+			y: 11.0d,
 			description: ["It allows me to store items. 15 slots. Nothing more interesting."],
-			dependencies: [I;73],
+			dependencies: [I;77],
 			id: 75,
 			tasks: [{
 				id: 76,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "stone_age:stone_chest",
-					Count: true
-				}
+				item: "stone_age:stone_chest"
 			}],
 			rewards: [{
 				id: 141,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "thermal:copper_coin",
-					Count: true
-				}
+				item: "thermal:copper_coin"
 			}]
 		},
 		{
-			x: -0.5d,
-			y: 7.5d,
+			x: 1.5d,
+			y: 10.0d,
 			description: ["Stone Hammer allows me to break blocks and wood on Tree Stumps. I can make slabs and planks with this hammer!"],
 			dependencies: [I;73],
 			id: 77,
@@ -1229,14 +616,6 @@
 				id: 78,
 				type: "item",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "stone_age:stone_hammer",
 					Count: true,
 					tag: {
@@ -1248,14 +627,6 @@
 				id: 142,
 				type: "item",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "stone_age:stone_hammer",
 					Count: true,
 					tag: {
@@ -1266,79 +637,38 @@
 			}]
 		},
 		{
-			x: -1.5d,
-			y: 7.5d,
+			x: -4.5d,
+			y: 6.75d,
+			shape: "hexagon",
 			description: ["Stump is required for me, because cold dirt doesn't allow me to break blocks with hammer as it would be on this stump."],
-			dependencies: [I;77],
+			dependencies: [I;41],
+			size: 1.5d,
 			id: 79,
 			tasks: [{
 				id: 80,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "stone_age:tree_stump",
-					Count: true
-				}
+				item: "stone_age:tree_stump"
 			}],
 			rewards: [{
 				id: 343,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:oak_log",
-					Count: true
-				},
+				item: "minecraft:oak_log",
 				count: 4
 			}]
 		},
 		{
-			icon: {
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L,
-						fuseShotCounter: 0,
-						crossbowChargeTime: 0,
-						bowChargeTime: 0.0f
-					}
-				},
-				id: "minecraft:oak_planks",
-				Count: true
-			},
-			x: 0.5d,
-			y: 7.5d,
+			icon: "minecraft:oak_planks",
+			x: -4.5d,
+			y: 9.0d,
 			description: ["I can get planks easily by punching these logs on Tree Stump with my axe, nothing special, but a bit intensive process."],
-			dependencies: [I;
-				79,
-				41
-			],
+			dependencies: [I;79],
+			size: 2.0d,
 			id: 81,
 			tasks: [{
 				id: 82,
 				type: "item",
 				title: "Planks and more to come!",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "itemfilters:tag",
 					Count: true,
 					tag: {
@@ -1350,105 +680,51 @@
 			rewards: [{
 				id: 335,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:oak_log",
-					Count: true
-				},
+				item: "minecraft:oak_log",
 				count: 8
 			}]
 		},
 		{
-			x: -2.5d,
-			y: 3.5d,
+			x: -8.0d,
+			y: 7.5d,
+			shape: "hexagon",
 			description: ["Tanning is a way to make leather better and tanned leather is needed for backpacks."],
-			dependencies: [I;27],
+			dependencies: [I;34],
 			id: 83,
 			tasks: [{
 				id: 84,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "stone_age:tanning_rack",
-					Count: true
-				}
+				item: "stone_age:tanning_rack"
 			}],
 			rewards: [{
 				id: 524,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:leather",
-					Count: true
-				}
+				item: "minecraft:leather"
 			}]
 		},
 		{
 			title: "Tanned Leather",
-			x: -3.5d,
-			y: 3.5d,
+			x: -8.0d,
+			y: 8.5d,
 			description: ["Get some leather to make something."],
 			dependencies: [I;83],
 			id: 85,
 			tasks: [{
 				id: 86,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:leather",
-					Count: true
-				},
+				item: "minecraft:leather",
 				count: 2L
 			}],
 			rewards: [{
 				id: 323,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:cooked_beef",
-					Count: true
-				},
+				item: "minecraft:cooked_beef",
 				count: 2
 			}]
 		},
 		{
-			x: -3.5d,
-			y: 4.5d,
+			x: -9.0d,
+			y: 8.5d,
 			description: ["Lead allows animals to move to my base."],
 			dependencies: [I;85],
 			id: 87,
@@ -1456,40 +732,18 @@
 				id: 88,
 				type: "item",
 				title: "Lead",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:lead",
-					Count: true
-				},
+				item: "minecraft:lead",
 				count: 2L
 			}],
 			rewards: [{
 				id: 101,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:lead",
-					Count: true
-				}
+				item: "minecraft:lead"
 			}]
 		},
 		{
-			x: -3.5d,
-			y: 5.5d,
+			x: -9.0d,
+			y: 9.5d,
 			description: ["This backpack allows me to have more items. It have 15 pockets for various items!"],
 			dependencies: [I;87],
 			id: 89,
@@ -1497,14 +751,6 @@
 				id: 90,
 				type: "item",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "stone_age:backpack",
 					Count: true,
 					tag: {
@@ -1581,57 +827,28 @@
 				{
 					id: 102,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "minecraft:leather",
-						Count: true
-					},
+					item: "minecraft:leather",
 					count: 4
 				},
 				{
 					id: 324,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "minecraft:bone",
-						Count: true
-					},
+					item: "minecraft:bone",
 					count: 4
 				}
 			]
 		},
 		{
-			x: -4.5d,
+			x: 1.0d,
 			y: 2.5d,
 			description: ["Sometimes I need more flint that I can make right now, so this mesh can solve my problems with flint."],
-			dependencies: [I;61],
+			hide_dependency_lines: true,
+			dependencies: [I;27],
 			id: 112,
 			tasks: [{
 				id: 113,
 				type: "item",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "pickletweaks:grass_fiber_mesh",
 					Count: true,
 					tag: {
@@ -1642,64 +859,31 @@
 			rewards: [{
 				id: 130,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "stone_age:mouflon_meat",
-					Count: true
-				}
+				item: "stone_age:mouflon_meat"
 			}]
 		},
 		{
-			x: -5.5d,
-			y: 7.5d,
+			x: -10.5d,
+			y: 5.5d,
 			description: ["Clay is a material, which allows me to make my first steps into ceramics and something better than just wooden and flint stuff around me."],
-			dependencies: [I;121],
+			dependencies: [I;743],
 			id: 119,
 			tasks: [{
 				id: 120,
 				type: "item",
 				title: "Clay. It's cool.",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:clay_ball",
-					Count: true
-				},
+				item: "minecraft:clay_ball",
 				count: 64L
 			}],
 			rewards: [{
 				id: 131,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:clay",
-					Count: true
-				}
+				item: "minecraft:clay"
 			}]
 		},
 		{
-			x: -5.5d,
-			y: 4.5d,
+			x: -8.0d,
+			y: 10.5d,
 			description: ["Bones are better than flint and they can atleast mine some cold dirt underneath. Also I can mine some of sand or clay with it!"],
 			dependencies: [I;67],
 			id: 121,
@@ -1707,14 +891,6 @@
 				id: 122,
 				type: "item",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "stone_age:bone_shovel",
 					Count: true,
 					tag: {
@@ -1726,104 +902,49 @@
 			rewards: [{
 				id: 125,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:bone_block",
-					Count: true
-				},
+				item: "minecraft:bone_block",
 				count: 2
 			}]
 		},
 		{
-			x: -6.5d,
-			y: 6.5d,
+			x: -11.5d,
+			y: 4.5d,
 			description: ["This is my first way to move liquids from one place to another. It can move water without any problems, but lava melts my clay bucket very quickly, so I can only move lava once..."],
 			dependencies: [I;126],
 			id: 123,
 			tasks: [{
 				id: 124,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "ceramics:clay_bucket",
-					Count: true
-				}
+				item: "ceramics:clay_bucket"
 			}],
 			rewards: [{
 				id: 140,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "thermal:copper_coin",
-					Count: true
-				}
+				item: "thermal:copper_coin"
 			}]
 		},
 		{
 			title: "Clay Plates",
-			x: -6.5d,
-			y: 7.5d,
+			x: -11.5d,
+			y: 5.5d,
 			description: ["Clay is too soft to use in something. I need to make a clay plates and burn them in the furnace to make them a bit harder than before. With these plates we can make more things like bucket and armor"],
 			dependencies: [I;119],
 			id: 126,
 			tasks: [{
 				id: 127,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "ceramics:clay_plate",
-					Count: true
-				},
+				item: "ceramics:clay_plate",
 				count: 8L
 			}],
 			rewards: [{
 				id: 134,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "ceramics:clay_plate",
-					Count: true
-				}
+				item: "ceramics:clay_plate"
 			}]
 		},
 		{
-			x: -7.5d,
-			y: 7.5d,
+			x: -11.5d,
+			y: 6.5d,
 			description: ["This armor allows me to live atleast longer, when I try to defeat these monsters."],
 			dependencies: [I;126],
 			id: 132,
@@ -1832,14 +953,6 @@
 					id: 135,
 					type: "item",
 					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
 						id: "ceramics:clay_helmet",
 						Count: true,
 						tag: {
@@ -1851,14 +964,6 @@
 					id: 136,
 					type: "item",
 					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
 						id: "ceramics:clay_chestplate",
 						Count: true,
 						tag: {
@@ -1870,14 +975,6 @@
 					id: 137,
 					type: "item",
 					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
 						id: "ceramics:clay_leggings",
 						Count: true,
 						tag: {
@@ -1889,14 +986,6 @@
 					id: 138,
 					type: "item",
 					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
 						id: "ceramics:clay_boots",
 						Count: true,
 						tag: {
@@ -1908,45 +997,25 @@
 			rewards: [{
 				id: 139,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:clay_ball",
-					Count: true
-				},
+				item: "minecraft:clay_ball",
 				count: 16
 			}]
 		},
 		{
-			x: 5.5d,
-			y: 7.5d,
+			x: -4.5d,
+			y: 11.0d,
+			shape: "hexagon",
 			description: [
 				"Now I can have a better table, than just flint one on the floor. It's even much better than previous one. It also allows me to make more items!",
 				"NOTE: You need untouched Stone Hammer to make a crafting table. If you have used hammer atleast once - it can't be used for this. CraftTweaker doesn't support any damage as int :("
 			],
 			dependencies: [I;81],
+			size: 2.0d,
 			id: 144,
 			tasks: [{
 				id: 145,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:crafting_table",
-					Count: true
-				}
+				item: "minecraft:crafting_table"
 			}],
 			rewards: [
 				{
@@ -1962,14 +1031,6 @@
 					id: 507,
 					type: "item",
 					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
 						id: "minecraft:stone_pickaxe",
 						Count: true,
 						tag: {
@@ -1981,14 +1042,6 @@
 					id: 508,
 					type: "item",
 					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
 						id: "minecraft:stone_axe",
 						Count: true,
 						tag: {
@@ -2000,8 +1053,8 @@
 		},
 		{
 			title: "Sail on... ice?",
-			x: 0.5d,
-			y: 6.5d,
+			x: -6.0d,
+			y: 9.5d,
 			description: ["While on this planet there are a lot of lakes and rivers, you cannot just go and sail to the other lands... but you can place boats on ice and move faster, but controlling this boat is a bit worse."],
 			dependencies: [I;81],
 			id: 148,
@@ -2010,14 +1063,6 @@
 				type: "item",
 				title: "Any minecraft:boats",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "itemfilters:tag",
 					Count: true,
 					tag: {
@@ -2029,14 +1074,6 @@
 				id: 338,
 				type: "item",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "stone_age:stone_shovel",
 					Count: true,
 					tag: {
@@ -2048,8 +1085,8 @@
 		},
 		{
 			title: "Eins, Zwei, Dry",
-			x: 4.5d,
-			y: 6.5d,
+			x: -3.0d,
+			y: 12.0d,
 			description: ["Drying Racks allows you to dry grass. And dry Rotten Flesh to make leather if you don't want to kill animals, also it is needed for jerky from fishes and many more things can be made by drying."],
 			dependencies: [I;144],
 			id: 150,
@@ -2058,14 +1095,6 @@
 				type: "item",
 				title: "Any Drying Rack (Silent's Mechanisms)",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "itemfilters:tag",
 					Count: true,
 					tag: {
@@ -2078,14 +1107,6 @@
 				id: 430,
 				type: "item",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "minecraft:stone_axe",
 					Count: true,
 					tag: {
@@ -2095,246 +1116,114 @@
 			}]
 		},
 		{
-			x: 6.5d,
-			y: 6.5d,
+			x: -2.0d,
+			y: 11.5d,
 			description: ["I can dry rotten flesh on drying racks for some time and I'll get Zombie Leather."],
 			dependencies: [I;150],
 			id: 152,
 			tasks: [{
 				id: 153,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "silents_mechanisms:zombie_leather",
-					Count: true
-				}
+				item: "silents_mechanisms:zombie_leather"
 			}],
 			rewards: [{
 				id: 420,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "survive:purified_water_bowl",
-					Count: true
-				}
+				item: "survive:purified_water_bowl"
 			}]
 		},
 		{
-			x: 6.5d,
-			y: 7.5d,
+			x: -1.0d,
+			y: 11.5d,
 			description: ["Handy Crafting Table is a good thing. I can craft my items wherever I want to. It's useful when I try to craft something far away from home..."],
 			dependencies: [I;152],
 			id: 154,
 			tasks: [{
 				id: 155,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "extendedcrafting:handheld_table",
-					Count: true
-				}
+				item: "extendedcrafting:handheld_table"
 			}],
 			rewards: [{
 				id: 418,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "silents_mechanisms:zombie_leather",
-					Count: true
-				},
+				item: "silents_mechanisms:zombie_leather",
 				count: 2
 			}]
 		},
 		{
-			x: 4.5d,
-			y: 5.5d,
+			x: -2.0d,
+			y: 12.5d,
 			description: ["I can eat dried food too. Yes, fish + drying rack = cod/salmon jerky."],
 			dependencies: [I;150],
 			id: 156,
 			tasks: [{
 				id: 157,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "silents_mechanisms:cod_jerky",
-					Count: true
-				}
+				item: "silents_mechanisms:cod_jerky"
 			}],
 			rewards: [{
 				id: 519,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "silents_mechanisms:salmon_jerky",
-					Count: true
-				}
+				item: "silents_mechanisms:salmon_jerky"
 			}]
 		},
 		{
-			x: 7.5d,
-			y: 7.5d,
+			x: -3.0d,
+			y: 11.0d,
 			description: ["Chests allows me to finally store more items outside my pockets and small stone chests. Isn't this nice?"],
 			dependencies: [I;144],
 			id: 162,
 			tasks: [{
 				id: 163,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:chest",
-					Count: true
-				}
+				item: "minecraft:chest"
 			}],
 			rewards: [{
 				id: 419,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:chest",
-					Count: true
-				},
+				item: "minecraft:chest",
 				count: 3
 			}]
 		},
 		{
-			x: 1.5d,
-			y: 6.5d,
+			x: -3.0d,
+			y: 9.0d,
 			description: ["Sawdust is a helpful substance from wood logs. Sawdust can be obtained by punching half of the plank on tree stump, so I can move to make my first paper!"],
-			dependencies: [I;79],
+			dependencies: [I;81],
 			id: 164,
 			tasks: [{
 				id: 165,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "immersiveengineering:dust_wood",
-					Count: true
-				}
+				item: "immersiveengineering:dust_wood"
 			}],
 			rewards: [{
 				id: 339,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:oak_slab",
-					Count: true
-				},
+				item: "minecraft:oak_slab",
 				count: 6
 			}]
 		},
 		{
 			title: "First letter, first paper...",
-			x: 2.5d,
-			y: 6.5d,
+			x: -2.0d,
+			y: 8.5d,
 			description: ["Paper is a good material for making books, different types of paper for my first machinery and this paper can be used for blueprints later..."],
 			dependencies: [I;164],
 			id: 166,
 			tasks: [{
 				id: 167,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:paper",
-					Count: true
-				},
+				item: "minecraft:paper",
 				count: 4L
 			}],
 			rewards: [{
 				id: 340,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:book",
-					Count: true
-				}
+				item: "minecraft:book"
 			}]
 		},
 		{
-			x: 3.5d,
+			x: 7.0d,
 			y: 6.5d,
 			description: [
 				"I have an interesting file in my cyberbrain called nature.txt. Maybe I can write it on paper to use something from it? Hmmm... Nature's Aura? Sounds like a good story about nature... or I can learn something helpful from this.",
@@ -2342,20 +1231,13 @@
 				"Message from authors of this modpack: This is a full in-game guide for Nature's Aura mod. Even this modpack being mostly based on tech and exploration, a bit of magic still persists, but it's mainly based on biosphere of this cold planet Earth.",
 				"Trees obtained special aura, which can be used to make stronger materials and for interesting mechanisms..."
 			],
+			hide_dependency_lines: true,
 			dependencies: [I;166],
 			id: 168,
 			tasks: [{
 				id: 169,
 				type: "item",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "patchouli:guide_book",
 					Count: true,
 					tag: {
@@ -2367,42 +1249,20 @@
 				{
 					id: 341,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "minecraft:bone_meal",
-						Count: true
-					},
+					item: "minecraft:bone_meal",
 					count: 4
 				},
 				{
 					id: 342,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "minecraft:golden_carrot",
-						Count: true
-					}
+					item: "minecraft:golden_carrot"
 				}
 			]
 		},
 		{
 			title: "Looking for Resources?",
-			x: 5.5d,
-			y: 6.5d,
+			x: -3.0d,
+			y: 10.0d,
 			description: ["Survivalist's Net allows you to get iron and gold for your future needs. You cannot just get ores and smelt them, because they're soooo cold and needs to be crushed first."],
 			dependencies: [I;144],
 			id: 170,
@@ -2410,14 +1270,6 @@
 				id: 171,
 				type: "item",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "waterstrainer:strainer_survivalist",
 					Count: true,
 					tag: {
@@ -2429,189 +1281,87 @@
 				{
 					id: 517,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "waterstrainer:strainer_base",
-						Count: true
-					}
+					item: "waterstrainer:strainer_base"
 				},
 				{
 					id: 518,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "aquaculture:fish_fillet_cooked",
-						Count: true
-					},
+					item: "aquaculture:fish_fillet_cooked",
 					count: 4
 				}
 			]
 		},
 		{
-			x: 5.5d,
-			y: 5.5d,
+			x: -2.0d,
+			y: 9.5d,
 			description: ['I need a lot of gold to begin my researching on interesting book called "Nature\'s Aura"'],
 			dependencies: [I;170],
 			id: 172,
 			tasks: [{
 				id: 173,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:gold_nugget",
-					Count: true
-				}
+				item: "minecraft:gold_nugget"
 			}],
 			rewards: [{
 				id: 514,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:gold_nugget",
-					Count: true
-				},
+				item: "minecraft:gold_nugget",
 				count: 17
 			}]
 		},
 		{
 			title: "Gold, More Gold and Leaves...",
-			x: 2.5d,
+			x: 7.5d,
 			y: 5.5d,
 			description: [
 				"Golden leaves can help me to get more magical aspects from trees and bushes. It can have a lot of potential of making stonger materials instead of wood or stone...",
 				"I need some Brilliant Fiber, so I can place it on leaves to make them stronger, than now"
 			],
-			dependencies: [I;
-				172,
-				168
-			],
+			dependencies: [I;168],
 			id: 174,
 			tasks: [{
 				id: 175,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "naturesaura:gold_leaf",
-					Count: true
-				},
+				item: "naturesaura:gold_leaf",
 				count: 2L
 			}],
 			rewards: [
 				{
 					id: 497,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "naturesaura:gold_leaf",
-						Count: true
-					},
+					item: "naturesaura:gold_leaf",
 					count: 4
 				},
 				{
 					id: 498,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "naturesaura:gold_fiber",
-						Count: true
-					},
+					item: "naturesaura:gold_fiber",
 					count: 4
 				}
 			]
 		},
 		{
 			title: "Infused Joyness",
-			x: 1.5d,
-			y: 4.5d,
+			x: 4.5d,
+			y: 6.0d,
 			description: ["My first attempt to make this infusion was a bit interesting. I made a Totem of Joy. It's full of something glowing in this totem. Maybe it really can give me some sort of joyness? "],
 			dependencies: [I;178],
 			id: 176,
 			tasks: [{
 				id: 177,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "naturesaura:token_joy",
-					Count: true
-				}
+				item: "naturesaura:token_joy"
 			}],
 			rewards: [{
 				id: 513,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:iron_ingot",
-					Count: true
-				}
+				item: "minecraft:iron_ingot"
 			}]
 		},
 		{
 			title: "First Infusions...",
-			x: 1.5d,
-			y: 5.5d,
+			x: 7.5d,
+			y: 4.5d,
 			description: [
 				'Wooden Stands allow me to make some sort of "nature infusion", so I can begin doing something better than just throwing stone into wood.',
 				"Wooden Stands must be placed like a circle, I saw an image in the book about that, so I can build it step by step and I need 8 of them... oh, I have found somewhere 4 of them, don't know where I got them, but I need to craft only 4 stands."
@@ -2621,60 +1371,27 @@
 			tasks: [{
 				id: 179,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "naturesaura:wood_stand",
-					Count: true
-				},
+				item: "naturesaura:wood_stand",
 				count: 4L
 			}],
 			rewards: [
 				{
 					id: 499,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "naturesaura:wood_stand",
-						Count: true
-					},
+					item: "naturesaura:wood_stand",
 					count: 4
 				},
 				{
 					id: 500,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "naturesaura:gold_powder",
-						Count: true
-					},
+					item: "naturesaura:gold_powder",
 					count: 8
 				}
 			]
 		},
 		{
 			title: "Collecting Aura",
-			x: 3.5d,
+			x: 6.5d,
 			y: 5.5d,
 			description: ['Mystical book told me that there is a lot of "nature aura" around trees and other nature things. I made small empty bottles to get some of it. Book told me I need a lot of this. Okay...'],
 			dependencies: [I;168],
@@ -2683,14 +1400,6 @@
 				id: 181,
 				type: "item",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "naturesaura:aura_bottle",
 					Count: true,
 					tag: {
@@ -2702,14 +1411,6 @@
 				id: 496,
 				type: "item",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "naturesaura:aura_bottle",
 					Count: true,
 					tag: {
@@ -2720,8 +1421,8 @@
 			}]
 		},
 		{
-			x: 2.5d,
-			y: 4.5d,
+			x: 4.5d,
+			y: 5.0d,
 			description: ["Altar of Nature... Sounds epic, but isn't really interesting as of right now, because I need a bit more resources to enhance them. I can infuse Iron and Gold, but it requires a lot of aura and these ingots, that I need to save to progress!"],
 			dependencies: [I;
 				176,
@@ -2731,90 +1432,35 @@
 			tasks: [{
 				id: 183,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "naturesaura:nature_altar",
-					Count: true
-				}
+				item: "naturesaura:nature_altar"
 			}],
 			rewards: [{
 				id: 521,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:iron_ingot",
-					Count: true
-				}
+				item: "minecraft:iron_ingot"
 			}]
 		},
 		{
-			x: 2.5d,
-			y: 3.5d,
+			x: 7.0d,
+			y: 2.5d,
 			description: ["Infusing Iron is an interesting process. Pushing iron through nature's aura makes this ingot way better and useable for tools and armor"],
 			dependencies: [I;182],
 			id: 184,
 			tasks: [{
 				id: 185,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "naturesaura:infused_iron",
-					Count: true
-				}
+				item: "naturesaura:infused_iron"
 			}],
 			rewards: [
 				{
 					id: 525,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "naturesaura:infused_iron",
-						Count: true
-					}
+					item: "naturesaura:infused_iron"
 				},
 				{
 					id: 526,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "naturesaura:gold_leaf",
-						Count: true
-					}
+					item: "naturesaura:gold_leaf"
 				},
 				{
 					id: 527,
@@ -2823,62 +1469,32 @@
 			]
 		},
 		{
-			x: 1.5d,
-			y: 3.5d,
+			x: 4.5d,
+			y: 4.0d,
 			description: ["Ancient trees are better than trees on frozen Earth and this tree have strong magical ability to be way stronger... I can use this type of wood for something heavier!"],
 			dependencies: [I;178],
 			id: 188,
 			tasks: [{
 				id: 189,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "naturesaura:ancient_sapling",
-					Count: true
-				}
+				item: "naturesaura:ancient_sapling"
 			}],
 			rewards: [{
 				id: 523,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:bone_meal",
-					Count: true
-				},
+				item: "minecraft:bone_meal",
 				count: 4
 			}]
 		},
 		{
 			icon: {
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L,
-						fuseShotCounter: 0,
-						crossbowChargeTime: 0,
-						bowChargeTime: 0.0f
-					}
-				},
 				id: "naturesaura:infused_iron_chest",
 				Count: true,
 				tag: {
 					Damage: 0
 				}
 			},
-			x: 1.5d,
+			x: 4.5d,
 			y: 2.5d,
 			description: ["After tons of infusions I can make a lot of Infused Iron and make my first good armor!"],
 			dependencies: [I;
@@ -2891,14 +1507,6 @@
 					id: 285,
 					type: "item",
 					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
 						id: "naturesaura:infused_iron_helmet",
 						Count: true,
 						tag: {
@@ -2910,14 +1518,6 @@
 					id: 286,
 					type: "item",
 					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
 						id: "naturesaura:infused_iron_chest",
 						Count: true,
 						tag: {
@@ -2929,14 +1529,6 @@
 					id: 287,
 					type: "item",
 					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
 						id: "naturesaura:infused_iron_pants",
 						Count: true,
 						tag: {
@@ -2948,14 +1540,6 @@
 					id: 288,
 					type: "item",
 					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
 						id: "naturesaura:infused_iron_shoes",
 						Count: true,
 						tag: {
@@ -2968,48 +1552,18 @@
 				{
 					id: 295,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "minecraft:iron_ore",
-						Count: true
-					},
+					item: "minecraft:iron_ore",
 					count: 16
 				},
 				{
 					id: 296,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "naturesaura:color_changer",
-						Count: true
-					}
+					item: "naturesaura:color_changer"
 				}
 			]
 		},
 		{
 			icon: {
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L,
-						fuseShotCounter: 0,
-						crossbowChargeTime: 0,
-						bowChargeTime: 0.0f
-					}
-				},
 				id: "naturesaura:infused_iron_pickaxe",
 				Count: true,
 				tag: {
@@ -3017,8 +1571,8 @@
 				}
 			},
 			disable_toast: true,
-			x: 2.5d,
-			y: 2.5d,
+			x: 5.5d,
+			y: 3.0d,
 			description: ["After tons of infusions I can make a lot of Infused Iron and make my first good tools!"],
 			dependencies: [I;
 				184,
@@ -3030,14 +1584,6 @@
 					id: 193,
 					type: "item",
 					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
 						id: "naturesaura:infused_iron_pickaxe",
 						Count: true,
 						tag: {
@@ -3049,14 +1595,6 @@
 					id: 289,
 					type: "item",
 					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
 						id: "naturesaura:infused_iron_axe",
 						Count: true,
 						tag: {
@@ -3068,14 +1606,6 @@
 					id: 290,
 					type: "item",
 					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
 						id: "naturesaura:infused_iron_shovel",
 						Count: true,
 						tag: {
@@ -3087,14 +1617,6 @@
 					id: 291,
 					type: "item",
 					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
 						id: "naturesaura:infused_iron_sword",
 						Count: true,
 						tag: {
@@ -3106,14 +1628,6 @@
 					id: 292,
 					type: "item",
 					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
 						id: "naturesaura:infused_iron_hoe",
 						Count: true,
 						tag: {
@@ -3126,94 +1640,41 @@
 				{
 					id: 293,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "minecraft:iron_ore",
-						Count: true
-					},
+					item: "minecraft:iron_ore",
 					count: 8
 				},
 				{
 					id: 294,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "silents_mechanisms:copper_ore",
-						Count: true
-					},
+					item: "silents_mechanisms:copper_ore",
 					count: 8
 				}
 			]
 		},
 		{
-			x: -2.5d,
-			y: 6.5d,
+			x: -3.75d,
+			y: 5.25d,
 			description: ["It's just a bowl with water."],
+			hide_dependency_lines: true,
 			dependencies: [I;41],
+			size: 0.5d,
 			id: 205,
 			tasks: [{
 				id: 206,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "survive:water_bowl",
-					Count: true
-				}
+				item: "survive:water_bowl"
 			}],
 			rewards: [{
 				id: 329,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "survive:purified_water_bowl",
-					Count: true
-				}
+				item: "survive:purified_water_bowl"
 			}]
 		},
 		{
 			title: "(String) -> Wool.color(any)",
-			icon: {
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L,
-						fuseShotCounter: 0,
-						crossbowChargeTime: 0,
-						bowChargeTime: 0.0f
-					}
-				},
-				id: "minecraft:white_wool",
-				Count: true
-			},
-			x: 0.5d,
-			y: 1.5d,
+			icon: "minecraft:white_wool",
+			x: -1.5d,
+			y: 6.5d,
 			description: ["Strings can be packed into wool. This is very cold place, so I need some wool to get my first heat protection for my body."],
 			dependencies: [I;49],
 			id: 207,
@@ -3222,14 +1683,6 @@
 				type: "item",
 				title: "Wool",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "itemfilters:tag",
 					Count: true,
 					tag: {
@@ -3241,40 +1694,21 @@
 			rewards: [{
 				id: 315,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:white_wool",
-					Count: true
-				},
+				item: "minecraft:white_wool",
 				count: 2
 			}]
 		},
 		{
 			title: "Stable Temperature",
 			icon: {
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L,
-						fuseShotCounter: 0,
-						crossbowChargeTime: 0,
-						bowChargeTime: 0.0f
-					}
-				},
 				id: "survive:wool_jacket",
 				Count: true,
 				tag: {
 					Damage: 0
 				}
 			},
-			x: 2.5d,
-			y: 1.5d,
+			x: -0.5d,
+			y: 6.5d,
 			description: ["I need to have a lot of heat to keep my ability to survive here. This wool suit allows me to keep heat in my body better, but have less armor, than other armor suits like Nanosuit one.... if it still exists."],
 			dependencies: [I;207],
 			id: 209,
@@ -3283,14 +1717,6 @@
 					id: 210,
 					type: "item",
 					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
 						id: "survive:wool_hat",
 						Count: true,
 						tag: {
@@ -3302,14 +1728,6 @@
 					id: 215,
 					type: "item",
 					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
 						id: "survive:wool_jacket",
 						Count: true,
 						tag: {
@@ -3321,14 +1739,6 @@
 					id: 216,
 					type: "item",
 					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
 						id: "survive:wool_pants",
 						Count: true,
 						tag: {
@@ -3340,14 +1750,6 @@
 					id: 217,
 					type: "item",
 					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
 						id: "survive:wool_boots",
 						Count: true,
 						tag: {
@@ -3360,41 +1762,19 @@
 				{
 					id: 316,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "minecraft:string",
-						Count: true
-					},
+					item: "minecraft:string",
 					count: 32
 				},
 				{
 					id: 317,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "pneumaticcraft:sourdough_bread",
-						Count: true
-					}
+					item: "pneumaticcraft:sourdough_bread"
 				}
 			]
 		},
 		{
 			title: "Copper Ore",
-			x: 5.5d,
+			x: 8.5d,
 			y: 3.5d,
 			description: ["Copper Ore can be found near frozen dirt, it has value of 40-60 in Minecraftian Y-System. It will be easy to find."],
 			dependencies: [I;530],
@@ -3404,14 +1784,6 @@
 				type: "item",
 				title: "Copper Ore",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "itemfilters:tag",
 					Count: true,
 					tag: {
@@ -3423,36 +1795,14 @@
 			rewards: [{
 				id: 528,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:iron_ore",
-					Count: true
-				},
+				item: "minecraft:iron_ore",
 				count: 4
 			}]
 		},
 		{
 			title: "Iron Ore",
-			icon: {
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L,
-						fuseShotCounter: 0,
-						crossbowChargeTime: 0,
-						bowChargeTime: 0.0f
-					}
-				},
-				id: "minecraft:iron_ore",
-				Count: true
-			},
-			x: 5.5d,
+			icon: "minecraft:iron_ore",
+			x: 8.5d,
 			y: 4.5d,
 			description: ["Iron Ore can be found near frozen dirt, it has value of 10-50 in Minecraftian Y-System. It will be easy to find."],
 			dependencies: [I;530],
@@ -3462,14 +1812,6 @@
 				type: "item",
 				title: "Any forge:ores/iron",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "itemfilters:tag",
 					Count: true,
 					tag: {
@@ -3481,25 +1823,14 @@
 			rewards: [{
 				id: 541,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "naturesaura:infused_iron",
-					Count: true
-				},
+				item: "naturesaura:infused_iron",
 				count: 2
 			}]
 		},
 		{
 			title: "Cooking is really for blockheads...",
-			x: -2.5d,
-			y: 7.5d,
+			x: 2.5d,
+			y: 10.0d,
 			description: [
 				"Crock Pot is a way I can cook good food. This food gives me more saturation than common food and it gives me more strength to solve problems on this planet.",
 				"Cooking in this modpack can remind you Zelda's Breath of the Wild cooking system. You throw up to 4 random food items and get a better one or a bad one. If you got something delicious - you can write a recipe on a sheet of paper and cook this again!"
@@ -3509,133 +1840,45 @@
 			tasks: [{
 				id: 224,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "crockpot:crock_pot_basic",
-					Count: true
-				}
+				item: "crockpot:crock_pot_basic"
 			}],
 			rewards: [
 				{
 					id: 225,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "minecraft:carrot",
-						Count: true
-					}
+					item: "minecraft:carrot"
 				},
 				{
 					id: 330,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "minecraft:apple",
-						Count: true
-					}
+					item: "minecraft:apple"
 				},
 				{
 					id: 331,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "minecraft:potato",
-						Count: true
-					}
+					item: "minecraft:potato"
 				},
 				{
 					id: 332,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "minecraft:cooked_cod",
-						Count: true
-					}
+					item: "minecraft:cooked_cod"
 				},
 				{
 					id: 333,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "minecraft:cookie",
-						Count: true
-					}
+					item: "minecraft:cookie"
 				},
 				{
 					id: 334,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "minecraft:cake",
-						Count: true
-					}
+					item: "minecraft:cake"
 				}
 			]
 		},
 		{
 			title: "Copper of Irony",
-			icon: {
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L,
-						fuseShotCounter: 0,
-						crossbowChargeTime: 0,
-						bowChargeTime: 0.0f
-					}
-				},
-				id: "create:copper_ingot",
-				Count: true
-			},
-			x: 7.0d,
+			icon: "create:copper_ingot",
+			x: 10.0d,
 			y: 4.0d,
 			description: ["Getting first ingots of copper and iron helps me to progress to the primitive era, so I can make my life easier. Also I don't forget about stamina and thirst, since I need to drink water and feel not tired while mining ores..."],
 			dependencies: [I;
@@ -3650,14 +1893,6 @@
 					type: "item",
 					title: "Any forge:ingots/copper",
 					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
 						id: "itemfilters:tag",
 						Count: true,
 						tag: {
@@ -3670,14 +1905,6 @@
 					type: "item",
 					title: "Any forge:ingots/iron",
 					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
 						id: "itemfilters:tag",
 						Count: true,
 						tag: {
@@ -3689,7 +1916,7 @@
 		},
 		{
 			title: "Massive Storage",
-			x: 8.5d,
+			x: 11.5d,
 			y: 3.5d,
 			description: ["Drawers is a good way of storing massive amounts of items. It can store 64*64 items in a one drawer! I really need it for my next few eras to store something in big amounts."],
 			dependencies: [I;282],
@@ -3699,14 +1926,6 @@
 				type: "item",
 				title: "Any storagedrawers:drawers",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "itemfilters:tag",
 					Count: true,
 					tag: {
@@ -3718,23 +1937,12 @@
 			rewards: [{
 				id: 542,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:chest",
-					Count: true
-				},
+				item: "minecraft:chest",
 				count: 8
 			}]
 		},
 		{
-			x: 9.5d,
+			x: 12.5d,
 			y: 3.5d,
 			description: ["Compacting Drawer allows me to get already compacted variants of different types of items or blocks for any reason. If I put Iron into this drawer I can get nuggets or even blocks!"],
 			dependencies: [I;297],
@@ -3742,40 +1950,19 @@
 			tasks: [{
 				id: 302,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "storagedrawers:compacting_drawers_3",
-					Count: true
-				}
+				item: "storagedrawers:compacting_drawers_3"
 			}],
 			rewards: [{
 				id: 543,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "storagedrawers:compacting_drawers_3",
-					Count: true
-				}
+				item: "storagedrawers:compacting_drawers_3"
 			}]
 		},
 		{
-			x: 8.5d,
+			x: 11.5d,
 			y: 5.5d,
 			description: ["This key allows me to lock the drawer to a proper item. If I put 1 item into drawer then lock it, I'll get this item stuck in this drawer, so any new different items couldn't be put into it."],
+			hide_dependency_lines: true,
 			dependencies: [I;
 				172,
 				297
@@ -3784,23 +1971,12 @@
 			tasks: [{
 				id: 304,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "storagedrawers:drawer_key",
-					Count: true
-				}
+				item: "storagedrawers:drawer_key"
 			}]
 		},
 		{
 			title: "Feeling Lonely?",
-			x: 7.5d,
+			x: 10.5d,
 			y: 2.5d,
 			description: [
 				"You've been noticed that there is no humanity, but you're trying to find someone... You're made a market station to try to catch someone who can sell you something... When you done building, something is going down... It's a seller robot? What the...",
@@ -3811,88 +1987,33 @@
 			tasks: [{
 				id: 306,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "farmingforblockheads:market",
-					Count: true
-				}
+				item: "farmingforblockheads:market"
 			}],
 			rewards: [
 				{
 					id: 550,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "thermal:peanut_seeds",
-						Count: true
-					}
+					item: "thermal:peanut_seeds"
 				},
 				{
 					id: 551,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "thermal:strawberry_seeds",
-						Count: true
-					}
+					item: "thermal:strawberry_seeds"
 				},
 				{
 					id: 552,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "thermal:tomato_seeds",
-						Count: true
-					}
+					item: "thermal:tomato_seeds"
 				},
 				{
 					id: 553,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "thermal:green_bean_seeds",
-						Count: true
-					}
+					item: "thermal:green_bean_seeds"
 				}
 			]
 		},
 		{
-			x: 7.5d,
+			x: 10.5d,
 			y: 1.5d,
 			description: ["This robot mentioned that this fertilizer, which is green will multiply my crops output! It's great!"],
 			dependencies: [I;305],
@@ -3900,39 +2021,17 @@
 			tasks: [{
 				id: 308,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "farmingforblockheads:green_fertilizer",
-					Count: true
-				}
+				item: "farmingforblockheads:green_fertilizer"
 			}],
 			rewards: [{
 				id: 557,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "farmingforblockheads:green_fertilizer",
-					Count: true
-				},
+				item: "farmingforblockheads:green_fertilizer",
 				count: 4
 			}]
 		},
 		{
-			x: 8.5d,
+			x: 11.5d,
 			y: 1.5d,
 			description: ["This red fertilizer speeds up growth of my plants. Robot know much more than I, huh."],
 			dependencies: [I;305],
@@ -3940,39 +2039,17 @@
 			tasks: [{
 				id: 310,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "farmingforblockheads:red_fertilizer",
-					Count: true
-				}
+				item: "farmingforblockheads:red_fertilizer"
 			}],
 			rewards: [{
 				id: 678,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "farmingforblockheads:red_fertilizer",
-					Count: true
-				},
+				item: "farmingforblockheads:red_fertilizer",
 				count: 4
 			}]
 		},
 		{
-			x: 6.5d,
+			x: 9.5d,
 			y: 1.5d,
 			description: ["This robot told me a secret that yellow fertilizers on farmland allows me to stop trampling on my wheat and other cultures. It's cool!"],
 			dependencies: [I;305],
@@ -3980,128 +2057,51 @@
 			tasks: [{
 				id: 312,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "farmingforblockheads:yellow_fertilizer",
-					Count: true
-				}
+				item: "farmingforblockheads:yellow_fertilizer"
 			}],
 			rewards: [{
 				id: 554,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "farmingforblockheads:yellow_fertilizer",
-					Count: true
-				},
+				item: "farmingforblockheads:yellow_fertilizer",
 				count: 4
 			}]
 		},
 		{
-			x: -3.5d,
-			y: 6.5d,
+			x: -8.0d,
+			y: 9.5d,
 			description: ["This canteen allows me to drink water whenever I like without bowls, which is very heavy to carry in my pockets..."],
 			dependencies: [I;85],
 			id: 313,
 			tasks: [{
 				id: 314,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "survive:canteen",
-					Count: true
-				}
+				item: "survive:canteen"
 			}],
 			rewards: [
 				{
 					id: 325,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "survive:water_bowl",
-						Count: true
-					}
+					item: "survive:water_bowl"
 				},
 				{
 					id: 326,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "survive:purified_water_bowl",
-						Count: true
-					}
+					item: "survive:purified_water_bowl"
 				},
 				{
 					id: 327,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "minecraft:mushroom_stew",
-						Count: true
-					}
+					item: "minecraft:mushroom_stew"
 				},
 				{
 					id: 328,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "minecraft:leather",
-						Count: true
-					}
+					item: "minecraft:leather"
 				}
 			]
 		},
 		{
-			x: 4.5d,
+			x: 7.5d,
 			y: 3.5d,
 			description: ["Infused Stone Hammer allows me to break stone into it's softer variants. Also mining ores with this hammer gives me ore pieces to get chunks"],
 			dependencies: [I;
@@ -4113,14 +2113,6 @@
 				id: 531,
 				type: "item",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "exnihilosequentia:hammer_stone",
 					Count: true,
 					tag: {
@@ -4132,75 +2124,31 @@
 				{
 					id: 537,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "minecraft:gravel",
-						Count: true
-					},
+					item: "minecraft:gravel",
 					count: 8
 				},
 				{
 					id: 538,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "minecraft:sand",
-						Count: true
-					},
+					item: "minecraft:sand",
 					count: 8
 				},
 				{
 					id: 539,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "minecraft:iron_ore",
-						Count: true
-					},
+					item: "minecraft:iron_ore",
 					count: 2
 				},
 				{
 					id: 540,
 					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "create:copper_ore",
-						Count: true
-					},
+					item: "create:copper_ore",
 					count: 2
 				}
 			]
 		},
 		{
-			x: 3.5d,
+			x: 6.5d,
 			y: 4.5d,
 			description: ["Infused Rock is a better variant of stone. It is way stronger and better, allows me to make better tools like advanced hammer to make gravel, sand and break ores to get first ingots!"],
 			dependencies: [I;182],
@@ -4208,58 +2156,626 @@
 			tasks: [{
 				id: 533,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "naturesaura:infused_stone",
-					Count: true
-				}
+				item: "naturesaura:infused_stone"
 			}],
 			rewards: [{
 				id: 534,
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "naturesaura:infused_stone",
-					Count: true
-				},
+				item: "naturesaura:infused_stone",
 				count: 3
 			}]
 		},
 		{
-			x: -1.0d,
-			y: 9.5d,
+			x: -0.75d,
+			y: 3.0d,
+			shape: "circle",
+			description: ["At the cost of time and precious calories i managed to gather decent pile of grass. Now i should weave some rope of it."],
+			dependencies: [I;27],
 			size: 1.5d,
-			id: 726,
+			id: 731,
 			tasks: [{
-				id: 727,
+				id: 732,
+				type: "item",
+				item: "rankine:rope",
+				count: 4L
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 4.5d,
+			description: ["I need to operate with water somehow. Regular wooden bucket would be enough for the first time."],
+			hide_dependency_lines: true,
+			dependencies: [I;25],
+			id: 733,
+			tasks: [{
+				id: 734,
+				type: "item",
+				item: "rankine:wood_bucket"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 5.0d,
+			dependencies: [I;37],
+			id: 737,
+			tasks: [{
+				id: 738,
+				type: "item",
+				item: "rankine:limestone"
+			}]
+		},
+		{
+			x: -11.0d,
+			y: 8.0d,
+			shape: "gear",
+			dependencies: [I;
+				758,
+				741
+			],
+			size: 2.0d,
+			id: 739,
+			tasks: [{
+				id: 740,
+				type: "item",
+				item: "rankine:refractory_bricks",
+				count: 12L
+			}]
+		},
+		{
+			x: -10.5d,
+			y: 6.5d,
+			dependencies: [I;743],
+			id: 741,
+			tasks: [{
+				id: 742,
+				type: "item",
+				item: "rankine:dry_mortar",
+				count: 32L
+			}]
+		},
+		{
+			x: -10.5d,
+			y: 4.5d,
+			description: ["No... I can't dig all that gravel and sand with my bare hands any more. I'm going to make a shovel. It will come in handy."],
+			hide_dependency_lines: true,
+			dependencies: [I;
+				25,
+				731
+			],
+			id: 743,
+			tasks: [{
+				id: 744,
 				type: "item",
 				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "exnihilosequentia:hammer_stone",
+					id: "rankine:flint_shovel",
 					Count: true,
 					tag: {
 						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Better Knife",
+			icon: {
+				id: "silentgear:knife",
+				Count: true,
+				tag: {
+					SGear_UUID: [I;
+						-935880800,
+						20595089,
+						-1684048971,
+						1871239950
+					],
+					Damage: 0,
+					SGear_Data: {
+						Construction: {
+							Parts: [
+								{
+									Item: {
+										id: "silentgear:knife_blade",
+										Count: true,
+										tag: {
+											Materials: [{
+												Item: {
+													id: "minecraft:flint",
+													Count: true
+												},
+												ID: "silentgear:flint"
+											}]
+										}
+									},
+									ID: "silentgear:knife_blade"
+								},
+								{
+									Item: {
+										id: "silentgear:rod",
+										Count: true,
+										tag: {
+											Materials: [{
+												Item: {
+													id: "minecraft:air",
+													Count: true,
+													tag: {}
+												},
+												ID: "silentgear:wood/rough"
+											}]
+										}
+									},
+									ID: "silentgear:rod"
+								}
+							],
+							Tier: 1
+						},
+						Properties: {
+							ModVersion: "2.4.9+197",
+							Stats: {
+								"silentgear:enchantability": 3.0f,
+								"silentgear:harvest_speed": 5.0f,
+								"silentgear:harvest_level": 1.0f,
+								"silentgear:durability": 120.28f,
+								"silentgear:melee_damage": 2.0f,
+								"silentgear:magic_damage": 0.0f,
+								"silentgear:attack_speed": -1.7f,
+								"silentgear:rarity": 1.0f,
+								"silentgear:repair_efficiency": 2.0f
+							},
+							LockStats: false,
+							Traits: [
+								{
+									Level: 3b,
+									Name: "silentgear:jagged"
+								},
+								{
+									Level: 3b,
+									Name: "silentgear:crude"
+								}
+							]
+						},
+						Rendering: {
+							ModelKey: "knife:knife_blade{flint},rod{wood/rough},"
+						}
+					}
+				}
+			},
+			x: -4.5d,
+			y: 2.5d,
+			description: ["I can make a better knife. However, it will no longer be able to gather grass."],
+			hide_dependency_lines: true,
+			dependencies: [I;27],
+			id: 745,
+			tasks: [
+				{
+					id: 747,
+					type: "item",
+					item: "silentgear:rough_rod"
+				},
+				{
+					id: 748,
+					type: "item",
+					item: "minecraft:flint"
+				},
+				{
+					id: 749,
+					type: "item",
+					item: {
+						id: "silentgear:knife",
+						Count: true,
+						tag: {
+							SGear_UUID: [I;
+								-935880800,
+								20595089,
+								-1684048971,
+								1871239950
+							],
+							Damage: 0,
+							SGear_Data: {
+								Construction: {
+									Parts: [
+										{
+											Item: {
+												id: "silentgear:knife_blade",
+												Count: true,
+												tag: {
+													Materials: [{
+														Item: {
+															id: "minecraft:flint",
+															Count: true
+														},
+														ID: "silentgear:flint"
+													}]
+												}
+											},
+											ID: "silentgear:knife_blade"
+										},
+										{
+											Item: {
+												id: "silentgear:rod",
+												Count: true,
+												tag: {
+													Materials: [{
+														Item: {
+															id: "minecraft:air",
+															Count: true,
+															tag: {}
+														},
+														ID: "silentgear:wood/rough"
+													}]
+												}
+											},
+											ID: "silentgear:rod"
+										}
+									],
+									Tier: 1
+								},
+								Properties: {
+									ModVersion: "2.4.9+197",
+									Stats: {
+										"silentgear:enchantability": 3.0f,
+										"silentgear:harvest_speed": 5.0f,
+										"silentgear:harvest_level": 1.0f,
+										"silentgear:durability": 120.28f,
+										"silentgear:melee_damage": 2.0f,
+										"silentgear:magic_damage": 0.0f,
+										"silentgear:attack_speed": -1.7f,
+										"silentgear:rarity": 1.0f,
+										"silentgear:repair_efficiency": 2.0f
+									},
+									LockStats: false,
+									Traits: [
+										{
+											Level: 3b,
+											Name: "silentgear:jagged"
+										},
+										{
+											Level: 3b,
+											Name: "silentgear:crude"
+										}
+									]
+								},
+								Rendering: {
+									ModelKey: "knife:knife_blade{flint},rod{wood/rough},"
+								}
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			x: -5.5d,
+			y: 2.5d,
+			dependencies: [I;745],
+			id: 750,
+			tasks: [{
+				id: 751,
+				type: "item",
+				item: "silentgear:template_board",
+				count: 4L
+			}]
+		},
+		{
+			title: "My Own Tool",
+			icon: {
+				id: "silentgear:pickaxe",
+				Count: true,
+				tag: {
+					SGear_UUID: [I;
+						-1520366589,
+						1524581064,
+						-1263319797,
+						1562364306
+					],
+					Damage: 0,
+					SGear_Data: {
+						Construction: {
+							IsExample: true,
+							Parts: [
+								{
+									Item: {
+										id: "minecraft:air",
+										Count: true,
+										tag: {}
+									},
+									ID: "silentgear:shield_plate"
+								},
+								{
+									Item: {
+										id: "minecraft:air",
+										Count: true,
+										tag: {}
+									},
+									ID: "silentgear:crossbow_limbs"
+								},
+								{
+									Item: {
+										id: "minecraft:air",
+										Count: true,
+										tag: {}
+									},
+									ID: "silentgear:misc/red_card"
+								}
+							]
+						},
+						Properties: {
+							ModVersion: "2.4.9+197",
+							Stats: {
+								"silentgear:enchantability": 0.0f,
+								"silentgear:rarity": 0.0f,
+								"silentgear:repair_efficiency": 1.0f
+							},
+							LockStats: false,
+							Traits: []
+						},
+						Rendering: {
+							ModelKey: "pickaxe:shield_plate{},crossbow_limbs{},misc/red_card,"
+						}
+					}
+				}
+			},
+			x: -6.5d,
+			y: 2.5d,
+			description: ["I decided to design tool entirely for myself. I feel immense potential in it."],
+			dependencies: [I;750],
+			id: 752,
+			tasks: [{
+				id: 753,
+				type: "item",
+				title: "(Almost) Any Tool Part",
+				item: {
+					id: "itemfilters:or",
+					Count: true,
+					tag: {
+						items: [
+							{
+								id: "silentgear:sword_blade",
+								Count: true,
+								tag: {
+									Materials: [{
+										ID: "silentgear:example"
+									}]
+								}
+							},
+							{
+								id: "silentgear:katana_blade",
+								Count: true,
+								tag: {
+									Materials: [{
+										ID: "silentgear:example"
+									}]
+								}
+							},
+							{
+								id: "silentgear:machete_blade",
+								Count: true,
+								tag: {
+									Materials: [{
+										ID: "silentgear:example"
+									}]
+								}
+							},
+							{
+								id: "silentgear:spear_tip",
+								Count: true,
+								tag: {
+									Materials: [{
+										ID: "silentgear:example"
+									}]
+								}
+							},
+							{
+								id: "silentgear:knife_blade",
+								Count: true,
+								tag: {
+									Materials: [{
+										ID: "silentgear:example"
+									}]
+								}
+							},
+							{
+								id: "silentgear:dagger_blade",
+								Count: true,
+								tag: {
+									Materials: [{
+										ID: "silentgear:example"
+									}]
+								}
+							},
+							{
+								id: "silentgear:pickaxe_head",
+								Count: true,
+								tag: {
+									Materials: [{
+										ID: "silentgear:example"
+									}]
+								}
+							},
+							{
+								id: "silentgear:shovel_head",
+								Count: true,
+								tag: {
+									Materials: [{
+										ID: "silentgear:example"
+									}]
+								}
+							},
+							{
+								id: "silentgear:axe_head",
+								Count: true,
+								tag: {
+									Materials: [{
+										ID: "silentgear:example"
+									}]
+								}
+							},
+							{
+								id: "silentgear:paxel_head",
+								Count: true,
+								tag: {
+									Materials: [{
+										ID: "silentgear:example"
+									}]
+								}
+							},
+							{
+								id: "silentgear:hammer_head",
+								Count: true,
+								tag: {
+									Materials: [{
+										ID: "silentgear:example"
+									}]
+								}
+							},
+							{
+								id: "silentgear:excavator_head",
+								Count: true,
+								tag: {
+									Materials: [{
+										ID: "silentgear:example"
+									}]
+								}
+							},
+							{
+								id: "silentgear:saw_blade",
+								Count: true,
+								tag: {
+									Materials: [{
+										ID: "silentgear:example"
+									}]
+								}
+							},
+							{
+								id: "silentgear:mattock_head",
+								Count: true,
+								tag: {
+									Materials: [{
+										ID: "silentgear:example"
+									}]
+								}
+							},
+							{
+								id: "silentgear:sickle_blade",
+								Count: true,
+								tag: {
+									Materials: [{
+										ID: "silentgear:example"
+									}]
+								}
+							},
+							{
+								id: "silentgear:shears_blades",
+								Count: true,
+								tag: {
+									Materials: [{
+										ID: "silentgear:example"
+									}]
+								}
+							},
+							{
+								id: "silentgear:bow_limbs",
+								Count: true,
+								tag: {
+									Materials: [{
+										ID: "silentgear:example"
+									}]
+								}
+							},
+							{
+								id: "silentgear:crossbow_limbs",
+								Count: true,
+								tag: {
+									Materials: [{
+										ID: "silentgear:example"
+									}]
+								}
+							},
+							{
+								id: "silentgear:slingshot_limbs",
+								Count: true,
+								tag: {
+									Materials: [{
+										ID: "silentgear:example"
+									}]
+								}
+							},
+							{
+								id: "silentgear:helmet_plates",
+								Count: true,
+								tag: {
+									Materials: [{
+										ID: "silentgear:example"
+									}]
+								}
+							},
+							{
+								id: "silentgear:chestplate_plates",
+								Count: true,
+								tag: {
+									Materials: [{
+										ID: "silentgear:example"
+									}]
+								}
+							},
+							{
+								id: "silentgear:legging_plates",
+								Count: true,
+								tag: {
+									Materials: [{
+										ID: "silentgear:example"
+									}]
+								}
+							},
+							{
+								id: "silentgear:boot_plates",
+								Count: true,
+								tag: {
+									Materials: [{
+										ID: "silentgear:example"
+									}]
+								}
+							},
+							{
+								id: "silentgear:arrow_heads",
+								Count: true,
+								tag: {
+									Materials: [{
+										ID: "silentgear:example"
+									}]
+								}
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 5.5d,
+			description: ["The only available coal type for now is Lignite. Not that easy task despite it lies not so deep."],
+			dependencies: [I;37],
+			id: 756,
+			tasks: [{
+				id: 757,
+				type: "item",
+				item: "rankine:lignite",
+				count: 8L
+			}]
+		},
+		{
+			x: -11.0d,
+			y: 14.0d,
+			hide_dependency_lines: true,
+			dependencies: [I;37],
+			size: 2.0d,
+			id: 758,
+			tasks: [{
+				id: 759,
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: true,
+					tag: {
+						"patchouli:book": "rankine:rankine_journal"
 					}
 				}
 			}]

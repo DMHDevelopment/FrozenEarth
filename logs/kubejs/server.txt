@@ -1,137 +1,137 @@
-[15:09:26] [INFO] Loading Chapter 1 recipes...
-[15:09:26] [INFO] Loaded script server_scripts:script.js in 0.02 s
-[15:09:26] [INFO] Loaded 1/1 KubeJS server scripts in 0.028 s
-[15:09:26] [INFO] Scripts loaded
-[15:09:26] [INFO] Scanning recipes...
-[15:09:31] [INFO] [blocks] Found 730 tags, added 0 objects, removed 0 objects
-[15:09:31] [INFO] [items] Found 1532 tags, added 0 objects, removed 0 objects
-[15:09:31] [INFO] [fluids] Found 38 tags, added 0 objects, removed 0 objects
-[15:09:31] [INFO] [entity_types] Found 12 tags, added 0 objects, removed 0 objects
-[15:09:31] [INFO] [potions] Found 0 tags, added 0 objects, removed 0 objects
-[15:09:31] [INFO] [enchantments] Found 0 tags, added 0 objects, removed 0 objects
-[15:09:31] [INFO] [tile_entity_types] Found 2 tags, added 0 objects, removed 0 objects
-[15:09:31] [WARN] Failed to parse recipe 'exnihilosequentia:sieve/piece_copper_gravel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[15:09:31] [WARN] Failed to parse recipe exnihilosequentia:sieve/piece_copper_gravel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[15:09:31] [WARN] Failed to parse recipe 'exnihilosequentia:sieve/piece_uranium_gravel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[15:09:31] [WARN] Failed to parse recipe exnihilosequentia:sieve/piece_uranium_gravel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[15:09:31] [WARN] Failed to parse recipe 'pneumaticcraft:pneumaticcraft_fuels/hydrogen[pneumaticcraft:fuel_quality]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown fluid tag 'forge:hydrogen'
-[15:09:31] [WARN] Failed to parse recipe pneumaticcraft:pneumaticcraft_fuels/hydrogen[pneumaticcraft:fuel_quality]: com.google.gson.JsonSyntaxException: Unknown fluid tag 'forge:hydrogen'
-[15:09:31] [WARN] Failed to parse recipe 'exnihilosequentia:sieve/piece_gold_gravel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[15:09:31] [WARN] Failed to parse recipe exnihilosequentia:sieve/piece_gold_gravel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[15:09:31] [WARN] Failed to parse recipe 'assemblylinemachines:crafting/fluid_bath[extendedcrafting:shaped_table]'! Falling back to vanilla: com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
-[15:09:31] [WARN] Failed to parse recipe assemblylinemachines:crafting/fluid_bath[extendedcrafting:shaped_table]: com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
-[15:09:31] [WARN] Failed to parse recipe 'frozen_earth:custom_mechanical/creative_motor[create:mechanical_crafting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'electrodynamics:circuitultimate'
-[15:09:31] [WARN] Failed to parse recipe frozen_earth:custom_mechanical/creative_motor[create:mechanical_crafting]: com.google.gson.JsonSyntaxException: Unknown item 'electrodynamics:circuitultimate'
-[15:09:31] [WARN] Failed to parse recipe 'noel:light_string[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'noel:light_string'
-[15:09:31] [WARN] Failed to parse recipe noel:light_string[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'noel:light_string'
-[15:09:31] [WARN] Failed to parse recipe 'exnihilosequentia:sieve/piece_gold_crushed_netherrack[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[15:09:31] [WARN] Failed to parse recipe exnihilosequentia:sieve/piece_gold_crushed_netherrack[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[15:09:31] [WARN] Failed to parse recipe 'exnihilosequentia:sieve/piece_tin_gravel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[15:09:31] [WARN] Failed to parse recipe exnihilosequentia:sieve/piece_tin_gravel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[15:09:31] [WARN] Failed to parse recipe 'ae2extras:special/disassemble[ae2extras:disassemble]'! Falling back to vanilla: Unknown recipe type!
-[15:09:31] [WARN] Failed to parse recipe ae2extras:special/disassemble[ae2extras:disassemble]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'ae2extras:disassemble'
-[15:09:31] [WARN] Failed to parse recipe 'noel:stocking[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'noel:stocking'
-[15:09:31] [WARN] Failed to parse recipe noel:stocking[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'noel:stocking'
-[15:09:31] [WARN] Failed to parse recipe 'exnihilosequentia:sieve/piece_iron_gravel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[15:09:31] [WARN] Failed to parse recipe exnihilosequentia:sieve/piece_iron_gravel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[15:09:31] [WARN] Failed to parse recipe 'exnihilosequentia:sieve/piece_silver_gravel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[15:09:31] [WARN] Failed to parse recipe exnihilosequentia:sieve/piece_silver_gravel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[15:09:31] [WARN] Failed to parse recipe 'noel:ornament/lapis_ornament[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:lapis'
-[15:09:31] [WARN] Failed to parse recipe noel:ornament/lapis_ornament[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:lapis'
-[15:09:31] [WARN] Failed to parse recipe 'exnihilosequentia:sieve/piece_zinc_gravel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[15:09:31] [WARN] Failed to parse recipe exnihilosequentia:sieve/piece_zinc_gravel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[15:09:31] [WARN] Failed to parse recipe 'extendedcrafting:handleheld_table[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'exnendedcrafting:handleheld_table'
-[15:09:31] [WARN] Failed to parse recipe extendedcrafting:handleheld_table[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'exnendedcrafting:handleheld_table'
-[15:09:31] [WARN] Failed to parse recipe 'create:compat/bop/cutting/stripped_ethereal_log[create:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:stripped_ethereal_log'
-[15:09:31] [WARN] Failed to parse recipe create:compat/bop/cutting/stripped_ethereal_log[create:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:stripped_ethereal_log'
-[15:09:31] [WARN] Failed to parse recipe 'exnihilosequentia:sieve/piece_aluminum_gravel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[15:09:31] [WARN] Failed to parse recipe exnihilosequentia:sieve/piece_aluminum_gravel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[15:09:31] [WARN] Failed to parse recipe 'thermal:saw_blade[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'themal:saw_blade'
-[15:09:31] [WARN] Failed to parse recipe thermal:saw_blade[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'themal:saw_blade'
-[15:09:31] [WARN] Failed to parse recipe 'exnihilosequentia:hammer/cobblestone[exnihilosequentia:hammer]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing item, expected to find a string
-[15:09:31] [WARN] Failed to parse recipe exnihilosequentia:hammer/cobblestone[exnihilosequentia:hammer]: com.google.gson.JsonSyntaxException: Missing item, expected to find a string
-[15:09:32] [WARN] Failed to parse recipe 'exnihilosequentia:sieve/piece_nickel_gravel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[15:09:32] [WARN] Failed to parse recipe exnihilosequentia:sieve/piece_nickel_gravel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[15:09:32] [WARN] Failed to parse recipe 'exnihilosequentia:sieve/piece_iron_sand[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[15:09:32] [WARN] Failed to parse recipe exnihilosequentia:sieve/piece_iron_sand[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[15:09:32] [WARN] Failed to parse recipe 'thermal:machine/plugins/byg/insolator_byg_araucaria_sapling[thermal:insolator]': {"item":"byg:araucaria_log","chance":6.0} is not a valid result!
-[15:09:32] [WARN] Failed to parse recipe 'thermal:machine/plugins/byg/sawmill_byg_palo_verde_logs[thermal:sawmill]': {"item":"byg:palo_verde_planks","count":6} is not a valid result!
-[15:09:32] [WARN] Failed to parse recipe 'ae2extras:network/cells/storage_cell_4m[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'ae2extras:quartz_glass'
-[15:09:32] [WARN] Failed to parse recipe ae2extras:network/cells/storage_cell_4m[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'ae2extras:quartz_glass'
-[15:09:32] [WARN] Failed to parse recipe 'pneumaticcraft:pneumaticcraft_fuels/ethylene[pneumaticcraft:fuel_quality]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown fluid tag 'forge:ethene'
-[15:09:32] [WARN] Failed to parse recipe pneumaticcraft:pneumaticcraft_fuels/ethylene[pneumaticcraft:fuel_quality]: com.google.gson.JsonSyntaxException: Unknown fluid tag 'forge:ethene'
-[15:09:32] [WARN] Failed to parse recipe 'immersiveengineering:crusher/ore_fluorite[immersiveengineering:crusher]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:gems/fluorite'
-[15:09:32] [WARN] Failed to parse recipe immersiveengineering:crusher/ore_fluorite[immersiveengineering:crusher]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:gems/fluorite'
-[15:09:32] [WARN] Failed to parse recipe 'simplyjetpacks:thermal/jetpack_te5[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'simplyjetpacks:armorplating_te5'
-[15:09:32] [WARN] Failed to parse recipe simplyjetpacks:thermal/jetpack_te5[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'simplyjetpacks:armorplating_te5'
-[15:09:32] [WARN] Failed to parse recipe 'exnihilosequentia:sieve/piece_lead_gravel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[15:09:32] [WARN] Failed to parse recipe exnihilosequentia:sieve/piece_lead_gravel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[15:09:32] [WARN] Failed to parse recipe 'thermal:machine/plugins/biomesoplenty/insolator_bop_wilted_lilly_flower[thermal:insolator]': {"item":"biomesoplenty:wilted_lilly"} is not a valid ingredient!
-[15:09:32] [WARN] Failed to parse recipe 'simplyjetpacks:thermal/armorplating_te5[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'simplyjetpacks:armorplating_te5'
-[15:09:32] [WARN] Failed to parse recipe simplyjetpacks:thermal/armorplating_te5[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'simplyjetpacks:armorplating_te5'
-[15:09:32] [WARN] Failed to parse recipe 'simplyjetpacks:thermal/thruster_te1[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'thermal:fluxduct_leadstone'
-[15:09:32] [WARN] Failed to parse recipe simplyjetpacks:thermal/thruster_te1[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'thermal:fluxduct_leadstone'
-[15:09:32] [WARN] Failed to parse recipe 'simplyjetpacks:thermal/thruster_te5[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'simplyjetpacks:armorplating_te5'
-[15:09:32] [WARN] Failed to parse recipe simplyjetpacks:thermal/thruster_te5[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'simplyjetpacks:armorplating_te5'
-[15:09:32] [WARN] Failed to parse recipe 'simplyjetpacks:thermal/thruster_te4[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'thermal:fluxduct_resonant'
-[15:09:32] [WARN] Failed to parse recipe simplyjetpacks:thermal/thruster_te4[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'thermal:fluxduct_resonant'
-[15:09:32] [WARN] Failed to parse recipe 'simplyjetpacks:thermal/thruster_te3[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'thermal:fluxduct_reinforced'
-[15:09:32] [WARN] Failed to parse recipe simplyjetpacks:thermal/thruster_te3[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'thermal:fluxduct_reinforced'
-[15:09:32] [WARN] Failed to parse recipe 'simplyjetpacks:thermal/thruster_te2[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'thermal:fluxduct_hardened'
-[15:09:32] [WARN] Failed to parse recipe simplyjetpacks:thermal/thruster_te2[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'thermal:fluxduct_hardened'
-[15:09:32] [INFO] server_scripts:script.js:31: - exnihilosequentia:sieve[minecraft:crafting_shaped]: ['#minecraft:planks', '#minecraft:wooden_slabs', '#forge:rods/wooden'] -> ['exnihilosequentia:sieve']
-[15:09:32] [INFO] server_scripts:script.js:32: - exnihilosequentia:mesh_string[minecraft:crafting_shaped]: ['#forge:string'] -> ['exnihilosequentia:mesh_string']
-[15:09:32] [INFO] server_scripts:script.js:33: - exnihilosequentia:mesh_flint[minecraft:crafting_shaped]: ['minecraft:flint', 'exnihilosequentia:mesh_string'] -> ['exnihilosequentia:mesh_flint']
-[15:09:32] [INFO] server_scripts:script.js:34: - exnihilosequentia:mesh_iron[minecraft:crafting_shaped]: ['#forge:ingots/iron', 'exnihilosequentia:mesh_flint'] -> ['exnihilosequentia:mesh_iron']
-[15:09:32] [INFO] server_scripts:script.js:35: + minecraft:kubejs_generated_1_exnihilosequentia_sieve[minecraft:crafting_shaped]: ['naturesaura:ancient_log', 'naturesaura:ancient_planks', 'naturesaura:ancient_slab', 'naturesaura:ancient_stick'] -> ['exnihilosequentia:sieve']
-[15:09:32] [INFO] server_scripts:script.js:45: + minecraft:kubejs_generated_2_exnihilosequentia_mesh_string[minecraft:crafting_shaped]: ['minecraft:string', Item.of('naturesaura:aura_bottle', {stored_type:"naturesaura:overworld"}), Item.of('pickletweaks:mesh', {Damage:0.0})] -> ['exnihilosequentia:mesh_string']
-[15:09:32] [INFO] server_scripts:script.js:54: + minecraft:kubejs_generated_3_exnihilosequentia_mesh_flint[minecraft:crafting_shaped]: ['minecraft:flint', Item.of('exnihilosequentia:mesh_string', {Damage:0.0})] -> ['exnihilosequentia:mesh_flint']
-[15:09:32] [INFO] server_scripts:script.js:62: + minecraft:kubejs_generated_4_exnihilosequentia_mesh_iron[minecraft:crafting_shaped]: ['create:iron_sheet', 'naturesaura:infused_iron', Item.of('exnihilosequentia:mesh_flint', {Damage:0.0})] -> ['exnihilosequentia:mesh_iron']
-[15:09:32] [INFO] server_scripts:script.js:73: - ironchest:upgrades/diamond_to_crystal_chest_upgrade[minecraft:crafting_shaped]: ['minecraft:obsidian', '#forge:glass'] -> ['ironchest:diamond_to_crystal_chest_upgrade']
-[15:09:32] [INFO] server_scripts:script.js:73: - ironchest:chests/silver_gold_chest[minecraft:crafting_shaped]: ['#forge:ingots/gold', 'ironchest:silver_chest', '#forge:glass'] -> ['ironchest:gold_chest']
-[15:09:32] [INFO] server_scripts:script.js:73: - ironchest:chests/iron_silver_chest[minecraft:crafting_shaped]: ['#forge:ingots/silver', 'ironchest:iron_chest', '#forge:glass'] -> ['ironchest:silver_chest']
-[15:09:32] [INFO] server_scripts:script.js:73: - ironchest:chests/gold_diamond_chest[minecraft:crafting_shaped]: ['#forge:gems/diamond', 'ironchest:gold_chest', '#forge:glass'] -> ['ironchest:diamond_chest']
-[15:09:32] [INFO] server_scripts:script.js:73: - ironchest:upgrades/silver_to_gold_chest_upgrade[minecraft:crafting_shaped]: ['#forge:ingots/gold', '#forge:ingots/copper', '#forge:glass'] -> ['ironchest:silver_to_gold_chest_upgrade']
-[15:09:32] [INFO] server_scripts:script.js:73: - ironchest:chests/vanilla_copper_chest[minecraft:crafting_shaped]: ['#forge:ingots/copper', '#forge:chests/wooden'] -> ['ironchest:copper_chest']
-[15:09:32] [INFO] server_scripts:script.js:73: - ironchest:upgrades/gold_to_diamond_chest_upgrade[minecraft:crafting_shaped]: ['#forge:gems/diamond', '#forge:ingots/gold', '#forge:glass'] -> ['ironchest:gold_to_diamond_chest_upgrade']
-[15:09:32] [INFO] server_scripts:script.js:73: - ironchest:chests/diamond_crystal_chest[minecraft:crafting_shaped]: ['#forge:glass', 'ironchest:diamond_chest'] -> ['ironchest:crystal_chest']
-[15:09:32] [INFO] server_scripts:script.js:73: - ironchest:chests/vanilla_dirt_chest[minecraft:crafting_shaped]: [['minecraft:dirt', 'minecraft:coarse_dirt', 'minecraft:podzol'], '#forge:chests/wooden'] -> ['ironchest:dirt_chest']
-[15:09:32] [INFO] server_scripts:script.js:73: - ironchest:upgrades/copper_to_iron_chest_upgrade[minecraft:crafting_shaped]: ['#forge:ingots/iron', '#forge:ingots/copper', '#forge:glass'] -> ['ironchest:copper_to_iron_chest_upgrade']
-[15:09:32] [INFO] server_scripts:script.js:73: - ironchest:upgrades/copper_to_silver_chest_upgrade[minecraft:crafting_shaped]: ['#forge:ingots/silver', '#forge:ingots/copper'] -> ['ironchest:copper_to_silver_chest_upgrade']
-[15:09:32] [INFO] server_scripts:script.js:73: - ironchest:upgrades/wood_to_copper_chest_upgrade[minecraft:crafting_shaped]: ['#forge:ingots/copper', '#minecraft:planks'] -> ['ironchest:wood_to_copper_chest_upgrade']
-[15:09:32] [INFO] server_scripts:script.js:73: - ironchest:upgrades/diamond_to_obsidian_chest_upgrade[minecraft:crafting_shaped]: ['minecraft:obsidian', '#forge:glass'] -> ['ironchest:diamond_to_obsidian_chest_upgrade']
-[15:09:32] [INFO] server_scripts:script.js:73: - ironchest:upgrades/wood_to_iron_chest_upgrade[minecraft:crafting_shaped]: ['#forge:ingots/iron', '#minecraft:planks'] -> ['ironchest:wood_to_iron_chest_upgrade']
-[15:09:32] [INFO] server_scripts:script.js:73: - ironchest:chests/silver_diamond_chest[minecraft:crafting_shaped]: ['#forge:gems/diamond', 'ironchest:silver_chest', '#forge:glass'] -> ['ironchest:diamond_chest']
-[15:09:32] [INFO] server_scripts:script.js:73: - ironchest:upgrades/iron_to_gold_chest_upgrade[minecraft:crafting_shaped]: ['#forge:ingots/iron', '#forge:ingots/gold'] -> ['ironchest:iron_to_gold_chest_upgrade']
-[15:09:32] [INFO] server_scripts:script.js:73: - ironchest:chests/iron_gold_chest[minecraft:crafting_shaped]: ['#forge:ingots/gold', 'ironchest:iron_chest'] -> ['ironchest:gold_chest']
-[15:09:32] [INFO] server_scripts:script.js:73: - ironchest:chests/copper_iron_chest[minecraft:crafting_shaped]: ['#forge:ingots/iron', 'ironchest:copper_chest', '#forge:glass'] -> ['ironchest:iron_chest']
-[15:09:32] [INFO] server_scripts:script.js:73: - ironchest:chests/vanilla_iron_chest[minecraft:crafting_shaped]: ['#forge:ingots/iron', '#forge:chests/wooden'] -> ['ironchest:iron_chest']
-[15:09:32] [INFO] server_scripts:script.js:73: - ironchest:chests/copper_silver_chest[minecraft:crafting_shaped]: ['#forge:ingots/silver', 'ironchest:copper_chest'] -> ['ironchest:silver_chest']
-[15:09:32] [INFO] server_scripts:script.js:73: - ironchest:chests/diamond_obsidian_chest[minecraft:crafting_shaped]: ['minecraft:obsidian', 'ironchest:diamond_chest'] -> ['ironchest:obsidian_chest']
-[15:09:32] [INFO] server_scripts:script.js:75: + minecraft:kubejs_generated_5_ironchest_dirt_chest[minecraft:crafting_shaped]: ['#industrialforegoing:sludge', '#forge:chests/wooden'] -> ['ironchest:dirt_chest']
-[15:09:32] [INFO] server_scripts:script.js:84: + minecraft:kubejs_generated_6_ironchest_copper_chest[minecraft:crafting_shaped]: ['create:copper_sheet', '#forge:chests/wooden'] -> ['ironchest:copper_chest']
-[15:09:32] [INFO] server_scripts:script.js:93: + minecraft:kubejs_generated_7_ironchest_iron_chest[minecraft:crafting_shaped]: ['create:iron_sheet', 'ironchest:copper_chest'] -> ['ironchest:iron_chest']
-[15:09:32] [INFO] server_scripts:script.js:102: + minecraft:kubejs_generated_8_ironchest_iron_chest[minecraft:crafting_shaped]: ['create:iron_sheet', '#forge:chests/wooden', 'create:andesite_alloy'] -> ['ironchest:iron_chest']
-[15:09:32] [INFO] server_scripts:script.js:112: + minecraft:kubejs_generated_9_ironchest_gold_chest[minecraft:crafting_shaped]: ['create:golden_sheet', 'ironchest:iron_chest'] -> ['ironchest:gold_chest']
-[15:09:32] [INFO] server_scripts:script.js:121: + minecraft:kubejs_generated_10_ironchest_gold_chest[minecraft:crafting_shaped]: ['create:golden_sheet', 'ironchest:silver_chest', 'minecraft:light_weighted_pressure_plate'] -> ['ironchest:gold_chest']
-[15:09:32] [INFO] server_scripts:script.js:131: + minecraft:kubejs_generated_11_ironchest_silver_chest[minecraft:crafting_shaped]: ['immersiveengineering:plate_silver', 'ironchest:iron_chest', '#forge:nuggets/silver'] -> ['ironchest:silver_chest']
-[15:09:32] [INFO] server_scripts:script.js:141: + minecraft:kubejs_generated_12_ironchest_silver_chest[minecraft:crafting_shaped]: ['immersiveengineering:plate_silver', 'ironchest:copper_chest'] -> ['ironchest:silver_chest']
-[15:09:32] [INFO] server_scripts:script.js:150: + minecraft:kubejs_generated_13_ironchest_diamond_chest[minecraft:crafting_shaped]: ['#forge:gears/diamond', 'ironchest:silver_chest'] -> ['ironchest:diamond_chest']
-[15:09:32] [INFO] server_scripts:script.js:159: + minecraft:kubejs_generated_14_ironchest_diamond_chest[minecraft:crafting_shaped]: ['#forge:gears/diamond', 'ironchest:silver_chest'] -> ['ironchest:diamond_chest']
-[15:09:32] [INFO] server_scripts:script.js:168: + minecraft:kubejs_generated_15_ironchest_diamond_chest[minecraft:crafting_shaped]: ['#forge:gears/diamond', 'ironchest:gold_chest'] -> ['ironchest:diamond_chest']
-[15:09:32] [INFO] server_scripts:script.js:177: + minecraft:kubejs_generated_16_ironchest_diamond_chest[minecraft:crafting_shaped]: ['#forge:gears/diamond', 'ironchest:gold_chest'] -> ['ironchest:diamond_chest']
-[15:09:32] [INFO] server_scripts:script.js:186: + minecraft:kubejs_generated_17_ironchest_obsidian_chest[minecraft:crafting_shaped]: ['#forge:obsidian', 'ironchest:diamond_chest'] -> ['ironchest:obsidian_chest']
-[15:09:32] [INFO] server_scripts:script.js:195: + minecraft:kubejs_generated_18_ironchest_crystal_chest[minecraft:crafting_shaped]: ['#forge:glass', 'ironchest:diamond_chest'] -> ['ironchest:crystal_chest']
-[15:09:32] [INFO] server_scripts:script.js:204: + minecraft:kubejs_generated_19_ironchest_wood_to_iron_chest_upgrade[minecraft:crafting_shaped]: ['create:iron_sheet', '#minecraft:planks'] -> ['ironchest:wood_to_iron_chest_upgrade']
-[15:09:32] [INFO] server_scripts:script.js:213: + minecraft:kubejs_generated_20_ironchest_wood_to_copper_chest_upgrade[minecraft:crafting_shaped]: ['create:copper_sheet', '#minecraft:planks'] -> ['ironchest:wood_to_copper_chest_upgrade']
-[15:09:32] [INFO] server_scripts:script.js:222: + minecraft:kubejs_generated_21_ironchest_copper_to_iron_chest_upgrade[minecraft:crafting_shaped]: ['create:iron_sheet', 'create:copper_sheet', 'create:andesite_alloy'] -> ['ironchest:copper_to_iron_chest_upgrade']
-[15:09:32] [INFO] server_scripts:script.js:232: + minecraft:kubejs_generated_22_ironchest_copper_to_silver_chest_upgrade[minecraft:crafting_shaped]: ['immersiveengineering:plate_silver', 'create:copper_sheet'] -> ['ironchest:copper_to_silver_chest_upgrade']
-[15:09:32] [WARN] server_scripts:script.js:241: Failed to create recipe for type 'minecraft:crafting_shaped': create:gold_sheet with key 'A' is not a valid ingredient!
-[15:09:32] [WARN] server_scripts:script.js:250: Failed to create recipe for type 'minecraft:crafting_shaped': create:gold_sheet with key 'A' is not a valid ingredient!
-[15:09:32] [WARN] server_scripts:script.js:259: Failed to create recipe for type 'minecraft:crafting_shaped': create:gold_sheet with key 'B' is not a valid ingredient!
-[15:09:32] [WARN] server_scripts:script.js:268: Failed to create recipe for type 'minecraft:crafting_shaped': create:gold_sheet with key 'B' is not a valid ingredient!
-[15:09:32] [INFO] server_scripts:script.js:277: + minecraft:kubejs_generated_23_ironchest_diamond_to_crystal_chest_upgrade[minecraft:crafting_shaped]: ['#forge:glass', '#forge:gears/diamond'] -> ['ironchest:diamond_to_crystal_chest_upgrade']
-[15:09:32] [INFO] server_scripts:script.js:286: + minecraft:kubejs_generated_24_ironchest_diamond_to_obsidian_chest_upgrade[minecraft:crafting_shaped]: ['#forge:obsidian', '#forge:gears/diamond'] -> ['ironchest:diamond_to_obsidian_chest_upgrade']
-[15:09:32] [WARN] Error parsing recipe immersivepetroleum:distillationtower/oilcracking[immersivepetroleum:distillation]: {"type":"immersivepetroleum:distillation","byproducts":[{"item":"immersivepetroleum:bitumen"}],"results":[{"fluid":"immersivepetroleum:lubricant","amount":9},{"fluid":"immersivepetroleum:diesel","amount":27},{"fluid":"immersivepetroleum:gasoline","amount":39}],"input":{"tag":"forge:crude_oil","amount":75},"energy":2048}: java.lang.IllegalArgumentException: Unexpected json object.
-[15:09:32] [WARN] Error creating recipe minecraft:kubejs_generated_14_ironchest_diamond_chest[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","result":{"item":"ironchest:diamond_chest","count":1},"pattern":[" A","ABA"," A "],"key":{"A":{"tag":"forge:gears/diamond"},"B":{"item":"ironchest:silver_chest"}}}: com.google.gson.JsonSyntaxException: Invalid pattern: each row must be the same width
-[15:09:36] [INFO] [functions] Found 0 tags, added 0 objects, removed 0 objects
+[18:46:37] [INFO] Loading Chapter 1 recipes...
+[18:46:37] [INFO] Loaded script server_scripts:script.js in 0.018 s
+[18:46:37] [INFO] Loaded 1/1 KubeJS server scripts in 0.024 s
+[18:46:37] [INFO] Scripts loaded
+[18:46:37] [INFO] Scanning recipes...
+[18:46:39] [INFO] [blocks] Found 730 tags, added 0 objects, removed 0 objects
+[18:46:40] [INFO] [items] Found 1532 tags, added 0 objects, removed 0 objects
+[18:46:40] [INFO] [fluids] Found 38 tags, added 0 objects, removed 0 objects
+[18:46:40] [INFO] [entity_types] Found 12 tags, added 0 objects, removed 0 objects
+[18:46:40] [INFO] [potions] Found 0 tags, added 0 objects, removed 0 objects
+[18:46:40] [INFO] [enchantments] Found 0 tags, added 0 objects, removed 0 objects
+[18:46:40] [INFO] [tile_entity_types] Found 2 tags, added 0 objects, removed 0 objects
+[18:46:40] [WARN] Failed to parse recipe 'exnihilosequentia:sieve/piece_copper_gravel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[18:46:40] [WARN] Failed to parse recipe exnihilosequentia:sieve/piece_copper_gravel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[18:46:40] [WARN] Failed to parse recipe 'exnihilosequentia:sieve/piece_uranium_gravel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[18:46:40] [WARN] Failed to parse recipe exnihilosequentia:sieve/piece_uranium_gravel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[18:46:40] [WARN] Failed to parse recipe 'pneumaticcraft:pneumaticcraft_fuels/hydrogen[pneumaticcraft:fuel_quality]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown fluid tag 'forge:hydrogen'
+[18:46:40] [WARN] Failed to parse recipe pneumaticcraft:pneumaticcraft_fuels/hydrogen[pneumaticcraft:fuel_quality]: com.google.gson.JsonSyntaxException: Unknown fluid tag 'forge:hydrogen'
+[18:46:40] [WARN] Failed to parse recipe 'exnihilosequentia:sieve/piece_gold_gravel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[18:46:40] [WARN] Failed to parse recipe exnihilosequentia:sieve/piece_gold_gravel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[18:46:40] [WARN] Failed to parse recipe 'assemblylinemachines:crafting/fluid_bath[extendedcrafting:shaped_table]'! Falling back to vanilla: com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
+[18:46:40] [WARN] Failed to parse recipe assemblylinemachines:crafting/fluid_bath[extendedcrafting:shaped_table]: com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
+[18:46:40] [WARN] Failed to parse recipe 'frozen_earth:custom_mechanical/creative_motor[create:mechanical_crafting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'electrodynamics:circuitultimate'
+[18:46:40] [WARN] Failed to parse recipe frozen_earth:custom_mechanical/creative_motor[create:mechanical_crafting]: com.google.gson.JsonSyntaxException: Unknown item 'electrodynamics:circuitultimate'
+[18:46:40] [WARN] Failed to parse recipe 'noel:light_string[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'noel:light_string'
+[18:46:40] [WARN] Failed to parse recipe noel:light_string[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'noel:light_string'
+[18:46:40] [WARN] Failed to parse recipe 'exnihilosequentia:sieve/piece_gold_crushed_netherrack[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[18:46:40] [WARN] Failed to parse recipe exnihilosequentia:sieve/piece_gold_crushed_netherrack[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[18:46:40] [WARN] Failed to parse recipe 'exnihilosequentia:sieve/piece_tin_gravel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[18:46:40] [WARN] Failed to parse recipe exnihilosequentia:sieve/piece_tin_gravel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[18:46:40] [WARN] Failed to parse recipe 'ae2extras:special/disassemble[ae2extras:disassemble]'! Falling back to vanilla: Unknown recipe type!
+[18:46:40] [WARN] Failed to parse recipe ae2extras:special/disassemble[ae2extras:disassemble]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'ae2extras:disassemble'
+[18:46:40] [WARN] Failed to parse recipe 'noel:stocking[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'noel:stocking'
+[18:46:40] [WARN] Failed to parse recipe noel:stocking[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'noel:stocking'
+[18:46:40] [WARN] Failed to parse recipe 'exnihilosequentia:sieve/piece_iron_gravel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[18:46:40] [WARN] Failed to parse recipe exnihilosequentia:sieve/piece_iron_gravel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[18:46:40] [WARN] Failed to parse recipe 'exnihilosequentia:sieve/piece_silver_gravel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[18:46:40] [WARN] Failed to parse recipe exnihilosequentia:sieve/piece_silver_gravel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[18:46:40] [WARN] Failed to parse recipe 'noel:ornament/lapis_ornament[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:lapis'
+[18:46:40] [WARN] Failed to parse recipe noel:ornament/lapis_ornament[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:lapis'
+[18:46:40] [WARN] Failed to parse recipe 'exnihilosequentia:sieve/piece_zinc_gravel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[18:46:40] [WARN] Failed to parse recipe exnihilosequentia:sieve/piece_zinc_gravel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[18:46:40] [WARN] Failed to parse recipe 'extendedcrafting:handleheld_table[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'exnendedcrafting:handleheld_table'
+[18:46:40] [WARN] Failed to parse recipe extendedcrafting:handleheld_table[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'exnendedcrafting:handleheld_table'
+[18:46:40] [WARN] Failed to parse recipe 'create:compat/bop/cutting/stripped_ethereal_log[create:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:stripped_ethereal_log'
+[18:46:40] [WARN] Failed to parse recipe create:compat/bop/cutting/stripped_ethereal_log[create:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:stripped_ethereal_log'
+[18:46:40] [WARN] Failed to parse recipe 'exnihilosequentia:sieve/piece_aluminum_gravel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[18:46:40] [WARN] Failed to parse recipe exnihilosequentia:sieve/piece_aluminum_gravel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[18:46:40] [WARN] Failed to parse recipe 'thermal:saw_blade[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'themal:saw_blade'
+[18:46:40] [WARN] Failed to parse recipe thermal:saw_blade[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'themal:saw_blade'
+[18:46:40] [WARN] Failed to parse recipe 'exnihilosequentia:hammer/cobblestone[exnihilosequentia:hammer]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing item, expected to find a string
+[18:46:40] [WARN] Failed to parse recipe exnihilosequentia:hammer/cobblestone[exnihilosequentia:hammer]: com.google.gson.JsonSyntaxException: Missing item, expected to find a string
+[18:46:40] [WARN] Failed to parse recipe 'exnihilosequentia:sieve/piece_nickel_gravel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[18:46:40] [WARN] Failed to parse recipe exnihilosequentia:sieve/piece_nickel_gravel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[18:46:40] [WARN] Failed to parse recipe 'exnihilosequentia:sieve/piece_iron_sand[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[18:46:40] [WARN] Failed to parse recipe exnihilosequentia:sieve/piece_iron_sand[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[18:46:40] [WARN] Failed to parse recipe 'thermal:machine/plugins/byg/insolator_byg_araucaria_sapling[thermal:insolator]': {"item":"byg:araucaria_log","chance":6.0} is not a valid result!
+[18:46:40] [WARN] Failed to parse recipe 'thermal:machine/plugins/byg/sawmill_byg_palo_verde_logs[thermal:sawmill]': {"item":"byg:palo_verde_planks","count":6} is not a valid result!
+[18:46:40] [WARN] Failed to parse recipe 'ae2extras:network/cells/storage_cell_4m[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'ae2extras:quartz_glass'
+[18:46:40] [WARN] Failed to parse recipe ae2extras:network/cells/storage_cell_4m[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'ae2extras:quartz_glass'
+[18:46:40] [WARN] Failed to parse recipe 'pneumaticcraft:pneumaticcraft_fuels/ethylene[pneumaticcraft:fuel_quality]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown fluid tag 'forge:ethene'
+[18:46:40] [WARN] Failed to parse recipe pneumaticcraft:pneumaticcraft_fuels/ethylene[pneumaticcraft:fuel_quality]: com.google.gson.JsonSyntaxException: Unknown fluid tag 'forge:ethene'
+[18:46:40] [WARN] Failed to parse recipe 'immersiveengineering:crusher/ore_fluorite[immersiveengineering:crusher]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:gems/fluorite'
+[18:46:40] [WARN] Failed to parse recipe immersiveengineering:crusher/ore_fluorite[immersiveengineering:crusher]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:gems/fluorite'
+[18:46:40] [WARN] Failed to parse recipe 'simplyjetpacks:thermal/jetpack_te5[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'simplyjetpacks:armorplating_te5'
+[18:46:40] [WARN] Failed to parse recipe simplyjetpacks:thermal/jetpack_te5[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'simplyjetpacks:armorplating_te5'
+[18:46:40] [WARN] Failed to parse recipe 'exnihilosequentia:sieve/piece_lead_gravel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[18:46:40] [WARN] Failed to parse recipe exnihilosequentia:sieve/piece_lead_gravel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[18:46:40] [WARN] Failed to parse recipe 'thermal:machine/plugins/biomesoplenty/insolator_bop_wilted_lilly_flower[thermal:insolator]': {"item":"biomesoplenty:wilted_lilly"} is not a valid ingredient!
+[18:46:40] [WARN] Failed to parse recipe 'simplyjetpacks:thermal/armorplating_te5[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'simplyjetpacks:armorplating_te5'
+[18:46:40] [WARN] Failed to parse recipe simplyjetpacks:thermal/armorplating_te5[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'simplyjetpacks:armorplating_te5'
+[18:46:40] [WARN] Failed to parse recipe 'simplyjetpacks:thermal/thruster_te1[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'thermal:fluxduct_leadstone'
+[18:46:40] [WARN] Failed to parse recipe simplyjetpacks:thermal/thruster_te1[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'thermal:fluxduct_leadstone'
+[18:46:40] [WARN] Failed to parse recipe 'simplyjetpacks:thermal/thruster_te5[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'simplyjetpacks:armorplating_te5'
+[18:46:40] [WARN] Failed to parse recipe simplyjetpacks:thermal/thruster_te5[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'simplyjetpacks:armorplating_te5'
+[18:46:40] [WARN] Failed to parse recipe 'simplyjetpacks:thermal/thruster_te4[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'thermal:fluxduct_resonant'
+[18:46:40] [WARN] Failed to parse recipe simplyjetpacks:thermal/thruster_te4[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'thermal:fluxduct_resonant'
+[18:46:40] [WARN] Failed to parse recipe 'simplyjetpacks:thermal/thruster_te3[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'thermal:fluxduct_reinforced'
+[18:46:40] [WARN] Failed to parse recipe simplyjetpacks:thermal/thruster_te3[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'thermal:fluxduct_reinforced'
+[18:46:40] [WARN] Failed to parse recipe 'simplyjetpacks:thermal/thruster_te2[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'thermal:fluxduct_hardened'
+[18:46:40] [WARN] Failed to parse recipe simplyjetpacks:thermal/thruster_te2[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'thermal:fluxduct_hardened'
+[18:46:40] [INFO] server_scripts:script.js:31: - exnihilosequentia:sieve[minecraft:crafting_shaped]: ['#minecraft:planks', '#minecraft:wooden_slabs', '#forge:rods/wooden'] -> ['exnihilosequentia:sieve']
+[18:46:40] [INFO] server_scripts:script.js:32: - exnihilosequentia:mesh_string[minecraft:crafting_shaped]: ['#forge:string'] -> ['exnihilosequentia:mesh_string']
+[18:46:40] [INFO] server_scripts:script.js:33: - exnihilosequentia:mesh_flint[minecraft:crafting_shaped]: ['minecraft:flint', 'exnihilosequentia:mesh_string'] -> ['exnihilosequentia:mesh_flint']
+[18:46:40] [INFO] server_scripts:script.js:34: - exnihilosequentia:mesh_iron[minecraft:crafting_shaped]: ['#forge:ingots/iron', 'exnihilosequentia:mesh_flint'] -> ['exnihilosequentia:mesh_iron']
+[18:46:40] [INFO] server_scripts:script.js:35: + minecraft:kubejs_generated_1_exnihilosequentia_sieve[minecraft:crafting_shaped]: ['naturesaura:ancient_log', 'naturesaura:ancient_planks', 'naturesaura:ancient_slab', 'naturesaura:ancient_stick'] -> ['exnihilosequentia:sieve']
+[18:46:40] [INFO] server_scripts:script.js:45: + minecraft:kubejs_generated_2_exnihilosequentia_mesh_string[minecraft:crafting_shaped]: ['minecraft:string', Item.of('naturesaura:aura_bottle', {stored_type:"naturesaura:overworld"}), Item.of('pickletweaks:mesh', {Damage:0.0})] -> ['exnihilosequentia:mesh_string']
+[18:46:40] [INFO] server_scripts:script.js:54: + minecraft:kubejs_generated_3_exnihilosequentia_mesh_flint[minecraft:crafting_shaped]: ['minecraft:flint', Item.of('exnihilosequentia:mesh_string', {Damage:0.0})] -> ['exnihilosequentia:mesh_flint']
+[18:46:40] [INFO] server_scripts:script.js:62: + minecraft:kubejs_generated_4_exnihilosequentia_mesh_iron[minecraft:crafting_shaped]: ['create:iron_sheet', 'naturesaura:infused_iron', Item.of('exnihilosequentia:mesh_flint', {Damage:0.0})] -> ['exnihilosequentia:mesh_iron']
+[18:46:40] [INFO] server_scripts:script.js:73: - ironchest:upgrades/diamond_to_crystal_chest_upgrade[minecraft:crafting_shaped]: ['minecraft:obsidian', '#forge:glass'] -> ['ironchest:diamond_to_crystal_chest_upgrade']
+[18:46:40] [INFO] server_scripts:script.js:73: - ironchest:chests/silver_gold_chest[minecraft:crafting_shaped]: ['#forge:ingots/gold', 'ironchest:silver_chest', '#forge:glass'] -> ['ironchest:gold_chest']
+[18:46:40] [INFO] server_scripts:script.js:73: - ironchest:chests/iron_silver_chest[minecraft:crafting_shaped]: ['#forge:ingots/silver', 'ironchest:iron_chest', '#forge:glass'] -> ['ironchest:silver_chest']
+[18:46:40] [INFO] server_scripts:script.js:73: - ironchest:chests/gold_diamond_chest[minecraft:crafting_shaped]: ['#forge:gems/diamond', 'ironchest:gold_chest', '#forge:glass'] -> ['ironchest:diamond_chest']
+[18:46:40] [INFO] server_scripts:script.js:73: - ironchest:upgrades/silver_to_gold_chest_upgrade[minecraft:crafting_shaped]: ['#forge:ingots/gold', '#forge:ingots/copper', '#forge:glass'] -> ['ironchest:silver_to_gold_chest_upgrade']
+[18:46:40] [INFO] server_scripts:script.js:73: - ironchest:chests/vanilla_copper_chest[minecraft:crafting_shaped]: ['#forge:ingots/copper', '#forge:chests/wooden'] -> ['ironchest:copper_chest']
+[18:46:40] [INFO] server_scripts:script.js:73: - ironchest:upgrades/gold_to_diamond_chest_upgrade[minecraft:crafting_shaped]: ['#forge:gems/diamond', '#forge:ingots/gold', '#forge:glass'] -> ['ironchest:gold_to_diamond_chest_upgrade']
+[18:46:40] [INFO] server_scripts:script.js:73: - ironchest:chests/diamond_crystal_chest[minecraft:crafting_shaped]: ['#forge:glass', 'ironchest:diamond_chest'] -> ['ironchest:crystal_chest']
+[18:46:40] [INFO] server_scripts:script.js:73: - ironchest:chests/vanilla_dirt_chest[minecraft:crafting_shaped]: [['minecraft:dirt', 'minecraft:coarse_dirt', 'minecraft:podzol'], '#forge:chests/wooden'] -> ['ironchest:dirt_chest']
+[18:46:40] [INFO] server_scripts:script.js:73: - ironchest:upgrades/copper_to_iron_chest_upgrade[minecraft:crafting_shaped]: ['#forge:ingots/iron', '#forge:ingots/copper', '#forge:glass'] -> ['ironchest:copper_to_iron_chest_upgrade']
+[18:46:40] [INFO] server_scripts:script.js:73: - ironchest:upgrades/copper_to_silver_chest_upgrade[minecraft:crafting_shaped]: ['#forge:ingots/silver', '#forge:ingots/copper'] -> ['ironchest:copper_to_silver_chest_upgrade']
+[18:46:40] [INFO] server_scripts:script.js:73: - ironchest:upgrades/wood_to_copper_chest_upgrade[minecraft:crafting_shaped]: ['#forge:ingots/copper', '#minecraft:planks'] -> ['ironchest:wood_to_copper_chest_upgrade']
+[18:46:40] [INFO] server_scripts:script.js:73: - ironchest:upgrades/diamond_to_obsidian_chest_upgrade[minecraft:crafting_shaped]: ['minecraft:obsidian', '#forge:glass'] -> ['ironchest:diamond_to_obsidian_chest_upgrade']
+[18:46:40] [INFO] server_scripts:script.js:73: - ironchest:upgrades/wood_to_iron_chest_upgrade[minecraft:crafting_shaped]: ['#forge:ingots/iron', '#minecraft:planks'] -> ['ironchest:wood_to_iron_chest_upgrade']
+[18:46:40] [INFO] server_scripts:script.js:73: - ironchest:chests/silver_diamond_chest[minecraft:crafting_shaped]: ['#forge:gems/diamond', 'ironchest:silver_chest', '#forge:glass'] -> ['ironchest:diamond_chest']
+[18:46:40] [INFO] server_scripts:script.js:73: - ironchest:upgrades/iron_to_gold_chest_upgrade[minecraft:crafting_shaped]: ['#forge:ingots/iron', '#forge:ingots/gold'] -> ['ironchest:iron_to_gold_chest_upgrade']
+[18:46:40] [INFO] server_scripts:script.js:73: - ironchest:chests/iron_gold_chest[minecraft:crafting_shaped]: ['#forge:ingots/gold', 'ironchest:iron_chest'] -> ['ironchest:gold_chest']
+[18:46:40] [INFO] server_scripts:script.js:73: - ironchest:chests/copper_iron_chest[minecraft:crafting_shaped]: ['#forge:ingots/iron', 'ironchest:copper_chest', '#forge:glass'] -> ['ironchest:iron_chest']
+[18:46:40] [INFO] server_scripts:script.js:73: - ironchest:chests/vanilla_iron_chest[minecraft:crafting_shaped]: ['#forge:ingots/iron', '#forge:chests/wooden'] -> ['ironchest:iron_chest']
+[18:46:40] [INFO] server_scripts:script.js:73: - ironchest:chests/copper_silver_chest[minecraft:crafting_shaped]: ['#forge:ingots/silver', 'ironchest:copper_chest'] -> ['ironchest:silver_chest']
+[18:46:40] [INFO] server_scripts:script.js:73: - ironchest:chests/diamond_obsidian_chest[minecraft:crafting_shaped]: ['minecraft:obsidian', 'ironchest:diamond_chest'] -> ['ironchest:obsidian_chest']
+[18:46:40] [INFO] server_scripts:script.js:75: + minecraft:kubejs_generated_5_ironchest_dirt_chest[minecraft:crafting_shaped]: ['#industrialforegoing:sludge', '#forge:chests/wooden'] -> ['ironchest:dirt_chest']
+[18:46:40] [INFO] server_scripts:script.js:84: + minecraft:kubejs_generated_6_ironchest_copper_chest[minecraft:crafting_shaped]: ['create:copper_sheet', '#forge:chests/wooden'] -> ['ironchest:copper_chest']
+[18:46:40] [INFO] server_scripts:script.js:93: + minecraft:kubejs_generated_7_ironchest_iron_chest[minecraft:crafting_shaped]: ['create:iron_sheet', 'ironchest:copper_chest'] -> ['ironchest:iron_chest']
+[18:46:40] [INFO] server_scripts:script.js:102: + minecraft:kubejs_generated_8_ironchest_iron_chest[minecraft:crafting_shaped]: ['create:iron_sheet', '#forge:chests/wooden', 'create:andesite_alloy'] -> ['ironchest:iron_chest']
+[18:46:40] [INFO] server_scripts:script.js:112: + minecraft:kubejs_generated_9_ironchest_gold_chest[minecraft:crafting_shaped]: ['create:golden_sheet', 'ironchest:iron_chest'] -> ['ironchest:gold_chest']
+[18:46:40] [INFO] server_scripts:script.js:121: + minecraft:kubejs_generated_10_ironchest_gold_chest[minecraft:crafting_shaped]: ['create:golden_sheet', 'ironchest:silver_chest', 'minecraft:light_weighted_pressure_plate'] -> ['ironchest:gold_chest']
+[18:46:40] [INFO] server_scripts:script.js:131: + minecraft:kubejs_generated_11_ironchest_silver_chest[minecraft:crafting_shaped]: ['immersiveengineering:plate_silver', 'ironchest:iron_chest', '#forge:nuggets/silver'] -> ['ironchest:silver_chest']
+[18:46:40] [INFO] server_scripts:script.js:141: + minecraft:kubejs_generated_12_ironchest_silver_chest[minecraft:crafting_shaped]: ['immersiveengineering:plate_silver', 'ironchest:copper_chest'] -> ['ironchest:silver_chest']
+[18:46:40] [INFO] server_scripts:script.js:150: + minecraft:kubejs_generated_13_ironchest_diamond_chest[minecraft:crafting_shaped]: ['#forge:gears/diamond', 'ironchest:silver_chest'] -> ['ironchest:diamond_chest']
+[18:46:40] [INFO] server_scripts:script.js:159: + minecraft:kubejs_generated_14_ironchest_diamond_chest[minecraft:crafting_shaped]: ['#forge:gears/diamond', 'ironchest:silver_chest'] -> ['ironchest:diamond_chest']
+[18:46:40] [INFO] server_scripts:script.js:168: + minecraft:kubejs_generated_15_ironchest_diamond_chest[minecraft:crafting_shaped]: ['#forge:gears/diamond', 'ironchest:gold_chest'] -> ['ironchest:diamond_chest']
+[18:46:40] [INFO] server_scripts:script.js:177: + minecraft:kubejs_generated_16_ironchest_diamond_chest[minecraft:crafting_shaped]: ['#forge:gears/diamond', 'ironchest:gold_chest'] -> ['ironchest:diamond_chest']
+[18:46:40] [INFO] server_scripts:script.js:186: + minecraft:kubejs_generated_17_ironchest_obsidian_chest[minecraft:crafting_shaped]: ['#forge:obsidian', 'ironchest:diamond_chest'] -> ['ironchest:obsidian_chest']
+[18:46:40] [INFO] server_scripts:script.js:195: + minecraft:kubejs_generated_18_ironchest_crystal_chest[minecraft:crafting_shaped]: ['#forge:glass', 'ironchest:diamond_chest'] -> ['ironchest:crystal_chest']
+[18:46:40] [INFO] server_scripts:script.js:204: + minecraft:kubejs_generated_19_ironchest_wood_to_iron_chest_upgrade[minecraft:crafting_shaped]: ['create:iron_sheet', '#minecraft:planks'] -> ['ironchest:wood_to_iron_chest_upgrade']
+[18:46:40] [INFO] server_scripts:script.js:213: + minecraft:kubejs_generated_20_ironchest_wood_to_copper_chest_upgrade[minecraft:crafting_shaped]: ['create:copper_sheet', '#minecraft:planks'] -> ['ironchest:wood_to_copper_chest_upgrade']
+[18:46:40] [INFO] server_scripts:script.js:222: + minecraft:kubejs_generated_21_ironchest_copper_to_iron_chest_upgrade[minecraft:crafting_shaped]: ['create:iron_sheet', 'create:copper_sheet', 'create:andesite_alloy'] -> ['ironchest:copper_to_iron_chest_upgrade']
+[18:46:40] [INFO] server_scripts:script.js:232: + minecraft:kubejs_generated_22_ironchest_copper_to_silver_chest_upgrade[minecraft:crafting_shaped]: ['immersiveengineering:plate_silver', 'create:copper_sheet'] -> ['ironchest:copper_to_silver_chest_upgrade']
+[18:46:40] [WARN] server_scripts:script.js:241: Failed to create recipe for type 'minecraft:crafting_shaped': create:gold_sheet with key 'A' is not a valid ingredient!
+[18:46:40] [WARN] server_scripts:script.js:250: Failed to create recipe for type 'minecraft:crafting_shaped': create:gold_sheet with key 'A' is not a valid ingredient!
+[18:46:40] [WARN] server_scripts:script.js:259: Failed to create recipe for type 'minecraft:crafting_shaped': create:gold_sheet with key 'B' is not a valid ingredient!
+[18:46:40] [WARN] server_scripts:script.js:268: Failed to create recipe for type 'minecraft:crafting_shaped': create:gold_sheet with key 'B' is not a valid ingredient!
+[18:46:40] [INFO] server_scripts:script.js:277: + minecraft:kubejs_generated_23_ironchest_diamond_to_crystal_chest_upgrade[minecraft:crafting_shaped]: ['#forge:glass', '#forge:gears/diamond'] -> ['ironchest:diamond_to_crystal_chest_upgrade']
+[18:46:40] [INFO] server_scripts:script.js:286: + minecraft:kubejs_generated_24_ironchest_diamond_to_obsidian_chest_upgrade[minecraft:crafting_shaped]: ['#forge:obsidian', '#forge:gears/diamond'] -> ['ironchest:diamond_to_obsidian_chest_upgrade']
+[18:46:40] [WARN] Error parsing recipe immersivepetroleum:distillationtower/oilcracking[immersivepetroleum:distillation]: {"type":"immersivepetroleum:distillation","byproducts":[{"item":"immersivepetroleum:bitumen"}],"results":[{"fluid":"immersivepetroleum:lubricant","amount":9},{"fluid":"immersivepetroleum:diesel","amount":27},{"fluid":"immersivepetroleum:gasoline","amount":39}],"input":{"tag":"forge:crude_oil","amount":75},"energy":2048}: java.lang.IllegalArgumentException: Unexpected json object.
+[18:46:40] [WARN] Error creating recipe minecraft:kubejs_generated_14_ironchest_diamond_chest[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","result":{"item":"ironchest:diamond_chest","count":1},"pattern":[" A","ABA"," A "],"key":{"A":{"tag":"forge:gears/diamond"},"B":{"item":"ironchest:silver_chest"}}}: com.google.gson.JsonSyntaxException: Invalid pattern: each row must be the same width
+[18:46:42] [INFO] [functions] Found 0 tags, added 0 objects, removed 0 objects
