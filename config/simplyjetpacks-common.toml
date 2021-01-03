@@ -17,3 +17,8 @@
 		#Enable Immersive Engineering Jetpacks Integration.
 		enableIntegrationImmersiveEngineering = true
 
+	#Misc Configurations
+	[simplyjetpacks-common.misc]
+		#Enable Join Advancements
+		enableJoinAdvancements = true
+

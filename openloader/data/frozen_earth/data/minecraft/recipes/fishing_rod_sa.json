@@ -1,0 +1,22 @@
+{
+    "type": "stone_age:flint_workbench",
+    "pattern": [
+      "  S",
+      " SR",
+      "S R"
+    ],
+    "key": {
+      "S": {
+        "tag": "forge:rods/wooden"
+      },
+      "R": {
+        "tag": "forge:string"
+      }
+    },
+    "tool": {
+      "tag": "ages_api:knifes"
+    },
+    "result": {
+      "item": "minecraft:fishing_rod"
+    }
+  }

@@ -4,6 +4,14 @@
 	order_index: 7,
 	title: "Chapter 6: Heavy Tinkering",
 	icon: {
+		ForgeCaps: {
+			"dungeons_gear:weapon": {
+				lastFiredTime: 0L,
+				fuseShotCounter: 0,
+				crossbowChargeTime: 0,
+				bowChargeTime: 0.0f
+			}
+		},
 		id: "industrialforegoing:infinity_drill",
 		Count: true,
 		tag: {
