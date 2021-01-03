@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "www",
+        "pip"
+    ],
+    "key": {
+        "w": {
+            "item": "minecraft:yellow_wool"
+        },
+        "p": {
+            "tag": "minecraft:planks"
+        },
+        "i": {
+            "item": "create:iron_sheet"
+        }
+    },
+    "result": {
+        "item": "minecraft:yellow_bed",
+        "count": 1
+    }
+}

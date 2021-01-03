@@ -3,18 +3,7 @@
 	filename: "chapter_4_pressurized_machinery",
 	order_index: 5,
 	title: "Chapter 4: Pressurized Machinery",
-	icon: {
-		ForgeCaps: {
-			"dungeons_gear:weapon": {
-				lastFiredTime: 0L,
-				fuseShotCounter: 0,
-				crossbowChargeTime: 0,
-				bowChargeTime: 0.0f
-			}
-		},
-		id: "pneumaticcraft:assembly_drill",
-		Count: true
-	},
+	icon: "pneumaticcraft:assembly_drill",
 	default_quest_shape: "",
 	quests: []
 }

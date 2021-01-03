@@ -7,11 +7,12 @@
     ],
     "key": {
         "a": {
-            "tag": "forge:stones/andesite"
+            "item": "minecraft:andesite"
         },
-        "i": {
-            "tag": "forge:nuggets/iron"
-        }
+        "i": [
+            {"item": "minecraft:iron_nugget"},
+            {"item": "create:zinc_nugget"}
+        ]
     },
     "result": {
         "item": "create:andesite_alloy",

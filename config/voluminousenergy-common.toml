@@ -57,7 +57,7 @@
 		#Range: > 10
 		"Oil Lake Chance" = 80
 		#Enable/Disable Oil Lakes
-		"Oil Lakes" = false
+		"Oil Lakes" = true
 		#Oil Geyser Chance (Lower = Higher chance)
 		#Range: > 10
 		"Oil Geyser Chance" = 2520
