@@ -24,3 +24,4 @@ patchouli_data.json
 /config/environmental
 /logs
 ProgrammingPuzzleBlacklist.cfg
+OptiFine*.jar

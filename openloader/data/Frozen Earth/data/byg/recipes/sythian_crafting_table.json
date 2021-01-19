@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:workbench"
+        },
+        {
+            "item": "byg:sythian_planks"
+        }
+    ],
+    "result": {
+        "item": "byg:sythian_crafting_table"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "silentgear:damage_item",
+    "ingredients": [
+      {
+        "tag": "forge:saws"
+      },
+      {
+        "tag": "terraqueous:banana_logs"
+      }
+    ],
+    "result": {
+      "item": "terraqueous:banana_planks",
+      "count": 3
+    },
+    "damage": 1
+  }

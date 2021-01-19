@@ -1,5 +1,7 @@
 
-[Settings]
-	#Enable/disable better end sky. Set this to false if you are experiencing issues with shaders (temporary solution)
-	enabled = true
+["Client settings"]
+	#Enable/disable better end sky, set this to false if you are experiencing graphical issues with shaders.
+	customSkyEnabled = true
+	#Enable/disable biome fog density, set this to false if you don't want thick fog in certain biomes
+	fogDensityEnabled = true
 

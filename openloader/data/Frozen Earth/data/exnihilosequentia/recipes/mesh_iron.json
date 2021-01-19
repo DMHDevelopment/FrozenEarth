@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "INI",
+        "NMN",
+        "INI"
+    ],
+    "key": {
+        "I": {
+            "tag": "forge:plates/iron"
+        },
+        "N": {
+            "tag": "forge:rods/cast_iron"
+        },
+        "M": {
+            "type": "forge:nbt",
+            "item": "exnihilosequentia:mesh_flint",
+            "nbt": "{Damage: 0}"
+        }
+    },
+    "result": {
+        "item": "exnihilosequentia:mesh_iron"
+    }
+}

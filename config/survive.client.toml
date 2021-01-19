@@ -7,7 +7,10 @@
 	#Range: -200 ~ 200
 	"Temperature Y Offset" = 5
 	#Allowed Values: HOTBAR, NUMBERS, BAR
-	"Temperature Display Mode" = "HOTBAR"
+	"Temperature Display Mode" = "BAR"
 	#If Enabled, temperature will be displayed in fahrenheit if the display mode is set to NUMBERS
 	"Display In Fahrenheit" = false
+	#The range in blocks which temperature is calculated. It can also be interpreted as the range you have to be for a block for it to factor in your temperature
+	#Range: 2 ~ 10
+	"Block Calculation Range" = 5
 

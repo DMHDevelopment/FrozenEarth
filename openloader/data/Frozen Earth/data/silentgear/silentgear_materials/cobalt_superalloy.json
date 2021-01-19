@@ -1,0 +1,71 @@
+{
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ingots/cobalt_superalloy",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "availability": {
+    "tier": 3,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:ingots/cobalt_superalloy"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.cobalt_superalloy"
+  },
+  "stats": {
+    "main": {
+      "durability": 2000.0,
+      "armor_durability": 63.0,
+      "repair_value": 0.3,
+      "enchantability": 11.0,
+      "harvest_level": 4.0,
+      "harvest_speed": 9.0,
+      "melee_damage": 7.0,
+      "magic_damage": 2.0,
+      "attack_speed": 0.0,
+      "armor/helmet": 3.0,
+      "armor/chestplate": 9.0,
+      "armor/leggings": 6.0,
+      "armor/boots": 3.0,
+      "armor_toughness": 12.0,
+      "magic_armor": 6.0,
+      "ranged_damage": 3.0,
+      "ranged_speed": 0.15,
+      "rarity": 75.0,
+      "silentgems:chargeability": 0.8
+    },
+    "rod": {
+      "durability": {
+        "mul2": 0.75
+      },
+      "rarity": 65.0
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:malleable",
+        "level": 5
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:malleable",
+        "level": 5
+      }
+    ]
+  }
+}

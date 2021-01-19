@@ -1,0 +1,16 @@
+{
+    "type": "silentgear:damage_item",
+    "ingredients": [
+      {
+        "tag": "forge:saws"
+      },
+      {
+        "tag": "upgrade_aquatic:driftwood_logs"
+      }
+    ],
+    "result": {
+      "item": "upgrade_aquatic:driftwood_planks",
+      "count": 3
+    },
+    "damage": 1
+  }

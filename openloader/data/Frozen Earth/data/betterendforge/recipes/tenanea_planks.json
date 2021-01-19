@@ -1,0 +1,16 @@
+{
+    "type": "silentgear:damage_item",
+    "ingredients": [
+      {
+        "tag": "forge:saws"
+      },
+      {
+        "tag": "betterendforge:tenanea_logs"
+      }
+    ],
+    "result": {
+      "item": "betterendforge:tenanea_planks",
+      "count": 3
+    },
+    "damage": 1
+  }

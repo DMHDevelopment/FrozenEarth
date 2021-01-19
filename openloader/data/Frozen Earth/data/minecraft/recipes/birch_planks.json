@@ -1,0 +1,16 @@
+{
+    "type": "silentgear:damage_item",
+    "ingredients": [
+      {
+        "tag": "forge:saws"
+      },
+      {
+        "tag": "minecraft:birch_logs"
+      }
+    ],
+    "result": {
+      "item": "minecraft:birch_planks",
+      "count": 3
+    },
+    "damage": 1
+  }

@@ -1,0 +1,26 @@
+{
+    "replace": false,
+    "values": [
+        "rankine:stone_hammer",
+        "rankine:pewter_hammer",
+        "rankine:bronze_hammer",
+        "rankine:iron_hammer",
+        "rankine:meteoric_iron_hammer",
+        "rankine:steel_hammer",
+        "rankine:stainless_steel_hammer",
+        "rankine:nickel_superalloy_hammer",
+        "rankine:cobalt_superalloy_hammer",
+        "rankine:tungsten_heavy_alloy_hammer",
+        "rankine:rose_gold_hammer",
+        "rankine:white_gold_hammer",
+        "rankine:green_gold_hammer",
+        "rankine:blue_gold_hammer",
+        "rankine:purple_gold_hammer",
+        "rankine:black_gold_hammer",
+        "rankine:amalgam_hammer",
+        "rankine:diamond_hammer",
+        "rankine:netherite_hammer",
+        "rankine:alloy_hammer",
+        "#exnihilosequentia:hammer"
+    ]
+}

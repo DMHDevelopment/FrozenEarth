@@ -1,0 +1,16 @@
+{
+    "type": "silentgear:damage_item",
+    "ingredients": [
+      {
+        "tag": "forge:saws"
+      },
+      {
+        "tag": "rankine:coconut_palm_logs"
+      }
+    ],
+    "result": {
+      "item": "rankine:coconut_palm_planks",
+      "count": 3
+    },
+    "damage": 1
+  }

@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:workbench"
+        },
+        {
+            "item": "byg:nightshade_planks"
+        }
+    ],
+    "result": {
+        "item": "byg:nightshade_crafting_table"
+    }
+}

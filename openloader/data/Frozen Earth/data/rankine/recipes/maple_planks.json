@@ -1,0 +1,16 @@
+{
+    "type": "silentgear:damage_item",
+    "ingredients": [
+      {
+        "tag": "forge:saws"
+      },
+      {
+        "tag": "rankine:maple_logs"
+      }
+    ],
+    "result": {
+      "item": "rankine:maple_planks",
+      "count": 3
+    },
+    "damage": 1
+  }

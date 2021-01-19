@@ -1,0 +1,16 @@
+{
+    "type": "silentgear:damage_item",
+    "ingredients": [
+      {
+        "tag": "forge:saws"
+      },
+      {
+        "tag": "betterendforge:end_lotus_logs"
+      }
+    ],
+    "result": {
+      "item": "betterendforge:end_lotus_planks",
+      "count": 3
+    },
+    "damage": 1
+  }

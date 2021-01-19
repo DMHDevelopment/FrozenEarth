@@ -1,0 +1,215 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 3.0,
+            "bonus_rolls": 1.0,
+            "entries": [
+                {
+                  "type": "minecraft:item",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "set_count",
+                      "count": {
+                        "min": 2.0,
+                        "max": 8.0
+                      }
+                    }
+                  ],
+                  "name": "crockpot:aspargus_soup"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "set_count",
+                      "count": {
+                        "min": 2.0,
+                        "max": 8.0
+                      }
+                    }
+                  ],
+                  "name": "crockpot:fish_sticks"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "set_count",
+                      "count": {
+                        "min": 2.0,
+                        "max": 8.0
+                      }
+                    }
+                  ],
+                  "name": "crockpot:ceviche"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "set_count",
+                      "count": {
+                        "min": 2.0,
+                        "max": 8.0
+                      }
+                    }
+                  ],
+                  "name": "crockpot:honey_nuggets"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "set_count",
+                      "count": {
+                        "min": 2.0,
+                        "max": 8.0
+                      }
+                    }
+                  ],
+                  "name": "crockpot:kabobs"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "set_count",
+                      "count": {
+                        "min": 2.0,
+                        "max": 8.0
+                      }
+                    }
+                  ],
+                  "name": "crockpot:ratatouille"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 1,
+                  "quality": 2,
+                  "functions": [
+                    {
+                      "function": "set_count",
+                      "count": {
+                        "min": 1.0,
+                        "max": 4.0
+                      }
+                    }
+                  ],
+                  "name": "crockpot:bone_stew"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 1,
+                  "quality": 2,
+                  "functions": [
+                    {
+                      "function": "set_count",
+                      "count": {
+                        "min": 1.0,
+                        "max": 4.0
+                      }
+                    }
+                  ],
+                  "name": "crockpot:bacon_eggs"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 1,
+                  "quality": 2,
+                  "functions": [
+                    {
+                      "function": "set_count",
+                      "count": {
+                        "min": 1.0,
+                        "max": 4.0
+                      }
+                    }
+                  ],
+                  "name": "crockpot:turkey_dinner"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 1,
+                  "quality": 1,
+                  "functions": [
+                    {
+                      "function": "set_count",
+                      "count": {
+                        "min": 1.0,
+                        "max": 4.0
+                      }
+                    }
+                  ],
+                  "name": "crockpot:pumpkin_cookie"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 1,
+                  "quality": 2,
+                  "functions": [
+                    {
+                      "function": "set_count",
+                      "count": {
+                        "min": 1.0,
+                        "max": 4.0
+                      }
+                    }
+                  ],
+                  "name": "crockpot:moqueca"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 1,
+                  "quality": 1,
+                  "functions": [
+                    {
+                      "function": "set_count",
+                      "count": {
+                        "min": 1.0,
+                        "max": 4.0
+                      }
+                    }
+                  ],
+                  "name": "crockpot:meat_balls"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 1,
+                  "quality": 1,
+                  "functions": [
+                    {
+                      "function": "set_count",
+                      "count": {
+                        "min": 1.0,
+                        "max": 4.0
+                      }
+                    }
+                  ],
+                  "name": "crockpot:hot_chili"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 1,
+                  "quality": 1,
+                  "functions": [
+                    {
+                      "function": "set_count",
+                      "count": {
+                        "min": 1.0,
+                        "max": 4.0
+                      }
+                    }
+                  ],
+                  "name": "crockpot:honey_ham"
+                }
+            ]
+        }
+    ]
+}

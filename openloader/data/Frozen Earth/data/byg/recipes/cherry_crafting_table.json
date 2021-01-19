@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:workbench"
+        },
+        {
+            "item": "byg:cherry_planks"
+        }
+    ],
+    "result": {
+        "item": "byg:cherry_crafting_table"
+    }
+}

@@ -74,8 +74,8 @@
 		},
 		{
 			title: "First weapon...",
-			x: -7.5d,
-			y: 6.5d,
+			x: -13.0d,
+			y: 2.0d,
 			description: ["To be secured on this planet I need some sort of weapon right now. What should I craft? A spear? Maybe. A sword? Nevermind..."],
 			hide_dependency_lines: true,
 			dependencies: [I;
@@ -118,7 +118,7 @@
 			}]
 		},
 		{
-			x: 1.5d,
+			x: 3.5d,
 			y: 4.5d,
 			description: ["To obtain cobblestone I need some sort of pickaxe, you know. I can mine some using my first Flint Pickaxe."],
 			hide_dependency_lines: true,
@@ -203,7 +203,7 @@
 		},
 		{
 			title: "Crooky Crook",
-			x: -2.5d,
+			x: -0.5d,
 			y: 4.5d,
 			description: ["Crook allows you to get more saplings and sticks from leaves and find some silkworms to obtain strings in near future and first food."],
 			hide_dependency_lines: true,
@@ -227,7 +227,7 @@
 			}]
 		},
 		{
-			x: -1.5d,
+			x: 0.5d,
 			y: 4.5d,
 			description: ["Silkworms are my good friends right now. I can use them to turn leaves into strings or eat them."],
 			dependencies: [I;43],
@@ -251,7 +251,7 @@
 			}]
 		},
 		{
-			x: 0.5d,
+			x: 2.5d,
 			y: 6.75d,
 			description: ["They're looking delicious, but still not good as steaks..."],
 			hide_dependency_lines: true,
@@ -276,7 +276,7 @@
 		},
 		{
 			title: "String of the Day",
-			x: -1.5d,
+			x: 0.5d,
 			y: 5.5d,
 			description: ["I can get strings by breaking leaves with crook."],
 			dependencies: [I;45],
@@ -295,7 +295,7 @@
 		},
 		{
 			x: -2.0d,
-			y: 10.5d,
+			y: 11.0d,
 			description: [
 				"I can use Water Strainers to catch fishes while I'm away from the lake, but it requires more strength and better table than mine...",
 				"NOTE: While this quest is present here, you cannot craft Strainer Base without getting Crafting Table."
@@ -328,7 +328,7 @@
 		},
 		{
 			title: "Cods and others in the lake",
-			x: -2.5d,
+			x: -0.5d,
 			y: 6.5d,
 			description: ["Uh, they're quick, but it's better than silkworms atleast."],
 			dependencies: [I;55],
@@ -345,7 +345,7 @@
 			}]
 		},
 		{
-			x: -2.5d,
+			x: -0.5d,
 			y: 5.5d,
 			description: ["I can break some ice to get a hole in the lake to get some fish... I need something to catch cods..."],
 			dependencies: [I;49],
@@ -374,7 +374,7 @@
 			}]
 		},
 		{
-			x: 1.5d,
+			x: 3.5d,
 			y: 7.0d,
 			shape: "hexagon",
 			description: ["Another thing I need to make. It smelts items."],
@@ -394,8 +394,8 @@
 		},
 		{
 			title: "Monsters... they're here!",
-			x: -7.0d,
-			y: 7.5d,
+			x: -12.5d,
+			y: 3.0d,
 			description: ["This planet is full with monsters and other creatures such as dragons and other things... A lot have changed here from year 2077... Also I saw some skeletons on frozen dirt and I can collect bones."],
 			dependencies: [I;34],
 			id: 59,
@@ -413,8 +413,8 @@
 		},
 		{
 			title: "Shears",
-			x: -9.0d,
-			y: 7.5d,
+			x: -14.5d,
+			y: 3.0d,
 			description: ["Shears allows to get leaves for first water or grass for primitive tools and first bed."],
 			dependencies: [I;59],
 			id: 61,
@@ -438,9 +438,8 @@
 		},
 		{
 			x: -7.0d,
-			y: 8.5d,
+			y: 7.5d,
 			description: ["Drying Racks allows you to dry grass. And dry Rotten Flesh to make leather if you don't want to kill animals. That's all."],
-			dependencies: [I;59],
 			id: 63,
 			tasks: [{
 				id: 64,
@@ -454,7 +453,7 @@
 			}]
 		},
 		{
-			x: -6.0d,
+			x: -6.5d,
 			y: 8.5d,
 			description: ["Practically, this is default bed, but different texture."],
 			dependencies: [I;
@@ -483,8 +482,8 @@
 			]
 		},
 		{
-			x: -7.0d,
-			y: 9.5d,
+			x: -7.5d,
+			y: 8.5d,
 			description: ["It is required for bone tools and that's all. Yeah..."],
 			dependencies: [I;63],
 			id: 67,
@@ -503,7 +502,7 @@
 		{
 			title: "Bone Tools",
 			x: -7.0d,
-			y: 10.5d,
+			y: 9.5d,
 			description: ["Bone Tools have more durability and faster than Flint ones, but harder to make."],
 			dependencies: [I;67],
 			id: 69,
@@ -562,7 +561,7 @@
 			}]
 		},
 		{
-			x: 1.5d,
+			x: 3.5d,
 			y: 8.75d,
 			description: ["Stone is needed for my next tier of tools and for first chests."],
 			dependencies: [I;57],
@@ -590,8 +589,8 @@
 			]
 		},
 		{
-			x: 1.5d,
-			y: 11.0d,
+			x: 2.0d,
+			y: 10.0d,
 			description: ["It allows me to store items. 15 slots. Nothing more interesting."],
 			dependencies: [I;77],
 			id: 75,
@@ -607,8 +606,8 @@
 			}]
 		},
 		{
-			x: 1.5d,
-			y: 10.0d,
+			x: 2.0d,
+			y: 9.0d,
 			description: ["Stone Hammer allows me to break blocks and wood on Tree Stumps. I can make slabs and planks with this hammer!"],
 			dependencies: [I;73],
 			id: 77,
@@ -685,8 +684,8 @@
 			}]
 		},
 		{
-			x: -8.0d,
-			y: 7.5d,
+			x: -13.5d,
+			y: 3.0d,
 			shape: "hexagon",
 			description: ["Tanning is a way to make leather better and tanned leather is needed for backpacks."],
 			dependencies: [I;34],
@@ -704,8 +703,8 @@
 		},
 		{
 			title: "Tanned Leather",
-			x: -8.0d,
-			y: 8.5d,
+			x: -13.5d,
+			y: 4.0d,
 			description: ["Get some leather to make something."],
 			dependencies: [I;83],
 			id: 85,
@@ -723,8 +722,8 @@
 			}]
 		},
 		{
-			x: -9.0d,
-			y: 8.5d,
+			x: -14.5d,
+			y: 4.0d,
 			description: ["Lead allows animals to move to my base."],
 			dependencies: [I;85],
 			id: 87,
@@ -742,8 +741,8 @@
 			}]
 		},
 		{
-			x: -9.0d,
-			y: 9.5d,
+			x: -14.5d,
+			y: 5.0d,
 			description: ["This backpack allows me to have more items. It have 15 pockets for various items!"],
 			dependencies: [I;87],
 			id: 89,
@@ -883,7 +882,7 @@
 		},
 		{
 			x: -8.0d,
-			y: 10.5d,
+			y: 9.5d,
 			description: ["Bones are better than flint and they can atleast mine some cold dirt underneath. Also I can mine some of sand or clay with it!"],
 			dependencies: [I;67],
 			id: 121,
@@ -1085,7 +1084,7 @@
 		},
 		{
 			title: "Eins, Zwei, Dry",
-			x: -3.0d,
+			x: -6.0d,
 			y: 12.0d,
 			description: ["Drying Racks allows you to dry grass. And dry Rotten Flesh to make leather if you don't want to kill animals, also it is needed for jerky from fishes and many more things can be made by drying."],
 			dependencies: [I;144],
@@ -1116,8 +1115,8 @@
 			}]
 		},
 		{
-			x: -2.0d,
-			y: 11.5d,
+			x: -7.0d,
+			y: 12.0d,
 			description: ["I can dry rotten flesh on drying racks for some time and I'll get Zombie Leather."],
 			dependencies: [I;150],
 			id: 152,
@@ -1133,8 +1132,8 @@
 			}]
 		},
 		{
-			x: -1.0d,
-			y: 11.5d,
+			x: -7.0d,
+			y: 13.0d,
 			description: ["Handy Crafting Table is a good thing. I can craft my items wherever I want to. It's useful when I try to craft something far away from home..."],
 			dependencies: [I;152],
 			id: 154,
@@ -1151,8 +1150,8 @@
 			}]
 		},
 		{
-			x: -2.0d,
-			y: 12.5d,
+			x: -6.0d,
+			y: 13.0d,
 			description: ["I can eat dried food too. Yes, fish + drying rack = cod/salmon jerky."],
 			dependencies: [I;150],
 			id: 156,
@@ -1169,7 +1168,7 @@
 		},
 		{
 			x: -3.0d,
-			y: 11.0d,
+			y: 12.0d,
 			description: ["Chests allows me to finally store more items outside my pockets and small stone chests. Isn't this nice?"],
 			dependencies: [I;144],
 			id: 162,
@@ -1187,7 +1186,7 @@
 		},
 		{
 			x: -3.0d,
-			y: 9.0d,
+			y: 8.5d,
 			description: ["Sawdust is a helpful substance from wood logs. Sawdust can be obtained by punching half of the plank on tree stump, so I can move to make my first paper!"],
 			dependencies: [I;81],
 			id: 164,
@@ -1223,8 +1222,8 @@
 			}]
 		},
 		{
-			x: 7.0d,
-			y: 6.5d,
+			x: 10.0d,
+			y: 7.5d,
 			description: [
 				"I have an interesting file in my cyberbrain called nature.txt. Maybe I can write it on paper to use something from it? Hmmm... Nature's Aura? Sounds like a good story about nature... or I can learn something helpful from this.",
 				"",
@@ -1262,7 +1261,7 @@
 		{
 			title: "Looking for Resources?",
 			x: -3.0d,
-			y: 10.0d,
+			y: 11.0d,
 			description: ["Survivalist's Net allows you to get iron and gold for your future needs. You cannot just get ores and smelt them, because they're soooo cold and needs to be crushed first."],
 			dependencies: [I;144],
 			id: 170,
@@ -1292,15 +1291,17 @@
 			]
 		},
 		{
-			x: -2.0d,
-			y: 9.5d,
+			x: -10.0d,
+			y: 9.0d,
+			shape: "diamond",
 			description: ['I need a lot of gold to begin my researching on interesting book called "Nature\'s Aura"'],
-			dependencies: [I;170],
+			dependencies: [I;758],
 			id: 172,
 			tasks: [{
 				id: 173,
 				type: "item",
-				item: "minecraft:gold_nugget"
+				item: "minecraft:gold_nugget",
+				count: 36L
 			}],
 			rewards: [{
 				id: 514,
@@ -1311,8 +1312,8 @@
 		},
 		{
 			title: "Gold, More Gold and Leaves...",
-			x: 7.5d,
-			y: 5.5d,
+			x: 10.5d,
+			y: 6.5d,
 			description: [
 				"Golden leaves can help me to get more magical aspects from trees and bushes. It can have a lot of potential of making stonger materials instead of wood or stone...",
 				"I need some Brilliant Fiber, so I can place it on leaves to make them stronger, than now"
@@ -1342,8 +1343,8 @@
 		},
 		{
 			title: "Infused Joyness",
-			x: 4.5d,
-			y: 6.0d,
+			x: 8.5d,
+			y: 7.5d,
 			description: ["My first attempt to make this infusion was a bit interesting. I made a Totem of Joy. It's full of something glowing in this totem. Maybe it really can give me some sort of joyness? "],
 			dependencies: [I;178],
 			id: 176,
@@ -1360,8 +1361,8 @@
 		},
 		{
 			title: "First Infusions...",
-			x: 7.5d,
-			y: 4.5d,
+			x: 10.5d,
+			y: 5.5d,
 			description: [
 				'Wooden Stands allow me to make some sort of "nature infusion", so I can begin doing something better than just throwing stone into wood.',
 				"Wooden Stands must be placed like a circle, I saw an image in the book about that, so I can build it step by step and I need 8 of them... oh, I have found somewhere 4 of them, don't know where I got them, but I need to craft only 4 stands."
@@ -1391,8 +1392,8 @@
 		},
 		{
 			title: "Collecting Aura",
-			x: 6.5d,
-			y: 5.5d,
+			x: 9.5d,
+			y: 6.5d,
 			description: ['Mystical book told me that there is a lot of "nature aura" around trees and other nature things. I made small empty bottles to get some of it. Book told me I need a lot of this. Okay...'],
 			dependencies: [I;168],
 			id: 180,
@@ -1421,8 +1422,8 @@
 			}]
 		},
 		{
-			x: 4.5d,
-			y: 5.0d,
+			x: 8.5d,
+			y: 6.5d,
 			description: ["Altar of Nature... Sounds epic, but isn't really interesting as of right now, because I need a bit more resources to enhance them. I can infuse Iron and Gold, but it requires a lot of aura and these ingots, that I need to save to progress!"],
 			dependencies: [I;
 				176,
@@ -1441,8 +1442,8 @@
 			}]
 		},
 		{
-			x: 7.0d,
-			y: 2.5d,
+			x: 9.5d,
+			y: 3.5d,
 			description: ["Infusing Iron is an interesting process. Pushing iron through nature's aura makes this ingot way better and useable for tools and armor"],
 			dependencies: [I;182],
 			id: 184,
@@ -1469,8 +1470,8 @@
 			]
 		},
 		{
-			x: 4.5d,
-			y: 4.0d,
+			x: 8.5d,
+			y: 5.5d,
 			description: ["Ancient trees are better than trees on frozen Earth and this tree have strong magical ability to be way stronger... I can use this type of wood for something heavier!"],
 			dependencies: [I;178],
 			id: 188,
@@ -1494,8 +1495,8 @@
 					Damage: 0
 				}
 			},
-			x: 4.5d,
-			y: 2.5d,
+			x: 8.5d,
+			y: 4.0d,
 			description: ["After tons of infusions I can make a lot of Infused Iron and make my first good armor!"],
 			dependencies: [I;
 				184,
@@ -1571,8 +1572,8 @@
 				}
 			},
 			disable_toast: true,
-			x: 5.5d,
-			y: 3.0d,
+			x: 9.5d,
+			y: 4.5d,
 			description: ["After tons of infusions I can make a lot of Infused Iron and make my first good tools!"],
 			dependencies: [I;
 				184,
@@ -1673,7 +1674,7 @@
 		{
 			title: "(String) -> Wool.color(any)",
 			icon: "minecraft:white_wool",
-			x: -1.5d,
+			x: 0.5d,
 			y: 6.5d,
 			description: ["Strings can be packed into wool. This is very cold place, so I need some wool to get my first heat protection for my body."],
 			dependencies: [I;49],
@@ -1707,8 +1708,8 @@
 					Damage: 0
 				}
 			},
-			x: -0.5d,
-			y: 6.5d,
+			x: 0.5d,
+			y: 7.5d,
 			description: ["I need to have a lot of heat to keep my ability to survive here. This wool suit allows me to keep heat in my body better, but have less armor, than other armor suits like Nanosuit one.... if it still exists."],
 			dependencies: [I;207],
 			id: 209,
@@ -1773,64 +1774,9 @@
 			]
 		},
 		{
-			title: "Copper Ore",
-			x: 8.5d,
-			y: 3.5d,
-			description: ["Copper Ore can be found near frozen dirt, it has value of 40-60 in Minecraftian Y-System. It will be easy to find."],
-			dependencies: [I;530],
-			id: 218,
-			tasks: [{
-				id: 219,
-				type: "item",
-				title: "Copper Ore",
-				item: {
-					id: "itemfilters:tag",
-					Count: true,
-					tag: {
-						value: "forge:ores/copper"
-					}
-				},
-				count: 16L
-			}],
-			rewards: [{
-				id: 528,
-				type: "item",
-				item: "minecraft:iron_ore",
-				count: 4
-			}]
-		},
-		{
-			title: "Iron Ore",
-			icon: "minecraft:iron_ore",
-			x: 8.5d,
-			y: 4.5d,
-			description: ["Iron Ore can be found near frozen dirt, it has value of 10-50 in Minecraftian Y-System. It will be easy to find."],
-			dependencies: [I;530],
-			id: 221,
-			tasks: [{
-				id: 222,
-				type: "item",
-				title: "Any forge:ores/iron",
-				item: {
-					id: "itemfilters:tag",
-					Count: true,
-					tag: {
-						value: "forge:ores/iron"
-					}
-				},
-				count: 16L
-			}],
-			rewards: [{
-				id: 541,
-				type: "item",
-				item: "naturesaura:infused_iron",
-				count: 2
-			}]
-		},
-		{
 			title: "Cooking is really for blockheads...",
-			x: 2.5d,
-			y: 10.0d,
+			x: 5.0d,
+			y: 9.0d,
 			description: [
 				"Crock Pot is a way I can cook good food. This food gives me more saturation than common food and it gives me more strength to solve problems on this planet.",
 				"Cooking in this modpack can remind you Zelda's Breath of the Wild cooking system. You throw up to 4 random food items and get a better one or a bad one. If you got something delicious - you can write a recipe on a sheet of paper and cook this again!"
@@ -1878,13 +1824,10 @@
 		{
 			title: "Copper of Irony",
 			icon: "create:copper_ingot",
-			x: 10.0d,
-			y: 4.0d,
+			x: -11.0d,
+			y: 17.0d,
 			description: ["Getting first ingots of copper and iron helps me to progress to the primitive era, so I can make my life easier. Also I don't forget about stamina and thirst, since I need to drink water and feel not tired while mining ores..."],
-			dependencies: [I;
-				218,
-				221
-			],
+			dependencies: [I;781],
 			size: 2.0d,
 			id: 282,
 			tasks: [
@@ -1916,8 +1859,8 @@
 		},
 		{
 			title: "Massive Storage",
-			x: 11.5d,
-			y: 3.5d,
+			x: -9.5d,
+			y: 17.0d,
 			description: ["Drawers is a good way of storing massive amounts of items. It can store 64*64 items in a one drawer! I really need it for my next few eras to store something in big amounts."],
 			dependencies: [I;282],
 			id: 297,
@@ -1942,8 +1885,8 @@
 			}]
 		},
 		{
-			x: 12.5d,
-			y: 3.5d,
+			x: -8.5d,
+			y: 17.0d,
 			description: ["Compacting Drawer allows me to get already compacted variants of different types of items or blocks for any reason. If I put Iron into this drawer I can get nuggets or even blocks!"],
 			dependencies: [I;297],
 			id: 301,
@@ -1959,14 +1902,10 @@
 			}]
 		},
 		{
-			x: 11.5d,
-			y: 5.5d,
+			x: -9.5d,
+			y: 16.0d,
 			description: ["This key allows me to lock the drawer to a proper item. If I put 1 item into drawer then lock it, I'll get this item stuck in this drawer, so any new different items couldn't be put into it."],
-			hide_dependency_lines: true,
-			dependencies: [I;
-				172,
-				297
-			],
+			dependencies: [I;297],
 			id: 303,
 			tasks: [{
 				id: 304,
@@ -1976,8 +1915,8 @@
 		},
 		{
 			title: "Feeling Lonely?",
-			x: 10.5d,
-			y: 2.5d,
+			x: -12.5d,
+			y: 17.0d,
 			description: [
 				"You've been noticed that there is no humanity, but you're trying to find someone... You're made a market station to try to catch someone who can sell you something... When you done building, something is going down... It's a seller robot? What the...",
 				"Nevermind. It can sell something for emeralds or something related to this. I don't have emerals sadly, but I have copper and iron? Maybe I can trade with him...?"
@@ -2013,8 +1952,8 @@
 			]
 		},
 		{
-			x: 10.5d,
-			y: 1.5d,
+			x: -13.5d,
+			y: 17.0d,
 			description: ["This robot mentioned that this fertilizer, which is green will multiply my crops output! It's great!"],
 			dependencies: [I;305],
 			id: 307,
@@ -2031,8 +1970,8 @@
 			}]
 		},
 		{
-			x: 11.5d,
-			y: 1.5d,
+			x: -12.5d,
+			y: 18.0d,
 			description: ["This red fertilizer speeds up growth of my plants. Robot know much more than I, huh."],
 			dependencies: [I;305],
 			id: 309,
@@ -2049,8 +1988,8 @@
 			}]
 		},
 		{
-			x: 9.5d,
-			y: 1.5d,
+			x: -12.5d,
+			y: 16.0d,
 			description: ["This robot told me a secret that yellow fertilizers on farmland allows me to stop trampling on my wheat and other cultures. It's cool!"],
 			dependencies: [I;305],
 			id: 311,
@@ -2067,8 +2006,8 @@
 			}]
 		},
 		{
-			x: -8.0d,
-			y: 9.5d,
+			x: -13.5d,
+			y: 5.0d,
 			description: ["This canteen allows me to drink water whenever I like without bowls, which is very heavy to carry in my pockets..."],
 			dependencies: [I;85],
 			id: 313,
@@ -2101,8 +2040,8 @@
 			]
 		},
 		{
-			x: 7.5d,
-			y: 3.5d,
+			x: 10.5d,
+			y: 4.5d,
 			description: ["Infused Stone Hammer allows me to break stone into it's softer variants. Also mining ores with this hammer gives me ore pieces to get chunks"],
 			dependencies: [I;
 				532,
@@ -2148,8 +2087,8 @@
 			]
 		},
 		{
-			x: 6.5d,
-			y: 4.5d,
+			x: 9.5d,
+			y: 5.5d,
 			description: ["Infused Rock is a better variant of stone. It is way stronger and better, allows me to make better tools like advanced hammer to make gravel, sand and break ores to get first ingots!"],
 			dependencies: [I;182],
 			id: 532,
@@ -2181,7 +2120,7 @@
 			}]
 		},
 		{
-			x: 0.0d,
+			x: 1.5d,
 			y: 4.5d,
 			description: ["I need to operate with water somehow. Regular wooden bucket would be enough for the first time."],
 			hide_dependency_lines: true,
@@ -2194,8 +2133,9 @@
 			}]
 		},
 		{
-			x: 2.5d,
+			x: 4.5d,
 			y: 5.0d,
+			description: ["Limestone? I should collect it as much as i can. I'll use it for basic metallurgy."],
 			dependencies: [I;37],
 			id: 737,
 			tasks: [{
@@ -2206,12 +2146,9 @@
 		},
 		{
 			x: -11.0d,
-			y: 8.0d,
+			y: 10.0d,
 			shape: "gear",
-			dependencies: [I;
-				758,
-				741
-			],
+			dependencies: [I;758],
 			size: 2.0d,
 			id: 739,
 			tasks: [{
@@ -2222,16 +2159,26 @@
 			}]
 		},
 		{
+			title: "Mortar",
 			x: -10.5d,
 			y: 6.5d,
+			description: ["Mortar is binding component for all sort of bricks."],
 			dependencies: [I;743],
 			id: 741,
-			tasks: [{
-				id: 742,
-				type: "item",
-				item: "rankine:dry_mortar",
-				count: 32L
-			}]
+			tasks: [
+				{
+					id: 742,
+					type: "item",
+					item: "rankine:dry_mortar",
+					count: 32L
+				},
+				{
+					id: 790,
+					type: "item",
+					item: "rankine:mortar",
+					count: 32L
+				}
+			]
 		},
 		{
 			x: -10.5d,
@@ -2749,7 +2696,7 @@
 			}]
 		},
 		{
-			x: 1.5d,
+			x: 3.5d,
 			y: 5.5d,
 			description: ["The only available coal type for now is Lignite. Not that easy task despite it lies not so deep."],
 			dependencies: [I;37],
@@ -2762,22 +2709,377 @@
 			}]
 		},
 		{
+			icon: {
+				id: "patchouli:guide_book",
+				Count: true,
+				tag: {
+					"patchouli:book": "rankine:rankine_journal"
+				}
+			},
 			x: -11.0d,
-			y: 14.0d,
+			y: 8.0d,
+			shape: "circle",
+			description: ["First of all, plenty of native ores are required to move further. I should quarry somewhere on surface in search of them."],
 			hide_dependency_lines: true,
-			dependencies: [I;37],
+			dependencies: [I;144],
 			size: 2.0d,
 			id: 758,
+			tasks: [
+				{
+					id: 759,
+					type: "item",
+					item: {
+						id: "patchouli:guide_book",
+						Count: true,
+						tag: {
+							"patchouli:book": "rankine:rankine_journal"
+						}
+					}
+				},
+				{
+					id: 785,
+					type: "item",
+					title: "36 Copper Nuggets",
+					item: {
+						id: "itemfilters:tag",
+						Count: true,
+						tag: {
+							value: "forge:nuggets/copper"
+						}
+					},
+					count: 36L
+				}
+			]
+		},
+		{
+			title: "Next Level",
+			x: -11.0d,
+			y: 13.0d,
+			description: ["I've reached level sufficient to mine some initial ores. But it's still not enough."],
+			dependencies: [I;
+				786,
+				788
+			],
+			id: 763,
 			tasks: [{
-				id: 759,
+				id: 764,
 				type: "item",
+				title: "Any Iron-Tier Pickaxe",
 				item: {
-					id: "patchouli:guide_book",
+					id: "itemfilters:or",
 					Count: true,
 					tag: {
-						"patchouli:book": "rankine:rankine_journal"
+						items: [
+							{
+								id: "rankine:pewter_pickaxe",
+								Count: true,
+								tag: {
+									Damage: 0,
+									HideFlags: 2,
+									StoredComposition: [{
+										comp: "90Sn-10Sb"
+									}]
+								}
+							},
+							{
+								id: "rankine:bronze_pickaxe",
+								Count: true,
+								tag: {
+									Damage: 0,
+									HideFlags: 2,
+									StoredComposition: [{
+										comp: "80Cu-20Sn"
+									}]
+								}
+							}
+						]
 					}
 				}
+			}]
+		},
+		{
+			x: -12.0d,
+			y: 11.35d,
+			shape: "hexagon",
+			dependencies: [I;739],
+			size: 1.25d,
+			id: 769,
+			tasks: [{
+				id: 770,
+				type: "item",
+				item: "rankine:alloy_furnace"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: 11.35d,
+			shape: "hexagon",
+			dependencies: [I;739],
+			size: 1.25d,
+			id: 771,
+			tasks: [{
+				id: 772,
+				type: "item",
+				item: "rankine:coal_forge"
+			}]
+		},
+		{
+			title: "Even Better",
+			x: -11.0d,
+			y: 14.0d,
+			dependencies: [I;763],
+			id: 773,
+			tasks: [{
+				id: 774,
+				type: "item",
+				item: {
+					id: "rankine:meteoric_iron_pickaxe",
+					Count: true,
+					tag: {
+						Damage: 0,
+						HideFlags: 2,
+						StoredComposition: [{
+							comp: "90Fe-10Ni"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: -11.0d,
+			y: 11.87d,
+			shape: "hexagon",
+			dependencies: [I;739],
+			size: 1.25d,
+			id: 775,
+			tasks: [
+				{
+					id: 776,
+					type: "item",
+					item: "rankine:beehive_oven_pit"
+				},
+				{
+					id: 777,
+					type: "item",
+					item: "rankine:refractory_bricks",
+					count: 8L
+				}
+			]
+		},
+		{
+			x: -11.0d,
+			y: 15.25d,
+			shape: "hexagon",
+			dependencies: [I;773],
+			size: 1.5d,
+			id: 781,
+			tasks: [{
+				id: 782,
+				type: "item",
+				item: "minecraft:blast_furnace"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 10.25d,
+			shape: "hexagon",
+			dependencies: [I;73],
+			size: 1.5d,
+			id: 783,
+			tasks: [{
+				id: 784,
+				type: "item",
+				item: "minecraft:smoker"
+			}]
+		},
+		{
+			title: "Any Basic Ingot",
+			x: -12.0d,
+			y: 12.375d,
+			shape: "circle",
+			dependencies: [I;769],
+			size: 0.75d,
+			id: 786,
+			tasks: [{
+				id: 787,
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: true,
+					tag: {
+						items: [
+							{
+								id: "rankine:pewter_alloy",
+								Count: true,
+								tag: {
+									HideFlags: 2,
+									StoredComposition: [{
+										comp: "90Sn-10Sb"
+									}]
+								}
+							},
+							{
+								id: "rankine:bronze_alloy",
+								Count: true,
+								tag: {
+									HideFlags: 2,
+									StoredComposition: [{
+										comp: "80Cu-20Sn"
+									}]
+								}
+							},
+							{
+								id: "rankine:aluminum_bronze_alloy",
+								Count: true,
+								tag: {
+									HideFlags: 2,
+									StoredComposition: [{
+										comp: "90Cu-10Al"
+									}]
+								}
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			x: -10.0d,
+			y: 12.375d,
+			shape: "circle",
+			dependencies: [I;771],
+			size: 0.75d,
+			id: 788,
+			tasks: [{
+				id: 789,
+				type: "item",
+				item: "rankine:pickaxe_template"
+			}]
+		},
+		{
+			x: -9.5d,
+			y: 8.0d,
+			shape: "diamond",
+			dependencies: [I;758],
+			id: 793,
+			tasks: [{
+				id: 794,
+				type: "item",
+				item: "rankine:aluminum_nugget",
+				count: 36L
+			}]
+		},
+		{
+			x: -12.0d,
+			y: 9.0d,
+			shape: "diamond",
+			dependencies: [I;758],
+			id: 795,
+			tasks: [{
+				id: 796,
+				type: "item",
+				item: "rankine:tin_nugget",
+				count: 36L
+			}]
+		},
+		{
+			x: -12.5d,
+			y: 8.0d,
+			shape: "diamond",
+			dependencies: [I;758],
+			id: 797,
+			tasks: [{
+				id: 798,
+				type: "item",
+				item: "rankine:lead_nugget",
+				count: 36L
+			}]
+		},
+		{
+			x: -9.5d,
+			y: 18.0d,
+			dependencies: [I;297],
+			id: 799,
+			tasks: [{
+				id: 800,
+				type: "item",
+				title: "Any Drawer Upgrade",
+				item: {
+					id: "itemfilters:or",
+					Count: true,
+					tag: {
+						items: [
+							{
+								id: "storagedrawers:obsidian_storage_upgrade",
+								Count: true
+							},
+							{
+								id: "storagedrawers:iron_storage_upgrade",
+								Count: true
+							},
+							{
+								id: "storagedrawers:gold_storage_upgrade",
+								Count: true
+							},
+							{
+								id: "storagedrawers:diamond_storage_upgrade",
+								Count: true
+							},
+							{
+								id: "storagedrawers:emerald_storage_upgrade",
+								Count: true
+							},
+							{
+								id: "storagedrawers:one_stack_upgrade",
+								Count: true
+							},
+							{
+								id: "storagedrawers:void_upgrade",
+								Count: true
+							},
+							{
+								id: "storagedrawers:conversion_upgrade",
+								Count: true
+							},
+							{
+								id: "storagedrawers:redstone_upgrade",
+								Count: true
+							},
+							{
+								id: "storagedrawers:min_redstone_upgrade",
+								Count: true
+							},
+							{
+								id: "storagedrawers:max_redstone_upgrade",
+								Count: true
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 7.0d,
+			dependencies: [I;57],
+			id: 801,
+			tasks: [{
+				id: 802,
+				type: "item",
+				item: "minecraft:glass",
+				count: 16L
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 7.0d,
+			description: ["Jar is capable of holding small creatures like chichens and bees. It can also hold various fluids and food."],
+			dependencies: [I;801],
+			id: 803,
+			tasks: [{
+				id: 804,
+				type: "item",
+				item: "supplementaries:jar"
 			}]
 		}
 	]

@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SMS",
+        "MBM",
+        "SMS"
+    ],
+    "key": {
+        "S": {
+            "tag": "forge:string"
+        },
+        "B": {
+            "type": "forge:nbt",
+            "item": "naturesaura:aura_bottle",
+            "nbt": "{stored_type: \"naturesaura:overworld\"}"
+        },
+        "M": {
+            "type": "forge:nbt",
+            "item": "silentgear:lining",
+            "nbt": "{CraftedCount:1,Materials:[{Item:{id:\"minecraft:white_wool\",Count:true},ID:\"silentgear:wool/white\"}]}"
+        }
+    },
+    "result": {
+        "item": "exnihilosequentia:mesh_string"
+    }
+}

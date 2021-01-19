@@ -1,0 +1,16 @@
+{
+    "type": "silentgear:damage_item",
+    "ingredients": [
+      {
+        "tag": "forge:saws"
+      },
+      {
+        "tag": "byg:bulbis_stems"
+      }
+    ],
+    "result": {
+      "item": "byg:bulbis_planks",
+      "count": 3
+    },
+    "damage": 1
+  }

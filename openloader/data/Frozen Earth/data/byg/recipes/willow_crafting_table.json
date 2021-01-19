@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:workbench"
+        },
+        {
+            "item": "byg:willow_planks"
+        }
+    ],
+    "result": {
+        "item": "byg:willow_crafting_table"
+    }
+}

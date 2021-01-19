@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:workbench"
+        },
+        {
+            "item": "byg:cika_planks"
+        }
+    ],
+    "result": {
+        "item": "byg:cika_crafting_table"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:workbench"
+        },
+        {
+            "item": "byg:rainbow_eucalyptus_planks"
+        }
+    ],
+    "result": {
+        "item": "byg:rainbow_eucalyptus_crafting_table"
+    }
+}

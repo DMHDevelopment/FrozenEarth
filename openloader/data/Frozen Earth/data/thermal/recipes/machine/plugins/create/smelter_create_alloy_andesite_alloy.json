@@ -1,0 +1,33 @@
+{
+  "type": "thermal:smelter",
+  "input": [
+    {
+      "value": [
+        {
+          "tag": "forge:nuggets/iron"
+        },
+        {
+          "tag": "forge:nuggets/zinc"
+        }
+      ],
+      "count": 1
+    },
+    {
+      "tag": "forge:stones/andesite",
+      "count": 1
+    }
+  ],
+  "result": [
+    {
+      "item": "create:andesite_alloy",
+      "count": 1
+    }
+  ],
+  "energy": 3200,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

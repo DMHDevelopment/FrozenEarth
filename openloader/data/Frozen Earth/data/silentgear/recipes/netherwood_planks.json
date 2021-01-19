@@ -1,0 +1,16 @@
+{
+    "type": "silentgear:damage_item",
+    "ingredients": [
+      {
+        "tag": "forge:saws"
+      },
+      {
+        "tag": "silentgear:netherwood_logs"
+      }
+    ],
+    "result": {
+      "item": "silentgear:netherwood_planks",
+      "count": 3
+    },
+    "damage": 1
+  }

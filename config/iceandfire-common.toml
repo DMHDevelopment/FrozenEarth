@@ -58,7 +58,7 @@
 	#Range: 1 ~ 10000
 	"Mausoleum Gen Chance" = 1800
 	#Whether to generate copper ore or not
-	"Generate Copper Ore" = true
+	"Generate Copper Ore" = false
 	#A more intelligent dragon pathfinding system, but is also laggier. Turn this on if you think dragons are too stupid.
 	"Intelligent Dragon Pathfinding" = false
 	#Cockatrice spawn weight. Lower = lower chance to spawn
@@ -132,7 +132,7 @@
 	#Range: 1.0 ~ 10000.0
 	"Gorgon Max Health" = 100.0
 	#Whether to generate silver ore or not
-	"Generate Silver Ore" = true
+	"Generate Silver Ore" = false
 	#Turning this to true simplifies the dragon's pathfinding process, making them dumber when finding a path, but better for servers with many loaded dragons.
 	"Experimental Dragon path Finder" = false
 	#1 out of this number chance per chunk for generation
@@ -185,7 +185,7 @@
 	#True if amphitheres are allowed to spawn
 	"Spawn Amphitheres" = true
 	#Whether to generate sapphire ore or not
-	"Generate Sapphire Ore" = true
+	"Generate Sapphire Ore" = false
 	#Maximum ghost health.
 	#Range: 1.0 ~ 10000.0
 	"Ghost Max Health" = 30.0
@@ -291,7 +291,7 @@
 	#Range: 0.0 ~ 1.0
 	"Easter Egg Tinkers Tool Disarm chance" = 0.20000000298023224
 	#Whether to generate amethyst ore or not
-	"Generate Amethyst Ore" = true
+	"Generate Amethyst Ore" = false
 	#Ratio of Stone(this number) to Ores in Dragon Caves
 	#Range: 1 ~ 10000
 	"Dragon Cave Ore Ratio" = 45

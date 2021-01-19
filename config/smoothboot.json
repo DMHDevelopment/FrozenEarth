@@ -2,6 +2,7 @@
   "bootstrapThreads": 1,
   "mainThreads": 15,
   "gamePriority": 5,
+  "integratedServerPriority": 5,
   "bootstrapPriority": 1,
   "mainPriority": 1,
   "ioPriority": 5,

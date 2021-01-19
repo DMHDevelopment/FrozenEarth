@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:workbench"
+        },
+        {
+            "item": "byg:baobab_planks"
+        }
+    ],
+    "result": {
+        "item": "byg:baobab_crafting_table"
+    }
+}

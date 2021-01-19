@@ -1,0 +1,16 @@
+{
+    "type": "silentgear:damage_item",
+    "ingredients": [
+      {
+        "tag": "forge:saws"
+      },
+      {
+        "tag": "byg:embur_pedus"
+      }
+    ],
+    "result": {
+      "item": "byg:embur_planks",
+      "count": 3
+    },
+    "damage": 1
+  }

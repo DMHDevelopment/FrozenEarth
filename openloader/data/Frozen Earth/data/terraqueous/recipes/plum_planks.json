@@ -1,0 +1,16 @@
+{
+    "type": "silentgear:damage_item",
+    "ingredients": [
+      {
+        "tag": "forge:saws"
+      },
+      {
+        "tag": "terraqueous:plum_logs"
+      }
+    ],
+    "result": {
+      "item": "terraqueous:plum_planks",
+      "count": 3
+    },
+    "damage": 1
+  }

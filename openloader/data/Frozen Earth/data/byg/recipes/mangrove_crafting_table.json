@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:workbench"
+        },
+        {
+            "item": "byg:mangrove_planks"
+        }
+    ],
+    "result": {
+        "item": "byg:mangrove_crafting_table"
+    }
+}

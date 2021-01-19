@@ -1,0 +1,16 @@
+{
+    "type": "silentgear:damage_item",
+    "ingredients": [
+      {
+        "tag": "forge:saws"
+      },
+      {
+        "tag": "minecraft:crimson_stems"
+      }
+    ],
+    "result": {
+      "item": "minecraft:crimson_planks",
+      "count": 3
+    },
+    "damage": 1
+  }

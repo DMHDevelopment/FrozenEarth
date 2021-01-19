@@ -1,0 +1,16 @@
+{
+    "type": "silentgear:damage_item",
+    "ingredients": [
+      {
+        "tag": "forge:saws"
+      },
+      {
+        "tag": "byg:cika_logs"
+      }
+    ],
+    "result": {
+      "item": "byg:cika_planks",
+      "count": 3
+    },
+    "damage": 1
+  }

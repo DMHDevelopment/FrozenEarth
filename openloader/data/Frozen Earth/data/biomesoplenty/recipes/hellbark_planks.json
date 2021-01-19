@@ -1,0 +1,16 @@
+{
+    "type": "silentgear:damage_item",
+    "ingredients": [
+      {
+        "tag": "forge:saws"
+      },
+      {
+        "tag": "biomesoplenty:hellbark_logs"
+      }
+    ],
+    "result": {
+      "item": "biomesoplenty:hellbark_planks",
+      "count": 3
+    },
+    "damage": 1
+  }

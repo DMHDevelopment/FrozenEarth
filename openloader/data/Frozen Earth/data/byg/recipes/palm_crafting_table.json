@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:workbench"
+        },
+        {
+            "item": "byg:palm_planks"
+        }
+    ],
+    "result": {
+        "item": "byg:palm_crafting_table"
+    }
+}

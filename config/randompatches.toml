@@ -26,7 +26,7 @@
 	framerate_limit_slider_step_size = 1.0
 	# Causes Minecraft to show the main menu screen after disconnecting rather than the Realms or multiplayer screen.
 	# Default: false
-	return_to_main_menu_after_disconnect = false
+	return_to_main_menu_after_disconnect = true
 	# Gives capes to RandomPatches contributors.
 	# Default: true
 	contributor_capes = true

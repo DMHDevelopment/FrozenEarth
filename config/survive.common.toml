@@ -65,7 +65,7 @@
 	#Items in this list will gived the energized effect when drunk
 	#The energized effect will allow the user to operate even if they've not slept for a while and it replenishes energy
 	#Default: ["survive:sugar_water_bottle,2"]
-	"Water Containers (Energize)" = ["survive:sugar_water_bottle,2"]
+	"Water Containers (Energize)" = ["survive:sugar_water_bottle,2", "crockpot:hot_cocoa,8"]
 
 [developerOptions]
 	debug_mode = false
@@ -81,8 +81,20 @@
 	#This list defines the temperatures of armors when they're put on
 	#Changes to this list will require you to reset your game for them to be applied
 	#NOTE: Wool Armor is set to 5.0
-	#Default: ["survive:stiffened_honey_helmet,-5.0", "survive:stiffened_honey_chestplate,-5.0", "survive:stiffened_honey_leggings,-5.0", "survive:stiffened_honey_boots,-5.0", "survive:wool_hat,5.0", "survive:wool_jacket,5.0", "survive:wool_pants,5.0", "survive:wool_boots,5.0", "minecraft:chainmail_helmet,0.1", "minecraft:chainmail_chestplate,0.1", "minecraft:chainmail_leggings,0.1", "minecraft:chainmail_boots,0.1", "minecraft:leather_helmet,4.0", "minecraft:leather_chestplate,4.0", "minecraft:leather_leggings,4.0", "minecraft:leather_boots,4.0", "minecraft:iron_helmet,2.7", "minecraft:iron_chestplate,2.7", "minecraft:iron_leggings,2.7", "minecraft:iron_boots,2.7", "minecraft:golden_helmet,1.5", "minecraft:golden_chestplate,1.5", "minecraft:golden_leggings,1.5", "minecraft:golden_boots,1.5", "minecraft:diamond_helmet,0.5", "minecraft:diamond_chestplate,0.5", "minecraft:diamond_leggings,0.5", "minecraft:diamond_boots,0.5", "minecraft:netherite_helmet,1.9", "minecraft:netherite_chestplate,1.9", "minecraft:netherite_leggings,1.9", "minecraft:netherite_boots,1.9", "minecraft:turtle_helmet,0.75"]
-	"Armor Temperature Modifiers" = ["survive:stiffened_honey_helmet,-5.0", "survive:stiffened_honey_chestplate,-5.0", "survive:stiffened_honey_leggings,-5.0", "survive:stiffened_honey_boots,-5.0", "survive:wool_hat,5.0", "survive:wool_jacket,5.0", "survive:wool_pants,5.0", "survive:wool_boots,5.0", "minecraft:chainmail_helmet,0.1", "minecraft:chainmail_chestplate,0.1", "minecraft:chainmail_leggings,0.1", "minecraft:chainmail_boots,0.1", "minecraft:leather_helmet,4.0", "minecraft:leather_chestplate,4.0", "minecraft:leather_leggings,4.0", "minecraft:leather_boots,4.0", "minecraft:iron_helmet,2.7", "minecraft:iron_chestplate,2.7", "minecraft:iron_leggings,2.7", "minecraft:iron_boots,2.7", "minecraft:golden_helmet,1.5", "minecraft:golden_chestplate,1.5", "minecraft:golden_leggings,1.5", "minecraft:golden_boots,1.5", "minecraft:diamond_helmet,0.5", "minecraft:diamond_chestplate,0.5", "minecraft:diamond_leggings,0.5", "minecraft:diamond_boots,0.5", "minecraft:netherite_helmet,1.9", "minecraft:netherite_chestplate,1.9", "minecraft:netherite_leggings,1.9", "minecraft:netherite_boots,1.9", "minecraft:turtle_helmet,0.75"]
+	#Default: ["survive:stiffened_honey_helmet,-5.0", "survive:stiffened_honey_chestplate,-5.0", "survive:stiffened_honey_leggings,-5.0", "survive:stiffened_honey_boots,-5.0", "survive:wool_hat,5.0", "survive:wool_jacket,5.0", "survive:wool_pants,5.0", "survive:wool_boots,5.0", "minecraft:chainmail_helmet,0.1", "minecraft:chainmail_chestplate,0.1", "minecraft:chainmail_leggings,0.1", "minecraft:chainmail_boots,0.1", "minecraft:leather_helmet,4.0", "minecraft:leather_chestplate,4.0", "minecraft:leather_leggings,4.0", "minecraft:leather_boots,4.0", "minecraft:iron_helmet,2.7", "minecraft:iron_chestplate,2.7", "minecraft:iron_leggings,2.7", "minecraft:iron_boots,2.7", "minecraft:golden_helmet,1.5", "minecraft:golden_chestplate,1.5", "minecraft:golden_leggings,1.5", "minecraft:golden_boots,1.5", "minecraft:diamond_helmet,0.5", "minecraft:diamond_chestplate,0.5", "minecraft:diamond_leggings,0.5", "minecraft:diamond_boots,0.5", "minecraft:netherite_helmet,1.9", "minecraft:netherite_chestplate,1.9", "minecraft:netherite_leggings,1.9", "minecraft:netherite_boots,1.9", "minecraft:turtle_helmet,0.75", "ars_nouveau:novice_robes,3.0", "ars_nouveau:novice_leggings,3.0", "ars_nouveau:novice_hood,3.0", "ars_nouveau:novice_boots,3.0", "ars_nouveau:apprentice_robes,3.0", "ars_nouveau:apprentice_leggings,3.0", "ars_nouveau:apprentice_hood,3.0", "ars_nouveau:apprentice_boots,3.0", "ars_nouveau:archmage_robes,3.0", "ars_nouveau:archmage_leggings,3.0", "ars_nouveau:archmage_hood,3.0", "ars_nouveau:archmage_boots,3.0"]
+	"Armor Temperature Modifiers" = ["survive:stiffened_honey_helmet,-5.0", "survive:stiffened_honey_chestplate,-5.0", "survive:stiffened_honey_leggings,-5.0", "survive:stiffened_honey_boots,-5.0", "survive:wool_hat,5.0", "survive:wool_jacket,5.0", "survive:wool_pants,5.0", "survive:wool_boots,5.0", "minecraft:chainmail_helmet,0.1", "minecraft:chainmail_chestplate,0.1", "minecraft:chainmail_leggings,0.1", "minecraft:chainmail_boots,0.1", "minecraft:leather_helmet,4.0", "minecraft:leather_chestplate,4.0", "minecraft:leather_leggings,4.0", "minecraft:leather_boots,4.0", "minecraft:iron_helmet,2.7", "minecraft:iron_chestplate,2.7", "minecraft:iron_leggings,2.7", "minecraft:iron_boots,2.7", "minecraft:golden_helmet,1.5", "minecraft:golden_chestplate,1.5", "minecraft:golden_leggings,1.5", "minecraft:golden_boots,1.5", "minecraft:diamond_helmet,0.5", "minecraft:diamond_chestplate,0.5", "minecraft:diamond_leggings,0.5", "minecraft:diamond_boots,0.5", "minecraft:netherite_helmet,1.9", "minecraft:netherite_chestplate,1.9", "minecraft:netherite_leggings,1.9", "minecraft:netherite_boots,1.9", "minecraft:turtle_helmet,0.75", "iceandfire:sheep_helmet,9", "iceandfire:sheep_chestplate,9", "iceandfire:sheep_leggings,9", "iceandfire:sheep_boots,9", "rankine:brigandine_helmet,4.0", "rankine:brigandine_chestplate,4.0", "rankine:brigandine_leggings,4.0", "rankine:brigandine_boots,4.0"]
+	#
+	#This list defines the temperatures of blocks
+	#Changes to this list will require you to reset your game for them to be applied
+	#NOTE: Lava is set to 10.0
+	#Default: []
+	"Block Temperatures" = []
+	#
+	#This list defines the temperatures of blocks
+	#Blocks in this list will apply their temperatures only then they're "lit"
+	#Changes to this list will require you to reset your game for them to be applied
+	#Default: []
+	"Lit Block Temperatures" = []
 
 [hunger]
 	#The amount of hunger exaustion added to the player regardless of what the player is doing
@@ -91,4 +103,8 @@
 	#The amount of time in ticks before hunger exaustion is added to the player regardless of what the player is doing. Set to -1 to disable
 	#Range: -1 ~ 1000
 	"Idle Hunger Tick Rate" = 120
+
+[hygiene]
+	#Disabling this will disable this mods hygiene management system
+	"Enable Hygiene" = true
 

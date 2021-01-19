@@ -1,0 +1,14 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "item": "stone_age:raw_hide"
+        }
+    ],
+    "results": [
+        {
+            "item": "minecraft:leather",
+            "count": 2
+        }
+    ]
+}

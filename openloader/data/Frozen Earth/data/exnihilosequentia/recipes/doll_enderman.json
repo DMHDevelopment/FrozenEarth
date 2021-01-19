@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "exnihilosequentia:doll_crafting"
+        },
+        {
+            "tag": "forge:gems/chrysolite"
+        },
+        {
+            "tag": "forge:heads"
+        },
+        {
+            "item": "rankine:element_transmuter"
+        }
+    ],
+    "result": {
+        "item": "exnihilosequentia:doll_enderman"
+    }
+}

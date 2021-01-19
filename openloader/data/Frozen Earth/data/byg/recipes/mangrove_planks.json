@@ -1,0 +1,16 @@
+{
+    "type": "silentgear:damage_item",
+    "ingredients": [
+      {
+        "tag": "forge:saws"
+      },
+      {
+        "tag": "byg:mangrove_logs"
+      }
+    ],
+    "result": {
+      "item": "byg:mangrove_planks",
+      "count": 3
+    },
+    "damage": 1
+  }

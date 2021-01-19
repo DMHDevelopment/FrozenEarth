@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CCC",
+        "ILI",
+        "PPP"
+    ],
+    "key": {
+        "C": {
+            "tag": "minecraft:carpets"
+        },
+        "I": {
+            "tag": "forge:ingots/iron"
+        },
+        "L": {
+            "tag": "minecraft:logs"
+        },
+        "P": {
+            "tag": "minecraft:planks"
+        }
+    },
+    "result": {
+        "item": "minecraft:crafting_table"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:workbench"
+        },
+        {
+            "item": "byg:cypress_planks"
+        }
+    ],
+    "result": {
+        "item": "byg:cypress_crafting_table"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "silentgear:damage_item",
+    "ingredients": [
+      {
+        "tag": "forge:saws"
+      },
+      {
+        "tag": "betterendforge:helix_tree_logs"
+      }
+    ],
+    "result": {
+      "item": "betterendforge:helix_tree_planks",
+      "count": 3
+    },
+    "damage": 1
+  }
