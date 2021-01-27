@@ -11,11 +11,6 @@
   "crafting_items": {
     "main": {
       "tag": "forge:bones/wither"
-    },
-    "subs": {
-      "rod": {
-        "tag": "forge:bones/wither"
-      }
     }
   },
   "name": {

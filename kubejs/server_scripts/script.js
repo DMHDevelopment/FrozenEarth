@@ -46,7 +46,7 @@ events.listen('recipes', event => {
         'ABA',
         'AAA'
     ], {
-        A: 'create:copper_sheet',
+        A: '#forge:plates/copper',
         B: '#forge:chests/wooden'
     });
 
@@ -55,7 +55,7 @@ events.listen('recipes', event => {
         ' B ',
         'AAA'
     ], {
-        A: 'create:iron_sheet',
+        A: '#forge:plates/iron',
         B: 'ironchest:copper_chest'
     });
 
@@ -64,7 +64,7 @@ events.listen('recipes', event => {
         'CBC',
         'AAA'
     ], {
-        A: 'create:iron_sheet',
+        A: '#forge:plates/iron',
         B: '#forge:chests/wooden',
         C: 'create:andesite_alloy'
     });
@@ -74,7 +74,7 @@ events.listen('recipes', event => {
         ' B ',
         'AAA'
     ], {
-        A: 'create:golden_sheet',
+        A: '#forge:plates/gold',
         B: 'ironchest:iron_chest'
     });
 
@@ -83,7 +83,7 @@ events.listen('recipes', event => {
         'CBC',
         'AAA'
     ], {
-        A: 'create:golden_sheet',
+        A: '#forge:plates/gold',
         B: 'ironchest:silver_chest',
         C: 'minecraft:light_weighted_pressure_plate'
     });
@@ -93,7 +93,7 @@ events.listen('recipes', event => {
         'ABA',
         'CAC'
     ], {
-        A: 'immersiveengineering:plate_silver',
+        A: '#forge:plates/silver',
         B: 'ironchest:iron_chest',
         C: '#forge:nuggets/silver'
     });
@@ -103,7 +103,7 @@ events.listen('recipes', event => {
         'ABA',
         'AAA'
     ], {
-        A: 'immersiveengineering:plate_silver',
+        A: '#forge:plates/silver',
         B: 'ironchest:copper_chest'
     });
 
@@ -166,7 +166,7 @@ events.listen('recipes', event => {
         'ABA',
         'AAA'
     ], {
-        A: 'create:iron_sheet',
+        A: '#forge:plates/iron',
         B: '#minecraft:planks'
     });
 
@@ -175,7 +175,7 @@ events.listen('recipes', event => {
         ' B ',
         'AAA'
     ], {
-        A: 'create:copper_sheet',
+        A: '#forge:plates/copper',
         B: '#minecraft:planks'
     });
 
@@ -184,8 +184,8 @@ events.listen('recipes', event => {
         'CBC',
         'AAA'
     ], {
-        A: 'create:iron_sheet',
-        B: 'create:copper_sheet',
+        A: '#forge:plates/iron',
+        B: '#forge:plates/copper',
         C: 'create:andesite_alloy'
     });
 
@@ -194,8 +194,8 @@ events.listen('recipes', event => {
         'ABA',
         'AAA'
     ], {
-        A: 'immersiveengineering:plate_silver',
-        B: 'create:copper_sheet'
+        A: '#forge:plates/silver',
+        B: '#forge:plates/copper'
     });
 
     event.shaped(item.of('ironchest:silver_to_gold_chest_upgrade', 1), [
@@ -203,8 +203,8 @@ events.listen('recipes', event => {
         ' B ',
         'A A'
     ], {
-        A: 'create:gold_sheet',
-        B: 'immersiveengineering:plate_silver'
+        A: '#forge:plates/gold',
+        B: '#forge:plates/silver'
     });
 
     event.shaped(item.of('ironchest:iron_to_gold_chest_upgrade', 1), [
@@ -212,8 +212,8 @@ events.listen('recipes', event => {
         'ABA',
         'AAA'
     ], {
-        A: 'create:gold_sheet',
-        B: 'create:iron_sheet'
+        A: '#forge:plates/gold',
+        B: '#forge:plates/iron'
     });
 
     event.shaped(item.of('ironchest:gold_to_diamond_chest_upgrade', 1), [
@@ -222,7 +222,7 @@ events.listen('recipes', event => {
         '   '
     ], {
         A: '#forge:gears/diamond',
-        B: 'create:gold_sheet'
+        B: '#forge:plates/gold'
     });
 
     event.shaped(item.of('ironchest:gold_to_diamond_chest_upgrade', 1), [
@@ -231,7 +231,7 @@ events.listen('recipes', event => {
         ' A '
     ], {
         A: '#forge:gears/diamond',
-        B: 'create:gold_sheet'
+        B: '#forge:plates/gold'
     });
 
     event.shaped(item.of('ironchest:diamond_to_crystal_chest_upgrade', 1), [

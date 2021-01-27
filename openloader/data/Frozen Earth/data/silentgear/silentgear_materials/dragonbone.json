@@ -11,11 +11,6 @@
   "crafting_items": {
     "main": {
       "tag": "forge:bones/dragon"
-    },
-    "subs": {
-      "rod": {
-        "tag": "forge:bones/dragon"
-      }
     }
   },
   "name": {
