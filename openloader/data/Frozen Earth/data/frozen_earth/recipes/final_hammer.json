@@ -15,9 +15,8 @@
       {
         "item":"immersiveengineering:capacitor_creative"
       },
-      {
-        "values": [
-          {
+      [
+        {
           "type": "forge:nbt",
           "item": "iceandfire:dragonsteel_fire_sword",
           "nbt": "{Damage:0}"
@@ -36,8 +35,8 @@
           "type": "forge:nbt",
           "item": "gaiadimension:gaia_champion_sword",
           "nbt": "{Damage:0}"
-        }]
-      }
+        }
+      ]
     ],
     "result": {
       "item":"industrialforegoing:infinity_hammer",

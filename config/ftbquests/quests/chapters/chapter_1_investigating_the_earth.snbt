@@ -2120,8 +2120,8 @@
 			}]
 		},
 		{
-			x: 1.5d,
-			y: 4.5d,
+			x: 2.0d,
+			y: 2.5d,
 			description: ["I need to operate with water somehow. Regular wooden bucket would be enough for the first time."],
 			hide_dependency_lines: true,
 			dependencies: [I;25],
@@ -3073,7 +3073,7 @@
 		{
 			x: 6.0d,
 			y: 7.0d,
-			description: ["Jar is capable of holding small creatures like chichens and bees. It can also hold various fluids and food."],
+			description: ["Jar is capable of holding small creatures like bees. It can also hold various fluids and food."],
 			dependencies: [I;801],
 			id: 803,
 			tasks: [{

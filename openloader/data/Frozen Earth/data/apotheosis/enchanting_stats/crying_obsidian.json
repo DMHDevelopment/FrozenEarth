@@ -1,0 +1,9 @@
+{
+	"block": "minecraft:crying_obsidian",
+	"stats": {
+		"maxEterna": 0,
+		"eterna": -2.5,
+		"quanta": -0.25,
+		"arcana": 0.75
+	}
+}

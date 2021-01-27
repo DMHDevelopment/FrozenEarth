@@ -384,7 +384,7 @@
         },
         {
           "type": "item",
-          "name": "rankine:bronze_nugget",
+          "name": "thermal:bronze_nugget",
           "weight": 5,
           "functions": [
             {

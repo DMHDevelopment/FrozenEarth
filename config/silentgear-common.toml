@@ -58,7 +58,7 @@
 	#Range: 0.0 ~ 1.0
 	durabilityMultiplier = 0.05
 	#These items will have reduced durability
-	items = ["diamond_axe", "iron_axe", "golden_axe", "stone_axe", "wooden_axe", "diamond_hoe", "iron_hoe", "golden_hoe", "stone_hoe", "wooden_hoe", "diamond_pickaxe", "iron_pickaxe", "golden_pickaxe", "stone_pickaxe", "wooden_pickaxe", "diamond_shovel", "iron_shovel", "golden_shovel", "stone_shovel", "wooden_shovel", "diamond_sword", "iron_sword", "golden_sword", "stone_sword", "wooden_sword"]
+	items = ["golden_axe", "stone_axe", "wooden_axe", "golden_hoe", "stone_hoe", "wooden_hoe", "golden_pickaxe", "stone_pickaxe", "wooden_pickaxe", "golden_shovel", "stone_shovel", "wooden_shovel", "golden_sword", "stone_sword", "wooden_sword"]
 	#Enable this feature. If false, the other settings in this category are ignored.
 	enabled = false
 
@@ -80,6 +80,9 @@
 	#Higher numbers will cause more recalculations, allowing traits to update stat values more often
 	#Range: > 1
 	damageFactorLevels = 10
+	#Allow parts to be crafted with mixed materials in a crafting grid, just like all recent versions.
+	#In 1.17, mixing will only be allowed in compound-crafting blocks.
+	allowClassicMaterialMixing = true
 
 	[gear.repairs]
 		#DEPRECATED! Use repair kit configs instead.
@@ -147,6 +150,11 @@
 #World generation options (REQUIRES GAME RESTART)
 [world]
 
+	[world.bort]
+		#Attempts to place individual bort ore blocks per chunk.
+		#Range: 0 ~ 1000
+		count = 4
+
 	[world.crimsonIron]
 		#Veins of crimson iron ore per chunk
 		#Range: 0 ~ 1000
@@ -164,9 +172,4 @@
 		#Number of patches of wild flax to attempt to place per chunk (some biomes only)
 		#Range: 0 ~ 100
 		patchCount = 1
-
-	[world.bort]
-		#Attempts to place individual bort ore blocks per chunk.
-		#Range: 0 ~ 1000
-		count = 4
 

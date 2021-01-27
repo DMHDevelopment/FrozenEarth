@@ -1,0 +1,9 @@
+{
+	"block": "silentgear:azure_silver_block",
+	"stats": {
+		"maxEterna": 75,
+		"eterna": 7.5,
+		"quanta": 0.0,
+		"arcana": 0.25
+	}
+}

@@ -3,7 +3,6 @@ snowGravity = true
 snowAlwaysReplaceable = true
 snowAccumulationDuringSnowstorm = false
 snowAccumulationDuringSnowfall = false
-snowAccumulationOnSpecialBlocks = false
 thinnerBoundingBox = true
 snowMakingIce = true
 snowOnIce = false
@@ -13,4 +12,5 @@ sustainGrassIfLayerMoreThanOne = true
 #If you want to uninstall this mod, you probably want to make snow-covered blocks back to normal.
 retainOriginalBlocks = false
 snowReduceFallDamage = true
+snowMeltsInWarmBiomes = false
 

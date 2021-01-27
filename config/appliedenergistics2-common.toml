@@ -67,11 +67,11 @@
 
 [worldGen]
 	quartzOresClusterAmount = 20
+	meteoriteBiomeBlacklist = []
 	quartzOresPerCluster = 4
+	quartzOresBiomeBlacklist = []
 	#Range: 0.0 ~ 1.0
 	spawnChargedChance = 0.08
-	meteoriteBiomeBlacklist = []
-	quartzOresBiomeBlacklist = []
 
 [wireless]
 	wirelessTerminalDrainMultiplier = 1.0

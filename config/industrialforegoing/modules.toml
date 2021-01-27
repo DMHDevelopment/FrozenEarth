@@ -120,9 +120,6 @@
 		[modules.transport.conveyor]
 			enabled = true
 
-		[modules.transport.conveyor_upgrades]
-			enabled = true
-
 		[modules.transport.advanced_black_hole_unit]
 			enabled = true
 
@@ -136,6 +133,9 @@
 			enabled = true
 
 		[modules.transport.advanced_black_hole_tank]
+			enabled = true
+
+		[modules.transport.conveyor_upgrades]
 			enabled = true
 
 		[modules.transport.simple_black_hole_tank]
@@ -178,10 +178,10 @@
 		[modules.tools.infinity_saw]
 			enabled = true
 
-		[modules.tools.infinity_hammer]
+		[modules.tools.infinity_backpack]
 			enabled = true
 
-		[modules.tools.infinity_backpack]
+		[modules.tools.infinity_hammer]
 			enabled = true
 
 	[modules.resource_production]

@@ -8,14 +8,20 @@
 	[registration.blocks]
 		clock_block = true
 		pedestal = true
+		blackboard = true
 		sconce_soul = true
+		candle_holder = true
 		speaker_block = true
 		#WIP
 		flag = true
+		sack = true
+		#WIP
+		laser_block = false
 		bellows = true
 		notice_board = true
 		hanging_sign = true
 		redstone_illuminator = true
+		cage = true
 		planter = true
 		wind_vane = true
 		hourglass = true
@@ -24,25 +30,19 @@
 		item_shelf = true
 		turn_table = true
 		faucet = true
+		stone_lamp = false
+		cog_block = true
 		crank = true
+		copper_lantern = true
+		piston_launcher = true
 		sconce_green = true
+		flute = true
 		globe = true
 		sconce = true
 		candelabra = true
+		safe = true
 		sconce_lever = true
 		sign_post = true
-		sack = true
-		piston_launcher = true
-		cage = true
-		cog_block = true
-		candle_holder = true
-		blackboard = true
-		safe = true
-		stone_lamp = false
-		#WIP
-		laser_block = false
-		copper_lantern = true
-		flute = true
 
 #all these don't actually disable blocks anymore, they just remove their recipe and remove them from the creative tabs(like all other mods do)
 [general]

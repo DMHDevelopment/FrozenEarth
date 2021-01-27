@@ -1,0 +1,9 @@
+{
+	"block": "silentgear:blaze_gold_block",
+	"stats": {
+		"maxEterna": 50,
+		"eterna": 5.0,
+		"quanta": 0.5,
+		"arcana": 0.0
+	}
+}

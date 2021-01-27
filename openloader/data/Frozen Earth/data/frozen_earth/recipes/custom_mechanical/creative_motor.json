@@ -15,7 +15,7 @@
             "item": "create:integrated_circuit"
         },
         "2": {
-            "item": "electrodynamics:circuitultimate"
+            "item": "immersiveengineering:circuit_board"
         },
         "T": {
             "item": "create:electron_tube"

@@ -10,13 +10,13 @@
   ],
   "key": {
     "A": {
-      "tags": "minecraft:planks"
+      "tag": "minecraft:planks"
     },
     "B": {
-      "item": "minecraft:iron_ingot"
+      "tag": "forge:ingots/iron"
     },
     "C": {
-      "item": "create:iron_sheet"
+      "tag": "forge:plates/iron"
     }
   },
   "result": {

@@ -1,0 +1,9 @@
+{
+	"block": "silentgear:azure_electrum_block",
+	"stats": {
+		"maxEterna": 100,
+		"eterna": 10.0,
+		"quanta": 0.5,
+		"arcana": 1.0
+	}
+}

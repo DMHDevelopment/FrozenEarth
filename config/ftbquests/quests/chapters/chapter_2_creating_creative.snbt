@@ -490,6 +490,7 @@
 				237,
 				244
 			],
+			dependency_requirement: "one_completed",
 			id: 371,
 			tasks: [{
 				id: 372,

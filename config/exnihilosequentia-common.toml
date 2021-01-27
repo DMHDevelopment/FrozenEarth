@@ -88,28 +88,28 @@
 
 #Ore Configs
 [ore]
-	#Allows ores to be enabled or disabled by this config file. (Default: false)
-	enableOreOverride = false
-	#Enable copper ore pieces, chunks and ingots if they exist. 'enableOreOverride' must be true for this to work. (Default: true)
-	enableCopper = true
-	#Enable lead ore pieces, chunks and ingots if they exist. 'enableOreOverride' must be true for this to work. (Default: true)
-	enableLead = true
-	#Enable nickel ore pieces, chunks and ingots if they exist. 'enableOreOverride' must be true for this to work. (Default: true)
-	enableNickel = true
-	#Enable silver ore pieces, chunks and ingots if they exist. 'enableOreOverride' must be true for this to work. (Default: true)
-	enableSilver = true
-	#Enable tin ore pieces, chunks and ingots if they exist. 'enableOreOverride' must be true for this to work. (Default: true)
-	enableTin = true
-	#Enable aluminum ore pieces, chunks and ingots if they exist. 'enableOreOverride' must be true for this to work. (Default: true)
-	enableAluminum = true
 	#Enable platinum ore pieces, chunks and ingots if they exist. 'enableOreOverride' must be true for this to work. (Default: true)
 	enablePlatinum = true
 	#Enable uranium ore pieces, chunks and ingots if they exist. 'enableOreOverride' must be true for this to work. (Default: true)
 	enableUranium = true
-	#Enable zinc ore pieces, chunks and ingots if they exist. 'enableOreOverride' must be true for this to work. (Default: true)
-	enableZinc = true
-	#Enable iron ore pieces, chunks and ingots if they exist. 'enableOreOverride' must be true for this to work. (Default: true)
-	enableIron = true
 	#Enable gold ore pieces, chunks and ingots if they exist. 'enableOreOverride' must be true for this to work. (Default: true)
 	enableGold = true
+	#Enable silver ore pieces, chunks and ingots if they exist. 'enableOreOverride' must be true for this to work. (Default: true)
+	enableSilver = true
+	#Enable copper ore pieces, chunks and ingots if they exist. 'enableOreOverride' must be true for this to work. (Default: true)
+	enableCopper = true
+	#Enable nickel ore pieces, chunks and ingots if they exist. 'enableOreOverride' must be true for this to work. (Default: true)
+	enableNickel = true
+	#Enable iron ore pieces, chunks and ingots if they exist. 'enableOreOverride' must be true for this to work. (Default: true)
+	enableIron = true
+	#Allows ores to be enabled or disabled by this config file. (Default: false)
+	enableOreOverride = false
+	#Enable aluminum ore pieces, chunks and ingots if they exist. 'enableOreOverride' must be true for this to work. (Default: true)
+	enableAluminum = true
+	#Enable lead ore pieces, chunks and ingots if they exist. 'enableOreOverride' must be true for this to work. (Default: true)
+	enableLead = true
+	#Enable zinc ore pieces, chunks and ingots if they exist. 'enableOreOverride' must be true for this to work. (Default: true)
+	enableZinc = true
+	#Enable tin ore pieces, chunks and ingots if they exist. 'enableOreOverride' must be true for this to work. (Default: true)
+	enableTin = true
 

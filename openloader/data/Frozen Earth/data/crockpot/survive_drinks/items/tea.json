@@ -1,0 +1,8 @@
+{
+    "thirst": 8,
+    "hydration": 20.0,
+    "thirstChance": 0.0,
+    "isChilled": false,
+    "isHeated": true,
+    "isEnergizing": false
+  }

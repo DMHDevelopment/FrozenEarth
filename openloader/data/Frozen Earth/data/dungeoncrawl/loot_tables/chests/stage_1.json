@@ -79,7 +79,21 @@
         },
         {
           "type": "item",
-          "name": "rankine:bronze_alloy",
+          "name": "rankine:copper_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "rankine:tin_ingot",
           "functions": [
             {
               "function": "set_count",
@@ -219,7 +233,21 @@
         },
         {
           "type": "item",
-          "name": "rankine:bronze_nugget",
+          "name": "rankine:copper_nugget",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 5,
+                "max": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "rankine:tin_nugget",
           "weight": 3,
           "functions": [
             {

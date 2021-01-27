@@ -19,7 +19,7 @@
       "item": "minecraft:bricks"
     },
     "D": {
-      "item": "voluminousenergy:titanium_ingot"
+      "tag": "forge:ingots/titanium"
     },
     "E": {
       "item": "minecraft:brick_slab"
