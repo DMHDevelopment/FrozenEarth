@@ -11,4 +11,6 @@ tool_blacklist = ["mininggadgets:mininggadget"]
 #Required for some modpacks
 #Range: -1 ~ 8
 render_text_manually = -1
+#Render the white outline around blocks to be mined
+render_outline = true
 

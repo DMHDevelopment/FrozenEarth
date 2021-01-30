@@ -25,5 +25,14 @@
     "enchantability": 0.5,
     "playerDamage": false,
     "name": "stone"
+  },
+  {
+    "color": "#FFFFFF",
+    "cap": 32767,
+    "weight": 256.0,
+    "durability": 2048.0,
+    "enchantability": 256.0,
+    "playerDamage": true,
+    "name": "ultimate"
   }
 ]

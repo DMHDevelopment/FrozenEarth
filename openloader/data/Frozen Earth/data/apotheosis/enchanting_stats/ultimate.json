@@ -1,0 +1,9 @@
+{
+	"block": "extendedcrafting:the_ultimate_block",
+	"stats": {
+		"maxEterna": 1000,
+		"eterna": 1000.0,
+		"quanta": 0.0,
+		"arcana": 0.0
+	}
+}

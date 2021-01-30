@@ -44,4 +44,11 @@
 	#Set the chance for end city generation to fail. Higher values means lower chance of spawning
 	#Default value: 5
 	endCityGenerationFailChance = 5
+	#
+	#Enable/disable BetterEnd integration with vanilla End biome provider.
+	#This allows BetterEnd to inject its own biome generation infos into the vanilla EndBiomeProvider,
+	#making BetterEnd biomes integrate with Biomes O' Plenty worlds and already generated worlds.
+	#If, for some reason, you don't want this feature, here is the option to change it
+	#Default value: true
+	vanillaEndIntegrationEnabled = true
 
