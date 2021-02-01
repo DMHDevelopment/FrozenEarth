@@ -137,8 +137,8 @@
 		},
 		{
 			title: "Energggggy",
-			x: 8.5d,
-			y: -1.0d,
+			x: 7.0d,
+			y: 0.5d,
 			dependencies: [I;644],
 			id: 535,
 			tasks: [{
@@ -268,6 +268,7 @@
 			]
 		},
 		{
+			title: "What about burned iron?",
 			icon: "immersiveengineering:ingot_steel",
 			x: -3.5d,
 			y: -2.5d,
@@ -280,14 +281,29 @@
 			tasks: [{
 				id: 594,
 				type: "item",
-				item: "assemblylinemachines:steel_ingot"
+				title: "Any forge:ingots/steel",
+				item: {
+					id: "itemfilters:tag",
+					Count: true,
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
 			}],
-			rewards: [{
-				id: 614,
-				type: "gamestage",
-				auto: "invisible",
-				stage: "Nether"
-			}]
+			rewards: [
+				{
+					id: 614,
+					type: "gamestage",
+					auto: "invisible",
+					stage: "Nether"
+				},
+				{
+					id: 805,
+					type: "item",
+					item: "silents_mechanisms:steel_nugget",
+					count: 4
+				}
+			]
 		},
 		{
 			x: -4.0d,
@@ -516,6 +532,7 @@
 		{
 			x: -2.0d,
 			y: -2.5d,
+			description: ["Hammering is a good way to make better compontents like gears and plates. While I can make plates through my press, gears need more power..."],
 			dependencies: [I;617],
 			id: 625,
 			tasks: [{
@@ -523,6 +540,17 @@
 				type: "item",
 				item: {
 					id: "assemblylinemachines:steel_hammer",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 765,
+				type: "item",
+				item: {
+					id: "assemblylinemachines:titanium_hammer",
 					Count: true,
 					tag: {
 						Damage: 0
@@ -655,9 +683,8 @@
 			}]
 		},
 		{
-			x: 14.5d,
-			y: -2.5d,
-			dependencies: [I;654],
+			x: 13.0d,
+			y: -10.0d,
 			size: 2.0d,
 			id: 648,
 			tasks: [{
@@ -693,31 +720,9 @@
 			}]
 		},
 		{
-			x: 8.5d,
-			y: -2.5d,
-			dependencies: [I;644],
-			id: 656,
-			tasks: [{
-				id: 657,
-				type: "item",
-				item: "rankine:alloy_furnace"
-			}]
-		},
-		{
 			x: 10.0d,
-			y: -2.5d,
-			dependencies: [I;656],
-			id: 658,
-			tasks: [{
-				id: 659,
-				type: "item",
-				item: "rankine:piston_crusher"
-			}]
-		},
-		{
-			x: 11.5d,
-			y: -4.0d,
-			dependencies: [I;658],
+			y: -3.5d,
+			dependencies: [I;644],
 			id: 660,
 			tasks: [{
 				id: 661,
@@ -726,9 +731,9 @@
 			}]
 		},
 		{
-			x: 11.5d,
-			y: -1.0d,
-			dependencies: [I;658],
+			x: 10.0d,
+			y: -1.5d,
+			dependencies: [I;644],
 			id: 662,
 			tasks: [{
 				id: 663,
@@ -748,8 +753,8 @@
 			}]
 		},
 		{
-			x: 7.0d,
-			y: 0.5d,
+			x: 8.5d,
+			y: -1.0d,
 			dependencies: [I;644],
 			id: 666,
 			tasks: [{
@@ -759,8 +764,8 @@
 			}]
 		},
 		{
-			x: 7.0d,
-			y: -5.5d,
+			x: 5.5d,
+			y: -4.0d,
 			dependencies: [I;644],
 			id: 668,
 			tasks: [{
@@ -781,8 +786,8 @@
 			}]
 		},
 		{
-			x: 8.5d,
-			y: 0.5d,
+			x: 7.0d,
+			y: -5.5d,
 			dependencies: [I;535],
 			id: 672,
 			tasks: [{
@@ -792,9 +797,9 @@
 			}]
 		},
 		{
-			x: 11.5d,
+			x: 10.0d,
 			y: -2.5d,
-			dependencies: [I;658],
+			dependencies: [I;644],
 			id: 674,
 			tasks: [{
 				id: 675,
@@ -914,6 +919,43 @@
 				type: "item",
 				item: "voluminousenergy:titanium_ingot",
 				count: 4
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -7.5d,
+			dependencies: [I;704],
+			id: 806,
+			tasks: [{
+				id: 807,
+				type: "item",
+				item: "createaddition:gold_spool"
+			}]
+		},
+		{
+			x: 7.0d,
+			y: -7.5d,
+			dependencies: [I;806],
+			id: 808,
+			tasks: [{
+				id: 809,
+				type: "item",
+				item: "createaddition:rolling_mill"
+			}]
+		},
+		{
+			x: 13.0d,
+			y: -7.5d,
+			dependencies: [I;
+				808,
+				654
+			],
+			size: 3.0d,
+			id: 810,
+			tasks: [{
+				id: 811,
+				type: "item",
+				item: "createaddition:alternator"
 			}]
 		}
 	]
