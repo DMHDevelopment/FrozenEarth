@@ -24,10 +24,10 @@
 [alternator]
 	#Alternator max input in FE.
 	#Range: 0 ~ 32767
-	generator_max_output = 32768
+	generator_max_output = 32767
 	#Alternator internal capacity in FE.
 	#Range: 0 ~ 32767
-	generator_capacity = 320000
+	generator_capacity = 32767
 	#Alternator base stress impact.
 	#Range: 0 ~ 1024
 	generator_consumption = 16

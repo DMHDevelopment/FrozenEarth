@@ -683,6 +683,7 @@
 			}]
 		},
 		{
+			icon: "immersiveengineering:wirecoil_copper",
 			x: 13.0d,
 			y: -10.0d,
 			size: 2.0d,
@@ -956,6 +957,17 @@
 				id: 811,
 				type: "item",
 				item: "createaddition:alternator"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 0.5d,
+			dependencies: [I;607],
+			id: 812,
+			tasks: [{
+				id: 813,
+				type: "item",
+				item: "thermal:creosote_bucket"
 			}]
 		}
 	]

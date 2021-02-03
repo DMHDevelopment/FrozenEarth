@@ -5,5 +5,171 @@
 	title: "Chapter 4: Pressurized Machinery",
 	icon: "pneumaticcraft:assembly_drill",
 	default_quest_shape: "",
-	quests: []
+	quests: [
+		{
+			x: -0.5d,
+			y: 0.0d,
+			shape: "hexagon",
+			size: 2.0d,
+			id: 814,
+			tasks: [{
+				id: 815,
+				type: "item",
+				item: "immersiveengineering:wirecoil_copper"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 0.0d,
+			id: 816,
+			tasks: [{
+				id: 817,
+				type: "item",
+				item: "immersiveengineering:capacitor_lv"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 0.0d,
+			id: 818,
+			tasks: [{
+				id: 819,
+				type: "item",
+				item: "immersiveengineering:treated_wood_horizontal"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 1.0d,
+			id: 820,
+			tasks: [{
+				id: 821,
+				type: "item",
+				item: "immersiveengineering:connector_lv"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -1.0d,
+			id: 822,
+			tasks: [{
+				id: 823,
+				type: "item",
+				item: "immersiveengineering:crate"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 2.0d,
+			id: 824,
+			tasks: [{
+				id: 825,
+				type: "item",
+				item: "immersiveengineering:manual"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 1.0d,
+			id: 826,
+			tasks: [{
+				id: 827,
+				type: "item",
+				item: "immersiveengineering:treated_post"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -1.0d,
+			id: 828,
+			tasks: [{
+				id: 829,
+				type: "item",
+				item: "immersiveengineering:alloybrick"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -3.0d,
+			id: 830,
+			tasks: [{
+				id: 831,
+				type: "item",
+				item: "immersiveengineering:ingot_electrum"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -4.0d,
+			id: 832,
+			tasks: [{
+				id: 833,
+				type: "item",
+				item: "immersiveengineering:connector_mv"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -5.0d,
+			id: 834,
+			tasks: [{
+				id: 835,
+				type: "item",
+				item: "immersiveengineering:capacitor_mv"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -6.0d,
+			id: 836,
+			tasks: [{
+				id: 837,
+				type: "item",
+				item: "immersiveengineering:thermoelectric_generator"
+			}]
+		},
+		{
+			x: 3.75d,
+			y: 0.0d,
+			size: 1.5d,
+			id: 838,
+			tasks: [{
+				id: 839,
+				type: "item",
+				item: "immersiveengineering:mold_plate"
+			}]
+		},
+		{
+			x: 3.75d,
+			y: -3.0d,
+			size: 1.5d,
+			id: 840,
+			tasks: [{
+				id: 841,
+				type: "item",
+				item: "immersiveengineering:plate_lead"
+			}]
+		},
+		{
+			x: 5.25d,
+			y: -1.5d,
+			size: 1.5d,
+			id: 842,
+			tasks: [{
+				id: 843,
+				type: "item",
+				item: "immersiveengineering:workbench"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -1.5d,
+			id: 844,
+			tasks: [{
+				id: 845,
+				type: "item",
+				item: "immersiveengineering:light_engineering"
+			}]
+		}
+	]
 }
