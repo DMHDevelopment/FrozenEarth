@@ -1,11 +1,12 @@
 {
-	id: 570,
+	id: "000000000000023A",
+	group: "",
+	order_index: 5,
 	filename: "chapter_5_polyethylene_and_theory_of_chemistry",
-	order_index: 6,
 	title: "Chapter 5: Polyethylene... and Theory Of Chemistry",
 	icon: {
 		id: "silents_mechanisms:canister",
-		Count: true,
+		Count: 1b,
 		tag: {
 			CanisterFluid: "silents_mechanisms:polyethylene"
 		}

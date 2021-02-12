@@ -9,8 +9,10 @@ snowOnIce = false
 snowNeverMelt = false
 replaceWorldFeature = true
 sustainGrassIfLayerMoreThanOne = true
-#If you want to uninstall this mod, you probably want to make snow-covered blocks back to normal.
+#If you want to uninstall this mod, you probably want to make snow-covered blocks back to normal via random tick.
 retainOriginalBlocks = false
 snowReduceFallDamage = true
 snowMeltsInWarmBiomes = false
+#Should snow melt if layers are more than 1
+snowNaturalMelt = true
 

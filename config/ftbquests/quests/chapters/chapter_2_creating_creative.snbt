@@ -1,7 +1,8 @@
 {
-	id: 202,
+	id: "00000000000000CA",
+	group: "",
+	order_index: 2,
 	filename: "chapter_2_creating_creative",
-	order_index: 3,
 	title: "Chapter 2: Creating Creative",
 	icon: "create:gearbox",
 	default_quest_shape: "",
@@ -14,7 +15,8 @@
 		image: "frozen_earth:textures/frozen_earth_chapter_2.png",
 		hover: [],
 		click: "",
-		dev: false
+		dev: false,
+		corner: false
 	}],
 	quests: [
 		{
@@ -27,17 +29,17 @@
 				"",
 				"Time to Create!"
 			],
-			dependencies: [I;282],
+			dependencies: ["000000000000011A"],
 			size: 1.5d,
-			id: 203,
+			id: "00000000000000CB",
 			tasks: [{
-				id: 204,
+				id: "00000000000000CC",
 				type: "item",
 				item: "create:andesite_alloy",
 				count: 32L
 			}],
 			rewards: [{
-				id: 226,
+				id: "00000000000000E2",
 				type: "item",
 				item: "thermal:iron_coin",
 				count: 8
@@ -51,16 +53,16 @@
 				"",
 				"Can be concealed with Andesite Casing or Brass Casing from Create to put it through wall."
 			],
-			dependencies: [I;203],
-			id: 228,
+			dependencies: ["00000000000000CB"],
+			id: "00000000000000E4",
 			tasks: [{
-				id: 229,
+				id: "00000000000000E5",
 				type: "item",
 				item: "create:shaft",
 				count: 32L
 			}],
 			rewards: [{
-				id: 257,
+				id: "0000000000000101",
 				type: "item",
 				item: "create:andesite_casing",
 				count: 8
@@ -70,17 +72,17 @@
 			x: -5.0d,
 			y: 4.0d,
 			description: ["Cogs are used for rotational force transfering and inversion."],
-			dependencies: [I;203],
-			id: 230,
+			dependencies: ["00000000000000CB"],
+			id: "00000000000000E6",
 			tasks: [
 				{
-					id: 231,
+					id: "00000000000000E7",
 					type: "item",
 					item: "create:cogwheel",
 					count: 8L
 				},
 				{
-					id: 232,
+					id: "00000000000000E8",
 					type: "item",
 					item: "create:large_cogwheel",
 					count: 8L
@@ -88,13 +90,13 @@
 			],
 			rewards: [
 				{
-					id: 233,
+					id: "00000000000000E9",
 					type: "item",
 					item: "minecraft:redstone",
 					count: 32
 				},
 				{
-					id: 236,
+					id: "00000000000000EC",
 					type: "item",
 					item: "minecraft:iron_ore",
 					count: 16
@@ -105,13 +107,13 @@
 			x: -4.0d,
 			y: 4.5d,
 			description: ["Rotational force relay. I can turn it."],
-			dependencies: [I;
-				230,
-				228
+			dependencies: [
+				"00000000000000E6",
+				"00000000000000E4"
 			],
-			id: 234,
+			id: "00000000000000EA",
 			tasks: [{
-				id: 235,
+				id: "00000000000000EB",
 				type: "item",
 				item: "create:gearbox"
 			}]
@@ -124,15 +126,15 @@
 				"",
 				"Tip: You can connect several of them in a row. Power will stack additively."
 			],
-			dependencies: [I;234],
-			id: 237,
+			dependencies: ["00000000000000EA"],
+			id: "00000000000000ED",
 			tasks: [{
-				id: 238,
+				id: "00000000000000EE",
 				type: "item",
 				item: "create:water_wheel"
 			}],
 			rewards: [{
-				id: 239,
+				id: "00000000000000EF",
 				type: "item",
 				item: "create:water_wheel",
 				count: 2
@@ -149,23 +151,23 @@
 				"Click the main block with RMB to activate Windmill."
 			],
 			hide_dependency_lines: false,
-			dependencies: [I;234],
-			id: 240,
+			dependencies: ["00000000000000EA"],
+			id: "00000000000000F0",
 			tasks: [{
-				id: 241,
+				id: "00000000000000F1",
 				type: "item",
 				item: "create:windmill_bearing"
 			}],
 			rewards: [
 				{
-					id: 242,
+					id: "00000000000000F2",
 					type: "item",
 					item: "minecraft:white_wool",
 					count: 8,
 					random_bonus: 8
 				},
 				{
-					id: 243,
+					id: "00000000000000F3",
 					type: "item",
 					item: "minecraft:slime_ball"
 				}
@@ -176,35 +178,35 @@
 			x: -3.0d,
 			y: 3.5d,
 			description: ["Simple rotational force generator. Hold RMB to generate rotational force. Shift+RMB to inverse direction."],
-			dependencies: [I;234],
-			id: 244,
+			dependencies: ["00000000000000EA"],
+			id: "00000000000000F4",
 			tasks: [{
-				id: 364,
+				id: "000000000000016C",
 				type: "item",
 				title: "Hand Crank OR Valve Handle",
 				item: {
 					id: "itemfilters:or",
-					Count: true,
+					Count: 1b,
 					tag: {
 						items: [
 							{
 								id: "create:hand_crank",
-								Count: true
+								Count: 1b
 							},
 							{
 								id: "create:copper_valve_handle",
-								Count: true
+								Count: 1b
 							}
 						]
 					}
 				}
 			}],
 			rewards: [{
-				id: 360,
+				id: "0000000000000168",
 				type: "item",
 				item: {
 					id: "minecraft:cooked_chicken",
-					Count: true,
+					Count: 1b,
 					tag: {
 						display: {
 							Name: '{"text": "Chicken Breasts"}'
@@ -224,10 +226,10 @@
 				"Place it horizontally to use it in harvesting mode."
 			],
 			hide_dependency_lines: true,
-			dependencies: [I;344],
-			id: 246,
+			dependencies: ["0000000000000158"],
+			id: "00000000000000F6",
 			tasks: [{
-				id: 247,
+				id: "00000000000000F7",
 				type: "item",
 				item: "create:mechanical_saw"
 			}]
@@ -236,10 +238,10 @@
 			x: 0.5d,
 			y: 6.0d,
 			hide_dependency_lines: true,
-			dependencies: [I;344],
-			id: 248,
+			dependencies: ["0000000000000158"],
+			id: "00000000000000F8",
 			tasks: [{
-				id: 249,
+				id: "00000000000000F9",
 				type: "item",
 				item: "create:mechanical_drill"
 			}]
@@ -248,15 +250,15 @@
 			x: 1.5d,
 			y: 9.5d,
 			hide_dependency_lines: true,
-			dependencies: [I;371],
-			id: 250,
+			dependencies: ["0000000000000173"],
+			id: "00000000000000FA",
 			tasks: [{
-				id: 251,
+				id: "00000000000000FB",
 				type: "item",
 				item: "create:mechanical_press"
 			}],
 			rewards: [{
-				id: 263,
+				id: "0000000000000107",
 				type: "item",
 				item: "minecraft:iron_block",
 				count: 3
@@ -266,22 +268,22 @@
 			x: 1.5d,
 			y: 8.5d,
 			hide_dependency_lines: true,
-			dependencies: [I;371],
-			id: 252,
+			dependencies: ["0000000000000173"],
+			id: "00000000000000FC",
 			tasks: [
 				{
-					id: 253,
+					id: "00000000000000FD",
 					type: "item",
 					item: "create:mechanical_mixer"
 				},
 				{
-					id: 560,
+					id: "0000000000000230",
 					type: "item",
 					item: "create:basin"
 				}
 			],
 			rewards: [{
-				id: 254,
+				id: "00000000000000FE",
 				type: "item",
 				item: "minecraft:iron_ore",
 				count: 16,
@@ -293,15 +295,15 @@
 			y: 8.5d,
 			description: ["Millstone is capable of grinding down materials. Useful for milling soft materials."],
 			hide_dependency_lines: true,
-			dependencies: [I;371],
-			id: 255,
+			dependencies: ["0000000000000173"],
+			id: "00000000000000FF",
 			tasks: [{
-				id: 256,
+				id: "0000000000000100",
 				type: "item",
 				item: "create:millstone"
 			}],
 			rewards: [{
-				id: 258,
+				id: "0000000000000102",
 				type: "item",
 				item: "minecraft:sand",
 				count: 172
@@ -312,10 +314,10 @@
 			y: 7.5d,
 			description: ["Mechanical Belts are both conveyors and force conductors. Connect two Shafts with Mechanical Belt and look how it works. Shafts must oppose each other along one axis."],
 			hide_dependency_lines: true,
-			dependencies: [I;228],
-			id: 259,
+			dependencies: ["00000000000000E4"],
+			id: "0000000000000103",
 			tasks: [{
-				id: 260,
+				id: "0000000000000104",
 				type: "item",
 				item: "create:belt_connector",
 				count: 2L
@@ -327,23 +329,23 @@
 			y: 9.0d,
 			shape: "gear",
 			description: ["Is this the New Era that Zack Goldhand sang about?"],
-			dependencies: [I;999],
+			dependencies: ["00000000000003E7"],
 			size: 1.5d,
-			id: 261,
+			id: "0000000000000105",
 			tasks: [{
-				id: 262,
+				id: "0000000000000106",
 				type: "item",
 				item: "create:brass_sheet"
 			}],
 			rewards: [
 				{
-					id: 365,
+					id: "000000000000016D",
 					type: "item",
 					item: "minecraft:quartz",
 					count: 16
 				},
 				{
-					id: 366,
+					id: "000000000000016E",
 					type: "item",
 					item: "minecraft:redstone",
 					count: 32
@@ -359,15 +361,15 @@
 				"",
 				"Hmm, what if you use more expensive metals? I might be able to create a larger chest. What if using diamonds as the main ingredient?"
 			],
-			dependencies: [I;261],
-			id: 264,
+			dependencies: ["0000000000000105"],
+			id: "0000000000000108",
 			tasks: [{
-				id: 265,
+				id: "0000000000000109",
 				type: "item",
 				item: "ironchest:iron_chest"
 			}],
 			rewards: [{
-				id: 266,
+				id: "000000000000010A",
 				type: "item",
 				item: "minecraft:chest"
 			}]
@@ -376,10 +378,10 @@
 			x: 0.5d,
 			y: 3.5d,
 			hide_dependency_lines: true,
-			dependencies: [I;346],
-			id: 267,
+			dependencies: ["000000000000015A"],
+			id: "000000000000010B",
 			tasks: [{
-				id: 268,
+				id: "000000000000010C",
 				type: "item",
 				item: "create:mechanical_bearing"
 			}]
@@ -389,16 +391,16 @@
 			x: 0.5d,
 			y: 4.5d,
 			hide_dependency_lines: true,
-			dependencies: [I;346],
-			id: 271,
+			dependencies: ["000000000000015A"],
+			id: "000000000000010F",
 			tasks: [
 				{
-					id: 272,
+					id: "0000000000000110",
 					type: "item",
 					item: "create:sticky_mechanical_piston"
 				},
 				{
-					id: 275,
+					id: "0000000000000113",
 					type: "item",
 					item: "create:piston_extension_pole",
 					count: 8L
@@ -406,13 +408,13 @@
 			],
 			rewards: [
 				{
-					id: 276,
+					id: "0000000000000114",
 					type: "item",
 					item: "create:cogwheel",
 					count: 16
 				},
 				{
-					id: 277,
+					id: "0000000000000115",
 					type: "item",
 					item: "create:large_cogwheel",
 					count: 8
@@ -423,10 +425,10 @@
 			x: 1.5d,
 			y: 3.5d,
 			hide_dependency_lines: true,
-			dependencies: [I;346],
-			id: 273,
+			dependencies: ["000000000000015A"],
+			id: "0000000000000111",
 			tasks: [{
-				id: 274,
+				id: "0000000000000112",
 				type: "item",
 				item: "create:rope_pulley"
 			}]
@@ -435,10 +437,10 @@
 			x: 0.5d,
 			y: 7.0d,
 			hide_dependency_lines: true,
-			dependencies: [I;344],
-			id: 278,
+			dependencies: ["0000000000000158"],
+			id: "0000000000000116",
 			tasks: [{
-				id: 279,
+				id: "0000000000000117",
 				type: "item",
 				item: "create:mechanical_plough"
 			}]
@@ -448,21 +450,21 @@
 			y: 4.5d,
 			description: ["This thing allows you to feel sick. Has best effect if combined with jukebox."],
 			hide_dependency_lines: true,
-			dependencies: [I;346],
-			id: 280,
+			dependencies: ["000000000000015A"],
+			id: "0000000000000118",
 			tasks: [{
-				id: 281,
+				id: "0000000000000119",
 				type: "item",
 				item: "create:turntable"
 			}],
 			rewards: [
 				{
-					id: 367,
+					id: "000000000000016F",
 					type: "item",
 					item: "minecraft:jukebox"
 				},
 				{
-					id: 368,
+					id: "0000000000000170",
 					type: "item",
 					item: "minecraft:music_disc_mellohi"
 				}
@@ -472,10 +474,10 @@
 			x: 1.5d,
 			y: 7.0d,
 			hide_dependency_lines: true,
-			dependencies: [I;344],
-			id: 369,
+			dependencies: ["0000000000000158"],
+			id: "0000000000000171",
 			tasks: [{
-				id: 370,
+				id: "0000000000000172",
 				type: "item",
 				item: "create:mechanical_harvester"
 			}]
@@ -485,15 +487,15 @@
 			y: 9.0d,
 			shape: "circle",
 			hide_dependency_lines: true,
-			dependencies: [I;
-				240,
-				237,
-				244
+			dependencies: [
+				"00000000000000F0",
+				"00000000000000ED",
+				"00000000000000F4"
 			],
 			dependency_requirement: "one_completed",
-			id: 371,
+			id: "0000000000000173",
 			tasks: [{
-				id: 372,
+				id: "0000000000000174",
 				type: "checkmark",
 				title: "Processing Machines"
 			}]
@@ -503,15 +505,15 @@
 			y: 6.5d,
 			shape: "circle",
 			hide_dependency_lines: true,
-			dependencies: [I;
-				240,
-				237,
-				244
+			dependencies: [
+				"00000000000000F0",
+				"00000000000000ED",
+				"00000000000000F4"
 			],
 			dependency_requirement: "one_completed",
-			id: 344,
+			id: "0000000000000158",
 			tasks: [{
-				id: 345,
+				id: "0000000000000159",
 				type: "checkmark",
 				title: "Harvesting Machines"
 			}]
@@ -522,15 +524,15 @@
 			shape: "circle",
 			description: ["All harvesting machines act as powered when they are part of dynamic structure."],
 			hide_dependency_lines: true,
-			dependencies: [I;
-				240,
-				237,
-				244
+			dependencies: [
+				"00000000000000F0",
+				"00000000000000ED",
+				"00000000000000F4"
 			],
 			dependency_requirement: "one_completed",
-			id: 346,
+			id: "000000000000015A",
 			tasks: [{
-				id: 347,
+				id: "000000000000015B",
 				type: "checkmark",
 				title: "Create Dynamics"
 			}]
@@ -538,16 +540,16 @@
 		{
 			x: 7.5d,
 			y: 9.0d,
-			dependencies: [I;383],
-			id: 348,
+			dependencies: ["000000000000017F"],
+			id: "000000000000015C",
 			tasks: [{
-				id: 349,
+				id: "000000000000015D",
 				type: "item",
 				item: "create:mechanical_crafter",
 				count: 9L
 			}],
 			rewards: [{
-				id: 350,
+				id: "000000000000015E",
 				type: "item",
 				item: "minecraft:sugar_cane",
 				count: 24
@@ -556,10 +558,10 @@
 		{
 			x: 8.5d,
 			y: 9.0d,
-			dependencies: [I;348],
-			id: 351,
+			dependencies: ["000000000000015C"],
+			id: "000000000000015F",
 			tasks: [{
-				id: 352,
+				id: "0000000000000160",
 				type: "item",
 				item: "create:crushing_wheel",
 				count: 2L
@@ -575,25 +577,25 @@
 				"",
 				"You place Blaze Burner underneath a Basin, as well as Mechanical Mixer above Basin. Then you feed your Blaze with Blaze Rods."
 			],
-			dependencies: [I;
-				250,
-				252
+			dependencies: [
+				"00000000000000FA",
+				"00000000000000FC"
 			],
-			id: 998,
+			id: "00000000000003E6",
 			tasks: [
 				{
-					id: 995,
+					id: "00000000000003E3",
 					type: "item",
 					item: "create:empty_blaze_burner"
 				},
 				{
-					id: 390,
+					id: "0000000000000186",
 					type: "item",
 					item: "exnihilosequentia:doll_blaze"
 				}
 			],
 			rewards: [{
-				id: 491,
+				id: "00000000000001EB",
 				type: "item",
 				item: "minecraft:blaze_rod",
 				count: 4,
@@ -605,16 +607,16 @@
 			icon: "create:brass_ingot",
 			x: 3.5d,
 			y: 9.0d,
-			dependencies: [I;998],
-			id: 999,
+			dependencies: ["00000000000003E6"],
+			id: "00000000000003E7",
 			tasks: [
 				{
-					id: 996,
+					id: "00000000000003E4",
 					type: "item",
 					title: "8x Copper Ingot",
 					item: {
 						id: "itemfilters:tag",
-						Count: true,
+						Count: 1b,
 						tag: {
 							value: "forge:ingots/copper"
 						}
@@ -622,12 +624,12 @@
 					count: 8L
 				},
 				{
-					id: 997,
+					id: "00000000000003E5",
 					type: "item",
 					title: "8x Zinc Ingot",
 					item: {
 						id: "itemfilters:tag",
-						Count: true,
+						Count: 1b,
 						tag: {
 							value: "forge:ingots/zinc"
 						}
@@ -641,11 +643,11 @@
 			x: 12.0d,
 			y: 5.0d,
 			hide_dependency_lines: true,
-			dependencies: [I;261],
+			dependencies: ["0000000000000105"],
 			size: 2.0d,
-			id: 353,
+			id: "0000000000000161",
 			tasks: [{
-				id: 354,
+				id: "0000000000000162",
 				type: "item",
 				item: "darkutils:filter_player"
 			}]
@@ -654,15 +656,15 @@
 			title: "OpenBlocks Elevators",
 			x: 5.0d,
 			y: 10.5d,
-			dependencies: [I;261],
-			id: 355,
+			dependencies: ["0000000000000105"],
+			id: "0000000000000163",
 			tasks: [{
-				id: 356,
+				id: "0000000000000164",
 				type: "item",
 				title: "Any elevatorid:elevators",
 				item: {
 					id: "itemfilters:tag",
-					Count: true,
+					Count: 1b,
 					tag: {
 						value: "elevatorid:elevators"
 					}
@@ -675,21 +677,21 @@
 			y: 7.5d,
 			shape: "square",
 			description: ["After some more time I found a way of making things more compact. These sheets I'm making on Mechanical Press allows me to make a bit better furnace, than I had before. 3 furnace at once. Sounds really good."],
-			dependencies: [I;261],
-			id: 357,
+			dependencies: ["0000000000000105"],
+			id: "0000000000000165",
 			tasks: [{
-				id: 358,
+				id: "0000000000000166",
 				type: "item",
 				item: "terraqueous:craftfurnace"
 			}],
 			rewards: [
 				{
-					id: 473,
+					id: "00000000000001D9",
 					type: "item",
 					item: "create:brass_ingot"
 				},
 				{
-					id: 474,
+					id: "00000000000001DA",
 					type: "item",
 					item: "minecraft:coal",
 					count: 4
@@ -708,12 +710,12 @@
 				"I should try to upgrade my primitive fishing rod, that was made only with sticks and strings. Tackle box is the best solution to create now."
 			],
 			hide_dependency_lines: true,
-			dependencies: [I;261],
+			dependencies: ["0000000000000105"],
 			dependency_requirement: "one_completed",
 			size: 2.0d,
-			id: 359,
+			id: "0000000000000167",
 			tasks: [{
-				id: 422,
+				id: "00000000000001A6",
 				type: "item",
 				item: "aquaculture:tackle_box"
 			}]
@@ -722,11 +724,11 @@
 			x: 12.0d,
 			y: 9.0d,
 			shape: "hexagon",
-			dependencies: [I;558],
+			dependencies: ["000000000000022E"],
 			size: 3.0d,
-			id: 362,
+			id: "000000000000016A",
 			tasks: [{
-				id: 363,
+				id: "000000000000016B",
 				type: "item",
 				item: "extendedcrafting:advanced_table"
 			}]
@@ -735,10 +737,10 @@
 			x: -5.0d,
 			y: 9.0d,
 			hide_dependency_lines: true,
-			dependencies: [I;203],
-			id: 373,
+			dependencies: ["00000000000000CB"],
+			id: "0000000000000175",
 			tasks: [{
-				id: 374,
+				id: "0000000000000176",
 				type: "item",
 				item: "create:andesite_casing"
 			}]
@@ -747,13 +749,13 @@
 			x: -4.0d,
 			y: 9.0d,
 			hide_dependency_lines: true,
-			dependencies: [I;
-				364,
-				250
+			dependencies: [
+				"000000000000016C",
+				"00000000000000FA"
 			],
-			id: 375,
+			id: "0000000000000177",
 			tasks: [{
-				id: 376,
+				id: "0000000000000178",
 				type: "item",
 				item: "create:copper_casing"
 			}]
@@ -762,10 +764,10 @@
 			x: -3.0d,
 			y: 9.0d,
 			hide_dependency_lines: true,
-			dependencies: [I;261],
-			id: 377,
+			dependencies: ["0000000000000105"],
+			id: "0000000000000179",
 			tasks: [{
-				id: 378,
+				id: "000000000000017A",
 				type: "item",
 				item: "create:brass_casing"
 			}]
@@ -775,11 +777,11 @@
 			y: 11.0d,
 			shape: "hexagon",
 			hide_dependency_lines: true,
-			dependencies: [I;377],
+			dependencies: ["0000000000000179"],
 			size: 2.0d,
-			id: 379,
+			id: "000000000000017B",
 			tasks: [{
-				id: 380,
+				id: "000000000000017C",
 				type: "item",
 				item: "create:refined_radiance_casing"
 			}]
@@ -789,11 +791,11 @@
 			y: 11.0d,
 			shape: "hexagon",
 			hide_dependency_lines: true,
-			dependencies: [I;370],
+			dependencies: ["0000000000000172"],
 			size: 2.5d,
-			id: 381,
+			id: "000000000000017D",
 			tasks: [{
-				id: 382,
+				id: "000000000000017E",
 				type: "item",
 				item: "create:shadow_steel_casing"
 			}]
@@ -801,34 +803,34 @@
 		{
 			x: 6.5d,
 			y: 9.0d,
-			dependencies: [I;261],
-			id: 383,
+			dependencies: ["0000000000000105"],
+			id: "000000000000017F",
 			tasks: [
 				{
-					id: 384,
+					id: "0000000000000180",
 					type: "item",
 					item: "create:rose_quartz",
 					count: 4L
 				},
 				{
-					id: 385,
+					id: "0000000000000181",
 					type: "item",
 					title: "Sand Paper",
 					item: {
 						id: "itemfilters:or",
-						Count: true,
+						Count: 1b,
 						tag: {
 							items: [
 								{
 									id: "create:sand_paper",
-									Count: true,
+									Count: 1b,
 									tag: {
 										Damage: 0
 									}
 								},
 								{
 									id: "create:red_sand_paper",
-									Count: true,
+									Count: 1b,
 									tag: {
 										Damage: 0
 									}
@@ -840,13 +842,13 @@
 			],
 			rewards: [
 				{
-					id: 386,
+					id: "0000000000000182",
 					type: "item",
 					item: "minecraft:redstone",
 					count: 32
 				},
 				{
-					id: 387,
+					id: "0000000000000183",
 					type: "item",
 					item: "minecraft:quartz",
 					count: 4
@@ -863,10 +865,10 @@
 				"Place Mechanical Saw vertically to enable Processing Mode."
 			],
 			hide_dependency_lines: true,
-			dependencies: [I;371],
-			id: 388,
+			dependencies: ["0000000000000173"],
+			id: "0000000000000184",
 			tasks: [{
-				id: 389,
+				id: "0000000000000185",
 				type: "item",
 				item: "create:mechanical_saw"
 			}]
@@ -879,10 +881,10 @@
 				" "
 			],
 			hide_dependency_lines: false,
-			dependencies: [I;357],
-			id: 409,
+			dependencies: ["0000000000000165"],
+			id: "0000000000000199",
 			tasks: [{
-				id: 410,
+				id: "000000000000019A",
 				type: "item",
 				item: "terraqueous:craftbench"
 			}]
@@ -891,16 +893,16 @@
 			x: 8.5d,
 			y: 7.5d,
 			hide_dependency_lines: false,
-			dependencies: [I;409],
-			id: 411,
+			dependencies: ["0000000000000199"],
+			id: "000000000000019B",
 			tasks: [{
-				id: 412,
+				id: "000000000000019C",
 				type: "item",
 				item: {
 					id: "terraqueous:scythe",
-					Count: true,
+					Count: 1b,
 					tag: {
-						sickle: true,
+						sickle: 1b,
 						Damage: 0
 					}
 				}
@@ -910,7 +912,7 @@
 			title: "Tough as frozen earth",
 			icon: {
 				id: "aquaculture:iron_fishing_rod",
-				Count: true,
+				Count: 1b,
 				tag: {
 					Damage: 0
 				}
@@ -922,33 +924,33 @@
 				"This rod should be enough to upgrade it with some stuff in Tackle Box."
 			],
 			hide_dependency_lines: true,
-			dependencies: [I;359],
+			dependencies: ["0000000000000167"],
 			dependency_requirement: "one_started",
-			id: 423,
+			id: "00000000000001A7",
 			tasks: [
 				{
-					id: 431,
+					id: "00000000000001AF",
 					type: "item",
 					item: {
 						id: "aquaculture:iron_fishing_rod",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 439,
+					id: "00000000000001B7",
 					type: "item",
 					item: "aquaculture:fishing_line"
 				},
 				{
-					id: 440,
+					id: "00000000000001B8",
 					type: "item",
 					item: "aquaculture:iron_hook"
 				},
 				{
-					id: 441,
+					id: "00000000000001B9",
 					type: "item",
 					item: "aquaculture:bobber"
 				}
@@ -957,10 +959,10 @@
 		{
 			x: 7.5d,
 			y: 10.5d,
-			dependencies: [I;348],
-			id: 428,
+			dependencies: ["000000000000015C"],
+			id: "00000000000001AC",
 			tasks: [{
-				id: 429,
+				id: "00000000000001AD",
 				type: "item",
 				item: "create:integrated_circuit"
 			}]
@@ -973,10 +975,10 @@
 				"",
 				"These pipes can be concealed with Copper Casing!"
 			],
-			dependencies: [I;250],
-			id: 432,
+			dependencies: ["00000000000000FA"],
+			id: "00000000000001B0",
 			tasks: [{
-				id: 433,
+				id: "00000000000001B1",
 				type: "item",
 				item: "create:fluid_pipe",
 				count: 16L
@@ -985,10 +987,10 @@
 		{
 			x: 1.5d,
 			y: 13.0d,
-			dependencies: [I;432],
-			id: 434,
+			dependencies: ["00000000000001B0"],
+			id: "00000000000001B2",
 			tasks: [{
-				id: 435,
+				id: "00000000000001B3",
 				type: "item",
 				item: "create:mechanical_pump"
 			}]
@@ -1003,10 +1005,10 @@
 				"",
 				"Wait, can I build one huge Tank of them?"
 			],
-			dependencies: [I;432],
-			id: 436,
+			dependencies: ["00000000000001B0"],
+			id: "00000000000001B4",
 			tasks: [{
-				id: 437,
+				id: "00000000000001B5",
 				type: "item",
 				item: "create:fluid_tank"
 			}]
@@ -1015,7 +1017,7 @@
 			title: "Bait everything!",
 			icon: {
 				id: "aquaculture:worm",
-				Count: true,
+				Count: 1b,
 				tag: {
 					Damage: 0
 				}
@@ -1026,15 +1028,15 @@
 				'As my father said to me "When you don\'t know, what thing you want to fish at - use worms. If you need them - search for them at pus". That should help me. ',
 				"To obtain worms, use some organic at Worm Farm, and then collect them from it."
 			],
-			dependencies: [I;452],
-			id: 446,
+			dependencies: ["00000000000001C4"],
+			id: "00000000000001BE",
 			tasks: [
 				{
-					id: 448,
+					id: "00000000000001C0",
 					type: "item",
 					item: {
 						id: "aquaculture:worm",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -1042,7 +1044,7 @@
 					count: 16L
 				},
 				{
-					id: 449,
+					id: "00000000000001C1",
 					type: "item",
 					item: "aquaculture:worm_farm"
 				}
@@ -1057,10 +1059,10 @@
 				"It has both to be powered to descend hose, and to be connected to powered Mechanical Pump.",
 				"In that case the Hose Pulley will start pumping."
 			],
-			dependencies: [I;434],
-			id: 450,
+			dependencies: ["00000000000001B2"],
+			id: "00000000000001C2",
 			tasks: [{
-				id: 451,
+				id: "00000000000001C3",
 				type: "item",
 				item: "create:hose_pulley"
 			}]
@@ -1071,21 +1073,21 @@
 			x: -4.0d,
 			y: 13.25d,
 			description: ["It's time to catch something really valuable ... or at least something."],
-			dependencies: [I;423],
-			id: 452,
+			dependencies: ["00000000000001A7"],
+			id: "00000000000001C4",
 			tasks: [
 				{
-					id: 454,
+					id: "00000000000001C6",
 					type: "item",
 					item: "aquaculture:message_in_a_bottle"
 				},
 				{
-					id: 455,
+					id: "00000000000001C7",
 					type: "item",
 					item: "aquaculture:tin_can"
 				},
 				{
-					id: 456,
+					id: "00000000000001C8",
 					type: "item",
 					item: "aquaculture:driftwood"
 				}
@@ -1095,10 +1097,10 @@
 			x: 2.5d,
 			y: 3.5d,
 			hide_dependency_lines: true,
-			dependencies: [I;346],
-			id: 457,
+			dependencies: ["000000000000015A"],
+			id: "00000000000001C9",
 			tasks: [{
-				id: 458,
+				id: "00000000000001CA",
 				type: "item",
 				item: "create:cart_assembler"
 			}]
@@ -1107,14 +1109,14 @@
 			x: 2.5d,
 			y: 4.5d,
 			hide_dependency_lines: true,
-			dependencies: [I;346],
-			id: 459,
+			dependencies: ["000000000000015A"],
+			id: "00000000000001CB",
 			tasks: [{
-				id: 460,
+				id: "00000000000001CC",
 				type: "item",
 				item: {
 					id: "create:super_glue",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -1127,11 +1129,11 @@
 			y: 12.0d,
 			shape: "hexagon",
 			description: ["So many days have passed. So much effort is behind. I used to build long chains of gears to get needed rotational speed. Now i have one machine to replace them all!"],
-			dependencies: [I;428],
+			dependencies: ["00000000000001AC"],
 			size: 1.5d,
-			id: 462,
+			id: "00000000000001CE",
 			tasks: [{
-				id: 463,
+				id: "00000000000001CF",
 				type: "item",
 				item: "create:rotation_speed_controller"
 			}]
@@ -1141,25 +1143,25 @@
 			x: -4.0d,
 			y: 16.75d,
 			description: ["Sometimes I realize, that I need some unique dishes. First thing, that came to my mind was sushi, second - turtle soup. I hope it'll be tasteful ... mmm ..."],
-			dependencies: [I;475],
-			id: 464,
+			dependencies: ["00000000000001DB"],
+			id: "00000000000001D0",
 			tasks: [
 				{
-					id: 466,
+					id: "00000000000001D2",
 					type: "item",
 					item: "aquaculture:sushi"
 				},
 				{
-					id: 467,
+					id: "00000000000001D3",
 					type: "item",
 					item: "aquaculture:turtle_soup"
 				},
 				{
-					id: 469,
+					id: "00000000000001D5",
 					type: "item",
 					item: {
 						id: "aquaculture:iron_fillet_knife",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -1170,10 +1172,10 @@
 		{
 			x: -5.5d,
 			y: 16.0d,
-			dependencies: [I;464],
-			id: 470,
+			dependencies: ["00000000000001D0"],
+			id: "00000000000001D6",
 			tasks: [{
-				id: 471,
+				id: "00000000000001D7",
 				type: "item",
 				item: "aquaculture:nether_star_hook"
 			}]
@@ -1182,44 +1184,44 @@
 			title: "Pick yours",
 			x: -2.5d,
 			y: 16.0d,
-			dependencies: [I;446],
-			id: 475,
+			dependencies: ["00000000000001BE"],
+			id: "00000000000001DB",
 			tasks: [{
-				id: 476,
+				id: "00000000000001DC",
 				type: "item",
 				title: "Any Advanced Hook",
 				item: {
 					id: "itemfilters:or",
-					Count: true,
+					Count: 1b,
 					tag: {
 						items: [
 							{
 								id: "aquaculture:gold_hook",
-								Count: true
+								Count: 1b
 							},
 							{
 								id: "aquaculture:diamond_hook",
-								Count: true
+								Count: 1b
 							},
 							{
 								id: "aquaculture:light_hook",
-								Count: true
+								Count: 1b
 							},
 							{
 								id: "aquaculture:heavy_hook",
-								Count: true
+								Count: 1b
 							},
 							{
 								id: "aquaculture:double_hook",
-								Count: true
+								Count: 1b
 							},
 							{
 								id: "aquaculture:redstone_hook",
-								Count: true
+								Count: 1b
 							},
 							{
 								id: "aquaculture:note_hook",
-								Count: true
+								Count: 1b
 							}
 						]
 					}
@@ -1231,15 +1233,15 @@
 			y: 4.0d,
 			shape: "circle",
 			hide_dependency_lines: true,
-			dependencies: [I;
-				244,
-				237,
-				240
+			dependencies: [
+				"00000000000000F4",
+				"00000000000000ED",
+				"00000000000000F0"
 			],
 			dependency_requirement: "one_completed",
-			id: 477,
+			id: "00000000000001DD",
 			tasks: [{
-				id: 478,
+				id: "00000000000001DE",
 				type: "checkmark",
 				title: "Misc"
 			}]
@@ -1253,10 +1255,10 @@
 				"Can accept items from players using RMB."
 			],
 			hide_dependency_lines: true,
-			dependencies: [I;477],
-			id: 479,
+			dependencies: ["00000000000001DD"],
+			id: "00000000000001DF",
 			tasks: [{
-				id: 480,
+				id: "00000000000001E0",
 				type: "item",
 				item: "create:andesite_funnel"
 			}]
@@ -1270,10 +1272,10 @@
 				"But, secondly, it has unlimited bandwidth and extraction speed of 16/s if an inventory is above it."
 			],
 			hide_dependency_lines: true,
-			dependencies: [I;477],
-			id: 481,
+			dependencies: ["00000000000001DD"],
+			id: "00000000000001E1",
 			tasks: [{
-				id: 482,
+				id: "00000000000001E2",
 				type: "item",
 				item: "create:chute"
 			}]
@@ -1283,10 +1285,10 @@
 			y: 6.0d,
 			shape: "circle",
 			hide_dependency_lines: true,
-			dependencies: [I;250],
-			id: 483,
+			dependencies: ["00000000000000FA"],
+			id: "00000000000001E3",
 			tasks: [{
-				id: 484,
+				id: "00000000000001E4",
 				type: "checkmark",
 				title: "Tools"
 			}]
@@ -1295,10 +1297,10 @@
 			x: 6.5d,
 			y: 6.0d,
 			hide_dependency_lines: true,
-			dependencies: [I;483],
-			id: 485,
+			dependencies: ["00000000000001E3"],
+			id: "00000000000001E5",
 			tasks: [{
-				id: 486,
+				id: "00000000000001E6",
 				type: "item",
 				item: "create:wrench"
 			}]
@@ -1307,10 +1309,10 @@
 			x: 7.5d,
 			y: 6.0d,
 			hide_dependency_lines: true,
-			dependencies: [I;483],
-			id: 487,
+			dependencies: ["00000000000001E3"],
+			id: "00000000000001E7",
 			tasks: [{
-				id: 488,
+				id: "00000000000001E8",
 				type: "item",
 				item: "create:goggles"
 			}]
@@ -1318,10 +1320,10 @@
 		{
 			x: -4.0d,
 			y: 7.5d,
-			dependencies: [I;259],
-			id: 489,
+			dependencies: ["0000000000000103"],
+			id: "00000000000001E9",
 			tasks: [{
-				id: 490,
+				id: "00000000000001EA",
 				type: "item",
 				item: "create:andesite_tunnel"
 			}]
@@ -1331,10 +1333,10 @@
 			y: 10.5d,
 			description: ["Encased Fan executes various processing types. Depending on what its flow pass through, it can smelt, cook, moisten... and who the hell knows what else..."],
 			hide_dependency_lines: true,
-			dependencies: [I;371],
-			id: 494,
+			dependencies: ["0000000000000173"],
+			id: "00000000000001EE",
 			tasks: [{
-				id: 495,
+				id: "00000000000001EF",
 				type: "item",
 				item: "create:encased_fan"
 			}]
@@ -1344,10 +1346,10 @@
 			y: 4.5d,
 			description: ["Great tool for automation. Once you give it redstone pulse, Sequenced Gearshift starts program out of 5 configurable steps. Step may include exact rotation sufficient to rotate something on N° or to push/retract piston on exact amount of blocks."],
 			hide_dependency_lines: true,
-			dependencies: [I;346],
-			id: 501,
+			dependencies: ["000000000000015A"],
+			id: "00000000000001F5",
 			tasks: [{
-				id: 502,
+				id: "00000000000001F6",
 				type: "item",
 				item: "create:sequenced_gearshift"
 			}]
@@ -1357,50 +1359,63 @@
 			y: 4.5d,
 			description: ["I've made an advanced Redstone thingie. It will come in handy."],
 			hide_dependency_lines: true,
-			dependencies: [I;477],
-			id: 515,
+			dependencies: ["00000000000001DD"],
+			id: "0000000000000203",
 			tasks: [{
-				id: 516,
+				id: "0000000000000204",
 				type: "item",
 				title: "Redstone Components",
 				item: {
 					id: "itemfilters:or",
-					Count: true,
+					Count: 1b,
 					tag: {
 						items: [
 							{
 								id: "create:pulse_repeater",
-								Count: true
+								Count: 1b
 							},
 							{
 								id: "create:adjustable_repeater",
-								Count: true
+								Count: 1b
 							},
 							{
 								id: "create:adjustable_pulse_repeater",
-								Count: true
+								Count: 1b
 							},
 							{
 								id: "create:powered_latch",
-								Count: true
+								Count: 1b
 							},
 							{
 								id: "create:powered_toggle_latch",
-								Count: true
+								Count: 1b
 							}
 						]
 					}
 				}
-			}]
+			}],
+			rewards: [
+				{
+					id: "0000000000000359",
+					type: "item",
+					item: "minecraft:repeater"
+				},
+				{
+					id: "000000000000035A",
+					type: "item",
+					item: "minecraft:redstone",
+					count: 4
+				}
+			]
 		},
 		{
 			x: 3.5d,
 			y: 7.5d,
 			description: ["Redstone Contacts are capable of giving redstone signal when two of them contact and face each other. Even if one of them is being moved."],
-			dependencies: [I;261],
-			id: 546,
+			dependencies: ["0000000000000105"],
+			id: "0000000000000222",
 			tasks: [{
-				id: 547,
+				id: "0000000000000223",
 				type: "item",
 				item: "create:redstone_contact",
 				count: 2L
@@ -1410,10 +1425,10 @@
 			x: 3.5d,
 			y: 10.5d,
 			description: ["Wireless redstone. Splendid."],
-			dependencies: [I;261],
-			id: 548,
+			dependencies: ["0000000000000105"],
+			id: "0000000000000224",
 			tasks: [{
-				id: 549,
+				id: "0000000000000225",
 				type: "item",
 				item: "create:redstone_link",
 				count: 2L
@@ -1422,10 +1437,10 @@
 		{
 			x: 10.0d,
 			y: 9.0d,
-			dependencies: [I;351],
-			id: 558,
+			dependencies: ["000000000000015F"],
+			id: "000000000000022E",
 			tasks: [{
-				id: 559,
+				id: "000000000000022F",
 				type: "item",
 				item: "create:powdered_obsidian"
 			}]
@@ -1434,31 +1449,31 @@
 			x: 12.0d,
 			y: 11.0d,
 			description: ["Drawer Controller puts any items that go into this controller into proper drawers with items. If I had a drawer for cobblestone it will put new cobblestone into this drawer if right-clicked on this Drawer Controller"],
-			dependencies: [I;
-				362,
-				301
+			dependencies: [
+				"000000000000016A",
+				"000000000000012D"
 			],
-			id: 561,
+			id: "0000000000000231",
 			tasks: [{
-				id: 562,
+				id: "0000000000000232",
 				type: "item",
 				item: "storagedrawers:controller"
 			}],
 			rewards: [
 				{
-					id: 563,
+					id: "0000000000000233",
 					type: "item",
 					item: "storagedrawers:oak_full_drawers_4",
 					count: 16
 				},
 				{
-					id: 564,
+					id: "0000000000000234",
 					type: "item",
 					item: "create:brass_ingot",
 					count: 16
 				},
 				{
-					id: 566,
+					id: "0000000000000236",
 					type: "item",
 					item: "minecraft:redstone",
 					count: 16
@@ -1468,12 +1483,23 @@
 		{
 			x: 6.5d,
 			y: 10.5d,
-			dependencies: [I;261],
-			id: 767,
+			dependencies: ["0000000000000105"],
+			id: "00000000000002FF",
 			tasks: [{
-				id: 768,
+				id: "0000000000000300",
 				type: "item",
 				item: "create:mechanical_arm"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 10.5d,
+			dependencies: ["00000000000003E6"],
+			id: "000000000000035B",
+			tasks: [{
+				id: "000000000000035C",
+				type: "item",
+				item: "create:builders_tea"
 			}]
 		}
 	]
