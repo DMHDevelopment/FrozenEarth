@@ -687,6 +687,7 @@
 			icon: "immersiveengineering:wirecoil_copper",
 			x: 13.0d,
 			y: -10.0d,
+			dependencies: ["000000000000032A"],
 			size: 2.0d,
 			id: "0000000000000288",
 			tasks: [{

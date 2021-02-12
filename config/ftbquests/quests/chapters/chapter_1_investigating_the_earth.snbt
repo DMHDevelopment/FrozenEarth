@@ -7,7 +7,7 @@
 	icon: "terraqueous:doodad_branch",
 	default_quest_shape: "",
 	images: [{
-		x: 2.0d,
+		x: -0.5d,
 		y: -1.0d,
 		width: 20.0d,
 		height: 4.0d,
@@ -442,6 +442,7 @@
 			x: -7.0d,
 			y: 7.5d,
 			description: ["Drying Racks allows you to dry grass. And dry Rotten Flesh to make leather if you don't want to kill animals. That's all."],
+			dependencies: ["000000000000001A"],
 			id: "000000000000003F",
 			tasks: [{
 				id: "0000000000000040",

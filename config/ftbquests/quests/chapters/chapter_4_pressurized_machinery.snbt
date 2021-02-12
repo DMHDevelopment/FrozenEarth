@@ -11,6 +11,7 @@
 			x: -0.5d,
 			y: 0.0d,
 			shape: "hexagon",
+			dependencies: ["0000000000000288"],
 			size: 2.0d,
 			id: "000000000000032E",
 			tasks: [{
@@ -206,7 +207,7 @@
 		},
 		{
 			x: 4.5d,
-			y: -4.0d,
+			y: -3.0d,
 			dependencies: ["0000000000000346"],
 			id: "0000000000000355",
 			tasks: [{
@@ -216,8 +217,8 @@
 			}]
 		},
 		{
-			x: 4.5d,
-			y: -5.0d,
+			x: 3.0d,
+			y: -3.0d,
 			dependencies: ["0000000000000355"],
 			id: "0000000000000357",
 			tasks: [{
@@ -341,8 +342,9 @@
 			}]
 		},
 		{
-			x: 10.5d,
-			y: 1.5d,
+			x: 5.5d,
+			y: -5.0d,
+			dependencies: ["7040897F384BB949"],
 			id: "0000000000000371",
 			tasks: [{
 				id: "0000000000000372",
@@ -351,8 +353,9 @@
 			}]
 		},
 		{
-			x: 12.5d,
-			y: 1.5d,
+			x: 5.5d,
+			y: -6.0d,
+			dependencies: ["0000000000000371"],
 			id: "0000000000000373",
 			tasks: [{
 				id: "0000000000000374",
@@ -361,8 +364,9 @@
 			}]
 		},
 		{
-			x: 9.0d,
-			y: 3.5d,
+			x: 3.5d,
+			y: -7.0d,
+			dependencies: ["0000000000000373"],
 			id: "0000000000000375",
 			tasks: [{
 				id: "0000000000000376",
@@ -371,8 +375,9 @@
 			}]
 		},
 		{
-			x: 8.0d,
-			y: 3.5d,
+			x: 3.5d,
+			y: -6.0d,
+			dependencies: ["0000000000000373"],
 			id: "0000000000000377",
 			tasks: [{
 				id: "0000000000000378",
@@ -381,8 +386,9 @@
 			}]
 		},
 		{
-			x: 7.0d,
-			y: 3.5d,
+			x: 3.5d,
+			y: -5.0d,
+			dependencies: ["0000000000000373"],
 			id: "0000000000000379",
 			tasks: [{
 				id: "000000000000037A",
@@ -391,8 +397,9 @@
 			}]
 		},
 		{
-			x: 10.5d,
-			y: 3.0d,
+			x: 6.5d,
+			y: -6.0d,
+			dependencies: ["7040897F384BB949"],
 			id: "000000000000037B",
 			tasks: [{
 				id: "0000000000000381",
@@ -407,8 +414,9 @@
 			}]
 		},
 		{
-			x: 10.5d,
-			y: 4.0d,
+			x: 6.5d,
+			y: -7.0d,
+			dependencies: ["000000000000037B"],
 			id: "000000000000037D",
 			tasks: [{
 				id: "000000000000037E",
@@ -423,8 +431,9 @@
 			}]
 		},
 		{
-			x: 10.5d,
-			y: 5.0d,
+			x: 6.5d,
+			y: -8.0d,
+			dependencies: ["000000000000037D"],
 			id: "000000000000037F",
 			tasks: [{
 				id: "0000000000000380",
@@ -439,8 +448,9 @@
 			}]
 		},
 		{
-			x: 10.5d,
-			y: 6.0d,
+			x: 6.5d,
+			y: -9.0d,
+			dependencies: ["000000000000037F"],
 			id: "0000000000000382",
 			tasks: [{
 				id: "0000000000000383",
@@ -449,8 +459,9 @@
 			}]
 		},
 		{
-			x: 13.5d,
-			y: 3.0d,
+			x: 7.5d,
+			y: -6.0d,
+			dependencies: ["7040897F384BB949"],
 			id: "0000000000000384",
 			tasks: [{
 				id: "0000000000000385",
@@ -459,8 +470,9 @@
 			}]
 		},
 		{
-			x: 14.5d,
-			y: 3.0d,
+			x: 7.5d,
+			y: -7.0d,
+			dependencies: ["0000000000000384"],
 			id: "0000000000000386",
 			tasks: [{
 				id: "0000000000000387",
@@ -469,8 +481,9 @@
 			}]
 		},
 		{
-			x: 14.5d,
-			y: 1.5d,
+			x: 10.5d,
+			y: -3.0d,
+			dependencies: ["0000000000000365"],
 			id: "0000000000000388",
 			tasks: [{
 				id: "0000000000000389",
@@ -479,8 +492,9 @@
 			}]
 		},
 		{
-			x: 15.5d,
-			y: 3.0d,
+			x: 7.5d,
+			y: -8.0d,
+			dependencies: ["0000000000000386"],
 			id: "000000000000038A",
 			tasks: [{
 				id: "000000000000038B",
@@ -494,11 +508,57 @@
 			y: -4.0d,
 			dependencies: ["0000000000000361"],
 			id: "000000000000038E",
-			tasks: [{
-				id: "000000000000038F",
-				type: "item",
-				item: "immersivepetroleum:oil_bucket"
-			}]
+			tasks: [
+				{
+					id: "000000000000038F",
+					type: "item",
+					item: "immersiveengineering:steel_scaffolding_standard",
+					count: 11L
+				},
+				{
+					id: "6F703837868F51E3",
+					type: "item",
+					item: "immersiveengineering:light_engineering",
+					count: 2L
+				},
+				{
+					id: "254D08F404EF4C02",
+					type: "item",
+					item: "immersiveengineering:treated_fence",
+					count: 6L
+				},
+				{
+					id: "48832A7D43E41867",
+					type: "item",
+					item: "immersiveengineering:rs_engineering"
+				},
+				{
+					id: "0DFD2B81846B151C",
+					type: "item",
+					item: "immersiveengineering:heavy_engineering",
+					count: 2L
+				},
+				{
+					id: "6A579B4E9247D3D0",
+					type: "item",
+					item: "immersiveengineering:storage_steel",
+					count: 2L
+				}
+			],
+			rewards: [
+				{
+					id: "43A7323B2B1BB34E",
+					type: "item",
+					item: "minecraft:emerald",
+					count: 4
+				},
+				{
+					id: "7ADA051A845067A7",
+					type: "item",
+					item: "minecraft:bucket",
+					count: 4
+				}
+			]
 		},
 		{
 			x: 11.5d,
@@ -606,6 +666,7 @@
 			title: "Assembling The Circuits",
 			x: 11.0d,
 			y: -6.0d,
+			dependencies: ["7378FF55F8DE5217"],
 			id: "65F64B148F036DAB",
 			tasks: [
 				{
@@ -634,6 +695,172 @@
 					item: "pneumaticcraft:assembly_laser"
 				}
 			]
+		},
+		{
+			x: 12.5d,
+			y: -7.0d,
+			dependencies: ["7378FF55F8DE5217"],
+			id: "28E77674765E70EC",
+			tasks: [{
+				id: "6F707C54EF2C67AF",
+				type: "item",
+				item: "pneumaticcraft:amadron_tablet"
+			}]
+		},
+		{
+			title: "Void Traveller",
+			x: 13.5d,
+			y: -1.0d,
+			dependencies: ["0000000000000392"],
+			id: "04C65EFEB8CA5A0F",
+			tasks: [{
+				id: "01E70F1C3152B62A",
+				type: "item",
+				item: {
+					id: "betterendforge:aurora_crystal",
+					Count: 64b
+				},
+				count: 64L
+			}]
+		},
+		{
+			x: 13.5d,
+			y: -7.0d,
+			dependencies: ["28E77674765E70EC"],
+			id: "74E96B774063D42B",
+			tasks: [
+				{
+					id: "4E4C133BEFABE1C3",
+					type: "item",
+					item: "pneumaticcraft:assembly_program_laser"
+				},
+				{
+					id: "094ED4B9942121BE",
+					type: "item",
+					item: "pneumaticcraft:assembly_program_drill"
+				},
+				{
+					id: "7B6B7B3F5B87579A",
+					type: "item",
+					item: "pneumaticcraft:assembly_program_drill_laser"
+				}
+			]
+		},
+		{
+			x: 9.5d,
+			y: -5.0d,
+			dependencies: ["65F64B148F036DAB"],
+			id: "12813987629A3FAA",
+			tasks: [{
+				id: "67A5315BCD685C5D",
+				type: "item",
+				item: "pneumaticcraft:advanced_pressure_tube"
+			}]
+		},
+		{
+			x: 11.5d,
+			y: -5.0d,
+			dependencies: ["65F64B148F036DAB"],
+			id: "160F0AE369B5C0EA",
+			tasks: [{
+				id: "784F5DD97AE5E55B",
+				type: "item",
+				item: "pneumaticcraft:advanced_air_compressor"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: -5.0d,
+			dependencies: ["65F64B148F036DAB"],
+			id: "5BB06B34E863FE30",
+			tasks: [{
+				id: "5E055A8E8A592B65",
+				type: "item",
+				item: "pneumaticcraft:pressurized_spawner"
+			}]
+		},
+		{
+			x: 9.5d,
+			y: -4.0d,
+			dependencies: ["12813987629A3FAA"],
+			id: "109A778A4320C4A7",
+			tasks: [{
+				id: "5ADF8AB7651D5D84",
+				type: "item",
+				item: "pneumaticcraft:pneumatic_dynamo"
+			}]
+		},
+		{
+			title: "[Immersive Petroleum Multiblock] Distillation Tower",
+			x: 7.0d,
+			y: -5.0d,
+			dependencies: ["000000000000038E"],
+			id: "7040897F384BB949",
+			tasks: [{
+				id: "5B4E996025B3F3C4",
+				type: "item",
+				item: "immersiveengineering:sheetmetal_iron",
+				count: 60L
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 2.5d,
+			dependencies: ["000000000000034A"],
+			id: "13111B5FA576F04A",
+			tasks: [{
+				id: "06307D8A0E1203F3",
+				type: "item",
+				item: "immersivepetroleum:projector"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: -4.0d,
+			dependencies: ["0000000000000394"],
+			id: "78446171E477AE63",
+			tasks: [{
+				id: "4DF50271B3271F3B",
+				type: "item",
+				item: "waystones:waystone"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: -7.0d,
+			dependencies: ["0000000000000373"],
+			id: "72EFC5C71DB5E470",
+			tasks: [{
+				id: "1F286792866CF068",
+				type: "item",
+				item: "assemblylinemachines:refinery"
+			}]
+		},
+		{
+			x: 15.5d,
+			y: -3.0d,
+			dependencies: [
+				"0000000000000392",
+				"109A778A4320C4A7"
+			],
+			size: 2.0d,
+			id: "706D0CAAFF86A197",
+			tasks: [{
+				id: "4BBAF118F1054699",
+				type: "item",
+				item: "silents_mechanisms:stone_machine_frame"
+			}]
+		},
+		{
+			x: 11.5d,
+			y: -7.0d,
+			dependencies: ["28E77674765E70EC"],
+			id: "0A7AECE0E60537DF",
+			tasks: [{
+				id: "0BC3FBE35094672D",
+				type: "item",
+				item: "pneumaticcraft:uv_light_box"
+			}]
 		}
 	]
 }
