@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " c ",
+        "lsl",
+        " c "
+    ],
+    "key": {
+        "s": {
+            "tag": "forge:glass"
+        },
+        "l": {
+            "tag": "forge:ingots/copper"
+        },
+        "c": {
+            "item": "create:copper_casing"
+        }
+    },
+    "result": {
+        "item": "create:fluid_tank",
+        "count": 1
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "type": "immersiveengineering:blueprint",
+    "inputs": [
+      {
+        "tag": "forge:glass"
+      },
+      {
+        "item": "extendedcrafting:redstone_component"
+      },
+      {
+        "item": "createaddition:copper_spool"
+      },
+      {
+        "tag": "forge:plates/invar"
+      }
+    ],
+    "category": "components",
+    "result": {
+      "item": "immersiveengineering:electron_tube",
+      "count": 1
+    }
+  }
