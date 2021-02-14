@@ -1,5 +1,4 @@
 #Should the vanilla /weather be disabled? Any changes require a world restart to take effect.
 disableWeatherCommand = false
 #A list of biome IDs that will not be forcibly converted to frozen wastelands. Any changes requires a MC restart to take effect.
-nonWinterBiomes = ["minecraft:nether_wastes", "minecraft:crimson_forest", "minecraft:warped_forest", "minecraft:basalt_deltas", "minecraft:soul_sand_valley", "minecraft:end_barrens", "minecraft:end_highlands", "minecraft:end_midlands", "minecraft:the_end", "minecraft:the_void"]
-
+nonWinterBiomes = ["minecraft:nether_wastes", "minecraft:crimson_forest", "minecraft:warped_forest", "minecraft:basalt_deltas", "minecraft:soul_sand_valley", "minecraft:end_barrens", "minecraft:end_highlands", "minecraft:end_midlands", "minecraft:the_end", "minecraft:the_void","betterendforge:amber_land", "betterendforge:blossoming_spires", "betterendforge:crystal_mountains", "betterendforge:dust_wastelands", "betterendforge:foggy_mushroomland", "betterendforge:ice_starfield", "betterendforge:megalake", "betterendforge:megalake_grove", "betterendforge:painted_mountains", "betterendforge:shadow_forest", "betterendforge:sulphur_springs", "betterendforge:umbrella_jungle"]
