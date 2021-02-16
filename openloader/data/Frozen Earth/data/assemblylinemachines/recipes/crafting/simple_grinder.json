@@ -1,0 +1,36 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "ABBBA",
+      "CDEDC",
+      "CEFEC",
+      "CDGDC",
+      "ABBBA"
+    ],
+    "key": {
+      "A": {
+        "item": "assemblylinemachines:steel_block"
+      },
+      "B": {
+        "item": "create:iron_sheet"
+      },
+      "C": {
+        "item": "minecraft:iron_ingot"
+      },
+      "D": {
+        "item": "create:brass_casing"
+      },
+      "E": {
+        "item": "minecraft:redstone"
+      },
+      "F": {
+        "item": "create:millstone"
+      },
+      "G": {
+        "item": "assemblylinemachines:hand_grinder"
+      }
+    },
+    "result": {
+      "item": "assemblylinemachines:simple_grinder"
+    }
+  }

@@ -1,0 +1,36 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "ABCBA",
+      "BDEDB",
+      "CFGFC",
+      "BDEDB",
+      "ABCBA"
+    ],
+    "key": {
+      "A": {
+        "item": "create:brass_casing"
+      },
+      "B": {
+        "item": "assemblylinemachines:steel_block"
+      },
+      "C": {
+        "item": "assemblylinemachines:steel_ingot"
+      },
+      "D": {
+        "item": "minecraft:iron_ingot"
+      },
+      "E": {
+        "item": "assemblylinemachines:fluid_bath"
+      },
+      "F": {
+        "item": "assemblylinemachines:steel_rod"
+      },
+      "G": {
+        "item": "create:mechanical_mixer"
+      }
+    },
+    "result": {
+      "item": "assemblylinemachines:simple_fluid_mixer"
+    }
+}

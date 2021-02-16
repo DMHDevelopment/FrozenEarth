@@ -1,0 +1,24 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AAAAA",
+      "BCCCB",
+      "B   B",
+      "BCCCB",
+      "AAAAA"
+    ],
+    "key": {
+      "A": {
+        "tag": "forge:metal_bars"
+      },
+      "B": {
+        "tag": "forge:glass"
+      },
+      "C": {
+        "item": "pneumaticcraft:ingot_iron_compressed"
+      }
+    },
+    "result": {
+      "item": "pneumaticcraft:small_tank"
+    }
+  }

@@ -1,0 +1,31 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "ABBBA",
+      "BCDCB",
+      "BDEDB",
+      "BCDCB",
+      "ABBBA"
+    ],
+    "key": {
+      "A": {
+        "item": "rankine:steel_sheetmetal"
+      },
+      "B": {
+        "item": "immersiveengineering:component_steel"
+      },
+      "C": {
+        "item": "immersiveengineering:ingot_electrum"
+      },
+      "D": {
+        "item": "createaddition:iron_spool"
+      },
+      "E": {
+        "item": "immersiveengineering:light_engineering"
+      }
+    },
+    "result": {
+      "item": "immersiveengineering:heavy_engineering",
+      "count": 2
+    }
+  }

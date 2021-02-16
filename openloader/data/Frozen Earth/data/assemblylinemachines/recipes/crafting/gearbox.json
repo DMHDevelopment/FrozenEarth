@@ -1,0 +1,36 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "ABCDA",
+      "BCECD",
+      "FEGEF",
+      "DCECB",
+      "ADCBA"
+    ],
+    "key": {
+      "A": {
+        "item": "immersiveengineering:sheetmetal_iron"
+      },
+      "B": {
+        "item": "create:iron_sheet"
+      },
+      "C": {
+        "item": "assemblylinemachines:iron_gear"
+      },
+      "D": {
+        "item": "assemblylinemachines:iron_plate"
+      },
+      "E": {
+        "item": "assemblylinemachines:empowered_coal"
+      },
+      "F": {
+        "item": "create:brass_casing"
+      },
+      "G": {
+        "item": "create:large_cogwheel"
+      }
+    },
+    "result": {
+      "item": "assemblylinemachines:gearbox"
+    }
+  }

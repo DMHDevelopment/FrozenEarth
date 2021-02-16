@@ -1,0 +1,30 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      " AAA ",
+      "ABCBA",
+      "ADEDA",
+      " ACA ",
+      "     "
+    ],
+    "key": {
+      "A": {
+        "item": "pneumaticcraft:reinforced_stone_slab"
+      },
+      "B": {
+        "item": "pneumaticcraft:small_tank"
+      },
+      "C": {
+        "item": "thermal:iron_gear"
+      },
+      "D": {
+        "item": "pneumaticcraft:pressure_tube"
+      },
+      "E": {
+        "item": "pneumaticcraft:reinforced_bricks"
+      }
+    },
+    "result": {
+      "item": "pneumaticcraft:thermopneumatic_processing_plant"
+    }
+  }
