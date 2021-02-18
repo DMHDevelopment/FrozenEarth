@@ -31,7 +31,7 @@
 	#
 	#Enable/disable new End terrain generation.
 	#Default value: false
-	enableNewGenerator = false
+	enableNewGenerator = true
 	#
 	#Enable/disable the void ring around central island.
 	#Default value: false
