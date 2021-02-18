@@ -1,0 +1,30 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      " AAA ",
+      "ABCBA",
+      "DDDDE",
+      "ACBCA",
+      " AAA "
+    ],
+    "key": {
+      "A": {
+        "item": "pneumaticcraft:reinforced_bricks"
+      },
+      "B": {
+        "item": "immersiveengineering:wirecoil_redstone"
+      },
+      "C": {
+        "item": "pneumaticcraft:ingot_iron_compressed"
+      },
+      "D": {
+        "item": "pneumaticcraft:pressure_tube"
+      },
+      "E": {
+        "item": "terraqueous:craftfurnace"
+      }
+    },
+    "result": {
+      "item": "pneumaticcraft:air_compressor"
+    }
+  }

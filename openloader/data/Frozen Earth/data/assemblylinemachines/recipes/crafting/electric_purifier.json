@@ -1,0 +1,30 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      " AAA ",
+      " BCB ",
+      "BBCBB",
+      "DDEDD",
+      "AAAAA"
+    ],
+    "key": {
+      "A": {
+        "item": "assemblylinemachines:titanium_plate"
+      },
+      "B": {
+        "item": "assemblylinemachines:gold_gear"
+      },
+      "C": {
+        "item": "assemblylinemachines:black_granite"
+      },
+      "D": {
+        "item": "minecraft:diamond"
+      },
+      "E": {
+        "item": "minecraft:lapis_block"
+      }
+    },
+    "result": {
+      "item": "assemblylinemachines:electric_purifier"
+    }
+  }

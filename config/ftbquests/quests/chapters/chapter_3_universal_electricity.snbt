@@ -1,7 +1,8 @@
 {
-	id: 425,
+	id: "00000000000001A9",
+	group: "",
+	order_index: 3,
 	filename: "chapter_3_universal_electricity",
-	order_index: 4,
 	title: "Chapter 3: Universal Electricity",
 	icon: "assemblylinemachines:geothermal_generator",
 	default_quest_shape: "",
@@ -13,16 +14,16 @@
 				'I recently found this very interesting file called "Assembly Lines & You"... After a lot of kinetic mechanisms I need to go through some sort of electricity... While kinetical energy can be converted to potential easily, but converting into electric',
 				"stuff is a bit harder... Also stuff becomes more complex and it requires better crafting table to craft all the things..."
 			],
-			dependencies: [I;362],
+			dependencies: ["000000000000016A"],
 			size: 2.0d,
-			id: 426,
+			id: "00000000000001AA",
 			tasks: [{
-				id: 427,
+				id: "00000000000001AB",
 				type: "item",
 				item: "assemblylinemachines:guidebook"
 			}],
 			rewards: [{
-				id: 708,
+				id: "00000000000002C4",
 				type: "item",
 				item: "voluminousenergy:titanium_ingot"
 			}]
@@ -32,34 +33,34 @@
 			x: -6.5d,
 			y: -1.0d,
 			description: ["Grindstone allows me to macerate materials, so I can continue getting working on a way to get my first steel..."],
-			dependencies: [I;601],
-			id: 503,
+			dependencies: ["0000000000000259"],
+			id: "00000000000001F7",
 			tasks: [{
-				id: 504,
+				id: "00000000000001F8",
 				type: "item",
 				item: "assemblylinemachines:hand_grinder"
 			}],
 			rewards: [
 				{
-					id: 720,
+					id: "00000000000002D0",
 					type: "item",
 					item: "minecraft:gravel",
 					count: 16
 				},
 				{
-					id: 721,
+					id: "00000000000002D1",
 					type: "item",
 					item: "minecraft:sand",
 					count: 16
 				},
 				{
-					id: 722,
+					id: "00000000000002D2",
 					type: "item",
 					item: "assemblylinemachines:ground_iron",
 					count: 4
 				},
 				{
-					id: 723,
+					id: "00000000000002D3",
 					type: "item",
 					item: "assemblylinemachines:ground_gold",
 					count: 4
@@ -71,21 +72,21 @@
 			x: -6.5d,
 			y: -2.5d,
 			description: ["As addition for grindstone I need a blade... I hope Titanium Blade is a good one."],
-			dependencies: [I;503],
-			id: 505,
+			dependencies: ["00000000000001F7"],
+			id: "00000000000001F9",
 			tasks: [{
-				id: 506,
+				id: "00000000000001FA",
 				type: "item",
 				item: {
 					id: "assemblylinemachines:titanium_blade",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
 				}
 			}],
 			rewards: [{
-				id: 724,
+				id: "00000000000002D4",
 				type: "item",
 				item: "minecraft:iron_ore",
 				count: 8
@@ -95,18 +96,18 @@
 			x: -6.5d,
 			y: -4.0d,
 			description: ["After some crushing of ores I found a way of purifying ores. I need a silt with gold, so I can make Pure Gold which is much greater than Titanium for blades."],
-			dependencies: [I;
-				503,
-				505
+			dependencies: [
+				"00000000000001F7",
+				"00000000000001F9"
 			],
-			id: 509,
+			id: "00000000000001FD",
 			tasks: [{
-				id: 510,
+				id: "00000000000001FE",
 				type: "item",
 				item: "assemblylinemachines:pure_gold"
 			}],
 			rewards: [{
-				id: 716,
+				id: "00000000000002CC",
 				type: "item",
 				item: "ironchest:iron_chest"
 			}]
@@ -116,33 +117,33 @@
 			x: -8.0d,
 			y: -4.0d,
 			description: ["Pure Gold Blade is way faster and harder than before."],
-			dependencies: [I;509],
-			id: 511,
+			dependencies: ["00000000000001FD"],
+			id: "00000000000001FF",
 			tasks: [{
-				id: 512,
+				id: "0000000000000200",
 				type: "item",
 				item: {
 					id: "assemblylinemachines:pure_gold_blade",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
 				}
 			}],
 			rewards: [{
-				id: 715,
+				id: "00000000000002CB",
 				type: "item",
 				item: "minecraft:hopper"
 			}]
 		},
 		{
 			title: "Energggggy",
-			x: 8.5d,
-			y: -1.0d,
-			dependencies: [I;644],
-			id: 535,
+			x: 7.0d,
+			y: 0.5d,
+			dependencies: ["0000000000000284"],
+			id: "0000000000000217",
 			tasks: [{
-				id: 536,
+				id: "0000000000000218",
 				type: "item",
 				item: "assemblylinemachines:basic_battery"
 			}]
@@ -152,16 +153,16 @@
 			x: -11.5d,
 			y: 1.0d,
 			description: ["These quartz crystals can be found in a big caves and quite dangerous, but they're emitting a lot of light. Maybe make a lamp from this?"],
-			dependencies: [I;426],
-			id: 580,
+			dependencies: ["00000000000001AA"],
+			id: "0000000000000244",
 			tasks: [{
-				id: 581,
+				id: "0000000000000245",
 				type: "item",
 				item: "zycraft:quartz_crystal",
 				count: 4L
 			}],
 			rewards: [{
-				id: 710,
+				id: "00000000000002C6",
 				type: "item",
 				item: "zycraft:quartz_crystal",
 				count: 8
@@ -173,21 +174,21 @@
 			y: 2.0d,
 			description: ["Scythe is a bit similar for shears, but it clears the territory in a big range, so it can be useful while making clear territory."],
 			hide_dependency_lines: true,
-			dependencies: [I;580],
-			id: 582,
+			dependencies: ["0000000000000244"],
+			id: "0000000000000246",
 			tasks: [{
-				id: 583,
+				id: "0000000000000247",
 				type: "item",
 				item: {
 					id: "zycraft:scythe",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
 				}
 			}],
 			rewards: [{
-				id: 711,
+				id: "00000000000002C7",
 				type: "item",
 				item: "zycraft:aluminized_dark_zychorium_bricks",
 				count: 64
@@ -197,37 +198,37 @@
 			x: -10.5d,
 			y: 1.0d,
 			description: ["Zychorium is a very strange material, which is glowing in a different way... It is needed for perfect illumination in this world?"],
-			dependencies: [I;426],
-			id: 584,
+			dependencies: ["00000000000001AA"],
+			id: "0000000000000248",
 			tasks: [
 				{
-					id: 585,
+					id: "0000000000000249",
 					type: "item",
 					item: "zycraft:dark_zychorium"
 				},
 				{
-					id: 586,
+					id: "000000000000024A",
 					type: "item",
 					item: "zycraft:blue_zychorium"
 				},
 				{
-					id: 587,
+					id: "000000000000024B",
 					type: "item",
 					item: "zycraft:green_zychorium"
 				},
 				{
-					id: 588,
+					id: "000000000000024C",
 					type: "item",
 					item: "zycraft:red_zychorium"
 				},
 				{
-					id: 589,
+					id: "000000000000024D",
 					type: "item",
 					item: "zycraft:light_zychorium"
 				}
 			],
 			rewards: [{
-				id: 590,
+				id: "000000000000024E",
 				type: "item",
 				item: "zycraft:zychorite",
 				count: 64
@@ -242,24 +243,24 @@
 				"...also I had found my new file called Nether.txt... So I found a way about creating rectangle with 2*3 ornament and using flint and steel on it.",
 				"It creates a strange portal... hmm.. some sort of magical teleport?"
 			],
-			dependencies: [I;
-				593,
-				712
+			dependencies: [
+				"0000000000000251",
+				"00000000000002C8"
 			],
 			size: 1.75d,
-			id: 591,
+			id: "000000000000024F",
 			tasks: [
 				{
-					id: 611,
+					id: "0000000000000263",
 					type: "dimension",
 					dimension: "minecraft:nether"
 				},
 				{
-					id: 612,
+					id: "0000000000000264",
 					type: "item",
 					item: {
 						id: "minecraft:flint_and_steel",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -268,6 +269,7 @@
 			]
 		},
 		{
+			title: "What about burned iron?",
 			icon: "immersiveengineering:ingot_steel",
 			x: -3.5d,
 			y: -2.5d,
@@ -275,34 +277,49 @@
 				"Steel is an alloy of iron with typically a few percent of carbon to improve its strength and fracture resistance compared to iron. ...because of its high tensile strength and low cost, steel is used in buildings, infrastructure, tools...",
 				"machines, electrical appliances, and weapons."
 			],
-			dependencies: [I;609],
-			id: 593,
+			dependencies: ["0000000000000261"],
+			id: "0000000000000251",
 			tasks: [{
-				id: 594,
+				id: "0000000000000252",
 				type: "item",
-				item: "assemblylinemachines:steel_ingot"
+				title: "Any forge:ingots/steel",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
 			}],
-			rewards: [{
-				id: 614,
-				type: "gamestage",
-				auto: "invisible",
-				stage: "Nether"
-			}]
+			rewards: [
+				{
+					id: "0000000000000266",
+					type: "gamestage",
+					auto: "invisible",
+					stage: "Nether"
+				},
+				{
+					id: "0000000000000325",
+					type: "item",
+					item: "silents_mechanisms:steel_nugget",
+					count: 4
+				}
+			]
 		},
 		{
 			x: -4.0d,
 			y: -7.0d,
 			hide_dependency_lines: true,
-			dependencies: [I;591],
-			id: 595,
+			dependencies: ["000000000000024F"],
+			id: "0000000000000253",
 			tasks: [{
-				id: 596,
+				id: "0000000000000254",
 				type: "item",
 				item: "silentgear:crimson_iron_ore",
 				count: 16L
 			}],
 			rewards: [{
-				id: 703,
+				id: "00000000000002BF",
 				type: "item",
 				item: "byg:crimson_berries",
 				count: 8
@@ -313,16 +330,16 @@
 			x: -9.5d,
 			y: -1.0d,
 			description: ["I need to somehow make better way to grind my resources and make my road into electricity... Silt is a good way to make more ore output and I need to get a bath for this to make this."],
-			dependencies: [I;426],
-			id: 597,
+			dependencies: ["00000000000001AA"],
+			id: "0000000000000255",
 			tasks: [{
-				id: 598,
+				id: "0000000000000256",
 				type: "item",
 				item: "assemblylinemachines:fluid_bath",
 				consume_items: false
 			}],
 			rewards: [{
-				id: 714,
+				id: "00000000000002CA",
 				type: "item",
 				item: "minecraft:water_bucket"
 			}]
@@ -332,15 +349,15 @@
 			x: -12.5d,
 			y: -1.0d,
 			description: ["I heard that Titanium is hard to find. It can be found near lava lakes in a deep part of frozen Earth..."],
-			dependencies: [I;426],
-			id: 599,
+			dependencies: ["00000000000001AA"],
+			id: "0000000000000257",
 			tasks: [{
-				id: 600,
+				id: "0000000000000258",
 				type: "item",
 				title: "Any forge:ores/titanium",
 				item: {
 					id: "itemfilters:tag",
-					Count: true,
+					Count: 1b,
 					tag: {
 						value: "forge:ores/titanium"
 					}
@@ -348,7 +365,7 @@
 				count: 4L
 			}],
 			rewards: [{
-				id: 709,
+				id: "00000000000002C5",
 				type: "item",
 				item: "assemblylinemachines:titanium_ore",
 				count: 2
@@ -359,23 +376,23 @@
 			x: -8.0d,
 			y: -1.0d,
 			description: ["Silt is a viscous consistence thing, which allows me to clear ores better and make grindstone atleast not bad as it could be."],
-			dependencies: [I;597],
-			id: 601,
+			dependencies: ["0000000000000255"],
+			id: "0000000000000259",
 			tasks: [{
-				id: 602,
+				id: "000000000000025A",
 				type: "item",
 				item: "assemblylinemachines:silt",
 				count: 8L
 			}],
 			rewards: [
 				{
-					id: 718,
+					id: "00000000000002CE",
 					type: "item",
 					item: "assemblylinemachines:titanium_ore",
 					count: 2
 				},
 				{
-					id: 719,
+					id: "00000000000002CF",
 					type: "item",
 					item: "minecraft:iron_ore",
 					count: 2
@@ -387,21 +404,21 @@
 			x: -5.0d,
 			y: -2.5d,
 			description: ["I need to move lava around in my bath, but wooden stirring rod is burning in my hands... I need Pure Iron to get better stirring rod, so it'll be not burning somehow."],
-			dependencies: [I;505],
-			id: 603,
+			dependencies: ["00000000000001F9"],
+			id: "000000000000025B",
 			tasks: [{
-				id: 604,
+				id: "000000000000025C",
 				type: "item",
 				item: {
 					id: "assemblylinemachines:pure_iron_stirring_stick",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
 				}
 			}],
 			rewards: [{
-				id: 730,
+				id: "00000000000002DA",
 				type: "item",
 				item: "minecraft:lava_bucket"
 			}]
@@ -411,23 +428,23 @@
 			x: -5.0d,
 			y: -1.0d,
 			description: ["To make steel I need to go through Coke Coal. To make it I need some better things that furnace, called Coke Oven. It can create Coke Coal from Coal and make Creosote Oil that will be needed for Waterwheels and other good wooden stuff."],
-			dependencies: [I;603],
-			id: 607,
+			dependencies: ["000000000000025B"],
+			id: "000000000000025F",
 			tasks: [{
-				id: 608,
+				id: "0000000000000260",
 				type: "item",
 				item: "immersiveengineering:cokebrick",
 				count: 27L
 			}],
 			rewards: [
 				{
-					id: 728,
+					id: "00000000000002D8",
 					type: "item",
 					item: "minecraft:coal",
 					count: 16
 				},
 				{
-					id: 729,
+					id: "00000000000002D9",
 					type: "item",
 					item: "minecraft:iron_ingot",
 					count: 16
@@ -439,16 +456,16 @@
 			x: -3.5d,
 			y: -1.0d,
 			description: ["To get steel I need a lot of heat, so I would like to make one blast furnace... It can hold a lot of steam and heat, so it can slowly make steel for better tools and ability to make fire somehow"],
-			dependencies: [I;607],
-			id: 609,
+			dependencies: ["000000000000025F"],
+			id: "0000000000000261",
 			tasks: [{
-				id: 610,
+				id: "0000000000000262",
 				type: "item",
 				item: "immersiveengineering:blastbrick",
 				count: 27L
 			}],
 			rewards: [{
-				id: 760,
+				id: "00000000000002F8",
 				type: "item",
 				item: "immersiveengineering:coal_coke",
 				count: 32
@@ -459,22 +476,22 @@
 			x: -2.0d,
 			y: -1.0d,
 			description: ["After getting good steel screws - I can make some cranks, which allow to create kinetic energy which I can spent of grinding resources in a much compact way."],
-			dependencies: [I;593],
-			id: 617,
+			dependencies: ["0000000000000251"],
+			id: "0000000000000269",
 			tasks: [{
-				id: 618,
+				id: "000000000000026A",
 				type: "item",
 				item: "assemblylinemachines:crank"
 			}],
 			rewards: [
 				{
-					id: 761,
+					id: "00000000000002F9",
 					type: "item",
 					item: "silents_mechanisms:steel_nugget",
 					count: 3
 				},
 				{
-					id: 762,
+					id: "00000000000002FA",
 					type: "item",
 					item: "assemblylinemachines:crank"
 				}
@@ -483,10 +500,10 @@
 		{
 			x: -2.0d,
 			y: 0.5d,
-			dependencies: [I;617],
-			id: 619,
+			dependencies: ["0000000000000269"],
+			id: "000000000000026B",
 			tasks: [{
-				id: 620,
+				id: "000000000000026C",
 				type: "item",
 				item: "assemblylinemachines:simple_grinder"
 			}]
@@ -494,10 +511,10 @@
 		{
 			x: -2.0d,
 			y: 2.0d,
-			dependencies: [I;619],
-			id: 621,
+			dependencies: ["000000000000026B"],
+			id: "000000000000026D",
 			tasks: [{
-				id: 622,
+				id: "000000000000026E",
 				type: "item",
 				item: "assemblylinemachines:steel_fluid_tank"
 			}]
@@ -505,10 +522,10 @@
 		{
 			x: -3.5d,
 			y: 0.5d,
-			dependencies: [I;617],
-			id: 623,
+			dependencies: ["0000000000000269"],
+			id: "000000000000026F",
 			tasks: [{
-				id: 624,
+				id: "0000000000000270",
 				type: "item",
 				item: "assemblylinemachines:simple_fluid_mixer"
 			}]
@@ -516,14 +533,26 @@
 		{
 			x: -2.0d,
 			y: -2.5d,
-			dependencies: [I;617],
-			id: 625,
+			description: ["Hammering is a good way to make better compontents like gears and plates. While I can make plates through my press, gears need more power..."],
+			dependencies: ["0000000000000269"],
+			id: "0000000000000271",
 			tasks: [{
-				id: 626,
+				id: "0000000000000272",
 				type: "item",
 				item: {
 					id: "assemblylinemachines:steel_hammer",
-					Count: true,
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "00000000000002FD",
+				type: "item",
+				item: {
+					id: "assemblylinemachines:titanium_hammer",
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -533,16 +562,16 @@
 		{
 			x: -0.5d,
 			y: -2.5d,
-			dependencies: [I;625],
-			id: 627,
+			dependencies: ["0000000000000271"],
+			id: "0000000000000273",
 			tasks: [
 				{
-					id: 628,
+					id: "0000000000000274",
 					type: "item",
 					item: "assemblylinemachines:iron_plate"
 				},
 				{
-					id: 629,
+					id: "0000000000000275",
 					type: "item",
 					item: "assemblylinemachines:iron_gear"
 				}
@@ -551,13 +580,13 @@
 		{
 			x: -0.5d,
 			y: -1.0d,
-			dependencies: [I;
-				617,
-				627
+			dependencies: [
+				"0000000000000269",
+				"0000000000000273"
 			],
-			id: 630,
+			id: "0000000000000276",
 			tasks: [{
-				id: 631,
+				id: "0000000000000277",
 				type: "item",
 				item: "assemblylinemachines:gearbox"
 			}]
@@ -565,10 +594,10 @@
 		{
 			x: 1.0d,
 			y: -1.0d,
-			dependencies: [I;627],
-			id: 632,
+			dependencies: ["0000000000000273"],
+			id: "0000000000000278",
 			tasks: [{
-				id: 633,
+				id: "0000000000000279",
 				type: "item",
 				item: "assemblylinemachines:simple_crank_charger"
 			}]
@@ -576,10 +605,10 @@
 		{
 			x: 1.0d,
 			y: -4.0d,
-			dependencies: [I;591],
-			id: 634,
+			dependencies: ["000000000000024F"],
+			id: "000000000000027A",
 			tasks: [{
-				id: 635,
+				id: "000000000000027B",
 				type: "item",
 				item: "assemblylinemachines:black_granite"
 			}]
@@ -587,13 +616,13 @@
 		{
 			x: 1.0d,
 			y: -2.5d,
-			dependencies: [I;
-				634,
-				627
+			dependencies: [
+				"000000000000027A",
+				"0000000000000273"
 			],
-			id: 636,
+			id: "000000000000027C",
 			tasks: [{
-				id: 637,
+				id: "000000000000027D",
 				type: "item",
 				item: "assemblylinemachines:energy_pipe"
 			}]
@@ -601,10 +630,10 @@
 		{
 			x: 4.0d,
 			y: -4.0d,
-			dependencies: [I;640],
-			id: 638,
+			dependencies: ["0000000000000280"],
+			id: "000000000000027E",
 			tasks: [{
-				id: 639,
+				id: "000000000000027F",
 				type: "item",
 				item: "assemblylinemachines:crankmill"
 			}]
@@ -612,11 +641,11 @@
 		{
 			x: 2.5d,
 			y: -2.5d,
-			dependencies: [I;636],
+			dependencies: ["000000000000027C"],
 			size: 1.25d,
-			id: 640,
+			id: "0000000000000280",
 			tasks: [{
-				id: 641,
+				id: "0000000000000281",
 				type: "item",
 				item: "create:refined_radiance"
 			}]
@@ -624,10 +653,10 @@
 		{
 			x: 4.0d,
 			y: -2.5d,
-			dependencies: [I;640],
-			id: 642,
+			dependencies: ["0000000000000280"],
+			id: "0000000000000282",
 			tasks: [{
-				id: 643,
+				id: "0000000000000283",
 				type: "item",
 				item: "assemblylinemachines:electric_purifier"
 			}]
@@ -635,10 +664,10 @@
 		{
 			x: 7.0d,
 			y: -2.5d,
-			dependencies: [I;642],
-			id: 644,
+			dependencies: ["0000000000000282"],
+			id: "0000000000000284",
 			tasks: [{
-				id: 645,
+				id: "0000000000000285",
 				type: "item",
 				item: "assemblylinemachines:alloy_smelter"
 			}]
@@ -646,22 +675,23 @@
 		{
 			x: 4.0d,
 			y: -1.0d,
-			dependencies: [I;642],
-			id: 646,
+			dependencies: ["0000000000000282"],
+			id: "0000000000000286",
 			tasks: [{
-				id: 647,
+				id: "0000000000000287",
 				type: "item",
 				item: "assemblylinemachines:pure_steel"
 			}]
 		},
 		{
-			x: 14.5d,
-			y: -2.5d,
-			dependencies: [I;654],
+			icon: "immersiveengineering:wirecoil_copper",
+			x: 13.0d,
+			y: -10.0d,
+			dependencies: ["000000000000032A"],
 			size: 2.0d,
-			id: 648,
+			id: "0000000000000288",
 			tasks: [{
-				id: 649,
+				id: "0000000000000289",
 				type: "item",
 				item: "immersiveengineering:watermill"
 			}]
@@ -669,10 +699,10 @@
 		{
 			x: 4.0d,
 			y: -5.5d,
-			dependencies: [I;638],
-			id: 650,
+			dependencies: ["000000000000027E"],
+			id: "000000000000028A",
 			tasks: [{
-				id: 651,
+				id: "000000000000028B",
 				type: "item",
 				item: "assemblylinemachines:metal_shaper"
 			}]
@@ -680,58 +710,36 @@
 		{
 			x: 13.0d,
 			y: -2.5d,
-			dependencies: [I;
-				662,
-				660
+			dependencies: [
+				"0000000000000296",
+				"0000000000000294"
 			],
 			dependency_requirement: "one_completed",
-			id: 654,
+			id: "000000000000028E",
 			tasks: [{
-				id: 655,
+				id: "000000000000028F",
 				type: "item",
 				item: "assemblylinemachines:chromium_plate"
 			}]
 		},
 		{
-			x: 8.5d,
-			y: -2.5d,
-			dependencies: [I;644],
-			id: 656,
-			tasks: [{
-				id: 657,
-				type: "item",
-				item: "rankine:alloy_furnace"
-			}]
-		},
-		{
 			x: 10.0d,
-			y: -2.5d,
-			dependencies: [I;656],
-			id: 658,
+			y: -3.5d,
+			dependencies: ["0000000000000284"],
+			id: "0000000000000294",
 			tasks: [{
-				id: 659,
-				type: "item",
-				item: "rankine:piston_crusher"
-			}]
-		},
-		{
-			x: 11.5d,
-			y: -4.0d,
-			dependencies: [I;658],
-			id: 660,
-			tasks: [{
-				id: 661,
+				id: "0000000000000295",
 				type: "item",
 				item: "rankine:magnetite_ore"
 			}]
 		},
 		{
-			x: 11.5d,
-			y: -1.0d,
-			dependencies: [I;658],
-			id: 662,
+			x: 10.0d,
+			y: -1.5d,
+			dependencies: ["0000000000000284"],
+			id: "0000000000000296",
 			tasks: [{
-				id: 663,
+				id: "0000000000000297",
 				type: "item",
 				item: "rankine:chromite_ore"
 			}]
@@ -739,32 +747,32 @@
 		{
 			x: 5.5d,
 			y: -1.0d,
-			dependencies: [I;644],
-			id: 664,
+			dependencies: ["0000000000000284"],
+			id: "0000000000000298",
 			tasks: [{
-				id: 665,
+				id: "0000000000000299",
 				type: "item",
 				item: "assemblylinemachines:electric_grinder"
 			}]
 		},
 		{
-			x: 7.0d,
-			y: 0.5d,
-			dependencies: [I;644],
-			id: 666,
+			x: 8.5d,
+			y: -1.0d,
+			dependencies: ["0000000000000284"],
+			id: "000000000000029A",
 			tasks: [{
-				id: 667,
+				id: "000000000000029B",
 				type: "item",
 				item: "assemblylinemachines:electric_furnace"
 			}]
 		},
 		{
-			x: 7.0d,
-			y: -5.5d,
-			dependencies: [I;644],
-			id: 668,
+			x: 5.5d,
+			y: -4.0d,
+			dependencies: ["0000000000000284"],
+			id: "000000000000029C",
 			tasks: [{
-				id: 669,
+				id: "000000000000029D",
 				type: "item",
 				item: "assemblylinemachines:electric_fluid_mixer"
 			}]
@@ -772,36 +780,36 @@
 		{
 			x: 8.5d,
 			y: -4.0d,
-			dependencies: [I;644],
-			id: 670,
+			dependencies: ["0000000000000284"],
+			id: "000000000000029E",
 			tasks: [{
-				id: 671,
+				id: "000000000000029F",
 				type: "item",
 				item: "assemblylinemachines:lumber_mill"
 			}]
 		},
 		{
-			x: 8.5d,
-			y: 0.5d,
-			dependencies: [I;535],
-			id: 672,
+			x: 7.0d,
+			y: -5.5d,
+			dependencies: ["0000000000000217"],
+			id: "00000000000002A0",
 			tasks: [{
-				id: 673,
+				id: "00000000000002A1",
 				type: "item",
 				item: "assemblylinemachines:basic_battery_cell"
 			}]
 		},
 		{
-			x: 11.5d,
+			x: 10.0d,
 			y: -2.5d,
-			dependencies: [I;658],
-			id: 674,
+			dependencies: ["0000000000000284"],
+			id: "00000000000002A2",
 			tasks: [{
-				id: 675,
+				id: "00000000000002A3",
 				type: "item",
 				item: {
 					id: "assemblylinemachines:crank_pickaxe",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -812,27 +820,27 @@
 			x: -3.0d,
 			y: -7.0d,
 			hide_dependency_lines: true,
-			dependencies: [I;591],
-			id: 691,
+			dependencies: ["000000000000024F"],
+			id: "00000000000002B3",
 			tasks: [
 				{
-					id: 699,
+					id: "00000000000002BB",
 					type: "item",
 					item: "terraqueous:burnium_dust"
 				},
 				{
-					id: 700,
+					id: "00000000000002BC",
 					type: "item",
 					item: "terraqueous:burnium_gem"
 				},
 				{
-					id: 701,
+					id: "00000000000002BD",
 					type: "item",
 					item: "terraqueous:doodad_burnium"
 				}
 			],
 			rewards: [{
-				id: 702,
+				id: "00000000000002BE",
 				type: "item",
 				item: "minecraft:iron_block"
 			}]
@@ -840,10 +848,10 @@
 		{
 			x: -4.0d,
 			y: -6.0d,
-			dependencies: [I;591],
-			id: 693,
+			dependencies: ["000000000000024F"],
+			id: "00000000000002B5",
 			tasks: [{
-				id: 697,
+				id: "00000000000002B9",
 				type: "item",
 				item: "minecraft:quartz",
 				count: 32L
@@ -852,10 +860,10 @@
 		{
 			x: -3.0d,
 			y: -6.0d,
-			dependencies: [I;591],
-			id: 695,
+			dependencies: ["000000000000024F"],
+			id: "00000000000002B7",
 			tasks: [{
-				id: 698,
+				id: "00000000000002BA",
 				type: "item",
 				item: "minecraft:gold_ingot",
 				count: 16L
@@ -866,15 +874,15 @@
 			x: -1.0d,
 			y: -5.5d,
 			hide_dependency_lines: true,
-			dependencies: [I;591],
+			dependencies: ["000000000000024F"],
 			size: 2.0d,
-			id: 704,
+			id: "00000000000002C0",
 			tasks: [{
-				id: 705,
+				id: "00000000000002C1",
 				type: "item",
 				item: {
 					id: "create:chromatic_compound",
-					Count: true,
+					Count: 1b,
 					tag: {}
 				}
 			}]
@@ -883,37 +891,92 @@
 			x: -3.5d,
 			y: -8.5d,
 			hide_dependency_lines: true,
-			dependencies: [I;591],
+			dependencies: ["000000000000024F"],
 			size: 2.0d,
-			id: 706,
+			id: "00000000000002C2",
 			tasks: [{
-				id: 707,
+				id: "00000000000002C3",
 				type: "item",
-				item: "rankine:ilmenite_ore"
+				title: "Any #forge:ores/ilmenite",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "forge:ores/ilmenite"
+					}
+				}
 			}]
 		},
 		{
 			x: -5.0d,
 			y: -4.0d,
 			description: ["Titanium is a good way to obtain better materials like obsidian... "],
-			dependencies: [I;603],
-			id: 712,
+			dependencies: ["000000000000025B"],
+			id: "00000000000002C8",
 			tasks: [{
-				id: 713,
+				id: "00000000000002C9",
 				type: "item",
 				item: {
 					id: "assemblylinemachines:titanium_pickaxe",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
 				}
 			}],
 			rewards: [{
-				id: 717,
+				id: "00000000000002CD",
 				type: "item",
 				item: "voluminousenergy:titanium_ingot",
 				count: 4
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -7.5d,
+			dependencies: ["00000000000002C0"],
+			id: "0000000000000326",
+			tasks: [{
+				id: "0000000000000327",
+				type: "item",
+				item: "createaddition:gold_spool"
+			}]
+		},
+		{
+			x: 7.0d,
+			y: -7.5d,
+			dependencies: ["0000000000000326"],
+			id: "0000000000000328",
+			tasks: [{
+				id: "0000000000000329",
+				type: "item",
+				item: "createaddition:rolling_mill"
+			}]
+		},
+		{
+			x: 13.0d,
+			y: -7.5d,
+			dependencies: [
+				"0000000000000328",
+				"000000000000028E"
+			],
+			size: 3.0d,
+			id: "000000000000032A",
+			tasks: [{
+				id: "000000000000032B",
+				type: "item",
+				item: "createaddition:alternator"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 0.5d,
+			dependencies: ["000000000000025F"],
+			id: "000000000000032C",
+			tasks: [{
+				id: "000000000000032D",
+				type: "item",
+				item: "thermal:creosote_bucket"
 			}]
 		}
 	]

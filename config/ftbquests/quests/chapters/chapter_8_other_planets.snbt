@@ -1,7 +1,8 @@
 {
-	id: 573,
+	id: "000000000000023D",
+	group: "",
+	order_index: 8,
 	filename: "chapter_8_other_planets",
-	order_index: 9,
 	title: "Chapter 8: Other Planets!",
 	default_quest_shape: "",
 	quests: []

@@ -1,7 +1,8 @@
 {
-	id: 572,
+	id: "000000000000023C",
+	group: "",
+	order_index: 7,
 	filename: "chapter_7_getting_systemized",
-	order_index: 8,
 	title: "Chapter 7: Getting Systemized",
 	icon: "appliedenergistics2:crafting_terminal",
 	default_quest_shape: "",

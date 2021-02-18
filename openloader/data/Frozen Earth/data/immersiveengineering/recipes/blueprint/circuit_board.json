@@ -1,0 +1,22 @@
+{
+    "type": "immersiveengineering:blueprint",
+    "inputs": [
+      {
+        "item": "immersiveengineering:insulating_glass"
+      },
+      {
+        "item": "immersiveengineering:electron_tube"
+      },
+      {
+        "item": "create:integrated_circuit"
+      },
+      {
+        "tag": "forge:plates/brass"
+      }
+    ],
+    "category": "components",
+    "result": {
+      "item": "immersiveengineering:circuit_board",
+      "count": 1
+    }
+  }

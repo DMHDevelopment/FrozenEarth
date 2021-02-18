@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "bba",
+        "bw ",
+        "qcq"
+    ],
+    "key": {
+        "b": {
+            "tag": "forge:plates/brass"
+        },
+        "a": {
+            "item": "create:andestite_alloy"
+        },
+        "w": {
+            "item": "create:large_cogwheel"
+        },
+        "q": {
+            "item": "create:electron_tube"
+        },
+        "c": {
+            "item": "create:brass_casing"
+        }
+    },
+    "result": {
+        "item": "create:mechanical_arm",
+        "count": 1
+    }
+}

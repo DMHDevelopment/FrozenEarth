@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " f ",
+        "ipi",
+        " c "
+    ],
+    "key": {
+        "c": {
+            "item": "create:large_cogwheel"
+        },
+        "p": {
+            "item": "create:fluid_pipe"
+        },
+        "i": {
+            "tag": "forge:plates/iron"
+        },
+        "f": {
+            "item": "create:andesite_funnel"
+        }
+    },
+    "result": {
+        "item": "create:mechanical_pump",
+        "count": 1
+    }
+}

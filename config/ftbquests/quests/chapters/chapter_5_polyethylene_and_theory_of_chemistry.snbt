@@ -1,15 +1,40 @@
 {
-	id: 570,
+	id: "000000000000023A",
+	group: "",
+	order_index: 5,
 	filename: "chapter_5_polyethylene_and_theory_of_chemistry",
-	order_index: 6,
 	title: "Chapter 5: Polyethylene... and Theory Of Chemistry",
 	icon: {
 		id: "silents_mechanisms:canister",
-		Count: true,
+		Count: 1b,
 		tag: {
 			CanisterFluid: "silents_mechanisms:polyethylene"
 		}
 	},
 	default_quest_shape: "",
-	quests: []
+	quests: [
+		{
+			x: -0.5d,
+			y: 0.0d,
+			shape: "hexagon",
+			dependencies: ["706D0CAAFF86A197"],
+			size: 3.0d,
+			id: "39B57A942A4BC5DF",
+			tasks: [{
+				id: "55269376DD17158B",
+				type: "item",
+				item: "silents_mechanisms:stone_machine_frame"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 0.0d,
+			id: "535E5C33EE4F822D",
+			tasks: [{
+				id: "6DC08A9ED1F82FAA",
+				type: "item",
+				item: "silents_mechanisms:basic_alloy_smelter"
+			}]
+		}
+	]
 }

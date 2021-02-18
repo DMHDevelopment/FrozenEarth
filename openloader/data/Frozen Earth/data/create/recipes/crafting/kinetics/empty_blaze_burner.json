@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "i i",
+        "b b",
+        "ibi"
+    ],
+    "key": {
+        "i": {
+            "tag": "forge:plates/iron"
+        },
+        "b": {
+            "item": "minecraft:iron_bars"
+        }
+    },
+    "result": {
+        "item": "create:empty_blaze_burner",
+        "count": 1
+    }
+}

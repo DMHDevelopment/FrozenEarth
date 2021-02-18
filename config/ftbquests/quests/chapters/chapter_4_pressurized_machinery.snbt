@@ -1,9 +1,866 @@
 {
-	id: 569,
+	id: "0000000000000239",
+	group: "",
+	order_index: 4,
 	filename: "chapter_4_pressurized_machinery",
-	order_index: 5,
 	title: "Chapter 4: Pressurized Machinery",
 	icon: "pneumaticcraft:assembly_drill",
 	default_quest_shape: "",
-	quests: []
+	quests: [
+		{
+			x: -0.5d,
+			y: 0.0d,
+			shape: "hexagon",
+			dependencies: ["0000000000000288"],
+			size: 2.0d,
+			id: "000000000000032E",
+			tasks: [{
+				id: "000000000000032F",
+				type: "item",
+				item: "immersiveengineering:wirecoil_copper"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 0.0d,
+			dependencies: ["000000000000032E"],
+			id: "0000000000000330",
+			tasks: [{
+				id: "0000000000000331",
+				type: "item",
+				item: "immersiveengineering:capacitor_lv"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 0.0d,
+			dependencies: ["000000000000032E"],
+			id: "0000000000000332",
+			tasks: [{
+				id: "0000000000000333",
+				type: "item",
+				item: "immersiveengineering:treated_wood_horizontal"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 1.0d,
+			dependencies: ["000000000000032E"],
+			id: "0000000000000334",
+			tasks: [{
+				id: "0000000000000335",
+				type: "item",
+				item: "immersiveengineering:connector_lv"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -1.0d,
+			dependencies: ["0000000000000332"],
+			id: "0000000000000336",
+			tasks: [{
+				id: "0000000000000337",
+				type: "item",
+				item: "immersiveengineering:crate"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 2.0d,
+			dependencies: ["000000000000032E"],
+			id: "0000000000000338",
+			tasks: [{
+				id: "0000000000000339",
+				type: "item",
+				item: "immersiveengineering:manual"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 1.0d,
+			dependencies: ["0000000000000332"],
+			id: "000000000000033A",
+			tasks: [{
+				id: "000000000000033B",
+				type: "item",
+				item: "immersiveengineering:treated_post"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -1.0d,
+			dependencies: ["000000000000032E"],
+			id: "000000000000033C",
+			tasks: [{
+				id: "000000000000033D",
+				type: "item",
+				item: "immersiveengineering:alloybrick"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -3.0d,
+			dependencies: ["000000000000033C"],
+			id: "000000000000033E",
+			tasks: [{
+				id: "000000000000033F",
+				type: "item",
+				item: "immersiveengineering:ingot_electrum"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -4.0d,
+			dependencies: ["000000000000033E"],
+			id: "0000000000000340",
+			tasks: [{
+				id: "0000000000000341",
+				type: "item",
+				item: "immersiveengineering:connector_mv"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -5.0d,
+			dependencies: ["0000000000000340"],
+			id: "0000000000000342",
+			tasks: [{
+				id: "0000000000000343",
+				type: "item",
+				item: "immersiveengineering:capacitor_mv"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 0.0d,
+			dependencies: ["000000000000034A"],
+			size: 1.5d,
+			id: "0000000000000346",
+			tasks: [{
+				id: "0000000000000347",
+				type: "item",
+				item: "immersiveengineering:mold_plate"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 0.0d,
+			dependencies: ["0000000000000346"],
+			id: "0000000000000348",
+			tasks: [{
+				id: "0000000000000349",
+				type: "item",
+				item: "immersiveengineering:plate_lead"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 0.0d,
+			dependencies: ["000000000000033C"],
+			size: 1.5d,
+			id: "000000000000034A",
+			tasks: [{
+				id: "000000000000034B",
+				type: "item",
+				item: "immersiveengineering:workbench"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -2.0d,
+			dependencies: ["000000000000034A"],
+			id: "000000000000034C",
+			tasks: [{
+				id: "000000000000034D",
+				type: "item",
+				item: "immersiveengineering:light_engineering"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: -1.0d,
+			dependencies: ["0000000000000348"],
+			id: "000000000000034E",
+			tasks: [{
+				id: "000000000000034F",
+				type: "item",
+				item: "immersiveengineering:circuit_board"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 1.5d,
+			dependencies: ["000000000000034A"],
+			id: "0000000000000352",
+			tasks: [{
+				id: "0000000000000354",
+				type: "item",
+				item: {
+					id: "immersiveengineering:blueprint",
+					Count: 1b,
+					tag: {
+						blueprint: "components"
+					}
+				},
+				only_from_crafting: false
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -3.0d,
+			dependencies: ["0000000000000346"],
+			id: "0000000000000355",
+			tasks: [{
+				id: "0000000000000356",
+				type: "item",
+				item: "immersiveengineering:blastbrick_reinforced"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -3.0d,
+			dependencies: ["0000000000000355"],
+			id: "0000000000000357",
+			tasks: [{
+				id: "0000000000000358",
+				type: "item",
+				item: "immersiveengineering:blastfurnace_preheater"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 1.5d,
+			dependencies: ["0000000000000348"],
+			id: "000000000000035D",
+			tasks: [{
+				id: "000000000000035E",
+				type: "item",
+				item: "immersiveengineering:fluid_pump"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: 0.0d,
+			dependencies: ["0000000000000346"],
+			id: "000000000000035F",
+			tasks: [{
+				id: "0000000000000360",
+				type: "item",
+				item: "pneumaticcraft:ingot_iron_compressed"
+			}]
+		},
+		{
+			x: 7.0d,
+			y: -2.0d,
+			dependencies: [
+				"000000000000034C",
+				"000000000000034E"
+			],
+			id: "0000000000000361",
+			tasks: [{
+				id: "0000000000000362",
+				type: "item",
+				item: "immersiveengineering:heavy_engineering"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: -1.0d,
+			dependencies: ["000000000000035F"],
+			id: "0000000000000363",
+			tasks: [{
+				id: "0000000000000364",
+				type: "item",
+				item: "pneumaticcraft:reinforced_bricks"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: -2.0d,
+			dependencies: ["0000000000000363"],
+			id: "0000000000000365",
+			tasks: [
+				{
+					id: "0000000000000366",
+					type: "item",
+					item: "pneumaticcraft:pressure_chamber_wall"
+				},
+				{
+					id: "0000000000000367",
+					type: "item",
+					item: "pneumaticcraft:pressure_chamber_glass"
+				},
+				{
+					id: "0000000000000368",
+					type: "item",
+					item: "pneumaticcraft:pressure_chamber_valve"
+				}
+			]
+		},
+		{
+			x: 8.5d,
+			y: -2.0d,
+			dependencies: ["0000000000000365"],
+			id: "0000000000000369",
+			tasks: [{
+				id: "000000000000036A",
+				type: "item",
+				item: "pneumaticcraft:pressure_chamber_interface"
+			}]
+		},
+		{
+			x: 8.5d,
+			y: -1.0d,
+			dependencies: ["0000000000000365"],
+			id: "000000000000036B",
+			tasks: [{
+				id: "000000000000036C",
+				type: "item",
+				item: "pneumaticcraft:pressure_tube"
+			}]
+		},
+		{
+			x: 8.5d,
+			y: -3.0d,
+			dependencies: ["0000000000000365"],
+			id: "000000000000036D",
+			tasks: [{
+				id: "000000000000036E",
+				type: "item",
+				item: "pneumaticcraft:air_compressor"
+			}]
+		},
+		{
+			x: 12.5d,
+			y: 0.0d,
+			dependencies: ["000000000000035F"],
+			id: "000000000000036F",
+			tasks: [{
+				id: "0000000000000370",
+				type: "item",
+				item: "pneumaticcraft:small_tank"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: -5.0d,
+			dependencies: ["7040897F384BB949"],
+			id: "0000000000000371",
+			tasks: [{
+				id: "0000000000000372",
+				type: "item",
+				item: "assemblylinemachines:pump"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: -6.0d,
+			dependencies: ["0000000000000371"],
+			id: "0000000000000373",
+			tasks: [{
+				id: "0000000000000374",
+				type: "item",
+				item: "assemblylinemachines:pumpshaft"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -7.0d,
+			dependencies: ["0000000000000373"],
+			id: "0000000000000375",
+			tasks: [{
+				id: "0000000000000376",
+				type: "item",
+				item: "assemblylinemachines:refinery_attachment_halogen"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -6.0d,
+			dependencies: ["0000000000000373"],
+			id: "0000000000000377",
+			tasks: [{
+				id: "0000000000000378",
+				type: "item",
+				item: "assemblylinemachines:refinery_attachment_cracking"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -5.0d,
+			dependencies: ["0000000000000373"],
+			id: "0000000000000379",
+			tasks: [{
+				id: "000000000000037A",
+				type: "item",
+				item: "assemblylinemachines:refinery_attachment_addition"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: -6.0d,
+			dependencies: ["7040897F384BB949"],
+			id: "000000000000037B",
+			tasks: [{
+				id: "0000000000000381",
+				type: "item",
+				item: {
+					id: "ceramics:clay_bucket",
+					Count: 1b,
+					tag: {
+						fluid: "assemblylinemachines:oil"
+					}
+				}
+			}]
+		},
+		{
+			x: 6.5d,
+			y: -7.0d,
+			dependencies: ["000000000000037B"],
+			id: "000000000000037D",
+			tasks: [{
+				id: "000000000000037E",
+				type: "item",
+				item: {
+					id: "ceramics:clay_bucket",
+					Count: 1b,
+					tag: {
+						fluid: "assemblylinemachines:ethane"
+					}
+				}
+			}]
+		},
+		{
+			x: 6.5d,
+			y: -8.0d,
+			dependencies: ["000000000000037D"],
+			id: "000000000000037F",
+			tasks: [{
+				id: "0000000000000380",
+				type: "item",
+				item: {
+					id: "ceramics:clay_bucket",
+					Count: 1b,
+					tag: {
+						fluid: "assemblylinemachines:ethylene"
+					}
+				}
+			}]
+		},
+		{
+			x: 6.5d,
+			y: -9.0d,
+			dependencies: ["000000000000037F"],
+			id: "0000000000000382",
+			tasks: [{
+				id: "0000000000000383",
+				type: "item",
+				item: "assemblylinemachines:plastic_sheet"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: -6.0d,
+			dependencies: ["7040897F384BB949"],
+			id: "0000000000000384",
+			tasks: [{
+				id: "0000000000000385",
+				type: "item",
+				item: "immersivepetroleum:gasoline_bucket"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: -7.0d,
+			dependencies: ["0000000000000384"],
+			id: "0000000000000386",
+			tasks: [{
+				id: "0000000000000387",
+				type: "item",
+				item: "pneumaticcraft:lpg_bucket"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: -3.0d,
+			dependencies: ["0000000000000365"],
+			id: "0000000000000388",
+			tasks: [{
+				id: "0000000000000389",
+				type: "item",
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: -8.0d,
+			dependencies: ["0000000000000386"],
+			id: "000000000000038A",
+			tasks: [{
+				id: "000000000000038B",
+				type: "item",
+				item: "pneumaticcraft:plastic"
+			}]
+		},
+		{
+			title: "[Immersive Petroleum Multiblock] Pumpjack",
+			x: 7.0d,
+			y: -4.0d,
+			dependencies: ["0000000000000361"],
+			id: "000000000000038E",
+			tasks: [
+				{
+					id: "000000000000038F",
+					type: "item",
+					item: "immersiveengineering:steel_scaffolding_standard",
+					count: 11L
+				},
+				{
+					id: "6F703837868F51E3",
+					type: "item",
+					item: "immersiveengineering:light_engineering",
+					count: 2L
+				},
+				{
+					id: "254D08F404EF4C02",
+					type: "item",
+					item: "immersiveengineering:treated_fence",
+					count: 6L
+				},
+				{
+					id: "48832A7D43E41867",
+					type: "item",
+					item: "immersiveengineering:rs_engineering"
+				},
+				{
+					id: "0DFD2B81846B151C",
+					type: "item",
+					item: "immersiveengineering:heavy_engineering",
+					count: 2L
+				},
+				{
+					id: "6A579B4E9247D3D0",
+					type: "item",
+					item: "immersiveengineering:storage_steel",
+					count: 2L
+				}
+			],
+			rewards: [
+				{
+					id: "43A7323B2B1BB34E",
+					type: "item",
+					item: "minecraft:emerald",
+					count: 4
+				},
+				{
+					id: "7ADA051A845067A7",
+					type: "item",
+					item: "minecraft:bucket",
+					count: 4
+				}
+			]
+		},
+		{
+			x: 11.5d,
+			y: -2.0d,
+			dependencies: ["0000000000000365"],
+			id: "0000000000000390",
+			tasks: [{
+				id: "0000000000000391",
+				type: "item",
+				item: "minecraft:ender_eye"
+			}]
+		},
+		{
+			x: 12.5d,
+			y: -2.0d,
+			dependencies: ["0000000000000390"],
+			id: "0000000000000392",
+			tasks: [{
+				id: "0000000000000393",
+				type: "item",
+				item: "minecraft:end_portal_frame"
+			}]
+		},
+		{
+			x: 11.5d,
+			y: -4.0d,
+			dependencies: ["0000000000000392"],
+			id: "0000000000000394",
+			tasks: [{
+				id: "0000000000000395",
+				type: "item",
+				item: "assemblylinemachines:condensed_void_bucket"
+			}]
+		},
+		{
+			x: 12.5d,
+			y: -4.0d,
+			dependencies: ["0000000000000392"],
+			id: "47C127080E0A779C",
+			tasks: [{
+				id: "63D84BA32B4D1FAF",
+				type: "item",
+				item: "rankine:fluorite_ore"
+			}]
+		},
+		{
+			x: 13.5d,
+			y: -4.0d,
+			dependencies: ["0000000000000392"],
+			id: "666CC13915C4DCF1",
+			tasks: [{
+				id: "16E792B28A1EBCF7",
+				type: "item",
+				item: "rankine:uraninite_ore"
+			}]
+		},
+		{
+			x: 12.5d,
+			y: -1.0d,
+			dependencies: ["0000000000000392"],
+			id: "1EF79EA1C952FBFE",
+			tasks: [{
+				id: "43587664AD9B60CC",
+				type: "item",
+				item: "terraqueous:doodad_endimium"
+			}]
+		},
+		{
+			x: 12.5d,
+			y: -5.0d,
+			dependencies: ["47C127080E0A779C"],
+			id: "750A334B936BD9F1",
+			tasks: [{
+				id: "73A8077693F65152",
+				type: "item",
+				item: "pneumaticcraft:capacitor"
+			}]
+		},
+		{
+			x: 13.5d,
+			y: -5.0d,
+			dependencies: ["666CC13915C4DCF1"],
+			id: "6F75B89EE89282D6",
+			tasks: [{
+				id: "5625DEC8C0CC8DB7",
+				type: "item",
+				item: "pneumaticcraft:transistor"
+			}]
+		},
+		{
+			x: 13.0d,
+			y: -6.0d,
+			dependencies: [
+				"6F75B89EE89282D6",
+				"750A334B936BD9F1"
+			],
+			id: "7378FF55F8DE5217",
+			tasks: [{
+				id: "5EA5012EE5EABDDC",
+				type: "item",
+				item: "pneumaticcraft:printed_circuit_board"
+			}]
+		},
+		{
+			title: "Assembling The Circuits",
+			x: 11.0d,
+			y: -6.0d,
+			dependencies: ["7378FF55F8DE5217"],
+			id: "65F64B148F036DAB",
+			tasks: [
+				{
+					id: "1E49F06CA149DDCA",
+					type: "item",
+					item: "pneumaticcraft:assembly_platform"
+				},
+				{
+					id: "3EC32A0FA35D7EC5",
+					type: "item",
+					item: "pneumaticcraft:assembly_io_unit_import"
+				},
+				{
+					id: "368170BF16BBDFD3",
+					type: "item",
+					item: "pneumaticcraft:assembly_io_unit_export"
+				},
+				{
+					id: "4001C212C4DCE4B8",
+					type: "item",
+					item: "pneumaticcraft:assembly_drill"
+				},
+				{
+					id: "77B8022FF8E53D36",
+					type: "item",
+					item: "pneumaticcraft:assembly_laser"
+				}
+			]
+		},
+		{
+			x: 12.5d,
+			y: -7.0d,
+			dependencies: ["7378FF55F8DE5217"],
+			id: "28E77674765E70EC",
+			tasks: [{
+				id: "6F707C54EF2C67AF",
+				type: "item",
+				item: "pneumaticcraft:amadron_tablet"
+			}]
+		},
+		{
+			title: "Void Traveller",
+			x: 13.5d,
+			y: -1.0d,
+			dependencies: ["0000000000000392"],
+			id: "04C65EFEB8CA5A0F",
+			tasks: [{
+				id: "01E70F1C3152B62A",
+				type: "item",
+				item: {
+					id: "betterendforge:aurora_crystal",
+					Count: 64b
+				},
+				count: 64L
+			}]
+		},
+		{
+			x: 13.5d,
+			y: -7.0d,
+			dependencies: ["28E77674765E70EC"],
+			id: "74E96B774063D42B",
+			tasks: [
+				{
+					id: "4E4C133BEFABE1C3",
+					type: "item",
+					item: "pneumaticcraft:assembly_program_laser"
+				},
+				{
+					id: "094ED4B9942121BE",
+					type: "item",
+					item: "pneumaticcraft:assembly_program_drill"
+				},
+				{
+					id: "7B6B7B3F5B87579A",
+					type: "item",
+					item: "pneumaticcraft:assembly_program_drill_laser"
+				}
+			]
+		},
+		{
+			x: 9.5d,
+			y: -5.0d,
+			dependencies: ["65F64B148F036DAB"],
+			id: "12813987629A3FAA",
+			tasks: [{
+				id: "67A5315BCD685C5D",
+				type: "item",
+				item: "pneumaticcraft:advanced_pressure_tube"
+			}]
+		},
+		{
+			x: 11.5d,
+			y: -5.0d,
+			dependencies: ["65F64B148F036DAB"],
+			id: "160F0AE369B5C0EA",
+			tasks: [{
+				id: "784F5DD97AE5E55B",
+				type: "item",
+				item: "pneumaticcraft:advanced_air_compressor"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: -5.0d,
+			dependencies: ["65F64B148F036DAB"],
+			id: "5BB06B34E863FE30",
+			tasks: [{
+				id: "5E055A8E8A592B65",
+				type: "item",
+				item: "pneumaticcraft:pressurized_spawner"
+			}]
+		},
+		{
+			x: 9.5d,
+			y: -4.0d,
+			dependencies: ["12813987629A3FAA"],
+			id: "109A778A4320C4A7",
+			tasks: [{
+				id: "5ADF8AB7651D5D84",
+				type: "item",
+				item: "pneumaticcraft:pneumatic_dynamo"
+			}]
+		},
+		{
+			title: "[Immersive Petroleum Multiblock] Distillation Tower",
+			x: 7.0d,
+			y: -5.0d,
+			dependencies: ["000000000000038E"],
+			id: "7040897F384BB949",
+			tasks: [{
+				id: "5B4E996025B3F3C4",
+				type: "item",
+				item: "immersiveengineering:sheetmetal_iron",
+				count: 60L
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 2.5d,
+			dependencies: ["000000000000034A"],
+			id: "13111B5FA576F04A",
+			tasks: [{
+				id: "06307D8A0E1203F3",
+				type: "item",
+				item: "immersivepetroleum:projector"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: -4.0d,
+			dependencies: ["0000000000000394"],
+			id: "78446171E477AE63",
+			tasks: [{
+				id: "4DF50271B3271F3B",
+				type: "item",
+				item: "waystones:waystone"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: -7.0d,
+			dependencies: ["0000000000000373"],
+			id: "72EFC5C71DB5E470",
+			tasks: [{
+				id: "1F286792866CF068",
+				type: "item",
+				item: "assemblylinemachines:refinery"
+			}]
+		},
+		{
+			x: 15.5d,
+			y: -3.0d,
+			dependencies: [
+				"0000000000000392",
+				"109A778A4320C4A7"
+			],
+			size: 2.0d,
+			id: "706D0CAAFF86A197",
+			tasks: [{
+				id: "4BBAF118F1054699",
+				type: "item",
+				item: "silents_mechanisms:stone_machine_frame"
+			}]
+		},
+		{
+			x: 11.5d,
+			y: -7.0d,
+			dependencies: ["28E77674765E70EC"],
+			id: "0A7AECE0E60537DF",
+			tasks: [{
+				id: "0BC3FBE35094672D",
+				type: "item",
+				item: "pneumaticcraft:uv_light_box"
+			}]
+		}
+	]
 }

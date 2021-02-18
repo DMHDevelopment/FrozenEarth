@@ -3,7 +3,7 @@
 [electric_motor]
 	#Electric Motor minimum RPM.
 	#Range: 0 ~ 256
-	motor_min_rpm = 32
+	motor_min_rpm = 8
 	#Electric Motor maximum RPM.
 	#Range: 1 ~ 256
 	motor_max_rpm = 256
@@ -24,10 +24,10 @@
 [alternator]
 	#Alternator max input in FE.
 	#Range: 0 ~ 32767
-	generator_max_output = 8192
+	generator_max_output = 32767
 	#Alternator internal capacity in FE.
 	#Range: 0 ~ 32767
-	generator_capacity = 32000
+	generator_capacity = 32767
 	#Alternator base stress impact.
 	#Range: 0 ~ 1024
 	generator_consumption = 16

@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " q ",
+        "grg",
+        "iii"
+    ],
+    "key": {
+        "q": {
+            "item": "create:polished_rose_quartz"
+        },
+        "g": {
+            "tag": "forge:glass"
+        },
+        "r": {
+            "item": "minecraft:redstone_torch"
+        },
+        "i": {
+            "tag": "forge:plates/iron"
+        }
+    },
+    "result": {
+        "item": "create:electron_tube",
+        "count": 1
+    }
+}

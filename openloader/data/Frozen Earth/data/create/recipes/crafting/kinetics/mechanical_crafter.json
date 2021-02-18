@@ -1,0 +1,30 @@
+  
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "iBi",
+      "SCS",
+      "iRi"
+    ],
+    "key": {
+      "B": {
+        "item": "create:electron_tube"
+      },
+      "R": {
+        "item": "minecraft:crafting_table"
+      },
+      "C": {
+        "item": "create:brass_casing"
+      },
+      "S": {
+        "item": "create:large_cogwheel"
+      },
+      "i": {
+        "tag": "forge:plates/copper"
+      }
+    },
+    "result": {
+      "item": "create:mechanical_crafter",
+      "count": 1
+    }
+  }
