@@ -689,12 +689,7 @@
 			y: -10.0d,
 			dependencies: ["000000000000032A"],
 			size: 2.0d,
-			id: "0000000000000288",
-			tasks: [{
-				id: "0000000000000289",
-				type: "item",
-				item: "immersiveengineering:watermill"
-			}]
+			id: "0000000000000288"
 		},
 		{
 			x: 4.0d,

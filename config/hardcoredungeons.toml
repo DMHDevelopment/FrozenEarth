@@ -1,0 +1,6 @@
+
+#Change what Hardcore Dungeons adds to the overworld.
+[overworld]
+	#Whether the Thick Forest biome generates naturally. Changing this will affect world generation.
+	thick_forest_generates = true
+

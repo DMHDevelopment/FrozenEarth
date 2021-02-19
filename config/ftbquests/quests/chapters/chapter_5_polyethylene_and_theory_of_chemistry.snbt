@@ -27,13 +27,36 @@
 			}]
 		},
 		{
-			x: 1.5d,
+			x: 2.5d,
 			y: 0.0d,
+			dependencies: ["39B57A942A4BC5DF"],
 			id: "535E5C33EE4F822D",
 			tasks: [{
 				id: "6DC08A9ED1F82FAA",
 				type: "item",
 				item: "silents_mechanisms:basic_alloy_smelter"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -1.5d,
+			dependencies: ["39B57A942A4BC5DF"],
+			id: "2685AE1AF2D97743",
+			tasks: [{
+				id: "7D3625484CFE9495",
+				type: "item",
+				item: "silents_mechanisms:coal_generator"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 1.5d,
+			dependencies: ["39B57A942A4BC5DF"],
+			id: "46E384C7CFD59375",
+			tasks: [{
+				id: "6A6E72DA38766BED",
+				type: "item",
+				item: "silents_mechanisms:basic_crusher"
 			}]
 		}
 	]
