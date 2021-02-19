@@ -1858,7 +1858,13 @@
 						}
 					}
 				}
-			]
+			],
+			rewards: [{
+				id: "0D2A2AFB9048E14D",
+				type: "item",
+				item: "minecraft:experience_bottle",
+				count: 8
+			}]
 		},
 		{
 			title: "Massive Storage",
