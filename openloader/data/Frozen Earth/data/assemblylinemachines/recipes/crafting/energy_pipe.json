@@ -1,0 +1,31 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "     ",
+      "ABCBA",
+      "DEEED",
+      "ABCBA",
+      "     "
+    ],
+    "key": {
+      "A": {
+        "item": "create:iron_sheet"
+      },
+      "B": {
+        "item": "extendedcrafting:redstone_component"
+      },
+      "C": {
+        "item": "create:polished_rose_quartz"
+      },
+      "D": {
+        "item": "createaddition:capacitor"
+      },
+      "E": {
+        "item": "assemblylinemachines:black_granite"
+      }
+    },
+    "result": {
+      "item": "assemblylinemachines:energy_pipe",
+      "count": 4
+    }
+  }

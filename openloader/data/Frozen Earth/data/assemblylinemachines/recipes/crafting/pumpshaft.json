@@ -1,0 +1,42 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "ABCBA",
+      "BDEDB",
+      "FGHGF",
+      "BDEDB",
+      "ABIBA"
+    ],
+    "key": {
+      "A": {
+        "item": "assemblylinemachines:chromium_plate"
+      },
+      "B": {
+        "item": "assemblylinemachines:smoldering_stone"
+      },
+      "C": {
+        "item": "assemblylinemachines:crimson_sawdust"
+      },
+      "D": {
+        "tag": "forge:plates/invar"
+      },
+      "E": {
+        "item": "assemblylinemachines:pneumatic_device"
+      },
+      "F": {
+        "tag": "forge:plates/constantan"
+      },
+      "G": {
+        "item": "assemblylinemachines:stainless_steel_tank_component"
+      },
+      "H": {
+        "item": "create:mechanical_pump"
+      },
+      "I": {
+        "item": "assemblylinemachines:warped_sawdust"
+      }
+    },
+    "result": {
+      "item": "assemblylinemachines:pumpshaft"
+    }
+  }

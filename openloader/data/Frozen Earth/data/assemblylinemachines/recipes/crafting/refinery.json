@@ -1,0 +1,39 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "ABCBA",
+      "BDEDB",
+      "CFGFC",
+      "BDHDB",
+      "ABCBA"
+    ],
+    "key": {
+      "A": {
+        "item": "assemblylinemachines:stainless_steel_plate"
+      },
+      "B": {
+        "item": "assemblylinemachines:smoldering_stone"
+      },
+      "C": {
+        "tag": "forge:rods/iron"
+      },
+      "D": {
+        "item": "assemblylinemachines:pneumatic_device"
+      },
+      "E": {
+        "item": "assemblylinemachines:empowered_convection_component"
+      },
+      "F": {
+        "item": "assemblylinemachines:empowered_fuel"
+      },
+      "G": {
+        "item": "assemblylinemachines:fluid_regulator"
+      },
+      "H": {
+        "item": "assemblylinemachines:empowered_conduction_component"
+      }
+    },
+    "result": {
+      "item": "assemblylinemachines:refinery"
+    }
+  }

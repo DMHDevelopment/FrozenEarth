@@ -1,0 +1,39 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "ABCBA",
+      "BDEDB",
+      "CFGFC",
+      "BHHHB",
+      "ABCBA"
+    ],
+    "key": {
+      "A": {
+        "item": "immersiveengineering:sheetmetal_steel"
+      },
+      "B": {
+        "item": "assemblylinemachines:steel_plate"
+      },
+      "C": {
+        "item": "immersiveengineering:sheetmetal_iron"
+      },
+      "D": {
+        "item": "assemblylinemachines:crank_shaft"
+      },
+      "E": {
+        "item": "minecraft:chest"
+      },
+      "F": {
+        "item": "create:integrated_circuit"
+      },
+      "G": {
+        "item": "create:mechanical_mixer"
+      },
+      "H": {
+        "tag": "forge:plates/gold"
+      }
+    },
+    "result": {
+      "item": "assemblylinemachines:simple_crank_charger"
+    }
+  }

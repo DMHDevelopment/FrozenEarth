@@ -1,0 +1,27 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "ABABA",
+      "BCCCB",
+      "ACDCA",
+      "BCCCB",
+      "ABABA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:clay_ball"
+      },
+      "B": {
+        "item": "minecraft:brick"
+      },
+      "C": {
+        "item": "create:andesite_alloy"
+      },
+      "D": {
+        "item": "minecraft:gray_concrete_powder"
+      }
+    },
+    "result": {
+      "item": "immersiveengineering:cokebrick"
+    }
+  }

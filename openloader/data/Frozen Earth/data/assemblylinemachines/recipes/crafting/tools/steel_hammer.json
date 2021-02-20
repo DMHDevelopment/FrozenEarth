@@ -1,0 +1,24 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "  AAB",
+      "  AAA",
+      "  BAA",
+      "CB   ",
+      "BC   "
+    ],
+    "key": {
+      "A": {
+        "item": "assemblylinemachines:steel_ingot"
+      },
+      "B": {
+        "item": "immersiveengineering:treated_fence"
+      },
+      "C": {
+        "item": "assemblylinemachines:steel_plate"
+      }
+    },
+    "result": {
+      "item": "assemblylinemachines:steel_hammer"
+    }
+  }

@@ -1,0 +1,25 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AAAAA",
+      " BCB ",
+      " BCB ",
+      " BCB ",
+      " BBB "
+    ],
+    "key": {
+      "A": {
+        "tag": "forge:fences/wooden"
+      },
+      "B": {
+        "item": "assemblylinemachines:wooden_board"
+      },
+      "C": {
+        "item": "assemblylinemachines:steel_ingot"
+      }
+    },
+    "result": {
+      "item": "assemblylinemachines:craft_shaft",
+      "count": 2
+    }
+  }

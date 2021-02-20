@@ -1,0 +1,30 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "ABABA",
+      "BCDCB",
+      "ADEDA",
+      "BCDCB",
+      "ABABA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:nether_brick"
+      },
+      "B": {
+        "item": "minecraft:brick"
+      },
+      "C": {
+        "item": "create:cinder_flour"
+      },
+      "D": {
+        "item": "ceramics:lava_bricks"
+      },
+      "E": {
+        "item": "minecraft:lava_bucket"
+      }
+    },
+    "result": {
+      "item": "immersiveengineering:blastbrick"
+    }
+  }

@@ -1,0 +1,42 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "ABCBA",
+      "DEFED",
+      "GFHFG",
+      "DEFED",
+      "ABIBA"
+    ],
+    "key": {
+      "A": {
+        "item": "assemblylinemachines:chromium_plate"
+      },
+      "B": {
+        "item": "assemblylinemachines:smoldering_stone"
+      },
+      "C": {
+        "item": "assemblylinemachines:fluid_regulator"
+      },
+      "D": {
+        "item": "create:brass_sheet"
+      },
+      "E": {
+        "item": "thermal:invar_plate"
+      },
+      "F": {
+        "tag": "forge:plates/constantan"
+      },
+      "G": {
+        "item": "assemblylinemachines:steel_tank_component"
+      },
+      "H": {
+        "item": "create:mechanical_pump"
+      },
+      "I": {
+        "item": "assemblylinemachines:pneumatic_device"
+      }
+    },
+    "result": {
+      "item": "assemblylinemachines:pump"
+    }
+  }

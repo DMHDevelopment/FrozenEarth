@@ -1,0 +1,27 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AAAAA",
+      "BCDCB",
+      "BCDCB",
+      "BCDCB",
+      "AAAAA"
+    ],
+    "key": {
+      "A": {
+        "item": "assemblylinemachines:wooden_board"
+      },
+      "B": {
+        "tag": "forge:plates/iron"
+      },
+      "C": {
+        "item": "create:framed_glass"
+      },
+      "D": {
+        "item": "assemblylinemachines:fluid_bath"
+      }
+    },
+    "result": {
+      "item": "assemblylinemachines:wooden_fluid_tank"
+    }
+  }

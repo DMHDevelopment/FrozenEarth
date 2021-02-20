@@ -1,0 +1,24 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      " A A ",
+      "ABBBA",
+      " BCB ",
+      "ABBBA",
+      " A A "
+    ],
+    "key": {
+      "A": {
+        "tag": "forge:plates/iron"
+      },
+      "B": {
+        "item": "immersiveengineering:treated_fence"
+      },
+      "C": {
+        "item": "create:chromatic_compound"
+      }
+    },
+    "result": {
+      "item": "assemblylinemachines:iron_gear"
+    }
+  }

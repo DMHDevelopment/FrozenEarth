@@ -1,0 +1,24 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "     ",
+      "  A  ",
+      " BCB ",
+      "BBCBB",
+      "BBCBB"
+    ],
+    "key": {
+      "A": {
+        "tag": "forge:wires/steel"
+      },
+      "B": {
+        "item": "ceramics:clay_plate"
+      },
+      "C": {
+        "tag": "forge:rods/aluminum"
+      }
+    },
+    "result": {
+      "item": "immersiveengineering:connector_hv"
+    }
+  }

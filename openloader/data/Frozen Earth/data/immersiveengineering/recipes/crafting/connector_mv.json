@@ -1,0 +1,24 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "     ",
+      "  A  ",
+      " BCB ",
+      "BBCBB",
+      "BBCBB"
+    ],
+    "key": {
+      "A": {
+        "tag": "forge:wires/electrum"
+      },
+      "B": {
+        "item": "ceramics:clay_plate"
+      },
+      "C": {
+        "tag": "forge:plates/electrum"
+      }
+    },
+    "result": {
+      "item": "immersiveengineering:connector_mv"
+    }
+  }

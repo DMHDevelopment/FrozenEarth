@@ -1,0 +1,39 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      " AAA ",
+      "AABAA",
+      "ACDCA",
+      "EFGFE",
+      "  H  "
+    ],
+    "key": {
+      "A": {
+        "item": "immersiveengineering:sheetmetal_iron"
+      },
+      "B": {
+        "item": "create:fluid_tank"
+      },
+      "C": {
+        "item": "minecraft:bucket"
+      },
+      "D": {
+        "item": "immersiveengineering:wirecoil_copper"
+      },
+      "E": {
+        "item": "minecraft:lapis_block"
+      },
+      "F": {
+        "tag": "forge:plates/lapis_lazuli"
+      },
+      "G": {
+        "item": "create:mechanical_pump"
+      },
+      "H": {
+        "item": "assemblylinemachines:pneumatic_device"
+      }
+    },
+    "result": {
+      "item": "immersiveengineering:fluid_pump"
+    }
+  }
