@@ -8,6 +8,13 @@
 	asyncRecipeMatching = true
 	#Set this to false to disable new players spawning with the Crock Pot Cookbook.
 	spawnWithBook = true
+	#Set this to false to disable Unknown Seeds.
+	#This is a way to obtain crops in the mod and we strongly recommend that set it to true.
+	#Please make sure there are other ways to obtain crops in the mod if set it to false.
+	enableUnknownSeeds = true
+	#Define the crops list that Unknown Crops will be converted into.
+	#Both the seed item for the crop and the crop block itself are acceptable.
+	unknownCropsList = ["crockpot:asparagus_seeds", "crockpot:corn_seeds", "crockpot:eggplant_seeds", "crockpot:onion_seeds", "crockpot:pepper_seeds", "crockpot:tomato_seeds"]
 
 #World generation settings
 [worldgen]
@@ -36,4 +43,13 @@
 	onionGenerationChance = 16
 	#Set this to false will disable corn world generation.
 	cornGeneration = true
+	#Set this to false will disable all world generation, even if specific world generation is enabled.
+	#This is another way to obtain crops in the mod.
+	#Please make sure there are other ways to obtain crops in the mod if set it to false.
+	enableWorldGeneration = false
+	#Set this to false will disable pepper world generation.
+	pepperGeneration = true
+	#Set this value to change the chance of pepper world generation. The higher value, the less generation.
+	#Range: > 1
+	pepperGenerationChance = 16
 

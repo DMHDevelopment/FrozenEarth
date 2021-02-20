@@ -318,28 +318,6 @@
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
 	max = 65536.0
 
-#Values for the survive:cold_resistance attribute.
-[survive_cold_resistance]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the survive:heat_resistance attribute.
-[survive_heat_resistance]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
 #Values for the terraqueous:deathfruit_addiction attribute.
 [terraqueous_deathfruit_addiction]
 	#Whether or not this attribute should be modified.
@@ -353,6 +331,28 @@
 
 #Values for the terraqueous:deathfruit_timer attribute.
 [terraqueous_deathfruit_timer]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 4.9E-324
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the survive:generic.cold_resistance attribute.
+[survive_generic_cold_resistance]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 4.9E-324
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the survive:generic.heat_resistance attribute.
+[survive_generic_heat_resistance]
 	#Whether or not this attribute should be modified.
 	enabled = true
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.

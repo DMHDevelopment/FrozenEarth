@@ -5,8 +5,6 @@
 	log_player_grave = true
 	#Prevents death outside of world borders [false/true|default:false]
 	prevent_death_outside_world = false
-	#Allows player's graves to appear in water [false/true|default:true]
-	allow_grave_in_water = true
 	#The chance that creatures appear after the contents of a grave are retrieved [0..100|default:0]
 	#Range: 0 ~ 100
 	chance_mob_on_grave_recovery = 0
@@ -216,4 +214,6 @@
 	keep_cosmetic_armor = true
 	#Allows to auto-equip the slots from Curio mod [false/true|default:true]
 	allow_curio_auto_equip = true
+	#Ensure the potion effects to stay on the player after returning from end conquered [false/true|default:true]
+	preserve_effects_on_return_end_conquered = true
 

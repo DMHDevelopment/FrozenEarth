@@ -11,23 +11,23 @@ enable_in_world_coloring = true
 	small_capacity = ["minecraft:ender_pearl"]
 	#Items that apply a large storage capacity upgrade
 	large_capacity = ["minecraft:ender_eye"]
-	#Items that are used to increase the tanks internal pump
+	#Items that are used to increase the tanks internal transfer pump
 	pump = ["minecraft:piston"]
-	#Items that upgrade storage capacity by 3
+	#Items that apply a small storage capacity upgrade
 	#Each item can only be use once per tank
 	small_capacity_singleuse = []
-	#Items that upgrade storage capacity by 9
+	#Items that apply a large storage capacity upgrade
 	#Each item can only be use once per tank
 	large_capacity_singleuse = []
-	#Items that are used to increase the tanks internal pump
+	#Items that are used to increase the tanks internal transfer pump
 	#Each item can only be use once per tank
 	pump_singleuse = []
 
 #
 #NOTE: Capacity numbers are in buckets
 [capacity_settings]
-	#How many internal pump upgrades can a tank have?
-	# default internal pump is only 1/4 bucket, upgrades make it a bucket per upgrade
+	#How many internal transfer pump upgrades can a tank have?
+	# default is only 1/4 bucket, upgrades make it a bucket per upgrade
 	#Range: 0 ~ 8
 	tank_pump_max = 4
 	#Minimum capacity an EnderTank holds
@@ -81,4 +81,11 @@ enable_in_world_coloring = true
 	personal_use_lock = false
 	#While true only a team member can use the tank
 	team_use_lock = false
+
+#Mod integration can be disabled to solve compatibility issues, remove unwanted/unneeded features, etc.
+[integration]
+	store_mekanism_gas = true
+	store_mekanism_infusion = true
+	store_mekanism_pigment = true
+	store_mekanism_slurry = true
 
