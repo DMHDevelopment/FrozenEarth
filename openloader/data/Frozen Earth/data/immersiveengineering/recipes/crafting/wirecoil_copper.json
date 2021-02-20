@@ -1,0 +1,25 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "  A  ",
+      " ABA ",
+      "ABCBA",
+      " ABA ",
+      "  A  "
+    ],
+    "key": {
+      "A": {
+        "item": "createaddition:copper_wire"
+      },
+      "B": {
+        "item": "immersiveengineering:stick_treated"
+      },
+      "C": {
+        "item": "immersiveengineering:wirecoil_structure_rope"
+      }
+    },
+    "result": {
+      "item": "immersiveengineering:wirecoil_copper",
+      "count": 4
+    }
+  }

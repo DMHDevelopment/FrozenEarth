@@ -1,0 +1,24 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AABAA",
+      "A C A",
+      "BCCCB",
+      "A C A",
+      "AABAA"
+    ],
+    "key": {
+      "A": {
+        "item": "immersiveengineering:nugget_steel"
+      },
+      "B": {
+        "item": "assemblylinemachines:pure_steel"
+      },
+      "C": {
+        "item": "create:lapis_sheet"
+      }
+    },
+    "result": {
+      "item": "immersiveengineering:mold_plate"
+    }
+  }

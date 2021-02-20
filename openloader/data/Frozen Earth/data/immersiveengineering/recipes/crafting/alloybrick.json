@@ -1,0 +1,31 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "ABABA",
+      "BCDCB",
+      "ADEDA",
+      "BCDCB",
+      "ABABA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:nether_brick"
+      },
+      "B": {
+        "item": "minecraft:brick"
+      },
+      "C": {
+        "item": "createaddition:brass_rod"
+      },
+      "D": {
+        "item": "minecraft:sandstone"
+      },
+      "E": {
+        "item": "immersiveengineering:stick_treated"
+      }
+    },
+    "result": {
+      "item": "immersiveengineering:alloybrick",
+      "count": 4
+    }
+  }

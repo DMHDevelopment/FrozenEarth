@@ -1,0 +1,48 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "ABCBD",
+      "BEFGB",
+      "CHIJC",
+      "BGKEB",
+      "DBCBA"
+    ],
+    "key": {
+      "A": {
+        "item": "hardcoredungeons:double_compressed_cobblestone"
+      },
+      "B": {
+        "item": "pneumaticcraft:compressed_iron_gear"
+      },
+      "C": {
+        "item": "thermal:invar_plate"
+      },
+      "D": {
+        "item": "hardcoredungeons:triple_compressed_cobblestone"
+      },
+      "E": {
+        "item": "pneumaticcraft:printed_circuit_board"
+      },
+      "F": {
+        "item": "pneumaticcraft:drill_bit_netherite"
+      },
+      "G": {
+        "item": "assemblylinemachines:quantum_link"
+      },
+      "H": {
+        "item": "assemblylinemachines:plastic_ball"
+      },
+      "I": {
+        "item": "extendedcrafting:frame"
+      },
+      "J": {
+        "item": "pneumaticcraft:plastic"
+      },
+      "K": {
+        "item": "betterendforge:eternal_crystal"
+      }
+    },
+    "result": {
+      "item": "silents_mechanisms:stone_machine_frame"
+    }
+  }

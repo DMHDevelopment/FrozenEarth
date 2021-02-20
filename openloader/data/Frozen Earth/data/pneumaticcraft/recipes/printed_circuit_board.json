@@ -1,0 +1,27 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "  A  ",
+      " BCB ",
+      "ACDCA",
+      " BCB ",
+      "  A  "
+    ],
+    "key": {
+      "A": {
+        "item": "pneumaticcraft:transistor"
+      },
+      "B": {
+        "item": "pneumaticcraft:capacitor"
+      },
+      "C": {
+        "item": "assemblylinemachines:attuned_titanium_plate"
+      },
+      "D": {
+        "item": "pneumaticcraft:unassembled_pcb"
+      }
+    },
+    "result": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    }
+  }

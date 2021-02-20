@@ -1,0 +1,39 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "ABCBA",
+      "CDEDF",
+      "AEGEF",
+      "CDHDF",
+      "ABCBA"
+    ],
+    "key": {
+      "A": {
+        "item": "immersiveengineering:plate_steel"
+      },
+      "B": {
+        "item": "assemblylinemachines:steel_gear"
+      },
+      "C": {
+        "item": "assemblylinemachines:titanium_plate"
+      },
+      "D": {
+        "item": "pneumaticcraft:compressed_iron_gear"
+      },
+      "E": {
+        "item": "assemblylinemachines:stainless_steel_plate"
+      },
+      "F": {
+        "item": "pneumaticcraft:advanced_pressure_tube"
+      },
+      "G": {
+        "item": "pneumaticcraft:printed_circuit_board"
+      },
+      "H": {
+        "item": "pneumaticcraft:air_compressor"
+      }
+    },
+    "result": {
+      "item": "pneumaticcraft:advanced_air_compressor"
+    }
+  }

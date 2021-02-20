@@ -1,0 +1,33 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "     ",
+      "A   B",
+      "CCCCC",
+      "D   E",
+      "E   E"
+    ],
+    "key": {
+      "A": {
+        "item": "createaddition:iron_wire"
+      },
+      "B": {
+        "type": "forge:nbt",
+        "item": "immersiveengineering:blueprint",
+        "count": 1,
+        "nbt": "{blueprint:\"components\"}"
+      },
+      "C": {
+        "item": "immersiveengineering:treated_wood_horizontal"
+      },
+      "D": {
+        "item": "immersiveengineering:craftingtable"
+      },
+      "E": {
+        "item": "immersiveengineering:treated_fence"
+      }
+    },
+    "result": {
+      "item": "immersiveengineering:workbench"
+    }
+  }

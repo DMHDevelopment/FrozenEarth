@@ -1,0 +1,32 @@
+{
+    "type": "pneumaticcraft:pressure_chamber",
+    "inputs": [
+      {
+        "type": "pneumaticcraft:stacked_item",
+        "item": "rankine:fluorite",
+        "count": 16
+      },
+      {
+        "type": "pneumaticcraft:stacked_item",
+        "item": "assemblylinemachines:stainless_steel_plate",
+        "count": 2
+      },
+      {
+        "type": "pneumaticcraft:stacked_item",
+        "item": "pneumaticcraft:plastic",
+        "count": 2
+      },
+      {
+        "item": "immersiveengineering:wirecoil_steel"
+      },
+      {
+        "item": "extendedcrafting:redstone_component"
+      }
+    ],
+    "pressure": 3.0,
+    "results": [
+      {
+        "item": "pneumaticcraft:capacitor"
+      }
+    ]
+  }

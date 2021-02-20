@@ -1,0 +1,36 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "  A  ",
+      " BAB ",
+      "CBDBC",
+      "EFGFE",
+      "ECGCE"
+    ],
+    "key": {
+      "A": {
+        "item": "pneumaticcraft:advanced_pressure_tube"
+      },
+      "B": {
+        "item": "assemblylinemachines:titanium_plate"
+      },
+      "C": {
+        "item": "pneumaticcraft:compressed_iron_gear"
+      },
+      "D": {
+        "item": "pneumaticcraft:printed_circuit_board"
+      },
+      "E": {
+        "item": "assemblylinemachines:stainless_steel_plate"
+      },
+      "F": {
+        "item": "pneumaticcraft:transistor"
+      },
+      "G": {
+        "item": "extendedcrafting:redstone_component"
+      }
+    },
+    "result": {
+      "item": "pneumaticcraft:pneumatic_dynamo"
+    }
+  }

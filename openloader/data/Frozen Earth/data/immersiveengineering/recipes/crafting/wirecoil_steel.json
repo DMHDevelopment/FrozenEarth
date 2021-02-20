@@ -1,0 +1,28 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "  A  ",
+      " BCB ",
+      "ACDCA",
+      " BCB ",
+      "  A  "
+    ],
+    "key": {
+      "A": {
+        "item": "immersiveengineering:wire_aluminum"
+      },
+      "B": {
+        "item": "immersiveengineering:wire_steel"
+      },
+      "C": {
+        "item": "immersiveengineering:stick_treated"
+      },
+      "D": {
+        "item": "immersiveengineering:wirecoil_structure_rope"
+      }
+    },
+    "result": {
+      "item": "immersiveengineering:wirecoil_steel",
+      "count": 4
+    }
+  }

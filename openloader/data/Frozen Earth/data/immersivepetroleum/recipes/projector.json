@@ -1,0 +1,27 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AB   ",
+      "BCC  ",
+      " CDC ",
+      "  CCB",
+      "   BB"
+    ],
+    "key": {
+      "A": {
+        "item": "zycraft:immortal_viewer"
+      },
+      "B": {
+        "item": "immersiveengineering:treated_wood_horizontal"
+      },
+      "C": {
+        "item": "assemblylinemachines:steel_nugget"
+      },
+      "D": {
+        "item": "immersiveengineering:electric_lantern"
+      }
+    },
+    "result": {
+      "item": "immersivepetroleum:projector"
+    }
+  }

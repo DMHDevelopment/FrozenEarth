@@ -1,0 +1,51 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AABAA",
+      "ACDCA",
+      "EFGFE",
+      "HIJIH",
+      "KKLKK"
+    ],
+    "key": {
+      "A": {
+        "item": "create:iron_sheet"
+      },
+      "B": {
+        "item": "simplyjetpacks:armorplating_ie2"
+      },
+      "C": {
+        "item": "createaddition:gold_rod"
+      },
+      "D": {
+        "item": "createaddition:multimeter"
+      },
+      "E": {
+        "item": "routerreborn:coppercoil"
+      },
+      "F": {
+        "item": "extendedcrafting:redstone_component"
+      },
+      "G": {
+        "item": "create:integrated_circuit"
+      },
+      "H": {
+        "item": "create:copper_sheet"
+      },
+      "I": {
+        "item": "createaddition:capacitor"
+      },
+      "J": {
+        "item": "immersiveengineering:wirecoil_steel"
+      },
+      "K": {
+        "item": "immersiveengineering:treated_wood_horizontal"
+      },
+      "L": {
+        "item": "createaddition:brass_rod"
+      }
+    },
+    "result": {
+      "item": "immersiveengineering:capacitor_lv"
+    }
+  }

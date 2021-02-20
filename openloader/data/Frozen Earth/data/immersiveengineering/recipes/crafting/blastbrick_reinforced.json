@@ -1,0 +1,24 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AA AA",
+      "A B A",
+      " BCB ",
+      "A B A",
+      "AA AA"
+    ],
+    "key": {
+      "A": {
+        "item": "assemblylinemachines:steel_plate"
+      },
+      "B": {
+        "item": "immersiveengineering:nugget_steel"
+      },
+      "C": {
+        "item": "immersiveengineering:blastbrick"
+      }
+    },
+    "result": {
+      "item": "immersiveengineering:blastbrick_reinforced"
+    }
+  }
