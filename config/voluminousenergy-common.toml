@@ -286,6 +286,12 @@
 [General]
 	#Allow pipes to extract fluids from fluid input tanks. Disabling this means that only fluid outputs can be extracted from Tile Entites
 	"Allow Extraction from Input Tanks" = false
+	#Damage taken from standing in an acid.
+	#Range: 0.0 ~ 3.4028234663852886E38
+	"Acid Damage" = 3.0
+	#Duration of fire on an entity for stepping into an acid.
+	#Range: > 0
+	"Acid Fire Duration" = 4
 
 #Electrolyzer Settings
 [Electrolyzer]
@@ -301,4 +307,46 @@
 	#Power I/O per tick for the Electrolyzer
 	#Range: > 0
 	"Maximum Transfer" = 1000
+
+#Battery Box Settings
+["Battery Box"]
+	#Maximum Power for the Battery Box to store
+	#Range: > 0
+	"Maximum Power" = 50000
+	#Power I/O per tick for the Battery Box
+	#Range: > 0
+	"Maximum Transfer" = 5000
+	#Harvest level of the tool that is required to receive the block as an item when mined
+	#Range: > 0
+	"Harvest Level" = 1
+
+#Primitive Solar Panel
+["Primitive Solar Panel"]
+	#Maximum Power for the Primitive Solar Panel to store
+	#Range: > 0
+	"Maximum Power" = 100000
+	#Value for power generation for the Primitive Solar Panel
+	#Range: > 0
+	"Generation Rate" = 64
+	#Maximum power to send out per tick for the Primitive Solar Panel
+	#Range: > 0
+	"Maximum Transfer" = 1000
+	#Harvest level of the tool that is required to receive the block as an item when mined
+	#Range: > 0
+	"Harvest Level" = 1
+
+#Solar Panel
+["Solar Panel"]
+	#Maximum Power for the Solar Panel to store
+	#Range: > 0
+	"Maximum Power" = 250000
+	#Value for power generation for the Solar Panel
+	#Range: > 0
+	"Generation Rate" = 128
+	#Maximum power to send out per tick for the Solar Panel
+	#Range: > 0
+	"Maximum Transfer" = 5000
+	#Harvest level of the tool that is required to receive the block as an item when mined
+	#Range: > 0
+	"Harvest Level" = 1
 
