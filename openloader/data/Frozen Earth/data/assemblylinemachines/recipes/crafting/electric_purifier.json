@@ -1,30 +1,39 @@
 {
     "type": "extendedcrafting:shaped_table",
     "pattern": [
-      " AAA ",
-      " BCB ",
-      "BBCBB",
-      "DDEDD",
-      "AAAAA"
+      "ABBBA",
+      "BCDCB",
+      "BEFEB",
+      "BGHGB",
+      "ABBBA"
     ],
     "key": {
       "A": {
-        "item": "assemblylinemachines:titanium_plate"
+        "item": "immersiveengineering:steel_scaffolding_standard"
       },
       "B": {
-        "item": "assemblylinemachines:gold_gear"
+        "item": "assemblylinemachines:titanium_plate"
       },
       "C": {
-        "item": "assemblylinemachines:black_granite"
+        "item": "assemblylinemachines:gold_gear"
       },
       "D": {
-        "item": "minecraft:diamond"
+        "item": "create:chromatic_compound"
       },
       "E": {
-        "item": "minecraft:lapis_block"
+        "item": "createaddition:capacitor"
+      },
+      "F": {
+        "item": "create:integrated_circuit"
+      },
+      "G": {
+        "item": "extendedcrafting:redstone_component"
+      },
+      "H": {
+        "item": "create:whisk"
       }
     },
     "result": {
       "item": "assemblylinemachines:electric_purifier"
     }
-  }
+}

@@ -1,0 +1,42 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "ABBBA",
+      "BCDEB",
+      "BFGFB",
+      "BHICB",
+      "ABBBA"
+    ],
+    "key": {
+      "A": {
+        "item": "immersiveengineering:steel_scaffolding_standard"
+      },
+      "B": {
+        "item": "assemblylinemachines:titanium_plate"
+      },
+      "C": {
+        "item": "create:integrated_circuit"
+      },
+      "D": {
+        "item": "assemblylinemachines:steel_tank_component"
+      },
+      "E": {
+        "item": "extendedcrafting:redstone_component"
+      },
+      "F": {
+        "item": "minecraft:blast_furnace"
+      },
+      "G": {
+        "item": "assemblylinemachines:conduction_component"
+      },
+      "H": {
+        "item": "routerreborn:coppercoil"
+      },
+      "I": {
+        "item": "assemblylinemachines:temperature_regulator"
+      }
+    },
+    "result": {
+      "item": "assemblylinemachines:alloy_smelter"
+    }
+  }

@@ -1,0 +1,27 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      " A A ",
+      "ABCBA",
+      " CDC ",
+      "ABCBA",
+      " A A "
+    ],
+    "key": {
+      "A": {
+        "item": "assemblylinemachines:steel_plate"
+      },
+      "B": {
+        "item": "assemblylinemachines:pure_steel"
+      },
+      "C": {
+        "item": "immersiveengineering:treated_fence"
+      },
+      "D": {
+        "item": "assemblylinemachines:iron_gear"
+      }
+    },
+    "result": {
+      "item": "assemblylinemachines:steel_gear"
+    }
+  }

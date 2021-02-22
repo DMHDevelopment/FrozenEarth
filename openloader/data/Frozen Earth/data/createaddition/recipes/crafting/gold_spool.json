@@ -1,25 +1,24 @@
 {
     "type": "extendedcrafting:shaped_table",
     "pattern": [
-      " A A ",
-      "ABBBA",
-      " BCB ",
-      "ABBBA",
-      " A A "
+      "  A  ",
+      " ABA ",
+      "ABCBA",
+      " ABA ",
+      "  A  "
     ],
     "key": {
       "A": {
-        "tag": "forge:plates/iron"
+        "item": "createaddition:gold_wire"
       },
       "B": {
         "item": "immersiveengineering:treated_fence"
       },
       "C": {
-        "item": "create:cogwheel"
+        "item": "createaddition:spool"
       }
     },
     "result": {
-      "item": "assemblylinemachines:iron_gear",
-      "count": 2
+      "item": "createaddition:gold_spool"
     }
   }

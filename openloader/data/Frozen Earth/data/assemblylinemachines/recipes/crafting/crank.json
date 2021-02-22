@@ -1,0 +1,27 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "  A  ",
+      "  A  ",
+      "  A  ",
+      "BBCBB",
+      "DDDDD"
+    ],
+    "key": {
+      "A": {
+        "item": "immersiveengineering:treated_fence"
+      },
+      "B": {
+        "item": "assemblylinemachines:steel_ingot"
+      },
+      "C": {
+        "item": "assemblylinemachines:crank_shaft"
+      },
+      "D": {
+        "item": "create:andesite_alloy"
+      }
+    },
+    "result": {
+      "item": "assemblylinemachines:crank"
+    }
+  }

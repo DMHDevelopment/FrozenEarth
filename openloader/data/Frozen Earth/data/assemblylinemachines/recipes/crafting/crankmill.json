@@ -1,18 +1,48 @@
 {
-    "type": "extendedcrafting:shaped_table",
-    "pattern": [
-      "     ",
-      "     ",
-      "     ",
-      "  A  ",
-      "     "
-    ],
-    "key": {
-      "A": {
-        "item": "assemblylinemachines:crank_shaft"
-      }
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABCBA",
+    "BDEFB",
+    "GHIJG",
+    "BFKDB",
+    "ABCBA"
+  ],
+  "key": {
+    "A": {
+      "item": "immersiveengineering:steel_scaffolding_standard"
     },
-    "result": {
-      "item": ""
+    "B": {
+      "item": "assemblylinemachines:titanium_plate"
+    },
+    "C": {
+      "tag": "forge:plates/brass"
+    },
+    "D": {
+      "item": "createaddition:gold_spool"
+    },
+    "E": {
+      "item": "create:integrated_circuit"
+    },
+    "F": {
+      "item": "assemblylinemachines:energy_pipe"
+    },
+    "G": {
+      "tag": "forge:plates/copper"
+    },
+    "H": {
+      "item": "createaddition:heater"
+    },
+    "I": {
+      "item": "assemblylinemachines:gold_gear"
+    },
+    "J": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "K": {
+      "item": "assemblylinemachines:crank_shaft"
     }
+  },
+  "result": {
+    "item": "assemblylinemachines:crankmill"
   }
+}

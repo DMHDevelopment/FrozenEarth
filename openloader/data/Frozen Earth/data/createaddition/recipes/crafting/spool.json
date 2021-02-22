@@ -1,0 +1,22 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "  A  ",
+      " ABA ",
+      "AB BA",
+      " ABA ",
+      "  A  "
+    ],
+    "key": {
+      "A": {
+        "tag": "forge:plates/iron"
+      },
+      "B": {
+        "item": "minecraft:iron_nugget"
+      }
+    },
+    "result": {
+      "item": "createaddition:spool",
+      "count": 4
+    }
+  }
