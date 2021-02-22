@@ -1,0 +1,25 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AAAAA",
+      "ABBBA",
+      "ABCBA",
+      "ABBBA",
+      "AAAAA"
+    ],
+    "key": {
+      "A": {
+        "item": "pneumaticcraft:reinforced_bricks"
+      },
+      "B": {
+        "tag": "forge:glass"
+      },
+      "C": {
+        "item": "appliedenergistics2:quartz_glass"
+      }
+    },
+    "result": {
+        "item": "pneumaticcraft:pressure_chamber_glass",
+        "count": 8
+    }
+  }

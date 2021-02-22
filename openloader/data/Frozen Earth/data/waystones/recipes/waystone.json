@@ -1,0 +1,36 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "ABBBA",
+      " BCB ",
+      " DBD ",
+      " BEB ",
+      "ABBBA"
+    ],
+    "key": {
+      "A": {
+        "type": "forge:nbt",
+        "item": "rankine:black_gold_alloy",
+        "count": 1,
+        "nbt": "{HideFlags:2,StoredComposition:[{comp:\"75Au-25Co\"}]}"
+      },
+      "B": {
+        "item": "pneumaticcraft:reinforced_bricks"
+      },
+      "C": {
+        "item": "rankine:arsenic_block"
+      },
+      "D": {
+        "type": "forge:nbt",
+        "item": "waystones:warp_stone",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      },
+      "E": {
+        "item": "silentgear:blaze_gold_block"
+      }
+    },
+    "result": {
+      "item": "waystones:waystone"
+    }
+  }

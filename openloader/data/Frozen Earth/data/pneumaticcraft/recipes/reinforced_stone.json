@@ -1,0 +1,25 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "ABABA",
+      "BCBCB",
+      "ABABA",
+      "BCBCB",
+      "ABABA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:stone"
+      },
+      "B": {
+        "item": "minecraft:cobblestone"
+      },
+      "C": {
+        "item": "pneumaticcraft:ingot_iron_compressed"
+      }
+    },
+    "result": {
+      "item": "pneumaticcraft:reinforced_stone",
+      "count": 16
+    }
+  }

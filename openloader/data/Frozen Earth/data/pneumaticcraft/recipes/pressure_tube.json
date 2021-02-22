@@ -1,0 +1,25 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "     ",
+      "AABAA",
+      "CCCCC",
+      "AABAA",
+      "     "
+    ],
+    "key": {
+      "A": {
+        "item": "assemblylinemachines:rubber_sheet"
+      },
+      "B": {
+        "item": "pneumaticcraft:ingot_iron_compressed"
+      },
+      "C": {
+        "item": "assemblylinemachines:fluid_pipe"
+      }
+    },
+    "result": {
+      "item": "pneumaticcraft:pressure_tube",
+      "count": 6
+    }
+  }

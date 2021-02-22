@@ -1,0 +1,42 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "ABABA",
+      "CDEDC",
+      "AFGFA",
+      "CHIHC",
+      "ABABA"
+    ],
+    "key": {
+      "A": {
+        "item": "assemblylinemachines:steel_plate"
+      },
+      "B": {
+        "tag": "forge:plates/copper"
+      },
+      "C": {
+        "item": "assemblylinemachines:rubber_sheet"
+      },
+      "D": {
+        "tag": "forge:rods/brass"
+      },
+      "E": {
+        "item": "immersiveengineering:circuit_board"
+      },
+      "F": {
+        "item": "extendedcrafting:redstone_catalyst"
+      },
+      "G": {
+        "item": "assemblylinemachines:fluid_regulator"
+      },
+      "H": {
+        "item": "create:integrated_circuit"
+      },
+      "I": {
+        "item": "assemblylinemachines:machine_upgrade_gas"
+      }
+    },
+    "result": {
+      "item": "assemblylinemachines:refinery_attachment_halogen"
+    }
+  }

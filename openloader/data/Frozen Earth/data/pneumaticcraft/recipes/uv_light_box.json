@@ -1,0 +1,45 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AAAA ",
+      "ABCCC",
+      "ADEF ",
+      "AGHIH",
+      "AAAJ "
+    ],
+    "key": {
+      "A": {
+        "item": "immersiveengineering:sheetmetal_steel"
+      },
+      "B": {
+        "item": "betterendforge:thallasium_chain"
+      },
+      "C": {
+        "item": "immersiveengineering:electric_lantern"
+      },
+      "D": {
+        "item": "pneumaticcraft:printed_circuit_board"
+      },
+      "E": {
+        "item": "immersiveengineering:wire_aluminum"
+      },
+      "F": {
+        "item": "pneumaticcraft:pcb_blueprint"
+      },
+      "G": {
+        "item": "assemblylinemachines:microprocessor"
+      },
+      "H": {
+        "tag": "forge:plates/constantan"
+      },
+      "I": {
+        "tag": "forge:plates/electrum"
+      },
+      "J": {
+        "item": "betterendforge:terminite_anvil"
+      }
+    },
+    "result": {
+      "item": "pneumaticcraft:uv_light_box"
+    }
+  }

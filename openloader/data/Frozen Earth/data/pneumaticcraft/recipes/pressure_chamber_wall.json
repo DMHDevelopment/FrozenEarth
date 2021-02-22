@@ -1,0 +1,25 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AAAAA",
+      "ABCBA",
+      "ACCCA",
+      "ABCBA",
+      "AAAAA"
+    ],
+    "key": {
+      "A": {
+        "item": "pneumaticcraft:reinforced_bricks"
+      },
+      "B": {
+        "item": "hardcoredungeons:compressed_cobblestone"
+      },
+      "C": {
+        "item": "minecraft:cobblestone"
+      }
+    },
+    "result": {
+      "item": "pneumaticcraft:pressure_chamber_wall",
+      "count": 8
+    }
+  }

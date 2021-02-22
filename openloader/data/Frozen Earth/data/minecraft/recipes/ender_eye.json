@@ -1,0 +1,34 @@
+{
+    "type": "pneumaticcraft:pressure_chamber",
+    "inputs": [
+      {
+        "type": "pneumaticcraft:stacked_item",
+        "item": "silentgear:blaze_gold_ingot",
+        "count": 2
+      },
+      {
+        "type": "pneumaticcraft:stacked_item",
+        "item": "silentgear:crimson_iron_ingot",
+        "count": 2
+      },
+      {
+        "type": "pneumaticcraft:stacked_item",
+        "item": "minecraft:fire_charge",
+        "count": 2
+      },
+      {
+        "type": "pneumaticcraft:stacked_item",
+        "item": "minecraft:glowstone_dust",
+        "count": 4
+      },
+      {
+        "item": "minecraft:ender_pearl"
+      }
+    ],
+    "pressure": 2.0,
+    "results": [
+      {
+        "item": "minecraft:ender_eye"
+      }
+    ]
+  }

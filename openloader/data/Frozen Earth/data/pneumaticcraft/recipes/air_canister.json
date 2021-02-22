@@ -1,0 +1,39 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "  A  ",
+      " BCB ",
+      "DEFED",
+      "DGFGD",
+      "DGFGD"
+    ],
+    "key": {
+      "A": {
+        "item": "pneumaticcraft:pressure_tube"
+      },
+      "B": {
+        "type": "forge:nbt",
+        "item": "rankine:black_gold_alloy",
+        "count": 1,
+        "nbt": "{HideFlags:2,StoredComposition:[{comp:\"75Au-25Co\"}]}"
+      },
+      "C": {
+        "item": "createaddition:gold_spool"
+      },
+      "D": {
+        "item": "pneumaticcraft:ingot_iron_compressed"
+      },
+      "E": {
+        "tag": "forge:rods/brass"
+      },
+      "F": {
+        "item": "extendedcrafting:redstone_ingot"
+      },
+      "G": {
+        "tag": "forge:rods/copper"
+      }
+    },
+    "result": {
+      "item": "pneumaticcraft:air_canister"
+    }
+  }

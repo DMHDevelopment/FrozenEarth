@@ -1,0 +1,39 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "ABABA",
+      "CDEDC",
+      "AFGFA",
+      "CDHDC",
+      "ABABA"
+    ],
+    "key": {
+      "A": {
+        "item": "assemblylinemachines:steel_plate"
+      },
+      "B": {
+        "tag": "forge:plates/brass"
+      },
+      "C": {
+        "item": "assemblylinemachines:rubber_sheet"
+      },
+      "D": {
+        "tag": "forge:plates/electrum"
+      },
+      "E": {
+        "item": "create:integrated_circuit"
+      },
+      "F": {
+        "tag": "forge:rods/brass"
+      },
+      "G": {
+        "item": "immersiveengineering:light_engineering"
+      },
+      "H": {
+        "item": "assemblylinemachines:stainless_steel_tank_component"
+      }
+    },
+    "result": {
+      "item": "assemblylinemachines:refinery_attachment_addition"
+    }
+  }

@@ -1,0 +1,40 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "ABABA",
+      "CDEDC",
+      "AFGFA",
+      "CDHDC",
+      "ABABA"
+    ],
+    "key": {
+      "A": {
+        "item": "assemblylinemachines:steel_plate"
+      },
+      "B": {
+        "tag": "forge:plates/iron"
+      },
+      "C": {
+        "item": "assemblylinemachines:rubber_sheet"
+      },
+      "D": {
+        "item": "assemblylinemachines:empowered_fuel"
+      },
+      "E": {
+        "item": "assemblylinemachines:coal_generator"
+      },
+      "F": {
+        "item": "assemblylinemachines:stainless_steel_tank_component"
+      },
+      "G": {
+        "item": "assemblylinemachines:fluid_regulator"
+      },
+      "H": {
+        "item": "assemblylinemachines:upgrade_speed"
+      }
+    },
+    "result": {
+      "item": "assemblylinemachines:refinery_attachment_cracking"
+    }
+  }
+

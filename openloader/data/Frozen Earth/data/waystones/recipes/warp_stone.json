@@ -1,0 +1,33 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "  A  ",
+      " BCB ",
+      "DCECD",
+      " BCB ",
+      "  A  "
+    ],
+    "key": {
+      "A": {
+        "item": "upgradednetherite:wither_upgraded_netherite_ingot"
+      },
+      "B": {
+        "item": "terraqueous:doodad_endimium"
+      },
+      "C": {
+        "item": "assemblylinemachines:condensed_void_bucket"
+      },
+      "D": {
+        "type": "forge:nbt",
+        "item": "rankine:cobalt_superalloy",
+        "count": 1,
+        "nbt": "{HideFlags:2,StoredComposition:[{comp:\"60Co-20Cr-10Ni-10Ta\"}]}"
+      },
+      "E": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    "result": {
+      "item": "waystones:warp_stone"
+    }
+  }

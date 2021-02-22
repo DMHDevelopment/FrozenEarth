@@ -1,30 +1,48 @@
 {
-    "type": "extendedcrafting:shaped_table",
-    "pattern": [
-      " AAA ",
-      "ABCBA",
-      "DDDDE",
-      "ACBCA",
-      " AAA "
-    ],
-    "key": {
-      "A": {
-        "item": "pneumaticcraft:reinforced_bricks"
-      },
-      "B": {
-        "item": "immersiveengineering:wirecoil_redstone"
-      },
-      "C": {
-        "item": "pneumaticcraft:ingot_iron_compressed"
-      },
-      "D": {
-        "item": "pneumaticcraft:pressure_tube"
-      },
-      "E": {
-        "item": "terraqueous:craftfurnace"
-      }
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABCBA",
+    "BDEDB",
+    "CFGHH",
+    "BIJIB",
+    "ABCBA"
+  ],
+  "key": {
+    "A": {
+      "item": "assemblylinemachines:steel_plate"
     },
-    "result": {
-      "item": "pneumaticcraft:air_compressor"
+    "B": {
+      "item": "pneumaticcraft:ingot_iron_compressed"
+    },
+    "C": {
+      "item": "assemblylinemachines:attuned_titanium_plate"
+    },
+    "D": {
+      "item": "create:propeller"
+    },
+    "E": {
+      "item": "immersiveengineering:toolupgrade_revolver_electro"
+    },
+    "F": {
+      "item": "create:mechanical_piston"
+    },
+    "G": {
+      "item": "pneumaticcraft:pressure_gauge"
+    },
+    "H": {
+      "item": "pneumaticcraft:pressure_tube"
+    },
+    "I": {
+      "type": "forge:nbt",
+      "item": "rankine:cobalt_superalloy",
+      "count": 1,
+      "nbt": "{HideFlags:2,StoredComposition:[{comp:\"60Co-20Cr-10Ni-10Ta\"}]}"
+    },
+    "J": {
+      "item": "create:whisk"
     }
+  },
+  "result": {
+    "item": "pneumaticcraft:air_compressor"
   }
+}
