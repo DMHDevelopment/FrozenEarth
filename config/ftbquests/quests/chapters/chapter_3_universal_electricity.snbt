@@ -137,7 +137,7 @@
 			}]
 		},
 		{
-			title: "Energggggy",
+			title: "Energy and the way it can go...",
 			x: 7.0d,
 			y: 0.5d,
 			description: ["I learned how to generate energy, but I did not store it, the first step for storing energy was to make a battery."],
@@ -538,6 +538,12 @@
 				id: "0000000000000270",
 				type: "item",
 				item: "assemblylinemachines:simple_fluid_mixer"
+			}],
+			rewards: [{
+				id: "048337D228FD4252",
+				type: "item",
+				item: "assemblylinemachines:steel_ingot",
+				count: 8
 			}]
 		},
 		{
@@ -570,6 +576,7 @@
 			}]
 		},
 		{
+			title: "Plating and Gearing",
 			x: -0.5d,
 			y: -2.5d,
 			description: ["After creating the hammer, I started forging metal to get iron plates and gears."],
@@ -587,7 +594,13 @@
 					type: "item",
 					item: "assemblylinemachines:iron_gear"
 				}
-			]
+			],
+			rewards: [{
+				id: "0756B8FF27530D82",
+				type: "item",
+				item: "assemblylinemachines:iron_gear",
+				count: 4
+			}]
 		},
 		{
 			x: -0.5d,
@@ -638,9 +651,15 @@
 				type: "item",
 				item: "assemblylinemachines:black_granite",
 				count: 16L
+			}],
+			rewards: [{
+				id: "4E13377ECE43CD9F",
+				type: "item",
+				item: "minecraft:magma_cube_spawn_egg"
 			}]
 		},
 		{
+			title: "Wiring and wiring... all alone.",
 			x: 1.0d,
 			y: -2.5d,
 			description: ["Here it is the first energy, more precisely wires that can transmit this energy, they are of course very simple but will come down to begin with. Shift-Right-Click to connect a cable. Right-Click on a connection near the cable and machine to change input and output of energy."],
@@ -654,7 +673,27 @@
 				type: "item",
 				item: "assemblylinemachines:energy_pipe",
 				count: 4L
-			}]
+			}],
+			rewards: [
+				{
+					id: "43401F96E85309F3",
+					type: "item",
+					item: "assemblylinemachines:energy_pipe",
+					count: 6
+				},
+				{
+					id: "77C7A8BE39E64260",
+					type: "item",
+					item: "minecraft:iron_ore",
+					count: 24
+				},
+				{
+					id: "5036D424F51BAE78",
+					type: "item",
+					item: "rankine:native_copper_ore",
+					count: 16
+				}
+			]
 		},
 		{
 			x: 4.0d,
