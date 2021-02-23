@@ -572,14 +572,15 @@
 			}]
 		},
 		{
+			title: "Visiting mysterious lands...",
 			x: 12.5d,
 			y: -2.0d,
 			dependencies: ["0000000000000390"],
 			id: "0000000000000392",
 			tasks: [{
-				id: "0000000000000393",
-				type: "item",
-				item: "minecraft:end_portal_frame"
+				id: "37A252C7A91B7388",
+				type: "dimension",
+				dimension: "minecraft:the_end"
 			}]
 		},
 		{
@@ -796,12 +797,43 @@
 			y: -5.0d,
 			dependencies: ["000000000000038E"],
 			id: "7040897F384BB949",
-			tasks: [{
-				id: "5B4E996025B3F3C4",
-				type: "item",
-				item: "immersiveengineering:sheetmetal_iron",
-				count: 60L
-			}]
+			tasks: [
+				{
+					id: "5B4E996025B3F3C4",
+					type: "item",
+					item: "immersiveengineering:sheetmetal_iron",
+					count: 60L
+				},
+				{
+					id: "6E8227D6689A4ABD",
+					type: "item",
+					item: "immersiveengineering:slab_steel_scaffolding_standard",
+					count: 30L
+				},
+				{
+					id: "3215FD7B1F807340",
+					type: "item",
+					item: "immersiveengineering:fluid_pipe",
+					count: 17L
+				},
+				{
+					id: "76BB11EA49DF8FBE",
+					type: "item",
+					item: "immersiveengineering:rs_engineering"
+				},
+				{
+					id: "2D15FF6AC85CC28E",
+					type: "item",
+					item: "immersiveengineering:heavy_engineering",
+					count: 4L
+				},
+				{
+					id: "53CAC499F2DF5EC4",
+					type: "item",
+					item: "immersiveengineering:steel_scaffolding_standard",
+					count: 25L
+				}
+			]
 		},
 		{
 			x: 3.0d,

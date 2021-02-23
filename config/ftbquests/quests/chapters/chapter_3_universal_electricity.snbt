@@ -11,8 +11,8 @@
 			x: -11.0d,
 			y: -1.0d,
 			description: [
-				'I recently found this very interesting file called "Assembly Lines & You"... After a lot of kinetic mechanisms I need to go through some sort of electricity... While kinetical energy can be converted to potential easily, but converting into electric',
-				"stuff is a bit harder... Also stuff becomes more complex and it requires better crafting table to craft all the things..."
+				"Recently found an interesting book... After a lot of kinetic mechanisms I need to go through some sort of electricity. While kinetical energy can be converted to potential easily, but converting into electric stuff is a bit harder... Also stuff becomes more complex and it requires better crafting table to craft all the things...",
+				""
 			],
 			dependencies: ["000000000000016A"],
 			size: 2.0d,
@@ -140,6 +140,7 @@
 			title: "Energggggy",
 			x: 7.0d,
 			y: 0.5d,
+			description: ["I learned how to generate energy, but I did not store it, the first step for storing energy was to make a battery."],
 			dependencies: ["0000000000000284"],
 			id: "0000000000000217",
 			tasks: [{
@@ -309,6 +310,7 @@
 		{
 			x: -4.0d,
 			y: -7.0d,
+			description: ["In this strange place, I found ore that I had not seen before unlike gold, maybe it would be useful for me to improve my tools."],
 			hide_dependency_lines: true,
 			dependencies: ["000000000000024F"],
 			id: "0000000000000253",
@@ -472,7 +474,7 @@
 			}]
 		},
 		{
-			title: "Kinetic Energy",
+			title: "Mechanical Energy",
 			x: -2.0d,
 			y: -1.0d,
 			description: ["After getting good steel screws - I can make some cranks, which allow to create kinetic energy which I can spent of grinding resources in a much compact way."],
@@ -500,6 +502,7 @@
 		{
 			x: -2.0d,
 			y: 0.5d,
+			description: ["After creating the crushing wheel, I thought because there are ores and blocks that the stone simply does not take, and therefore, using mechanical energy, it was decided to create a crusher."],
 			dependencies: ["0000000000000269"],
 			id: "000000000000026B",
 			tasks: [{
@@ -511,17 +514,24 @@
 		{
 			x: -2.0d,
 			y: 2.0d,
+			description: ["Of course, you could continue to use a wooden storage of liquid, but if I spill lava there for example, I think it will not be very good, everyone is nearby, and I myself can burn in it."],
 			dependencies: ["000000000000026B"],
 			id: "000000000000026D",
 			tasks: [{
 				id: "000000000000026E",
 				type: "item",
 				item: "assemblylinemachines:steel_fluid_tank"
+			}],
+			rewards: [{
+				id: "209C85A382BC3857",
+				type: "item",
+				item: "assemblylinemachines:wooden_fluid_tank"
 			}]
 		},
 		{
 			x: -3.5d,
 			y: 0.5d,
+			description: ["Finally, I can use mechanical energy, get objects that I could not get before, adding another to one object using a drop of liquid."],
 			dependencies: ["0000000000000269"],
 			id: "000000000000026F",
 			tasks: [{
@@ -562,13 +572,15 @@
 		{
 			x: -0.5d,
 			y: -2.5d,
+			description: ["After creating the hammer, I started forging metal to get iron plates and gears."],
 			dependencies: ["0000000000000271"],
 			id: "0000000000000273",
 			tasks: [
 				{
 					id: "0000000000000274",
 					type: "item",
-					item: "assemblylinemachines:iron_plate"
+					item: "assemblylinemachines:iron_plate",
+					count: 3L
 				},
 				{
 					id: "0000000000000275",
@@ -580,6 +592,7 @@
 		{
 			x: -0.5d,
 			y: -1.0d,
+			description: ["In order to further advance in development, we do not degrade here, for the next machines a gearbox will already be required, this is beginning of automation."],
 			dependencies: [
 				"0000000000000269",
 				"0000000000000273"
@@ -589,33 +602,48 @@
 				id: "0000000000000277",
 				type: "item",
 				item: "assemblylinemachines:gearbox"
+			}],
+			rewards: [{
+				id: "2BA291EB7B526EB5",
+				type: "item",
+				item: "assemblylinemachines:empowered_coal",
+				count: 2
 			}]
 		},
 		{
 			x: 1.0d,
 			y: -1.0d,
+			description: ["With the help of the gearbox and I created a mechanism that allows you to charge objects with mechanical energy, only the objects themselves I have not yet crafted..."],
 			dependencies: ["0000000000000273"],
 			id: "0000000000000278",
 			tasks: [{
 				id: "0000000000000279",
 				type: "item",
 				item: "assemblylinemachines:simple_crank_charger"
+			}],
+			rewards: [{
+				id: "33DF471A4A860579",
+				type: "item",
+				item: "assemblylinemachines:empowered_coal"
 			}]
 		},
 		{
 			x: 1.0d,
 			y: -4.0d,
+			description: ["Black granite, which is also in nether, is an ingredient for some machines."],
 			dependencies: ["000000000000024F"],
 			id: "000000000000027A",
 			tasks: [{
 				id: "000000000000027B",
 				type: "item",
-				item: "assemblylinemachines:black_granite"
+				item: "assemblylinemachines:black_granite",
+				count: 16L
 			}]
 		},
 		{
 			x: 1.0d,
 			y: -2.5d,
+			description: ["Here it is the first energy, more precisely wires that can transmit this energy, they are of course very simple but will come down to begin with. Shift-Right-Click to connect a cable. Right-Click on a connection near the cable and machine to change input and output of energy."],
 			dependencies: [
 				"000000000000027A",
 				"0000000000000273"
@@ -624,12 +652,14 @@
 			tasks: [{
 				id: "000000000000027D",
 				type: "item",
-				item: "assemblylinemachines:energy_pipe"
+				item: "assemblylinemachines:energy_pipe",
+				count: 4L
 			}]
 		},
 		{
 			x: 4.0d,
 			y: -4.0d,
+			description: ["So the pipes can't move kinetic energy, I decided to create a converter, and from kinetic get already electric energy, which will need to power the new mechanisms."],
 			dependencies: ["0000000000000280"],
 			id: "000000000000027E",
 			tasks: [{
@@ -641,6 +671,7 @@
 		{
 			x: 2.5d,
 			y: -2.5d,
+			description: ["Over the stone that I got by mixing, I conducted a ritual of absorbing light and created new material not seen to me before."],
 			dependencies: ["000000000000027C"],
 			size: 1.25d,
 			id: "0000000000000280",
@@ -648,12 +679,22 @@
 				id: "0000000000000281",
 				type: "item",
 				item: "create:refined_radiance"
+			}],
+			rewards: [{
+				id: "4F94BF130E6DB286",
+				type: "item",
+				item: {
+					id: "create:chromatic_compound",
+					Count: 1b,
+					tag: {}
+				}
 			}]
 		},
 		{
 			x: 4.0d,
 			y: -2.5d,
-			dependencies: ["0000000000000280"],
+			description: ["At first, I wanted to polish ingots of gold and other materials with sand, but nothing worked out, as a result, I came up with the idea to use the energy now obtained by RF to clean ingots."],
+			dependencies: ["000000000000027E"],
 			id: "0000000000000282",
 			tasks: [{
 				id: "0000000000000283",
@@ -664,6 +705,7 @@
 		{
 			x: 7.0d,
 			y: -2.5d,
+			description: ["The time has come to deal with alloys, because conventional metals do not satisfy my conditions I created an alloy smelter with it now I will create new metal alloys."],
 			dependencies: ["0000000000000282"],
 			id: "0000000000000284",
 			tasks: [{
@@ -675,25 +717,48 @@
 		{
 			x: 4.0d,
 			y: -1.0d,
+			description: ["With the help of a cleaner, I received cleaned steel for further production."],
 			dependencies: ["0000000000000282"],
 			id: "0000000000000286",
 			tasks: [{
 				id: "0000000000000287",
 				type: "item",
-				item: "assemblylinemachines:pure_steel"
+				item: "assemblylinemachines:pure_steel",
+				count: 12L
 			}]
 		},
 		{
 			icon: "immersiveengineering:wirecoil_copper",
 			x: 13.0d,
 			y: -10.0d,
+			description: ["I did well, because no one praises yourself, but at least you need to lay wires for a lot of work, for this you need to create initial copper wires, connectors, and relays."],
 			dependencies: ["000000000000032A"],
 			size: 2.0d,
-			id: "0000000000000288"
+			id: "0000000000000288",
+			tasks: [
+				{
+					id: "4B5ACF6437997BEA",
+					type: "item",
+					item: "immersiveengineering:wirecoil_copper",
+					count: 4L
+				},
+				{
+					id: "6A7675929A2BAFC1",
+					type: "item",
+					item: "immersiveengineering:connector_lv",
+					count: 2L
+				},
+				{
+					id: "68CDA286A54ACD8E",
+					type: "item",
+					item: "immersiveengineering:connector_lv_relay"
+				}
+			]
 		},
 		{
 			x: 4.0d,
 			y: -5.5d,
+			description: ["I tried to flatten some ingots with a sledgehammer, so some either did not succumb or split, so I considered it necessary to create automatic rolling."],
 			dependencies: ["000000000000027E"],
 			id: "000000000000028A",
 			tasks: [{
@@ -705,6 +770,7 @@
 		{
 			x: 13.0d,
 			y: -2.5d,
+			description: ["Having melted 2 ores mined earlier, I began to create the alloy I needed to transition to a new era of development."],
 			dependencies: [
 				"0000000000000296",
 				"0000000000000294"
@@ -714,34 +780,52 @@
 			tasks: [{
 				id: "000000000000028F",
 				type: "item",
-				item: "assemblylinemachines:chromium_plate"
+				item: "assemblylinemachines:chromium_plate",
+				count: 4L
 			}]
 		},
 		{
 			x: 10.0d,
 			y: -3.5d,
+			description: ["To create a new alloy, I need such ores as Magnetite and Chromite, I take the pickaxe and go to he mine."],
 			dependencies: ["0000000000000284"],
 			id: "0000000000000294",
 			tasks: [{
 				id: "0000000000000295",
 				type: "item",
-				item: "rankine:magnetite_ore"
+				item: "rankine:magnetite_ore",
+				count: 16L
+			}],
+			rewards: [{
+				id: "69344B5773935BF8",
+				type: "item",
+				item: "rankine:chromite_ore",
+				count: 2
 			}]
 		},
 		{
 			x: 10.0d,
 			y: -1.5d,
+			description: ["To create a new alloy, I need such ores as Magnetite and Chromite, I take the pickaxe and go to he mine."],
 			dependencies: ["0000000000000284"],
 			id: "0000000000000296",
 			tasks: [{
 				id: "0000000000000297",
 				type: "item",
-				item: "rankine:chromite_ore"
+				item: "rankine:chromite_ore",
+				count: 16L
+			}],
+			rewards: [{
+				id: "39518935D9727E19",
+				type: "item",
+				item: "rankine:magnetite_ore",
+				count: 2
 			}]
 		},
 		{
 			x: 5.5d,
 			y: -1.0d,
+			description: ["After the transition to the era of electric energy, it was time to update the crusher."],
 			dependencies: ["0000000000000284"],
 			id: "0000000000000298",
 			tasks: [{
@@ -753,6 +837,7 @@
 		{
 			x: 8.5d,
 			y: -1.0d,
+			description: ["I noticed that the usual stove for me had already become slow, and using technology I made an electric furnace."],
 			dependencies: ["0000000000000284"],
 			id: "000000000000029A",
 			tasks: [{
@@ -764,6 +849,7 @@
 		{
 			x: 5.5d,
 			y: -4.0d,
+			description: ["After the transition to the era of electric energy, it was time to update the mixer."],
 			dependencies: ["0000000000000284"],
 			id: "000000000000029C",
 			tasks: [{
@@ -775,6 +861,7 @@
 		{
 			x: 8.5d,
 			y: -4.0d,
+			description: ["I'm tired I'm leav... khm I mean, I'm tired of recycling the tree with my hands, let the sawmill do it for changing it, and it also comes out more than with my hands."],
 			dependencies: ["0000000000000284"],
 			id: "000000000000029E",
 			tasks: [{
@@ -786,6 +873,7 @@
 		{
 			x: 7.0d,
 			y: -5.5d,
+			description: ["From the battery that I created a long time ago, with the help of some more components, I made an energy cell in which I can finally store the generated energy."],
 			dependencies: ["0000000000000217"],
 			id: "00000000000002A0",
 			tasks: [{
@@ -797,6 +885,7 @@
 		{
 			x: 10.0d,
 			y: -2.5d,
+			description: ["Finally, I can replace old pickaxe with a new one, you just need to charge it with mechanical energy, and you can go to the mine with new forces."],
 			dependencies: ["0000000000000284"],
 			id: "00000000000002A2",
 			tasks: [{
@@ -809,11 +898,18 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: "61566064609558BD",
+				type: "item",
+				item: "assemblylinemachines:empowered_coal",
+				count: 8
 			}]
 		},
 		{
 			x: -3.0d,
 			y: -7.0d,
+			description: ["Being as I already understood in nether, I found an alternative type of fuel, equal or maybe even better than coal."],
 			hide_dependency_lines: true,
 			dependencies: ["000000000000024F"],
 			id: "00000000000002B3",
@@ -835,7 +931,7 @@
 				}
 			],
 			rewards: [{
-				id: "00000000000002BE",
+				id: "05B0373FCBA45C81",
 				type: "item",
 				item: "minecraft:iron_block"
 			}]
@@ -843,6 +939,7 @@
 		{
 			x: -4.0d,
 			y: -6.0d,
+			description: ["When I came to these strange places, I discovered something similar to ore, having extracted it, I realized that it was quartz, really how to use it? I may understand very soon."],
 			dependencies: ["000000000000024F"],
 			id: "00000000000002B5",
 			tasks: [{
@@ -855,6 +952,7 @@
 		{
 			x: -3.0d,
 			y: -6.0d,
+			description: ["Just like in the world on the other side of the portal, I found gold, and it seems that these pinglins love it, the main thing is not to dig it with them."],
 			dependencies: ["000000000000024F"],
 			id: "00000000000002B7",
 			tasks: [{
@@ -866,14 +964,30 @@
 		},
 		{
 			title: "Create: Nether Mode",
+			icon: {
+				id: "create:chromatic_compound",
+				Count: 1b,
+				tag: {}
+			},
 			x: -1.0d,
 			y: -5.5d,
+			description: ["By mixing 3 ingredients, namely glowstone from the depths of nether, obsidian very hard material and rose quartz which we polished with sandwich, we got a stone that combines these qualities, I think it will be useful to us more than once."],
 			hide_dependency_lines: true,
 			dependencies: ["000000000000024F"],
 			size: 2.0d,
 			id: "00000000000002C0",
 			tasks: [{
-				id: "00000000000002C1",
+				id: "544061F54F2D1A7D",
+				type: "item",
+				item: {
+					id: "create:chromatic_compound",
+					Count: 1b,
+					tag: {}
+				},
+				count: 2L
+			}],
+			rewards: [{
+				id: "657C78D70A25F3BE",
 				type: "item",
 				item: {
 					id: "create:chromatic_compound",
@@ -883,8 +997,10 @@
 			}]
 		},
 		{
+			title: "Ilmenite ore",
 			x: -3.5d,
 			y: -8.5d,
+			description: ["For my further research, I need Ilmenite in the ordinary world it is difficult to get it because it is at great depths, I am lucky that the locals of nether, I learned that this ore will merge here more often."],
 			hide_dependency_lines: true,
 			dependencies: ["000000000000024F"],
 			size: 2.0d,
@@ -899,7 +1015,14 @@
 					tag: {
 						value: "forge:ores/ilmenite"
 					}
-				}
+				},
+				count: 4L
+			}],
+			rewards: [{
+				id: "2A177979E1AA0B2B",
+				type: "item",
+				item: "rankine:ilmenite_ore",
+				count: 2
 			}]
 		},
 		{
@@ -929,28 +1052,58 @@
 		{
 			x: -1.0d,
 			y: -7.5d,
+			description: ["After researching the depths of hell, I wanted to go into technology more, so for starters I created a gold coil from gold spool."],
 			dependencies: ["00000000000002C0"],
 			id: "0000000000000326",
 			tasks: [{
 				id: "0000000000000327",
 				type: "item",
-				item: "createaddition:gold_spool"
+				item: "createaddition:gold_spool",
+				count: 2L
+			}],
+			rewards: [{
+				id: "4ABA03E08302FDF9",
+				type: "item",
+				item: "createaddition:gold_wire",
+				count: 2
 			}]
 		},
 		{
 			x: 7.0d,
 			y: -7.5d,
+			description: ["In order for me to somehow switch from kinetic energy to the beginning of electric energy, rolling mixing is needed to create copper wires and rods."],
 			dependencies: ["0000000000000326"],
 			id: "0000000000000328",
 			tasks: [{
 				id: "0000000000000329",
 				type: "item",
 				item: "createaddition:rolling_mill"
-			}]
+			}],
+			rewards: [
+				{
+					id: "5B030E2488821F0A",
+					type: "item",
+					item: "createaddition:copper_wire",
+					count: 2
+				},
+				{
+					id: "7244414BEF085B43",
+					type: "item",
+					item: "createaddition:iron_wire",
+					count: 2
+				},
+				{
+					id: "407D00E06F000ACD",
+					type: "item",
+					item: "createaddition:gold_wire",
+					count: 2
+				}
+			]
 		},
 		{
 			x: 13.0d,
 			y: -7.5d,
+			description: ["And so I am ready to go to a new stage of energy, only to start generating it I need a minimum of 32 RPM."],
 			dependencies: [
 				"0000000000000328",
 				"000000000000028E"
@@ -966,12 +1119,47 @@
 		{
 			x: -5.0d,
 			y: 0.5d,
+			description: ["At first it can show that this liquid is just a residue from the processing of coke coal, but hurry to pour it out we will need it for impregnation of wood"],
 			dependencies: ["000000000000025F"],
 			id: "000000000000032C",
 			tasks: [{
 				id: "000000000000032D",
 				type: "item",
-				item: "thermal:creosote_bucket"
+				item: "immersiveengineering:creosote_bucket"
+			}],
+			rewards: [{
+				id: "75BC2FBB48D1ABF7",
+				type: "item",
+				item: "voluminousenergy:coalcoke"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -6.5d,
+			dependencies: ["0000000000000263"],
+			id: "7695B961FC09432F",
+			tasks: [{
+				id: "53A4805F523A4842",
+				type: "item",
+				item: "minecraft:enchanting_table"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -6.5d,
+			dependencies: ["0000000000000263"],
+			id: "7052656712ABAC27",
+			tasks: [{
+				id: "09C35C70ED6CB8ED",
+				type: "item",
+				item: {
+					id: "apotheosis:potion_charm",
+					Count: 1b,
+					tag: {
+						Damage: 0,
+						Potion: "apotheosis:strong_haste"
+					}
+				}
 			}]
 		}
 	]
