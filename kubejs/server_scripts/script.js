@@ -31,6 +31,49 @@ events.listen('recipes', event => {
 
     // Change receipt for "Iron chests" mod
     event.remove({mod: 'ironchest'});
+    event.remove({id: 'waystones:mossy_waystone'})
+    event.remove({id: 'waystones:mossy_waystone_convert'})
+    event.remove({id: 'waystones:sandy_waystone'})
+    event.remove({id: 'rankine:ender_element_transmuter'})
+    event.remove({id: 'rankine:ghast_element_transmuter'})
+    event.remove({id: 'rankine:nether_element_transmuter'})
+    event.remove({id: 'assemblylinemachines:grinder/grind_iron_ore'})
+    event.remove({id: 'assemblylinemachines:grinder/grind_iron_ingot'})
+    event.remove({id: 'assemblylinemachines:grinder/grind_charcoal'})
+    event.remove({id: 'assemblylinemachines:ground_charcoal'})
+    event.remove({id: 'assemblylinemachines:alloying/alloying_steel_coal'})
+    event.remove({id: 'assemblylinemachines:alloying/alloying_steel_charcoal'})
+    event.remove({id: 'futurepack:escenner_0'})
+    event.remove({id: 'industrialforegoing:machine_frame_pity'})
+    event.remove({id: 'industrialforegoing:dissolution_chamber/simple_machine_frame'})       
+    event.remove({id: 'industrialforegoing:dissolution_chamber/advanced_machine_frame'})       
+    event.remove({id: 'industrialforegoing:dissolution_chamber/supreme_machine_frame'})       
+    event.remove({id: 'simplyjetpacks:vanilla/jetpack_vanilla1'})
+    event.remove({id: 'simplyjetpacks:vanilla/jetpack_vanilla2'})
+    event.remove({id: 'simplyjetpacks:vanilla/jetpack_vanilla3'})
+    event.remove({id: 'simplyjetpacks:vanilla/jetpack_vanilla4'})
+    event.remove({id: 'voluminousenergy:vanilla_crafting/microchips/silver_microchip'})
+    event.remove({id: 'voluminousenergy:vanilla_crafting/microchips/gold_microchip'})
+    event.remove({id: 'voluminousenergy:vanilla_crafting/aluminum_machine_casing'})
+    event.remove({id: 'voluminousenergy:vanilla_crafting/titanium_machine_casing'})
+    event.remove({id: 'voluminousenergy:vanilla_crafting/carbon_shielded_aluminum_machine_frame'})
+    event.remove({id: 'voluminousenergy:vanilla_crafting/aluminum_shell'})
+    event.remove({id: 'thermal:machine_frame'})
+    event.remove({id: 'thermal:rf_coil'})
+    event.remove({id: 'silents_mechanisms:alloy_machine_frame'})
+    event.remove({id: 'silents_mechanisms:upgrade_case'})
+    event.remove({id: 'silents_mechanisms:wire'})
+
+    event.remove({mod: 'appliedenergistics2'})
+    event.remove({mod: 'ae2extras'})
+
+    event.shaped(item.of('appliedenergistics2:wooden_gear', 1), [
+        ' A ',
+        'A A',
+        ' A '
+    ], {
+        A: '#forge:rods/wooden'
+    });
 
     event.shaped(item.of('ironchest:dirt_chest', 1), [
         'AAA',
