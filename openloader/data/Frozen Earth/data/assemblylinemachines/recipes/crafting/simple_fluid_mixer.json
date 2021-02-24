@@ -15,7 +15,7 @@
         "item": "assemblylinemachines:steel_block"
       },
       "C": {
-        "item": "assemblylinemachines:steel_ingot"
+        "tag": "forge:ingots/steel"
       },
       "D": {
         "item": "minecraft:iron_ingot"

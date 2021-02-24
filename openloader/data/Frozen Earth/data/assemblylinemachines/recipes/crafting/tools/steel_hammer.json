@@ -15,7 +15,7 @@
         "item": "immersiveengineering:treated_fence"
       },
       "C": {
-        "item": "assemblylinemachines:steel_plate"
+        "tag": "forge:ingots/steel"
       }
     },
     "result": {

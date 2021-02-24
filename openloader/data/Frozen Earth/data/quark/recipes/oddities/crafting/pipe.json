@@ -1,0 +1,28 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+      "GPG",
+      "G G",
+      "IRI",
+      "G G",
+      "GPG"
+    ],
+    "key": {
+      "P": {
+        "item": "minecraft:piston"
+      },
+      "G": {
+        "item": "darkutils:dark_glass"
+      },
+      "R": {
+        "item": "immersiveengineering:fluorescent_tube"
+      },
+      "I": {
+        "item": "immersiveengineering:insulating_glass"
+      }
+    },
+    "result": {
+      "item": "quark:pipe",
+      "count": 8
+    }
+  }

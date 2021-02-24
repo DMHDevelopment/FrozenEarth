@@ -1,0 +1,37 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+      " PFP ",
+      "ISSSI",
+      "ISRSI",
+      "ICGCI",
+      " P P "
+    ],
+    "key": {
+      "F": {
+        "item": "create:andesite_funnel"
+      },
+      "I": {
+        "tag": "forge:plates/iron"
+      },
+      "S": {
+        "item": "createaddition:copper_spool"
+      },
+      "R": {
+        "tag": "forge:rods/iron"
+      },
+      "C": {
+        "item": "createaddition:capacitor"
+      },
+      "G": {
+        "item": "createaddition:gold_spool"
+      },
+      "P": {
+        "item": "assemblylinemachines:chromium_plate"
+      }
+    },
+    "result": {
+      "item": "createaddition:alternator",
+      "count": 1
+    }
+  }

@@ -1,0 +1,14 @@
+{
+	"type": "assemblylinemachines:alloying",
+	"part_a":{
+		"item": "minecraft:iron_ingot"
+	},
+	"part_b":{
+		"item": "immersiveengineering:coal_coke"
+	},
+	"output":{
+		"item": "immersiveengineering:nugget_steel",
+		"count": 16
+	},
+	"time": 150
+}

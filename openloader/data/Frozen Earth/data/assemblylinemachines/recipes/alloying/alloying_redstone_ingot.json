@@ -1,0 +1,15 @@
+{
+	"type": "assemblylinemachines:alloying",
+	"part_a":{
+		"item": "assemblylinemachines:pure_steel"
+	},
+	"part_b":{
+		"item": "minecraft:redstone",
+        "count": 24
+	},
+	"output":{
+		"item": "extendedcrafting:redstone_ingot",
+		"count": 1
+	},
+	"time": 150
+}

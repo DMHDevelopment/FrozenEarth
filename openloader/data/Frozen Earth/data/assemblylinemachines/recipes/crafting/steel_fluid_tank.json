@@ -9,7 +9,7 @@
     ],
     "key": {
       "A": {
-        "item": "assemblylinemachines:steel_ingot"
+        "tag": "forge:ingots/steel"
       },
       "B": {
         "item": "assemblylinemachines:steel_rod"

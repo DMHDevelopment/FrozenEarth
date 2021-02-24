@@ -1,0 +1,38 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "type": "pneumaticcraft:stacked_item",
+      "item": "rankine:fluorite",
+      "count": 16
+    },
+    {
+      "item": "createaddition:copper_wire"
+    },
+    {
+      "type": "pneumaticcraft:stacked_item",
+      "item": "immersiveengineering:wirecoil_copper",
+      "count": 2
+    },
+    {
+      "item": "extendedcrafting:redstone_component"
+    },
+    {
+      "type": "pneumaticcraft:stacked_item",
+      "item": "rankine:cobalt_superalloy",
+      "count": 4
+    },
+    {
+      "item": "pneumaticcraft:plastic"
+    },
+    {
+      "item": "assemblylinemachines:plastic_sheet"
+    }
+  ],
+  "pressure": 3.0,
+  "results": [
+    {
+      "item": "pneumaticcraft:capacitor"
+    }
+  ]
+}

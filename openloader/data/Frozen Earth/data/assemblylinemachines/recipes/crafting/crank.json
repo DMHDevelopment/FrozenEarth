@@ -12,7 +12,7 @@
         "item": "immersiveengineering:treated_fence"
       },
       "B": {
-        "item": "assemblylinemachines:steel_ingot"
+        "tag": "forge:ingots/steel"
       },
       "C": {
         "item": "assemblylinemachines:crank_shaft"
