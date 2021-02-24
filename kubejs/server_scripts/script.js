@@ -63,6 +63,7 @@ events.listen('recipes', event => {
     event.remove({id: 'silents_mechanisms:alloy_machine_frame'})
     event.remove({id: 'silents_mechanisms:upgrade_case'})
     event.remove({id: 'silents_mechanisms:wire'})
+    event.remove({id: 'extendedcrafting:redstone_ingot'})
 
     event.remove({mod: 'appliedenergistics2'})
     event.remove({mod: 'ae2extras'})
