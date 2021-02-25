@@ -11,18 +11,20 @@
 			x: -0.5d,
 			y: 0.0d,
 			shape: "hexagon",
+			description: ["Since I do not yet understand much about creating electrical circuits, I found a book written by someone before me. I just put a lever on a regular book and got a textbook from the engineer."],
 			dependencies: ["0000000000000288"],
 			size: 2.0d,
 			id: "000000000000032E",
 			tasks: [{
-				id: "000000000000032F",
+				id: "6CB92FCC699FF6B6",
 				type: "item",
-				item: "immersiveengineering:wirecoil_copper"
+				item: "immersiveengineering:manual"
 			}]
 		},
 		{
 			x: 1.5d,
 			y: 0.0d,
+			description: ["The last battery is good, but it only works at the entrance or only at the exit, so I create a new one."],
 			dependencies: ["000000000000032E"],
 			id: "0000000000000330",
 			tasks: [{
@@ -34,23 +36,13 @@
 		{
 			x: -2.5d,
 			y: 0.0d,
+			description: ["Remember I said you shouldn't pour coke coal residues? So now I will need it, impregnating them with ordinary planks."],
 			dependencies: ["000000000000032E"],
 			id: "0000000000000332",
 			tasks: [{
 				id: "0000000000000333",
 				type: "item",
 				item: "immersiveengineering:treated_wood_horizontal"
-			}]
-		},
-		{
-			x: 1.5d,
-			y: 1.0d,
-			dependencies: ["000000000000032E"],
-			id: "0000000000000334",
-			tasks: [{
-				id: "0000000000000335",
-				type: "item",
-				item: "immersiveengineering:connector_lv"
 			}]
 		},
 		{
@@ -65,19 +57,9 @@
 			}]
 		},
 		{
-			x: -0.5d,
-			y: 2.0d,
-			dependencies: ["000000000000032E"],
-			id: "0000000000000338",
-			tasks: [{
-				id: "0000000000000339",
-				type: "item",
-				item: "immersiveengineering:manual"
-			}]
-		},
-		{
 			x: -2.5d,
 			y: 1.0d,
+			description: ["I decided to conduct electrical circuits on the pillars so that they would not occupy a place on the ground."],
 			dependencies: ["0000000000000332"],
 			id: "000000000000033A",
 			tasks: [{
@@ -89,6 +71,7 @@
 		{
 			x: 1.5d,
 			y: -1.0d,
+			description: ["To create some alloys, I need a kiln."],
 			dependencies: ["000000000000032E"],
 			id: "000000000000033C",
 			tasks: [{
@@ -100,17 +83,20 @@
 		{
 			x: 1.5d,
 			y: -3.0d,
+			description: ["By mixing gold and silver in equal proportions, I received the right called Electrum."],
 			dependencies: ["000000000000033C"],
 			id: "000000000000033E",
 			tasks: [{
 				id: "000000000000033F",
 				type: "item",
-				item: "immersiveengineering:ingot_electrum"
+				item: "immersiveengineering:ingot_electrum",
+				count: 2L
 			}]
 		},
 		{
 			x: 1.5d,
 			y: -4.0d,
+			description: ["So that then I don't bother with replacing wires, it's better to replace them now."],
 			dependencies: ["000000000000033E"],
 			id: "0000000000000340",
 			tasks: [{
@@ -122,6 +108,7 @@
 		{
 			x: 1.5d,
 			y: -5.0d,
+			description: ["The vault also decided to update, as it seemed to me the old one was small."],
 			dependencies: ["0000000000000340"],
 			id: "0000000000000342",
 			tasks: [{
@@ -156,6 +143,7 @@
 		{
 			x: 3.0d,
 			y: 0.0d,
+			description: ["An integral attribute of an engineer is, of course, an engineering table, everything will begin with it."],
 			dependencies: ["000000000000033C"],
 			size: 1.5d,
 			id: "000000000000034A",
@@ -208,6 +196,7 @@
 		{
 			x: 4.5d,
 			y: -3.0d,
+			description: ["The old Blast Furnace is already weak and slow for new ingots, the time has come for a new oven."],
 			dependencies: ["0000000000000346"],
 			id: "0000000000000355",
 			tasks: [{

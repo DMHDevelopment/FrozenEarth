@@ -43,7 +43,7 @@
 			}]
 		},
 		{
-			title: "Player's Note 4",
+			title: "Player's Note 3",
 			icon: {
 				id: "create:sand_paper",
 				Count: 1b,
@@ -52,11 +52,11 @@
 				}
 			},
 			x: 1.0d,
-			y: 0.5d,
+			y: 0.0d,
 			shape: "circle",
 			description: [
-				"Make sure your PC isn't low-end, because this modpack have heavy amount of mods and particles around you. While Chlorine is present in a modpack: you can have bad performance. Optifine for this modpack isn't recommended, if you REALLY want it:",
-				"Disable Chlorine mod. Make sure you allocated minimum around 5-6 GBs of RAM for atleast stable gameplay and have atleast not potato instead of your processor, since there will be a lot of AE2's operations in the modpack!"
+				"Make sure your PC isn't low-end, because this modpack have heavy amount of mods and particles around you. While this modpack in beta: you can get bad performance. Optifine for this modpack isn't recommended, if you REALLY want it:",
+				"Make sure you allocated minimum around 7-8 GBs of RAM for atleast stable gameplay and have atleast not potato instead of your processor, since there will be a lot of AE2's operations in the modpack and a lot of particle spam!"
 			],
 			dependencies: ["0000000000000003"],
 			id: "0000000000000005",
@@ -97,8 +97,8 @@
 			y: -0.5d,
 			shape: "circle",
 			description: [
-				"This modpack is expert-based one. There is a lot of recipe changes and custom items and blocks. This modpack have mostly tech mods, but beginning is made around Nature's Aura and Stone Age, so if you want only tech modpack - there it is, but a bit of",
-				"magic is required. Make sure you allocated enough RAM for this modpack. Also there is Sodium alternative - Chlorine is installed, if you see some weird graphical issues - you can disable it in Twitch/CurseForge App or even remove the mod in any way."
+				"This modpack is expert-based one. There is a lot of recipe changes and custom mechanics. This modpack have mostly tech mods, but beginning is made around Stone Age, so if you want only tech modpack - there it is, there is also a big exploring part of this modpack to deal with!",
+				"Make sure you allocated enough RAM for this modpack."
 			],
 			dependencies: ["0000000000000003"],
 			id: "0000000000000007",
@@ -109,11 +109,11 @@
 			}]
 		},
 		{
-			x: 1.0d,
-			y: -0.5d,
+			x: -2.0d,
+			y: 0.5d,
 			shape: "circle",
 			description: [
-				"Want to play this modpack with friends? Use FTB Teams for synchronizing these quests between you and your frineds.",
+				"Want to play this modpack with friends? Use FTB Teams for synchronizing these quests between you and your friends.",
 				"Use /ftbteams invite <playername> to invite a player into your team.",
 				"Use Tab on /ftbteams to look for other cool commands for teams."
 			],
@@ -130,32 +130,6 @@
 						Damage: 0
 					}
 				}
-			}]
-		},
-		{
-			title: "Player's Note 3",
-			icon: {
-				id: "create:sand_paper",
-				Count: 1b,
-				tag: {
-					Damage: 0
-				}
-			},
-			x: -2.0d,
-			y: 0.5d,
-			shape: "circle",
-			subtitle: "When Coins have mystical power...",
-			description: ["This modpack will give you sometimes money once you complete quests. Money can be spent in a Market, so you can buy something or craft something interesting from them in the future. Don't throw them away to not regret it in future."],
-			dependencies: ["0000000000000003"],
-			id: "000000000000000F",
-			tasks: [{
-				id: "0000000000000011",
-				type: "checkmark"
-			}],
-			rewards: [{
-				id: "0000000000000012",
-				type: "item",
-				item: "thermal:copper_coin"
 			}]
 		},
 		{
@@ -189,9 +163,9 @@
 				}
 			],
 			rewards: [{
-				id: "0000000000000017",
+				id: "43FC76EE41AA48B4",
 				type: "item",
-				item: "thermal:copper_coin"
+				item: "silents_mechanisms:pork_jerky"
 			}]
 		}
 	]

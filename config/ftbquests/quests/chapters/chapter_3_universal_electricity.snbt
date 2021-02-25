@@ -1153,6 +1153,12 @@
 				id: "000000000000032B",
 				type: "item",
 				item: "createaddition:alternator"
+			}],
+			rewards: [{
+				id: "5B7DC5FC3A01CC95",
+				type: "item",
+				item: "create:copper_ingot",
+				count: 4
 			}]
 		},
 		{
