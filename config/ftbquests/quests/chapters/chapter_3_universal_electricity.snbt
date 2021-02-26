@@ -509,7 +509,33 @@
 				id: "000000000000026C",
 				type: "item",
 				item: "assemblylinemachines:simple_grinder"
-			}]
+			}],
+			rewards: [
+				{
+					id: "5A09527FEA35CDAA",
+					type: "item",
+					item: "rankine:ilmenite_ore",
+					count: 12
+				},
+				{
+					id: "56863A737050B0BE",
+					type: "item",
+					item: "minecraft:iron_ore",
+					count: 12
+				},
+				{
+					id: "3C3191CBDF21BC38",
+					type: "item",
+					item: "rankine:native_copper_ore",
+					count: 12
+				},
+				{
+					id: "64AB286BE4BC0C94",
+					type: "item",
+					item: "rankine:native_tin_ore",
+					count: 12
+				}
+			]
 		},
 		{
 			x: -2.0d,
@@ -595,12 +621,20 @@
 					item: "assemblylinemachines:iron_gear"
 				}
 			],
-			rewards: [{
-				id: "0756B8FF27530D82",
-				type: "item",
-				item: "assemblylinemachines:iron_gear",
-				count: 4
-			}]
+			rewards: [
+				{
+					id: "0756B8FF27530D82",
+					type: "item",
+					item: "assemblylinemachines:iron_gear",
+					count: 4
+				},
+				{
+					id: "7F85FCE702D9F80D",
+					type: "item",
+					item: "assemblylinemachines:iron_plate",
+					count: 4
+				}
+			]
 		},
 		{
 			x: -0.5d,
@@ -696,6 +730,7 @@
 			]
 		},
 		{
+			title: "Crankmilling to the skies!",
 			x: 4.0d,
 			y: -4.0d,
 			description: ["So the pipes can't move kinetic energy, I decided to create a converter, and from kinetic get already electric energy, which will need to power the new mechanisms."],
@@ -705,6 +740,12 @@
 				id: "000000000000027F",
 				type: "item",
 				item: "assemblylinemachines:crankmill"
+			}],
+			rewards: [{
+				id: "08EE7EF7462BD3FC",
+				type: "item",
+				item: "assemblylinemachines:gold_gear",
+				count: 2
 			}]
 		},
 		{
@@ -739,7 +780,21 @@
 				id: "0000000000000283",
 				type: "item",
 				item: "assemblylinemachines:electric_purifier"
-			}]
+			}],
+			rewards: [
+				{
+					id: "4A085FF3148B755A",
+					type: "item",
+					item: "assemblylinemachines:pure_gold",
+					count: 2
+				},
+				{
+					id: "259CAC8F8C2E36EE",
+					type: "item",
+					item: "assemblylinemachines:pure_steel",
+					count: 2
+				}
+			]
 		},
 		{
 			x: 7.0d,
@@ -751,9 +806,16 @@
 				id: "0000000000000285",
 				type: "item",
 				item: "assemblylinemachines:alloy_smelter"
+			}],
+			rewards: [{
+				id: "6307EAF53FB9DE3A",
+				type: "item",
+				item: "assemblylinemachines:stainless_steel_plate",
+				count: 2
 			}]
 		},
 		{
+			title: "Purest Metals",
 			x: 4.0d,
 			y: -1.0d,
 			description: ["With the help of a cleaner, I received cleaned steel for further production."],
@@ -764,7 +826,21 @@
 				type: "item",
 				item: "assemblylinemachines:pure_steel",
 				count: 12L
-			}]
+			}],
+			rewards: [
+				{
+					id: "7D3220C74A798324",
+					type: "item",
+					item: "minecraft:sand",
+					count: 32
+				},
+				{
+					id: "062FFA13335B5720",
+					type: "item",
+					item: "minecraft:gravel",
+					count: 32
+				}
+			]
 		},
 		{
 			icon: "immersiveengineering:wirecoil_copper",
@@ -792,7 +868,13 @@
 					type: "item",
 					item: "immersiveengineering:connector_lv_relay"
 				}
-			]
+			],
+			rewards: [{
+				id: "097068CA082102C6",
+				type: "item",
+				item: "immersiveengineering:wirecoil_copper",
+				count: 8
+			}]
 		},
 		{
 			x: 4.0d,
@@ -804,7 +886,27 @@
 				id: "000000000000028B",
 				type: "item",
 				item: "assemblylinemachines:metal_shaper"
-			}]
+			}],
+			rewards: [
+				{
+					id: "2FF73EC02C1964BD",
+					type: "item",
+					item: "assemblylinemachines:iron_plate",
+					count: 6
+				},
+				{
+					id: "3B0D43BBC1E0B495",
+					type: "item",
+					item: "assemblylinemachines:steel_plate",
+					count: 4
+				},
+				{
+					id: "369681F039F624E9",
+					type: "item",
+					item: "assemblylinemachines:stainless_steel_plate",
+					count: 2
+				}
+			]
 		},
 		{
 			x: 13.0d,
@@ -821,9 +923,16 @@
 				type: "item",
 				item: "assemblylinemachines:chromium_plate",
 				count: 4L
+			}],
+			rewards: [{
+				id: "14E2B478DA6A0189",
+				type: "item",
+				item: "assemblylinemachines:chromium_plate",
+				count: 2
 			}]
 		},
 		{
+			title: "Magnetite!",
 			x: 10.0d,
 			y: -3.5d,
 			description: ["To create a new alloy, I need such ores as Magnetite and Chromite, I take the pickaxe and go to he mine."],
@@ -843,6 +952,7 @@
 			}]
 		},
 		{
+			title: "Chromite!",
 			x: 10.0d,
 			y: -1.5d,
 			description: ["To create a new alloy, I need such ores as Magnetite and Chromite, I take the pickaxe and go to he mine."],
@@ -895,6 +1005,12 @@
 				id: "000000000000029D",
 				type: "item",
 				item: "assemblylinemachines:electric_fluid_mixer"
+			}],
+			rewards: [{
+				id: "11CE2979FBFD9032",
+				type: "item",
+				item: "assemblylinemachines:iron_gear",
+				count: 2
 			}]
 		},
 		{
@@ -907,6 +1023,12 @@
 				id: "000000000000029F",
 				type: "item",
 				item: "assemblylinemachines:lumber_mill"
+			}],
+			rewards: [{
+				id: "54D4707ACA236A53",
+				type: "item",
+				item: "minecraft:oak_log",
+				count: 16
 			}]
 		},
 		{
@@ -919,6 +1041,12 @@
 				id: "00000000000002A1",
 				type: "item",
 				item: "assemblylinemachines:basic_battery_cell"
+			}],
+			rewards: [{
+				id: "1341958C7352CA79",
+				type: "item",
+				item: "assemblylinemachines:basic_battery",
+				count: 2
 			}]
 		},
 		{
@@ -1065,6 +1193,7 @@
 			}]
 		},
 		{
+			title: "Much Easier Mining!",
 			x: -5.0d,
 			y: -4.0d,
 			description: ["Titanium is a good way to obtain better materials like obsidian... "],
@@ -1162,6 +1291,7 @@
 			}]
 		},
 		{
+			title: "Creosote Oil Time!",
 			x: -5.0d,
 			y: 0.5d,
 			description: ["At first it can show that this liquid is just a residue from the processing of coke coal, but hurry to pour it out we will need it for impregnation of wood"],
@@ -1179,19 +1309,40 @@
 			}]
 		},
 		{
+			title: "Enchanting all the way!",
 			x: -5.0d,
 			y: -6.5d,
+			description: ["Enchanting is a great way to enhance my tools and armor against these monsters and frozen rocks! While things like bore from Create doesn't give me much resources, I need to upgrade my pickaxe! To upgrade my enchanting table I need bookshelves or blocks of rare metals to make my enchanting process easier and efficient!"],
 			dependencies: ["0000000000000263"],
 			id: "7695B961FC09432F",
-			tasks: [{
-				id: "53A4805F523A4842",
+			tasks: [
+				{
+					id: "53A4805F523A4842",
+					type: "item",
+					item: "minecraft:enchanting_table"
+				},
+				{
+					id: "03EC2BC912846F30",
+					type: "item",
+					item: "minecraft:glowstone",
+					count: 4L
+				},
+				{
+					id: "2B051F1CAC0CFE5E",
+					type: "item",
+					item: "minecraft:bookshelf"
+				}
+			],
+			rewards: [{
+				id: "7A89EB7901556A4B",
 				type: "item",
-				item: "minecraft:enchanting_table"
+				item: "minecraft:bookshelf"
 			}]
 		},
 		{
 			x: -6.0d,
 			y: -6.5d,
+			description: ["Charm of Haste allow me to mine faster than usual. After defeating some blazes I can make potions and more alloys such Blaze Gold. While potions can be used once, this charm allows me to wear it for a long time and give this effect much longer than potions."],
 			dependencies: ["0000000000000263"],
 			id: "7052656712ABAC27",
 			tasks: [{
@@ -1205,6 +1356,21 @@
 						Potion: "apotheosis:strong_haste"
 					}
 				}
+			}],
+			rewards: [{
+				id: "6EBB814615206BB3",
+				type: "item",
+				item: {
+					id: "rankine:cupronickel_alloy",
+					Count: 1b,
+					tag: {
+						HideFlags: 2,
+						StoredComposition: [{
+							comp: "85Cu-15Ni"
+						}]
+					}
+				},
+				count: 2
 			}]
 		}
 	]

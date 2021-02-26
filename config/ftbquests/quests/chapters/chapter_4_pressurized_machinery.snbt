@@ -8,7 +8,7 @@
 	default_quest_shape: "",
 	quests: [
 		{
-			x: -0.5d,
+			x: -1.0d,
 			y: 0.0d,
 			shape: "hexagon",
 			description: ["Since I do not yet understand much about creating electrical circuits, I found a book written by someone before me. I just put a lever on a regular book and got a textbook from the engineer."],
@@ -19,11 +19,16 @@
 				id: "6CB92FCC699FF6B6",
 				type: "item",
 				item: "immersiveengineering:manual"
+			}],
+			rewards: [{
+				id: "68F26A446E3C7B6A",
+				type: "item",
+				item: "minecraft:lever"
 			}]
 		},
 		{
-			x: 1.5d,
-			y: 0.0d,
+			x: 0.5d,
+			y: 1.0d,
 			description: ["The last battery is good, but it only works at the entrance or only at the exit, so I create a new one."],
 			dependencies: ["000000000000032E"],
 			id: "0000000000000330",
@@ -31,9 +36,15 @@
 				id: "0000000000000331",
 				type: "item",
 				item: "immersiveengineering:capacitor_lv"
+			}],
+			rewards: [{
+				id: "07C38AB17BB7F915",
+				type: "item",
+				item: "immersiveengineering:capacitor_lv"
 			}]
 		},
 		{
+			title: "Soaking in creosote...",
 			x: -2.5d,
 			y: 0.0d,
 			description: ["Remember I said you shouldn't pour coke coal residues? So now I will need it, impregnating them with ordinary planks."],
@@ -42,18 +53,37 @@
 			tasks: [{
 				id: "0000000000000333",
 				type: "item",
-				item: "immersiveengineering:treated_wood_horizontal"
+				title: "Any #forge:treated_wood",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "forge:treated_wood"
+					}
+				},
+				count: 16L
+			}],
+			rewards: [{
+				id: "1765594DE20F5F49",
+				type: "item",
+				item: "thermal:creosote_bucket"
 			}]
 		},
 		{
 			x: -2.5d,
 			y: -1.0d,
+			description: ["Yes, I have chests and more, but moving these chests is not very convenient, so from the impregnated door I created a storage that allows you to store things and if I want to move this chest it is very easy to do."],
 			dependencies: ["0000000000000332"],
 			id: "0000000000000336",
 			tasks: [{
 				id: "0000000000000337",
 				type: "item",
 				item: "immersiveengineering:crate"
+			}],
+			rewards: [{
+				id: "45631E99FEFB6394",
+				type: "item",
+				item: "ironchest:iron_chest"
 			}]
 		},
 		{
@@ -66,22 +96,37 @@
 				id: "000000000000033B",
 				type: "item",
 				item: "immersiveengineering:treated_post"
+			}],
+			rewards: [{
+				id: "12B55BD66068369A",
+				type: "item",
+				item: "extendedcrafting:redstone_ingot",
+				count: 2
 			}]
 		},
 		{
-			x: 1.5d,
+			title: "Alloying in a better way",
+			x: 0.5d,
 			y: -1.0d,
-			description: ["To create some alloys, I need a kiln."],
+			description: ["To produce more alloys, I need a kiln, which runs on coal and such fuel."],
 			dependencies: ["000000000000032E"],
 			id: "000000000000033C",
 			tasks: [{
 				id: "000000000000033D",
 				type: "item",
-				item: "immersiveengineering:alloybrick"
+				item: "immersiveengineering:alloybrick",
+				count: 8L
+			}],
+			rewards: [{
+				id: "48A6A675BF0F7BD3",
+				type: "item",
+				item: "create:copper_ingot",
+				count: 4
 			}]
 		},
 		{
-			x: 1.5d,
+			title: "Electrum Alloy",
+			x: 0.5d,
 			y: -3.0d,
 			description: ["By mixing gold and silver in equal proportions, I received the right called Electrum."],
 			dependencies: ["000000000000033C"],
@@ -94,7 +139,8 @@
 			}]
 		},
 		{
-			x: 1.5d,
+			title: "Connecting to the Farther Distances",
+			x: 0.5d,
 			y: -4.0d,
 			description: ["So that then I don't bother with replacing wires, it's better to replace them now."],
 			dependencies: ["000000000000033E"],
@@ -102,11 +148,18 @@
 			tasks: [{
 				id: "0000000000000341",
 				type: "item",
-				item: "immersiveengineering:connector_mv"
+				item: "immersiveengineering:connector_mv",
+				count: 2L
+			}],
+			rewards: [{
+				id: "58F47A93500ADFDE",
+				type: "item",
+				item: "immersiveengineering:connector_mv_relay",
+				count: 4
 			}]
 		},
 		{
-			x: 1.5d,
+			x: 0.5d,
 			y: -5.0d,
 			description: ["The vault also decided to update, as it seemed to me the old one was small."],
 			dependencies: ["0000000000000340"],
@@ -118,8 +171,10 @@
 			}]
 		},
 		{
+			title: "Metal Press",
 			x: 4.5d,
 			y: 0.0d,
+			description: ["After creating the engineer's desk, I made the drawing, press mold for plates."],
 			dependencies: ["000000000000034A"],
 			size: 1.5d,
 			id: "0000000000000346",
@@ -144,18 +199,26 @@
 			x: 3.0d,
 			y: 0.0d,
 			description: ["An integral attribute of an engineer is, of course, an engineering table, everything will begin with it."],
-			dependencies: ["000000000000033C"],
+			dependencies: ["0000000000000352"],
 			size: 1.5d,
 			id: "000000000000034A",
 			tasks: [{
 				id: "000000000000034B",
 				type: "item",
 				item: "immersiveengineering:workbench"
+			}],
+			rewards: [{
+				id: "160EC06792ACC823",
+				type: "item",
+				item: "immersiveengineering:treated_wood_horizontal",
+				count: 6
 			}]
 		},
 		{
+			title: "Light Technology",
 			x: 3.0d,
 			y: -2.0d,
+			description: ["This block is the basis of my future machines, described in the engineer's book. I definitely need it."],
 			dependencies: ["000000000000034A"],
 			id: "000000000000034C",
 			tasks: [{
@@ -176,24 +239,44 @@
 			}]
 		},
 		{
-			x: 3.0d,
-			y: 1.5d,
-			dependencies: ["000000000000034A"],
+			title: "Blueprints and Everything About Them",
+			x: 1.5d,
+			y: 0.0d,
+			description: ["At first glance we can say that these are the same drawings, but in fact they are different. The first is responsible for creating components, the second for creating metal presses."],
+			dependencies: ["000000000000033C"],
 			id: "0000000000000352",
-			tasks: [{
-				id: "0000000000000354",
-				type: "item",
-				item: {
-					id: "immersiveengineering:blueprint",
-					Count: 1b,
-					tag: {
-						blueprint: "components"
+			tasks: [
+				{
+					id: "6AA50DF31FD1546C",
+					type: "item",
+					item: {
+						id: "immersiveengineering:blueprint",
+						Count: 1b,
+						tag: {
+							blueprint: "components"
+						}
 					}
 				},
-				only_from_crafting: false
+				{
+					id: "7B985BA768ABF825",
+					type: "item",
+					item: {
+						id: "immersiveengineering:blueprint",
+						Count: 1b,
+						tag: {
+							blueprint: "molds"
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "4C252550CFCF2C26",
+				type: "item",
+				item: "minecraft:lapis_block"
 			}]
 		},
 		{
+			title: "Reinforced Blast Oven",
 			x: 4.5d,
 			y: -3.0d,
 			description: ["The old Blast Furnace is already weak and slow for new ingots, the time has come for a new oven."],
@@ -208,6 +291,7 @@
 		{
 			x: 3.0d,
 			y: -3.0d,
+			description: ["To improve the capabilities of Blast Furnace, I created Preheater, the stove became many times faster."],
 			dependencies: ["0000000000000355"],
 			id: "0000000000000357",
 			tasks: [{
@@ -826,7 +910,8 @@
 		},
 		{
 			x: 3.0d,
-			y: 2.5d,
+			y: 1.5d,
+			description: ["I will need to build large machinery, according to the tutorial book it is not very convenient and decided to make a projector."],
 			dependencies: ["000000000000034A"],
 			id: "13111B5FA576F04A",
 			tasks: [{

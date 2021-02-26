@@ -640,11 +640,16 @@
 		},
 		{
 			title: "Dark Utilities",
-			x: 12.0d,
-			y: 5.0d,
-			description: [""],
+			x: 13.0d,
+			y: 4.0d,
+			shape: "square",
+			description: [
+				"Sometimes ideas about mob farms are making me crazy. I should try to detect at least myself. Step by step I will create mob detectors, mob movers and then I hope my dreams about lots of falling mobs will be ... Oh, it's time to wake up and work at this thing.",
+				""
+			],
 			hide_dependency_lines: true,
 			dependencies: ["0000000000000105"],
+			hide: true,
 			size: 2.0d,
 			id: "0000000000000161",
 			tasks: [{
@@ -1171,8 +1176,10 @@
 			]
 		},
 		{
+			title: "Instahooking",
 			x: -5.5d,
 			y: 16.0d,
+			description: ["One of my best (worst) investigations, but I'll craft it because I want to craft it!"],
 			dependencies: ["00000000000001D0"],
 			id: "00000000000001D6",
 			tasks: [{
@@ -1185,6 +1192,7 @@
 			title: "Pick yours",
 			x: -2.5d,
 			y: 16.0d,
+			description: ["There are a lot of variants of hooks I can create, but I should pick my favourite one!"],
 			dependencies: ["00000000000001BE"],
 			id: "00000000000001DB",
 			tasks: [{
@@ -1501,6 +1509,119 @@
 				id: "000000000000035C",
 				type: "item",
 				item: "create:builders_tea"
+			}]
+		},
+		{
+			title: "My precious",
+			x: 13.5d,
+			y: 6.5d,
+			description: ["I like to spend time rationally, maybe there's a solution to speed up some standard processes."],
+			dependencies: ["0000000000000161"],
+			hide: true,
+			id: "5F763B7064664735",
+			tasks: [
+				{
+					id: "60612931EF45DE76",
+					type: "item",
+					item: "darkutils:charm_sleep"
+				},
+				{
+					id: "2A47CCD6893FED27",
+					type: "item",
+					item: "darkutils:charm_experience"
+				},
+				{
+					id: "5415B1F067668DA5",
+					type: "item",
+					item: "darkutils:charm_gluttony"
+				},
+				{
+					id: "50E65D12A216E7C6",
+					type: "item",
+					item: "darkutils:charm_portal"
+				}
+			]
+		},
+		{
+			title: "Trap God",
+			x: 10.5d,
+			y: 3.5d,
+			shape: "rsquare",
+			description: ["I'm beginnin' to feel like a Trap God, Trap God..."],
+			hide: false,
+			id: "2BB81095697C6BE0",
+			tasks: [
+				{
+					id: "5FFEC1EA3B39433C",
+					type: "item",
+					item: "darkutils:rune_damage"
+				},
+				{
+					id: "54306ECEF710A4F1",
+					type: "item",
+					item: "darkutils:rune_damage_player"
+				},
+				{
+					id: "1480CEF6B42B8BC4",
+					type: "item",
+					item: "darkutils:rune_fatigue"
+				},
+				{
+					id: "3220404339F0C977",
+					type: "item",
+					item: "darkutils:rune_fire"
+				},
+				{
+					id: "2778533D82BC8AA1",
+					type: "item",
+					item: "darkutils:rune_glowing"
+				},
+				{
+					id: "5C071A4CE41CCBC0",
+					type: "item",
+					item: "darkutils:rune_hunger"
+				},
+				{
+					id: "0390D4A70207A031",
+					type: "item",
+					item: "darkutils:rune_nausea"
+				},
+				{
+					id: "58A1FF5504F59980",
+					type: "item",
+					item: "darkutils:rune_poison"
+				},
+				{
+					id: "46940281257E7B55",
+					type: "item",
+					item: "darkutils:rune_slowness"
+				},
+				{
+					id: "70BDD09010CF0F42",
+					type: "item",
+					item: "darkutils:rune_blindness"
+				},
+				{
+					id: "305F5C322188FD31",
+					type: "item",
+					item: "darkutils:rune_weakness"
+				},
+				{
+					id: "5B572B3529651DF3",
+					type: "item",
+					item: "darkutils:rune_wither"
+				}
+			]
+		},
+		{
+			x: 12.0d,
+			y: 6.0d,
+			dependencies: ["0000000000000161"],
+			id: "4E6872100BC6FA01",
+			tasks: [{
+				id: "466458B3360B32A6",
+				type: "item",
+				item: "darkutils:blank_plate"
 			}]
 		}
 	]

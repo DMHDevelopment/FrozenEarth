@@ -2944,10 +2944,11 @@
 			}]
 		},
 		{
-			title: "Any Basic Ingot",
+			title: "Basic Alloys!",
 			x: -12.0d,
 			y: 12.375d,
 			shape: "circle",
+			description: ["After building an alloy smelter I can make some basic alloys such as bronze and make my tool much better than before. Let's make some!"],
 			dependencies: ["0000000000000301"],
 			size: 0.75d,
 			id: "0000000000000312",
