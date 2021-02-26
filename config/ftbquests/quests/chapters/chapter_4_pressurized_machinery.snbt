@@ -187,6 +187,7 @@
 		{
 			x: 6.0d,
 			y: 0.0d,
+			description: ["I created a steel plate through a metal press that I put on recently."],
 			dependencies: ["0000000000000346"],
 			id: "0000000000000348",
 			tasks: [{
@@ -230,6 +231,7 @@
 		{
 			x: 6.5d,
 			y: -1.0d,
+			description: ["The next step towards progress, I put together a motherboard for advanced machines on the engineering table."],
 			dependencies: ["0000000000000348"],
 			id: "000000000000034E",
 			tasks: [{
@@ -303,6 +305,7 @@
 		{
 			x: 6.0d,
 			y: 1.5d,
+			description: ["Gaining fluids with my hands is tired, so I created  first pump that works from energy."],
 			dependencies: ["0000000000000348"],
 			id: "000000000000035D",
 			tasks: [{
@@ -325,6 +328,7 @@
 		{
 			x: 7.0d,
 			y: -2.0d,
+			description: ["More sophisticated machines require more complex basic engineering units for future machines."],
 			dependencies: [
 				"000000000000034C",
 				"000000000000034E"
@@ -415,8 +419,9 @@
 			}]
 		},
 		{
-			x: 5.5d,
+			x: 5.0d,
 			y: -5.0d,
+			description: ["Leafy book Assembly Lines I stumbled upon a pump, perhaps it will be better than my past, at least not with a simple it is created like this."],
 			dependencies: ["7040897F384BB949"],
 			id: "0000000000000371",
 			tasks: [{
@@ -426,8 +431,9 @@
 			}]
 		},
 		{
-			x: 5.5d,
+			x: 5.0d,
 			y: -6.0d,
+			description: ["It is necessary to use the shaft for the pump, for without it he refuses to work."],
 			dependencies: ["0000000000000371"],
 			id: "0000000000000373",
 			tasks: [{
@@ -439,6 +445,7 @@
 		{
 			x: 3.5d,
 			y: -7.0d,
+			description: ["Attachment for Refinery which is necessary to convert oil to propane and ethane."],
 			dependencies: ["0000000000000373"],
 			id: "0000000000000375",
 			tasks: [{
@@ -450,6 +457,7 @@
 		{
 			x: 3.5d,
 			y: -6.0d,
+			description: ["Attachment for Refinery which is necessary to convert ethane and propane."],
 			dependencies: ["0000000000000373"],
 			id: "0000000000000377",
 			tasks: [{
@@ -461,6 +469,7 @@
 		{
 			x: 3.5d,
 			y: -5.0d,
+			description: ["A supplement for Refinery that is needed to transform some things using fluid into new things."],
 			dependencies: ["0000000000000373"],
 			id: "0000000000000379",
 			tasks: [{
@@ -472,7 +481,8 @@
 		{
 			x: 6.5d,
 			y: -6.0d,
-			dependencies: ["7040897F384BB949"],
+			description: ["Still, after the сrafting of the pump, I realized that it was needed for oil production."],
+			dependencies: ["0000000000000373"],
 			id: "000000000000037B",
 			tasks: [{
 				id: "0000000000000381",
@@ -489,7 +499,8 @@
 		{
 			x: 6.5d,
 			y: -7.0d,
-			dependencies: ["000000000000037B"],
+			description: ["By refining the refinery oil, I got volatile ethane gases as well as propane."],
+			dependencies: ["72EFC5C71DB5E470"],
 			id: "000000000000037D",
 			tasks: [{
 				id: "000000000000037E",
@@ -506,6 +517,7 @@
 		{
 			x: 6.5d,
 			y: -8.0d,
+			description: ["After reprocessing ethane that I got from oil, I got ethylene that I would need next."],
 			dependencies: ["000000000000037D"],
 			id: "000000000000037F",
 			tasks: [{
@@ -523,6 +535,7 @@
 		{
 			x: 6.5d,
 			y: -9.0d,
+			description: ["After a few manipulations of oil, I got one of the types of plastic, nowhere in the modern world without it."],
 			dependencies: ["000000000000037F"],
 			id: "0000000000000382",
 			tasks: [{
@@ -534,6 +547,7 @@
 		{
 			x: 7.5d,
 			y: -6.0d,
+			description: ["After distillate Crude Oil I got a liquid called Gasoline"],
 			dependencies: ["7040897F384BB949"],
 			id: "0000000000000384",
 			tasks: [{
@@ -545,6 +559,7 @@
 		{
 			x: 7.5d,
 			y: -7.0d,
+			description: ["With the help of a certain device I was able to make a gasoline LPG need to see why I can use this liquid."],
 			dependencies: ["0000000000000384"],
 			id: "0000000000000386",
 			tasks: [{
@@ -567,6 +582,7 @@
 		{
 			x: 7.5d,
 			y: -8.0d,
+			description: ["Everything in that machine, using LPG and melting coal, after mixing the resulting substance, I received liquid plastic, which if poured into the world, it would freeze into the usual plastic."],
 			dependencies: ["0000000000000386"],
 			id: "000000000000038A",
 			tasks: [{
@@ -579,6 +595,7 @@
 			title: "[Immersive Petroleum Multiblock] Pumpjack",
 			x: 7.0d,
 			y: -4.0d,
+			description: ["My first complicated machine allows me to extract Crude oil from the bowels of our frozen earth, which I need for future research."],
 			dependencies: ["0000000000000361"],
 			id: "000000000000038E",
 			tasks: [
@@ -868,6 +885,7 @@
 			title: "[Immersive Petroleum Multiblock] Distillation Tower",
 			x: 7.0d,
 			y: -5.0d,
+			description: ["Industrial distilation of liquids, a very necessary aspect in the development and creation of new things."],
 			dependencies: ["000000000000038E"],
 			id: "7040897F384BB949",
 			tasks: [
@@ -932,8 +950,9 @@
 			}]
 		},
 		{
-			x: 5.5d,
+			x: 5.0d,
 			y: -7.0d,
+			description: ["For the refining of oil that I produced with the help of a pump, I need refining."],
 			dependencies: ["0000000000000373"],
 			id: "72EFC5C71DB5E470",
 			tasks: [{

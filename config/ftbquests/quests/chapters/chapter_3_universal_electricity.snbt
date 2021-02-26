@@ -639,7 +639,7 @@
 		{
 			x: -0.5d,
 			y: -1.0d,
-			description: ["In order to further advance in development, we do not degrade here, for the next machines a gearbox will already be required, this is beginning of automation."],
+			description: ["In order to further advance in progress, we do not degrade here, for the next machines a gearbox will already be required, this is beginning of automation."],
 			dependencies: [
 				"0000000000000269",
 				"0000000000000273"
@@ -911,7 +911,7 @@
 		{
 			x: 13.0d,
 			y: -2.5d,
-			description: ["Having melted 2 ores mined earlier, I began to create the alloy I needed to transition to a new era of development."],
+			description: ["Having melted 2 ores mined earlier, I began to create the alloy I needed to transition to a new era of progress."],
 			dependencies: [
 				"0000000000000296",
 				"0000000000000294"
