@@ -317,6 +317,7 @@
 		{
 			x: 10.5d,
 			y: 0.0d,
+			description: ["Pyromans will really like this method. In order to make  the first compression iron, I threw explosives on the ground and burning nearby, although success is 80%."],
 			dependencies: ["0000000000000346"],
 			id: "000000000000035F",
 			tasks: [{
@@ -343,6 +344,7 @@
 		{
 			x: 10.5d,
 			y: -1.0d,
+			description: ["I need advanced stones for the fact that machines using pressure in several atmospheres will be made of."],
 			dependencies: ["000000000000035F"],
 			id: "0000000000000363",
 			tasks: [{
@@ -354,6 +356,7 @@
 		{
 			x: 10.5d,
 			y: -2.0d,
+			description: ["Of those blocks that I made earlier, the next step will be to make stable walls and glass for machines using pressure."],
 			dependencies: ["0000000000000363"],
 			id: "0000000000000365",
 			tasks: [
@@ -399,6 +402,7 @@
 		{
 			x: 8.5d,
 			y: -3.0d,
+			description: ["By heating the air with solid fuel, I generate the pressure necessary for the machines."],
 			dependencies: ["0000000000000365"],
 			id: "000000000000036D",
 			tasks: [{
@@ -410,6 +414,7 @@
 		{
 			x: 12.5d,
 			y: 0.0d,
+			description: ["The fluid storage I want to do must be bigger than the past. I hope it will also be with an internal interface, otherwise simply the storage is very not convenient for viewing the amount of liquid in it."],
 			dependencies: ["000000000000035F"],
 			id: "000000000000036F",
 			tasks: [{
@@ -571,6 +576,7 @@
 		{
 			x: 10.5d,
 			y: -3.0d,
+			description: ["My first machine, which uses atmospheric pressure and heating, converts objects and liquids placed there."],
 			dependencies: ["0000000000000365"],
 			id: "0000000000000388",
 			tasks: [{
