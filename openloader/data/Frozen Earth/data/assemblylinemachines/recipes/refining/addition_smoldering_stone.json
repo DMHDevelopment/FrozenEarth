@@ -1,0 +1,28 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AABAA",
+      "ABCBA",
+      "BCDCB",
+      "ABCBA",
+      "AABAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:cobblestone"
+      },
+      "B": {
+        "item": "hardcoredungeons:compressed_cobblestone"
+      },
+      "C": {
+        "item": "ceramics:lava_bricks"
+      },
+      "D": {
+        "item": "immersivepetroleum:oil_bucket"
+      }
+    },
+    "result": {
+      "item": "assemblylinemachines:smoldering_stone",
+      "count": 8
+    }
+  }

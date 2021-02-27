@@ -1,0 +1,39 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AABAA",
+      "CDEDC",
+      "FEGEF",
+      "CDEDC",
+      "AAHAA"
+    ],
+    "key": {
+      "A": {
+        "item": "immersiveengineering:treated_wood_horizontal"
+      },
+      "B": {
+        "item": "immersiveengineering:wire_electrum"
+      },
+      "C": {
+        "item": "immersiveengineering:plate_steel"
+      },
+      "D": {
+        "item": "pneumaticcraft:upgrade_matrix"
+      },
+      "E": {
+        "item": "immersiveengineering:wirecoil_steel"
+      },
+      "F": {
+        "item": "createaddition:brass_rod"
+      },
+      "G": {
+        "item": "immersiveengineering:capacitor_mv"
+      },
+      "H": {
+        "item": "assemblylinemachines:iron_gear"
+      }
+    },
+    "result": {
+      "item": "immersiveengineering:capacitor_hv"
+    }
+  }

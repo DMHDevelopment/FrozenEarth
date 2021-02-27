@@ -1,0 +1,24 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "  A  ",
+      "  A  ",
+      " BCB ",
+      " ABA ",
+      "A   A"
+    ],
+    "key": {
+      "A": {
+        "item": "pneumaticcraft:turbine_blade"
+      },
+      "B": {
+        "item": "pneumaticcraft:drill_bit_compressed_iron"
+      },
+      "C": {
+        "item": "thermal:invar_gear"
+      }
+    },
+    "result": {
+      "item": "pneumaticcraft:turbine_rotor"
+    }
+  }

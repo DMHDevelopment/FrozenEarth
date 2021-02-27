@@ -1,0 +1,28 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "     ",
+      "ABCBA",
+      "DDDDD",
+      "ABCBA",
+      "     "
+    ],
+    "key": {
+      "A": {
+        "item": "createaddition:zinc_sheet"
+      },
+      "B": {
+        "item": "immersiveengineering:insulating_glass"
+      },
+      "C": {
+        "tag": "forge:plates/iron"
+      },
+      "D": {
+        "item": "assemblylinemachines:black_granite"
+      }
+    },
+    "result": {
+      "item": "assemblylinemachines:item_pipe",
+      "count": 4
+    }
+  }

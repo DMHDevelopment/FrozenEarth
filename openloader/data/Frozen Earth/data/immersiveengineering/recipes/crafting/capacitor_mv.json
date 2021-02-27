@@ -1,0 +1,39 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AABAA",
+      "CDEDC",
+      "BFGFB",
+      "CDHDC",
+      "AABAA"
+    ],
+    "key": {
+      "A": {
+        "item": "immersiveengineering:treated_wood_horizontal"
+      },
+      "B": {
+        "item": "createaddition:brass_rod"
+      },
+      "C": {
+        "item": "immersiveengineering:plate_steel"
+      },
+      "D": {
+        "item": "assemblylinemachines:energy_harness"
+      },
+      "E": {
+        "item": "assemblylinemachines:rubber_sheet"
+      },
+      "F": {
+        "item": "create:shadow_steel"
+      },
+      "G": {
+        "item": "immersiveengineering:capacitor_lv"
+      },
+      "H": {
+        "item": "assemblylinemachines:steel_gear"
+      }
+    },
+    "result": {
+      "item": "immersiveengineering:capacitor_mv"
+    }
+  }

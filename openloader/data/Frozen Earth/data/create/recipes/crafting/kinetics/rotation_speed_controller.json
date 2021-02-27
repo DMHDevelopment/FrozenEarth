@@ -10,7 +10,7 @@
             "item": "create:integrated_circuit"
         },
         "r": {
-            "item": "quark:shaft"
+            "item": "create:shaft"
         },
         "w": {
             "item": "create:large_cogwheel"

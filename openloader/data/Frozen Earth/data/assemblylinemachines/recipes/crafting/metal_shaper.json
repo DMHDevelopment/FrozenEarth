@@ -1,0 +1,39 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "ABCBA",
+      "BDEDB",
+      "CFGFC",
+      "BHHHB",
+      "ABCBA"
+    ],
+    "key": {
+      "A": {
+        "item": "immersiveengineering:steel_scaffolding_standard"
+      },
+      "B": {
+        "item": "assemblylinemachines:titanium_plate"
+      },
+      "C": {
+        "item": "assemblylinemachines:steel_plate"
+      },
+      "D": {
+        "item": "create:integrated_circuit"
+      },
+      "E": {
+        "item": "create:chromatic_compound"
+      },
+      "F": {
+        "item": "assemblylinemachines:steel_tank_component"
+      },
+      "G": {
+        "item": "create:mechanical_press"
+      },
+      "H": {
+        "item": "createaddition:capacitor"
+      }
+    },
+    "result": {
+      "item": "assemblylinemachines:metal_shaper"
+    }
+  }
