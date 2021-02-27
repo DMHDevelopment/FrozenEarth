@@ -741,6 +741,7 @@
 		{
 			x: 12.5d,
 			y: -5.0d,
+			description: ["The ore that I got not long ago called Fluorite I used in the pressure chamber with some ingredients, and created a capacitor."],
 			dependencies: ["47C127080E0A779C"],
 			id: "750A334B936BD9F1",
 			tasks: [{
@@ -752,6 +753,7 @@
 		{
 			x: 13.5d,
 			y: -5.0d,
+			description: ["But before the nuclear industry, it's still far away, for starters I need to make a transistor by connecting uraninite to other ingredients using pressure chamber."],
 			dependencies: ["666CC13915C4DCF1"],
 			id: "6F75B89EE89282D6",
 			tasks: [{
@@ -763,6 +765,7 @@
 		{
 			x: 13.0d,
 			y: -6.0d,
+			description: ["For the motherboard, I need to use a transistor and a capacitor, some titanium and I managed to create it. I need it to improve the mechanisms using atmospheric pressure."],
 			dependencies: [
 				"6F75B89EE89282D6",
 				"750A334B936BD9F1"
@@ -778,6 +781,7 @@
 			title: "Assembling The Circuits",
 			x: 11.0d,
 			y: -6.0d,
+			description: ["I need a assembler to create those things for which I need jewelry accuracy, so I decided to do it."],
 			dependencies: ["7378FF55F8DE5217"],
 			id: "65F64B148F036DAB",
 			tasks: [
@@ -811,6 +815,7 @@
 		{
 			x: 12.5d,
 			y: -7.0d,
+			description: ["I needed a tablet to order a drone with the delivery of items."],
 			dependencies: ["7378FF55F8DE5217"],
 			id: "28E77674765E70EC",
 			tasks: [{
@@ -839,6 +844,7 @@
 		{
 			x: 13.5d,
 			y: -7.0d,
+			description: ["Special programs for the assembler."],
 			dependencies: ["28E77674765E70EC"],
 			id: "74E96B774063D42B",
 			tasks: [
@@ -862,6 +868,7 @@
 		{
 			x: 9.5d,
 			y: -5.0d,
+			description: ["Improving the pressure transfer pipe, faster and lossless transfer, working with them is one pleasure."],
 			dependencies: ["65F64B148F036DAB"],
 			id: "12813987629A3FAA",
 			tasks: [{
@@ -884,6 +891,7 @@
 		{
 			x: 10.5d,
 			y: -5.0d,
+			description: ["I found a way to create creatures using atmospheric pressure, but I still need to create a spawner core for creatures to appear."],
 			dependencies: ["65F64B148F036DAB"],
 			id: "5BB06B34E863FE30",
 			tasks: [{
@@ -895,6 +903,7 @@
 		{
 			x: 9.5d,
 			y: -4.0d,
+			description: ["With atmospheric pressure, I can now use the engine ready for me will give another way."],
 			dependencies: ["12813987629A3FAA"],
 			id: "109A778A4320C4A7",
 			tasks: [{
@@ -987,6 +996,7 @@
 		{
 			x: 15.5d,
 			y: -3.0d,
+			description: ["This part of the machine that will be useful to create in the future, with it begins a new branch of my progress."],
 			dependencies: [
 				"0000000000000392",
 				"109A778A4320C4A7"
@@ -1002,6 +1012,7 @@
 		{
 			x: 11.5d,
 			y: -7.0d,
+			description: ["I created this box at first not suspecting what it was for, but then I realized that with it the boards that were not completely ready I could increase the chance of successful creation."],
 			dependencies: ["28E77674765E70EC"],
 			id: "0A7AECE0E60537DF",
 			tasks: [{
