@@ -9,10 +9,10 @@
     ],
     "key": {
       "A": {
-        "item": "immersiveengineering:sheetmetal_steel"
+        "item": "create:brass_casing"
       },
       "B": {
-        "item": "assemblylinemachines:steel_plate"
+        "item": "assemblylinemachines:iron_plate"
       },
       "C": {
         "item": "immersiveengineering:sheetmetal_iron"
