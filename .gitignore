@@ -24,5 +24,5 @@ patchouli_data.json
 /config/environmental
 /logs
 ProgrammingPuzzleBlacklist.cfg
-OptiFine*.jar
+*OptiFine*.jar
 config/tombstone-client.toml
