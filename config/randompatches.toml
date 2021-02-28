@@ -113,7 +113,7 @@
 		#  - ${modversion:modid}: The version of the mod with the specified ID.
 		# '$' can be escaped by using an extra '$'.
 		# Default: "Minecraft ${mcversion}"
-		title = "FrozenEarth Alpha"
+		title = "Frozen Earth: Closed Beta"
 		# The Minecraft window title that also takes into account the current activity.
 		# Variables:
 		#  - ${mcversion}: The Minecraft version
@@ -123,7 +123,7 @@
 		#  - ${modversion:modid}: The version of the mod with the specified ID.
 		# '$' can be escaped by using an extra '$'.
 		# Default: "Minecraft ${mcversion} - ${activity}"
-		title_with_activity = "FrozenEarth Alpha - ${activity}"
+		title_with_activity = "Frozen Earth: Closed Beta - ${activity}"
 		# Enables custom Minecraft window icons.
 		# Default: true
 		custom_icon = true
