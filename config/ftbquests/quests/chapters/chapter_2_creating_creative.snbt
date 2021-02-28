@@ -1513,7 +1513,7 @@
 		},
 		{
 			title: "My precious",
-			x: 13.5d,
+			x: 13.0d,
 			y: 6.5d,
 			description: ["I like to spend time rationally, maybe there's a solution to speed up some standard processes."],
 			dependencies: ["0000000000000161"],
@@ -1544,10 +1544,11 @@
 		},
 		{
 			title: "Trap God",
-			x: 10.5d,
-			y: 3.5d,
+			x: 11.0d,
+			y: 4.5d,
 			shape: "rsquare",
 			description: ["I'm beginnin' to feel like a Trap God, Trap God..."],
+			dependencies: ["0000000000000161"],
 			hide: false,
 			id: "2BB81095697C6BE0",
 			tasks: [
@@ -1614,7 +1615,7 @@
 			]
 		},
 		{
-			x: 12.0d,
+			x: 11.5d,
 			y: 6.0d,
 			dependencies: ["0000000000000161"],
 			id: "4E6872100BC6FA01",

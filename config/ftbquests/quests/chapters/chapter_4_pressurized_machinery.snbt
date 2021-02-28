@@ -136,6 +136,12 @@
 				type: "item",
 				item: "immersiveengineering:ingot_electrum",
 				count: 2L
+			}],
+			rewards: [{
+				id: "122CA160F856DFDA",
+				type: "item",
+				item: "immersiveengineering:ingot_electrum",
+				count: 6
 			}]
 		},
 		{
@@ -168,6 +174,12 @@
 				id: "0000000000000343",
 				type: "item",
 				item: "immersiveengineering:capacitor_mv"
+			}],
+			rewards: [{
+				id: "0DB2F0630654ABA1",
+				type: "item",
+				item: "crockpot:seafood_gumbo",
+				count: 8
 			}]
 		},
 		{
@@ -182,6 +194,12 @@
 				id: "0000000000000347",
 				type: "item",
 				item: "immersiveengineering:mold_plate"
+			}],
+			rewards: [{
+				id: "01C69101D0B69B9D",
+				type: "item",
+				item: "immersiveengineering:plate_steel",
+				count: 4
 			}]
 		},
 		{
@@ -194,6 +212,11 @@
 				id: "0000000000000349",
 				type: "item",
 				item: "immersiveengineering:plate_lead"
+			}],
+			rewards: [{
+				id: "184D72F2123F8DD1",
+				type: "item",
+				item: "immersiveengineering:plate_silver"
 			}]
 		},
 		{
@@ -226,7 +249,20 @@
 				id: "000000000000034D",
 				type: "item",
 				item: "immersiveengineering:light_engineering"
-			}]
+			}],
+			rewards: [
+				{
+					id: "7C59F42311266877",
+					type: "item",
+					item: "immersiveengineering:light_engineering",
+					count: 3
+				},
+				{
+					id: "0B1A5DBABC0C11B2",
+					type: "item",
+					item: "immersiveengineering:rs_engineering"
+				}
+			]
 		},
 		{
 			x: 6.5d,
@@ -238,6 +274,12 @@
 				id: "000000000000034F",
 				type: "item",
 				item: "immersiveengineering:circuit_board"
+			}],
+			rewards: [{
+				id: "1BF7F8FE85CD1DCF",
+				type: "item",
+				item: "create:integrated_circuit",
+				count: 4
 			}]
 		},
 		{
@@ -287,7 +329,14 @@
 			tasks: [{
 				id: "0000000000000356",
 				type: "item",
-				item: "immersiveengineering:blastbrick_reinforced"
+				item: "immersiveengineering:blastbrick_reinforced",
+				count: 27L
+			}],
+			rewards: [{
+				id: "6EDDF929753A35B0",
+				type: "item",
+				item: "immersiveengineering:blastbrick",
+				count: 27
 			}]
 		},
 		{
@@ -298,6 +347,11 @@
 			id: "0000000000000357",
 			tasks: [{
 				id: "0000000000000358",
+				type: "item",
+				item: "immersiveengineering:blastfurnace_preheater"
+			}],
+			rewards: [{
+				id: "43F3FC34CC66AA47",
 				type: "item",
 				item: "immersiveengineering:blastfurnace_preheater"
 			}]
@@ -312,6 +366,12 @@
 				id: "000000000000035E",
 				type: "item",
 				item: "immersiveengineering:fluid_pump"
+			}],
+			rewards: [{
+				id: "03C6D354F79A3F70",
+				type: "item",
+				item: "immersiveengineering:fluid_pipe",
+				count: 12
 			}]
 		},
 		{
@@ -324,9 +384,16 @@
 				id: "0000000000000360",
 				type: "item",
 				item: "pneumaticcraft:ingot_iron_compressed"
+			}],
+			rewards: [{
+				id: "47FCA431802F866E",
+				type: "item",
+				item: "pneumaticcraft:ingot_iron_compressed",
+				count: 8
 			}]
 		},
 		{
+			title: "Advanced Engineering",
 			x: 7.0d,
 			y: -2.0d,
 			description: ["More sophisticated machines require more complex basic engineering units for future machines."],
@@ -337,6 +404,11 @@
 			id: "0000000000000361",
 			tasks: [{
 				id: "0000000000000362",
+				type: "item",
+				item: "immersiveengineering:heavy_engineering"
+			}],
+			rewards: [{
+				id: "7B60C0ABBEFF37C8",
 				type: "item",
 				item: "immersiveengineering:heavy_engineering"
 			}]
@@ -351,6 +423,12 @@
 				id: "0000000000000364",
 				type: "item",
 				item: "pneumaticcraft:reinforced_bricks"
+			}],
+			rewards: [{
+				id: "54CEC57B432098D1",
+				type: "item",
+				item: "pneumaticcraft:reinforced_bricks",
+				count: 16
 			}]
 		},
 		{
@@ -375,7 +453,12 @@
 					type: "item",
 					item: "pneumaticcraft:pressure_chamber_valve"
 				}
-			]
+			],
+			rewards: [{
+				id: "30D8D1B646C3E2E5",
+				type: "item",
+				item: "pneumaticcraft:pressure_gauge_module"
+			}]
 		},
 		{
 			x: 8.5d,
@@ -387,6 +470,11 @@
 				id: "000000000000036A",
 				type: "item",
 				item: "pneumaticcraft:pressure_chamber_interface"
+			}],
+			rewards: [{
+				id: "747AA9DB33438D9F",
+				type: "item",
+				item: "pneumaticcraft:pressure_chamber_valve"
 			}]
 		},
 		{
@@ -399,6 +487,12 @@
 				id: "000000000000036C",
 				type: "item",
 				item: "pneumaticcraft:pressure_tube"
+			}],
+			rewards: [{
+				id: "11E621635FDBC699",
+				type: "item",
+				item: "pneumaticcraft:pressure_tube",
+				count: 4
 			}]
 		},
 		{
@@ -411,9 +505,15 @@
 				id: "000000000000036E",
 				type: "item",
 				item: "pneumaticcraft:air_compressor"
+			}],
+			rewards: [{
+				id: "0BEA142B53A57DB2",
+				type: "item",
+				item: "pneumaticcraft:air_compressor"
 			}]
 		},
 		{
+			title: "Fluid Tank",
 			x: 12.5d,
 			y: 0.0d,
 			description: ["The fluid storage I want to do must be bigger than the past. I hope it will also be with an internal interface, otherwise simply the storage is very not convenient for viewing the amount of liquid in it."],
@@ -426,6 +526,7 @@
 			}]
 		},
 		{
+			title: "Do you know how to pump?",
 			x: 5.0d,
 			y: -5.0d,
 			description: ["Leafy book Assembly Lines I stumbled upon a pump, perhaps it will be better than my past, at least not with a simple it is created like this."],
@@ -459,6 +560,12 @@
 				id: "0000000000000376",
 				type: "item",
 				item: "assemblylinemachines:refinery_attachment_halogen"
+			}],
+			rewards: [{
+				id: "56B95A0AC53F083E",
+				type: "item",
+				item: "assemblylinemachines:titanium_ingot",
+				count: 8
 			}]
 		},
 		{
@@ -471,6 +578,12 @@
 				id: "0000000000000378",
 				type: "item",
 				item: "assemblylinemachines:refinery_attachment_cracking"
+			}],
+			rewards: [{
+				id: "6DDA673428A6C84A",
+				type: "item",
+				item: "immersiveengineering:ingot_steel",
+				count: 8
 			}]
 		},
 		{
@@ -483,9 +596,16 @@
 				id: "000000000000037A",
 				type: "item",
 				item: "assemblylinemachines:refinery_attachment_addition"
+			}],
+			rewards: [{
+				id: "340B4C9B49F1FAE4",
+				type: "item",
+				item: "pneumaticcraft:ingot_iron_compressed",
+				count: 8
 			}]
 		},
 		{
+			title: "Black Gold",
 			x: 6.5d,
 			y: -6.0d,
 			description: ["Still, after the сrafting of the pump, I realized that it was needed for oil production."],
@@ -504,6 +624,7 @@
 			}]
 		},
 		{
+			title: "Ethane",
 			x: 6.5d,
 			y: -7.0d,
 			description: ["By refining the refinery oil, I got volatile ethane gases as well as propane."],
@@ -522,6 +643,7 @@
 			}]
 		},
 		{
+			title: "Ethylene",
 			x: 6.5d,
 			y: -8.0d,
 			description: ["After reprocessing ethane that I got from oil, I got ethylene that I would need next."],
@@ -540,6 +662,7 @@
 			}]
 		},
 		{
+			title: "Plastic First Look",
 			x: 6.5d,
 			y: -9.0d,
 			description: ["After a few manipulations of oil, I got one of the types of plastic, nowhere in the modern world without it."],
@@ -549,9 +672,16 @@
 				id: "0000000000000383",
 				type: "item",
 				item: "assemblylinemachines:plastic_sheet"
+			}],
+			rewards: [{
+				id: "458E472E34421101",
+				type: "item",
+				item: "assemblylinemachines:plastic_sheet",
+				count: 3
 			}]
 		},
 		{
+			title: "Gasoline",
 			x: 7.5d,
 			y: -6.0d,
 			description: ["After distillate Crude Oil I got a liquid called Gasoline"],
@@ -559,6 +689,11 @@
 			id: "0000000000000384",
 			tasks: [{
 				id: "0000000000000385",
+				type: "item",
+				item: "immersivepetroleum:gasoline_bucket"
+			}],
+			rewards: [{
+				id: "34D0AE574CBD217E",
 				type: "item",
 				item: "immersivepetroleum:gasoline_bucket"
 			}]
@@ -573,6 +708,11 @@
 				id: "0000000000000387",
 				type: "item",
 				item: "pneumaticcraft:lpg_bucket"
+			}],
+			rewards: [{
+				id: "4AA38E9E4360218A",
+				type: "item",
+				item: "pneumaticcraft:lpg_bucket"
 			}]
 		},
 		{
@@ -585,9 +725,16 @@
 				id: "0000000000000389",
 				type: "item",
 				item: "pneumaticcraft:thermopneumatic_processing_plant"
+			}],
+			rewards: [{
+				id: "2A69B541040BE2FA",
+				type: "item",
+				item: "minecraft:coal_block",
+				count: 4
 			}]
 		},
 		{
+			title: "Plastic Second Look",
 			x: 7.5d,
 			y: -8.0d,
 			description: ["Everything in that machine, using LPG and melting coal, after mixing the resulting substance, I received liquid plastic, which if poured into the world, it would freeze into the usual plastic."],
@@ -597,10 +744,16 @@
 				id: "000000000000038B",
 				type: "item",
 				item: "pneumaticcraft:plastic"
+			}],
+			rewards: [{
+				id: "183B092714A08D1D",
+				type: "item",
+				item: "pneumaticcraft:plastic",
+				count: 3
 			}]
 		},
 		{
-			title: "[Immersive Petroleum Multiblock] Pumpjack",
+			title: "PumpJack",
 			x: 7.0d,
 			y: -4.0d,
 			description: ["My first complicated machine allows me to extract Crude oil from the bowels of our frozen earth, which I need for future research."],
@@ -659,6 +812,7 @@
 			]
 		},
 		{
+			title: "Finding a Stronghold...",
 			x: 11.5d,
 			y: -2.0d,
 			description: ["Finally after how long I can do, the eye of the ender to go into a second change called the End."],
@@ -688,9 +842,16 @@
 				id: "37A252C7A91B7388",
 				type: "dimension",
 				dimension: "minecraft:the_end"
+			}],
+			rewards: [{
+				id: "2BE6AF405FED1D9B",
+				type: "item",
+				item: "minecraft:ender_eye",
+				count: 4
 			}]
 		},
 		{
+			title: "Condensed liquid void.. mysteriously..",
 			x: 11.5d,
 			y: -4.0d,
 			description: ["Putting a pump in the End, which I produced oil for, I was able to produce a liquid void, mysteriouslyyyyy."],
@@ -703,6 +864,7 @@
 			}]
 		},
 		{
+			title: "Finding Fluorite...",
 			x: 12.5d,
 			y: -4.0d,
 			description: ["Another ore I found is Fluorite, I'll get it in handy."],
@@ -715,6 +877,7 @@
 			}]
 		},
 		{
+			title: "Finding Uraninite...",
 			x: 13.5d,
 			y: -4.0d,
 			description: ["The ore I discovered traveling through the End would be useful for the nuclear industry."],
@@ -736,6 +899,12 @@
 				id: "43587664AD9B60CC",
 				type: "item",
 				item: "terraqueous:doodad_endimium"
+			}],
+			rewards: [{
+				id: "70632843499E8A41",
+				type: "item",
+				item: "minecraft:ender_pearl",
+				count: 6
 			}]
 		},
 		{
@@ -813,6 +982,7 @@
 			]
 		},
 		{
+			title: "Was the package ordered?",
 			x: 12.5d,
 			y: -7.0d,
 			description: ["I needed a tablet to order a drone with the delivery of items."],
@@ -839,9 +1009,16 @@
 					Count: 64b
 				},
 				count: 64L
+			}],
+			rewards: [{
+				id: "5D460D2A31DD5729",
+				type: "item",
+				item: "minecraft:experience_bottle",
+				count: 64
 			}]
 		},
 		{
+			title: "Aseembly Programs",
 			x: 13.5d,
 			y: -7.0d,
 			description: ["Special programs for the assembler."],
@@ -889,6 +1066,7 @@
 			}]
 		},
 		{
+			title: "Create your own creature at home",
 			x: 10.5d,
 			y: -5.0d,
 			description: ["I found a way to create creatures using atmospheric pressure, but I still need to create a spawner core for creatures to appear."],
@@ -913,7 +1091,7 @@
 			}]
 		},
 		{
-			title: "[Immersive Petroleum Multiblock] Distillation Tower",
+			title: "Distillation is our friend",
 			x: 7.0d,
 			y: -5.0d,
 			description: ["Industrial distilation of liquids, a very necessary aspect in the development and creation of new things."],
@@ -955,9 +1133,34 @@
 					item: "immersiveengineering:steel_scaffolding_standard",
 					count: 25L
 				}
+			],
+			rewards: [
+				{
+					id: "37C1FEE0188EE347",
+					type: "item",
+					item: "immersivepetroleum:oil_bucket"
+				},
+				{
+					id: "5373789F56B67BBF",
+					type: "item",
+					item: "assemblylinemachines:steel_ingot",
+					count: 20
+				},
+				{
+					id: "2A47DCC9BB78A115",
+					type: "item",
+					item: {
+						id: "minecraft:splash_potion",
+						Count: 1b,
+						tag: {
+							Potion: "apotheosis:strong_haste"
+						}
+					}
+				}
 			]
 		},
 		{
+			title: "Projector",
 			x: 3.0d,
 			y: 1.5d,
 			description: ["I will need to build large machinery, according to the tutorial book it is not very convenient and decided to make a projector."],
@@ -967,6 +1170,11 @@
 				id: "06307D8A0E1203F3",
 				type: "item",
 				item: "immersivepetroleum:projector"
+			}],
+			rewards: [{
+				id: "2029AA406EB4AF03",
+				type: "item",
+				item: "minecraft:gold_block"
 			}]
 		},
 		{
@@ -977,6 +1185,11 @@
 			id: "78446171E477AE63",
 			tasks: [{
 				id: "4DF50271B3271F3B",
+				type: "item",
+				item: "waystones:waystone"
+			}],
+			rewards: [{
+				id: "2976DF1897CEA47A",
 				type: "item",
 				item: "waystones:waystone"
 			}]
@@ -1033,8 +1246,26 @@
 				type: "kill",
 				title: "Kill The Dragon",
 				entity: "minecraft:ender_dragon",
-				value: 100L
-			}]
+				value: 1L
+			}],
+			rewards: [
+				{
+					id: "35448FE0719E10A4",
+					type: "item",
+					item: "minecraft:experience_bottle",
+					count: 64
+				},
+				{
+					id: "5D7BC8E181C90030",
+					type: "item",
+					item: "immersiveengineering:rs_engineering"
+				},
+				{
+					id: "443F4A36F335B4B7",
+					type: "item",
+					item: "immersiveengineering:light_engineering"
+				}
+			]
 		}
 	]
 }

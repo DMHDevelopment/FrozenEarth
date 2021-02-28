@@ -2155,6 +2155,7 @@
 			}]
 		},
 		{
+			title: "Refractory Bricks",
 			x: -11.0d,
 			y: 10.0d,
 			shape: "gear",

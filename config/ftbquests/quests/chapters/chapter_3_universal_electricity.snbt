@@ -308,6 +308,7 @@
 			]
 		},
 		{
+			title: "Finding crimson iron...",
 			x: -4.0d,
 			y: -7.0d,
 			description: ["In this strange place, I found ore that I had not seen before unlike gold, maybe it would be useful for me to improve my tools."],
@@ -843,6 +844,7 @@
 			]
 		},
 		{
+			title: "Wire.. wire.. wire..",
 			icon: "immersiveengineering:wirecoil_copper",
 			x: 13.0d,
 			y: -10.0d,
@@ -909,6 +911,7 @@
 			]
 		},
 		{
+			title: "Chromium plate",
 			x: 13.0d,
 			y: -2.5d,
 			description: ["Having melted 2 ores mined earlier, I began to create the alloy I needed to transition to a new era of progress."],
@@ -1074,6 +1077,7 @@
 			}]
 		},
 		{
+			title: "Burnium fuel",
 			x: -3.0d,
 			y: -7.0d,
 			description: ["Being as I already understood in nether, I found an alternative type of fuel, equal or maybe even better than coal."],
@@ -1104,6 +1108,7 @@
 			}]
 		},
 		{
+			title: "White Mineral",
 			x: -4.0d,
 			y: -6.0d,
 			description: ["When I came to these strange places, I discovered something similar to ore, having extracted it, I realized that it was quartz, really how to use it? I may understand very soon."],
@@ -1117,6 +1122,7 @@
 			}]
 		},
 		{
+			title: "Mooore gold",
 			x: -3.0d,
 			y: -6.0d,
 			description: ["Just like in the world on the other side of the portal, I found gold, and it seems that these pinglins love it, the main thing is not to dig it with them."],
@@ -1164,7 +1170,7 @@
 			}]
 		},
 		{
-			title: "Ilmenite ore",
+			title: "Finding Ilmenite...",
 			x: -3.5d,
 			y: -8.5d,
 			description: ["For my further research, I need Ilmenite in the ordinary world it is difficult to get it because it is at great depths, I am lucky that the locals of nether, I learned that this ore will merge here more often."],
@@ -1218,6 +1224,7 @@
 			}]
 		},
 		{
+			title: "Gold spool",
 			x: -1.0d,
 			y: -7.5d,
 			description: ["After researching the depths of hell, I wanted to go into technology more, so for starters I created a gold coil from gold spool."],
@@ -1269,6 +1276,7 @@
 			]
 		},
 		{
+			title: "Energy conversion",
 			x: 13.0d,
 			y: -7.5d,
 			description: ["And so I am ready to go to a new stage of energy, only to start generating it I need a minimum of 32 RPM."],
