@@ -78,7 +78,7 @@ events.listen('recipes', event => {
     ], {
         A: '#forge:rods/wooden'
     });
-
+	
     event.shaped(item.of('ironchest:dirt_chest', 1), [
         'AAA',
         'ABA',
@@ -86,6 +86,14 @@ events.listen('recipes', event => {
     ], {
         A: '#industrialforegoing:sludge',
         B: '#forge:chests/wooden'
+    });
+	
+	event.shaped(item.of('minecraft:paper', 1), [
+        'AAA',
+        'A A',
+        'AAA'
+    ], {
+        A: '#forge:dusts/wood',
     });
 
     event.shaped(item.of('ironchest:copper_chest', 1), [
@@ -298,7 +306,97 @@ events.listen('recipes', event => {
         A: '#forge:obsidian',
         B: '#forge:gears/diamond'
     });
+	
+	event.custom({
+    type: "stone_age:flint_workbench",
+    pattern: [
+      " S ",
+      "S S",
+      " S "
+    ],
+    key: {
+      "S": {
+        "tag": "forge:rods/wooden"
+      }
+    },
+    tool: {
+      "tag": "ages_api:knifes"
+    },
+    result: {
+      "item": "appliedenergistics2:wooden_gear"
+    }
+  })
+  
+  event.custom({
+    type: "stone_age:flint_workbench",
+    pattern: [
+      " S ",
+      "SCS",
+      "LLL"
+    ],
+    key: {
+      "S": {
+        "tag": "forge:rods/wooden"
+      },
+	  "C": {
+        "tag": "minecraft:coals"
+      },
+	  "L": {
+        "tag": "minecraft:logs"
+      }
+    },
+    tool: {
+      "tag": "ages_api:knifes"
+    },
+    result: {
+      "item": "minecraft:campfire"
+    }
+  })
+  
+  event.custom({
+    type: "stone_age:flint_workbench",
+    pattern: [
+      "   ",
+      "SSS",
+      "   "
+    ],
+    key: {
+      "S": {
+        "tag": "forge:slabs/wooden"
+      }
+    },
+    tool: {
+      "tag": "ages_api:knifes"
+    },
+    result: {
+      "item": "silents_mechanisms:oak_drying_rack"
+    }
+  })
+  
+  event.custom({
+    "type": "silents_mechanisms:drying",
+    "process_time": 600,
+    "ingredient": {
+        "item": "minecraft:grass"
+    },
+    "result": {
+        "item": "stone_age:dried_grass"
+    }
+ })
+  
+  event.custom({
+    "type": "silents_mechanisms:drying",
+    "process_time": 600,
+    "ingredient": {
+        "item": "stone_age:raw_hide"
+    },
+    "result": {
+        "item": "minecraft:leather"
+    }
+ })
 });
+
+	
 
 events.listen('item.tags', event => {
     // Change item tags here

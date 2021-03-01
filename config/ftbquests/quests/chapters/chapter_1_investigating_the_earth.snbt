@@ -1178,7 +1178,14 @@
 			tasks: [{
 				id: "00000000000000A3",
 				type: "item",
-				item: "minecraft:chest"
+				title: "Any #forge:chests",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "forge:chests"
+					}
+				}
 			}],
 			rewards: [{
 				id: "00000000000001A3",
@@ -3155,6 +3162,17 @@
 				id: "0000000000000324",
 				type: "item",
 				item: "supplementaries:jar"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 9.5d,
+			dependencies: ["0000000000000051"],
+			id: "619741B416F61EB1",
+			tasks: [{
+				id: "744EBE84BAE397CB",
+				type: "item",
+				item: "silentgear:saw_blueprint"
 			}]
 		}
 	]
