@@ -548,6 +548,11 @@
 				id: "0000000000000374",
 				type: "item",
 				item: "assemblylinemachines:pumpshaft"
+			}],
+			rewards: [{
+				id: "5F282F52664D0803",
+				type: "item",
+				item: "crockpot:pumpkin_cookie"
 			}]
 		},
 		{
@@ -874,6 +879,12 @@
 				id: "63D84BA32B4D1FAF",
 				type: "item",
 				item: "rankine:fluorite_ore"
+			}],
+			rewards: [{
+				id: "3509740F8603AD28",
+				type: "item",
+				item: "rankine:fluorite",
+				count: 3
 			}]
 		},
 		{
@@ -887,6 +898,12 @@
 				id: "16E792B28A1EBCF7",
 				type: "item",
 				item: "rankine:uraninite_ore"
+			}],
+			rewards: [{
+				id: "473584F6E1B005C2",
+				type: "item",
+				item: "rankine:uraninite",
+				count: 3
 			}]
 		},
 		{
@@ -917,6 +934,11 @@
 				id: "73A8077693F65152",
 				type: "item",
 				item: "pneumaticcraft:capacitor"
+			}],
+			rewards: [{
+				id: "7CC804E29C771AB7",
+				type: "item",
+				item: "pneumaticcraft:capacitor"
 			}]
 		},
 		{
@@ -927,6 +949,11 @@
 			id: "6F75B89EE89282D6",
 			tasks: [{
 				id: "5625DEC8C0CC8DB7",
+				type: "item",
+				item: "pneumaticcraft:transistor"
+			}],
+			rewards: [{
+				id: "2F797C1318C0615F",
 				type: "item",
 				item: "pneumaticcraft:transistor"
 			}]
@@ -942,6 +969,11 @@
 			id: "7378FF55F8DE5217",
 			tasks: [{
 				id: "5EA5012EE5EABDDC",
+				type: "item",
+				item: "pneumaticcraft:printed_circuit_board"
+			}],
+			rewards: [{
+				id: "78FB6318E1C1C532",
 				type: "item",
 				item: "pneumaticcraft:printed_circuit_board"
 			}]
@@ -979,7 +1011,12 @@
 					type: "item",
 					item: "pneumaticcraft:assembly_laser"
 				}
-			]
+			],
+			rewards: [{
+				id: "6C5859B4DBE23B1C",
+				type: "item",
+				item: "pneumaticcraft:printed_circuit_board"
+			}]
 		},
 		{
 			title: "Was the package ordered?",
@@ -1040,7 +1077,12 @@
 					type: "item",
 					item: "pneumaticcraft:assembly_program_drill_laser"
 				}
-			]
+			],
+			rewards: [{
+				id: "6DC7469FD8072FD2",
+				type: "item",
+				item: "upgrade_aquatic:mulberry_pie"
+			}]
 		},
 		{
 			x: 9.5d,
@@ -1052,6 +1094,12 @@
 				id: "67A5315BCD685C5D",
 				type: "item",
 				item: "pneumaticcraft:advanced_pressure_tube"
+			}],
+			rewards: [{
+				id: "0936F5CB6AA9D99C",
+				type: "item",
+				item: "pneumaticcraft:advanced_pressure_tube",
+				count: 8
 			}]
 		},
 		{
@@ -1063,6 +1111,12 @@
 				id: "784F5DD97AE5E55B",
 				type: "item",
 				item: "pneumaticcraft:advanced_air_compressor"
+			}],
+			rewards: [{
+				id: "250985AFFC6448B6",
+				type: "item",
+				item: "extendedcrafting:black_iron_slate",
+				count: 4
 			}]
 		},
 		{
@@ -1076,6 +1130,11 @@
 				id: "5E055A8E8A592B65",
 				type: "item",
 				item: "pneumaticcraft:pressurized_spawner"
+			}],
+			rewards: [{
+				id: "628EAA01BF82D5C4",
+				type: "item",
+				item: "pneumaticcraft:spawner_core_shell"
 			}]
 		},
 		{
@@ -1086,6 +1145,11 @@
 			id: "109A778A4320C4A7",
 			tasks: [{
 				id: "5ADF8AB7651D5D84",
+				type: "item",
+				item: "pneumaticcraft:pneumatic_dynamo"
+			}],
+			rewards: [{
+				id: "25AA6C9B51AF04F0",
 				type: "item",
 				item: "pneumaticcraft:pneumatic_dynamo"
 			}]
@@ -1204,6 +1268,12 @@
 				id: "1F286792866CF068",
 				type: "item",
 				item: "assemblylinemachines:refinery"
+			}],
+			rewards: [{
+				id: "02F6DF892764D751",
+				type: "item",
+				item: "minecraft:diamond",
+				count: 2
 			}]
 		},
 		{
