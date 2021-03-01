@@ -3167,6 +3167,7 @@
 		{
 			x: -3.0d,
 			y: 9.5d,
+			description: ["Saws are good friends for planks. Make a new saw after creating Crafting Table!"],
 			dependencies: ["0000000000000051"],
 			id: "619741B416F61EB1",
 			tasks: [{
