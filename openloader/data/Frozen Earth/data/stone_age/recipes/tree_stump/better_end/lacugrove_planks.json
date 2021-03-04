@@ -1,0 +1,14 @@
+{
+  "type": "stone_age:tree_stump",
+  "tool": {
+    "tag": "ages_api:axes"
+  },
+  "ingredient": {
+    "tag": "betterendforge:lacugrove_logs"
+  },
+  "chopTimes": 2,
+  "result": {
+    "item": "betterendforge:lacugrove_planks",
+    "count": 2
+  }
+}

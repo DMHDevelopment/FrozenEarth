@@ -1,0 +1,14 @@
+{
+  "type": "stone_age:tree_stump",
+  "tool": {
+    "tag": "ages_api:axes"
+  },
+  "ingredient": {
+    "tag": "betterendforge:tenanea_logs"
+  },
+  "chopTimes": 2,
+  "result": {
+    "item": "betterendforge:tenanea_planks",
+    "count": 2
+  }
+}

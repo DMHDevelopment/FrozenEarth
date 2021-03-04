@@ -1,0 +1,14 @@
+{
+  "type": "stone_age:tree_stump",
+  "tool": {
+    "tag": "ages_api:axes"
+  },
+  "ingredient": {
+    "tag": "byg:balsam_fir_logs"
+  },
+  "chopTimes": 2,
+  "result": {
+    "item": "byg:balsam_fir_planks",
+    "count": 2
+  }
+}

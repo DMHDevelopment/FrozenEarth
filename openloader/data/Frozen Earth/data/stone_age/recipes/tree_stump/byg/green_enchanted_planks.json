@@ -1,0 +1,14 @@
+{
+  "type": "stone_age:tree_stump",
+  "tool": {
+    "tag": "ages_api:axes"
+  },
+  "ingredient": {
+    "tag": "byg:green_enchanted_logs"
+  },
+  "chopTimes": 2,
+  "result": {
+    "item": "byg:green_enchanted_planks",
+    "count": 2
+  }
+}

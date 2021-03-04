@@ -1,0 +1,14 @@
+{
+  "type": "stone_age:tree_stump",
+  "tool": {
+    "tag": "ages_api:axes"
+  },
+  "ingredient": {
+    "tag": "byg:pinyon_pine_logs"
+  },
+  "chopTimes": 2,
+  "result": {
+    "item": "byg:pinyon_pine_planks",
+    "count": 2
+  }
+}

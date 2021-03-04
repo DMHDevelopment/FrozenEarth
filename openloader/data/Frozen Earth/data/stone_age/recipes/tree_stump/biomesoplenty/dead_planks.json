@@ -1,0 +1,14 @@
+{
+  "type": "stone_age:tree_stump",
+  "tool": {
+    "tag": "ages_api:axes"
+  },
+  "ingredient": {
+    "tag": "biomesoplenty:dead_logs"
+  },
+  "chopTimes": 2,
+  "result": {
+    "item": "biomesoplenty:dead_planks",
+    "count": 2
+  }
+}

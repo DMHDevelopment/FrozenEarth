@@ -1,0 +1,14 @@
+{
+  "type": "stone_age:tree_stump",
+  "tool": {
+    "tag": "ages_api:axes"
+  },
+  "ingredient": {
+    "tag": "upgrade_aquatic:driftwood_logs"
+  },
+  "chopTimes": 2,
+  "result": {
+    "item": "upgrade_aquatic:driftwood_planks",
+    "count": 2
+  }
+}

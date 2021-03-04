@@ -1,0 +1,14 @@
+{
+  "type": "stone_age:tree_stump",
+  "tool": {
+    "tag": "ages_api:axes"
+  },
+  "ingredient": {
+    "tag": "undergarden:wigglewood_logs"
+  },
+  "chopTimes": 2,
+  "result": {
+    "item": "undergarden:wigglewood_planks",
+    "count": 2
+  }
+}

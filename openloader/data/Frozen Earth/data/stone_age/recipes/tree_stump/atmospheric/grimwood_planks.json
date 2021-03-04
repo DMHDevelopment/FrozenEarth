@@ -1,0 +1,14 @@
+{
+  "type": "stone_age:tree_stump",
+  "tool": {
+    "tag": "ages_api:axes"
+  },
+  "ingredient": {
+    "tag": "atmospheric:grimwood_stems"
+  },
+  "chopTimes": 2,
+  "result": {
+    "item": "atmospheric:grimwood_planks",
+    "count": 2
+  }
+}

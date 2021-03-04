@@ -1,0 +1,14 @@
+{
+  "type": "stone_age:tree_stump",
+  "tool": {
+    "tag": "ages_api:axes"
+  },
+  "ingredient": {
+    "tag": "minecraft:warped_stems"
+  },
+  "chopTimes": 2,
+  "result": {
+    "item": "minecraft:warped_planks",
+    "count": 2
+  }
+}

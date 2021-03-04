@@ -1,0 +1,14 @@
+{
+  "type": "stone_age:tree_stump",
+  "tool": {
+    "tag": "ages_api:axes"
+  },
+  "ingredient": {
+    "tag": "terraqueous:cherry_logs"
+  },
+  "chopTimes": 2,
+  "result": {
+    "item": "terraqueous:cherry_planks",
+    "count": 2
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "stone_age:tree_stump",
+  "tool": {
+    "tag": "ages_api:axes"
+  },
+  "ingredient": {
+    "tag": "byg:witch_hazel_logs"
+  },
+  "chopTimes": 2,
+  "result": {
+    "item": "byg:witch_hazel_planks",
+    "count": 2
+  }
+}

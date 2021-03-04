@@ -1,0 +1,14 @@
+{
+  "type": "stone_age:tree_stump",
+  "tool": {
+    "tag": "ages_api:axes"
+  },
+  "ingredient": {
+    "tag": "terraqueous:peach_logs"
+  },
+  "chopTimes": 2,
+  "result": {
+    "item": "terraqueous:peach_planks",
+    "count": 2
+  }
+}

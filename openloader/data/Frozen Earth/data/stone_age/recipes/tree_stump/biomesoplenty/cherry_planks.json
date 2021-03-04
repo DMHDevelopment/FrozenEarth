@@ -1,0 +1,14 @@
+{
+  "type": "stone_age:tree_stump",
+  "tool": {
+    "tag": "ages_api:axes"
+  },
+  "ingredient": {
+    "tag": "biomesoplenty:cherry_logs"
+  },
+  "chopTimes": 2,
+  "result": {
+    "item": "biomesoplenty:cherry_planks",
+    "count": 2
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "stone_age:tree_stump",
+  "tool": {
+    "tag": "ages_api:axes"
+  },
+  "ingredient": {
+    "tag": "gaiadimension:burning_logs"
+  },
+  "chopTimes": 2,
+  "result": {
+    "item": "gaiadimension:burning_planks",
+    "count": 2
+  }
+}

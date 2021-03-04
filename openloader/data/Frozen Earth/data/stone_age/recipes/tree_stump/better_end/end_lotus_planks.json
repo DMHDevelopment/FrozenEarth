@@ -1,0 +1,14 @@
+{
+  "type": "stone_age:tree_stump",
+  "tool": {
+    "tag": "ages_api:axes"
+  },
+  "ingredient": {
+    "tag": "betterendforge:end_lotus_logs"
+  },
+  "chopTimes": 2,
+  "result": {
+    "item": "betterendforge:end_lotus_planks",
+    "count": 2
+  }
+}
