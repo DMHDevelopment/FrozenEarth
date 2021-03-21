@@ -27,7 +27,7 @@
 			}]
 		},
 		{
-			x: 2.5d,
+			x: 5.0d,
 			y: 0.0d,
 			dependencies: ["39B57A942A4BC5DF"],
 			id: "535E5C33EE4F822D",
@@ -39,7 +39,7 @@
 		},
 		{
 			x: 2.5d,
-			y: -1.5d,
+			y: -2.0d,
 			dependencies: ["39B57A942A4BC5DF"],
 			id: "2685AE1AF2D97743",
 			tasks: [{
@@ -50,13 +50,322 @@
 		},
 		{
 			x: 2.5d,
-			y: 1.5d,
+			y: 2.0d,
 			dependencies: ["39B57A942A4BC5DF"],
 			id: "46E384C7CFD59375",
 			tasks: [{
 				id: "6A6E72DA38766BED",
 				type: "item",
 				item: "silents_mechanisms:basic_crusher"
+			}]
+		},
+		{
+			icon: "silents_mechanisms:lava_generator",
+			x: 2.0d,
+			y: -3.0d,
+			dependencies: ["2685AE1AF2D97743"],
+			id: "3F6B31BA370B23F8",
+			tasks: [
+				{
+					id: "29963020FEC0F415",
+					type: "item",
+					item: "silents_mechanisms:lava_generator"
+				},
+				{
+					id: "3848FD6207EDFCF5",
+					type: "fluid",
+					fluid: "minecraft:flowing_lava",
+					amount: 1000L
+				}
+			]
+		},
+		{
+			icon: "silents_mechanisms:diesel_generator",
+			x: 3.0d,
+			y: -3.0d,
+			dependencies: ["2685AE1AF2D97743"],
+			id: "2B77EC1B444E0E1A",
+			tasks: [
+				{
+					id: "77E9173E6FF6728C",
+					type: "item",
+					item: "silents_mechanisms:diesel_generator"
+				},
+				{
+					id: "43D9D4794C40110A",
+					type: "fluid",
+					fluid: "silents_mechanisms:flowing_diesel",
+					amount: 1000L
+				}
+			],
+			rewards: [
+				{
+					id: "29E1E7658D8247D7",
+					type: "item",
+					item: "silents_mechanisms:diesel_bucket"
+				},
+				{
+					id: "4C5D6E648BFC9161",
+					type: "item",
+					item: "silents_mechanisms:diesel_bucket"
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: -1.0d,
+			hide_dependency_lines: true,
+			dependencies: ["535E5C33EE4F822D"],
+			id: "58DC5F815D3A56A8",
+			tasks: [{
+				id: "711F617EDA978FA4",
+				type: "item",
+				item: "silents_mechanisms:steel_ingot",
+				count: 16L
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 1.0d,
+			hide_dependency_lines: true,
+			dependencies: ["535E5C33EE4F822D"],
+			id: "1C483C369E0B4FFB",
+			tasks: [{
+				id: "5A76B76A049FE070",
+				type: "item",
+				item: "silentgear:crimson_steel_ingot",
+				count: 16L
+			}]
+		},
+		{
+			x: 5.5d,
+			y: -1.0d,
+			hide_dependency_lines: true,
+			dependencies: ["535E5C33EE4F822D"],
+			id: "59B72467B9D9938D",
+			tasks: [{
+				id: "2D0D072DB5AC20E6",
+				type: "item",
+				item: "silents_mechanisms:bismuth_steel_ingot",
+				count: 16L
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 1.0d,
+			hide_dependency_lines: true,
+			dependencies: ["535E5C33EE4F822D"],
+			id: "3C5BDB271E247433",
+			tasks: [{
+				id: "16DE0467B6F5302D",
+				type: "item",
+				item: "silents_mechanisms:signalum_ingot",
+				count: 16L
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 0.0d,
+			dependencies: ["535E5C33EE4F822D"],
+			id: "44200C1CB56169C5",
+			tasks: [{
+				id: "54DFA557EC45CA98",
+				type: "item",
+				item: "silents_mechanisms:alloy_machine_frame"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: -1.0d,
+			dependencies: ["44200C1CB56169C5"],
+			id: "3C69DEA899BE1ACA",
+			tasks: [{
+				id: "2A468930EE5F9118",
+				type: "item",
+				item: "silents_mechanisms:compressor"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 3.0d,
+			dependencies: ["46E384C7CFD59375"],
+			id: "3FC08F9F2DA76C45",
+			tasks: [{
+				id: "302104428E3B2248",
+				type: "item",
+				item: "silents_mechanisms:crusher"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 3.0d,
+			dependencies: ["46E384C7CFD59375"],
+			id: "130924DE3129424C",
+			tasks: [{
+				id: "1710EEDC058C8167",
+				type: "item",
+				item: "silents_mechanisms:electric_furnace"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 0.0d,
+			dependencies: ["44200C1CB56169C5"],
+			id: "373DAC132CC8529E",
+			tasks: [{
+				id: "050F0EEE8BD37F0B",
+				type: "item",
+				item: "silents_mechanisms:solidifier"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 1.0d,
+			dependencies: ["44200C1CB56169C5"],
+			id: "21FA92710BAC3327",
+			tasks: [{
+				id: "601C14B10CD29D5A",
+				type: "item",
+				item: "silents_mechanisms:battery_box"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 0.0d,
+			dependencies: ["535E5C33EE4F822D"],
+			id: "718FC942A92B149F",
+			tasks: [{
+				id: "377D8B5CD0442569",
+				type: "item",
+				item: "silents_mechanisms:alloy_smelter"
+			}]
+		},
+		{
+			x: 8.5d,
+			y: -0.5d,
+			hide_dependency_lines: true,
+			dependencies: ["44200C1CB56169C5"],
+			id: "72E3F7F9BE1A9E2F",
+			tasks: [{
+				id: "7068B5C2DB53650C",
+				type: "item",
+				item: "silents_mechanisms:refinery"
+			}]
+		},
+		{
+			x: 8.5d,
+			y: 0.5d,
+			hide_dependency_lines: true,
+			dependencies: ["44200C1CB56169C5"],
+			id: "133296E4F19C9D8D",
+			tasks: [{
+				id: "0BAAD1B60E371B3E",
+				type: "item",
+				item: "silents_mechanisms:mixer"
+			}]
+		},
+		{
+			x: 9.5d,
+			y: 0.0d,
+			dependencies: [
+				"133296E4F19C9D8D",
+				"72E3F7F9BE1A9E2F"
+			],
+			id: "04E6CAD8E98862A9",
+			tasks: [{
+				id: "71BC57D4C24F9A44",
+				type: "item",
+				item: "silents_mechanisms:plastic_sheet"
+			}]
+		},
+		{
+			x: 11.5d,
+			y: -0.5d,
+			dependencies: ["04E6CAD8E98862A9"],
+			id: "76F4AE3DE2EF2D33",
+			tasks: [{
+				id: "160BAAA652F1FCFF",
+				type: "item",
+				item: "alchemistry:chemical_combiner"
+			}]
+		},
+		{
+			x: 11.5d,
+			y: 0.5d,
+			dependencies: ["04E6CAD8E98862A9"],
+			id: "047E2D4463B75D29",
+			tasks: [{
+				id: "5A6B7D73C9C36F8A",
+				type: "item",
+				item: "alchemistry:chemical_dissolver"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: -1.5d,
+			dependencies: ["04E6CAD8E98862A9"],
+			id: "055206EB14777520",
+			tasks: [{
+				id: "50D0ED3FAA940FBD",
+				type: "item",
+				item: "alchemistry:atomizer"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: 1.5d,
+			dependencies: ["04E6CAD8E98862A9"],
+			id: "3B423AC2BAE5AB6E",
+			tasks: [{
+				id: "72856355A90E8CF9",
+				type: "item",
+				item: "alchemistry:liquifier"
+			}]
+		},
+		{
+			x: 11.5d,
+			y: 1.5d,
+			dependencies: ["047E2D4463B75D29"],
+			id: "635A92866F4A5858",
+			tasks: [{
+				id: "40EAC202C2793A2A",
+				type: "item",
+				item: "alchemistry:mineral_salt",
+				count: 64L
+			}]
+		},
+		{
+			x: 11.5d,
+			y: -1.5d,
+			dependencies: ["76F4AE3DE2EF2D33"],
+			id: "035108B6ADE7AC2A",
+			tasks: [{
+				id: "6119C6976129376E",
+				type: "item",
+				item: "alchemistry:fission_controller"
+			}]
+		},
+		{
+			x: 13.0d,
+			y: 0.0d,
+			dependencies: ["035108B6ADE7AC2A"],
+			id: "6997DA11233C8110",
+			tasks: [{
+				id: "0B27C4A833C9966D",
+				type: "item",
+				item: "chemlib:ingot_palladium"
+			}]
+		},
+		{
+			x: 15.0d,
+			y: 0.0d,
+			dependencies: ["6997DA11233C8110"],
+			size: 3.0d,
+			id: "6DAA81D8CA3961DE",
+			tasks: [{
+				id: "161BBF2E2CBE6626",
+				type: "item",
+				item: "extendedcrafting:elite_table"
 			}]
 		}
 	]

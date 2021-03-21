@@ -15,7 +15,7 @@ fogColorDay = 12566488
 #Range: 0 ~ 16777215
 fogColorNight = 789529
 #Changes the weather renderer to one which renders faster, denser snow. Note: this requires a world reload to take effect.
-weatherRenderChanges = true
+weatherRenderChanges = false
 #Changes the sky renderer to one which does not render sunrise or sunset effects during a snowstorm. Note: this requires a world reload to take effect.
-skyRenderChanges = true
+skyRenderChanges = false
 

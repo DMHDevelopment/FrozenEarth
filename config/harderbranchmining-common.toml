@@ -4,13 +4,13 @@
 	aNormalOre = false
 	#Digging Speed Modifer: (none) 1.0 to (max) 32.0
 	#Range: 1.0 ~ 32.0
-	aDigSpeedModifier = 6.5
+	aDigSpeedModifier = 1.9
 	#Exhaustion Type: 0 = None-Speedonly, 1=Proportional, 2=Fixed
 	#Range: 0 ~ 2
 	exhaustionType = 1
 	#Down Speed Modifer: (none) 1.0 to (max) 32.0
 	#Range: 1.0 ~ 32.0
-	aDownExhaustion = 6.0
+	aDownExhaustion = 3.0
 	#Debug Level: 0 = Off, 1 = Log, 2 = Chat+Log
 	#Range: 0 ~ 2
 	debugLevel = 0

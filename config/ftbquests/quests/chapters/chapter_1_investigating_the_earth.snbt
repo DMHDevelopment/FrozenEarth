@@ -439,8 +439,8 @@
 			}]
 		},
 		{
-			x: -7.0d,
-			y: 7.5d,
+			x: -6.5d,
+			y: 7.0d,
 			description: ["Drying Racks allows you to dry grass. And dry Rotten Flesh to make leather if you don't want to kill animals. That's all."],
 			dependencies: ["000000000000001A"],
 			id: "000000000000003F",
@@ -456,7 +456,7 @@
 			}]
 		},
 		{
-			x: -6.5d,
+			x: -6.0d,
 			y: 8.5d,
 			description: ["Practically, this is default bed, but different texture."],
 			dependencies: [
@@ -485,7 +485,7 @@
 			]
 		},
 		{
-			x: -7.5d,
+			x: -7.0d,
 			y: 8.5d,
 			description: ["It is required for bone tools and that's all. Yeah..."],
 			dependencies: ["000000000000003F"],
@@ -884,8 +884,8 @@
 			}]
 		},
 		{
-			x: -8.0d,
-			y: 9.5d,
+			x: -6.5d,
+			y: 10.5d,
 			description: ["Bones are better than flint and they can atleast mine some cold dirt underneath. Also I can mine some of sand or clay with it!"],
 			dependencies: ["0000000000000043"],
 			id: "0000000000000079",
@@ -1088,10 +1088,10 @@
 		},
 		{
 			title: "Eins, Zwei, Dry",
-			x: -6.0d,
-			y: 12.0d,
+			x: -8.0d,
+			y: 8.5d,
 			description: ["Drying Racks allows you to dry grass. And dry Rotten Flesh to make leather if you don't want to kill animals, also it is needed for jerky from fishes and many more things can be made by drying."],
-			dependencies: ["0000000000000090"],
+			dependencies: ["000000000000003F"],
 			id: "0000000000000096",
 			tasks: [{
 				id: "0000000000000097",
@@ -1119,8 +1119,8 @@
 			}]
 		},
 		{
-			x: -7.0d,
-			y: 12.0d,
+			x: -8.0d,
+			y: 9.5d,
 			description: ["I can dry rotten flesh on drying racks for some time and I'll get Zombie Leather."],
 			dependencies: ["0000000000000096"],
 			id: "0000000000000098",
@@ -1136,8 +1136,8 @@
 			}]
 		},
 		{
-			x: -7.0d,
-			y: 13.0d,
+			x: -7.5d,
+			y: 10.5d,
 			description: ["Handy Crafting Table is a good thing. I can craft my items wherever I want to. It's useful when I try to craft something far away from home..."],
 			dependencies: ["0000000000000098"],
 			id: "000000000000009A",
@@ -1154,8 +1154,8 @@
 			}]
 		},
 		{
-			x: -6.0d,
-			y: 13.0d,
+			x: -8.0d,
+			y: 7.5d,
 			description: ["I can eat dried food too. Yes, fish + drying rack = cod/salmon jerky."],
 			dependencies: ["0000000000000096"],
 			id: "000000000000009C",
@@ -2145,9 +2145,9 @@
 			dependencies: ["0000000000000019"],
 			id: "00000000000002DD",
 			tasks: [{
-				id: "00000000000002DE",
+				id: "3F041C68724EF0D4",
 				type: "item",
-				item: "rankine:wood_bucket"
+				item: "minecraft:bowl"
 			}]
 		},
 		{
@@ -2159,7 +2159,7 @@
 			tasks: [{
 				id: "00000000000002E2",
 				type: "item",
-				item: "rankine:limestone"
+				item: "rankine:tufa_limestone"
 			}]
 		},
 		{
@@ -2854,20 +2854,30 @@
 				id: "0000000000000302",
 				type: "item",
 				item: "rankine:alloy_furnace"
+			}],
+			rewards: [{
+				id: "6B929C5DB68A4228",
+				type: "item",
+				item: "minecraft:iron_block"
 			}]
 		},
 		{
 			x: -10.0d,
 			y: 11.35d,
 			shape: "hexagon",
-			description: ["Coal Forge allows me to make better tools for the first time being on this planet. I hope I can do something better than just flint pickaxe here. Atleast something like Bronze Pickaxe..."],
+			description: ["This table allows me to make better tools for the first time being on this planet. I hope I can do something better than just flint pickaxe here. Atleast something like Bronze Pickaxe..."],
 			dependencies: ["00000000000002E3"],
 			size: 1.25d,
 			id: "0000000000000303",
 			tasks: [{
 				id: "0000000000000304",
 				type: "item",
-				item: "rankine:coal_forge"
+				item: "rankine:template_table"
+			}],
+			rewards: [{
+				id: "554CAF5C0A47799C",
+				type: "item",
+				item: "atmospheric:kousa_sapling"
 			}]
 		},
 		{
@@ -2881,11 +2891,10 @@
 				id: "0000000000000306",
 				type: "item",
 				item: {
-					id: "rankine:meteoric_iron_pickaxe",
+					id: "rankine:invar_pickaxe",
 					Count: 1b,
 					tag: {
 						Damage: 0,
-						HideFlags: 2,
 						StoredComposition: [{
 							comp: "90Fe-10Ni"
 						}]
@@ -3016,7 +3025,7 @@
 			tasks: [{
 				id: "0000000000000315",
 				type: "item",
-				item: "rankine:pickaxe_template"
+				item: "rankine:alloy_template"
 			}]
 		},
 		{

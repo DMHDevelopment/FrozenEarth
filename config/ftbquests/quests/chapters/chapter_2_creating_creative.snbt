@@ -213,7 +213,7 @@
 						}
 					}
 				},
-				count: 64
+				count: 16
 			}]
 		},
 		{
@@ -1540,7 +1540,12 @@
 					type: "item",
 					item: "darkutils:charm_portal"
 				}
-			]
+			],
+			rewards: [{
+				id: "5DBBE09A1E1182D4",
+				type: "item",
+				item: "minecraft:golden_apple"
+			}]
 		},
 		{
 			title: "Trap God",
@@ -1612,6 +1617,18 @@
 					type: "item",
 					item: "darkutils:rune_wither"
 				}
+			],
+			rewards: [
+				{
+					id: "4CC7B3A7E7626857",
+					type: "item",
+					item: "extraanvils:diamond_anvil"
+				},
+				{
+					id: "266B21BF73843CCD",
+					type: "item",
+					item: "minecraft:beacon"
+				}
 			]
 		},
 		{
@@ -1623,6 +1640,12 @@
 				id: "466458B3360B32A6",
 				type: "item",
 				item: "darkutils:blank_plate"
+			}],
+			rewards: [{
+				id: "58FCA15FE3BB9C49",
+				type: "item",
+				item: "darkutils:blank_plate",
+				count: 3
 			}]
 		}
 	]

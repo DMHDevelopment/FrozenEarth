@@ -43,6 +43,7 @@ enable_in_world_coloring = true
 	#Range: 4 ~ 32
 	large_capacity_upgrade = 16
 
+#No comment
 [access_settings]
 	#Enables the usage of public tanks, if disabled tanks must be upgraded before use
 	public_tanks = true
@@ -84,8 +85,12 @@ enable_in_world_coloring = true
 
 #Mod integration can be disabled to solve compatibility issues, remove unwanted/unneeded features, etc.
 [integration]
+	#No comment
 	store_mekanism_gas = true
+	#No comment
 	store_mekanism_infusion = true
+	#No comment
 	store_mekanism_pigment = true
+	#No comment
 	store_mekanism_slurry = true
 

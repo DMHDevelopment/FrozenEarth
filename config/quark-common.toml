@@ -328,7 +328,7 @@
 	[tools.pickarang]
 		#
 		#Set to -1 to have the Pickarang be unbreakable.
-		Durability = 800
+		Durability = 64
 		#
 		#2 is Iron, 3 is Diamond.
 		"Harvest Level" = 3
