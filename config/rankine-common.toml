@@ -92,7 +92,7 @@
 		#Chance for a block in #rankine:nugget_stones to drop a nugget of a nearby ore.
 		#Range: 0.0 ~ 1.0
 		nuggetChance = 0.15
-		#No comment
+		#
 		#Range: 1 ~ 64
 		nuggetRange = 7
 
