@@ -1,8 +1,10 @@
 #List of effects Trickster Bloom can apply
 "Trickster Bloom Effects" = ["effect[minecraft:speed];time[30-60];level[0-1]", "effect[minecraft:slowness];time[10-20];level[0-1]", "effect[minecraft:haste];time[60-120];level[0-1]", "effect[minecraft:mining_fatigue];time[60-120];level[0-1]", "effect[minecraft:strength];time[60-120];level[0-1]", "effect[minecraft:jump_boost];time[60-120];level[0-1]", "effect[minecraft:nausea];time[10];level[0]", "effect[minecraft:regeneration];time[10-30];level[0-1]", "effect[minecraft:resistance];time[60-120];level[0-1]", "effect[minecraft:fire_resistance];time[150-300];level[0-1]", "effect[minecraft:water_breathing];time[150-300];level[0-1]", "effect[minecraft:invisibility];time[60-300];level[0-1]", "effect[minecraft:blindness];time[30-60];level[0-1]", "effect[minecraft:night_vision];time[60-120];level[0-1]", "effect[minecraft:hunger];time[10-30];level[0-1]", "effect[minecraft:weakness];time[10-20];level[0-1]", "effect[minecraft:poison];time[5-10];level[0]", "effect[minecraft:wither];time[3-5];level[0]", "effect[minecraft:absorption];time[30-60];level[0-1]", "effect[minecraft:saturation];time[15-30];level[0-1]", "effect[minecraft:glowing];time[30-60];level[0-1]", "effect[minecraft:levitation];time[2-3];level[0]", "effect[minecraft:luck];time[30-60];level[0-1]", "effect[minecraft:unluck];time[20-40];level[0-1]", "effect[minecraft:slow_falling];time[15-30];level[0-1]", "effect[minecraft:conduit_power];time[90-180];level[0-1]", "effect[minecraft:dolphins_grace];time[30-60];level[0-1]", "effect[minecraft:hero_of_the_village];time[120];level[2-4]"]
 
+#No comment
 [doodads]
 
+	#No comment
 	[doodads.branch]
 		#The number of attempts made to successfully drop an item
 		#positive numbers are exact, negative are a random chance between 0 and the number
@@ -22,6 +24,7 @@
 		#Formats: ItemTag: 'tag|<tagId>', Mod Item: '<modId>:<itemId>', Entire Mod: 'mod|<modId>'
 		blacklist = []
 
+	#No comment
 	[doodads.stone]
 		#The number of attempts made to successfully drop an item
 		#positive numbers are exact, negative are a random chance between 0 and the number
@@ -41,6 +44,7 @@
 		#Formats: ItemTag: 'tag|<tagId>', Mod Item: '<modId>:<itemId>', Entire Mod: 'mod|<modId>'
 		blacklist = ["tag|forge:dusts/burnium", "tag|forge:dusts/endimium"]
 
+	#No comment
 	[doodads.bone]
 		#The number of attempts made to successfully drop an item
 		#positive numbers are exact, negative are a random chance between 0 and the number
@@ -60,6 +64,7 @@
 		#Formats: ItemTag: 'tag|<tagId>', Mod Item: '<modId>:<itemId>', Entire Mod: 'mod|<modId>'
 		blacklist = []
 
+	#No comment
 	[doodads.sandstone]
 		#The number of attempts made to successfully drop an item
 		#positive numbers are exact, negative are a random chance between 0 and the number
@@ -79,6 +84,7 @@
 		#Formats: ItemTag: 'tag|<tagId>', Mod Item: '<modId>:<itemId>', Entire Mod: 'mod|<modId>'
 		blacklist = ["tag|forge:dusts/burnium", "tag|forge:dusts/endimium"]
 
+	#No comment
 	[doodads.red_sandstone]
 		#The number of attempts made to successfully drop an item
 		#positive numbers are exact, negative are a random chance between 0 and the number
@@ -98,6 +104,7 @@
 		#Formats: ItemTag: 'tag|<tagId>', Mod Item: '<modId>:<itemId>', Entire Mod: 'mod|<modId>'
 		blacklist = ["tag|forge:dusts/burnium", "tag|forge:dusts/endimium"]
 
+	#No comment
 	[doodads.endimium]
 		#The number of attempts made to successfully drop an item
 		#positive numbers are exact, negative are a random chance between 0 and the number
@@ -117,6 +124,7 @@
 		#Formats: ItemTag: 'tag|<tagId>', Mod Item: '<modId>:<itemId>', Entire Mod: 'mod|<modId>'
 		blacklist = []
 
+	#No comment
 	[doodads.burnium]
 		#The number of attempts made to successfully drop an item
 		#positive numbers are exact, negative are a random chance between 0 and the number
@@ -136,6 +144,7 @@
 		#Formats: ItemTag: 'tag|<tagId>', Mod Item: '<modId>:<itemId>', Entire Mod: 'mod|<modId>'
 		blacklist = []
 
+#No comment
 [plants]
 	#If enabled Terraqueous flowers require shears to harvest, otherwise nothing will drop
 	flowersRequireShears = false
@@ -205,6 +214,7 @@
 		#Range: 0 ~ 100
 		deathvine_rain = 40
 
+#No comment
 [trees]
 	#Controls if the fruit stays on the trees or randomly falls off
 	fruitStaysOnTrees = false
@@ -402,16 +412,27 @@
 		[tweaks.loot_tables.mobs]
 			#Must be enabled for any of the mob specific ones to work
 			enable_extra_drops = true
+			#No comment
 			blaze_burnium_dust = true
+			#No comment
 			blaze_burnium_gem = true
+			#No comment
 			enderman_ender_dust = true
+			#No comment
 			enderman_endimium_dust = true
+			#No comment
 			enderman_endimium_gem = true
+			#No comment
 			endermite_ender_dust = true
+			#No comment
 			endermite_endimium_dust = true
+			#No comment
 			magma_cube_burnium_gem = true
+			#No comment
 			piglin_gold_dust = true
+			#No comment
 			wither_skeleton_coal_dust = true
+			#No comment
 			zombie_leather_scraps = true
 
 	#Options used by the world generator
@@ -440,10 +461,15 @@
 		[tweaks.world_gen.dimension_blacklist]
 			#Dimensions here are blacklist from all generators
 			global = ["randomthings:spectre", "compactmachines:compactmachines"]
+			#No comment
 			clouds = []
+			#No comment
 			doodads = []
+			#No comment
 			flowers = []
+			#No comment
 			plants = []
+			#No comment
 			trees = []
 
 		# 
@@ -469,17 +495,20 @@
 			#Maximum number of blocks in the cloud
 			#Range: 16 ~ 128
 			size_storm_maximum = 48
-			#
+			#No comment
 			#Range: 0.0 ~ 1.0
 			chance_light = 0.03
-			#
+			#No comment
 			#Range: 0.0 ~ 1.0
 			chance_dense = 0.02
-			#
+			#No comment
 			#Range: 0.0 ~ 1.0
 			chance_storm = 0.01
+			#No comment
 			generate_light_clouds = true
+			#No comment
 			generate_dense_clouds = true
+			#No comment
 			generate_storm_clouds = true
 
 		# 
@@ -514,10 +543,15 @@
 			#Chance that each placement position has at being reviewed by the generator
 			#Range: 0.0 ~ 1.0
 			chance_burnium = 0.3
+			#No comment
 			generate_stick = true
+			#No comment
 			generate_stone = true
+			#No comment
 			generate_bone = true
+			#No comment
 			generate_endimium = true
+			#No comment
 			generate_burnium = true
 
 		# 
