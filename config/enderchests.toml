@@ -28,7 +28,6 @@ enable_in_world_coloring = true
 	#Range: 9 ~ 54
 	chest_size_max = 27
 
-#No comment
 [access_settings]
 	#When enabled these bags access a players vanilla EnderChest, if disabled they will only be a crafting ingredient
 	ender_pouch = true
