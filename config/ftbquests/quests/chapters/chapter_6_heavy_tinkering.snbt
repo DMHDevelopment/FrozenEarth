@@ -19,5 +19,74 @@
 		}
 	},
 	default_quest_shape: "",
-	quests: []
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "hexagon",
+			size: 3.0d,
+			id: "0B6A7D46F8E4BD68",
+			tasks: [{
+				id: "4B84407D13115849",
+				type: "item",
+				item: "extendedcrafting:elite_table"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 0.0d,
+			id: "24752DDA48292CD6",
+			tasks: [{
+				id: "10688761FC8C70AB",
+				type: "item",
+				item: "extendedcrafting:crafting_core"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 0.0d,
+			id: "7D3717780FC64ECD",
+			tasks: [{
+				id: "35113B4D8BD27F6D",
+				type: "item",
+				item: "extendedcrafting:pedestal"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -1.5d,
+			id: "22A6F58631E4920D",
+			tasks: [{
+				id: "3C84B139318E4B82",
+				type: "item",
+				item: "createaddition:electric_motor"
+			}]
+		},
+		{
+			icon: "create:mechanical_crafter",
+			x: 3.5d,
+			y: -1.5d,
+			id: "6891A8108D17C42F",
+			tasks: [{
+				id: "067C4BE0B5E19453",
+				type: "item",
+				item: "create:mechanical_crafter"
+			}],
+			rewards: [{
+				id: "120C95A548FA202C",
+				type: "item",
+				item: "create:mechanical_crafter"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 3.0d,
+			id: "4330926A1B0FF5DF",
+			tasks: [{
+				id: "76C7E7E8931445D4",
+				type: "item",
+				item: "industrialforegoing:machine_frame_pity"
+			}]
+		}
+	]
 }

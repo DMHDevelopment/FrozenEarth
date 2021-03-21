@@ -20,6 +20,7 @@
 	#Allowed Values: DEFAULT, VANILLA
 	craftfurnace = "DEFAULT"
 
+#No comment
 [flowerpots]
 	#Items Listed will render in flower pots using the Cross render style
 	#Saplings use this by default

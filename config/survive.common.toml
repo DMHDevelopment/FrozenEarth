@@ -139,16 +139,23 @@
 	#Default: true
 	#-------------------------------------------
 	"Boolean: Enable Stamina" = true
+	#
+	############################################
+	#Disabling this will allow the weight of certain armor pieces to affect your stamina
+	#-------------------------------------------
+	#Default: true
+	#-------------------------------------------
+	"Boolean: Enable Armor Weights" = true
 
 [Hygiene]
 	#
 	############################################
 	#Disabling this will disable this mods hygiene system
-	#This doesnt really do anything as there isn't really a hygiene system yet
+	#The hygiene system might be pretty buggy, so proceed with caution
 	#-------------------------------------------
-	#Default: true
+	#Default: false
 	#-------------------------------------------
-	"Boolean: Temperature Update Speed" = true
+	"Boolean: Enable Hygiene (Beta)" = false
 
 [Micellaneous]
 	#

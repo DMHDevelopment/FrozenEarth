@@ -32,6 +32,13 @@
 	#Default: false
 	#-------------------------------------------
 	"Boolean: Display Temperature in Fahrenheit" = false
+	#
+	############################################
+	#Change the texture of the temperature bar when you have hypothermia or hyperthermia
+	#-------------------------------------------
+	#Default: true
+	#-------------------------------------------
+	"Boolean: Hypo/Hyperthermia Effects" = true
 
 [Sleep]
 	#

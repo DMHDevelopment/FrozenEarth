@@ -18,15 +18,15 @@
 		#Setting to zero would make the repair kit unusable.
 		[item.repairKits.efficiency]
 			#Range: 0.0 ~ 10.0
-			crimson = 0.44999998807907104
+			crimson = 0.25999998807907104
 			#Range: 0.0 ~ 10.0
-			sturdy = 0.4000000059604645
+			sturdy = 0.2200000059604645
 			#Range: 0.0 ~ 10.0
-			very_crude = 0.30000001192092896
+			very_crude = 0.11000001192092897
 			#Range: 0.0 ~ 10.0
-			crude = 0.3499999940395355
+			crude = 0.2699999940395355
 			#Range: 0.0 ~ 10.0
-			azure = 0.5
+			azure = 0.41
 			#Repair efficiency with loose materials if no repair kit is used.
 			#Setting a value greater than zero makes repair kits optional.
 			#Range: 0.0 ~ 10.0
@@ -77,7 +77,7 @@
 #Settings for gear (tools, weapons, and armor)
 [gear]
 	#If true, gear breaks permanently, like vanilla tools and armor
-	breaksPermanently = false
+	breaksPermanently = true
 	#Displays a message in chat, notifying the player that an item broke and hinting that it can be repaired
 	sendBrokenMessage = true
 	#How frequently gear will recalcute stats as damaged
@@ -86,7 +86,7 @@
 	damageFactorLevels = 10
 	#Allow parts to be crafted with mixed materials in a crafting grid, just like all recent versions.
 	#In 1.17, mixing will only be allowed in compound-crafting blocks.
-	allowClassicMaterialMixing = true
+	allowClassicMaterialMixing = false
 
 	[gear.repairs]
 		#DEPRECATED! Use repair kit configs instead.
@@ -127,17 +127,11 @@
 		#Minimum rate of part loss when salvaging items. 0 = no loss, 1 = complete loss.
 		#Rate depends on remaining durability.
 		#Range: 0.0 ~ 1.0
-		min = 0.0
+		min = 0.2
 		#Maximum rate of part loss when salvaging items. 0 = no loss, 1 = complete loss.
 		#Rate depends on remaining durability.
 		#Range: 0.0 ~ 1.0
-		max = 0.5
-
-[compat]
-
-	[compat.mineAndSlash]
-		#Enable compatibility with the Mine and Slash mod, if installed
-		enabled = true
+		max = 0.8
 
 [debug]
 
@@ -176,4 +170,12 @@
 		#Number of patches of wild flax to attempt to place per chunk (some biomes only)
 		#Range: 0 ~ 100
 		patchCount = 1
+
+	[world.wildFluffy]
+		#Number of patches of wild fluffy plants to attempt to place per chunk (some biomes only)
+		#Range: 0 ~ 100
+		patchCount = 1
+		#Block place attempts per wild fluffy plants cluster
+		#Range: 0 ~ 1000
+		tryCount = 16
 
