@@ -909,6 +909,7 @@
 			}]
 		},
 		{
+			title: "Bucket",
 			x: -11.5d,
 			y: 4.5d,
 			description: ["This is my first way to move liquids from one place to another. It can move water without any problems, but lava melts my clay bucket very quickly, so I can only move lava once..."],
@@ -2932,6 +2933,7 @@
 			x: -11.0d,
 			y: 15.25d,
 			shape: "hexagon",
+			description: ["An improved ordinary furnace, it is a little faster than usual, but you can't fry food in it."],
 			dependencies: ["00000000000002FB"],
 			size: 1.5d,
 			id: "000000000000030D",
@@ -3031,6 +3033,7 @@
 			x: -9.5d,
 			y: 8.0d,
 			shape: "diamond",
+			description: ["That I had to create pieces of aluminum by working with handles, and break the bauxite and then melt the resulting pieces."],
 			dependencies: ["00000000000002F6"],
 			id: "0000000000000319",
 			tasks: [{
@@ -3051,6 +3054,7 @@
 			x: -12.0d,
 			y: 9.0d,
 			shape: "diamond",
+			description: ["The pieces of aluminum I had turned out by break casseterite."],
 			dependencies: ["00000000000002F6"],
 			id: "000000000000031B",
 			tasks: [{
@@ -3071,6 +3075,7 @@
 			x: -12.5d,
 			y: 8.0d,
 			shape: "diamond",
+			description: ["To get pieces of lead, I needed to break down Galena ore and heat it."],
 			dependencies: ["00000000000002F6"],
 			id: "000000000000031D",
 			tasks: [{
