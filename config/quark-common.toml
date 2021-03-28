@@ -1,7 +1,7 @@
 
 [general]
 	"'q' Button on the Right" = false
-	"Enable 'q' Button" = true
+	"Enable 'q' Button" = false
 	#
 	#Enables quark network profiling features. Do not enable this unless requested to.
 	"Enable Network Profiling" = false
@@ -41,7 +41,7 @@
 	Experimental = true
 	Management = true
 	Mobs = true
-	Oddities = true
+	Oddities = false
 	Tools = true
 	Tweaks = true
 	World = true
@@ -1725,11 +1725,11 @@
 
 [mobs]
 	Crabs = true
+	Forgotten = true
 	Foxhound = true
 	Frogs = true
 	Stonelings = true
 	Toretoise = true
-	Forgotten = true
 	Wraith = true
 
 	[mobs.crabs]
@@ -1753,6 +1753,12 @@
 				# mushroom, nether]
 				"Biome Categories" = ["beach"]
 				"Is Blacklist" = false
+
+	[mobs.forgotten]
+		#
+		#1 in this many Skeletons that spawn under the threshold are replaced with Forgotten.
+		"Forgotten Spawn Rate" = 0.05
+		"Max Height For Spawn" = 20
 
 	[mobs.foxhound]
 		#
@@ -1869,12 +1875,6 @@
 				"Biome Categories" = ["none", "nether", "the_end"]
 				"Is Blacklist" = true
 
-	[mobs.forgotten]
-		#
-		#1 in this many Skeletons that spawn under the threshold are replaced with Forgotten.
-		"Forgotten Spawn Rate" = 0.05
-		"Max Height For Spawn" = 20
-
 	[mobs.wraith]
 		#
 		#List of sound sets to use with wraiths.
@@ -1883,16 +1883,16 @@
 
 		[mobs.wraith.spawn_config]
 			"Max Cost" = 0.7
+			#
+			#Allowed values: [1,)
+			"Max Group Size" = 3
+			#
+			#Allowed values: [1,)
+			"Min Group Size" = 1
 			"Spawn Cost" = 0.15
 			#
 			#Allowed values: (0,)
 			"Spawn Weight" = 8
-			#
-			#Allowed values: [1,)
-			"Min Group Size" = 1
-			#
-			#Allowed values: [1,)
-			"Max Group Size" = 3
 
 			[mobs.wraith.spawn_config.biomes]
 				Biomes = ["minecraft:soul_sand_valley"]
