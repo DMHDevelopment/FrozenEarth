@@ -27,3 +27,4 @@ ProgrammingPuzzleBlacklist.cfg
 *OptiFine*.jar
 config/tombstone-client.toml
 *.bak
+/journeymap
