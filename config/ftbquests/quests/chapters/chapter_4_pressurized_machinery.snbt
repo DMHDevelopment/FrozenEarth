@@ -6,6 +6,18 @@
 	title: "Chapter 4: Pressurized Machinery",
 	icon: "pneumaticcraft:assembly_drill",
 	default_quest_shape: "",
+	images: [{
+		x: 7.0d,
+		y: -10.5d,
+		width: 20.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "frozen_earth:textures/frozen_earth_chapter_4.png",
+		hover: [],
+		click: "",
+		dev: false,
+		corner: false
+	}],
 	quests: [
 		{
 			x: -1.0d,
@@ -668,8 +680,8 @@
 		},
 		{
 			title: "Plastic First Look",
-			x: 6.5d,
-			y: -9.0d,
+			x: 5.5d,
+			y: -8.0d,
 			description: ["After a few manipulations of oil, I got one of the types of plastic, nowhere in the modern world without it."],
 			dependencies: ["000000000000037F"],
 			id: "0000000000000382",

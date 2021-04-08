@@ -25,12 +25,12 @@
 	#Alternator internal capacity in FE.
 	#Range: > 0
 	generator_capacity = 32767
-	#Alternator base stress impact.
-	#Range: 0 ~ 1024
-	generator_consumption = 16
 	#Alternator efficiency relative to base conversion rate.
 	#Range: 0.01 ~ 0.99
 	generator_efficiency = 0.75
+	#Alternator base stress impact.
+	#Range: 0 ~ 1024
+	generator_stress = 16
 
 #Rolling Mill
 [rolling_mill]
@@ -63,4 +63,34 @@
 	heater_furnace_engine_consumption = 400
 	#Enable Induction Heater when attached to a Furnace Engine.
 	heater_furnace_engine_enable = false
+
+#Wires
+[wires]
+	#Connector max input (Energy transfer).
+	#Range: > 0
+	connector_max_input = 2048
+	#Connector max output (Energy transfer).
+	#Range: > 0
+	connector_max_output = 2048
+	#Connector internal capacity.
+	#Range: > 0
+	connector_capacity = 8196
+	#Loss per block in copper wire (Not implemented, currently no loss).
+	#Range: 0.0 ~ 0.5
+	copper_wire_loss = 0.02
+	#Loss per block in gold wire (Not implemented, currently no loss).
+	#Range: 0.0 ~ 0.5
+	gold_wire_loss = 0.005
+
+#Accumulator
+[accumulator]
+	#Accumulator max input (Energy transfer).
+	#Range: > 0
+	accumulator_max_input = 8192
+	#Accumulator max output (Energy transfer).
+	#Range: > 0
+	accumulator_max_output = 8192
+	#Accumulator internal capacity.
+	#Range: > 0
+	accumulator_capacity = 4196000
 

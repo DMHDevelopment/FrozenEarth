@@ -6,10 +6,22 @@
 	title: "Chapter 3: Universal Electricity",
 	icon: "assemblylinemachines:geothermal_generator",
 	default_quest_shape: "",
+	images: [{
+		x: 3.0d,
+		y: -11.5d,
+		width: 20.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "frozen_earth:textures/frozen_earth_chapter_3.png",
+		hover: [],
+		click: "",
+		dev: false,
+		corner: false
+	}],
 	quests: [
 		{
-			x: -11.0d,
-			y: -1.0d,
+			x: -9.0d,
+			y: -4.0d,
 			description: [
 				"Recently found an interesting book... After a lot of kinetic mechanisms I need to go through some sort of electricity. While kinetical energy can be converted to potential easily, but converting into electric stuff is a bit harder... Also stuff becomes more complex and it requires better crafting table to craft all the things...",
 				""
@@ -114,8 +126,8 @@
 		},
 		{
 			title: "Blade Upgrade",
-			x: -8.0d,
-			y: -4.0d,
+			x: -6.5d,
+			y: -5.0d,
 			description: ["Pure Gold Blade is way faster and harder than before."],
 			dependencies: ["00000000000001FD"],
 			id: "00000000000001FF",
@@ -151,8 +163,8 @@
 		},
 		{
 			title: "Bad Days of Quartz...",
-			x: -11.5d,
-			y: 1.0d,
+			x: -9.5d,
+			y: -5.5d,
 			description: ["These quartz crystals can be found in a big caves and quite dangerous, but they're emitting a lot of light. Maybe make a lamp from this?"],
 			dependencies: ["00000000000001AA"],
 			id: "0000000000000244",
@@ -171,8 +183,8 @@
 		},
 		{
 			title: "Shears? Scythe!",
-			x: -11.0d,
-			y: 2.0d,
+			x: -9.0d,
+			y: -6.5d,
 			description: ["Scythe is a bit similar for shears, but it clears the territory in a big range, so it can be useful while making clear territory."],
 			hide_dependency_lines: true,
 			dependencies: ["0000000000000244"],
@@ -196,8 +208,8 @@
 			}]
 		},
 		{
-			x: -10.5d,
-			y: 1.0d,
+			x: -8.5d,
+			y: -5.5d,
 			description: ["Zychorium is a very strange material, which is glowing in a different way... It is needed for perfect illumination in this world?"],
 			dependencies: ["00000000000001AA"],
 			id: "0000000000000248",
@@ -330,8 +342,8 @@
 		},
 		{
 			title: "Soaking in the Bath",
-			x: -9.5d,
-			y: -1.0d,
+			x: -9.0d,
+			y: -2.5d,
 			description: ["I need to somehow make better way to grind my resources and make my road into electricity... Silt is a good way to make more ore output and I need to get a bath for this to make this."],
 			dependencies: ["00000000000001AA"],
 			id: "0000000000000255",
@@ -349,8 +361,8 @@
 		},
 		{
 			title: "Finding Titanium...",
-			x: -12.5d,
-			y: -1.0d,
+			x: -7.5d,
+			y: -4.0d,
 			description: ["I heard that Titanium is hard to find. It can be found near lava lakes in a deep part of frozen Earth..."],
 			dependencies: ["00000000000001AA"],
 			id: "0000000000000257",
@@ -376,7 +388,7 @@
 		},
 		{
 			title: "This is Silt.",
-			x: -8.0d,
+			x: -9.0d,
 			y: -1.0d,
 			description: ["Silt is a viscous consistence thing, which allows me to clear ores better and make grindstone atleast not bad as it could be."],
 			dependencies: ["0000000000000255"],

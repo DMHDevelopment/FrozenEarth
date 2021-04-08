@@ -19,11 +19,24 @@
 		}
 	},
 	default_quest_shape: "",
+	images: [{
+		x: 7.0d,
+		y: -4.0d,
+		width: 20.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "frozen_earth:textures/frozen_earth_chapter_6.png",
+		hover: [],
+		click: "",
+		dev: false,
+		corner: false
+	}],
 	quests: [
 		{
-			x: 0.0d,
+			x: 1.5d,
 			y: 0.0d,
 			shape: "hexagon",
+			dependencies: ["6DAA81D8CA3961DE"],
 			size: 3.0d,
 			id: "0B6A7D46F8E4BD68",
 			tasks: [{
@@ -33,59 +46,310 @@
 			}]
 		},
 		{
-			x: -2.0d,
+			x: -0.5d,
 			y: 0.0d,
-			id: "24752DDA48292CD6",
+			id: "4D89C8605828EC92",
 			tasks: [{
-				id: "10688761FC8C70AB",
+				id: "0DEF0B63B1CE3EA0",
 				type: "item",
 				item: "extendedcrafting:crafting_core"
 			}]
 		},
 		{
-			x: -3.0d,
+			x: -1.5d,
 			y: 0.0d,
-			id: "7D3717780FC64ECD",
+			id: "0E7AB15297729E4F",
 			tasks: [{
-				id: "35113B4D8BD27F6D",
+				id: "21EB2BDF5C511DB9",
 				type: "item",
 				item: "extendedcrafting:pedestal"
 			}]
 		},
 		{
-			x: 2.0d,
+			x: 4.0d,
 			y: -1.5d,
-			id: "22A6F58631E4920D",
+			shape: "hexagon",
+			id: "18DE11A4D78FFBE1",
 			tasks: [{
-				id: "3C84B139318E4B82",
+				id: "3CF11D16920F7288",
 				type: "item",
 				item: "createaddition:electric_motor"
 			}]
 		},
 		{
-			icon: "create:mechanical_crafter",
-			x: 3.5d,
+			x: 5.0d,
 			y: -1.5d,
-			id: "6891A8108D17C42F",
+			shape: "hexagon",
+			id: "4E68ECF2CFE13CB5",
 			tasks: [{
-				id: "067C4BE0B5E19453",
-				type: "item",
-				item: "create:mechanical_crafter"
-			}],
-			rewards: [{
-				id: "120C95A548FA202C",
+				id: "4B8345EF2ED21145",
 				type: "item",
 				item: "create:mechanical_crafter"
 			}]
 		},
 		{
-			x: 3.5d,
-			y: 3.0d,
-			id: "4330926A1B0FF5DF",
+			x: 5.0d,
+			y: 2.5d,
+			shape: "hexagon",
+			id: "2B35CAE05943C606",
 			tasks: [{
-				id: "76C7E7E8931445D4",
+				id: "5624DF09AB04F501",
 				type: "item",
 				item: "industrialforegoing:machine_frame_pity"
+			}]
+		},
+		{
+			x: 9.0d,
+			y: 2.5d,
+			shape: "hexagon",
+			id: "5C4F282AB9AAFD1A",
+			tasks: [{
+				id: "7424721F76DD61F3",
+				type: "item",
+				item: "industrialforegoing:machine_frame_simple"
+			}]
+		},
+		{
+			x: 13.0d,
+			y: 2.5d,
+			shape: "hexagon",
+			id: "7A442A87BBE0CEF3",
+			tasks: [{
+				id: "355688492DABA989",
+				type: "item",
+				item: "industrialforegoing:machine_frame_advanced"
+			}]
+		},
+		{
+			x: 9.0d,
+			y: 6.0d,
+			id: "3B9F16ECECA2AE64",
+			tasks: [{
+				id: "3803E99E24DFEC65",
+				type: "item",
+				item: "industrialforegoing:machine_frame_supreme"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 2.5d,
+			id: "0FDC9E3B84488F0A",
+			tasks: [{
+				id: "777287CB4B2D6977",
+				type: "item",
+				item: "industrialforegoing:dissolution_chamber"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 2.0d,
+			id: "404EF24062F3F1EB",
+			tasks: [
+				{
+					id: "3192A5EEF1D56F75",
+					type: "item",
+					item: {
+						id: "industrialforegoing:efficiency_addon_2",
+						Count: 1b,
+						tag: {
+							TitaniumAugment: {
+								Efficiency: 0.8f
+							}
+						}
+					}
+				},
+				{
+					id: "2383737EB2375184",
+					type: "item",
+					item: {
+						id: "industrialforegoing:speed_addon_2",
+						Count: 1b,
+						tag: {
+							TitaniumAugment: {
+								Speed: 3.0f
+							}
+						}
+					}
+				},
+				{
+					id: "3C3F078ED325AB09",
+					type: "item",
+					item: {
+						id: "industrialforegoing:range_addon11",
+						Count: 1b,
+						tag: {
+							TitaniumAugment: {
+								Range: 11.0f
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 5.0d,
+			y: 0.5d,
+			id: "50DFF82FF61D44BB",
+			tasks: [{
+				id: "1420312C88356DE6",
+				type: "item",
+				item: "industrialforegoing:mob_slaughter_factory"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 0.5d,
+			shape: "hexagon",
+			id: "555E52900A8177F1",
+			tasks: [{
+				id: "30DD047A6F8C8DAF",
+				type: "item",
+				item: "industrialforegoing:pink_slime_ingot"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 4.5d,
+			id: "21233E7FB136F989",
+			tasks: [{
+				id: "214E34F11BA87F97",
+				type: "item",
+				item: "industrialforegoing:sludge_refiner"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 1.5d,
+			id: "22E3BCAA243F1A85",
+			tasks: [{
+				id: "25FD92E359DE27A7",
+				type: "item",
+				item: "industrialforegoing:simple_black_hole_tank"
+			}]
+		},
+		{
+			x: 10.0d,
+			y: 1.5d,
+			id: "760A2B8D9900F1CA",
+			tasks: [{
+				id: "2A322348A04C5E6E",
+				type: "item",
+				item: "industrialforegoing:simple_black_hole_unit"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 3.5d,
+			id: "5B6B5395F22D0D30",
+			tasks: [{
+				id: "291BBC5D34FD563B",
+				type: "item",
+				item: "industrialforegoing:hydroponic_bed"
+			}]
+		},
+		{
+			x: 14.0d,
+			y: 2.5d,
+			id: "0E6388AFA5BD9FBA",
+			tasks: [{
+				id: "2C03C8B31A3F4C73",
+				type: "item",
+				item: "industrialforegoing:black_hole_controller"
+			}]
+		},
+		{
+			x: 10.0d,
+			y: 3.5d,
+			id: "6EE881CF541FCA36",
+			tasks: [{
+				id: "709E9DFD523949A7",
+				type: "item",
+				item: "industrialforegoing:laser_drill"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 3.5d,
+			id: "2E1A3A026392C147",
+			tasks: [{
+				id: "00614367B85582F8",
+				type: "item",
+				item: "industrialforegoing:mechanical_dirt"
+			}]
+		},
+		{
+			x: 12.0d,
+			y: 2.5d,
+			id: "4E3D60AB4EAC7615",
+			tasks: [{
+				id: "1BA3F6224455E3FB",
+				type: "item",
+				item: "industrialforegoing:ore_laser_base"
+			}]
+		},
+		{
+			x: 13.0d,
+			y: 3.5d,
+			shape: "hexagon",
+			id: "264C6A5DB9DB5D26",
+			tasks: [{
+				id: "1E16184E465B6958",
+				type: "item",
+				item: "industrialforegoing:fluid_laser_base"
+			}]
+		},
+		{
+			x: 13.0d,
+			y: 6.0d,
+			shape: "hexagon",
+			id: "2D2990BB493FDBF5",
+			tasks: [{
+				id: "3274E038847F7748",
+				type: "item",
+				item: {
+					id: "silents_mechanisms:canister",
+					Count: 1b,
+					tag: {
+						CanisterFluid: "industrialforegoing:ether_gas"
+					}
+				}
+			}]
+		},
+		{
+			icon: {
+				id: "sophisticatedbackpacks:backpack",
+				Count: 1b,
+				tag: {
+					borderColor: 3949738,
+					clothColor: 16701501
+				}
+			},
+			x: 2.5d,
+			y: 3.0d,
+			id: "556D23A5AA517E2E",
+			tasks: [{
+				id: "2CFF0AC3C0140E67",
+				type: "item",
+				item: {
+					id: "industrialforegoing:infinity_backpack",
+					Count: 1b,
+					tag: {
+						CanCharge: 1b,
+						Special: 0b,
+						Selected: "POOR",
+						Energy: 0L
+					}
+				}
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 4.5d,
+			id: "03CFC98B81807B7A",
+			tasks: [{
+				id: "7297BBBA92246BCF",
+				type: "item",
+				item: "immersiveengineering:cloche"
 			}]
 		}
 	]

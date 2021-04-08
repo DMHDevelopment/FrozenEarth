@@ -12,6 +12,18 @@
 		}
 	},
 	default_quest_shape: "",
+	images: [{
+		x: 7.5d,
+		y: -5.5d,
+		width: 24.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "frozen_earth:textures/frozen_earth_chapter_5.png",
+		hover: [],
+		click: "",
+		dev: false,
+		corner: false
+	}],
 	quests: [
 		{
 			x: -0.5d,

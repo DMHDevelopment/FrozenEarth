@@ -253,15 +253,15 @@
 			}]
 		},
 		{
-			x: 2.5d,
-			y: 6.75d,
+			x: 2.25d,
+			y: 7.125d,
 			description: ["They're looking delicious, but still not good as steaks..."],
 			hide_dependency_lines: true,
 			dependencies: [
 				"000000000000002D",
 				"0000000000000039"
 			],
-			size: 0.5d,
+			size: 0.75d,
 			id: "000000000000002F",
 			tasks: [{
 				id: "0000000000000030",
@@ -1171,6 +1171,7 @@
 			}]
 		},
 		{
+			title: "Chests are the best!",
 			x: -3.0d,
 			y: 12.0d,
 			description: ["Chests allows me to finally store more items outside my pockets and small stone chests. Isn't this nice?"],
@@ -1215,8 +1216,8 @@
 		},
 		{
 			title: "First letter, first paper...",
-			x: -2.0d,
-			y: 8.5d,
+			x: -3.0d,
+			y: 9.5d,
 			description: ["Paper is a good material for making books, different types of paper for my first machinery and this paper can be used for blueprints later..."],
 			dependencies: ["00000000000000A4"],
 			id: "00000000000000A6",
@@ -1665,12 +1666,12 @@
 			]
 		},
 		{
-			x: -3.75d,
-			y: 5.25d,
-			description: ["It's just a bowl with water."],
+			x: 1.5d,
+			y: 1.5d,
+			description: ["It's just a bowl with water. I can drink it safely? Probably not. You need to make clear water to not get a thirst!"],
 			hide_dependency_lines: true,
 			dependencies: ["0000000000000029"],
-			size: 0.5d,
+			size: 0.75d,
 			id: "00000000000000CD",
 			tasks: [{
 				id: "00000000000000CE",
@@ -2148,6 +2149,12 @@
 				id: "3F041C68724EF0D4",
 				type: "item",
 				item: "minecraft:bowl"
+			}],
+			rewards: [{
+				id: "66C6A4BAA8E1EBDF",
+				type: "item",
+				item: "minecraft:bowl",
+				count: 3
 			}]
 		},
 		{
@@ -2435,8 +2442,10 @@
 			]
 		},
 		{
+			title: "Template Board",
 			x: -5.5d,
 			y: 2.5d,
+			description: ["This daughter-in-law is necessary for me to cut out on it the template of the future part of my weapons."],
 			dependencies: ["00000000000002E9"],
 			id: "00000000000002EE",
 			tasks: [{
@@ -2444,6 +2453,11 @@
 				type: "item",
 				item: "silentgear:template_board",
 				count: 4L
+			}],
+			rewards: [{
+				id: "39CC81D08B63D570",
+				type: "item",
+				item: "silentgear:template_board"
 			}]
 		},
 		{
@@ -2909,9 +2923,10 @@
 			}]
 		},
 		{
-			x: -11.0d,
-			y: 11.87d,
+			x: -12.5d,
+			y: 10.0d,
 			shape: "hexagon",
+			description: ["To create the minimum structure of this furnace, we will need a ring of 8 refractory bricks and in the middle we need to put the main block of this structure this beehive oven pit and it also needs access to air. What can be done in it can also be seen in JEI.In order for this furnace to work on refractory blocks, put blocks for conversion and then click flint and steel or spark and wait about 5 minutes. You can use blaze powder for instant conversion, but we are still far from it."],
 			dependencies: ["00000000000002E3"],
 			size: 1.25d,
 			id: "0000000000000307",
@@ -2927,7 +2942,12 @@
 					item: "rankine:refractory_bricks",
 					count: 8L
 				}
-			]
+			],
+			rewards: [{
+				id: "0362BD065911329C",
+				type: "item",
+				item: "rankine:subbituminous_coal_block"
+			}]
 		},
 		{
 			x: -11.0d,
@@ -2953,6 +2973,7 @@
 			x: 3.5d,
 			y: 10.25d,
 			shape: "hexagon",
+			description: ["An improved ordinary furnace, it is a little faster than usual, but you can't smelt ores in it."],
 			dependencies: ["0000000000000049"],
 			size: 1.5d,
 			id: "000000000000030F",
@@ -2960,6 +2981,12 @@
 				id: "0000000000000310",
 				type: "item",
 				item: "minecraft:smoker"
+			}],
+			rewards: [{
+				id: "04FB7141598A5893",
+				type: "item",
+				item: "minecraft:cooked_chicken",
+				count: 4
 			}]
 		},
 		{
@@ -3092,8 +3119,10 @@
 			}]
 		},
 		{
+			title: "Upgrade your storage.",
 			x: -9.5d,
 			y: 18.0d,
+			description: ["There is not enough space in the usual storage cells, and instead of building new shelves, I will improve them better."],
 			dependencies: ["0000000000000129"],
 			id: "000000000000031F",
 			tasks: [{
@@ -3157,6 +3186,7 @@
 		{
 			x: 5.0d,
 			y: 7.0d,
+			description: ["Just glass melted out of just sand."],
 			dependencies: ["0000000000000039"],
 			id: "0000000000000321",
 			tasks: [{
@@ -3164,6 +3194,12 @@
 				type: "item",
 				item: "minecraft:glass",
 				count: 16L
+			}],
+			rewards: [{
+				id: "2E94C1507C053989",
+				type: "item",
+				item: "minecraft:glass",
+				count: 8
 			}]
 		},
 		{
@@ -3179,15 +3215,100 @@
 			}]
 		},
 		{
-			x: -3.0d,
-			y: 9.5d,
-			description: ["Saws are good friends for planks. Make a new saw after creating Crafting Table!"],
-			dependencies: ["0000000000000051"],
-			id: "619741B416F61EB1",
+			x: -13.5d,
+			y: 8.65d,
+			description: ['By "smoking" subbituminous coal, I at the exit received Bituminous coal, which I needed for subsequent сraft.'],
+			dependencies: ["0000000000000307"],
+			id: "39639BB359E23AB8",
 			tasks: [{
-				id: "744EBE84BAE397CB",
+				id: "4F2F0B38D5E7BD16",
 				type: "item",
-				item: "silentgear:saw_blueprint"
+				item: "rankine:bituminous_coal_block"
+			}],
+			rewards: [{
+				id: "4538E7624548F0B9",
+				type: "item",
+				item: "minecraft:coal",
+				count: 8
+			}]
+		},
+		{
+			title: "Block of Magnesia",
+			x: -13.5d,
+			y: 11.35d,
+			description: ['By "smoking" block of magnesite I got magnesia and no I don\'t go to pull up on the horizontal bar. I need it to improve at least beehive oven pit, otherwise it is veeeeeery slow.'],
+			dependencies: ["0000000000000307"],
+			id: "03A9474FBCB94A8D",
+			tasks: [{
+				id: "24998D3C2EBBD6C4",
+				type: "item",
+				item: "rankine:magnesia_block",
+				count: 8L
+			}],
+			rewards: [{
+				id: "2F91C7996A93B329",
+				type: "item",
+				item: "minecraft:apple",
+				count: 2
+			}]
+		},
+		{
+			x: -13.799999999999999d,
+			y: 10.2d,
+			shape: "hexagon",
+			description: ["This is a primitive automation of crushing blocks, ores and obtaining fossil resources from them necessary for further advancement. Just pick up the fuel, block and wait for the machine to do everything."],
+			dependencies: ["0000000000000307"],
+			size: 1.2d,
+			id: "7B32F3E865075625",
+			tasks: [{
+				id: "3362D6991EF3A7EA",
+				type: "item",
+				item: "rankine:piston_crusher"
+			}],
+			rewards: [{
+				id: "71629D309C0F5B92",
+				type: "item",
+				item: "minecraft:coal",
+				count: 4
+			}]
+		},
+		{
+			title: "Quartzy!",
+			x: -15.0d,
+			y: 9.5d,
+			shape: "hexagon",
+			description: ["In this frozen environment, I have not yet found a naturally fused mineral called quartz. But having broken down various solid blocks like sandstone and others, I can get some chance to drop some crystals of this mineral."],
+			dependencies: ["7B32F3E865075625"],
+			id: "7F96DC9A0F84CA9F",
+			tasks: [{
+				id: "17C5BAB4BACEF548",
+				type: "item",
+				item: "minecraft:quartz",
+				count: 8L
+			}],
+			rewards: [{
+				id: "20F18028F4D2B37D",
+				type: "item",
+				item: "minecraft:sandstone",
+				count: 20
+			}]
+		},
+		{
+			x: -14.0d,
+			y: 7.5d,
+			description: ['My first coke coal produced by multiple "coal smoking, it keeps heat almost 2 times longer than ordinary coal.'],
+			dependencies: ["39639BB359E23AB8"],
+			id: "382212E01E68DEB3",
+			tasks: [{
+				id: "101FE32E74883240",
+				type: "item",
+				item: "rankine:coke_block"
+			}],
+			rewards: [{
+				id: "7231E9E9AF505C02",
+				type: "item",
+				item: "rankine:coke",
+				count: 16
 			}]
 		}
 	]

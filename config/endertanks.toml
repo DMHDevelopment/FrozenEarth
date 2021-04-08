@@ -23,8 +23,7 @@ enable_in_world_coloring = true
 	#Each item can only be use once per tank
 	pump_singleuse = []
 
-#
-#NOTE: Capacity numbers are in buckets
+#Set the number of buckets a tank holds, how many pump upgrades can be applied, and the value of a storage upgrade
 [capacity_settings]
 	#How many internal transfer pump upgrades can a tank have?
 	# default is only 1/4 bucket, upgrades make it a bucket per upgrade

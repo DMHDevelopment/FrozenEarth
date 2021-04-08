@@ -18,8 +18,7 @@ enable_in_world_coloring = true
 	#Each item can only be use once per chest
 	large_capacity_singleuse = []
 
-#
-#NOTE: Capacity numbers are in slots
+#Adjust how many inventory slots are available
 [capacity_settings]
 	#Minimum capacity an EnderChest holds
 	#Range: 9 ~ 27
@@ -28,7 +27,6 @@ enable_in_world_coloring = true
 	#Range: 9 ~ 54
 	chest_size_max = 27
 
-#No comment
 [access_settings]
 	#When enabled these bags access a players vanilla EnderChest, if disabled they will only be a crafting ingredient
 	ender_pouch = true

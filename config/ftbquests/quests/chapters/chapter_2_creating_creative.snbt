@@ -708,8 +708,8 @@
 			title: "Fishes, fishes ... treasures!",
 			icon: "aquaculture:tackle_box",
 			disable_toast: true,
-			x: -4.0d,
-			y: 15.0d,
+			x: -3.0d,
+			y: 12.0d,
 			shape: "hexagon",
 			description: [
 				"When I was child, my favourite hobby was fishing. My father always took me at early morning, and I was able to wait for good haul for a lot of hours. ",
@@ -779,31 +779,52 @@
 			}]
 		},
 		{
-			x: -5.0d,
-			y: 11.0d,
+			title: "Radiance at all!",
+			x: 5.0d,
+			y: 12.0d,
 			shape: "hexagon",
+			description: ["This casing is much better than brass, but I don't need this for now... Maybe it will be needed later?"],
 			hide_dependency_lines: true,
-			dependencies: ["0000000000000179"],
+			dependencies: [
+				"0000000000000179",
+				"0000000000000280"
+			],
 			size: 2.0d,
 			id: "000000000000017B",
 			tasks: [{
 				id: "000000000000017C",
 				type: "item",
 				item: "create:refined_radiance_casing"
+			}],
+			rewards: [{
+				id: "520179F5073419D2",
+				type: "item",
+				item: "create:refined_radiance"
 			}]
 		},
 		{
-			x: -3.0d,
-			y: 11.0d,
+			title: "Shadowing at night...",
+			x: 6.25d,
+			y: 13.75d,
 			shape: "hexagon",
+			description: ["Shadow Casing are very good solution for hi-tech machinery. Currently I have no idea where to use it in kinetic era of power, but I think I can use it later."],
 			hide_dependency_lines: true,
-			dependencies: ["0000000000000172"],
+			dependencies: [
+				"0000000000000172",
+				"58DC5F815D3A56A8"
+			],
 			size: 2.5d,
 			id: "000000000000017D",
 			tasks: [{
 				id: "000000000000017E",
 				type: "item",
 				item: "create:shadow_steel_casing"
+			}],
+			rewards: [{
+				id: "7A008FBF4AC8512B",
+				type: "item",
+				item: "create:shadow_steel",
+				count: 2
 			}]
 		},
 		{
@@ -923,8 +944,8 @@
 					Damage: 0
 				}
 			},
-			x: -5.5d,
-			y: 14.0d,
+			x: -4.5d,
+			y: 11.0d,
 			description: [
 				"",
 				"This rod should be enough to upgrade it with some stuff in Tackle Box."
@@ -1028,8 +1049,8 @@
 					Damage: 0
 				}
 			},
-			x: -2.5d,
-			y: 14.0d,
+			x: -1.5d,
+			y: 11.0d,
 			description: [
 				'As my father said to me "When you don\'t know, what thing you want to fish at - use worms. If you need them - search for them at pus". That should help me. ',
 				"To obtain worms, use some organic at Worm Farm, and then collect them from it."
@@ -1076,8 +1097,8 @@
 		{
 			title: "Time for real fishing has come...",
 			icon: "minecraft:water_bucket",
-			x: -4.0d,
-			y: 13.25d,
+			x: -3.0d,
+			y: 10.25d,
 			description: ["It's time to catch something really valuable ... or at least something."],
 			dependencies: ["00000000000001A7"],
 			id: "00000000000001C4",
@@ -1136,7 +1157,7 @@
 			shape: "hexagon",
 			description: ["So many days have passed. So much effort is behind. I used to build long chains of gears to get needed rotational speed. Now i have one machine to replace them all!"],
 			dependencies: ["00000000000001AC"],
-			size: 1.5d,
+			size: 2.0d,
 			id: "00000000000001CE",
 			tasks: [{
 				id: "00000000000001CF",
@@ -1146,8 +1167,8 @@
 		},
 		{
 			title: "Mmm ... delicious ...",
-			x: -4.0d,
-			y: 16.75d,
+			x: -3.0d,
+			y: 13.75d,
 			description: ["Sometimes I realize, that I need some unique dishes. First thing, that came to my mind was sushi, second - turtle soup. I hope it'll be tasteful ... mmm ..."],
 			dependencies: ["00000000000001DB"],
 			id: "00000000000001D0",
@@ -1177,8 +1198,8 @@
 		},
 		{
 			title: "Instahooking",
-			x: -5.5d,
-			y: 16.0d,
+			x: -4.5d,
+			y: 13.0d,
 			description: ["One of my best (worst) investigations, but I'll craft it because I want to craft it!"],
 			dependencies: ["00000000000001D0"],
 			id: "00000000000001D6",
@@ -1190,8 +1211,8 @@
 		},
 		{
 			title: "Pick yours",
-			x: -2.5d,
-			y: 16.0d,
+			x: -1.5d,
+			y: 13.0d,
 			description: ["There are a lot of variants of hooks I can create, but I should pick my favourite one!"],
 			dependencies: ["00000000000001BE"],
 			id: "00000000000001DB",
@@ -1515,7 +1536,7 @@
 			title: "My precious",
 			x: 13.0d,
 			y: 6.5d,
-			description: ["I like to spend time rationally, maybe there's a solution to speed up some standard processes."],
+			description: ["I like to spend time rationally, maybe there's a solution to speed up some standard processes?"],
 			dependencies: ["0000000000000161"],
 			hide: true,
 			id: "5F763B7064664735",
@@ -1552,7 +1573,7 @@
 			x: 11.0d,
 			y: 4.5d,
 			shape: "rsquare",
-			description: ["I'm beginnin' to feel like a Trap God, Trap God..."],
+			description: ["I think these traps can be useful to protect my base or get interesting loot from these weird creatures..."],
 			dependencies: ["0000000000000161"],
 			hide: false,
 			id: "2BB81095697C6BE0",
@@ -1634,6 +1655,7 @@
 		{
 			x: 11.5d,
 			y: 6.0d,
+			description: ["Just a blank plate to build traps or vectors to move stuff around."],
 			dependencies: ["0000000000000161"],
 			id: "4E6872100BC6FA01",
 			tasks: [{

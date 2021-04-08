@@ -3,7 +3,7 @@
 	group: "",
 	order_index: 8,
 	filename: "chapter_8_other_planets",
-	title: "Chapter 8: Other Planets!",
+	title: "Chapter 8: Other Systems Far Behind!",
 	default_quest_shape: "",
 	quests: []
 }

@@ -1,0 +1,18 @@
+{
+	"_version": 1.13,
+    "pools": 
+    [
+        {
+            "name":"tec_dungeon",
+            "rolls": 1,
+            "entries": 
+            [
+                {
+                    "type": "loot_table",
+                    "name": "futurepack:chests/tec_dungeon",
+                    "weight": 100
+                }        
+            ]
+        }
+    ]
+}
