@@ -1,5 +1,4 @@
 # FrozenEarth
 Frozen Earth development repository 
 
-Current version: **0.6.0-alpha.1** (everything until December 24th)
-Main Progress: ~8%
+This repository is opened for everyone to play with. Anyone can play and do whatever they want. Except claiming this pack as yours. No support will be given. This modpack is an frozen state, nothing except VERY CRITICAL bugfixes will be done. Thanks for understanding. <3
